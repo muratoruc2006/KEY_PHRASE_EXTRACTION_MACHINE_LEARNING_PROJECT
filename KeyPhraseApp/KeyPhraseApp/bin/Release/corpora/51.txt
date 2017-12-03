@@ -1,0 +1,184 @@
+MALZEME TAÞIMA SÝSTEMLERÝNÝN SEÇÝLMESÝNE YÖNELÝK BÝR KARAR DESTEK SÝSTEMÝ GELÝÞTÝRÝLMESÝ
+Malzeme taþýma, herhangi bir þekildeki malzemenin taþýnmasý veya bir araya getirilmesini saðlayan iþleyiþtir. Günümüzdeki mevcut malzeme taþýma cihazlarýnýn doðru seçiminin önemi malzeme taþýma maliyetlerinin üretim maliyetlerinin %13-40’ýný oluþturmasýndan dolayý artmýþtýr. Ancak çok çeþitli tipte ve modelde malzeme taþýma aracýnýn satýlmasý ve farklý tipteki araçlarýn alýmýnda farklý kriterlere bakýlma zorunluluðu seçim problemini zorlaþtýrmaktadýr. Bu çalýþmada, malzeme taþýma sistemleri seçiminin  daha kolay ve doðru yapýlmasýna yardýmcýolacak bir karar destek sistemi geliþtirilmiþtir. Geliþtirilen karar destek sisteminde soru yöneltme, ekonomik analiz, analitik hiyerarþi süreci (AHP) ve ideal çözüme yakýnlýða göre sýralama yapma yöntemi (TOPSIS) kullanýlmýþtýr. 
+
+1. GÝRÝÞ
+sistemlerinin ilk yatýrým maliyetlerinin genel olarak 
+yüksek olmasý, alýnan yanlýþbir karar sonucu yapýlan Günümüzde geliþen teknoloji, artan rekabet ve uygulamanýn neredeyse geri dönülemez olmasýna küreselleþme ile birlikte daha hýzlý hizmet süreleri, neden olmaktadýr ve yanlýþbir seçimin kullanýmýna daha az envanter miktarý ve daha düþük malzeme devam edilmesi ise karlýlýðý olumsuz yönde taþýma maliyetlerine olan ihtiyaç, en doðru ve en etkilemektedir [1-6]. uygun malzeme taþýma sistemlerinin seçimini çok önemli kýlmýþtýr. Ayrýca, tüm üretim maliyetleri Ancak mevcut malzeme taþýma araçlarý yelpazesinin içerisinde, malzeme taþýma maliyetlerinin oranýnýn geniþliði bir üretim sistemine en uygun olan malzeme ortalama olarak %13-%40 arasýnda olduðu taþýma sistemini seçmeyi zorlaþtýrmýþtýr. Piyasada çok düþünüldüðünde taþýma sisteminin doðru seçiminin sayýda ve çeþitli malzeme taþýma taþýt tipte ve modelde önemi daha iyi ortaya çýkmaktadýr. Malzeme taþýma malzeme taþýma aracý bulunmaktadýr. Seçim problemi 
+M. Yurdakul ve A.Ö. Ýpek Malzeme Taþýma Sistemlerinin Seçilmesine Yönelik Bir Karar Destek Sistemi Geliþtirilmesi 
+bu çalýþmada olduðu gibi en yaygýn kullanýlan dört adet malzeme taþýma taþýt tipi (taþýyýcý bant, vinç, kaldýrýcý/taþýyýcýaraç ve otomatik yönlendirmeli araçlar (AGV)) ile kýsýtlansa bile, her tipte yüzlerce farklý model bulunmasýseçim probleminin zorluðunu ortaya koymaktadýr. 
+Bu makalede malzeme taþýma araçlarýnýn seçiminde kullanýlan karar destek sistemleri ile ilgili çalýþmalar detaylýolarak sunulduktan sonra malzeme taþýma taþýt tipi ve araç modeli seçimi yapýlmasýna yardýmcýolacak bir karar destek sistemi geliþtirilmiþtir. 
+2. MALZEME TAÞIMA SÝSTEMLERÝSEÇÝMÝNDE KULLANILAN KARAR DESTEK SÝSTEMLERÝ
+Bu bölümde, malzeme taþýma sistemlerinin seçimine yönelik karar destek sistemlerinin baþlýcalarý detaylýincelenmiþ ve aþaðýda eksik yönleriyle beraber verilmiþtir. Literatürde verilen karar destek sistemlerinde çok kriterli karar verme yöntemleri ve ekonomik analiz sorularla seçilen tanýmlanan taþýma iþine uygun araç listesi içinde bir sýralama yapmak amacýyla kullanýlmýþtýr. 
+MOVE [7]: Sadece altý taþýt tipi ve otuz adet malzeme taþýma aracý arasýnda seçim yapabilme yeteneðine sahip olmasý sebebiyle kýsýtlý ve yetersiz bir sistem olarak nitelendirilebilir. Maliyet faktörü ve ekonomik analiz kullanýlmamýþtýr. 
+MATHES [7]: Beþ farklý özelliðe sahip yirmi adet malzeme taþýma sistemi arasýndan seçim yapabilme yeteneðine sahiptir. Maliyet faktörü ve ekonomik analiz kullanýlmamýþtýr. 
+ADVISOR [7]: Yetmiþ yedi adet malzeme taþýma sistemi arasýndan seçim yapabilme yeteneðine sahiptir. Ýlk olarak, mümkün olan malzeme taþýma sistemi tipi seçildikten sonra maliyet faktörü de göz önüne alýnarak bir seçim gerçekleþtirilir. Dolayýsýyla seçim iki aþamalýdýr. Ekonomik analiz bölümü ayrýbir modül olarak tasarlanmýþtýr. Dört farklý taþýt tipinin her biri için farklý bir veritabanýkullanýlmaktadýr. Her veritabanýnda bulunan tablolarýn yapýsý sabit olduðu için taþýt tiplerine yeni özellikler eklemek mümkün deðildir. Ancak kayýtlýaraçlarýn sayýsý artýrýlabilir. 
+ICMESE [8]: Ýlk olarak kullanýcýya sorular yönlendirerek, alýnan cevaplara göre karar aðacýndaki bir dala doðru yönlendirme yapýlýr ve bir araç tipi seçilmiþolur. Daha sonra karar aðacýndaki ilgili dal üzerinde hareket edilerek seçimine gidilir. En son aþamada eðer birden fazla malzeme taþýma aracý seçilmiþse analitik hiyerarþi süreci (AHP) veya ekonomik analiz uygulanarak en uygun seçim yapýlmaktadýr. 
+MHESA [3, 4]: Malzeme taþýma araçlarý ve özelliklerinin bulunduðu veritabaný, malzeme taþýma taþýt tipinin belirlendiði kýsým, malzeme taþýma araçlarýnýn daha detaylý olarak belirlendiði kýsým ve AHP analizi bölümü olmak üzere dört ana bölümden oluþmuþtur. Programýn çalýþma sistemi ise üç aþamalýdýr. Ýlk aþamada malzeme taþýma taþýt tipi tespit edilir. Sorular ikinci aþamada sorulmaya devam edilerek araçlar belirlenir ve bunlara en son aþamada AHP analizi uygulanýr. 
+MAHDE [1]: Seçilecek malzeme taþýma araçlarýnýn fabrika yerleþimlerinin de dikkate alýndýðý bu sistemde ilk olarak uygun malzeme taþýma araçlarýnýn bulunduðu bir çözüm kümesi oluþturulmakta ve daha sonra seçim kriterlerine göreceli aðýrlýklar verilerek en uygun olan araç seçilmektedir. 
+JustMAT [9]: Ekonomik analiz amaçlý olarak hazýrlanmýþ olan bu sistem, malzeme taþýma taþýt tipleri arasýndan da basit anlamda bir seçim yapabilmektedir. 
+Malzeme taþýma sistemi seçiminde kullanýlmak üzere geliþtirilmiþ olan MHESA uzman sistemi, AHP yöntemini kullanarak seçim yapmaktadýr [3, 4]. Ayrýca, baþka bir çalýþmada malzeme taþýma sistemleri seçiminde simülasyon analizleri sonrasýnda AHP yöntemi kullanýlarak deðerlendirme ve seçim yapýlmýþtýr [10].  
+AHP literatürde seçim problemlerinde yoðun olarak kullanýlan çok kriterli bir karar verme yöntemidir. AHP yönteminin uygulanmasýnda, Þekil 1’de [4, 8] görüldüðü gibi esas seçim kararý hiyerarþik olarak alt seviyelere ayrýlýr. Her seviyedeki kriterlerin aðýrlýklarýtoplamý 1 olacak þekilde kriterler aðýrlýklandýrýlýr. Kriterlerin ve alternatif malzeme taþýma sistemlerinin aðýrlýklarýnýn birleþtirilmesi ile alternatif araçlarýn genel sýralama puanlarý hesaplanýr. AHP yönteminin detaylý uygulamalarý literatürde mevcuttur [11-13]. 
+Literatürde, malzeme taþýma sistemi seçiminde, ekonomik analiz de tanýmlanan taþýma iþine uygun olan araçlar arasýnda sýralama yapmak amacýyla kullanýlmýþtýr [9, 14, 15] . Bu çalýþmada, kullanýlan bugünkü deðer yönteminde ilk satýn alým maliyeti, yýllýk iþletme maliyeti, vergi, yýllýk faiz oraný, ekonomik ömür (yýl), hurda maliyeti (gelir anlamýnda) ve söz konusu malzeme taþýma sisteminin seçimi ile çalýþan kiþi sayýsýnda olacak azalma ile kazanýlacak yýllýk gelir öðelerinin kullanýlabileceði belirtilmiþtir [9]. Baþka bir çalýþmada, hem bugünkü deðer yöntemi, hem de ayný sonucu farklý bir açýdan görmeyi saðlayan yýllýk deðer yöntemi kullanýlarak seçilen malzeme taþýma sistemine yapýlan toplam yatýrýmýn ne kadar sürede geri döneceði de hesaplanmýþtýr [14]. 
+
+
+Þekil 1. Bir AHP hiyerarþisi örneði 
+3. UZMANIM MALZEME TAÞIMA KARAR sistemi araçlarý kolayca deðiþtirilip silinebilecek, yeni DESTEK SÝSTEMÝaraçlar, taþýma sistemi çeþidi, tipi ve özelliði 
+eklenebilecek þekilde esnek olarak tasarlanmýþtýr. Bu çalýþmada, literatürdeki mevcut karar destek Dahil edilecek tüm seçim ve karar verme sistemlerinin eksik yönlerini tamamlayan UZMANIM yöntemlerinin ortak kullanabileceði bir veritabanýisminde bir karar destek sistemi geliþtirilmiþtir bulunmaktadýr. Uzmaným programý, Microsoft Visual (Çizelge 1).  Studio.NET 2002 (7.0) Enterprise Architect yazýlým 
+geliþtirme aracý kullanýlarak Windows tabanlý olarak UZMANIM esnek bir yapýda ve her türlü üretim hazýrlanmýþtýr. Yazýlým geliþtirme dili olarak C# (C sahasýna kolayca uygulanabilecek þekilde sharp) kullanýlmýþtýr. Program, veritabaný olarak hazýrlanmýþtýr. Bir üretim alaný ve taþýnacak Microsoft Access 2002 veya Microsoft SQL Server malzemenin özellikleri girildiðinde, kullanýcýya 2000 kullanacak þekilde hazýrlanmýþtýr ve program öncelikleri de dikkate alýnarak mevcut malzeme kodlamasý, veritabaný ve tablo yapýsýný hiç taþýma sistemleri arasýndan en uygun olaný kullanýcýya deðiþtirmeden istenildiði kadar taþýt tipi, farklý özellik önerilmektedir. Sistemde kayýtlý tüm malzeme taþýma ve araç eklenebilir. 
+Çizelge 1. UZMANIM ile mevcut karar destek sistemlerinin karþýlaþtýrmasý
+Özellik  ADVISOR  ICMESE  MHESA  UZMANIM  
+Her taþýt tipi için ayný veritabaný kullanma  YOK  VAR  VAR  VAR  
+Yeni taþýt tipi eklenebilme  YOK  VAR  VAR  VAR  
+Yeni araç eklenebilme  VAR  VAR  VAR  VAR  
+Yeni özellik eklenebilme  *  *  *  VAR  
+Yeni soru eklenebilme  *  *  *  VAR  
+Ekonomik Analiz  VAR  VAR  YOK  VAR  
+AHP  YOK  VAR  VAR  VAR  
+TOPSIS  YOK  YOK  YOK  VAR  
+2 seviyeli seçim  YOK  VAR  VAR  VAR  
+Farklý VTYS kullanma  *  *  *  VAR  
+Çok kriterli karar verme yöntemlerinde kriter aðýrlýklarýnýn deðiþtirilebilmesi  *  *  *  VAR  
+
+*
+ : Bulunamamýþ deðerler Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 2, 2005 
+
+
+M. 
+Yurdakul ve A.Ö. Ýpek Malzeme Taþýma Sistemlerinin Seçilmesine Yönelik Bir Karar Destek Sistemi Geliþtirilmesi  
+
+
+UZMANIM programýnda, iki aþamalý (Aþama 1 ve sýralama yapma yöntemi (TOPSIS) veya ekonomik Aþama 2) bir soru sorma sistemi kullanýlmýþtýr. Buna analiz gerçekleþtirilebilmektedir. Programýn yapýsýgöre, Aþama 1’deki sorular genel anlamda bir malzeme Þekil 2’de gösterilmiþtir. taþýma taþýt tipi belirlemeye yardýmcý olurken, Aþama 2’de, Aþama 1’de belirlenen taþýt tipine uygun sorular kullanýcýya  yöneltilerek  ihtiyaçlara  cevap verecek malzeme taþýma aracýtam olarak belirlenmeye çalýþýlmaktadýr. Daha sonra da kullanýcýnýn isteðine baðlý olarak AHP, ideal çözüme yakýnlýðýna göre 
+
+Þekil 2. UZMANIM program akýþþemasý
+UZMANIM programý çalýþtýrýldýðýnda, programýn her tarafýna ulaþmayý saðlayan ve kullanýcýnýn tercihine göre seçebileceði bir menü sistemi ve tuþ grubu ana sayfa olarak ortaya çýkar (Þekil 3). Tüm bölümlere ulaþým bu ana sayfa üzerinden yapýlýr ancak kullaným kolaylýðý açýsýndan bölümler arasý geçiþ tuþlarý da bulunmaktadýr. UZMANIM programýnýn açýklamasýsorularýn sorulduðu Aþama 1 ve Aþama 2 ile aþamalar sonunda seçilen araç setin içinde sýralama yapan AHP, TOPSIS ve ekonomik analiz 3.1-3.3 bölümlerde sunulmuþtur. Programýn kullanýlmasý ile ilgili detaylýbir örnek 3.4’ de verilmiþtir. 
+3.1. Aþama 1 
+Bu kýsýmda kullanýcýya çeþitli sorular yöneltilir ve alýnan cevaplara göre “eðer böyle ise o zaman” (if­then) analizi yapýlarak ana malzeme taþýma sistemi tipleri arasýnda bir eleme yapýlýr. Bu aþamanýn sonucunda kullanýcýya uygun olabilecek çeþitli alternatifler sunulur. Kullanýcý kendisine sunulan listede alternatif tanýmlarýnýn üzerine týkladýðýnda o alternatif tipini tanýmlayan genel bir resmi ve o alternatif tipinin genel özelliklerini görebilir. Bu alternatifler arasýndan tercih ettiði bir tanesini yan taraftaki kutuya taþýr ve Aþama 2’nin baþlatýlmasýnýsaðlayan tuþa týklar. Aþama 1’in sonuçlarýveritabanýna kaydedilmektedir. Aþama 1’de araç tipinin seçiminde kullanýlan algoritma Þekil 4’de sunulmuþtur. 
+3.2. Aþama 2 
+Bu kýsýmda kullanýcýya Aþama 1’de seçmiþ olduðu taþýt tipi veya tiplerine uygun olan sorular yöneltilir ve alýnan cevaplara göre “eðer böyle ise o zaman” (if-then) analizi yapýlarak veritabanýnda mevcut malzeme taþýma araçlarýndan oluþan bir liste sunulur. Kullanýcý kendisine sunulan listedeki malzeme taþýma araçlarýnýn üzerine týkladýðýnda o aracýn özelliklerini görebilir. Bu aþamaya örnek olarak otomatik yönlendirmeli araç tipi için sorulan Aþama 2 sorularýÞekil 5’de verilmiþtir.  
+Aþama 2 sonunda kullanýcý isteðine baðlý olarak ana sayfadan AHP, TOPSIS veya Ekonomik Analiz bölümlerine geçilerek Aþama 2 sonunda belirlenen araçlar arasýnda sýralama yapýlýr. 
+Ekonomik analizde ilk satýn alým maliyeti, yýllýk iþletme maliyeti, yýllýk faiz oraný ve ekonomik ömür (yýl) kullanýlmýþtýr. Bu analizde bugünkü deðer ve yýllýk deðer yöntemleri kullanýlmakta ve sonuçlarýlistelenmektedir. Bu analizde kullanýlan faiz oranýbilgisi veritabanýnda kayýtlýdýr. Bu bilgiyi anlýk olarak o analize baðlýþekilde deðiþtirmek için Ekonomik Analiz sayfasýnda bulunan ilgili kutucuklardaki deðeri deðiþtirmek yeterlidir. Bu deðerin bundan sonraki analizlerde de geçerli olmasýiçin ise yine bu kutucuðun yanýnda bulunan Kaydet tuþuna basýlmasý gerekmektedir. 
+
+AHP yöntemi ise iki seviyeli olarak uygulanmýþtýr. Ýlk seviyedeki kriterler araçlarýn özelliklerine doðrudan baðlý olmayýp çeþitli özellikleri gruplama ve bu gruplara aðýrlýk verme amacýyla kullanýlmýþtýr. Ýkinci seviyedeki kriterler ise doðrudan araçlarýn özelliklerine baðlýdýr. AHP analizinde hangi kriterlerin kullanýlacaðýnýbelirleme, ilk seviyedeki kriterlere alt kriterler ekleme/silme, ilk seviyedeki ve ikinci seviyedeki kriterlerin aðýrlýklarýný deðiþtirme iþlemlerini yapmak mümkündür. Her taþýt tipi için AHP kriterlerinin aðýrlýðý deðiþebileceði için taþýt tipi bazýnda bir aðýrlýklandýrma yapýlmýþtýr. AHP analizinde ilk maliyet ve iþletme maliyeti gibi artmasý olumsuz anlama gelecek kriterlerin deðerleri için bu kriterlerin çarpmaya göre tersi alýnarak iþlem yapýlmaktadýr. 
+TOPSIS yöntemi’nde ise amaç, alternatif araç özelliklerinin arasýndan ideal çözüm ve negatif çözümü bulmak ve alternatif araçlarýn hem ideal çözüme olan uzaklýðýve hem de negatif çözüme olan uzaklýðýný ayný anda deðerlendirmektir. Ýdeal çözüm, yüksek olmasýný istediðimiz özellikleri maksimum, düþük olmasýný istediðimiz deðerleri minimum yapan alternatiftir. Negatif çözüm ise en kötü çözümdür. Baþka bir deyiþle yüksek olmasýnýistediðimiz özellikleri minimum, düþük olmasýnýistediðimiz deðerleri ise maksimum yapan alternatiftir. TOPSIS Yöntemi’nin adýmlarý ve detaylý uygulamalarý Yurdakul ve Çoðun [16], Yurdakul ve Ýç [17], Yurdakul vd. [18] çalýþmalarýnda verilmektedir. 
+TOPSIS analizinde hangi kriterlerin kullanýlacaðýnýbelirleme, yeni kriterler ekleme/silme ve kriterlerin aðýrlýklarýný deðiþtirme iþlemlerini gerçekleþtirmek mümkündür. TOPSIS analizi tamamlanýp sonuçlarýlistelendikten sonra kullanýcý bu analiz sýrasýnda sýrayla oluþturulan tüm matrislerin deðerlerini inceleyebilir. Bu analizde TOPSIS sonucu C isimli sütunda belirtilmekte ve alternatifler C deðerlerinin büyükten küçüðe doðru deðiþimine göre sýralanmaktadýr. 
+
+M. Yurdakul ve A.Ö. Ýpek Malzeme Taþýma Sistemlerinin Seçilmesine Yönelik Bir Karar Destek Sistemi Geliþtirilmesi 
+
+ Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 2, 2005 
+
+Þekil 5. Taþýt tipi AGV seçildiðinde Aþama 2 sorularý
+M. Yurdakul ve A.Ö. Ýpek Malzeme Taþýma Sistemlerinin Seçilmesine Yönelik Bir Karar Destek Sistemi Geliþtirilmesi 
+3.2. Programýn ÇalýþmasýÝle Ýlgili Örnek 
+Mobilya üretimi yapmakta olan bir fabrikada, mobilya parçalarý üretildikten sonra ise bu parçalarýn montajýnýn yapýldýðý 300 metre uzaklýktaki montaj atölyesine taþýnmasý iþlemi insan gücü ile itilen taþýyýcý araçlar ile yapýlmaktadýr. Bu iþlem hem çok uzun sürmekte ve üretimin hýzýný azaltmakta hem de taþýma iþlemi için çok sayýda iþçi çalýþtýrýlmasýna neden olmaktadýr. Fabrika yönetimi, üretimin yapýldýðý taþýyýcý banttan otomatik yükleme yapabilen bir sistemin alýnmasýný düþünmektedir. Bu sistemin en aðýrý bir ton olan parçalarýn yüklemeden sonra 7,5 dakika içerisinde montaj atölyesinde olmalarýistenmektedir. Yapýlan hesaplamalarda ilk maliyetin en fazla 60 000 $, iþletme maliyetinin ise yýlda en fazla 1 200 $ olmasýistenmektedir. Bu sistemin seçimi için UZMANIM programý uygulanmýþtýr. 
+Aþama 1:Ana sayfada “1. Aþama Analizini Baþlat” tuþunabasýlarak Þekil 6’da görülen ekran elde edilir.
+
+Malzemelerin 2,5 metreden daha fazla bir yüksekliðe kaldýrýlmasý gerekmediði için Þekil 6’daki ekranda Hayýr tuþuna basýlýr ve Þekil 7’de görülen bir sonraki ekran belirir. 
+
+
+Þekil 7. Mobilya Fabrikasý Örneði Aþama 1 Soru 2 
+Ardý ardýna gelen sorularýn cevaplanmasý sonucu en son Þekil 8’deki ekran belirir. 
+
+Þekil 8. Mobilya Fabrikasý Örneði Aþama 1 Soru 7 
+Malzeme taþýma iþlemi için en az sayýda personel istendiði için operatör kullanmadan otomatik olarak taþýma yapýlmasýnýn gerekli olup olmadýðýnýn sorulduðu ekranda Evet tuþuna basýlýr ve Þekil 9’da görülen bir sonraki ekran belirir. Ýlk aþamada mevcut sorular tamamlandýðý için Þekil 9’da görülen ekran, taþýt tipi seçim ekranýdýr. Bu ekranda, en uygun taþýt tipi olarak kullanýcýya sadece AGV önerildiði görülmektedir. 
+
+Aþama 2: UZMANIM programý Aþama 2’de taþýt tipi olarak AGV sistemi satýn almaya karar veren firma yönetimi hangi AGV modelini seçeceðini belirlemek için Þekil 9’da görülen ekranda önerilen AGV seçilerek, 2. aþamayý baþlat tuþuna basýlýr ve Þekil 10’de verilen Aþama 2’nin ilk sorusu ekrana gelir. Program yapýsýiçerisinde mevcut AGV modellerinin bir kýsmý örnek olarak Ek 1’de sunulmuþtur. 
+
+Aþama 1’de olduðu gibi AGV modelini belirlemek üzere ardý ardýna gelen sorularýn cevaplanmasý sonucu seçilen araçlar, Þekil 11’deki ekranda listelenir. Ekranda araçlar ilk maliyetlerine göre sýralanmýþdurumdadýr. 
+
+
+Bu aþama sonunda program tarafýndan önerilen AGV modeller arasýnda AHP, TOPSIS veya ekonomik analiz yapýlarak sýralama yapýlýr. Örneðin, sadece ikinci aþamada seçilen araçlarý ekonomik olarak göster tuþuna basýldýðýnda tüm araçlar ekonomik olarak iyiden kötüye doðru listelenir ve listede bugünkü deðer ve yýllýk deðer olarak maliyeti görülür (Þekil 12). Seçilen araç grubuna ekonomik analiz gerçekleþtirildiðinde ekonomik açýdan en uygun seçimin RT-100 olduðu görülmektedir. 
+
+Ekonomik analizden sonra eðer AHP veya TOPSIS analizleri yapýlmak isteniyorsa Ana Sayfa’da bulunan AHP veya TOPSIS Analiz tuþu’na basýlýr. Sonuçlar Þekil 13 ve 14’de verilmiþtir. AHP ve TOPSIS analizleri de bu örnek için en uygun aracýn RT-100 olduðunu göstermektedir. 
+
+RT-100 ekonomik analiz, AHP ve TOPSIS tarafýndan sýralamada ilk sýrada verilmesine raðmen, yazarlar tarafýndan yapýlan denemelerde [19] UZMANIM programý seçim önerilerinin kullanýlan sýralama kriterlerinden ve aðýrlýklarýndan etkilendiði ve araçlarýn kriterlere ve aðýrlýklarýna baðlý olarak sýralamada yer deðiþtirdiði görülmektedir. Bu nedenle, ileride bu konuda yapýlacak çalýþmalarda sýralama kriterleri ve aðýrlýklarýnýn seçimine önem verilmesi ve gerekirse duyarlýlýk analizinin kullanýlmasý verilen seçim kararlarýnýn daha kararlý olmalarýnýsaðlayacaktýr. 
+
+4. TARTIÞMA VE ÖNERÝLER 
+Bu çalýþmada malzeme taþýma sisteminin bir parçasýolduðu entegre bir üretim sistemi düþünülmemiþtir. Bu nedenle fabrika yerleþimi, makinalar ve malzeme akýþrotalarý bu çalýþmanýn kapsamýnda deðildir. Literatürdeki bazý çalýþmalarda ilk olarak bu kýsýmlarýn da dikkate alýnmasýnýn uygun olacaðýbelirtilmektedir [1]. Sadece fabrika yerleþimi ve malzeme akýþ rotalarý ile ilgili olarak hazýrlanmýþprogramlar da UZMANIM programý ile birlikte kullanýlarak bu eksiklik giderilebilir. 
+Malzeme taþýma sistemleri ile ilgili çok detaylýekonomik analizler gerçekleþtiren çalýþmalarda UZMANIM programý’nda ele alýnan ilk maliyet, iþletme maliyeti, ekonomik ömür ve faiz oraný gibi kriterlerin yanýnda kullanýma alýnacak yeni malzeme taþýma sistemi ile ilgili olarak ihtiyaç duyulacak özel nitelikli yeni bakým/onarým personeli ile operatörlerin iþgücü maliyeti, malzeme taþýma iþlemlerinin otomatikleþtirilmesi ile kazanýlacak iþgücü miktarý ve yeni yapýlacak yatýrýmlarýn sigorta maliyetleri ile vergi miktarlarýnýn de dikkate alýnmasýnýn uygun olacaðýbelirtilmiþtir [9]. Çok detaylý ekonomik analizler ile fayda maliyet oranlarý hesaplanmasýnda malzeme taþýma araçlarýnýn kapasite kullanýmýnýn da dikkate alýnmasý uygun olacaktýr. Eðer varolan bir malzeme taþýma sisteminin yenilenmesi düþünülüyorsa bu deðiþiklik ile yapýlacak harcamalar ve kazançlar daha detaylý olarak düþünülmeli ve hesaplanmalýdýr. Ekonomik analizlerle ulaþýlan sonuçta malzeme taþýma sistemini deðiþtirmemenin de önemli bir seçenek olduðu unutulmamalýdýr. 
+Analiz bölümü akýþýnýn 1. aþamasýnda taþýyýcý bandýn en uzun malzeme taþýma mesafesi olarak literatürdeki bir çalýþmada [20] olduðu gibi 60 metre alýnmýþtýr. Malzemelerin 2,5 metreden daha fazla bir yüksekliðe kaldýrýlmasý gerekiyorsa vinç kullanýlmasý gerektiði 
+
+M. Yurdakul ve A.Ö. ÝpekMalzeme Taþýma Sistemlerinin Seçilmesine Yönelik Bir Karar Destek Sistemi Geliþtirilmesi 
+düþünülmüþtür. Bu 2,5 metrelik yükseklik ortalama bir deðer olarak alýnmýþtýr. Bu deðerler, tek bir rakam yerine uygun formülasyon ile pratiðe daha uygun olacak þekilde ifade edilebilir. Ayrýca 1. ve 2. Aþamada sorulan sorulara taþýnan malzemenin yanabilirlik, patlayýcýlýk, sýcaklýk gibi seçim sýrasýnda sonucu etkileyecek özelliklerini sorgulayan sorular ilave etmek gerekebilir. 
+Malzeme taþýma sistemleri seçiminde kullanýlan karar destek sistemlerinin çalýþmasý sýrasýnda programlarý bu konuda daha az bilgili kiþilerin de kullanabilmesi amacýyla sorular sorulurken sorulan maddeler ile ilgili açýklamalar verilmesinin uygun olacaðýdüþünülmektedir. Örneðin taþýyýcý ve kaldýrýcý araç seçiminde sorulan en küçük dönme ekseni yarýçapýbilgisinin ne anlama geldiði ve nasýl hesaplanmasýgerektiði gibi bir açýklama soru ile birlikte kullanýcýya sunulabilir. Ayrýca sorulan bir bilginin veritabanýnda kayýtlý en küçük ve en büyük deðerleri de kullanýcýya gösterilerek kullanýcý doðru deðerler girmesi konusunda yönlendirilebilecektir. 
+Ayrýca, bu çalýþmadaki veritabanýnda sadece AGV, vinç, kaldýrýcý/taþýyýcý araç (fork lift) ve taþýyýcýbanttan oluþan 4 taþýt tipi bulunmaktadýr. Literatürdeki benzer çalýþmalarda bu 4 taþýt tipine ilave olarak endüstriyel robot, otomatik ambar ve stoklama sistemleri ile köprülü taþýyýcý bant sistemlerini de veritabanýnda bulunduran programlar  bulunmaktadýr. 
+5. SONUÇ 
+Bu çalýþmanýn amacý malzeme taþýma sistemleri seçiminde kullanýlacak bir uzman sistem yapýsýtasarlamak ve geliþtirmektir. Ýleride malzeme taþýma araçlarýnýn tamamý veya sadece bir kýsmý için detaylýaraþtýrmalar yapacak kiþilerin araþtýrmalarýnýn sonuçlarýnda tespit edecekleri seçim kriterleri ve taþýma araçlarý özelliklerini kaydedip çeþitli analizler için kullanabilecekleri bir yapý hazýr hale getirilmiþtir. 
+Ýstenildiði kadar taþýt tipi, araç ve özellik tanýmlanabilmesi demek olan esnekliðe sahip olmasý, seçim kriterlerinin kullanýcý tarafýndan aðýrlýklarýnýn atanmasý, AHP ve TOPSIS analizlerinin bir arada bulunmasý gibi özellikleri ile literatürde bu konuda daha önce yapýlmýþ çalýþmalara katkýda bulunan bir çalýþma olmuþtur. 
+KAYNAKLAR 
+1.	
+Paula G. P., Brown D. E., “Knowledge-Based Computer Aided Design of Materials Handling Systems”, IEEE Transactions on Systems, Man, and Cybernetics, 19, 2, 188-196, 1989. 
+
+2.	
+Welgama P.S., Gibson P.R., ”A Hybrid Knowledge Based Optimization System for Automated Selection of Materials Handling System”, Computers Ind. Engng, 28, 2, 205-217, 1995.  
+
+
+3.	
+Chan F.T.S., Ip R.W.L., Lau H., “Integration of Expert System with Analytic Hierarchy Process for the Design of Material Handling Equipment System”, Journal of Materials Processing Technology, 116, 137-145, 2001. 
+
+4.	
+Chan F.T.S., “Design of Material Handling Equipment Selection System: An Integration of Expert System with Analytic Hierarchy Process Approach”, Integrated Manufacturing Systems, 13, 1, 58-68, 2002. 
+
+5.	
+Sullivan W.G., Perpectives on Material Handling, Methods of Incorporating Strategic Measures in the Financial Analysis, The Material Handling Institute, A.B.D., 2001.  
+
+6.	
+Kulwiec R.A., Materials Handling Handbook, The Material Handling Institute, A.B.D., 1985.  
+
+7.	
+Muther R., Hanagas K, Systematic Materials Handling, Management and Industrial Research Publications, A.B.D., 1969. 
+
+8.	
+Park Y. B., “Icmese: Intelligent Consultant System for Material Handling Equipment Selection and Evaluation”, Journal of Manufacturing Systems, 15, 5, 325-333, 1996. 
+
+9.	
+Usher J.S., Kamal, A.H., Kim S.W., “A Decision Support System for Economic Justfication of Material Handling Investments”, Computers & Industrial Engineering, 39, 35-47, 2001. 
+
+10. 
+Chan F.T.S., Abhary K., “Design and Evaluation of Automated Cellular Manufacturing Systems with Simulation Modelling and AHP Approach: A Case Study”,  Integrated Manufacturing Systems, 7, 6, 39-52, 1996. 
+
+
+11. Yurdakul M., Ýç Y. T., “Ýmalat Firmalarýnda Baþarýyý Saðlayan Koþul ve Uygulamalarý Kriter Olarak Kullanan Bir Performans Ölçüm Sistemi”, Gazi Üniversitesi Mühendislik-Mimarlýk Fakültesi Dergisi, Cilt 14, No 2, 73-90, 1999. 
+12. Ýç Y. T., Yurdakul M., “Analitik Hiyerarþi Sürecini (AHS) Kullanan Bir Kredi Deðerlendirme Sistemi”, Gazi Üniversitesi Mühendislik-Mimarlýk Fakültesi Dergisi, Cilt 15, No 1, 1-14, 2000. 
+13. 
+Yurdakul M., Ýç Y. T., “Üretim Firmalarýnýn Kredibilitelerinin Belirlenmesinde Analitik Hiyerarþi Prosesi Yönteminin Kullanýlmasý”, Gazi Üniversitesi Fen Bilimleri Enstitüsü Dergisi, Cilt 13, No 4, 1007-1021, 2000. 
+
+14. 
+Kulwiec R.A., Basics of Material Handling, The Material Handling Institute, A.B.D., 1992.  
+
+15. 
+Kulwiec R.A., Advanced Material Handling, The Material Handling Institute, A.B.D., 1992.  
+
+16. 
+Yurdakul M., Çoðun C, “Development of a Multi-attribute Selection Procedure for Non-traditional Machining Processes”, Proceedings of the Institution of Mechanical Engineers-Part B: Journal of Engineering Manufacture, Vol. 217, Issue 7, 993-1009, 2003. 
+
+17. 
+Yurdakul M., Ýç Y. T., “Türk Otomotiv Firmalarýnýn Performans Ölçümü ve Analizine Yönelik TOPSIS Yöntemini Kullanan Bir Örnek Çalýþma”, Gazi Üniversitesi Mühendislik-
+
+
+
+Mimarlýk Fakültesi Dergisi, Cilt 18, No 1, 1-18, 2003. 
+18. Yurdakul M., Mutlu S., Ýç Y. T., “Topsis Yöntemi Ýle Robot Seçimi”. UMTS 2003 11. Ulusal Makina Teorisi Sempozyumu, Gazi Üniversitesi Mühendislik Mimarlýk Fakültesi Makina Mühendisliði Bölümü, Ankara, Bildiri Kitabý 2, 633-642, 4-6 Eylül 2003. 
+19. 
+Ýpek, A. Ö., Malzeme Taþýma Sistemlerinin Seçilmesine Yönelik Bir Uzman Sistem Geliþtirilmesi, Yüksek Lisans Tezi, Gazi Üniversitesi, Fen Bilimleri Enstitüsü, 2004. 
+
+20. 
+Chittratanawat S., Noble J.S., “An Integrated Approach for Facility Layout, P/D Location and Material Handling System Design”, International Journal of Production Research, 37, 3, 683-706, 1999. 
+
+
+
+Ek 1. Karar destek sisteminde bulunan otomatik yönlendirmeli taþýtlardan (AGV) bir kýsmý
+No  Model  Taþýma Hýzý(m/dak)  Yük kapasitesi (kg)  Taþýma Tipi  Yönlendirme Tipi  Yükleme Boþaltma  Yükleme Platformu  Çalýþma Ortamý(Ýç/Dýþ)  Ýlk Maliyet ($)  Ýþletme Maliyeti ($/yýl)  
+1  AMV  40  2 250  Birim yük  Kablolu, Hareket Yönlendirmeli  Otomatik  Stok, Taþýyýcý Bant  Ýç  20 000  1 000  
+2  Autotrans  40  2 250  Birim yük  Kablolu, Hareket Yönlendirmeli  Otomatik  Stok, Taþýyýcý Bant  Ýç, Dýþ  22 000  1 000  
+3  HV-1  40  125 000  Birim yük  Kablolu, Hareket Yönlendirmeli  Otomatik  Stok, Taþýyýcý Bant  Ýç, Dýþ  60 000  1 000  
+4  HV-2  40  500  Çatallýkaldýrýcý Kablolu, Hareket Yönlendirmeli  Otomatik  Stok  Ýç  8 000  1 000  
+5  HV-3  40  4 000  Çatallýkaldýrýcý Kablolu, Hareket Yönlendirmeli  Otomatik  Stok  Ýç  25 000  1 000  
+6  LPV1  40  500  Birim yük  Kablolu, Hareket Yönlendirmeli  Otomatik  Stok  Ýç  7 500  1 000  
+7  RAV Mini  45  55  Birim yük  Optik  Otomatik  Stok, Taþýyýcý Bant  Ýç, Dýþ  3 000  1 000  
+8  RAV-1  50  110  Birim yük, kaldýrýcý, çekici  Optik  Otomatik  Taþýyýcý Bant  Ýç, Dýþ  3 500  1 000  
+9  RAV-1-X  50  110  Birim yük, kaldýrýcý, çekici  Optik, Kablolu Manyetik  Otomatik  Taþýyýcý Bant  Ýç, Dýþ  4 000  1 000  
+10  RAV-2­100  65  1 100  Birim yük, kaldýrýcý, çekici  Optik  Otomatik  Taþýyýcý Bant  Ýç, Dýþ  13 000  1 000  
+11  RAV-2-30  65  300  Birim yük, kaldýrýcý, çekici  Optik  Otomatik  Taþýyýcý Bant  Ýç, Dýþ  6 000  1 000  
+
+
+

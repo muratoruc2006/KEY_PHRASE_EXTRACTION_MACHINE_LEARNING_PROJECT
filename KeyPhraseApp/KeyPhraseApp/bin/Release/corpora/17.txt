@@ -1,0 +1,605 @@
+KURUMSAL KAYNAK PLANLAMA (KKP) UYGULAMASI SONRASI ÝÞLETMELERÝN YAÞADIÐI SORUNLAR 
+Aysel KARADEDE ve Ömer Faruk BAYKOÇ 
+Endüstri Mühendisliði Bölümü, Mühendislik Mimarlýk Fakültesi, Gazi Üniversitesi, Maltepe 06570 Ankara, ayselkaradede@hotmail.com, baykoc@gazi.edu.tr 
+(Geliþ/Received: 01.10.2004; Kabul/Accepted: 04.01.2006) 
+ÖZET 
+Bu çalýþmada iþletmelerin tüm fonksiyonlarýný baþlangýçtan bitiþe kadar bütünleþik bir bilgi ve veri sistemi ile gerçekleþtiren geniþ kapsamlý ve modüler yazýlým paketi olan Kurumsal Kaynak Planlamasýnýn (KKP) iþletmelerdeki iþleyiþi bir anket yardýmý ile incelenmiþtir. KKP paket programý kurulumu ve kurulmasýndan sonra iþletmelerin yaþadýklarý sorunlar hazýrlanan anket çalýþmasý yardýmý ile araþtýrýlmaya çalýþýlmýþtýr. Ayrýca yaþanan bu sorunlarýn hangi modüllerde daha fazla görüldüðü, sorunu çözmek için ne tip yöntemlerin kullanýldýðý, çýkan sorunlarýn nedenlerinin ne olduðu araþtýrýlmaya çalýþýlmýþtýr. Modüllerde çýkan sorunlarýn giderilmesi için kullanýlan yöntemlerin etkinliði bulanýk kümeler yaklaþýmý ile incelenmiþ ve sonuçlar deðerlendirilmiþtir. 
+
+1. GÝRÝÞBu sürekli deðiþim ortamýnda rekabette baþarýlý olmak için deðiþen iþ koþullarýnýönceden tahmin edebilmek 
+21. yüzyýlda yaþadýðýmýz günlerde iþletmelerin ve bunlara hýzla yanýt verebilmek gerekir. Bunun rekabet ortamýnda ayakta kalabilmeleri ve varlýklarýnýsaðlanabilmesi için güçlü, esnek ve saðlam bilgi sürdürebilmeleri üç ana parametreye (kalite, sistemlerine ihtiyaç vardýr. Bütün bunlarýÝþletme verimlilik ve maliyet) baðlanmýþtýr. Bu üç Kaynaklarý Planlamasýyla (ÝKP) yapmak mümkündür. parametreye son zamanlarda hýzlý tepki verme de Literatürde, bu kavram Teþebbüs Kaynaklarýeklenmiþtir. Bütün bunlarýn yapýlabilmesi kýt Planlamasý veya Kurumsal Kaynak Planlamasý adýyla kaynaklarýn etkin kullanýlmasýna baðlýdýr. Bu da anýlmaktadýr. kaynaklarda hammadde, iþgücü, makine, teçhizat ve finansmandýr. Bu kaynaklarýn etkin ve gerçekçi Kurumsal Kaynak Planlamasý (KKP), günümüz kullanýlmasý üretim planlama ve kontrol faaliyetleri teknolojilerini kullanarak, iþletmelerin kaynak ile mümkündür. planlamasýný saðlar. Kurulan KKP yazýlým 
+A. Karadede ve Ö.F. Baykoç Kurumsal Kaynak Planlama (KKP) Uygulamasý SonrasýÝþletmelerin Yaþadýðý Sorunlar 
+paketlerinde iþletmelerin saðladýðý yararlar kadar iþletmeler içerisinde çözümlenmesi gereken sorunlar da yaþanmaktadýr. Bu sorunlarý iþletmelerin kendi þirket personeli yada KKP danýþman þirketleri tarafýndan çözülmeye çalýþýlmaktadýr. Bazý sorunlar ise çözülememektedir. Bu çalýþmada hazýrlanan anket çalýþmasý ile iþletmelerin KKP’nin kurulumu ve sonrasýnda yaþanan sorunlar araþtýrýlarak bu sorunlarýn hangi modüllerde daha fazla görüldüðü incelenecektir. Sorunu çözmek için ne tip yöntemlerin kullanýldýðý, danýþmanlýk þirketlerinin sorun çözmedeki baþarýsý, sorunlarýn önem durumlarý, þirket elemanlarýnýn sorunlarý çözmedeki yeterlilikleri tartýþýlacaktýr. Bulanýk mantýk yöntemi kullanýlarak modüllerde oluþan sorunlara çözüm bulmada þirket içi kaynak ve KKP danýþman þirketlerin yeterlilikleri deðerlendirilecektir. Þirket iþleyiþinde belirtilen önem ve memnuniyetlerin deðerlendirilmesinde istatistiksel analizler yapýlacaktýr. 
+Çalýþmanýn ilk bölümünde KKP sistemi genel hatlarýyla tanýtýlmýþ, ilerleyen bölümünde Türkiye’de KKP paket programý kullanan iþletmelerle yürütülen anket çalýþmasý sonucu elde edilen bilgiler ile KKP sonucu oluþan sorunlar incelenmiþtir. 4. bölümde ise KKP paket programýnda yaþanan sorunlarýn çözüm yöntemleri Bulanýk Küme Yaklaþýmý ile incelenmesi ve deðerlendirilmesi yapýlacaktýr. 
+
+2. KKP NEDÝR? 
+2.1. Tanýmý ve Kapsamý
+Ýþletmenin bütün fonksiyonlarýnýn bütünleþik olarak çalýþabilmelerine imkan veren, kritik kaynaklarýn yönetilmesini ve analiz edilmesini saðlayan bilgi sistemi [1]. 
+Günümüzdeki MRP II sistemleri firma düzeyinde satýþ yönetimi, üretim planlama ve kontrolü, satýnalma gibi faaliyetleri yönetebilmektedir. MRP II paketlerinin yetersiz kaldýðý diðer noktalarda ise ek modüller ya da entegre çalýþabilen paketler devreye girmiþ ancak bu firma düzeyinde kalmýþ ve firmalar arasý bilgi iletiþimini saðlayamamýþtýr. Küreselleþmenin doðal bir sonucu olarak deðiþik coðrafi bölgelerdeki iþ faaliyetlerinin daðýnýk veri tabanlarýve küresel entegrasyon yoluyla yönetilmesi önem kazanmýþ ve KKP olgunluk çaðýna girmiþtir. KKP, firmalar arasýglobal bilgi entegrasyonunu gerçekleþtiren bütünsel bir yazýlým stratejisidir [1]. 
+Müþteri talebinin sürekli nitelik ve nicelik olarak deðiþtiði ve bu deðiþimin tahmin edilmesinin ne kadar zor olduðu bilinen bir gerçektir. Faaliyetlerin bu deðiþime uygun hareket edebilecek hale getirebilmenin yolu KKP yaklaþýmýndan geçmektedir. Hem stratejik planlama çalýþmalarý ile belirlenen amaç ve hedeflere, hem de üretim ve daðýtým kaynaklarýn kapasite ve özelliklerine gereken ayrýntýda dikkat ederek, faaliyetleri deðiþime duyarlý hale getirebilmek ancak KKP yaklaþýmý ile mümkündür. 
+KKP 'nin diðer bir özelliði, iþletmenin coðrafi olarak farklý bölgelerde (yurt içi ve dýþý) bulunan fabrikalarýnýn, bunlarýn tedarikçi firmalarýnýn ve daðýtým merkezlerinin (depo) kaynaklarýný eþgüdümlü olarak planlamasýdýr. Bu çerçevede, hangi müþteriye ait hangi sipariþin hangi daðýtým merkezinden karþýlanmasý veya hangi fabrikada üretilmesi gerektiði, tüm fabrikalarýn malzeme ve hizmet ihtiyaçlarýnýn nereden karþýlanmasýnýn uygun olacaðý, fabrikalarýn elinde bulunan makina, malzeme, iþgücü, enerji, bilgi vd. üretim ve daðýtým kaynaklarýnýn nasýl eþgüdümlü ve ortaklaþa olarak kullanýlabileceði belirlenmiþ olmaktadýr. Diðer bir deyiþle, müþteriye ait sipariþin en kýsa sürede, istenen kalite ve maliyette karþýlanabilmesi için tüm baðlý iþletmelerin daðýtým, üretim ve tedarik kaynaklarýnýn kapasite ve özellikleri ayný anda dikkate alýnmaktadýr [1]. 
+KKP fabrikalar arasý entegrasyonu, fabrikalar bazýndaki esneklik ilkesine uygun olarak gerçekleþtiren bir sistemdir. Amaç fabrika bazýnda merkezi yönetimin avantajlarýndan yararlanýrken fabrikalar arasý koordinasyonu ve entegrasyonu iþletmenin temel stratejileri doðrultusunda saðlamaktýr. Merkeziyetçiliðin derecesi farklýboyutlarda düþünülebilir. Örneðin tüm fabrikalarýn uzun vadeli satýnalma kontratlarýnýn merkezi olarak yapýlmasý veya fabrikalarýn kendilerinin yapmasýöngörülebilir. Ancak zorunlu olarak talebin fabrikalara yönlendirilmesi, fabrikalar arasý nakliyat, performans analizi, mali konsolidasyon merkezi olarak yapýlmak zorunda olan faaliyetlerdir. 
+Sonuç olarak, KKP; iþletmenin stratejik amaç ve hedefleri doðrultusunda müþteri taleplerini en uygun þekilde karþýlayabilmek için farklý coðrafi bölgelerde bulunan tedarik, üretim, daðýtým ve mali kaynaklarýnýn en etkin ve verimli bir þekilde planlanmasý, koordinasyonu ve kontrol edilmesi fonksiyonlarýný bulunduran bir yazýlým sistemidir.  
+
+2.2. KKP Sisteminin Yararlarý [7] 
+1. 
+Azalan maliyetler  
+
+2. 
+Fonksiyonel entegrasyon 
+
+3. 
+Daha basit bilgisayar ve iletiþim sistemi  
+
+
+4.Tüm iþletme düzeyinde MRP II yararlarý
+5. 
+Ýþletme faaliyetleri üzerinde küresel denetim 
+
+6. 
+Tüm uygulamalara istenildiði zaman istenilen noktadan ulaþým kolaylýðý
+
+
+
+
+2.3. KKP Hakkýnda Örnek Ýstatistiksel Çalýþma [8] 
+Ýþ dünyasýnda KKP sistemleri yaygýnlaþtýkça, bu sistem hakkýnda olumlu ve olumsuz çeþitli genel kanýlar oluþmaya baþlamýþtýr. Mabert V.A. ve arkadaþlarý [8], çeþitli yayýn organlarýnda çýkan bu genel kanýlarý özetleyen ve bunlarýn doðruluðunu araþtýrmak amacýyla yaptýklarý bir istatistiksel çalýþmayý içeren bir makale yazmýþlardýr. Bu bölüm ilgili çalýþmadan elde edilen sonuçlardan derlenmiþtir. 
+
+Mabert ve arkadaþlarý (2001), Tablo 1’de görülen KKP hakkýndaki sýk rastlanan olumlu ve olumsuz eleþtirileri tespit ettikten sonra bu önermelerin doðruluklarýný araþtýrmak için bir anket çalýþmasýyürütmüþlerdir [8]. Bu amaçla 15 adet KKP kurulumu, üst düzey yöneticiler ve BT profesyonelleri ile yapýlan görüþmelerle geniþ kapsamlý olarak incelenmiþtir. Hacmi sýnýrlý da olsa, çeþitli büyüklükteki (cirolarý 30 milyon USD ile 35 milyar USD arasýnda deðiþen), farklý endüstriyel ve son kullanýcýya yönelik ürünler üreten ve altý farklýsatýcýdan alýnmýþ KKP paketleri kullanan firmalarýiçeren bir örnek uzayý kullanýlmýþtýr. 
+Ayrýca KKP kurulumlarý konusunda faaliyet gösteren altý adet danýþman firma ile tecrübeleri hakkýnda araþtýrmanýn bulgularýný doðrulayan görüþmeler yapýlmýþtýr. Örnek firmalarla ve danýþman firmalarla yapýlan görüþmelerde genel olarak aþaðýdaki sorularýn cevaplarý aranmýþtýr: 
+• 
+Þirket neden bir KKP çözümünde karar kýlmýþtýr? 
+
+• 
+KKP satýcýsýnýn seçimi için nasýl bir süreç izlenmiþtir? 
+
+• 
+KKP nasýl uygulanmýþtýr? 
+
+• 
+Hangi kaynaklar kullanýlmýþ ve ne gibi faydalar elde edilmiþtir? 
+
+• 
+Önemli baþarý faktörleri nelerdir? 
+
+• 
+Hangi bölümlerde uygulamadan sonra iyileþme gözlenmiþ, hangi bölümler hayal kýrýklýðýna uðramýþtýr? 
+
+
+• 
+Öðrenilen dersler nelerdir? 
+
+• 
+Gelecekte þirket ne yapmayý planlamaktadýr? 
+
+
+Araþtýrmanýn önemli bulgularýndan biri, bir KKP kurulumunda yazýlým masrafýnýn ortalama olarak tüm maliyetin ancak %15’ine denk gelmesidir. Tablo 2’de görüldüðü gibi KKP’nin uygulanmasýnda en büyük maliyet kalemini ortalama %30’luk payýyla danýþmanlýk masraflarý oluþtururken, bu kalemi ortalama %25’lik payýyla donaným ve altyapýmaliyetleri izlemektedir. Toplam uygulama maliyetleri sadece harcanan para açýsýndan bakýldýðýnda oldukça yüksektir. Küçük firmalarda dahi bu rakam milyon dolar mertebelerini geçebilmektedir. Büyük firmalarda ise on milyonlarca dolara ulaþmaktadýr. Bu miktarlara firmalarýn cirolarýnýn bir yüzdesi olarak bakýldýðýnda büyük firmalarýn dezavantajlý olduðu görülmektedir. Bu çalýþmadaki örneklerden alýnan verilere göre büyük firmalarda bu oran % 1,5 ile % 2 arasýnda deðiþirken, küçük firmalarda % 3 ile 6 arasýnda oynamaktadýr. Uygulama zamanlarý ise 12 ay ile 4 yýl arasýnda deðiþmektedir ve bu açýdan bakýldýðýnda maliyet yönüyle dezavantajlý olan küçük firmalar zaman konusunda avantajlý bir konuma geçmektedirler. Küçük firmalar genelde 1,5 yýldan önce kurulumu tamamlarken, bu süre büyük firmalarda çok daha uzayabilmektedir. 
+Tablo 2. KKP uygulama maliyetleri daðýlýmý [8] 
+
+Maliyet Kalemi  Ortalama Maliyet  Aralýk  
+Danýþmanlýk  30%  20% - %60  
+Donaným / Altyapý 25%  0% - %50   
+Uygulama Ekibi  15%  5% - %20  
+Eðitim  15%  10% - %20  
+Yazýlým  15%  10% - %20  
+
+Tablo 1. KKP hakkýnda yaygýn eleþtiriler [8] 
+Olumlu 
+
+Olumsuz 
+-ERP sistemi, iþletmedeki tüm Bilgi Sistemi (BS) 
+
+-ERP sistemleri sadece çok geniþ ölçekli firmalarýn 
+kaynaklý problemleri giderecek bir çözümdür ve 
+ilgi alanýna girer. 
+iþletmenin tüm iþlerini yürütmek için ihtiyaç 
+
+-ERP sistemlerinin yaygýnlaþmasýnýn tek sebebi Y2K 
+duyacaðý tek BS olma yolunda ilerlemektedir. 
+(2000 yýlý) problemidir. Y2K problemi artýk geride 
+-ERP yaklaþýmý, iþletmenin tümünde sistemi hem 
+kaldýðýna göre ERP’nin geleceði parlak 
+basitleþtirir hem de standardize eder ve gelecekte 
+görülmemektedir. 
+sistemin güncellenmesini daha kolay hale getirir. 
+
+-ERP sistemleri ve uygulanmalarý çok pahalýdýr. 
+-ERP sistemi, BT iþlemlerinin maliyetini düþürür 
+Sistem önemli modifikasyonlara ihtiyaç duyar ve 
+ve kurumsal BS’nin sürekliliðini saðlamak için 
+þirketin sistemi kullanabilmesi için ciddi yeniden 
+gerekli personel sayýsýný azaltýr. 
+yapýlanma (reengineering) sürecine ihtiyaç duyulur. 
+-ERP sistemi, tüm süreçleri birbirine entegre 
+
+-Kurulu ERP sistemleri genelde yavaþtýr ve çoðu 
+etmeye zorlar ve yüksek seviyede veri 
+þirketin iþlem ihtiyaçlarýna cevap veremez. 
+entegrasyonu saðlanýr. 
+
+-ERP sistemleri ilk baþta öngörülen yatýrýmýn geri 
+-ERP, rekabet gücünü artýran mükemmel bir karar 
+dönüþü oranlarýný saðlayamamýþtýr. 
+destek aracýdýr. 
+
+-Pek çok firma ana sebep olarak ERP sistemi 
+-ERP sistemleri, çeþitli süreçler için en iyi 
+kurulumu yüzünden kapanmýþtýr. 
+uygulamalarý içererek, kurumun sistemleri hýzlý
+
+-ERP sistemleri BT maliyetlerinin ve personel 
+ve kolay bir þekilde yapýlandýrmasýný ve böylece 
+sayýsýnýn artmasýna sebep olur. 
+uygulama maliyetlerini en aza çekmesini saðlar. 
+
+-Bir bütünleþik ERP sistemi kurulsa bile sistemin 
+-ERP sistemleri daha iyi bir küresel entegrasyon 
+düzgün çalýþmasý için ilave sistemlere gereksinim 
+yapýsý sunar. 
+duyulur.  
+
+A. Karadede ve Ö.F. Baykoç Kurumsal Kaynak Planlama (KKP) Uygulamasý SonrasýÝþletmelerin Yaþadýðý Sorunlar 
+Bu araþtýrmaya göre baþarýlý olan firmalarýn bir takým ortak özelliklere sahip olduðu görülmüþtür. Bu özellikler aþaðýda özetlenmiþtir: 
+• 
+Üst yönetim baþýndan itibaren kapsamlý bir þekilde projenin içinde yer almýþtýr. 
+
+• 
+Üst yönetimden bir lideri olan ve firmanýn farklýfonksiyonel birimlerinden elemanlar içeren bir uygulama ekibi kurulmuþtur.  
+
+• 
+Ekip, projenin nasýl uygulanacaðýný proje baþlamadan önce detaylarýna kadar belirlemek için gerekli zamaný harcamýþtýr. 
+
+• 
+Performansý ölçmek için açýk ve net kriterler belirlenmiþtir. 
+
+• 
+Dýþardan gelen danýþmanlarýn nasýl kullanýlacaðýna ve gerekli bilgi ve tecrübenin bu danýþmanlardan firma içine nasýl aktarýlacaðýna dair noktalar net bir þekilde ortaya konmuþtur.  
+
+• 
+Kullanýcýlarýn eðitimi için detaylý planlar hazýrlanmýþtýr. 
+
+Araþtýrmanýn bulgularý göstermiþtir ki; KKP hakkýnda yayýnlanan olumsuz eleþtiriler fazlaca abartýlmýþtýr. Sonuçlar genelde bu olumsuz eleþtirilerin aksi yönünde olmuþtur. Araþtýrmadan elde edilen verilere göre ulaþýlan sonuçlar aþaðýda listelenmiþtir: 
+
+• 
+KKP sistemleri çok küçüklerinden en büyüklerine kadar tüm ölçeklerdeki firmalarda uygulanmaktadýr. 
+
+• 
+KKP’nin uygulanmasýnýn pek çok nedeni vardýr, sadece Y2K problemi yüzünden uygulanýyor olmasýsöz konusu deðildir. KKP genel olarak bir BT çözümünden ziyade bir iþ çözümü olarak görülmektedir.  
+
+• 
+Bir KKP kurulumu ciddi bir yatýrýmdýr ve pahalýdýr. Ancak, maliyetler elle tutulabilen ve tutulamayan faydalarla dengelenmelidir. 
+
+• 
+Çoðu firmadaki KKP kurulumu henüz yeni sayýlabilecek durumdadýr. Çoðu çeþitli faydalar elde etmiþ olsalar da zaman içinde tecrübelerin artmasýile birlikte üretkenlikte de artýþ olmasýbeklenmektedir.  
+
+• 
+Þu an itibariyle BT iþlemlerinde maliyet azalmasýsaðlanýp saðlanmadýðý konusu net deðildir.  
+
+• 
+Bazý satýcýlar tarafýndan iddia edildiði gibi tek bir KKP sistemi uygulamasý baþtan sona kesin çözüm saðlamaktan uzaktýr. Þirketlerin çoðu, bazý özel iþlevler veya karar verme süreçleri için baþka sistemleri ilave olarak kullanmaktadýrlar. 
+
+• 
+KKP, kurumun tamamýnda sistemleri hem basitleþtirmekte hem de standardize etmektedir. Böylece firma için gelecekte yeni ilaveler ya da güncelleme yapmak daha kolay hale gelmektedir.  
+
+• 
+KKP sistemlerinin tümü oldukça istikrarlý bir görüntü çizmektedir. Çok büyük firmalarda bile firmalarýn iþlemlerini yerine getiremediklerine dair bir kanýta rastlanamamýþtýr. 
+
+
+• KKP sistemleri, veri mevcudiyetini ve kalitesini artýrarak karar verme sürecini iyileþtirmektedir. Firmalar veri ambarlarý oluþturdukça ve karar destek sistemleri kurdukça baþka faydalar da elde edilecektir. 
+Çoðu firma KKP sistemlerinden memnundur. Çoðu KKP sisteminin faydalý ömrünün on yýldan daha fazla olacaðýný düþünse de zaman içinde rutin bakým ve güncellemeler gerekli olacaktýr. 
+3.KKP KURULUMU SONRASI ÝÞLETMELERÝN YAÞADIÐI SORUNLAR 
+Bu çalýþmadaki amaç KKP paket programlarýnýn kurulma aþamasýnda veya kurulumdan sonra iþletmelerin ne tür sorunlar yaþadýðý, bu sorunlarýn hangi modüllerde daha fazla görüldüðü, sorunu çözmek için ne tip yöntemlerin kullanýldýðý, danýþmalýk þirketlerinin sorun çözmedeki baþarýsý, sorunlarýn önem durumlarý, þirket elemanlarýnýn sorunlarý çözmedeki yeterliliklerinin araþtýrýlmasýdýr. Çalýþmada Bulanýk Kümeler Yöntemi kullanýlarak modüllerde oluþan sorunlarýn danýþman þirketler veya þirket içi kaynaklardan hangisi kullanýlarak daha verimli çözümler elde edileceði araþtýrýlmýþtýr. 
+Uygulanan KKP programlarý sonrasýnda iþletmelerin yaþadýklarý sorunlarý detaylý bir þekilde araþtýrmak amacý ile de bir anket çalýþmasý hazýrlanmýþtýr. 
+
+
+3.1. Veri Toplama Yöntemi ve Anket Uygulama Metodunun Belirlenmesi 
+Türkiye’de uygulanan KKP paket programlarýkurulduktan sonra yaþanan sorunlarýn incelenmesinde kullanýlacak verilerin, anket çalýþmasý yapýlarak toplanmasýna karar verilmiþtir. Ankette geçen KKP sonucu oluþan sorunlar ile ilgili sorular, yapýlan kaynak taramalarý ile oluþturulmuþtur. Bu amaçla 16 soru hazýrlanmýþtýr. Sorular cevaplayan kiþilerin uzun zamanlarýný alarak doðru cevap vermesini engelleyecek þekilde olmamasý ve karmaþýk olmamasýgöz önünde bulundurularak hazýrlanmýþtýr. Aynýzamanda çalýþmanýn amacýna uygun istenen bilgilerin elde edilmesini saðlayacak þekilde hazýrlanmýþtýr. Ankette geçen sorularýn deðerlendirilmesi “1: en düþük 5: en yüksek” deðerler verilerek yapýlmýþtýr. 
+KKP danýþmanlýk firmalarý aracýlýðýyla KKP kullanan iþletmelere bu çalýþmaya kaynak olan anket gönderilmiþtir. Ayrýca internet aracýlýðýyla KKP kullanan iþletmeler belirlenmiþ ve telefon ile aranarak araþtýrma konusunda bilgi verilmiþ ve ilgili yöneticilere yardýmcý olup olamayacaklarýsorulmuþtur. Olumlu yanýt verenlere e-mail yöntemi ile word formatýndaki anket yollanmýþtýr. Sýnýrlý hedef kitleye sahip bir anket çalýþmasý olduðu için 10-20 arasý anket cevabýna ulaþýlmasý hedeflenmiþtir. Gönderilen anketler Türkiye’nin önde gelen iþletmeleri tarafýndan cevaplanmýþ, sonuçlar Bulanýk Mantýk Yöntemi ile ve istatistiksel yöntemlerle deðerlendirilmiþtir. 
+
+
+3.2. Anketin Uygulanmasý 
+1 Ekim-31 Kasým 2003 tarihleri arasýnda araþtýrmaya temel olan anket hazýrlanmýþtýr. Aralýk 2003 tarihi itibari ile anket KKP kullanan iþletmelere gönderilmeye baþlanmýþtýr. 
+Ýþletmelerdeki anketi cevaplayabilecek bilgi ve deneyime sahip olan insanlarýn iþ yoðunluklarý ve ayrýca anketi cevaplamadaki isteksizlikler göz önüne alýnarak yaklaþýk 4 ay gibi bir sürede Türkiye’nin önde gelen 15 þirketi tarafýndan anket cevaplandýrýlmýþtýr1. Gönderilen yaklaþýk 20 anketin 15 tanesi cevaplanmasý% 75’lik bir cevaplama oranýna karþýlýk gelmektedir. 
+Anketin cevaplanmasý için tanýnan 4 ay sonunda toplanan cevap sayýsý 15 oldu ki bu da % 75’lik kötü sayýlamayacak bir cevaplanma oranýna tekabül etmektedir. 
+Normal þartlarda bir anket çalýþmasýnda istatistiksel doðruluk ve anlamlýlýktan bahsedebilmek için kullanýlan teknikler açýsýndan örnek büyüklüðü olarak 15 rakamý çok yeterli deðildir. Türkiye’de 350 – 500 adet arasýnda ERP kullanan kurum olduðu kabul edilirse, % 10 güven aralýðý ve % 95 güvenlik seviyesinde bir sonuca ulaþmak için gerekli örnek büyüklüðü 75 – 81 adet arasýnda deðiþmektedir ki bu gerçekten hem zaman hem de kaynak olarak ulaþýlmasý çok güç bir rakamdýr. 
+Bizim ulaþtýðýmýz 15 rakamlýk örnek büyüklüðü (Bkz. Bölüm 2.3), istatistiksel olarak % 95 güvenlik seviyesinde % 25’lik bir güvenlik aralýðýna tekabül etmektedir ki bu istatistiksel açýdan çok anlamlýsayýlmayabilir. Bu açýdan, bu anket çalýþmasýsonucunda ulaþýlan deðerler yüksek istatistiksel anlamlýlýða sahip doðrular olarak kabul edilmemeli, onun yerine Türkiye’deki ERP uygulamalarýna iliþkin eðilimler, yaþanýlan güçlükler ve yaþanan güçlüklerin çözüm yöntemleri gibi konular açýsýndan bir bakýþaçýsý sunacaðý düþünülmelidir. Bununla birlikte, örnek profilinin, gösterdiði çeþitlilik düþünüldüðünde (Bkz. Bölüm 3.4), kullanýlan örneðin gerçek popülasyonu olabildiðince iyi temsil ettiði kabul edilebilir.  
+Anketi cevaplayan þirketlerin 2 tanesi KKP kurulumlarýsonunda gerçekten büyük sorunlar yaþayan önemli þirketler olduðu unutulmamalýdýr. Ayrýca ankette sorulan sorular gerçekten sorunun özüne inilerek oluþturulmuþtur. Böylece sorunlara genel anlamda yaklaþmak yerine temel ve belirli sorunlarýn tespit edilmesi saðlanmýþtýr. 
+
+3.3. Sonuçlarýn Deðerlendirilmesi 
+Bu araþtýrmaya Türkiye’de en çok kullanýlan paket programlar olan SAP, Oracle, Logo Unity, Axapta, 
+J.D. Edwards paket programlarý konu olmuþtur. 
+Bu araþtýrmada sonuçlarýn daha gerçekçi olmasý için mümkün olduðunca deðiþik sektörler seçilmeye çalýþýlmýþtýr. Bu açýdan saðlanan çeþitlilik araþtýrmanýn sonuçlarýný daha anlamlý hale getirmektedir. Araþtýrmaya katýlan iþletmelerin % 66,66’sý SAP, % 13,33’ü Oracle, % 6,66’sýMicrosoft Axapta, % 6,66’sýLOGO Unity ve % 6,66’sý J.D.Edwards kullanmaktadýr. 
+
+
+3.4. Araþtýrmaya Katýlan Ýþletmeler Hakkýnda Bilgi 
+Ciro yapýsý
+Bu araþtýrmaya katýlan iþletmelerin 2003 yýlý cirosu sorulduðunda bir kýsým iþletmeler bilgi vermekten kaçýnmýþlardýr. Þirketlerin ciro yapýlarý Tablo 3’de yer almaktadýr. Ankette bu soruya cevap veren 12 þirketin 2003 yýlý cirolarýna bakacak olursak ; 
+Cirosu 500 Milyon $’dan fazla olan þirketler SAP, 100-500 Milyon $ arasýnda olan iþletmeler SAP, Oracle, 50-74 Milyon $ arasýnda olan iþletmeler SAP, Oracle, 25-49 Milyon $ arasýnda olan iþletmeler SAP, 10-25 Milyon $ arasýnda olan iþletmeler SAP, Microsoft Axapta, J.D.Edwrads kullanmaktadýr. 
+Tablo 3. Araþtýrmaya katýlan iþletmelerin 
+ciro yapýlarý
+Ciro  Þirket sayýsý(Adet)  
+10-25 Milyon $  4  
+25-49 Milyon $  1  
+50-74 Milyon $  2  
+100-500 Milyon $   3  
+500 Milyon $’dan fazla  2  
+Bilinmeyen  3  
+
+Bu sonuçlar göstermektedir ki kullanýlan KKP paket programlarý iþletmelerin cirolarýna çok baðýmlýdeðildir. Yani iþletmelerin cirolarý yükseldikçe belirli bir paket program kullandýklarýný söyleyemeyiz. 
+Ýþletmelerin ciro yapýlarýný incelemek amacý ile sorulan soruda belirli bir aralýktaki cirolardan seçim yapýlmasý istenmiþtir. Buna göre iþletmelerin ciro yapýlarýna ait bilgiler belirli bir aralýk olarak elde edilmiþtir. Ýþletmelerin minimum ciro ve kurulum süreleri arasýndaki korelasyon katsayýsý Excel’in istatistiksel analiz fonksiyonu yardýmý ile incelendiðinde +0,50 olarak bulunmuþtur. 
+Ýþletmelerin maksimum cirolarý ve kurulum süreleri arasýndaki korelasyon katsayýsý ise +0,28 olarak 
+
+A. Karadede ve Ö.F. Baykoç Kurumsal Kaynak Planlama (KKP) Uygulamasý SonrasýÝþletmelerin Yaþadýðý Sorunlar 
+bulunmuþtur. Bu sonuçlara göre kurulum süreleri ile iþletmelerin cirolarý arasýnda doðrusal bir iliþki olduðu ortaya çýkmaktadýr. Korelasyon katsayýsý +1’e yaklaþtýkça iki deðiþken arasýnda daha kuvvetli ve doðrusal bir iliþki vardýr. Yani iþletmelerin ciro yapýlarý yükseldikçe kurulum sürelerinin de yükseldiði sonucuna ulaþabiliriz. Fakat bu iki deðiþken arasýnda kuvvetli bir iliþki bulunmadýðýnýsöyleyebiliriz. 
+Kurulan paket programlarýn tamamlanma süreleri 
+Bu araþtýrmaya katýlan bir iþletme bu süreyi cevaplarken KKP paket programýnýn kurulum süresini versiyon yükseltme süresi olarak belirterek, 3 ay gibi çok kýsa bir sürede bu iþlemi gerçekleþtirdiklerini söylemiþlerdir. Tablo 4’de kurulum süreleri yer almaktadýr. 
+Tablo 4. Araþtýrmaya katýlan KKP programlarýnýn kurulum süreleri 
+KKP Paket Programý  Ortalama Kurulum Süresi (ay)  Standart sapma  Açýklama  
+Sap  11,6  3,92  
+Oracle  12  4,24  
+Microsoft Axapta  12  
+Logo Unity  3  Versiyon yükseltmesi  
+J.D.Edwards  6  
+
+Personel yapýsý
+Bu araþtýrma, çalýþan personel sayýsý daha yüksek olan þirketlerin, pazar payý daha yüksek olan KKP paket programlarýný tercih ettiði Tablo 5’de görülmektedir. Personel sayýsý düþtükçe pazar payýyüksek olan KKP programlarýnýn yaný sýra pazar paylarý daha düþük olan KKP programlarýnýn da kullanýldýðý dikkat çekmektedir. 
+Ýþletmelerin çalýþan sayýsýný incelemek amacý ile sorulan soruda belirli bir aralýktaki çalýþan sayýsýndan seçim yapýlmasý istenmiþtir. Ýþletmelerin minimum çalýþan sayýsý ve kurulum süreleri arasýndaki korelasyon katsayýsý Excel’in istatistiksel analiz fonksiyonu yardýmý ile incelendiðinde +0,444 olarak bulunmuþtur. Ýþletmelerin maksimum çalýþan sayýsý ve kurulum süreleri arasýndaki korelasyon katsayýsý ise +0,424 olarak bulunmuþtur. Bu verilere göre kurulum 
+Tablo 5. Araþtýrmaya katýlan iþletmelerin personel yapýsý ve seçilen KKP programlarý
+Personel sayýsý Þirket sayýsý Þirketlerin kullandýðý KKP programlarý 
+1501-5000  3  SAP  
+501-1500  5  SAP, ORACLE  
+151-500  4  SAP, LOGO UNITY  
+51-150  3  SAP, AXAPTA, J.D.Edwards  
+
+süreleri ile iþletmelerin çalýþan sayýsý arasýnda doðrusal bir iliþki olduðu ortaya çýkmaktadýr. Korelasyon katsayýsý +1’e yaklaþtýkça iki deðiþken arasýnda daha kuvvetli ve doðrusal bir iliþki vardýr. Yani iþletmelerin çalýþan sayýsý yükseldikçe kurulum süreleri de yükseldiði sonucuna ulaþabiliriz. Fakat bu iki deðiþken arasýnda kuvvetli bir iliþki bulunmadýðýnýsöyleyebiliriz. 
+Bu araþtýrmaya göre kurulan paket programlarýnýn ortalama kurulum sürelerini Þekil 1’de de görüldüðü gibi 12 ay olarak deðerlendirebiliriz. 
+
+
+Þekil 1. KKP paket programlarýnýn ortalama kurulum süresi (ay) 
+Þirketlerin kurulum maliyetlerinin incelenmesi 
+Tablo 6’da ortalama kurulum maliyetleri incelendiðinde en fazla yer tutan maliyetin yazýlým maliyeti olduðu dikkat çekmektedir. Yazýlým maliyetinin ardýndan kurulum danýþmanlýðý maliyeti gelmektedir. Bu araþtýrmada ortaya çýkan önemli bir sonuç da eðitim maliyetlerinin minimum düzeyde olduðudur. 
+Tablo 6. Kurulum maliyeti 
+Ortalama (%)  Standart Sapma (%)  Maksimum (%)  Minimum (%)  
+Donaným maliyeti (bilgisayar, sunucu, dahili að)  19,615  7,763  35,000  10,000  
+Yazýlým maliyeti  34,615  9,005  55,000  20,000  
+Personel maliyeti (kiralanan, bu iþe ayrýlan)  13,636  7,775  30,000  5,000  
+Kurulum danýþmanlýðýmaliyeti  26,538  11,616  45,000  5,000  
+Eðitim maliyeti.  9,333  4,770  20,000  4,000  
+Diðer  5,500  0,707  6,000  5,000  
+
+
+
+3.5. Ýþletmelerin Kurduklarý Modüller 
+Bu araþtýrmaya göre iþletmelerin en çok %100’ünün kurulumunu yaptýðýmodüllerin finans-muhasebe ve satýnalma olduðu görülmüþtür. Daha sonra imalat kaynaklarý planlamasý (MRP II), lojistik daðýtým, satýþmodülleri gelmektedir. Ýþletmeler tarafýndan % 75 den fazlasý kurulan modüller ise satýþ, imalat kaynaklarýplanlamasý, ambar yönetimi ve lojistik/daðýtým olmuþtur. En az tamamý kurulan modüller ise kalite kontrol ve tedarik zinciri yönetimidir. Proje yönetimi modülü iþletmeler tarafýndan en az kurulmasýdüþünülen modüldür. 
+
+Bu sonuçlardan en çok tercih edilen modülleri finans­muhasebe, imalat kaynaklarý planlamasý (MRP II), lojistik daðýtým, satýnalma ve satýþ oluþturmaktadýr. En az tercih edilen modüller ise proje yönetimi, çizelgeleme -simülasyon, müþteri iliþkileri yönetimi ve tedarik zinciri yönetimi (SCM) oluþturmaktadýr. 
+
+
+3.6. Kurulum Aþamasýnda Yaþanan Problemlerin Kurulum Adýmlarý Açýsýndan Daðýlýmý
+Ýþletmelerden kurulum aþamasýnda yaþanan sorunlara 1-5 arasýnda deðer verilmesi istenmiþtir. Bu araþtýrmaya göre Tablo 7’de bulunan sonuçlara ulaþýlmýþtýr. Buna göre ortalama olarak en çok sorun eðitim ve alýþtýrma destek sürecinde yaþanmýþtýr. En az sorun ise eski sistemin analizinde yaþanmýþtýr. Diðer kurulum adýmlarýnýn ise ortalama deðerleri hemen hemen birbirine yakýn çýkmýþtýr. 
+
+3.7. Ýþletmelerin Yaþadýðý Sorunlar 
+KKP kurulumlarý sonrasýnda þirketlerin yaþadýklarýsorunlarýn incelendiði bu çalýþmada amaca uygun olarak konunun temelini teþkil eden spesifik sorular sorulmuþtur. Ayrýca þirketlerin yaþadýklarý baþka sorunlar varsa eklenmesi istenmiþtir. Yaþanan bu sorunlarýn þirketler için ne derece önemli olduklarýaraþtýrýlmýþtýr. Þirketlerden yaþanan sorunlara 1-5 arasýnda bir derece verilmesi istenmiþtir. 
+Ýlk bölümdeki sorunlar gerçekten yazýlým kullanýmýsýrasýnda yaþanan problemlerdir. (örneðin uyarlama hatalarý, mal hareketleri sýrasýnda oluþan hatalar) Ýkinci bölümdeki sorular ile daha çok çalýþanlarýn sisteme adaptasyonu gibi kullanýcýlar açýsýndan sistemde yaþanan sorunlar araþtýrýlmýþtýr. Araþtýrmada sorulan bütün sorular teker teker ele alýnarak sonuçlarýincelenmiþtir. 
+
+
+3.8. En çok yaþanan sorunlar 
+Uyarlama hatalarý yaþanýyor mu? 
+Uyarlamalar sistemin iþleyiþini düzenleyen, sadece sistem yöneticilerinin yetkilerinin olduðu, yazýlýmýn nasýl kullanýlacaðýný belirleyen ayarlamalardýr. Yani uyarlamalar ile tüm sistemin nasýl çalýþacaðýna karar verilir. Örneðin malzeme ana verileri oluþturulurken malzeme ile ilgili hangi verilerin zorunlu doldurulmasý gerektiðine, hangi verilerin doldurulmayacaðýna ve hangi alanlarýn isteðe baðlýolarak doldurulacaðýna karar verilir. Satýþ sipariþinden faturanýn nasýl kesileceðine, teslimatla mal çýkýþýnýn nasýl yapýlacaðýna, malzemenin depodan üretime nasýl verileceði gibi tüm konularda kararlar verilir ve bu kararlar KKP paket programýna uygulanýr. Ýþte bu uygulama iþlemi uyarlama olarak adlandýrýlýr. KKP paket program, canlý kullanýma geçmeden önce bütün modüller ile ilgili uyarlamalara karar verilir ve uygulanýr. Eðer canlý kullanýma geçilmeden önce verilen kararlar hatalý veya uyarlanmasý hatalýyapýlmýþsa daha sonra düzeltilmesi gerekir. 
+Araþtýrmaya göre, anketi cevaplayan bütün þirketlerde uyarlama hatalarýnýn olduðu ortaya çýkmýþtýr (Þekil 2). Yani hangi paket program kullanýlýrsa kullanýlsýn sonuç olarak yapýlan uyarlamalarda deðiþikliðe, düzeltmelere gidilmiþtir. Tablo 8’de görüldüðü gibi sonradan yaþanan bu sorunlarýn ortalama önem derecesi 3,428’dir. Bütün þirketlerin ayný sorunlarý
+Uyarlama hatalarýyaþanýyor mu? 
+5 
+4.5
+4
+
+3.5
+3
+
+Önem derecesi 2.5 2 
+1.5
+1
+
+0.5 
+0 1 2345 67891011121314 
+
+Uyarlama hatalarý yaþayan þirketler 
+Þekil 2. Yaþanan uyarlama hatalarýnýn önem dereceleri 
+Tablo 8. Yaþanan uyarlama hatalarýnýn 
+önem derecelerinin istatistiksel analizi 
+Ortalama  3,428  
+Standart sapma  1,398  
+Maksimum  5  
+Minimum  1  
+
+
+Tablo 7. Kurulum aþamasýnda yaþanan problemler 
+Karar süreci  Planlama ve hazýrlýk sürecinde  Eski sistemin analizinde  Yeni sistemin tasarýmýnda  Yapýlandýrma ve adaptasyonda  Test sürecinde  Eðitim ve alýþtýrma /destek sürecinde  
+Ortalama  2,583  2,833  2,000  2,692  2,583  2,727  3,385  
+Standart sapma  1,730  1,467  1,054  1,377  1,443  1,104  1,502  
+Maksimum  5  5  4  5  5  4  5  
+Minimum  1  1  1  1  1  1  1  
+
+En çok problem çýkan 5, en az problem çýkan: 1 olarak deðerlendirilmiþtir. 
+A. Karadede ve Ö.F. Baykoç Kurumsal Kaynak Planlama (KKP) Uygulamasý SonrasýÝþletmelerin Yaþadýðý Sorunlar 
+yaþamalarý hem de önem derecesinin 3,428 gibi ortalamanýn üstünde bir deðer olmasý uyarlama hatalarýnýn önemli bir sorun olduðunu göstermektedir. Ýþletmelerin belirttiði en yüksek önem derecesi 5 iken, en küçük önem derecesi 1’dir. 
+Temel ölçü birimlerinin çevrimlerinde sorun var mý? 
+Temel ölçü birimlerinde yaþanan sorunlar, depodaki malzeme miktarý verilerinin yanlýþ olmasýna sebep olmaktadýr. Örneðin satýnalma sipariþindeki malzemenin birimleri arasýnda birebir çevrim yapýlmazsa stoka eksik veya fazla malzeme girilmesine neden olabilir. 
+Bu soruya 7 þirket “evet”, 7 þirket “hayýr’ cevabývermiþtir. 1 þirket ise cevap vermemiþtir. Þekil 3’de görüldüðü gibi “Evet” cevabý veren þirketlerin belirttikleri önem derecesi ortalamasý 3 iken maksimum önem derecesi 5 ve minimum önem derecesi 1 olmuþtur. “Hayýr’ cevabý veren þirketlerin önem derecelerinin ortalamasý 4,5 iken maksimum 5 ve minimum 3 olmuþtur. 
+Temel ölçü birimlerinin çevrimlerinde  sorun yaþanýyor mu? 
+5 4 3 
+Önem derecesi 
+2 1 0 
+
+Þekil 3. Temel ölçü birimlerinin çevrimlerinde yaþanan sorunlarýn önem derecesi 
+Buna göre “hayýr” cevabý veren iþletmeler bu sorunu yaþamasalar da önemli olduðunu kabul etmektedirler. Bu soruya araþtýrma yapýlan þirketlerin yarýsýnýn “evet” cevabý vermesi ve ayný zamanda Tablo 9’da da görüldüðü gibi verilen önem derecelerinin ortalamasýnýn 3 deðerini almasý aslýnda bu sorunu çoðu þirketin yaþadýðý sonucunu ortaya çýkarmaktadýr. 
+Tablo 9. Temel ölçü birimlerinin çevrimlerinde yaþanan sorunlarýn önem derecelerinin istatistiksel analizi 
+Ortalama  3  
+Standart sapma  1,414  
+Maksimum  5  
+Minimum  1  
+
+Veri giriþi hatalarý örneðin veri giriþindeki nokta, virgül hatalarý oluyor mu? 
+Veri giriþindeki hatalar, yanlýþ kararlar verilmesine neden olmaktadýr. Örneðin (.) nokta 3 karakteri bölmek ve virgül basamak sayýsýný belirtiyorsa bunun tam tersi þekilde veri giriþi önemli sorunlara neden olabilir. Örneðin 1,500 kg girilmesi gereken bir malzemeyi 1.500 kg olarak girilirse sistem bu veriyi 1500 kg olarak anlayacaktýr. Bu durum da stok verilerinin yanlýþ olmasýna neden olacaktýr. 
+Veri giriþi hatalarý yaþayan þirket sayýsý 12 iken, böyle bir sorun yaþamayan þirket sayýsý 3 olduðu ortaya çýkmýþtýr (Þekil 4). Yani çoðu þirket veri giriþi hatalarýyaþamaktadýr. Tablo 10’da görüldüðü gibi “Evet” cevabý veren þirketlerin bu soruyu cevaplarken belirttikleri önem derecelerinin ortalamasý 2,67 iken maksimum önem derecesi 5 ve minimum önem derecesi 1 olmuþtur. “Hayýr” cevabý veren þirketlerin önem dereceleri ortalamasý ise 2,33, belirttikleri maksimum önem derecesi 3 ve minimum önem derecesi 1 olmuþtur. Yani “hayýr“ cevabý veren iþletmelerde böyle bir sorun yaþanmamakta veya önemsiz bir oranda yaþanmaktadýr. 
+Veri giriþi hatalarý oluyor mu? 
+5
+4
+3
+
+Önem derecesi 2 1 0 123456 78910 11 12 Veri giriþ hatalarý olan þirketler 
+
+Þekil 4. Veri giriþi hatalarýnýn önem derecesi 
+
+Tablo 10. Veri giriþi hatalarýnýn önem derecelerinin istatistiksel analizi 
+
+Ortalama  2,668  
+Standart sapma  1.435  
+Maksimum  5  
+Minimum  1  
+
+Ürün aðaçlarýeksik veya yanlýþ girilebiliyor mu? 
+Üretim oluþturulan ürün aðaçlarýna istinaden yapýlmaktadýr. Ürün aðaçlarýnýn eksik veya yanlýþgirilmesi üretimin de eksik veya hatalý yapýlmasýna neden olacaktýr. Özellikle elektronik üretim gibi karmaþýk ürün aðacý olan iþletmelerde ürün aðacýnýn doðruluðuna daha fazla dikkat edilmektedir. 
+Bu soruya 10 þirket “evet” cevabý verirken 5 þirket “hayýr” cevabý vermiþtir. Tablo 11’de görüldüðü gibi “Evet” cevabý veren þirketlerin önem dereceleri ortalamasý 3,22, maksimum önem derecesi 5 ve minimum önem derecesi 1 olmuþtur. “Hayýr” cevabýveren þirketlerin önem dereceleri ortalamasý 4,4, maksimum önem derecesi 5 ve minimum önem derecesi 3’tür. 
+
+Tablo 11. Ürün aðaçlarý eksik veya yanlýþ girilen þirketlerin belirttikleri önem derecelerinin istatistiksel analizi 
+
+Ortalama  3  
+Standart sapma  1,564  
+Maksimum  5  
+Minimum  1  
+
+
+3.8. KKP Kurulumu Sonucu Yaþanan Sorunlarýn Deðerlendirilmesi 
+Bu araþtýrmaya göre iþletmelerin KKP paket programýkurulduktan sonra en çok yaþadýklarý sorunlarýn uyarlama hatalarýve veri giriþ hatalarý olduðu ortaya çýkmýþtýr. Uyarlama hatalarýný 13 þirket yaþadýðýnýbelirtirken, 12 þirket veri giriþ hatalarýný yaþadýðýnýbelirtmiþtir. Uyarlama hatalarýnýn ortalama önem derecesi 3,42 iken veri giriþ hatalarýnýn ortalama önem derecesi 2,66’dýr. Uyarlama hatalarý ve veri giriþ hatalarýndan sonra þirketlerin en çok yaþadýðýsorunlar ise temel ölçü birimlerinin çevrimlerinde yaþanan sorunlar ve ürün aðaçlarýnýn eksik veya yanlýþ girilmesinden doðan sorunlar olduðu ortaya çýkmýþtýr. 10 þirket ürün aðaçlarýnýn eksik veya yanlýþgirilmesi sorununu yaþarken, 7 þirket temel ölçü birimlerinin çevrimleri sorununu yaþadýðýnýbelirtmiþtir. Temel ölçü birimlerinin çevrimi sorununun ortalamasý 3 iken ürün aðaçlarýnýn eksik veya yanlýþgirilmesi sorununun ortalamasý da 3’dür. 
+Þekil 5’den de anlaþýlacaðý üzere en yüksek önem derecesi ortalamasý olan sorular 2, 22, 29. sorulardýr. Bu sorular: 
+2.	 Hammadde stoklarýnýn güncelliði saðlanabiliyor mu? 
+22. Faturalar zamanýnda girilebiliyor mu? 
+29.	 Fason iþleyiþinde mal hareketleri doðru ve düzenli yapýlabiliyor mu? 
+Ankette araþtýrýlan sorunlarý yaþayan þirketlerin belirttikleri önem derecelerinin ortalamasý
+4.50 
+4.00 
+3.50 
+3.00 
+2.50 
+Ortalama 
+2.00 
+1.50 
+1.00 
+0.50 
+0.00 
+
+Þekil 5. Kurulum sonrasý yaþanan sorunlarýn istatistiksel analizi 
+En fazla yaþanan sorunlara bakýlacak olursa; 
+1.	 Uyarlama hatalarý yaþanýyor mu? 
+4.	
+Temel ölçü birimlerinin çevrimlerinde sorun yaþanýyor mu? 
+
+5.	
+ Veri giriþ hatalarý örneðin veri giriþindeki nokta virgül hatalarý oluyor mu? 
+
+
+20. Ürün aðaçlarýeksik veya yanlýþ girilebiliyor mu? 
+Buna göre hammadde stoklarýnýn güncelliðinin saðlanmasý, faturalarýn zamanýnda girilmesi, fason iþleyiþinde mal hareketlerinin doðru ve düzenli olarak yapýlmasý en önemli konular olarak kabul edilmekte ancak en çok yaþanan sorunlar içerisinde yer almamaktadýr. En çok yaþanan sorunlar ise uyarlama hatalarýnýn yaþanmasý, temel ölçü birimlerinin çevrimlerinde sorun yaþanmasý, veri giriþ hatalarýnýn olmasý, ürün aðaçlarýnýn eksik veya yanlýþgirilmesidir. Kurulum sonrasý sorun yaþayan þirket sayýsý ise Þekil 6’da görülmektedir. 
+Ankette araþtýrýlan sorunlarý yaþayan þirketlerin sayýsý
+14 12 10 Sorun yaþayan 8 þirket sayýsý6 
+4 2 0 
+
+Þekil 6. Kurulum sonrasý sorun yaþayan þirket sayýsý
+
+
+3.9. Ýþletme Personelinin Kurulan KKP Paketiyle Ýlgili Yaþadýklarý Sorunlar 
+Kurulan KKP programý ile çalýþan personelin yaþadýðýsorunlarý, karþýlaþtýðý zorluklarý araþtýrmak amacý ile sorulan bu sorulardan þöyle bir sonuç çýkmýþtýr. Çalýþanlarý yeni bir sistemin getireceði deðiþime hazýrlamak için yeterli eðitimin verilip verilmediðini araþtýrmak amacýyla sorulan soruda 12 þirket “evet” cevabý verirken 3 þirket “hayýr” cevabý vermiþtir. Bu sonuç göstermektedir ki; þirketler çalýþanlarýný yeni sisteme hazýrlamak için yeterli eðitimi vermektedir. Çalýþanlarýn bulunduklarý konumu býrakarak, iþlerini bilmedikleri yeni bir yolla yapmaya karþý direnç gösterip göstermediklerini araþtýrmaya yönelik sorulan soruda 11 þirket “evet” cevabý verirken 3 þirket “hayýr” cevabý vermiþtir. “Evet” cevabýverenlerin ortalamasý 4,09 iken belirtilen maksimum önem derecesi 5, minimum önem derecesi 3 ‘dür. Bu sonuca ve belirtilen önem derecelerine göre KKP kurulumu aþamasýnda çalýþanlarýn iþlerini bilmedikleri yeni bir yolla yapmaya direnç gösterdikleri ortaya çýkmýþtýr. Çalýþanlarýn iþlerini, sahip olduklarý gücü veya organizasyon içerisindeki etkilerini kaybetme korkusu yaþayýp yaþamadýklarý araþtýrýldýðýnda, 13 þirkette yaþandýðý belirtilmiþtir. Önem derecelerinin 
+
+A. Karadede ve Ö.F. Baykoç Kurumsal Kaynak Planlama (KKP) Uygulamasý SonrasýÝþletmelerin Yaþadýðý Sorunlar 
+ortalamasý da 3, 67 olarak ortaya çýkmýþtýr. Çalýþanlarýn kurulan yeni sisteme karþý direnç göstermelerine baðlý olarak sistemin kötü tasarlandýðýveya kullanýmýnýn zor olduðu düþüncesinin oluþtuðu yapýlan araþtýrmada ortaya çýkmýþtýr. Bu soruyla iliþkili olarak 12 þirket, çalýþanlarýnýn bu tür bir sorun yaþadýklarýný belirtmiþtir. “Evet” cevabý verenlerin önem dereceleri ortalamasý 3,36 olarak ortaya çýkmýþtýr. Ayný zamanda sistem analisti-kullanýcýgörüþmelerinde kullanýcýnýn katýlým isteksizliði söz konusu olduðu da ortaya çýkmýþtýr. Bu araþtýrmanýn ortalamasýise 3,40 olarak belirtilmiþtir. “Kullanýcýlar iþleri üzerinde kendi kontrollerinin azaldýðýnýdüþünmekte midir?” sorusuna ise 7 þirket “evet” cevabý verirken 8 þirket “hayýr” cevabý vermiþtir. Kullanýcýnýn yeni sisteme karþý direnci ve motivasyon düþüklüðünün olup olmadýðý araþtýrýldýðýnda 9 þirket olduðunu belirtirken ancak 6 þirket böyle bir durumun olmadýðýný ifade etmiþtir. 
+Bilgi sistemi personeli ile kullanýcýlar arasýnda dil farklýlýklarý yani kullanýlan terimlerdeki farklýlýklardan dolayý zorluk yaþanýp yaþanmadýðýnýaraþtýrmak için sorulan soruda 10 þirket yaþandýðýnýbelirtmiþtir. Bu cevabýn ortalamasý ise 2,78 olarak ortaya çýkmýþtýr. KKP kurulumunda takým içerisindeki iletiþim doðru bilginin, doðru zamanda kullanýmýný saðladýðý, tasarým toplantýlarýnda kullanýcýlarýn fikirlerine geniþ yer verildiði yapýlan araþtýrmada ortaya çýkmýþtýr. “Kurulacak sistemin kullanýcýdan daha geliþmiþ olmasý durumuyla karþýlaþýlmakta mýdýr?” sorusuna ise büyük bir oranda olumlu cevap verilmiþtir. Buna göre iþletmeler önemli oranda bu sorunla karþýlaþmaktadýrlar. Bu sorunun önem dereceleri ortalamasý ise 3,83 olarak ortaya çýkmýþtýr. 9 þirket, çalýþanlarýn teknolojik deðiþime ayak uydurabilecek yetenek ve bilgiye sahip olduklarýný ve proje çalýþmalarýna yatkýn olup, bir projenin uygulamasýnda üzerine düþen görevleri yerine getirdiklerini belirtirken, 6 þirket olumsuz cevap vermiþtir. Oluþan sorunlarýn giderilmesinde zorluk yaþandýðý, araþtýrma sonucu ortaya çýkmýþtýr. Ancak eðitim maliyetlerinin beklenen deðerin üzerine çýkmadýðý da belirtilmiþtir. 
+Ayrýca KKP kurulum sürecine paralel olarak, deðiþim yönetimi için ayrý bir metodoloji uygulanmadýðý, bu iþiçin ayrý bir takým oluþturulduðu, takým elemanlarýnýn aðýrlýklý olarak bilgi sistemi personelinden oluþmadýðýaraþtýrma sonucu ortaya çýkan diðer sonuçlardýr. 
+
+
+3.10. Kurulan KKP Paketinde Modül Bazýnda Yaþanan Sorunlar 
+Bu sonuçlara göre kesinlikle önemli sorunlar yaþanan modüller; Finans / Muhasebe, Satýþ / Daðýtým, Ýmalat Yönetim Sist. /Atölye Entegrasyonu, Satýnalma, Malzeme Ýhtiyaç Planlamasý (MRP), Veri Ambarý / Veri Merkezleri, Kalite Kontrol, Ambar Yönetimi (Warehouse Mang.). En çok sorun yaþanan modüllerin Malzeme Ýhtiyaç Planlamasý (MRP) ve Kalite Kontrol modülleri olduðu ortaya çýkmýþtýr. En az sorun yaþanan modülün Satýnalma olduðu söylenebilir.  
+KKP’nin Kurulumu Sonrasýnda Yaþanan Problemlerin Çözüm Yöntemleri 
+Kurulan modüller de yaþanan problemlerin çözüm yöntemlerini araþtýrmak amacý ile ankette sorulan bu soruda çýkan sonuçlar þu þekildedir. Kesinlikle önemli sorunlar yaþanan modüllerden olan Finans/Muhasebe modülünün çözümünü 4 þirket sadece kendi personeli ile gerçekleþtirirken, 5 þirket hem danýþman hem de kendi personeli ile çözüme gitmiþtir. 5 þirket ise danýþman þirket ile sorunlarýn çözümünü bulabilmiþ­tir. Finans/Muhasebe modülünün arkasýndan kesinlikle önemli sorunlar yaþanan modül olan Satýþ / Daðýtým modülünde ise 7 þirket kendi personeli ile çözerken, 3 þirket hem kendi personeli hem de danýþman þirket yardýmý ile sorunlarý çözmüþtür, 3 þirket ise sorunlarýný sadece danýþman þirket ile çözebilmiþtir. Sorunun çözümü için en çok danýþman þirket kullanan modül Finans/Muhasebe modülüdür. Arkasýndan Ýnsan Kaynaklarý modülü gelmektedir. Yapýlan araþtýrmaya göre 2 þirket ise sorunlarýnýn çözümünü bulamamýþtýr. Sorunlarý çözülemeyen modüller ise Finans/Muhasebe ve Tahmin (Forecasting) modülleridir. En fazla þirket içi personel kullanarak sorunlarý çözülen modüller ise Satýnalma, Satýþ / Daðýtým ve Ýmalat Yönetim Sist. /Atölye Entegrasyonu modülleridir. En çok hem danýþman þirket hem de þirket içi personel kullanýlarak sorunlarýçözülen modüller ise Malzeme Ýhtiyaç Planlamasý(MRP) ve Finans / Muhasebe modülleridir. 
+Bu araþtýrmada en çok Finans/Muhasebe modülünde sorun yaþandýðý ve sorun çözümünde en çok danýþman kullanan modül olduðu ortaya çýkmaktadýr. Ancak bu modülün aynýzamanda en çok kurulan ve iþletmeler tarafýndan en çok tercih edilen modül olduðu unutulmamalýdýr. 
+KKP paket programýnýn kurulumu ve sonrasýnda 13 þirket 1 danýþman þirket ile çalýþmýþlardýr. Kurulumun saðlýklý olmasý ve zamanýnda kurulumun saðlanmasýamacý ile iþletmeler tek danýþman þirket ile çalýþmayýtercih etmektedirler. Bu amaçla kurulum çalýþmalarýndan önce ayrýntýlý danýþman þirket araþtýrmasý sonrasýnda danýþman þirketlerini seçmektedirler. 2 þirket ise birden fazla danýþman þirket ile çalýþmýþtýr. Her iki þirket de maliyet nedeni ile danýþman þirketi deðiþtirmiþlerdir. Danýþman þirketin performansýnýn 1: hiç verimli deðil, 5: çok faydalý olmak üzere deðerlendirilmesi istendiðinde, 5 þirket çalýþtýklarý danýþman þirketin performansýný 5 olarak deðerlendirirken, 2 þirket 4, 6 þirket 3, 1’er þirkette 2 ve 1 olarak deðerlendirmiþlerdir. Bu sonuca göre genel olarak iþletmeler çalýþtýklarý danýþman þirketlerinden memnun olduklarýný belirtmektedirler. 
+
+4. KKP’DE YAÞANAN SORUNLARIN ÇÖZÜM YÖNTEMLERÝNÝN BULANIK KÜME YAKLAÞIMI ÝLE ARAÞTIRILMASI 
+Mühendislikte ve diðer bilim dallarýnda olaylar ve sistemler, kesin matematiksel modeller kullanýlarak tanýmlanýrlar. Oluþturulan bu modellerin kullanýlmasýile olayýn veya sistemin gelecekte alacaðý durum veya göstereceði davranýþbiçimi tahmin edilmeye çalýþýlýr. 
+Bulanýk Mantýk düþünüþüne uygun düþen modelleme problemleriyle karþýlaþýldýðýnda genellikle bir uzman kiþinin bilgi ve deneyimlerinden yararlanma yoluna gidilir. Uzman operatör, dilsel deðiþkenler/nite­leyiciler (linguistic variable) olarak tanýmlanabilen “uygun, çok uygun deðil, yüksek, biraz yüksek, fazla, çok fazla“ gibi günlük yaþantýmýzdan sýkça kullandýðýmýz kelimeler doðrultusunda esnek bir denetim mekanizmasý geliþtirir. Ýþte bulanýk denetim bu tür mantýksal iliþkiler üzerine kurulmuþtur [10]. 
+
+
+4.1. Bulanýk Yaklaþým 
+KKP sistemlerinde çýkan problemlerin bulanýk deðiþkenlerle deðerlendirilmesinde kullanýlacak u = “ÖNEMLÝ” ve v = “ETKÝLÝ” ile etiketlendirilen iki bulanýk dilsel deðiþken tanýmlandý. Bu dilsel deðiþkenler, KKP sistemlerinde yaþanan sorunlarýn kritikliði ve çözümü için kullanýlan kaynaklarýn (danýþman þirketler veya þirket içi kaynaklar) sorunlarýn çözümü üzerindeki etkisini analiz etmek için kullanýldý. KKP sistemlerinde oluþan sorunlar danýþman þirketler kullanarak veya þirket içi personeli kullanarak çözümlenebilmektedir. Sorunlarýn çözümlenmesi için baþka bir yöntem ise KKP paket programýnýn yazýlýmýný yapan þirketler tarafýndan sorunlarýn çözümlenmesidir. Ancak bu iþlem çoðunlukla danýþman þirketler vasýtasý ile olduðundan bu yöntem danýþman þirket kullanarak KKP sistemlerinde oluþan sorunlarýn giderilmesi yöntemi ile birlikte deðerlendirilmiþtir. 
+Sanchez (1977) iki dilsel deðiþken U ve V’yi iliþkilendiren ve bu iliþkinin denklemlerini çözmek için sezgisel bir algoritmanýn kullanýldýðý bir metodoloji teklif etmiþtir. 
+ui = rij o vj 
+ui = KKP sisteminde yaþanan i probleminin önemlilik deðeri vj = KKP sisteminde yaþanan sorunlarýn çözümlerinde kullanýlan kaynaklarýn etki deðeri rij = i KKP modülünde çýkan problemlerin giderilmesinde j kaynaðýnýn etkisinin dilsel deðerlendirilmesi  
+o = rij o vj ‘nin üyelik fonksiyonunu tanýmlayan kompozisyon operatörü ve her zu için bu üyelik fonksiyonu 
+µ µ	() ]  (1) 
+A(rev) (zu , zv )=.[A(rev) (zu , zv ).µA(v) zv 
+zv 
+þeklinde tanýmlanýr. 
+
+
+4.2. Sezgisel Algoritma 
+Burada KKP sistemlerinde yaþanan sorunlarýn çözümü için kullanýlan kaynaklarýn (danýþman þirketler veya þirket içi kaynaklar) sorunlarýn çözümü üzerindeki etkisini analiz etmede bulanýk dilsel deðiþkenlerin kullanýmýna dayandýrýlan sezgisel bir algoritma kullanýldý [12]. 
+Algoritma 
+1. 
+Hazýrlanan anket ile proje yöneticilerinden alýnan veriler doðrultusunda KKP sistemlerinde yaþanan sorunlarýn önemi ve bu sorunlarý gidermek için kullanýlan kaynaklarýn etkisi dilsel olarak ifade edilir. 
+
+2. 
+m sorun ve n kaynak için, (2) denklemi kullanýlarak 
+
+
+rij iliþkisi çözülür. Burada ui ve vj bulanýk dilsel deðiþken deðerleri için üyelik fonksiyonu birinci adýmda tanýmlanýr. 
+rij =ui -1 . vi	 (2) 
+3. j= 1,2,..., n mümkün teknolojilerin her birisi için 
+i=1,2,..,m tane ikili bulanýk iliþki olan rij’lerin kesiþimi Denklem (3)’den hesaplanýr. 
+µRi (zu , zv )=.µA(r) (zu , zv )i =1,2,..., m 
+= rij [µ(z , z )] (3) 
+Min A(r) uv zu , zv 
+4. 
+u* ile gösterilen U’nun “ideal” bir deðeri alýnýr. Yani, u* = çok kritiktir. 
+
+5. 
+Denklem (2) kullanýlarak her kaynak için 
+
+
+v- j 1 =Rj .u *-1 iliþki denklemi çözülür. 
+vj-1 ’nin üyelik fonksiyonu: 
+-1-1
+µA(v) =.[µA(R) (zu , zv ).µA(u *) (zu )] (4) 
+ile tanýmlanýr. 
+6. Her bir kaynaðýn KKP sistemlerinde yaþanan sorunlarýn çözümlerde etkisi en yüksek olmasý arzu edilen bir sonuçtur. Böylece v* = gerçekten çok, 5. adýmda bulunan her bir üyelik fonksiyonu ile karþýlaþtýrýlýr. Yani, 5. adýmdaki n bulanýk üyelik fonksiyonunun her birisinin “ideal” den izafi Hamming uzaklýðý hesaplanýr. 
+Böylece KKP’nin modüllerinde yaþanan sorunlarýn çözümü için danýþman þirketlerin daha etkili bir 
+
+A. Karadede ve Ö.F. Baykoç Kurumsal Kaynak Planlama (KKP) Uygulamasý SonrasýÝþletmelerin Yaþadýðý Sorunlar 
+kaynak olduðu Tablo 12’de görülmektedir. Ancak çýkan sonuçlar oldukça yakýn olduðu için kesin bir yargýya varmak mümkün deðildir. 
+
+Tablo 12. Ýzafi Hamming uzaklýðý
+
+Kaynaklar  Ýzafi Hamming uzaklýðý 
+Danýþman þirketler  0.197  
+Þirket içi kaynaklar  0.201  
+
+
+
+5. SONUÇ ve DEÐERLENDÝRMELER 
+KKP iþletmelere MRP II yöntem ve sistematiðine baðlý kalarak yeni ufuklar açan MRPII’nin geniþletilmiþ ve bütünleþtirilmiþ bir setidir. KKP deðiþik coðrafi bölgelerdeki iþletmelerin, tedarikçi firmalarýn ve depolarýn kaynaklarýný planlamasýnýsaðlamaktadýr. Müþteri bazlý üretimin takibini yaparak hangi fabrikada nasýl üretim yapýlacaðýný ve eksikliklerin nasýl karþýlanacaðýný belirlemekte, tüm fabrikalarýn malzeme, makina, iþgücü, enerji, bilgi ve diðer üretim ve daðýtým kaynaklarýnýn koordineli bir þekilde kullanýlmasýný saðlamaktadýr. Diðer bir deyiþle, müþteriye ait sipariþin en kýsa sürede, istenen kalite ve maliyette karþýlanabilmesi için tüm baðlýiþletmelerin daðýtým, üretim ve tedarik kaynaklarýnýn kapasite ve özelliklerini ayný anda dikkate almaktadýr. KKP sisteminin kurulmasý, büyük bir organizasyon deðiþikliði gerektirir. Baþarýsýz kurulumlar, sisteme yapýlan gereksiz yatýrým demektir ve organizasyonun iþlevselliðini de olumsuz yönde etkiler. Bu yüzden KKP’nin kurulumu, üstünde dikkatle çalýþýlmasý ve iyi yönetilmesi gereken bir süreçtir. 
+Ýþletmelerin bu yöndeki ihtiyaçlarýný karþýlayan KKP yazýlýmlarý özellikle son yýllarda oldukça yoðun þekilde þirketler tarafýndan tercih edilmektedir. Ancak KKP yazýlýmlarýnýn kullanýmýyla birlikte çeþitli sorunlar beraberinde gelmektedir. KKP’nin iþletmelerdeki iþleyiþi ve verimlilikleri çeþitli akademik çalýþmalara konu olmuþtur. Bu çalýþmada ise KKP yazýlýmlarýnda yaþanan problemler sýnýflandýrýlarak hazýrlanan anket çalýþmasý ile araþtýrýlmýþtýr. Bu kapsamda anket çalýþmasý 15 orta ve büyük ölçekli þirket tarafýndan cevaplanmýþ ve alýnan sonuçlar deðerlendirilmiþtir. Þirketler açýsýndan KKP yazýlýmýnda yaþanan problemlerin çözümü, iþletmenin tüm iþleyiþinin doðru bir þekilde saðlanabilmesi için oldukça önem arz etmektedir. Bu sorunlarýn çözümü için iþletmeler danýþman þirketleri veya þirket içi kaynaklarý kullanmaktadýrlar. Bu nedenle çalýþmada anket sonuçlarý kullanýlarak bulanýk mantýk yöntemi ile KKP’de yaþanan problemlerin çözümü için kullanýlan yöntemlerin etkinlikleri analiz edilmiþtir. 
+Yapýlan bu araþtýrmaya göre KKP kullanýmý sýrasýnda iþletmelerin en çok yaþadýklarý sorunlar aþaðýdaki þekilde sýralanmýþtýr: 
+1. 
+Uyarlama hatalarý 
+
+2.
+ Veri giriþ hatalarý
+
+3. 
+Temel ölçü birimlerinin çevrimler 
+
+4.
+ Ürün aðaçlarýnýn eksik veya yanlýþ girilmesi 
+
+
+Araþtýrmaya katýlan iþletmelerin, hemen hepsinin uyarlama hatalarýný yaþamasý ve yarýya yakýn kýsmýnýn da önem derecesini en yüksek seviye olarak belirtmesi, bu sorunun KKP yazýlýmlarýnýn kullanýmýsýrasýnda temel ve en önemli problem olduðunu ortaya çýkarmaktadýr. Uyarlamalar sistemin temel iþleyiþini belirlediði için sistemin kurulumu aþamasýnda verilen yanlýþ kararlar ve bunlarýn da uygulanmasý ile yapýlan hatalar ancak sistemin kurulumu sonrasýnda ortaya çýkmaktadýr. 
+Veri giriþi ve temel ölçü birimlerinde yaþanan sorunlar, malzeme hareketleri sýrasýnda doðru verinin sisteme giriþinde önemli hatalarýn yaþandýðýnýgöstermektedir. Sisteme doðru verilerin girilmesi sistemin faaliyetlerini doðru ve düzenli bir þekilde devam ettirmesi açýsýndan önem arz etmektedir. Yanlýþveriler ile sistem varlýðý devam ettirilemez. Bu nedenle uyarlama hatalarýndan sonra veri giriþi ve temel ölçü birimlerinde yaþanan sorunlar en önemli sorun olarak tespit edilmiþtir. Ürün aðaçlarýnýn eksik veya yanlýþ girilmesi ise hatalý üretim yapýlmasýna neden olacaðý için yaþanan önemli sorunlar içerisinde yer almaktadýr. Hammadde stoklarýnýn güncelliðinin saðlanmasý da iþletmeler için oldukça kritik konu olmasýna raðmen yapýlan araþtýrmada iþletmeler tarafýndan sorun olarak yaþanmadýðý ortaya çýkmýþtýr. 
+Bu araþtýrmada elde edilen diðer bir sonuç ise KKP’nin temel kurulum adýmlarýnda en çok sorunun, eðitim ve alýþtýrma destek sürecinde olduðu tespit edilmiþtir. Ýþletmeler KKP sistemlerini uygulamaya geçirdikten sonra, þirket personelinin alýþtýklarý bir sistemden ayrýlarak yeni bir sisteme adapte olmasýnda ve yeni sistemle ilgili eðitimlerin verilmesinde sorunlar yaþanmaktadýr. Kurulan KKP paket programýnda yaþanan sorunlarýn yanýsýra iþletme personelinin yaþadýðý sorunlara da önem verilmesi gerektiði ortaya çýkmýþtýr. KKP kurulumu sýrasýnda en az sorunun ise eski sistemin çok iyi bilinmesi nedeni ile eski sistemin analizi aþamasýnda yaþandýðýbelirlenmiþtir. 
+KKP’nin kurulumu sýrasýnda personelin yaþadýðýsorunlar araþtýrýlmýþtýr. Buna göre: 
+1. KKP kurulumu aþamasýnda çalýþanlar, iþlerini bilmedikleri yeni bir yolla yapmaya direnç göstermektedirler. 
+2.Çalýþanlarda iþlerini, sahip olduklarý gücü veya organizasyon içerisindeki etkilerini kaybetme korkusu yaþamaktadýrlar. 
+3.Çalýþanlarda sistemin kötü tasarlandýðý veya kullanýmýnýn zor olduðu düþüncesi oluþmaktadýr. 
+4. Kullanýcýnýn katýlým isteksizliði oluþmaktadýr. 
+
+5. 
+Kullanýcýnýn yeni sisteme karþý direnci ve motivasyon düþüklüðü oluþmaktadýr. 
+
+6. 
+Bilgi sistemi personeli ile kullanýcýlar arasýnda dil farklýlýklarý nedeni zorluklar yaþanmaktadýr. 
+
+7. 
+Kurulacak sistemin kullanýcýdan daha geliþmiþolmasý durumuyla karþýlaþýlmaktadýr. 
+
+
+Bu araþtýrmadan elde edilen diðer bir sonuç ise kritik sorunlarýn yaþandýðý modüllerin Finans/Muhasebe, Satýþ/Daðýtým, Satýnalma, Veri Ambarý/Veri Merkezleri, Malzeme Ýhtiyaçlarý Planlamasý (MRP) olduðu ortaya çýkmýþtýr. Ayný zamanda en çok sorun yaþanan modüllerin Malzeme Ýhtiyaç Planlamasý(MRP) ve Kalite Kontrol olduðu ve en az sorun yaþanan modülün ise Satýnalma olduðu söylenebilir. 
+Bu çalýþmada kritik sorunlarýn yaþandýðý modüllerdeki problemlerin çözümünde kullanýlan yöntemler bulanýk mantýk yaklaþýmýyla analiz edilmiþtir. Analiz çalýþmasýnda dilsel deðiþkenlerin kullanýldýðý sezgisel algoritmadan faydalanýlmýþtýr. Bu analiz sonucunda KKP’nin modüllerinde yaþanan sorunlarýn çözümü için danýþman þirketlerin, þirket içi personele göre daha etkin bir kaynak olduðu görülmüþtür. Ancak çýkan sonuçlar oldukça yakýn olduðu için kesin bir yargýya varmak mümkün olmamýþtýr. 
+Sonuç olarak iþletmelerdeki KKP yazýlým sistemlerinin sorunsuz olarak kurulmasýný ve iþletilmesini beklemek yanlýþ ve gerçeklerden uzak olur. Bu araþtýrma göstermektedir ki çeþitli büyüklükteki iþletmeler ayný problemleri belirli oranlarda yaþamaktadýr. Ancak KKP’lerde yaþanan problemlerin iyi analiz edilerek, tüm sisteme olan etkisini minimuma çekmek mümkündür. Þirketlerin bu yöndeki çalýþmalara önem vermesi ve desteklemesi iþletme için fayda saðlayacaktýr. 
+
+
+
+KAYNAKLAR 
+1.	
+http://www.e-cozumevi.com/erp.html (16.03.2004). 
+
+2.	
+Akça, U., Kurumsal yönetim sistemleri bilgi paylaþým sitesi, http://www.erpcrm.com (15.03.2004). 
+
+3.	
+http://www.iletisimbilgisayar.com/mrperp.html (13.03.2004). 
+
+4.	
+Yegül, F., Kurumsal kaynak planlama (KKP) ve Türkiye’deki uygulamalarý, Yüksek Lisans Tezi, Gazi Üniversitesi, Fen Bilimleri Enstitüsü, 2003. 
+
+5.	
+Tinham, B., ERP what next?, 
+
+
+http://www.absoft.co.uk/absoft/web/site/ NewsEvents/newsarchive/News_01_05_04_asp.h tml (01.07.2004). 
+6.	
+http://iktisat.uludag.edu.tr/dergi/7/baki/baki.html (15.03.2004). 
+
+7.	
+Holland, C. P., Light, B., A critical success factors model for ERP implementation, IEEE Software, Manchester, 30-36, 1999. 
+
+8.	
+Mabert, A. M., Soni, A. and Venkataramanan M. A., Enterprise resource planning: common myths versus evolving reality, Business Horizons, Bloomington, 69-76, 2001. 
+
+9.	
+Gupta, A., Enterprise resource planning: the emerging organizational value systems, Industrial Management and Data Systems, New Delhi, 114-118, 2000. 
+
+10.	
+Zimmermann, H. J., Fuzzy set theory and its applications 2nd ed., Kluwer Academic Publishers, Boston, 1-47, 241-272, 1991. 
+
+11.	
+Zadeh, L. A.,The concept of a linguistic variable and its application to approximate reasoning, Information Science, Berkeley, 199­250, 301-35, 1975. 
+
+12.	
+Nalbant, M., ZÝS 1996 birinci ulusal zeki imalat sistemleri sempozyum bildiriler kitabý, Birinci Ulusal Zeki Ýmalat Sistemleri Sempozyumu, Sakarya, 103-116, 1996. 
+
+13.	
+Sanchez, E., Fuzzy automata and decision processes, North-Holland Publ. Comp., Amsterdam, 221-234, 1977. 
+
+14.	
+Bingi, P., Godla, J. K., Sharma, M. K., Critical issues affecting an ERP implementation, Information Systems Management, Atlanta, 7-15, 1999. 
+
+15.	
+Erdem, S. K., Kurumsal kaynak planlamasý(ERP) kullanýcýsý iþletmelerin memnu­niyetlerini ölçmeye yönelik bir araþtýrma, Yüksek Lisans Tezi, Ýstanbul Üniversitesi, Sosyal Bilimler Enstitüsü, 12-19, 2002. 
+
+16.	
+Gottwald, S., Bandemer, H., Fuzzy sets, fuzzy logic fuzzy methods with applications, John Wiley and Sons Ltd., West Sussex, 1-27, 1995. 
+
+17.	
+http://www.erpassist.com (01.04.2004). 
+
+18.	
+http://www.infotechtrends.com (13.03.2004). 
+
+19.	
+http://www.oracle.com (20.04.2004). 
+
+20.	
+http://www.sap.com.tr (20.04.2004). 
+
+21.	
+Türkbey, O., Makina sýralama problemlerinde çok amaçlý bulanýk küme yaklaþýmý, GaziÜniversitesi Mühendislik Mimarlýk Fakültesi Der., 63-77, 2003. 
+
+22.	
+Tinham, B., The MRP/ERP user satisfaction survey 1999, Manufacturing Computer Solutions, Manchester, 19-29, 1999. 
+
+23.	
+Yegül, F., Türkiye’de ERP uygulamalarýdeðerlendirme anketi, Gazi Üniversitesi Fen Bilimleri Enstitüsü, 2003. 
+
+24.	
+Zadeh, L. A., Fuzzy sets, Information and Control, Berkeley, 338-353, 1965. 
+
+
+
+
+

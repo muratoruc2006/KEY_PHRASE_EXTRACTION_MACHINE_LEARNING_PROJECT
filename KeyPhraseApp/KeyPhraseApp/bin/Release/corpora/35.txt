@@ -1,0 +1,218 @@
+KAZANALTI KÜLÜ ÝLE BRÝKET ÜRETÝMÝ
+Ýsa YÜKSEL, Ömer ÖZKAN,* ve Turhan BÝLÝR 
+Ýnþaat Mühendisliði Böl., Mühendislik Fak., Zonguldak Karaelmas Üniv., Merkez Kampus 67100, Zonguldak 
+* Teknik Programlar Bölümü, Alaplý Meslek Yüksekokulu, Zonguldak Karaelmas Üniv., Alaplý, Zonguldak 
+yuksel@karaelmas.edu.tr , omerozkan@hotmail.com , turhanbilir@hotmail.com 
+(Geliþ/Received: 01.06.2005; Kabul/Accepted: 04.10.2005) 
+ÖZET 
+Kazan altý külü (KAK), termik santrallerde kömürün yanmasýile ortaya çýkan bir atýktýr. Ülkemizde bu atýðýn kullaným alanýbulunmamakta ve depolanmasý her geçen gün yüksek maliyetler gerektirmektedir. Bu çalýþmada KAK’ýn briket üretiminde, ince agrega olarak deðerlendirilme olanaðý araþtýrýlmýþtýr. Araþtýrma iki kademeden oluþmaktadýr. Birinci kademe KAK’nün kum ile yer deðiþtirmesinin deneysel olarak incelenmesidir. Bu kademede, KAK kum ile çeþitli oranlarda hacimce yer deðiþtirilerek TS406’ya uygun olarak bir sýra boþluklu beton briket numuneleri üretilmiþtir. Üretilen numunelerle birim hacim aðýrlýðý, basýnç dayanýmý ve dona dayanýklýlýk deneyleri yapýlmýþtýr. Ýkinci kademe KAK yer deðiþtirmeli briketlerin maliyet analizleri, hafifliði ve bunlara iliþkin örnek uygulama sonuçlarýndan oluþmaktadýr. KAK yer deðiþtirmeli briketlerin basýnç dayanýmý ve donma-çözülme dayanýklýlýðý düþmekle birlikte ilgili standardýn öngördüðü en düþük koþullarýsaðlayan briket üretilebilmektedir. Bununla birlikte, maliyetinin düþüklüðü, çevreci bir yaný olmasý, yapýaðýrlýðýný düþürmesi gibi önemli sayýlan olumlu sonuçlara da ulaþýlmýþtýr. 
+
+1. GÝRÝÞiçeren beton teknolojilerin çaðdaþ tasarým kriterleri 
+bakýmýndan karmaþýk olmayan, malzeme ve servis Dünyada sürdürülebilir bir gelecek için geliþtirilen maliyetleri düþük, çevre dostu ve beton endüstrisine endüstriyel ekoloji kavramýna göre bir endüstrinin yan etkisi yüksektir. ürünü bir baþka endüstride hammadde olarak kullanýlabilir. Böylece iki endüstrinin çevreye olan Briket Anadolu’da hemen her yerde üretilen ve yoðun zararlarý azaltýlabilir [1]. Beton teknolojilerinin olarak kullanýlan bir yapý malzemesidir. Kum, ince geliþtirilmesinde ürünün imalat ve malzeme çakýl, çimento ve su ile briket makineleri kullanýlarak maliyetleri, dayanýklýlýðý ve çevreyle dost olma koþulu üretilmekte ve açýk havada kurutulmaktadýr. Üretimi üç önemli kriter olarak kullanýlmaya baþlanmýþtýr [2]. için karmaþýk bir prosedür ve teknolojiye gerek Yüksek hacimde uçucu kül ve yüksek fýrýn cürufu yoktur. Anadolu’da, özellikle kýrsal kesimden þehirlere kadar hemen her yerde bahçe duvarý, ahýr, ev, vb. yapýlarda duvar malzemesi olarak kullanýlmaktadýr. 
+Kazan altý külü (KAK) ise termik santrallerde yanan kömürden geriye kalan kül olup bir tür endüstriyel katý atýktýr. Yakýlan kömür miktarýnýn yaklaþýk % 20­25’i kadar kül ortaya çýkmaktadýr. Bu külün halen belirli bir kullaným alaný olmayýp depo alanlarýnda depolanmakta veya bulamaç halinde denize boþaltýlmaktadýr. Her iki durumda da çevre kirliliði yaratmaktadýr. Yalnýzca ABD’de termik santrallerde yýlda yaklaþýk 130 milyon ton kül (KAK ve uçucu kül) ortaya çýkmaktadýr.Bunun dörtte biri kullanýlmakta kalan kýsmý atýk olarak kalmaktadýr. Türkiye’den bir örnek vermek gerekirse yalnýzca Çatalaðzý Termik Santralý’nda yaklaþýk 57400 ton/yýl KAK ortaya çýkmaktadýr. Türkiye’de halen faal olarak çalýþan ve ülke geneline yayýlmýþ 10’dan fazla termik santral mevcuttur. Dolayýsýyla her yýl termik santrallerde kömürün yanmasýyla çok büyük miktarlarda KAK atýk olarak ortaya çýkmaktadýr. Bu atýðýn depolanmasýnýn da bir maliyeti vardýr ve depolama nihai bir çözüm olarak gözükmemektedir. Bu nedenle endüstriyel ekoloji kavramý içerisinde bu atýða yeni kullaným alanlarý geliþtirilmesi gereklidir.  
+Türkiye’de duvarlar için beton bloklar ve briketlerin sýnýflandýrýlma, muayene ve deneyleri TS406 [3]’ya göre yapýlmaktadýr. Bu standartta briketler birim hacim aðýrlýðýna göre 12 sýnýfa ayrýlmakta, basýnç dayanýmlarýna göre de 4 sýnýfa ayrýlmýþtýr. Bunlardan en düþük türün (BB2) ortalama basýnç dayanýmý 2.5 MPa; en yüksek türün (BB12) ortalama basýnç dayanýmý 15 MPa olmasý öngörülmektedir (Tablo 1).  
+Görüldüðü gibi briketlerde basýnç dayanýmý yönünden yüksek deðerler gerekmemektedir. Bu durum söz ko­nusu atýklarýn brikette agrega olarak kullanýlmasý halinde olasýbasýnç dayanýmýdüþüþleri için bir avantajdýr. 
+Ülkemizde ve dünyada, bu ve benzer atýklarýn çeþitli yapý malzemeleri ve yapý elemanlarý üretiminde kulla­nýlarak deðerlendirilebileceðine iliþkin çalýþmalar yapýlmaktadýr. Bu amaçla araþtýrmacýlar, uçucu kül ve kazan altý külünün beton üretiminde mineral katký ya da agrega olarak kullanarak beton üzerindeki etki­lerini incelemiþlerdir [4, 9].  
+Poon vd. [10] tarafýndan yapýlan bir çalýþmada inþaat ve yýkýk bina artýklarýnýn ince ve kaba agrega yerine 
+Tablo 1. TS 406’ya göre briketlerin basýnç dayanýmý
+sýnýflarý ve sýnýr deðerleri 
+Türler  Basýnç dayanýmý (MPa)  
+En küçük ortalama deðer  En küçük tekil deðer  
+BB2  2.5  2.0  
+BB4  5.0  4.0  
+BB6  7.5  6.0  
+BB12  15.0  12.0  
+
+Kazanaltý Külü ile Briket Üretimi 
+kullanýlarak uçucu kül katkýlý ve katkýsýz olmak üzere iki kategoride beton briket üretimi yapýlmýþtýr. Buna göre, % 50 yer deðiþtirme oranýna kadar basýnç dayanýmýnýn kontrol numunelerine göre fazla etkilenmediði, uçucu kül katkýlý ve % 100 yer deðiþtirmeli numunelerde 49 MPa basýnç dayanýmýna ulaþýldýðý bildirilmiþtir. Won vd. [11] tarafýndan yapýlan bir çalýþmada  da kazanaltý külü ve uçucu kül karýþýmlarý üzerinde geçirgenlik, ýslanma-kuruma, donma-çözülme deneyleri yapmýþlar ve bu karýþýmlarýn düþük dayanýmlý elemanlar üretimine uygun olduðu rapor edilmiþtir. Kazanaltý külünün beton özellikleri üzerine etkisini araþtýran Bai vd. [12] % 30 dan % 100 ‘e kadar çeþitli oranlarda kazanaltýkülünü  doðal kumla yer deðiþtirmiþlerdir. Erken dönemde basýnç dayanýmýnýn düþük olduðunu, uzun vadede normal olduðunu, iþlenebilirliðin arttýðýný, karbonatlaþma ve su emmenin arttýðýný, klorür geçirgenliðinin azaldýðýný bildirmiþlerdir. Benzer þekilde Bertolini vd. [13] çöp yakma fýrýný küllerini betonda mineral katký olarak kullanmýþlar ve puzolanik özelliklerinin iyi olduðunu, dayaným artýþýsaðladýðýný ve geçirimliliði azalttýðýný belirtmiþlerdir. 
+Fiziksel ve kimyasal özellikleri yönünden uçucu kül ile çok büyük farký olmayan KAK’nün de çeþitli beton elemanlar üretiminde kum ile yer deðiþtirebileceði görülmektedir. 
+Bai vd. tarafýndan yapýlan bir çalýþmada ince agrega olarak KAK kullanýlan betonun dayaným ve büzülme özellikleri incelenmiþtir. Buna göre % 30 oranýnda KAK betonun büzülme ve dayaným özelliklerine olumsuz etki etmeden ince agrega yerine kullanýlabilmektedir [12]. 
+Bu çalýþmada, Çatalaðzý Termik Santrali KAK’nün briket imalatýnda kum yerine kýsmi kullaným potansi­yeli incelenmiþtir. Briket betonunda seçilen oranlarda KAK kum ile yer deðiþtirilerek numuneler üretilmiþ ve bu numuneler üzerinde TS 406’da [14] yer alan de­neyler (birim hacim aðýrlýðý, basýnç dayanýmý, donma ­çözülme) yapýlmýþtýr. Ayrýca, üretilen briketlerin mali­yet analizleri ve hafifliði nedeniyle yapýlara kazandýra­caðý olumlu özellikleri de vurgulanmýþtýr. Böylece bu atýða olasý bir kullaným alan geliþtirilmesine katkýda bulunulmasý amaçlanmýþtýr. Bu atýðýn bir yerde depo­lanmak suretiyle biriktirilmesi yerine, bulunduðu bölge içinde, küçük iþletmelerce kullanýlarak ekono­mik bir deðer kazanmasý ve doðal bir malzemenin yerine kullanýlmasýyla sürdürülebilirliðe ve bölgesel ekonomiye katký saðlanmasý amaçlanmaktadýr. 
+
+
+2. MALZEME VE YÖNTEM 
+Bu çalýþmada TS EN 197-1’e [15] uygun PÇ 42.5 Portland çimentosu kullanýlmýþtýr. Ýri ve ince agrega Filyos Çay’ýndan temin edilmiþ doðal agregadýr. Ýri agrega olarak 7-15 mm, ince agrega olarak da 0-4 mm ve 4-7 mm boyutlarýnda doðal agrega kullanýlmýþtýr. KAK, Çatalaðzý Termik Santralý’ndan temin edilmiþtir. Kullanýlan agregalarýn fiziksel özellikleri 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+Tablo 2. Agrega fiziksel özellikleri 
+Özellik  Birimi  Ýri agrega (7-15 mm)  Ýnce agrega (0-7 mm)  
+Gevþek birim að.  kg/m3  1850  1930  
+Sýkýþýk birim að.  kg/m3  1910  1950  
+Özgül aðýrlýk  2.64  2.68  
+Su emme oraný  %  2.80  11.30  
+Aþýnma  %  26.00  - 
+Ufalanma oraný  %  9.10  - 
+Kil miktarý  %  0.24  7.00  
+Yanýcý madde oraný %  5.20  5.00  
+Ýnce madde oraný %  2.00  4.00  
+Organik madde (NaOH çöz. ile)  Renk  - Açýk Sarý 
+
+Tablo 2’de, KAK’nün bazý fiziksel ve kimyasal özellikleri de Tablo 3’te verilmektedir. 
+Çalýþmada kullanýlan iri ve ince agrega ve KAK’nün elek analizi deneyi sonucunda ortaya çýkan granü­lometri eðrileri Þekil 1’de gösterilmiþtir.  
+TS 802’ye [16] uygun olarak briket betonu için C16 düzeyinde beton üretilmesi hedeflenmiþtir. Tablo 4’te briket betonu karýþým oranlarý verilmiþtir. 
+Briket karýþýmýnda iki sýnýf doðal ince agrega (0-4 mm ve 4-7 mm) kullanýlmýþtýr. Karýþýmda 0-4 mm agrega sýrasýyla ve hacimce % 20, 30, 40, 50 oranlarýnda KAK ile yer deðiþtirilmiþtir. Briket deneylerinde her bir yer deðiþtirme oraný için 390x150x185 mm ölçülerinde 
+Tablo 3. KAK’nün bazý fiziksel ve kimyasal özellikleri 
+Özellik  Birimi  Deðer  
+Gevþek birim að.  kg/m3  620  
+Özgül aðýrlýk  1.39  
+Kil miktarý  %  2.00  
+Su emme oraný  %  12.10  
+Ýnce madde oraný  %  7.00  
+Kýzdýrma kaybý  %  1.67  
+Yoðunluk  g/cm3  2.59  
+45 mikron elek bakiyesi  %  25.8  
+7 Günlük aktivite indeksi  %  76.9  
+28 Günlük aktivite indeksi  %  85.7  
+90 Günlük aktivite indeksi  %  100  
+SO3 - %  0.08  
+Cl­ %  0.0064  
+Serbest CaO  %  0.00  
+SiO2  %  57.90  
+CaO  %  2.00  
+MgO  %  3.20  
+Al2O3  %  22.60  
+Fe2O3  %  6.50  
+K2O  %  0.604  
+
+üretilen 10’ar adet numune kullanýlmýþtýr. Þekil 2’de bu çalýþmada üretilen bir briket numunesi görülmektedir. 
+Numunelerin birim hacim aðýrlýðý, basýnç dayanýmý ve donma-çözülme deneyleri TS406 [14]’ya göre yapýlmýþ­týr. Her bir numune grubu 3 adet numuneden oluþturul­muþ ve bu 3 numunenin ortalamasý dikkate alýnmýþtýr. 
+Basýnç dayanýmý deneyi 200 ton kapasiteli kuvvet kontrollü bir pres vasýtasýyla yapýlmýþtýr. Deneyden önce 
+
+
+Þekil 1. Agrega ve KAK granülometri eðrileri 
+Kodu  0-4 mm  4-7 mm  KAK  Çim.  Su  
+agr. (kg)  agr. (kg)  (kg)  (kg)  (lt.)  
+Br00  1389.6  0.00  362  192  
+Br20  1111.6  146.3  
+Br30  972.7  488.3  219.5  
+Br40  833.7  292.6  
+Br50  694.8  365.8  
+
+
+numunenin basýnç uygulanacak yüzü baþlýk yapýlarak düzlem haline getirilmiþtir. Bunun için 1/1 oranla­rýnda çimento ve ince kum karýþýmýndan harç hazýrlanmýþ ve yaklaþýk 3-4 cm kalýnlýðýnda harç yüzeye uygulanmýþtýr. Bu esnada, briketin delikleri buruþturulmuþ kaðýt parçalarý ile doldurulmuþtur. Yüzeye uygulanan harcýn sertleþmesi için 7 gün boyunca ýslak bez ile üzeri örtülmüþtür. Deneye hazýr hale gelen numuneler preste ortalama 1 dakika içinde kýrýlacak þekilde yüklenerek kýrýlmýþtýr. Dona dayanýklýlýk deneyinde 1 çevrim -18 0C de 4 saatte havada donma ve +20 0C’de 4 saatte suda çözülmeden ibarettir. Bu çevrim 25 defa tekrar edilmiþ ve ardýndan numunelere basýnç deneyi uygulanmýþtýr. 
+
+
+3. DENEY SONUÇLARI VE TARTIÞMA 
+Üretilen briket numunelerine birim hacim aðýrlýðý, ba­sýnç dayanýmýve donma-çözülme deneyleri uygulan­mýþtýr. Þekil 3’te görüldüðü gibi KAK/Kum oraný art­
+1,4 
+1,2 
+1 
+0,8 
+0,6 
+0,4 
+0,2 
+0 
+Birim hacim að. (gr/cm3) 
+Kazanaltý Külü ile Briket Üretimi 
+týkça briketin birim hacim aðýrlýðý beklendiði þekilde doðrusal olarak azalmaktadýr. Bunun temel nedeni KAK ve kum arasýndaki birim hacim aðýrlýðý farklý­lýðýdýr. KAK birim hacim aðýrlýðý ince agrega birim hacim aðýrlýðýna göre daha düþüktür. Bu da KAK/Kum oraný arttýkça daha hafif beton üretilmesine olanak saðlamaktadýr. 
+Þekil 4’te donma-çözülme etkisinden önce ve sonrasýiçin briket basýnç dayaným deneyi sonuçlarý ve bazýsýnýflar için standardýn (TS 406) önkoþul olarak aradýðý basýnç dayaným deðerleri gösterilmektedir. KAK/Kum oraný arttýkça basýnç dayanýmýdüþmektedir. Buna raðmen, þahit ve % 20 KAK yer deðiþtirme oranýna sahip numuneler BB4 sýnýfýna, % 30 KAK yer deðiþtirme oranýna sahip numuneler ise BB2 sýnýfýna girmiþtir. Ancak, % 40 ve % 50 KAK yer deðiþtirme oranýna sahip numuneler standardýn BB2 sýnýfý için öngördüðü en düþük dayaným koþulunu saðlayamamýþtýr. Bu sonuçlara göre, dayaným açýsýndan BB2 sýnýfý veya üzeri briket elde edebilmek için KAK/Kum yer deðiþtirme oraný % 30’u aþmamalýdýr. 
+KAK yapýsý itibariyle düzensiz ve kaba taneli bir mal­zemedir [12]. Brikette boþluk oranýný artýrmýþ ve buna baðlý olarak basýnç dayanýmýný düþürmüþtür. Karýþým­da su/çimento oranýnýn (0.53) da yüksek seçilmiþolmasý boþluk oranýný daha fazla arttýrmýþtýr. Fakat bu durum karýþým hesabýnda C16 gibi düþük dayaným deðerlerinin hedeflenmesinden ileri gelmektedir. Briket, üretim sýrasýnda preslenmiþ olmasýna raðmen boþluk oraný çok fazla düþürülememiþtir. Bunun da nedeni KAK’nün yapýsýnda boþluklarýn olmasýdýr. Diðer yandan, içinde KAK bulunan betonlarýn dayaným kazanma hýzýnýn normal betona göre düþük olduðu da bilinmektedir [12]. Briket numunelerinin basýnç dayanýmlarý  ilgili standart gereði 28. günde ölçülmüþtür. Geç dayaným kazanmaktan ileri gelen dayaným düþüþleri sonuca yansýmýþtýr. 
+
+
+Þekil 3. Briket birim hacim aðýrlýðý deney sonuçlarý
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+Basýnç dayanýmý (MPa) 
+8 7 6 5 4 3 2 1 0 
+
+
+0 10 20 30 40 50 KAK yer deðiþtirme oraný (%) 
+Þekil 4. Briket basýnç dayanýmý deney sonuçlarý
+Briket donma-çözülme dayanýklýlýðý basýnç dayaný­mýndaki deðiþimler kontrol edilerek incelenmiþtir. Bu nedenle, numunelere donma-çözülme çevrimlerinden sonra basýnç deneyi uygulanmýþtýr. Elde edilen sonuçlar Þekil 4’te gösterilmiþtir. 
+KAK/Kum yer deðiþtirme oraný arttýkça donma­çözülme etkisi neticesinde elde edilen basýnç daya­nýmlarý donma-çözülme öncesi dayanýmlara paralel olarak azalmaktadýr. Aradaki bu fark donma-çözülme etkisinden ileri gelen düþüþü ifade etmektedir. 
+Þekil 4’te KAK/Kum oranýnýn artmasýyla donma­çözülmeye baðlý dayaným kaybýnýn arttýðý görülmek­tedir. Ancak ilgili standartta normal briketler için % 25’e kadar dayaným kaybýna izin verildiði ve % 50 KAK/Kum oraný için bile bu sýnýrýn hala aþýlmadýðýdikkate alýnýrsa KAK’nün kum ile yer deðiþtirmesinin donma-çözülme dayanýklýlýðýna standartta (TS 406) izin verilenden daha fazla olumsuz etkisi olmadýðýsonucu ortaya çýkar. 
+Briket numunelerine uygulanan deneylerin topluca deðerlendirilmesinden; kum ile KAK’nün yer deðiþtirmesiyle birim hacim aðýrlýðýnýn azalmasý, dayaným yönünden % 30, donma-çözülme etkisi bakýmýndan % 50, dayaným ve donma-çözülmenin birlikte düþünülmesiyle yaklaþýk olarak % 30 civarýnda bir yer deðiþtirme oraný uygun görülmektedir. % 30’luk bir yer deðiþtirme oranýyla birim hacim aðýrlýðýnda % 21 düzeyinde bir azalma gerçekleþmektedir. Hem de birim imalatta doðal kumdan % 23,5 oranýnda tasarruf edilmekte, buna karþýn henüz kullaným alaný olmayan bir atýk deðerlendirilmiþ olmaktadýr. 
+KAK yer deðiþtirmesiyle üretilen briketin Bayýndýrlýk ve Ýskan Bakanlýðý birim fiyatlarýna göre analizi yapýlmýþtýr. Analiz neticesinde, seçilen oranlarda KAK yer deðiþtirmeli briketlerin birim fiyat ve aðýrlýklarý ile bunlarýn referansa göre baðýl deðerleri hesaplanmýþtýr (Tablo 5). Örnek olarak seçilen 100 m2’lik tek katlý bir yapýda (köy evi) ortalama 2500 adet briket kullanýlmaktadýr. KAK’nün birim aðýr­lýðýnýn doðal kuma göre % 40 civarýnda düþük olmasýyapýdaki duvar aðýrlýðýnda azýmsanmayacak bir düþüþe neden olmaktadýr (Tablo 5). KAK’nün kay­naðý termik santraller olduðundan santralden uzaklaþ­týkça birim maliyetin nakliye nedeniyle artacaðýaçýktýr. Üretim yeri-agrega ocaðý  ve üretim yeri­termik santral uzaklýklarý yaklaþýk eþit olmalýdýr. Bu yüzden, söz konusu KAK yer deðiþtirmeli üretimlerin bölgesel bazda deðerlendirilmesi daha uygun olur. Tablo 5’teki birim fiyatlar KAK’nün santral çýkýþfiyatýnýn 2 YTL/m3 kabul edilmesiyle elde edilmiþtir. Halen belirli bir müþteri ve satýþ potansiyeli olan sepere edilmiþ uçucu külün rayiç fiyatý 8 YTL/m3 civarýndadýr. Buna karþýlýk 7 mm’ye kadar ince agrega birim fiyatý ocakta 12.5 YTL/m3’tür. KAK’nün satýþ fiyatýnýn üst sýnýrý uçucu külden daha fazla olmasý beklenmediðinden doðal ince agregaya göre daima birim fiyat avantajý olduðu görülür. 
+Tablo 5. Yer deðiþtirme oranýna göre birim aðýrlýk 
+ve birim fiyat deðiþimleri KAK’nün briket yapýmalzemesi olarak kullanýmýnda birim aðýrlýðýndan dolayý sývanmamýþ duvar ölü aðýrlýðýnda % 30’a kadar azalma olduðu açýkça görülmektedir. Yapý aðýrlýðýnýn özellikle deprem yükleri ile doðrudan iliþkili olduðu gerçeði de göz önüne alýnýrsa bu önemli bir kazanýmdýr. Buna ek olarak; briket birim maliyetinde, KAK yer deðiþtirme oranýna göre % 2.2’den % 5.5’ varan oranlarda düþüþgörülmektedir. Böylece, daha ucuz malzeme üretimi saðlanarak duvar aðýrlýðý azaltýlmýþ olacak ve halen kullanýlmayan bir atýk da deðerlendirilerek ekonomik ve çevresel kazançlar elde edilebilecektir. Öte yandan, bu çalýþmanýn konusu dýþýnda olmakla birlikte KAK yer deðiþtirmeli briketlerin ýsý geçirgenlik katsayýlarý­nýn da düþük olacaðý tahmin edilmektedir. Konunun bu baðlamda ayrýca incelenmesi önerilmektedir.  
+KAK yer deð. oraný Briketin B.Fiy. (YTL)  100 m2  yapýdaki briketin  
+Top. Fiy. (YTL)  Baðýl fiyat (YTL)  Baðýl birim að. (gr/cm3)  
+% 0 (Ref.)  0.458  1.145  1.000  1.000  
+% 20  0.448  1.120  0.978  0.871  
+% 30  0.443  1.108  0.967  0.788  
+% 40  0.438  1.095  0.956  0.750  
+% 50  0.433  1.083  0.945  0.705  
+
+
+
+4. SONUÇLAR 
+Bu çalýþmada, KAK’nün briket üretiminde kýsmen ince agrega olarak deðerlendirme olanaðý araþtýrýlmýþtýr. KAK kumla çeþitli oranlarda yer deðiþtirilerek briket numuneleri üretilmiþ ve çeþitli deneyler uygulanmýþtýr. Deney sonuçlarýndan aþaðýdaki bulgulara ulaþýlmýþtýr. 
+• 
+KAK/Kum oranýnýn artmasý basýnç dayanýmýnýdüþürmektedir. Bunun baþlýca nedeni KAK’nün brikette neden olduðu boþluklu yapýdýr. Buna raðmen, numuneler % 20 yer deðiþtirme oraný için TS406’daki BB4 sýnýfýna, % 30 yer deðiþtirme oranýiçin de BB2 sýnýfýna girmektedir. 
+
+• 
+KAK yer deðiþtirmesi birim hacim aðýrlýðýnýdüþürmektedir. Düþüþ oraný, % 50 yer deðiþtirme oraný için % 29.55’e ulaþmaktadýr. 
+
+• 
+Yer deðiþtirme oraný arttýkça donma-çözülme dayanýklýlýðý azalmakta; fakat, dayaným kaybý hýzýdüþmektedir. TS406’da verilen kabul edilebilir en büyük dayaným kaybý sýnýrý aþýlmamýþtýr. 
+
+• 
+KAK yer deðiþtirme oraný arttýkça birim maliyet azalmaktadýr. 
+
+• 
+KAK yer deðiþtirme oraný arttýkça eleman aðýrlýðýnda % 30’a varan önemli düþüþler gözlenmiþtir. 
+
+• 
+Aðýrlýðýnýn ve maliyetinin azalmasý, çevreyle dost bir ürün olmasý, ilgili standardýn öngördüðü koþullarý saðlamasý ve bir atýðýn ekonomik olarak deðerlendirilmesine olanak verdiði için briket yapýmýnda % 30 oranýna kadar doðal kum yerine KAK yer deðiþtirmesi uygun görünmektedir. 
+
+
+
+TEÞEKKÜR 
+Yazarlar, deneysel çalýþmalarda kullanýlan malzeme­lerin temininde ve deneylerin gerçekleþtirilmesindeki katkýlarýndan dolayý, Zonguldak-Kilimli Belediye Baþkanlýðý’na ve ÇATES Ýþletme Müdürlüðü’ne teþekkür etmektedirler. 
+Kazanaltý Külü ile Briket Üretimi 
+
+KAYNAKLAR 
+1.	
+Mehta, P. K., “Reducing the Environmental Impact of Concrete”, Concrete International, Cilt 23, No 10, 61-65, 2001. 
+
+2.	
+Mehta, P. K., “Advancements in Concrete Technology”, Concrete International, Cilt 21, No 6, 27-33, 1999. 
+
+3.	
+TS 406, “Beton Bloklar-Briketler-Duvarlar Ýçin”, Türk Standartlarý Enstitüsü, Ankara, 1988. 
+
+4.	
+Kula, I., Olgun, A., Erdoðan, Y., Sevinç, V., “Effects of Colemanite Waste, Cool Bottom Ash and Fly Ash on the Properties of Cement”, Cement and Concrete Research, Cilt 31, No 3, 491-492, 2001. 
+
+5.	
+ Yüksel, Ý., Özkan, Ö., Bilir, T., “Granüle Yüksek Fýrýn Cürufunun Betonda Ýnce Agrega Olarak Kullanýmý”, 5. Ulusal Beton Kongresi, Cemal Reþit Rey Konser Salonu, Ýstanbul, 471-482, 1-3 Ekim 2003. 
+
+6.	
+Topçu, I., B., and Canbaz, M., “Properties of Concrete Containing Waste Glass”, Cement and Concrete Research, Cilt 34, No 2, 267-274, 2004. 
+
+7.	
+Deja, J., “Freezing and De-Icing Salt Resistance of Blast Furnace Slag Concretes”, Cement & Concrete Composites, Cilt 25, No 3, 357-361, 2003. 
+
+8.	
+Li, G., and Zhao, X., “Properties of Concrete Incorporating Fly Ash and Ground Granulated Blast-Furnace Slag”, Cement & Concrete Composites, Cilt 25, No 3, 293-299, 2003. 
+
+9. 	
+Basheer, P.A.M.., Gilleece, P.R.V., Long, A.E., and Mc Carter, W. J., “Monitoring Electrical Resistance of Concretes Containing Alternative Cementitious Materials to Assess Their Resistance to Chroride Penetration”, Cement & Concrete Composites, Cilt 24, No 5, 437-449, 2002. 
+
+10. 
+Poon, C.,S., Kou, S.,C., Lam, L., “Use of Recycled Aggregates in Molded Concrete Bricks and Blocks”, Construction and Building Materials, Cilt 16, No 2, 281–289, 2002. 
+
+11. 
+Won, J. P., Lee, Y. S., Park, C. G.Park, H. G., “Durability Characteristics of Controlled Low-Strength Materials Containing Recycled Bottom Ash”, Magazine of Concrete Research, Cilt 64, No 7 429–436, 2004. 
+
+12. 
+Bai, Y., Darcy, F., Basheer, P.A.M., Strength and Drying Shrinkage Properties of Concrete Containing Furnace Bottom Ash as Fine Aggregate, Construction and Building Materials, Vol.19, No. 9, 691-697, 2005. 
+
+13. 
+Bertolini, L., Carsana, M.,Cassago, D.,Curzio, A. Q., Collepardi, M., MSWI Ashes as Mineral Additions in Concrete, Cement and Concrete Research, Vol. 34, No.  10, 1899–1906, 2004. 
+
+14. 
+TS 406, “Beton Bloklar-Briketler-Duvarlar Ýçin”, Türk Standartlarý Enstitüsü, Ankara, 1988. 
+
+15. 
+TS EN 197-1, “Çimento- Bölüm 1: Genel Çimentolar- Bileþim, Özellikler ve Uygunluk Kriter­leri”, Türk Standartlarý Enstitüsü, Ankara; 2002. 
+
+16. 
+TS 802, “Beton Karýþýmý Hesap Esaslarý”, Türk Standartlarý Enstitüsü, Ankara, 1985. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+
+
+

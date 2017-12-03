@@ -1,0 +1,11 @@
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Release\KeyPhraseApp.exe
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Release\KeyPhraseApp.pdb
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Release\Iesi.Collections.dll
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Release\Iesi.Collections.Generic.dll
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Release\log4net.dll
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Release\NZemberek.dll
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Release\KeyPhraseApp.fmKeyPhrase.resources
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Release\KeyPhraseApp.Properties.Resources.resources
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Release\KeyPhraseApp.csproj.GenerateResource.Cache
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Release\KeyPhraseApp.exe
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Release\KeyPhraseApp.pdb

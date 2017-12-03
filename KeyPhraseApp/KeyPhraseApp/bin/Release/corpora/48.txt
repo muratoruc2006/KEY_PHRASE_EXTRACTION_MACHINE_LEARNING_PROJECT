@@ -1,0 +1,205 @@
+GELENEKSEL TÜRK EVÝ’NDE ISIL KONFOR KOÞULLARININ ANALÝZÝ: SAFRANBOLU HACI HÜSEYÝNLER EVÝ
+Geleneksel yapýlar, bulunduklarý iklim özelliklerine baðlý olarak, en uygun malzeme ve bileþenlerle inþa edilmiþlerdir. Mekan organizasyonlarýve yönlenmeleri de yine iklim ve arsa koþullarýna baðlý olarak en doðru þekilde oluþturulmuþtur. Bugün; yeniden doðaya saygýlý, onunla uyum içinde, iklim verilerini doðru deðerlendiren ve kullanan yapý gerçekleþtirmeye çalýþýrken, yüzyýllarca deneyimlenerek oluþturulan bu yapýlaþmadan alýnmasý gereken dersler olduðu açýktýr. Bu çalýþma kapsamýnda, Safranbolu, Hacý Hüseyinler Evi için gerçekleþtirilen ve ECOTECT v5.20 isimli bir bilgisayar programý yardýmýyla yapýlan ýsýl konfor analizi ile deneme yanýlma yoluyla, ustadan çýraðýna geçen sezgisel tasarýmýn akýlcý sonuçlarýýsýl performans çerçevesinde yeniden deðerlendirilmektedir. 
+
+1. GÝRÝÞSürdürülebilirlik kavramýndan yola çýkarak, binalarýn 
+tasarým ve üretim yöntemleri yeniden sorgulanmaya Endüstri devrimi sonrasý ivme kazanan teknik ve baþlandý [1]. Bu noktada, en doðru baþlangýcýn, yerel teknolojik geliþimin her sektörde olduðu gibi, bina mimari verilerden ip uçlarý yakalamak ve bunlarýsektöründe de yarattýðý göz alýcý deðiþim, yüzyýllarýn günümüz çaðdaþ kullanýcý beklentileri ile yeniden deneyim ve birikimiyle elde edilmiþ geleneksel yapýyýyorumlamak olduðu kabul edilmektedir. birden “demode” ilan edivermiþti. Oysa, bu “modern”in, sýnýrsýz sunduðu özgürlüðün bedelleri Bu çalýþma kapsamýnda, Kuzey Anadolu’nun en eski çok geçmeden anlaþýldý; hem 1970’ledeki enerji krizi yerleþim alanlarýndan biri olan Safranbolu’nun ile bir gün kaynaklarýn tükenebileceðinin, hem de geleneksel Türk Evleri’nden biri ele alýnacaktýr. daha sonraki yýllarda dünyanýn gelecek nesillere Safranbolu Evleri’nin mekan organizasyonu, malzeme “yaþanabilir” olarak býrakýlabilmesi için çevre ve bileþen seçimleri ve yerleþim düzeninden, hem kirliliði/ekolojik denge/iklim deðiþikliðine yönelik çevresel ve iklimsel faktörlerin deðerlendirilmesi önlemlerin geliþtirilmesi gerekliliðinin farkýna varýldý. baðlamýnda, hem de yapý sistem ve bileþenlerinin 
+G. Ulukavak Harputlugil ve N. Çetintürk Geleneksel Türk Evi’nde Isýl Konfor Koþullarýnýn Analizi: Safranbolu Hacý Hüseyinler Evi 
+akýlcý kullanýmý baðlamýnda alýnacak çok ders olduðu açýktýr. 
+Reha Günay [2] da, Safranbolu Evleri’ni inceleyerek, eskinin akýlcý, tüm insana dönük deðer yargýlarýnýn anlaþýlabileceði gibi, uygarlýðýn þimdiki gidiþini de deðerlendirebilmenin mümkün olduðunu belirtmektedir.  
+2. SAFRANBOLU’YA AÝT ÝKLÝM VERÝLERÝVE YERLEÞME ÖZELLÝKLERÝ
+2.1. Ýklim Verileri 
+Safranbolu Kuzeybatý Karadeniz bölgesinde 41° 16’ kuzey enlemi, 32° 41’ doðu boylamýnda yer almaktadýr. Karadeniz’den kuþ uçumu 65 km. içeride ve denizden 400-600 m. yüksekte yerleþmiþtir. Safranbolu, Karadeniz ve Ýç Anadolu iklimi arasýnda bir geçiþ kuþaðýndadýr. Kara iklimi özelliklerinden þiddetli kýþlar ve kurak yazlar görülmez. Yaðýþlar mevsimlere daðýlmakla birlikte kara ikliminin etkisi ile en çok yýlýn ilk yarýsýnda düþer [2]. 
+
+2.2. Yerleþme 
+Safranbolu kuzeyden güneye alçalan az eðimli bir yaylanýn akarsularla yarýlmasý sonucu doðan vadiler içinde ve çevresinde yer alýr. Safranbolu’da yazlýk­kýþlýk oturma düzeni iki ayrý yerleþme oluþturmuþtur. “Þehir” denilen vadiler içindeki yerleþme yeri kýþýn oturulan bir kent parçasýdýr. Bu yerleþim, vadi içinde rüzgarlara kapalýdýr, bu yüzden kýþýn soðuk rüzgarlardan korunmuþtur, yazýn ise çok sýcak olur. Vadi yamaçlarýna yerleþen evler birbirlerini örtmeden, hem güneþten, hem manzaradan yararlanma olanaðýsunarlar (Þekil 1). Kentin en büyük yazlýk kesimi Baðlar’dýr. Bu bölge daha yüksek, güneye doðru eðimlidir. Burada yazlar daha serin geçer. Topografya burada Þehir’de olduðu kadar çeþitlilik göstermez [2]. 
+
+
+
+
+3. HACI HÜSEYÝNLER EVÝ
+Safranbolu’nun Þehir kesiminde, Akçasu Mahallesi Ulukavak Sokak’da yer alan ve “Hacý Hüseyinler Evi” olarak bilinen yapý, 1870 tarihli olup, oldukça büyük bir arsa üzerinde yerleþmektedir (Þekil 2). Binanýn toplam kullaným alaný 467.14 m2’dir. 
+
+
+3.1. Kütle Biçimlenmesi ve Mekansal Organizasyon 
+Hacý Hüseyinler Evi, sokaðýn doðal çizgisini izleyen bir duvar üzerine kurulmuþtur. Safranbolu geleneksel ev düzeninde, ev yaþantýsý dýþarýya gösterilmediði için, evlerin giriþ katlarýnýn taþ duvarlarý penceresiz olarak üst kat döþemesine kadar yükselmektedir [2]. Hacý Hüseyinler Evi’nin zemin kat giriþi de bu düzende kurgulanmýþtýr. Taþ duvarýn üzerinde ise ahþap, çýkmalý ve bol pencereli bir düzen geliþmektedir. Zemin kata, Akçasu deresine inen merdivenli yan sokaktan iki kanatlý büyük bir kapý ile girilir. Kapýdan giriþte bir taþlýk vardýr, buraya “hayat” denir. Bu katta oturulmaz, burada hayvanlar için ahýr ve samanlýk yer alýr. Buradan yarým kat yukarý çýkýlarak ulaþýlan yerde, “Kazan Ocaðý” denilen büyük bir ocak ve ambarlar vardýr. Buradan hem bahçeye bir çýkýþ bulunmaktadýr, hem de bir merdiven ile üst kat mutfaðýna bir baðlantýsaðlanmaktadýr. Yüksek duvarlarla çevrili bahçede ayrýca bir havuzlu oda yer almaktadýr. Orta kat alçak tavanlý, küçük pencereli, daha küçük odalarý olan bir kýþlýk kattýr. Mutfak burada yer alýr. Hacý Hüseyinler Evi’nin Ulukavak Sokak’tan giriþini saðlayan bir kapýda bu katta yer almaktadýr. 
+Pek çok geleneksel Türk evinde ve Safranbolu’da en çok karþýlaþýlan ev tipinde olduðu gibi, HacýHüseyinler Evi’nde de sofa, evin ortasýnda yer alýr. Bu sofaya “çardak” denir ve odalar arasý bir dolaþým alanýdýr. Çardaklý evlerde simetrik bir plan izlenir. Her oda baþlý baþýna bir birimdir. Burada oturma, çalýþma, yemek yeme, uyuma eylemleri kolaylýkla yapýlabilecek þekilde düzenlenmiþtir.  
+Köþe odalarda her yüzde üçer pencere yer alýr. Pencerelerin en dýþýnda “kara kapak” da denilen ahþap kepenk vardýr. Kepenkten sonra ahþap parmaklýklar gelir. Camlý çerçeveler dört kanat halinde içeri açýlýr. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+
+3.2. Kullanýlan Malzemeler 
+Hacý Hüseyinler Evi’nde taþ yýðma üzeri ahþap iskeletli karma bir taþýyýcý sistem kurgulanmýþtýr. Taþbir zemin kat üzerine oturtulmuþ, iki kat yüksekliðindeki ahþap taþýyýcýlarýn arasýnda kerpiç dolgu yer almaktadýr. Bina dýþarýdan kýtýklý sýva ile sývanmýþ, içeride ise, ahþap dolap, yüklük ve gusülhane kapaklarý dýþýnda kalan duvar parçalarý da yine ayný sýva ile kaplanmýþtýr. Döþemeler ahþaptýr. Tüm pencereler, ahþap doðramalý tek cam olup, sofa pencereleri dýþýndaki pencerelerin tümünde iki kanatlýahþap kepenk vardýr. Tüm iç ve dýþ kapýlar ahþaptýr. 
+
+3.3. Isýtma ve Serinletme 
+Hacý Hüseyinler Evi’nde serinletme için sadece doðal havalandýrma kullanýlýrken, ýsýtma için önceleri odalarda yer alan ocaklar kullanýlmýþ, daha sonra bu ocaklarýn bacalarýna baðlanan soba borularý ile her odaya bir soba kurularak ýsýtma saðlanmýþtýr. Bugün de evde ýsýtma için kömür sobalarý kullanýlmaktadýr. 
+
+
+
+4. HACI HÜSEYÝNLER EVÝ ISIL KONFOR ANALÝZÝ
+Yapýnýn bulunduðu yere ait iklimsel özellikler, arsanýn topografyasý, çevre yapýlarla iliþkileri, mekan 
+
+
+
+
+
+
+Þekil 4. HacýHüseyinler Evi A-A ve B-B kesitleri 
+
+Þekil 5. HacýHüseyinler Evi görünüþleri 
+G. Ulukavak Harputlugil ve N. Çetintürk Geleneksel Türk Evi’nde Isýl Konfor Koþullarýnýn Analizi: Safranbolu Hacý Hüseyinler Evi 
+
+Þekil 6. Hacý Hüseyinler Evi’nin batý ve doðu görünüþleri 
+organizasyonu, yapým sistemi, yapý kabuðunu oluþturan malzeme ve bileþenler, iç ortam ýsýl konforunu etkileyen faktörler arasýndadýr. Ýçsel ýsýkazancý düþük, günün 24 saatinde de kullanýlan konut ve benzeri yapýlarda, bu faktörlere dayalý tasarým kriterlerinin doðru kurgulanmasý ile güneþten pasif anlamda yararlanabilmeyi saðlayacak, yani ek bir mekanik sistem desteði gerektirmeyecek çözümler, yeterli düzeyde bir iç ýsýl konfor elde etmeyi saðlayabilmektedir. 
+Safranbolu’daki evlerin yerleþim düzenleri, birbirlerine göre olan konumlarý, yeþil dokuyla iliþkileri ilk bakýþta çevre ve iklime uyumun önemle göz önünde bulundurulduðunu göstermektedir. Kullanýlan bileþen ve malzemeler ile mekan organizasyonlarýnýn da yine ýsýl konforu saðlamaya dönük olarak akýlcý bir þekilde ele alýndýðýgözlenebilmektedir. Yazýn serin kalabilen yazlýk mekanlar, kýþýn ise, diðer odalara göre daha sýcak ve ýsýtýldýðýnda ýsýsýný kolay kaybetmeyen “kýþlýk oda”, tamamen sezgisel yaklaþýmlarla oluþturulmuþtur. 
+Ancak, çoðunluðu benzer malzeme ve sistemle inþa edilmiþ bu evlerin ýsýl konfor açýsýndan yaz ve kýþkoþullarýnda nasýl bir grafik izlediði, kullanýcýyý yýlýn 12 ayýnda hangi ýsýl koþullarda barýndýrdýðýnýmatematiksel olarak gösterebilmek için bir ýsýl konfor analizi gerçekleþtirmek gerekir. 
+Bu tür analizleri gerçekleþtirebilmeye yönelik bugün pek çok bilgisayar programý geliþtirilmektedir. Bu programlar içinden, Ýngiltere Cardiff Üniversitesi Mimarlýk Bölümü’nde, Dr. Andrew Marsh tarafýndan 1998 yýlýndan bu yana geliþtirilmekte olan ECOTECT programýnýn 2004 sürümü (v.5.20), Hacý Hüseyinler Evi’nin ýsýl konfor analizini gerçekleþtirmek üzere seçilmiþtir [3,4]. Program, ýsýl performans hesaplamalarý için, CIBSE Guide [5]’da tanýmlanan “Admittance Yöntemi”ni kullanmaktadýr. Bu yöntem, sürekli hal analizine dayanmakla birlikte, binanýn dinamik tepkisinin simüle edilebilmesine olanak saðlamak üzere, ýsýl performansýn belirlenmesinde, u-deðerine ek olarak admittance, yüzey faktörü ve genlik küçültme faktörünü kullanmaktadýr. 
+
+4.1. Evin Modellenmesi 
+ECOTECT, performans analizini gerçekleþtirmeye yönelik olarak öncelikle projenin 3 boyutlu grafik modellemesine gerek duymaktadýr. Bu modellemeyi gerçekleþtirmek üzere, Hacý Hüseyinler Evi’nin rölöve çizimleri yardýmýyla üç boyutlu modeli, ECOTECT programýnýn kendi çizim ortamýnda elde edilmiþtir (Þekil 7). Binanýn ýsýl simülasyonu için, üç boyutlu modellenmesinin yanýnda, mekanlarýn zonlanmasý, malzeme bilgileri ve iklim verisinin de girilmesi gerekmektedir. 
+
+4.1.1. Mekan kullanýmlarý ve ýsýl zonlar 
+Isýl performans analizi gerçekleþtirmek üzere kullanýlan yöntem ne olursa olsun, öncelikle aynýkullaným profiline sahip, ayný yöne bakan ve ýsýtma­soðutma ihtiyacý benzer mekanlarý bir araya toplayacak ve böylece bölgesel denetim gerçekleþtirebilecek bir zonlama yapmak gerekir [4].  
+Modellemeye baþlamadan önce Hacý Hüseyinler Evi mekanlarý, kullaným düzeyleri ve yönlerine göre ýsýl zonlara ayrýlmýþ; her bir zona ait kullaným saatleri, mekan tasarým sýcaklýðý, ýsýtma-soðutma sistemi ve iþletimi gibi bilgiler girilmiþtir (Tablo 1). 
+
+
+Þekil 7. ECOTECT programýnda HacýHüseyinler Evi üç boyutlu modeli 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+Bunun yanýnda, evin kullanýcýlarý tarafýndan “kýþlýk oda”, “yazlýk sofa” ve “ocaksýz” olarak nitelendirilen mekanlar vardýr. Analiz sýrasýnda bina geneli ile birlikte, mekan bazýnda sadece bu odalar ayrý ayrý deðerlendirme kapsamýna alýnmýþ; mekanlarýn bu nitelikleri ile örtüþen ýsýl karþýlýklarýolup olmadýðýna yönelik bir deðerlendirme gerçekleþtirilmiþtir. Bu özel mekanlarýn ýsýl zon karþýlýðý da Tablo 1’de belirtilmektedir. 
+
+
+4.1.2. Malzemeler 
+Hacý Hüseyinler Evi, ECOTECT programýnda üç boyutlu olarak modellendikten sonra, binada kullanýlan malzemelerin ýsýl iletkenlik, özgül ýsý ve yoðunluk deðerleri tanýmlanmýþ (Tablo 2); bu malzemelerle duvar, döþeme, tavan bileþenleri oluþturulmuþtur. Pencere ve kapýlar için ise u-deðerleri (ýsý geçirgenlik katsayýsý) girilmiþtir. 
+
+4.1.3. Ýklim verisi 
+ECOTECT programýýsýl analiz için gerekli iklim verilerini saatlik olarak istemektedir. Safranbolu’ya ait iklim verileri için, Meteonorm 5.0 iklim verisi elde etme programý ile Karabük iline ait Dünya Meteoroloji Birliði’nden (World Meteorological Organization-WMO/OMM) alýnan ve 1961-1990 yýllarýna ait uzun yýllar ortalamalarýna dayanan “tipik meteorolojik yýl” (TMY-Typical Meteorological Year) veri paketi elde edilmiþtir [6]. Bu verilere dayalý olarak, analizlerde kullanmak üzere, en soðuk gün 12 Ocak, en sýcak gün ise 19 Aðustos olarak belirlenmiþtir. 
+
+
+
+4.2. Analiz Sonuçlarý 
+Bu deðerlendirme kapsamýnda asýl önemli olan, mekanlarýn yapay olarak ýsýtýlýp soðutulabiliyor olmasý deðil, mekan bileþen ve malzemeleri, 
+
+Tablo 1. HacýHüseyinler Evi mekanlar ve ýsýl zonlar 
+Isýl Zonlar ve Alanlarý Açýklama  Mekan Konfor SýcaklýklarýAralýðý Isýtma/ Serinletme Sistemi  Yönü  
+ZEMÝNKAT  AHIR (76,28m2)  Taþ duvarlý, ahýr ve samanlýðýiçermektedir. Güneyden bina dýþýna çýkýlmaktadýr.  18-26°C  yok  doðu  
+TAÞ MUTFAK (89,23m2)  Taþ duvarlý, ambar ve “kazan ocaðý”nýiçeren taþ mutfak. Kuzeyden bahçeye çýkýlmaktadýr.  15-22°C  yok  kuzey  
+ARA KAT  ODA1 “ocaksýz” (26,37m2)  Sofa etrafýndaki odalardan biri.   18-26°C  doðal havl.  güney-batý  
+ODA2 “kýþlýk oda”  (29,88m2)  Sofa etrafýndaki odalardan biri.  18-26°C  doðal havl.  güney-doðu  
+ODA3 (32,16m2)  Sofa etrafýndaki odalardan biri.  18-26°C  doðal havl.  doðu-kuzey  
+MERD1 (8,68m2)  Ahýra ve taþ mutfaða ulaþan merdiven holü. Bir kapýile sofadan ayrýlmaktadýr.  18-26°C  yok  güney  
+SOFA-ALT “yazlýk sofa” (34,06m2)  Odalar arasýnda kalan ortak mekan.   18-26°C  doðal havl.  doðu  
+ISLAK1 (10,12m2)  Ara kattaki ýslak hacim  18-26°C  yok  kuzey  
+MUTFAK (25,26m2)  Ara katta yer alan mutfak  18-22°C  doðal havl.  kuzey  
+ÜST KAT  ODA4 (32,16m2)  Sofa etrafýndaki odalardan biri.  18-26°C  doðal havl.  kuzey-doðu  
+ODA5 (29,36m2)  Sofa etrafýndaki odalardan biri.  18-26°C  doðal havl.  doðu-güney  
+ODA6 (30,01m2)  Sofa etrafýndaki odalardan biri.   18-26°C  doðal havl.  kuzey-batý  
+ODA7 (28,04m2)  Sofa etrafýndaki odalardan biri.  18-26°C  doðal havl.  güney-batý  
+SOFA-ÜST 26,26m2  Odalar arasýnda kalan ortak mekan.  18-26°C  doðal havl.  doðu  
+K-ODA (8,06m2)  Oda5 ve oda7 arasýnda kalan küçük oda.  18-26°C  doðal havl.  güney  
+MERD3 (10,70m2)  Çatýya çýkan merdiven holü. Oda6 içinden bir kapý ile ayrýlan bölüm.  15-22°C  yok  doðu  
+ÇATI  Kýrma çatý boþluðu  15-22°C  yok  
+
+Tablo 2. Malzemeler ve ýsýl analiz için gerekli hesap deðerleri [7] 
+
+G. Ulukavak Harputlugil ve N. Çetintürk Geleneksel Türk Evi’nde Isýl Konfor Koþullarýnýn Analizi: Safranbolu Hacý Hüseyinler Evi 
+yönlenmeler, mekan organizasyonlarý gibi pasif iklimlendirme sistemine ait olanaklar yardýmý ile mekan ýsýl konforunun ne düzeyde denetlenebiliyor olduðudur. Bu nedenle, burada yapýlan analizlerde binada sadece doðal havalandýrma yapýldýðýve hiç bir ýsýtma sisteminin çalýþtýrýlmadýðý duruma ait bilgiler deðerlendirilmektedir. Binadaki ýsýtma ve serinletme ihtiyacý (mekanlarýn ýsýtma ve soðutma yükleri) ve bunlara dayalý olasý enerji tüketimleri de ayrýca belirlenmiþtir. 
+Ýç mekansal sýcaklýklarýn daðýlým eðrileri, mekanlarýn konfor dýþý saatler toplamýbilgileri ve bunlara baðlýýsýtma ve serinletme ihtiyaçlarý, mekan konfor aralýðýna baðlý belirlenmektedir.  
+Mekan konfor sýcaklýk aralýðý, iç ve dýþ iklimsel deðiþkenlere baðlý olarak kullanýcýnýn ýsýl konforunun saðlanabildiði sýcaklýk deðerleri aralýðýdýr. Pasif olarak ýsýtýlýp serinletilmesi ön planda olan konut ve benzeri içsel ýsý kazancý düþük binalar için, ASHRAE (Handbook of Fundamentals 2001)’de belirtilen sýnýr deðerlere dayalý olarak, 18°C ile 26°C arasýndaki sýcaklýklar “mekan konfor sýcaklýk aralýðý” olarak belirlenmiþtir. 
+4.2.1. Ýç mekansal sýcaklýklar 
+Pasif olarak iþletilen bu tür binalarda, ýsýl performansa ait fikir edinebilmek için, ECOTECT, bir yýlda sýcaklýðýn belirli bir deðerde olduðu saat sayýsýnýgösteren, mekanlarýn yýllýk sýcaklýk daðýlým eðrilerini vermektedir. Bu grafik yardýmýyla mekanlarýn yýl boyunca yoðunlukla hangi sýcaklýk dilimleri arasýnda kaldýðý belirlenmektedir. 
+ECOTECT ile HacýHüseyinler Evi için, elde edilen yýllýk sýcaklýk daðýlým eðrileri Þekil 8’de verilmektedir. Tablo 3’de ise, belirlenen üç özel mekanýn yýllýk sýcaklýk daðýlým yüzdeleri verilmektedir. 
+
+4.2.2. Safranbolu’nun en sýcak ve en soðuk günlerinde mekan sýcaklýklarý
+ECOTECT yardýmýyla, yýllýk ortalamalar bazýnda, en sýcak gün olan 19 Aðustos ve en soðuk gün olan 12 Ocak için, mekanlarýn saatlik sýcaklýk grafikleri elde edilebilmektedir. Bina genelinde bakýldýðýnda, hiç bir ýsýtma sisteminin çalýþtýrýlmadýðý (ocak, soba, vb.) en soðuk günde dýþ ortam sýcaklýðý -10°C ve daha altýndayken, mekanlarýn ortalama sýcaklýðý 6-7°C civarýnda bulunmaktadýr (Þekil 9).  
+Uzun yýllar ortalamalarýna bakýldýðýnda, Safran­bolu’nun en sýcak gününde sýcaklýk yaklaþýk 32-33°C olmaktadýr. Bu koþullar altýnda yapýlan analizde ise, mekan sýcaklýklarýnýn ortalama 28-29°C olduðu görülmektedir (Þekil 10). 
+
+
+4.2.3. Isýtma ve soðutma yükleri 
+ECOTECT ile ýsýl konfor analizi gerçekleþtirirken, odalarda sadece ýsýtma için enerji harcandýðý, ve doðal havalandýrma ile serinletildiði bilgileri girilerek, yýllýk ýsýtma ve soðutma yükleri de belirlenmek istenmiþtir. Mekan ýsýl yükleri, mekan sýcaklýklarýný konfor bandýiçinde tutmak için mekandan atýlmasý gereken (soðutma yükü) veya mekana kazandýrýlmasý gereken (ýsýtma yükü) sýcaklýk olarak tanýmlanabilir. Tablo 4’de ýsýtýlýp soðutulmasý gereken tüm mekanlarýn ýsýtma ve soðutma yüklerine ait deðerler 
+
+Tablo 3. Üç özel mekan için yýllýk sýcaklýk daðýlým yüzdeleri (“mekan konfor aralýðý” içinde kalma oranlarý)
+ 0-9°C  10-17°C  18-26°C (konfor arl.)  26°C ve üzeri  
+ODA2 (Kýþlýk oda)  % 21,6  % 31,0  % 46,2  % 1,2  
+SOFA-ÜST (Yazlýk sofa)  % 30,6  % 29,2  % 39,2  % 1,0  
+ODA1 (Ocaksýz oda)  % 8.9  % 30,9  % 47,9  % 12,3  
+
+
+Þekil 8. Mekanlarýn yýllýk sýcaklýk daðýlým eðrileri (Her bir eðri bir zona ait olup, noktalý çizgiler arasýnda kalan bölge konfor aralýðýný belirlemektedir. Eðrinin bu bölgede yaptýðý pik, bir yýl boyunca 
+o zonun konfor aralýðý içinde kalýþ yüzdesini o oranda yüksek olduðunu göstermektedir.) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+Tablo 4. Mekanlarýn metrekare baþýna gereksindiði ýsýtma ve soðutma yükleri 
+m2  Isýtma (kWh/m2)  Soðutma (kWh/m2)  m2  Isýtma (kWh/m2)  Soðutma (kWh/m2)  
+AHIR  76,28  33,41  38,36  MUTFAK  25,26  25,92  18,27  
+TAÞ MUTFAK  89,23  69,50  3,71  ODA4  32,16  217,56  8,63  
+ODA1 (ocaksýz)  26,37  23,34  22,65  ODA5  29,36  215,71  7,64  
+ODA2(kýþlýk)  29,88  29,74  24,31  ODA6  30,01  247,15  8,63  
+ODA3  32,16  32,81  30,43  ODA7  28,04  215,10  14,73  
+SOFA-ALT  34,06  63,81  16,67  SOFA-ÜST (yazlýk)  26,26  194,79  9,74  
+
+
+Þekil 9. En soðuk günde mekanlarýn saatlik sýcaklýk eðrileri 
+verilmektedir. Bu yüklere baðlý olarak, ECOTECT, bina genelinde, aylara göre, tüm mekanlarýn toplam ýsýtma ve soðutmaya dayalý enerji tüketimlerini de hesaplamaktadýr (Þekil 11). Buna göre, binada yýl boyunca ýsýtma yüküne baðlý enerji tüketimi toplam 46064,24 kWh (98,6 kWh/m2)’dir. Eðer binada doðal havalandýrma yerine, soðutma yüküne baðlý enerji tüketimi söz konusu olsaydý, bunun da yýl boyunca toplam 3844,43 kWh (8,2 kWh/m2) olacaðýgörülmüþtür. 
+
+
+
+4.3. Deðerlendirme 
+Bu çalýþmada gerçekleþtirilen analiz yardýmýyla elde edilen sonuçlar deðerlendirildiðinde;  
+• 
+Safranbolu iklimi aþýrý sýcak aylar içeren bir iklim olmadýðý için, yerel mimaride kullanýlan malzeme ve bileþenler çoðunlukla ýsýtmaya ve ýsýnýn korunmasýna yöneliktir. Bu nedenle, en sýcak günde iç mekanla, dýþ ortam arasýndaki sýcaklýk farký 3-4 dereceyi geçmezken, en soðuk gün için yapýlan analizde sýcaklýk farký 16-17 dereceyi bulmaktadýr (Þekil 9; Þekil 10). 
+
+• 
+Hacý Hüseyinler Evi mekan organizasyonuna göre, orta kat kýþlýk, üst kat ise yazlýk mekanlar barýndýrmaktadýr. Odalarýn bulunduklarý yönlere ve 
+
+
+
+
+G. Ulukavak Harputlugil ve N. Çetintürk Geleneksel Türk Evi’nde Isýl Konfor Koþullarýnýn Analizi: Safranbolu Hacý Hüseyinler Evi 
+
+katlara göre ýsýtma ve soðutma yüklerinde azalma ya da artma söz konusu olduðu görülmektedir. Örneðin, güney ve batýya bakan, üst katta yer alan ve yüksek tavanlý bir odanýn ýsýtma yükü ile doðu ve kuzeye bakan ara kattaki bir odanýn ýsýtma yükü arasýnda belirgin bir fark vardýr (Tablo 4). 
+• 
+Odalarýn birbirlerine göre konumlarý da önem kazanmaktadýr. Özellikle ahýr ve samanlýk üzerinde yer alan “kýþlýk oda” ve “ocaksýz” diðerlerine göre ýsýtma yükü en az olan odalardýr. 
+
+• 
+ODA2, hem güney ve doðu yönlerine bakan, alçak tavanlý ve ara katta bir oda olmasý, hem de altýnda samanlýðýn yer almasý nedeni ile, kýþlýk oda olarak kullanýlmaktadýr. Analiz sonuçlarý da, bu odanýn diðerlerine göre çok daha az ýsýtma yüküne gereksinim duyduðunu göstermektedir (Tablo 4). 
+
+• 
+Güney ve batýya bakan ODA1’in yani; batý yönünde hiç penceresi olmayan, ara katta, alçak tavanlý ve daha küçük, “ocaksýz” odanýn, yýllýk sýcaklýk daðýlýmlarýna bakýldýðýnda, sýcaklýðýn konfor aralýðýiçinde ve üzerinde saat sayýsýnýn %60’ý bulduðu görülmektedir (Tablo 3). 
+
+• 
+Hacý Hüseyinler Evi’nde kerpiç bloklarýn ve zemin kattaki taþ duvarlarýn ýsýl kütle olarak görev yapmasý ve geçiþ dönemi olan ilkbahar ve sonbahar aylarýnda dýþ ortamýn sýcaðýný içeriye geciktirerek ulaþtýrmasý ya da içerideki sýcak havanýn depolanarak ýsýtýlmayan zaman diliminde kullanýlabilmesi yoluyla mekan konfor aralýðýnýkorumasý, ýsýtma ve soðutma yükleri üzerinde etkendir. En önemli ýsý kaybýnýn, pencerelerin tek cam olmasýndan kaynaklandýðý söylenebilir. 
+
+• 
+Doðal havalandýrma, Hacý Hüseyinler Evi gibi geleneksel konutlarda, yapay iklimlendirme sistemleri yerine, serinletme için tercih edilen bir yöntemdir. Evin mekan organizasyonu da bu yönteme uygun olarak þekillenmiþtir. Özellikle 
+
+
+odalarýn ortasýnda yer alan sofa, bir anlamda serin çekirdek olarak çalýþmaktadýr. Üst kattaki sofanýn daha yüksek tavanlý olmasý, daha serin olmasýnýsaðlýyorsa da, her iki kattaki sofa da, ev sahiplerinin yazýn sýklýkla oturmayý tercih ettikleri mekanlardýr. 
+• Uluslararasý Enerji Ajansý’nýn (IEA) 2001 Türkiye raporunda [8], enerji tüketiminin azaltýlabilmesine yönelik öneriler içerisinde, binalarýn m2 baþýna tükettikleri enerjinin ortalama 250 kWh’den, 100­150 kWh civarýna çekilmesi gerekliliði yer almaktadýr. HacýHüseyinler Evi’nin, 98,6 kWh/m2 olan yýllýk enerji tüketimi ile 130-140 yýl öncesinin teknik, malzeme ve bileþenleri ile bu hedefi yakalamýþ olduðu görülmektedir. 
+
+
+
+
+KAYNAKLAR 
+1. 
+Çelebi, G., Çevresel Söylem ve Sürdürülebilir Mimarlýk için Kavramsal Bir Çerçeve, G. Ü. Fen Bilimleri Dergisi, Cilt 16, No 1, syf 205-216, 2003. 
+
+2. 
+Günay, R., Türk Ev Geleneði ve Safranbolu Evleri, YEM Yayýnlarý, Ýstanbul, 1998. 
+
+3. 
+Marsh, A. J., Analysis and Simulation Tools: ECOTECT, http://www.squ1.com, Square one Research Ltd., UK, 2001. 
+
+4. 
+Ulukavak, G.,Bina Simülasyon Programlarý ve Enerji Performans Deðerlendirmesi, Yüksek Lisans Tezi, Gazi Üniversitesi Fen Bilimleri Enstitüsü, 2001. 
+
+
+5.CIBSE, 	CIBSE Guide Volume A-Design Data, The Chartered Institute of Building Services Engineers, Staples Printers, St Albans, England, 1988. 
+6.Meteotest,, 	Meteonorm: Global Meteorological Database for Solar Energy and Applied Meteorology, http://meteotest.ch/products/ meteonorm, Switzerland, 2003. 
+7. Ecevit, A., Demirbilek, N., vd., Ankara Koþullarýna Uygun Konut Tasarýmý, TÜBÝTAK Proje Raporu, Ankara, 1996. 
+
+8.IEA, Energy Policies of IEA Countries, Turkey 2001 Review, http://www.iea.org, 2001. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+
+
+

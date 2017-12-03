@@ -1,0 +1,261 @@
+TOZ METAL FREN BALATA MALZEMELERÝNÝN SÜRTÜNME-AÞINMA PERFORMANSI ÜZERÝNE ÇÝNKONUN ETKÝSÝ
+Mustafa BOZ ve Adem KURT* 
+Metal Eðitimi Bölümü, Teknik Eðitim Fakültesi, Karaelmas Üniversitesi, Karabük, mboz25@hotmail.com
+
+* Metal Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, Ankara, ademkurt@gazi.edu.tr 
+(Geliþ/Received: 14.05.2004; Kabul/Accepted: 26.12.2005) 
+ÖZET 
+Bu çalýþma iki aþamadan oluþmaktadýr. Birinci aþamada toz metalurjisi yöntemi ile bronz esaslý fren balatalarýüretilmiþ ve üretilen balatalarýn sürtünme-aþýnma performanslarý test edilmiþtir. Ýkinci aþamada bronz esaslýbalata tozlarýna farklý oranlarda (0,5 - 4 %) Zn tozu ilave edilerek, yeni balata numuneleri üretilmiþ ve üretilen Zn ilaveli balata numunelerinin sürtünme aþýnma davranýþlarý belirlenerek Zn esaslý balata numuneleri ile mukayesesi yapýlmýþtýr. Bu amaçla fren balata numunelerinin yoðunluk, sertlik, sürtünme katsayýsý, sürtünme kuvveti ve aþýnma miktarlarý tespit edilmiþ, numunelerden sinterleme öncesi ve sonrasý mikro yapý görüntüleri ile aþýnan yüzeylerden SEM görüntüleri alýnmýþ ve numunelerdeki aþýnma türleri tespit edilmiþtir. Deneyler sonucunda, bu çalýþmada kullanýlan bronz esaslýmetal tozundan üretilen fren balata numunelerinin optimum sürtünme-aþýnma davranýþlarýnýn 350 MPa presleme basýncýnda ve 820 °C sinterleme sýcaklýðýnda olduðu belirlenmiþtir. Bütün balata numunelerinin aþýnma direnci ve sürtünme katsayýsý deðerleri SAE-J661 standart aralýðýnda çýkmýþtýr. Aþýnma direnci açýsýndan en iyi sonucu % 0,5 Zn ilaveli sürtünme malzemesi verirken, sürtünme katsayýsý açýsýndan en iyi sonucu % 2 Zn ilaveli sürtünme malzemesi vermiþtir. 
+
+1. GÝRÝÞ
+üretilmiþ, yüksek sýcaklýklara dayanýklý ve insan 
+saðlýðýný tehdit etmeyen sürtünme malzemeleri Günümüzde yüksek sýcaklýklara duyarlý ve insan üretilmeye çalýþýlmaktadýr [1,2]. Toz metalurjisi saðlýðýný tehdit eden asbest esaslý sürtünme üretim tekniðinin temel avantajlarýndan birisi, diðer malzemelerinin yerine toz metalurjisi yöntemi ile üretim yöntemleri ile üretilmesi zor olan 
+M. Boz ve A. Kurt Toz Metal Fren Balata Malzemelerinin Sürtünme-Aþýnma Performansý Üzerine Çinkonun Etkisi 
+dayanabildikleri gibi ayný zamanda daha fazla ýsý
+iletirler. Sürtünme katsayýlarý da sýcaklýk ve basýnçla 
+daha az deðiþir [5,6]. 
+Sinterlenmiþ sürtünme malzemeleri mühendislikte yaygýn olarak, sürtünme hareketinin iletimi, veya frenleme ve yavaþlatma için kullanýlýrlar [4,7]. Sürtünme malzemelerinin kullaným sebepleri özellikle sürtünme katsayýlarýnýn yüksek ve kayma özelliklerinin iyi olmasýndandýr. Ancak sürtünme malzemelerinin fonksiyonlarýný beklendiði gibi yapabilmeleri için, sadece sürtünme katsayýsýnýn yüksek olmasý yetmez. Sürtünme katsayýsýnýn yüksek olmasýndan ziyade zorlanmalar altýnda ve özellikle yüksek sýcaklýklarda mümkün olduðu kadar sabit bir sürtünme katsayýsý deðerini muhafaza etmesi gerekir. Bundan baþka aþýnma miktarýnýn az olmasý, karþýmalzemenin çizilip hasara uðratýlmamasý, mekanik mukavemetin de maruz kalýnan zorlamalara dayanabilecek deðerde olmasý gerekir [8-10]. 
+Yüksek sýcaklýklarda toz metal malzemelerin aþýnma oranýnda önemli artýþlar olduðu görülmüþtür. Bu artýþýn sebebi ilk oksit tabakasýndan sonra, temiz yüzeyin yeniden oksitlenmesi ve yüzeyden oksit tabakasýnýn yeniden kalkmasý sebebiyledir [12]. Kayma çiftlerinin tribolojik davranýþý, uygulanan yüke, çevre þartlarýna ve mikroyapý gibi parametrelere baðlýdýr [13-16]. Bazý durumlarda sürtünme kuvvetinin, fren ve balata ara yüzeylerinde eþit daðýlmadýðý bilinmektedir. Özellikle uzun süreli frenlemelerde sürtünme yüzeyindeki sýcaklýk ve frenleme kuvveti periyodik olarak deðiþir. Bu deðiþim de sürtünme katsayýsýnýn azalan ve artan deðerlerde olmasýna sebep olur [17].  
+Toz metal sürtünme malzemeleri içerisinde Zn tozu ilaveli bronz esaslý balata malzemesi üretimi konusunda literatürde yeterli araþtýrma mevcut deðildir. Dolayýsýyla bu çalýþmada, Toz metalurjisi ile üretilen fren balatalarýnýn 
+sürtünme-aþýnma özelliklerinin geliþtirilmesi amacýyla otomotiv sanayisinde kullanýlan T/M balata malzemelerine çeþitli oranlarda Zn tozu ilave edilerek malzemelerin üretilebilmesidir [3]. Bu avantaj, 50 debriyaj ve fren balatalarý üretimini de mümkün 45 kýlmýþtýr [4]. Metalik balatalarýn, asbest esaslýbalatalara göre avantajlarý, daha büyük hýzda enerji 40 absorbe etmeleri ve daha fazla aþýnma direncine sahip 35 olmalarýdýr. Bunlar daha yüksek sýcaklýklara 
+
+30 
+Miktar, % 
+25 
+20 15 10 5 0 
+
+70 90 110 130 150 Ortalama Toz Tane Boyutu, µm Þekil 1. Zn toz tane boyut daðýlýmý
+boyutu daðýlýmý verilen Zn tozu % 0.5, 1, 2 ve 4 oranlarýnda ilave edilerek yeni bir sürtünme balata malzemesi üretilmiþtir. Üretilen Zn ilaveli balata sürtünme malzemesi ile Zn ilavesiz bronz esaslý
+sürtünme  balata  malzemesinin  sürtünme-aþýnma  
+özellikleri karþýlaþtýrýlmýþtýr.  
+Hazýrlanan  tozlar  üç  boyutlu  hareket  edebilen  
+
+“Turbula T2C” tipi bir karýþtýrýcýda 10 dakika süre ile karýþtýrýlmýþtýr. Karýþým tozlarý, tek yönlü hidrolik pres ile 25x25x7 mm ebatlarýndaki kalýp içerisine yerleþtirilerek 350 MPa basýnçta preslenmiþtir. 
+Balata malzemelerinin sinterleme iþlemi bant taþýmalýalev perdesi korumalý sinterleme fýrýnýnda 820 °C’de yapýlmýþtýr. 
+Sinterleme iþlemi, Þekil 2’de þematik olarak görüldüðü gibi ön sinterleme, sinterleme ve soðutma bölgeleri olmak üzere üç farklý sýcaklýk bölgesinden oluþmaktadýr. Sinterlenen numuneler fýrýndan alýndýktan sonra oda sýcaklýðýnda soðumaya býrakýlmýþlardýr. 
+
+2.1. Karakterizasyon Testi 
+Üretilen fren balata malzemelerinin karakterizasyonu amacý ile sinterleme öncesi ve sonrasý yoðunluklarý, aþýnma öncesi ve sonrasý sertlikleri tespit edilmiþtir. Malzemelerin yoðunluklarý, d = m/v formülü ile hesaplanmýþtýr. Burada; yoðunluk (d), kütle (m) ve 
+performanslarý geliþtirilmeye çalýþýlmýþtýr. 
+
+2. DENEYSEL ÇALIÞMALAR 
+Bu çalýþmada, Toz metalurjisi yöntemi ile fren balatasý üretiminde 0,2-80 µm boyut aralýðýndaki bronz esaslý (70 % Cu, 8 % Sn, 11 % Fe, 8.5 % Pb ve 
+
+2.5 % Grafit) toz malzeme kullanýlmýþtýr. Ayrýca, hacim (v) dir. Numunelerin sertlik ölçümleri “Instron 100 Wolpert” marka sertlik ölçüm cihazýnda Vickers yöntemi ile 1 kg. yük uygulanarak yapýlmýþtýr. Sertlik 95 ölçümleri için aþýnan yüzeyden, aþýnma öncesi ve 
+
+
+bronz esaslý balata  tozlarýna  Þekil 1’de  toz tane  Zaman  
+Þekil 2. Sinterleme iþleminin aþamalarý 
+116  Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006  
+
+
+90 
+sonrasýnda en az beþ deðiþik yerden sertlik ölçümü yapýlarak ortalamalarý alýnmýþtýr. Numunelerden 
+Yoðunluk (%) 
+85 
+80 
+
+sinterleme öncesi ve sonrasý mikro yapý görüntüleri 
+Nicon marka optik mikroskop ile tespit edilmiþtir. 
+Ayrýca, SEM görüntüleri Jeol SN-5600 marka cihazda 
+ Sinterleme öncesi
+
+numunelerin aþýnmýþ yüzeylerinden alýnmýþtýr. 75 
+ Sinterleme sonrasý 
+
+2.2. Performans Testi 
+Üretilen fren balata malzemelerinin performansýamacý ile sürtünme katsayýsý, sürtünme kuvveti, aþýnma miktarlarý ve numunelerdeki aþýnma türleri tespit edilmiþtir. Performans deneyleri SAE-J661 normuna göre test yapan sürtünme katsayýsý test cihazýnda Çizelge 1’de verilen deney þartlarýnda yapýlmýþtýr. Aþýndýrma iþleminde 250 Hv sertlikte ve 280 mm çapýnda gri dökme demirden üretilmiþaþýndýrýcý disk kullanýlmýþtýr. Deney sonuçlarý aþýnma test cihazýna baðlý bir bilgisayardan alýnmýþtýr. 
+70 01234 
+Zn Miktarý, %
+Þekil 3. Fren balata malzemesinin Zn ilavesine baðlýsinterleme öncesi ve sonrasý yoðunluk deðiþimi 
+gelerek (Þekil 5) sürtünme malzemelerinin hacim olarak daralmasýný engellemesine katkýda bulunduðu tespit edilmiþtir. Ayrýca malzemelerin hacimce geniþlemeleri de sinterleme sonrasý yoðunluklarýdüþürmüþtür (Çizelge 2). 
+Çizelge 2. Sinterleme ile malzemelerdeki 
+aðýrlýk kaybýve hacimdeki artýþ
+
+
+
+3. DENEYSEL SONUÇLAR ve TARTIÞMA 
+
+
+3.1. Karakterizasyon Deneyi Sonuçlarý 
+Toz metalurjisi yöntemi ile üretilen bronz esaslý balata malzemesi ve bu malzemeye deðiþik oranlarda Zn ilavesi ile hazýrlanan numunelerin sinterleme öncesi ve sonrasý yoðunluklarýÞekil 3’de verilmiþtir. 
+Numune  Aðýrlýk Kaybý (%)  Hacim Artýþý(mm3)  
+Ana malzeme  0,075  8,71  
+Ana malzeme + % 0.5 Zn  0,050  9,01  
+Ana malzeme + % 1 Zn  0,044  9,45  
+Ana malzeme + % 2 Zn  0,038  10,30  
+Ana malzeme + % 4 Zn  0,020  10,60  
+
+Çizelge 2’de görüldüðü gibi, ana malzemeye ilave edilen Zn oranýnýn artmasý ile sürtünme malzemelerinde sinterlemeye baðlý aðýrlýk kaybýolurken, malzemelerin hacimlerinde artýþ olmuþtur. Sinterleme esnasýnda sürtünme malzemelerindeki aðýrlýk kaybýnda azalma ve hacimdeki artýþýn sebebi; Zn’nun sinterleme esnasýnda düþük ergime sýcaklýðýna sahip malzemelerin dýþarý çýkmasýný engellediði þeklinde düþünülmektedir. Bu sebeple, dýþarýçýkamayan sývý malzemeler bulunduðu yerde gerilim oluþturarak malzemelerin hacimce geniþlemelerine imkan saðlamýþtýr. 
+Þekil 3’de Zn miktarýnýn artmasýna baðlý olarak sürtünme malzemelerinin sinterleme öncesi yoðunluklarýnda herhangi bir deðiþim gözlenmemiþtir. Fakat sinterleme sonrasý yoðunluklarda Zn miktarýnýn artmasýna baðlý olarak bir düþüþ görülmüþtür. Sinterleme sonrasý yoðunluklarýn düþmesi, sinterleme esnasýnda düþük ergime sýcaklýðýna sahip Pb, Sn ve ilave edilen çinkonun da bir kýsmýnýn buharlaþarak yapýyý terk etmesinin yaný sýra yapýda kalan gazlarýn hacimsel büyümeye neden olmasý sebebiyle olduðu düþünülmektedir. Yapý içerisinde sývý halde bulunan elementlerin boþluklara girerek gözeneklerin kapan­masýný engellediði görülmüþtür (Þekil 4). Boþluklara dolan kurþunun sinterleme esnasýnda küresel hale 
+
+Çizelge 1. Sürtünme aþýnma deney þartlarý
+Ýþlem Basamaklarý Hýz Dev/dak  Sýcaklýk °C  Yük Kg.  Sürtünme  Bekleme  Uygulama sayýsý Seçilen ölçüm sayýsý 
+Min.  Max.  Periyot  Dak.  Sn.  Dak.  Sn.  
+Yanma  308  82  93  0  45  20  0  0  0  1  0  
+Düzenleme  205  82  93  0  23  5  0  0  0  1  0  
+I. Alýþtýrma  411  93  93  0  68  0  10  0  20  20  5  
+I. Yorma  411  93  288  28  68  10  0  0  0  1  0  
+I.Toparlama  411  260  93  56  68  0  10  0  20  20  5  
+Aþýnma  411  193  204  0  68  0  20  0  10  100  10  
+II. Alýþtýrma  411  93  343  28  68  10  0  0  0  1  0  
+II. Yorma  411  316  93  56  68  0  10  0  0  1  0  
+II.Toparlama  411  93  93  0  68  0  10  0  20  20  5  
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+M. Boz ve A. Kurt Toz Metal Fren Balata Malzemelerinin Sürtünme-Aþýnma Performansý Üzerine Çinkonun Etkisi 
+
+Þekil 4. Sinterleme ile kurþun ve boþluk morfolojisindeki deðiþim. a) % 4 Zn Sinterleme öncesi, b) % 4 Zn Sinterleme sonrasý, (1: Kurþun, 2: Gözenek, 3: Matris) 
+sertliklerinin aþýnma öncesi sertliklere göre deðiþmediði görülmektedir. Aþýnma sonrasý Zn ilavesiz sürtünme malzemesindeki bu yüksek sertlik artýþýnýn sebebi, sürtünme-aþýnma esnasýnda malzemenin daha kolay deforme olabilmesi ile açýklanabilir. Zn ilaveli sürtünme malzemelerinin 
+
+aþýnma sonrasý sertliklerinin deðiþmemesi ise Zn’nun sürtünme esnasýnda malzemelerdeki meydana gelebilecek deformasyonu engellediði þeklinde düþünülmektedir. 
+Yapýlan deneylerde numunelerin özelliklerini 
+Þekil 5. Sinterleme sonrasý % 4 Zn malzemesinde 1 
+rakamý ile gösterilen bölgeden alýnan EDS analizi 
+Þekil 6 incelendiðinde, Zn ilaveli sürtünme malzemelerinin aþýnma öncesi sertliði ana malzemenin aþýnma öncesi sertliðine göre daha yüksektir. Ancak aþýnma sonrasý sertlikler incelendiðinde ana malzemenin sertliðinin yaklaþýk % 100 arttýðý görülmektedir. Bu sonuç, sürekli ýsýnýp soðuyan ve zaman zaman su ile temas halinde olan malzemeler için iyi bir sonuç deðildir. Çünkü balatalardaki fazla sertleþme frenleme esnasýnda gürültü ve ses olarak kendini göstermektedir [10]. Burada önemli olan malzemelerin sürtünme ile birlikte sertliklerinin kararlý kalmasýdýr. Burada Zn ilaveli sürtünme malzemelerinin aþýnma sonrasýbelirleyen en önemli parametrenin ve 2. yorma (sürtünme arayüzey sýcaklýðýnýn artmasý ile malzemedeki sürtünme katsayýsýnýn deðiþimi) iþleminin olduðu belirlenerek Þekil 7’de grafiksel olarak artan sýcaklýða baðlý sürtünme katsayýsý ve sürtünme kuvvetindeki deðiþim gösterilmiþtir. Ayrýca Þekil 8’de ise Zn miktarýndaki artýþa baðlý olarak deney malzemelerindeki aþýnma miktarlarýgörülmektedir. 
+Fren balatalarýndan istenen en önemli özelliklerden birisi, frenleme esnasýnda sürtünmeden dolayý açýða çýkan arayüzey sýcaklýðýndaki artýþa baðlý olarak sürtünme katsayýsýndaki deðiþimin minimum seviyede olmasýdýr (18,19]. Þekil 7 incelendiðinde 93-345 °C 
+30 
+
+Sürtünme katsayýsý, µSürtünme kuvveti, kgs 
+100 
+
+25 20 
+15 
+10 
+0,30 
+0,25 0,20 0,15 
+Sertlik, HV1 
+0,10 
+50 100 150 200 250 300 350 400 
+01234 
+Zn miktarý, %
+Disk-Balata Arayüzey Sýcaklýðý, 0C 
+Þekil 7. Ýlave Zn miktarýna baðlý olarak, artan sýcaklýk 
+
+Þekil 6. Fren balata malzemesinin Zn ilavesine baðlýile sürtünme katsayýsý ve sürtünme kuvvetindeki aþýnma öncesi ve sonrasý sertlik deðiþimi deðiþim 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+Kütle kaybý, % 
+25 
+20 
+15 
+10 
+5 
+0 
+
+Zn miktar ý, % 
+Þekil 8. Deðiþen Zn miktarýna göre aþýnma miktarýndaki deðiþim 
+sýcaklýk aralýðýnda en düþük sürtünme katsayýsýdeðerini (0.172-0,165) % 0.5 Zn ilaveli sürtünme malzemesi verirken, en yüksek sürtünme katsayýsýdeðerini (0,236-0,210) ise % 4 Zn sürtünme malzemesi vermiþtir. Ostermeyer [20] sürtünme katsayýsýnýn dinamiði üzerine yapmýþ olduðu çalýþmada sürtünme katsayýsýnýn arayüzey sýcaklýðýndaki artýþa baðlý olarak azalacaðýnýbelirtmiþtir. 93-345 °C sýcaklýk aralýðýnda sürtünme katsayýsý açýsýndan en büyük düþüþü Zn ilavesiz sürtünme malzemesi göstermiþtir. Ancak bu çalýþmada Zn ilaveli sürtünme malzemelerinin sürtünme katsayýlarýnda fazla bir deðiþim görülmemiþtir. Genelde bütün Zn ilaveli sürtünme malzemelerinde, arayüzey sýcaklýðýndaki artýþa baðlýolarak sürtünme katsayýsý kararlý bir þekilde devam etmiþtir. 93-345 °C sýcaklýk aralýðýnda sürtünme katsayýsý açýsýndan en iyi sonucu ise % 0,222 ile 2 Zn ilaveli sürtünme malzemesinin verdiði görülür. Genellikle sürtünme katsayýsý (µ) 0.1 ila 0.7 arasýnda, sürtünme kuvveti ve disk-balata ara yüzey sýcaklýðýna baðlý olarak deðiþtiði literatürde vurgulanmýþtýr [21]. Ayrýca disk ile balata ara yüzeyindeki sýcaklýðýn ortalama 300 ila 350 °C civarýnda olduðu SAE­J661’de belirtilmiþtir. Þekil incelendiðinde literatürle paralel olduðu görülmektedir. 
+Þekil 7 incelendiðinde sürtünme katsayýsýnda az miktarda düþme þeklinde iniþli çýkýþlý sürekli bir deðiþim görülmektedir. Anderson [22] bunun sebebini, sürtünme süresince disk yüzeyindeki temas bölgelerinin içine doðru ýsýnýn periyodik olarak sürekli deðiþmesinden kaynaklandýðýný belirtmiþtir. Bu etkiden dolayý sürtünme katsayýsýnda sürekli bir deðiþim meydana gelir. Ayrýca bu durumu Stachowiak ve Batchelor [23] sürtünme çiftlerinin yüzeyindeki pürüzlerde birleþme olmasý ve büyümesi ile açýklar. Bu durumda bir yapýþma ve bir býrakma hali sürekli tekrarlanýr, bu da sürtünme katsayýsýnda sürekli artma ve azalmaya neden olur. 
+Deneylerde sürtünme kuvveti deðerleri 98 0C ile 345 0C sýcaklýk arasýnda, her bir sýcaklýk deðeri karþýlýðýbir sürtünme kuvveti deðeri alýnmýþtýr. Sürtünme kuvveti, farklý sürtünme malzemelerinde farklýdeðerler göstermiþtir. Sürtünme katsayýsý en yüksek malzemenin, sürtünme kuvveti de diðerlerine göre daha yüksek olduðu gözlenmiþtir (Þekil 7). Aðýrlýkça % 2 ve % 4 Zn içeren sürtünme malzemelerindeki sürtünme kuvvetinin yüksek olmasý, sürtünme yüzeyinde meydana gelen sürtünme katsayýsýndaki deðiþimden kaynaklandýðý düþünülmektedir. Anderson [22] sürtünme kuvveti deðiþiminin disk kalýnlýk deðiþimi, diskin sýcaklýðý, ve sürtünme yüzeyinde meydana gelen bileþenlerden güçlü bir þekilde etkilendiðini rapor etmiþtir. Jang ise [24] yüksek ara yüzey sýcaklýklarýnda sürtünme kuvvetinin bu derece artmasýnýn ve azalmasýnýn sebebini, dökme demirden yapýlan diskin mikro yapýsýnýn homojen olmadýðýndan kaynaklandýðýný belirtmiþtir. 
+Bilindiði gibi fren balatalarýndan aþýnmanýn sýfýr olmasý beklenemez. Çünkü aþýnma direnci çok yüksek sürtünme malzemeleri karþý malzemenin aþýnmasýna sebep olur. Bu nedenle balata malzemelerinde aþýnma direncinden ziyade sürtünme katsayýsýnýn sýcaklýk karþýsýndaki deðiþimi önemli görülür. Bu çalýþmada sürtünme malzemesi olarak kullanýlan ana malzemenin aþýnma miktarý % 22,46 bulunmuþtur. Ana malzemeye % 0.5 Zn ilave edildiðinde aþýnma miktarý % 14,5’e düþtüðü görülmüþtür (Þekil 8). Bu sonuç aþýnma direnci yönünden olumlu olmakla birlikte, sürtünme katsayýsý incelendiðinde (Þekil 7), düþük sürtünme katsayýsý deðerleri vermiþtir. % 1, % 2 ve % 4 Zn ilave edilmiþ numunelerde aþýnma miktarlarý sýrasýyla % 16, % 20 ve % 23 deðerlerindedir. Þekil 9’da sürtünme malzemele­rindeki aþýnma mekanizmasý ve aþýnma miktarý daha iyi görülmektedir. Þekil 10’da ise % 4 Zn ilaveli sürtünme malzemesinden alýnan EDS analiz sonucu verilmiþtir. 
+Sürtünme malzemelerinin aþýnma yüzeylerinden alýnan SEM görüntülerinde bütün malzemelerde aynýaþýnma mekanizmalarýnýn olduðu ve sürtünme malzemeleri içerisindeki Zn miktarýnýn artmasýna baðlý olarak aþýnma çizgilerinin daha derin ve geniþlediði görülmektedir. Stachowiak ve Batchelor 
+[23] çalýþmalarýnda aþýnan metalin sertliði (Hm) ile aþýndýrýcý diskin sertliði arasýndaki oranýn (Ha) aþýnmada bir kriter olduðunu ortaya koymuþlardýr. Hm/Ha < 0.8 ise metalde aþýrý kazýma aþýnmasýnýn meydana geldiði rapor edilmiþtir. Deneylerde kullanýlan aþýndýrýcý diskin sertliði 280 Hv ve deney numunelerinin sertliði ise ortalama 120 Hv olarak ölçülmüþtür. Dolayýsýyla balata numunesinin disk sertliðine oraný yaklaþýk 0.4’tür. Buradan da görüleceði gibi yüksek bir abrasiv aþýnmanýn olmasýdoðaldýr. 
+% 4 Zn ilaveli sürtünme malzemesinden alýnan EDS analiz sonucu incelendiðinde, Zn oranýnýn % 12 ve Pb’nin ise % 19 0lduðu görülmektedir. Bu sonuçlar, malzemelerin sinterlenmesi esnasýnda düþük ergime sýcaklýðýna sahip Pb ve Zn’nin buharlaþamadan numunelerin içerisindeki gözeneklerde sývý olarak hep 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+M. Boz ve A. Kurt Toz Metal Fren Balata Malzemelerinin Sürtünme-Aþýnma Performansý Üzerine Çinkonun Etkisi 
+
+Þekil 9. Artan Zn miktarýna baðlý olarak numunelerin aþýnma yüzeylerinden alýnan SEM görüntüleri 
+birlikte kurþunun da katýlaþtýðýnýn bir göstergesi olarak düþünülebilir (Þekil 5), veya sürtünme-aþýnma esnasýnda aþýnma yüzeyine doðru hareketi ile açýklanabilir. 
+
+4. SONUÇLAR VE DEÐERLENDÝRME 
+Yapýlan bu çalýþmada deðiþik oranlarda Zn tozu ilave edilerek toz metalurjisi yöntemi ile bronz esaslý balata üretilmiþ ve üretilen balatalarýn sürtünme-aþýnma özellikleri incelenerek aþaðýdaki sonuçlar tespit edilmiþtir. 
+1. 
+Fren balatasý olarak üretilen malzemelerin optimum sürtünme-aþýnma özellikleri 350 MPa presleme basýncýnda ve sinterleme sýcaklýðýnýn 820 0C olduðu tespit edilmiþtir. 
+
+2. 
+Balata malzemesine ilave edilen Zn tozunun ergime derecesinin düþük olmasý nedeni ile ilave Zn oranýarttýkça numunelerin sinterleme yoðunluðunu düþürdüðü görülmüþtür. 
+
+
+3.Aþýnma sonrasý ana malzemenin sertliði yaklaþýk % 100 artarken, Zn ilaveli sürtünme malzemelerinin sertliklerinde bir deðiþim olmamýþtýr. 
+4. Sürtünme ile ara yüzey sýcaklýðýnýn artmasýna baðlýolarak en kararlý sürtünme katsayýný 0,222 ile % 2 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+Zn ilave edilmiþ balata malzemesi vermiþtir. En yüksek aþýnma ana malzemede olurken, en düþük aþýnmanýn % 0,5 ve % 1 Zn ilave edilmiþ balata malzemelerinde olduðu tespit edilmiþtir. 
+5. SAE-J661 standardýna göre, üretilen balata malzemeleri debriyaj balatasý olarak kullanýlabilir olduðu tespit edilmiþtir. 
+TEÞEKKÜR 
+Bu çalýþma DPT 2003 K120470-12 kodlu proje kapsamýnda yapýlmýþtýr. Gazi Üniversitesine ve DPT’na proje desteklerinden dolayý teþekkür ederiz. 
+KAYNAKLAR 
+1.	
+Gemalmayan, N., “Hava Kirliliðinde Gizli Tehlike Asbest”, Tübitak Bilim ve Teknik Dergisi, Cilt 16, 32-33, 1983. 
+
+2.	
+Gemalmayan, N., “Sürtünme Malzemelerinin Özelliklerinin Deneysel Ýncelenmesi”, DoktoraTezi, Gazi Üniversitesi Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü, Ankara, 1984. 
+
+3.	
+Tsukeman, S. A., Robert, E.H., Massey, H.S.H., “Powder Metallurgy, Lecturer in Metallurgy”, Universty of Sheffield, England, 1965. 
+
+4.	
+Uygur, M. E., “Balata Üretim Teknolojisi”, I. Ulusal Toz Metalurjisi Kongresi, Gazi Üniversitesi, Ankara, 6-17, 1996. 
+
+5.	
+Libsch, T. A., Rhee, S.K., “Microstructural Changes in Semimetalic Disc Brake Pads Created by Low Temperature Dynamometer Testing”, Wear, Cilt 46, 208-212, 1978. 
+
+6.	
+Liu, T., Rhee, S. K., “High Temperature Wear of Semimetallic Disc Brake Pads”, Wear, Cilt 46, 213-218, 1978. 
+
+7.	
+Fedorchesco, I. M., Kýryachek, V. M., “New Sintered Friction Materials”, Friction and Antifriction Materials, Cilt 4, 139-142, 1970. 
+
+8.	
+Reinsch, E. W., “Sintered Metal Brake Linings for Automotive Applications, Delco-Moraine Division”, General Motors Corporation, Ohio, Cilt 2, 9-21, 1970. 
+
+
+9.	
+Sands, R.L., “Sintered Friction Materials”, Powder Metallurgy Practice and Application, London, Cilt 9, 198-203 1966. 
+
+10.	
+Gediktaþ, M., “Sürtünme Malzemelerinin Deneysel Tayini”, Ýstanbul Teknik Üniversitesi Matbaasý, Gümüþsuyu, Ýstanbul, 1968. 
+
+11.	
+Mimaroðlu, A., Çalýþkan, M., Calli, I., “Evaluation of Sintering Temperature and Tribological Properties of Ceramic Materials with Cr2O3, SiO2 and MnO2 Additive Compounds”, Industrial Lubrication and Tribology, Cilt 53, 192-197 2001. 
+
+12.	
+Mimaroðlu, A. And Yýlmaz, F., “Influence of Carbide Size, Hardness and Temperature on Sliding Friction and Wear of a Boundary Lubricated High Speed Steel and Si3N4 Ceramics”, Stle, Cilt 40, 173-77, 1997. 
+
+13.	
+Habig, K.H. and Woydt, M., “Sliding Friction and Wear of Al2O3, ZrO2 Si3N4”, Proc. 5th International Cong. on Tribology, Finland, Cilt 3, 106-113, 1989. 
+
+14.	
+Kato, K., “Ceramic Friction and Wear Mechanism”, Tribology, Cilt 35, 133-144, 1989. 
+
+15.	
+Wang, Y.S., Hsu, S.M. and Munro, R.G., “Ceramic Wear Maps: Alumina”, Lubrication Engineering, Cilt 47, 63-69, 1991. 
+
+16.	
+Habig, K.H., “Sliding Wear of Ceramic-Ceramic, Ceramic-Steel and Steel-Steel Pairs in Lubricated and Unlubricated Contact”, Wear, Cilt 133, 1-22, 1989. 
+
+17.	
+Lee, K. and Barber, J.R., “An Experimental Investigation of Frictionally Excited Thermoelastic Instability in Automotive Disc Brakes under a Drag Brake Application”, Trans. ASME J. Tribology, Cilt 116, 409- 414, 1993. 
+
+18.	
+Persson, B.N.J., “Theory of Friction”, The American Physical Society, Cilt 50, 47- 71, 1994.  
+
+19.	
+Tabor, D., “Friction as a Dissipated Process. Friction of Organic Polymers in Fundamentals of Friction”, Macroscopic and Microscopic Processes, Cilt 220, 3, 1996. 
+
+20.	
+Ostermeyer, G.P., “On the Dynamics of the Friction Coefficient”, Wear, Cilt 254, 852-858, 2003.  
+
+21.	
+Moore, D.F., “Principles and Application Tribology”, Pergamon Press, Oxford, 1975. 
+
+22.	
+Anderson, A.E., “Friction, Lubrication and Wear Technology”, ASM Handbook, Cilt 8, 569-577, 1992. 
+
+23.	
+Stachowiak, G.W., Batchelor, A.W., “Engineering Tribology”, Heineman, Boston, Cilt 1, 2001. 
+
+24.	
+Jang, H., Ko, K., et.all, “The Effect of Metal Fibers on the Friction Performance of Automotive Brake Friction Materials”, Wear, Cilt 256, 406-414, 2004. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+
+
+

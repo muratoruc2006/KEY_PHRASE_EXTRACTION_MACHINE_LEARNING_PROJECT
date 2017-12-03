@@ -1,0 +1,388 @@
+ÇOK SEVÝYELÝ EVÝRÝCÝLER ÝÇÝN SABÝT V/f ÖZELLÝKLÝBÝR UVDGM ALGORÝTMASI 
+Servet TUNCER ve Yetkin TATAR* Elektronik-Bilgisayar Eðitimi Bölümü, Teknik Eðitim Fakültesi, Fýrat Üniversitesi, Elazýð, stuncer@firat.edu.tr *Bilgisayar Mühendisliði Bölümü, Mühendislik Fakültesi, Fýrat Üniversitesi, Elazýð, ytatar@firat.edu.tr 
+(Geliþ/Received: 23. 05. 2005; Kabul/Accepted: 23. 03. 2006) 
+ÖZET 
+Bu makalede, 5-seviyeli kaskad evirici üzerinden deðiþken genlikli ve deðiþken frekanslý üç-fazlý gerilimler elde etmek için sabit V/f özellikli bir Uzay Vektör Darbe Geniþlik Modülasyonu (UVDGM) algoritmasý sunulmuþtur. Bu algoritma açýk-çevrim olarak çalýþmaktadýr ve lineer modülasyon indeksi bölgesinin tüm deðerleri için oldukça elveriþlidir.  
+Önerilen UVDGM algoritmasý MATLAB/Simulink ortamýnda oluþturulan bloklar ile gerçekleþtirilmiþ ve elde edilen benzetim ve deneysel sonuçlar makalede sunulmuþtur.  
+
+1.GÝRÝÞyarý iletken anahtarlama teknolojisinde meydana 
+gelen ilerlemeler ve bunun paralelinde farklý darbe Asenkron motorlarýn açýk-çevrim hýz denetiminde, geniþlik modülasyon algoritmalarýnýn geliþtirilmesi ile stator geriliminin genlik ve frekansýnýn orantýlý olarak yeni statik frekans dönüþtürücüleri ortaya çýkmýþ ve deðiþtirilmesi en uygun yöntemlerden biridir. birçok alanda kullanýlmaya baþlanmýþtýr. Bunlardan Motorun stator direncinin ihmal edilmesi koþulu biri de, “Çok Seviyeli Eviricilerdir (ÇSE)”. Bu altýnda gerilim/frekans (V/f) oranýnýn sabit tutulmasýeviriciler, giriþlerine uygulanan farklý doðru akým (dc) ile düþük hýzlar dýþýnda motorun hýzý geniþ bir aralýkta gerilim seviyelerini birleþtirerek sinüzoidal forma denetlenebilmektedir [1–2].  yakýn çýkýþ gerilimi oluþtururlar. Devre yapýlarý
+nedeniyle çok seviyeli eviriciler klasik iki seviyeli Endüstride asenkron motorlarýn sabit V/f yöntemini eviricilere göre; çýkýþ geriliminin ve akýmýnýn gerçekleþtirilmesi için motorun beslendiði güç harmonik spektrumu, verim ve güç faktörü açýsýndan katýnýn, deðiþken genlik ve frekansta gerilimler daha iyi bir performansa sahiptirler [3]. üretebilecek özellikte olmasý gerekir. Frekans dönüþtürücüler (eviriciler, cyclo ve matris Çok seviyeli eviricilerin performansý kullanýlan dönüþtürücüler) kullanýlarak istenen genlik ve “Darbe Geniþlik Modülasyonu (DGM)” frekansta gerilimler üretilebilmektedir. Son yýllarda algoritmalarýna da oldukça baðýmlýdýr. Bugüne kadar 
+S. Tuncer ve Y. Tatar 
+farklý DGM algoritmalarý geliþtirilmiþ ve matematiksel olarak analiz edilmiþtir [4–14]. DGM algoritmalarýnda, evirici çýkýþ geriliminde ve/veya akýmýndaki harmonik bileþenlerin azaltýlmasý, modülasyon indeksi aralýðýnýn geniþletilmesi, iletim ve anahtarlama kayýplarýnýn düþürülmesi üzerinde en çok çalýþýlan konular olmaktadýr. En yaygýn olarak kullanýlan DGM algoritmalarýþunlardýr: 
+¾Sinüzoidal DGM (SDGM) algoritmasý, ¾Seçilmiþ harmoniklerin eliminasyonu DGM 
+(SHEDGM) algoritmasý, ¾Uzay vektör DGM (UVDGM) algoritmasý. 
+Çok seviyeli eviricilerde kullanýlan DGM algoritmalarý iki-seviyeli eviricilerde kullanýlan DGM algoritmalarýnýn geniþletilmiþhalidir. Hangi DGM algoritmasýnýn daha iyi olduðu konusunda net bir görüþ olmamakla birlikte farklý uygulama alanlarý için birbirlerine göre avantaj ve dezavantajlara sahiptirler [10]. 
+Çok seviyeli SDGM algoritmasýnda referans bir sinüs iþareti ile üst üste yerleþtirilmiþ ayný fazda veya faz farkýna sahip üçgen taþýyýcý iþaretlerin her anahtarlama periyodunda karþýlaþtýrýlmasý ile gerekli kontrol iþaretleri üretilmektedir. Çýkýþ gerilimi referans sinüs iþaretinin genliði tarafýndan kontrol edilmektedir. Bu yöntemde düþük dereceden harmonikler yok edilmekte fakat taþýyýcý iþaret civarýnda harmonikler oluþmaktadýr. Bununla birlikte, taþýyýcý frekans harmoniklerinin etkisi, anahtarlama frekansýnýn artýrýlmasý ile azaltýlabilmektedir. Çok seviyeli SDGM algoritmasýnda eviricinin çýkýþ faz­nötr gerilimine 3. harmonik bileþenin eklenmesi ile modülasyon indeksi aralýðý geniþlemektedir [4].  
+SHEDGM algoritmasý; evirici çýkýþ gerilimindeki istenmeyen belirli sayýdaki harmonikleri elemek ve ana bileþenin genliðini kontrol etmek için anahtarlama açýlarýnýn önceden hesap edilip, bu açýlara göre iþaret üretimine dayanmaktadýr. Bu yöntem, çok seviyeli SDGM algoritmasý ile kýyaslandýðýnda aþýrýmodülasyon bölgesinde de elveriþli olmasý nedeni ile daha yüksek kazanç saðlanmaktadýr ve eviricinin güç 
+
+Çok Seviyeli Eviriciler Ýçin Sabit V/f Özellikli Bir UVDGM Algoritmasý
+devresindeki anahtarlama geçiþlerinin daha az olmasýnedeniyle de anahtarlama kayýplarý düþük olmaktadýr. Bununla birlikte, anahtarlama açýlarýný elde etmek için doðrusal olmayan denklem takýmlarýnýn çözümünde hesaplamalar oldukça fazladýr ve farklý modülasyon indeksleri için anahtarlama açýlarýnýn bilgilerini depolamaya büyük hafýza gerektirmesi, bu yöntemin dezavantajý olmaktadýr [7,15].  
+Son yýllarda sayýsal teknolojinin geliþmesi ve yüksek hýzda anahtarlama yapan elemanlarýn kullanýlmasý ile çok seviyeli SDGM ve SHEDGM algoritmalarý yerine sayýsal gerçekleþtirmeler için daha uygun olan UVDGM algoritmasý yaygýn olarak kullanýlmaya baþlanmýþtýr. UVDGM algoritmasý; dc hat geriliminin optimum kullanýmý, düþük akým dalgalanmasý ve geniþbir modülasyon indeksi bölgesi gibi bir takým avantajlara sahiptir. Bu algoritma kullanýlarak iki ve çok seviyeli eviricilerde istenen genlik ve frekansta üç-fazlý çýkýþ gerilimleri minimum harmonik bozulma ile elde edilebilmektedir [4]. UVDGM algoritmasýnýn tanýtýmý ve çok seviyeli eviricilere uygulanýþý 2. bölümde yer almaktadýr. 
+Bu makalede, aþaðýdaki bölümlerde sabit V/f özellikli UVDGM algoritmasýnýn tanýtýmý yapýlmýþtýr. Bunun için, ilk olarak 5-seviyeli kaskad baðlý eviricinin güç devresi verilmiþ olup, çalýþma prensibinden kýsaca bahsedilmiþtir. Daha sonra, bu evirici üzerinden deðiþken genlikli ve deðiþken frekanslý gerilimler elde etmek için önerilen UVDGM algoritmasý tanýtýlmýþtýr. Bu algoritmaya göre üretilen üç-fazlý gerilimler ile bir asenkron motor beslenilerek elde edilen benzetim ve deneysel sonuçlara yer verilmiþtir. 
+2. ÇOK SEVÝYELÝ EVÝRÝCÝLER ÝÇÝN SABÝT V/f ÖZELLÝKLÝ UVDGM ALGORÝTMASI 
+
+2.1 Üç-fazlý 5-Seviyeli Kaskad Evirici  
+Bir 5-seviyeli kaskad baðlý eviricinin yapýsýÞekil 1’de görülmektedir. Kaskad eviricilerin her fazý, tek-fazlýköprü tip (H-köprü) eviricilerin seri baðlanmasýoluþturulmaktadýr. Bu eviricilerin çýkýþ gerilimleri, birbiri ile izolasyonlu dc kaynaklarýn birleþtirilmesi 
+
+
+
+S1 
+
+S2 
+
+S1 
+
+S2 
+V 
+H1 
+V 
+H2 S1 
+
+
+
+S2 
+
+c 
+
+
+
+a 
+
+
+a 
+
+a 
+
+a 
+V1 V1 V1 V1 
+
+
+
+V1=+V V1=0 V1=0 V1=-V Þekil 2. H1-köprüsü için anahtarlama durumlarý. ile elde edilir. H-köprü’lerin eklenip veya çýkarýlmasý2 
+
+ile eviricinin çýkýþ gerilim seviyesi artýrýlýp 
+azaltýlabilmektedir. Þekil 2.’de H1-köprüsü için 
+0 
+muhtemel anahtarlama durumlarý gösterilmiþtir. Burada, güç anahtarlarýn iletim-kesim durumlarýna baðlý olarak +V, 0 ve –V gibi 3 farklý seviyede çýkýþ
+..,.ß . a, .b, .c 
+-2 
+
+gerilimi elde edilmektedir. H1 ve H2 köprülerin 2 
+çýkýþlarýnýn seri baðlanmasý ile de eviricinin faz-nötr 
+çýkýþ gerilimi +2V, +V, 0, -V ve –2V olacaktýr. 
+Kaskad eviricinin çýkýþ gerilim seviyesinin sayýsý
+m =2s +1 baðýntýsý ile tanýmlanýr ki, burada s faz baþýna dc giriþ kaynaklarýnýn sayýsýdýr [16-18]. 
+
+2.2. Sabit V/f Özellikli UVDGM Algoritmasý 
+Ýki ve çok seviyeli eviriciler için UVDGM algoritmalarýnda ilk olarak, üç-fazlý referans giriþgerilimleri .a, .b ve .c  (1) denklemi ile verilen 
+Clarke dönüþümü kullanýlarak kartezyen 
+koordinatlarda ( .-ß uzayý) bir gerilim uzay vektörü olarak temsil edilmektedir [11,14]. Bu makalede sunulan sabit V/f özellikli UVDGM algoritmasýnda üç-fazlý referans giriþ gerilimleri þekil 3’de verilen karakteristik eðriye göre hesaplanmaktadýr. 
+.* =.. +j.ß = 2 (.ae j0 +.be j2./3 +.ce-j2./3 ) (1) 
+3 
+Þekil 3’de verilen V/f karakteristik eðrisinden de görüleceði gibi, stator geriliminin genliðinin küçük olduðu düþük hýz bölgelerinde stator direnci önemli bir rol oynamasýndan dolayý gerilim düþümünü kompanze etmek gerekir. Bu amaçla düþük hýz bölgelerinde stator geriliminin genliði, gerilim/frekans oranýnýn belirlediði deðerden daha yüksek seçilir. Bu durum yol alma esnasýnda önemli olup, motorun 
+
+
+
+0 
+-2 
+Þekil 4. Referans giriþgerilimleri ve .-ß uzayýnda tanýmlanmýþ referans gerilimler 
+baþlangýçta üretmesi gereken yol alma momentinin deðerini etkilemektedir [1].  
+Þekil 4’de sabit V/f özellikli üç-fazlý referans 
+gerilimlerin deðiþimi ve (1) denklemine göre .-ßuzayýnda tanýmlanmýþ referans gerilimler gözükmektedir. Burada, eviricinin her bir H-köprüsü için dc giriþ gerilimleri 1V ve modülasyon indeksi, M=1 alýnmýþtýr. 
+Þekil 5’de 5-seviyeli bir evirici için uzay vektör diyagramý verilmiþtir. Þekilden de görüleceði gibi altýsektörde toplam 96 adet küçük üçgen bulunmaktadýr. Burada her bir üçgenin köþeleri bir gerilim vektörünü temsil etmektedir ve ayný zamanda eviricinin çýkýþ üç­fazýnýn anahtarlama durumlarýný da göstermektedir.  
+Çok seviyeli eviricilerde UVDGM algoritmasý göre eviricinin çýkýþ geriliminin denetimi için referans gerilim vektörün içerisinde olduðu üçgenin koordinatlarý kullanýlmaktadýr. Kartezyen koordinat sisteminde gösterilen uzay vektör diyagramýnda (1) denklemine göre hesaplanan referans gerilim vektörün hangi üçgen içerisinde olduðunu belirlemek ve bu vektörü çevreleyen üçgenin koordinatlarý tarafýndan belirlenen komþu uzay vektörlerin iletim sürelerinin hesabýoldukça karmaþýktýr. Bu problemleri çözmek 
+için kartezyen koordinat sistemi bir 60o ’lik koordinat sistemine (g-h uzayý) dönüþtürülmektedir (þekil 6). Bu dönüþüm aþaðýda verilen baðýntýlar sayesinde gerçekleþtirilir [4,12]. 
+*3 . 
+.1 ..= 
+sin ..
+
+g2 ..cos .-
+3 .	 (2) 
+Þekil 3. V/f karakteristik eðrisi 
+
+S. Tuncer ve Y. Tatar Çok Seviyeli Eviriciler Ýçin Sabit V/f Özellikli Bir UVDGM Algoritmasý
+*3 .
+.1 .
+.h =.cos(60 -.) -
+
+
+
+sin(60 -.).(3) 2 
+2 . 
+.
+
+
+3 
+..
+g,h 
+0 
+Burada .*g ve .*h ; g-h uzayýndaki .*  vektörünün 
+koordinatlarýdýr. 
+.
+ ve .ise kartezyen koordinat 
+sistemindeki .* ’nin genliði ve faz açýsýnýbelirtmektedir. Denklem (2) ve (3)’de verilen koordinat dönüþüm baðýntýlarý kullanýlarak þekil 5’deki I.sektörün g-h uzayýndaki karþýlýðýþekil 6’de verilmiþtir. Þekil 7’de ise g-h uzayýndaki referans 
+gerilim vektörünün .*g ve .*h  bileþenlerinin 
+deðiþimleri görülmektedir. 
+Koordinat dönüþümü sayesinde referans gerilim vektörü, köþe koordinatlarý basit hesaplanabilen bir paralel kenar tarafýndan çevrelenmektedir. Burada, paralel kenarýn köþe koordinat deðerlerinin toplamý en küçük olaný d noktasý olarak alýnmýþ ve bu nokta .d 
+-2 
+Zaman (sn) Þekil 7. g-h uzayýnda tanýmlanmýþ referans gerilimler. 
+gerilim vektörü olarak tanýmlanmýþtýr. Þekil 6’daki 
+. 
+.*  referans vektörünü efg içerisinde olduðu kabulü ile referans gerilim vektörün yerini saptamak için .d uzay vektörünün koordinatlarý .dg =int(.*g) ve 
+.dh =int(.*h) olacak þekilde hesaplanýr [4,11,12]. Burada, int() düþük sýnýrlý tamsayý fonksiyonudur. 
+. 
+.d ’nin koordinatlarý referans gerilim vektörünün def 
+. 
+veya efg üçgenlerinden birinin içinde olduðunu 
+
+belirtmektedir. .d ’ye baðlý olarak .e, .f ve .g  uzay vektörlerinin koordinatlarý ise þu þekilde hesaplanýr: 
+
+(.eg,.eh) =(.dg,.dh +1) (4) (.fg,.fh) =(.dg +1,.dh) (5) 
+
+. (.gg,.gh) =(.dg +1,.dh +1) (6) 
+. 
+Referans gerilim vektörün efg içerisinde olduðu durumda ise, çok seviyeli eviricilerde aþaðýdaki denklem komþu vektörlerin iletim sürelerinin hesabýiçin kullanýlabilir [4,11,12]. 
+
+c* Þekil 5. Kartezyen koordinat sisteminde bir 5-.eTe +.fTf +.gTg =.Ts  (7) seviyeli eviricinin uzay vektör diyagramýTe +Tf +Tg =Ts  (8) 
+h 0,4 
+0,3 
+0,2 
+Burada, Ts anahtarlama periyodudur ve Te, Tf ve 
+Tgsýrasýyla .e, .f ve .g komþu uzay vektörlerinin 
+iletim sürelerini belirtmektedir ve Denklem (4)­(8)’den hesaplanýrlar. 
+Te =(.dh +1-.*h )Ts (9) 
+Tf =(.dg +1-.*g)Ts (10) 
+Tg =Ts -Te -Tf  (11) 
+Çok seviyeli eviricilerde bir gerilim uzay vektörü birden daha fazla anahtarlama durumuna sahip olmaktadýr. Örnek olarak; þekil 6’daki (1,0) uzay vektörü için [-1,-2,-2], [0,-1,-1], [1,0,0] ve [2,1,1] gibi 4 farklý anahtarlama durumu söz konusudur. Bu anahtarlama durumlarýnýn hepsinde de çýkýþ
+1,3 
+f 1,2 g2,2 
+.* 
+e 
+2,1 3,1 
+2,0 3,0 4,0 
+.h * 0,1 
+. 
+0,0 1,0 
+d 
+1,1 
+.g * 
+g 
+Þekil 6. g-h uzayýndaki vektörler (I.sektör). 
+geriliminin genliði ve faz açýsý aynýdýr. Eviricinin 
+gerilim seviyesindeki artýþ ile de daha fazla 
+
+Üç-fazlý referans giriþ gerilimleri 
+
+modülasyon iþareti 
+Þekil 8. Önerilen sabit V/f özellikli UVDGM 
+algoritmasýnýn blok diyagramý
+2 
+0 
+-2 
+
+
+Þekil 9. 5-seviyeli kaskad eviricinin a-fazý için modülasyon iþareti. 
+anahtarlama durumu oluþacaktýr [4]. Anahtarlama durumlarý eviricinin güç devresindeki hangi anahtarýn iletimde ve hangi anahtarýn kesimde olacaðýnýbelirlemektedir.  
+Kaskad baðlý eviricilerde anahtarlama durumlarýnýn seçiminde, anahtarlama geçiþlerinin toplam sayýsýnýn minimum olmasý ve çýkýþ geriliminin harmonik profilinin optimizasyonu dikkate alýnmaktadýr [12]. Bu maksatla, referans gerilim vektörünün bir üçgenden diðerine geçerken minimum anahtarlama geçiþi saðlanmasý için komþu uzay vektörlerin anahtarlama durumlarý arasýnda minimum ve maksimum deðerlerine göre bir seçim yapýlmaktadýr. Bu seçim Denklem (12)-(13) yardýmýyla gerçekleþtirilir [4]. 
+.i-min =min([.a,.b,.c])	 (12) 
+.i-max =max([.a,.b,.c]) , ( i=1,2,3) (13) 
+S. Tuncer ve Y. Tatar 
+Burada; .i-min ve .i-max deðerleri i. gerilim uzay vektörünü tanýmlamaktadýr. Þekil 8’de önerilen sabit V/f özellikli algoritmanýn iþleyiþini gösteren blok þema verilmiþtir. Algoritmada ilk olarak, üç-fazlýreferans giriþ gerilimleri (1) denklemi yardýmýyla kartezyen koordinatlarda bir referans gerilim vektörü olarak tanýmlanmaktadýr. Daha sonra bu referans gerilim vektörünün hangi sektörde ve hangi üçgen içerisinde olduðunu saptamak ve komþu uzay vektörlerin iletim sürelerinin hesabý (2)-(11) denklemleri kullanýlarak yapýlmaktadýr. Bir sonraki aþamada, g-h uzayýndaki bir gerilim uzay vektörüne karþýlýk gelen mevcut tüm anahtarlama durumlarýarasýndan Denklem (12)-(13) yardýmýyla bir seçim yapýlýr. Örneðin; g-h uzayýnda (1,0) gerilim vektörüne karþýlýk gelen anahtarlama durumlarý: [-1, -2, -2], [0, ­1, -1], [1, 0, 0] ve [2, 1, 1] olduðuna göre bu anahtarlama durumlarý arasýnda denklem (12)-(13)’e göre [-1, -2, -2] ve [2, 1, 1] seçilmelidir [4]. Diðer komþu uzay vektörler içinde seçim aynýþekildedir.  
+Anahtarlama durumlarý seçildikten sonra en son olarak, güç anahtarlarýnýn sürme devrelerine uygulanacak DGM’li iþaret üretimi gerçekleþtirmek olacaktýr. Bu çalýþmada, her bir komþu uzay vektör için seçilen iki anahtarlama durumu kullanýlarak yarým dalga simetrisine sahip DGM’li iþaretler üretilmiþtir. Bu þekilde lineer modülasyon indeksi bölgesinin (0<M<1.15) tüm deðerlerinde oldukça iyi sonuçlar alýnmýþtýr. Þekil 9’da önerilen UVDGM algoritmasý ile elde edilmiþ a-fazýnýn modülasyon iþareti görülmektedir.  
+
+3. BENZETÝM VE DENEYSEL SONUÇLAR 
+Yukarýda açýklanan sabit V/f özelikli UVDGM algoritmasýnýn geçerliliði yapýlan benzetim ve deneysel çalýþmalar ile doðrulanmýþtýr. Önerilen UVDGM algoritmasýnýn açýk-çevrim hýz denetim þemasýþekil 10’da görülmektedir. Benzetim ve deneysel çalýþmalar Matlab\Simulink ortamýnda oluþturulan bloklar yardýmý ile gerçekleþtirilmiþtir. Bu þekilde çalýþan UVDGM algoritmasýna göre üretilen deðiþken genlikli ve deðiþken frekanslý gerilimler ile parametreleri ekte verilen bir asenkron motor beslenilmiþtir. 
+Gerçek-zamanlý UVDGM algoritmasý için Matlab\Simulink ortamýnda oluþturulan bloklar Matlab\Real-Time Workshop ile C koduna dönüþtürülmüþ ve dSPACE\Real-Time Interface yazýlýmý yardýmýyla dSPACE DS1103 sayýsal iþaret iþlemci kartýna yüklenmiþtir. Bu iþlem, Matlab\Simulink blok kütüphanesine dSPACE’in I/O bloklarý yerleþtirilmesi yoluyla yapýlmaktadýr. 
+Þekil 11’de 0.5Nm’lik bir yük momentine karþýlýk hýz ve momentin deðiþimleri görülmektedir. Þekil 12’de geçici durumda ve Þekil 13-15’de ise sürekli durumda önerilen algoritmaya göre elde edilmiþ benzetim 
+
+S. Tuncer ve Y. Tatar Çok Seviyeli Eviriciler Ýçin Sabit V/f Özellikli Bir UVDGM Algoritmasýac þebeke 400 
+
+
+algoritmasýna göre hýz denetim þemasý
+Stator akýmlarý (A) Faz-faz gerilimi (V)
+200 0 -200 
+-400 
+(a) Faz-faz gerilimi 
+2 
+
+
+0 
+-2 
+Hýz (rad/sn) 
+100 
+
+
+0
+0 
+0 0.1 0.2 0.3 0.4 0.5 
+
+Moment (Nm)
+Zaman (sn) 
+(b) Stator akýmlarý
+
+
+2 
+1 
+Zaman (sn)Þekil 11. ac motorun hýz ve moment deðiþimleri
+sonuçlarý verilmiþtir. Burada, anahtarlama frekansýfs=1000Hz ve modülasyon indeksi M=1’dir. Modülasyon indeksinin 1 deðeri eviricinin faz-nötr geriliminin temel bileþeninin genliði 150V deðerine karþýlýk gelmektedir. Sürekli durumdaki dalga þekillerin harmonik spektrumlarýndan görüleceði üzere faz-nötr geriliminin temel bileþeninin genliði 150V ve faz-faz geriliminin temel bileþeninin genliði 
+(c) Rotor akýmlarýÞekil 12. Geçici durumda elde edilen dalga þekilleri 
+200
+Faz-nötr gerilimi (V) 
+
+ise 261V’dur. Temel bileþen dýþýndaki harmonikler ise 
+anahtarlama frekansýnýn kendisinde ve yan 
+bantlarýnda kümelenmiþtir. Yýldýz baðlý nötrü izoleli 
+yük sistemlerinde 3. harmonik bileþen faz-nötr geriliminde mevcut olmakla birlikte faz-faz 
+geriliminde oluþmamaktadýr (Þekil 13-14).  
+100 
+0 
+-100 
+
+-200 Bilgisayarla etkileþimli dSPACE DS1103 denetleyici 10.98 10.99 11.00 11.01 kartýndan elde edilen DGM’li iþaretler ile sürülen Zaman (sn) deney düzeneðinin fotoðrafýÞekil 16’da 150 görülmektedir. Bu kart üzerinde PowerPC604e– 
+
+Genlik (V)
+100 
+50 
+0 0 500 1000 1500 Frekans (Hz) 
+333MHz ana iþlemci ve TMS320F240-20MHZ’lik 
+uydu durumunda olan bir sayýsal iþaret iþlemci (DSP) bulunmaktadýr. Deney düzeneði; 5-seviyeli kaskad 
+eviricinin güç devresi, ölçüm devreleri, ölü-zaman 
+ayarý ve koruma devrelerinden oluþmaktadýr. Ýnverter, birbirinden izoleli 6 adet dc gerilim kaynaðýndan beslenmektedir. Bu maksatla, bu gerilimleri elde etmek için her biri 2x55V sekonder çýkýþlý 1kW gücünde 3 adet güç transformatörü kullanýlmýþtýr. 
+
+Transformatörlerin  çýkýþýndaki  ac  gerilimler  
+International  Rectifiers  firmasýnýn  36MT160  
+514  
+Þekil 13. Sürekli durumda faz-nötr gerilimi ve harmonik spektrumu (M=1, fs=1000Hz) 
+
+
+400 
+
+
+1 
+-0.5
+Faz akýmý (A) 
+200 
+0.5 0
+0
+Faz-faz gerilimi (V)
+
+-200 -1 
+-400 
+
+10.98	10.99 11.00 11.01 10.98 10.99 11.00 11.01 Zaman (sn) Zaman (sn) 
+1300 
+
+
+Genlik (V)
+200 
+100 
+0 
+0  500  1000  1500  
+Frekans (Hz)  
+Þekil 14. Sürekli durumda faz-faz gerilimi  ve  
+
+harmonik spektrumu (M=1, fs=1000Hz) 
+doðrultucu devreleri ile doðrultulup bir LC filtre devresi ile filtrelenerek 75V’luk dc gerilimler elde edilmiþtir. Tasarlanan 5-seviyeli kaskad eviricinin güç devresi için, 20A-600V akým-gerilim deðerine sahip Mitsubishi firmasýnýn PM20CSJ60 akýllý güç modülü (IPM) kullanýlmýþtýr. Ýnverterin güç devresi ile denetleyici kart ve bu kart ile beraber kullanýlan diðer devreler arasýnda elektriksel izolasyonu HCPL–4503 ve 4N35 optik-izolatör entegreleri saðlamaktadýr. Ýnverterin ayný kolu üzerindeki anahtarlar için ölü­zaman ayarý ise, IXYS firmasýnýn tek-fazlý ve üç-fazlýsayýsal kontrollü güç dönüþüm devrelerini gerçekleþtirmek için tasarladýðý IXDP630PI sayýsal ölü-zaman entegresi kullanýlarak yapýlmaktadýr. 
+0.5 
+0 
+
+Frekans (Hz) Þekil 15. Sürekli durumda stator akýmý ve harmonik spektrumu (M=1, fs=1000Hz) 
+Gerçek-zamandaki akým ve gerilim bilgilerini ölçüp, bilgisayar ortamýna aktarmak için ise, LEM firmasýnýn LA25-NP akým algýlayýcýsý ve LV25-P gerilim algýlayýcýsý kullanýlmýþtýr. 
+Þekil 17-19’da deney düzeneði üzerinden alýnan deneysel sonuçlar verilmiþtir. Deneysel sonuçlarýn bilgisayar ortamýna alýnýp incelenmesi ve kaydedilmesi için dSPACE’in ControlDesk yazýlýmýkullanýlmýþtýr. Burada oluþturulan bir platform üzerinde deðiþkenler istenilen zaman aralýklarý ile alýnýp bir *.MAT dosyasý olarak kaydedilebilmekte ve gerekli görüldüðü takdirde hýzlý fourier dönüþümleri (FFT) yapýlabilmektedir. 
+
+
+S. Tuncer ve Y. Tatar Çok Seviyeli Eviriciler Ýçin Sabit V/f Özellikli Bir UVDGM Algoritmasý
+
+1 
+
+
+
+Genlik (V)
+100 50 0 
+0.5 
+0
+
+
+300 
+ise dSPACE’in ControlDesk yazýlýmý kullanýlmýþtýr. Benzetim ve deneysel sonuçlardan görüleceði üzere, elde edilen dalga þekilleri sinüzoidal forma oldukça yakýn olmaktadýr. Eviricinin seviyesi artýrýlmasý ile çýkýþ dalga þekilleri sinüzoidal forma daha da yakýn olacak ve doðal olarak dalga þekillerindeki harmonik bozulmada azalacaktýr. 
+KAYNAKLAR 
+1.	Sarýoðlu M.K., Gökaþan M. ve Boðosyan S., Asenkron Makinalar ve Kontrolü, Birsen 
+
+Yayýnevi, 2003. 200 
+2.	Bose B.K., Modern Power Electronics and AC 
+
+Drives, Prentice Hall PTR 100 
+3.	Sirisukprasert, S., Jih-Sheng, L. ve Tian-Hua, L., 
+
+“Optimum Harmonic Reduction with a Wide 0 
+Range of Modulation Indexes for Multilevel Con­0 500 1000 1500 verters”, Industry Applications Conference,Frekans (Hz) 2094–2099, 2000. 
+
+Genlik (V) 
+Þekil 18. Sürekli durumda faz-faz gerilimi ve 
+4. Tuncer S., Uzay Vektör Darbe Geniþlik
+harmonik spektrumu (M=1, fs=1000Hz) 
+Modülasyonu Kullanan Beþ Seviyeli Ýnverter Tasarýmý ve Uygulamasý, Doktora Tezi, Fýrat Üniversitesi Fen Bilimleri Enstitüsü, 2005. 
+
+
+4. SONUÇ 
+
+5.	
+Li, L., Czarkowski, D., Liu, Y. ve Pillay P., “Multilevel Selective Harmonic Elimination PWM Technique in Series-Connected Voltage Inverters”, IEEE Transactions on Industry Applications, 160 –170, 2000. 
+
+6.	
+Tolbert, L.M., Peng, F.Z., ve Habetler T.G. “Multilevel Converters for Large Electric Drives”, IEEE Transactions on Industry Applications, 36–44, 1999. 
+
+7.	
+Tuncer, S. ve Tatar, Y. “An Application of SHEPWM Technique In A Cascade Multilevel Inverter”, COMPEL: The International Journal For Computation and Mathematics in Electrical and Electronic Engineering, 81-93, 2005. 
+
+
+Bu çalýþmada, sabit V/f özellikli bir UVDGM algoritmasý tanýtýlmýþtýr. Bu algoritma göre üretilen üç-fazlý gerilimler ile bir asenkron motorun açýk­çevrim hýz denetimi yapýlmýþtýr. Önerilen UVDGM algoritmasý, referans gerilim vektörünün yerini hýzlýbir þekilde saptamaktadýr ve komþu gerilim vektörlerin iletim süreleri basit denklemler ile hesaplanmaktadýr. Bu nedenle de sayýsal gerçekleþtirmeler için oldukça uygundur. 
+DGM iþaretlerin üretimi Matlab/Simulink ortamýnda modellenen bloklar ile gerçekleþtirilmiþtir. Benzetim ve deneysel sonuçlarýn alýnmasý ve kaydedilmesi için 
+
+8.	
+Zhou, K. ve Wang, D. “Relationship between Space-Vector Modulation and Three-Phase Carrier-Based PWM: A Comprehensive Analysis”, IEEE Transactions on Industry Electronics, 186-196, 2002. 
+
+9.	
+Walker, G. ve Ledwich, G. “Bandwidth Considerations for Multilevel Converters”, IEEE Transactions on Power Electronics, 74-81, 1999.  
+
+10.	
+Wang, F., “Sine-Triangle versus Space-Vector Modulation for Three-Level PWM Voltage-Source Inverters”, IEEE Transactions on Industry Applications. 1026-1034, 2002 
+
+11.	
+Celanovic, N. ve Boroyevich, D. “A fast Space-Vector Modulation Algorithm for Multilevel Three-Phase Converters”, IEEE Transactions on Industry Applications. 637 –641, 2001.  
+
+12.	
+Wei, S., Wu, B., Li, F. ve Liu, C. “A general Space Vector PWM Control Algorithm for Multilevel Inverters”, Applied Power Electronics Conference and Exposition (APEC’03), 562-568, 2003.  
+
+13.	
+Prats, M.M., Carrasco, J.M. ve Franguelo, L.G., “Effective Space-Vector Modulation Algorithm for Multilevel Converters”, IECON 02: Industrial Electronics Society, IEEE 2002 28th Annual Conference. 3129-3133, 2002. 
+
+
+S. Tuncer ve Y. Tatar 
+14.	
+Seo, J.H., Choi, C.H. ve Hyun, D.S. “A New Simplified Space-Vector PWM Method for Three-Level Inverters”, IEEE Transactions on Power Electronics. 545-550, 2001. 
+
+15. 
+Tuncer,S., Tatar, Y., ve Güldemir, H., “A SHEPWM Technique with Constant v/f for Multilevel Inverters”, Gazi Üniversitesi Politeknik Dergisi, Cilt 8, Sayý 2, 123-130, 2005.  
+
+16.	
+Hongyang, W. ve Xiangning, H., “Research on PWM Control of A Cascade Multilevel Converter” 
+
+
+Power Electronics and Motion Control Conference, Proceedings. PIEMC 2000.  
+17.	
+Jih-Sheng, L. ve Fang, Z.P., “Multilevel Converters-A New Breed of Power Converters”, IEEE Transactions on Industry Applications, 509 –517, 1996. 
+
+18.	
+Rodriguez, J., Lai, J.S., ve Peng F.Z., “Multilevel Inverters: A Survey of Topologies, Controls, and Applications”, IEEE Transactions on Industry Electronics, 724-737, 2002. 
+
+
+EK: Kullanýlan asenkron motorun parametreleri: 
+P=1kW, Vf-f =380V, f=50Hz, p=2, Rs=9.655., Rr=6.490., Ls=25.88mH, Lr=25.88mH, Lm=515mH, J=0.00055kgm2 
+
+
+
+
+
+

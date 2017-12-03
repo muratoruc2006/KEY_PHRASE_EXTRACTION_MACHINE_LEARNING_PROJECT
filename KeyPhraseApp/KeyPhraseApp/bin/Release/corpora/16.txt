@@ -1,0 +1,424 @@
+DEÐÝÞÝK KORUYUCULAR ÝLE ÝÞLEM GÖRMÜÞBAZI YERLÝ AÐAÇLARDA UV IÞINLARININ RENK DEÐÝÞTÝRÝCÝ ETKÝSÝ
+Cevdet SÖÐÜTLÜ ve Abdullah SÖNMEZ 
+
+Mobilya ve Dekorasyon Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, Beþevler, 06500, Ankara, 
+cevdets@gazi.edu.tr, asonmez@gazi.edu.tr 
+
+(Geliþ/Received: 19.11.2004; Kabul/Accepted: 07.02.2006) 
+ÖZET 
+Bu çalýþmada, yað, mum ve cila ile iþlem görmüþ bazýtürlere ait aðaç malzemelerde UV ýþýnlarýnýn renk deðiþtirici etkisi araþtýrýlmýþtýr. Bu maksatla, ülkemizde yetiþen akasya (Robinia pseudoacacia L.), armut (Pirus communis L.), kestane (Castanea sativa Mill.), sapsýz meþe (Quercus petrea Lieble) ve Toros sediri (Cedrus libani A. Rich) odunlarýndan hazýrlanan numune yüzeylerine gomlak cilasý, tik yaðý ve sývý parafin uygulandýktan sonra 72 saat süreyle UV ýþýnlarýna maruz býrakýlmýþtýr. Renk deðiþimleri ASTM 2224.02 e1’e göre belirlenmiþtir. Araþtýrma sonuçlarýna göre, yað, mum ve cila aðaç malzemelerin rengini UV ýþýnlarýna karþýkoruyamamýþtýr. En az renk deðiþimi sývý parafinde elde edilmiþtir. 
+
+1. GÝRÝÞ(INTRODUCTION) Açýk hava þartlarý etkisinde býrakýlan aðaç malzemenin 
+renginde solma meydana geldiði ve üst yüzey Aðaç malzemenin kendine özgü çok sayýda avantajýnýn iþleminde kullanýlan koruyucularýn bozulduðu, bu olmasý, onu birçok uygulama alanýnda çekici hâle yüzeylerde tekrar üst yüzey iþlemi yapýldýðýnda iyi getirmektedir. Aðaç malzeme, strüktürünün yaný sýra sonuç almanýn güçleþtiði bildirilmiþtir [1–3]. doðal görünümünün de etkisi ilemobilya ve dekorasyon elemanlarýnýn üretiminde tercih edilmektedir. Aðaç Güneþýþýðýnýn gözle görülebilen 400-700 nm’lik 
+türü seçiminde ise mekanik özellikler kadar renk ve kýsmýndaki deðiþik dalga boylarý renklerin belirleyicisidir. dokusu da önem taþýmaktadýr. Ancak aðaç malzeme, Renklendirilmiþ odun dokusundaki renkli taneciklerin/ organik oluþu nedeni ile kullaným yerinde maruz pigmentlerin miktarlarý, irilik ve geometrik þekilleri kaldýðý dýþ etkilere karþý uzun süre dayanýklýlýk renkleri farklýlaþtýrmakta olup, zaman içerisinde su, gösterememektedir. Bu nedenle, aðaç malzeme ile nem ve güneþýþýðý katalizörlüðünde odun dokusundaki üretilen mobilya ve dekorasyon elemanlarýnýn çeþitli ekstraktif maddeler ve diðer depozit maddeler ile renk maddeler ile korunmasýzorunlu hâle gelmektedir. pigmentleri etkileþime girerek rengin veya tonunun 
+C. Söðütlü ve A. Sönmez Deðiþik Koruyucular ile Ýþlem Görmüþ Bazý Yerli Aðaçlarda UV Iþýnlarýnýn Renk Deðiþtirici Etkisi 
+farklýlaþmasýna sebep olduðu belirtilmiþtir [4]. 
+Çevresel faktörler arasýnda UV ýþýnlarýn, aðaç malzemenin yapýsýndaki bozulmalarýn baþlýca sebebi olduðu bildirilmiþtir [5, 6].  
+Sýcaklýk veya UV ýþýnlarýn aðaç malzemede solmaya sebep olduðu, bu renk bozulmasýnýn aðaç türlerine göre, gri, sarý, kýrmýzý veya kahverengi tonlarda artýþþeklinde gerçekleþtiði belirlenmiþtir [7, 8]. 
+Renk deðiþimi, aðaç malzemenin fotokimyasal reaksiyonlarý baþlatan elektromanyetik radyasyonun bütün dalga boylarýný absorbe etmesinden kaynaklandýðý bildirilmiþtir [9]. 
+Aðaç malzeme yüzeylerinde kullanýlan verniklerin, su çözücülü aðaç boyalarýnýn renginde yaptýðý deðiþiklikte; vernik çeþidinin etkisinin önemli, aðaç türünün ise önemsiz olduðu [10] ve aðaç malzeme kusurlarýnýn, boyamayý olumsuz etkilediði bildirilmiþtir [11]. 
+Meþe, Doðu kayýný, kestane ve sarýçam odunlarýna selülozik, sentetik, poliüretan ve asit katalizörlü vernik uygulandýðýnda, en fazla renk deðiþiminin sentetik vernik uygulanan örneklerde meydana geldiði belirlenmiþtir [12]. 
+Alman ceviz boyasý, anilin boya, kimyasal boya ve eco-color boya ile renklendirildikten sonra, 72 saat süre ile xenon ark lambasý altýnda hýzlandýrýlmýþyaþlandýrma yapýlan aðaç malzemelerin, kýrmýzý renk tonunda önemli oranda azalma, sarý renk tonu ve renk saflýk deðerinde ise artma olduðu bildirilmiþtir [13]. 
+Titanyum dioksit (TiO2) pigmenti katýlan organik yaðlar, boyalar, renksiz vernikler, parke vernikleri gibi üst yüzey gereçlerinin, aðaç malzeme yüzeylerine uygulanmasý durumunda, TiO2 pigmentlerinin, UV ýþýnlarýn sebep olduðu renk deðiþimini önemli ölçüde engellediði tespit edilmiþtir [14]. 
+Aðaç malzeme yüzeyindeki koruyucu katmanýn bozulmasý halinde, yüzeye gelen UV ýþýnlarý ve suyun, hücre çeperlerindeki lignin–hemiselüloz tahribatýnda önemli rol oynadýðý, bunun aðaç malzemede renk deðiþikliðine sebep olduðu ve deðiþimde ilk aþamanýn ligninin bozulmasýþeklinde meydana geldiði bildirilmiþtir [15, 16]. 
+Bu çalýþmada, yað, mum, gomlak cilasý gibi deðiþik koruyucular ile iþlem görmüþ aðaç malzemelerde UV ýþýnlarýn renk deðiþtirici etkisi araþtýrýlarak, koruyucu maddelerin aðaç malzemede renk deðiþimini önlemedeki baþarýlarýnýn belirlenmesi amaçlanmýþtýr. 
+
+
+
+2. MALZEME VE YÖNTEM (MATERIAL AND METHOD) 
+2.1. Aðaç Malzeme (Wood Material) 
+Ülkemizde doðal olarak yetiþen akasya (Robinia pseudoacacia L.), armut (Pirus communis L.), kestane (Castanea sativa Mill.), sapsýz meþe (Quercus petrea Lieble) ve Toros sediri (Cedrus libani A. Rich) deney malzemesi olarak kullanýlmýþtýr. Deneylerde kullanýlan aðaç malzemeler, Ankara Mobilyacýlar Sitesinden rasgele seçim yöntemi ile temin edilmiþtir. Deney örneklerinin aðaç malzemenin budaksýz, ardaksýz, büyüme kusurlarý bulunmayan, düzgün lifli ve diri odun kýsmýndan hazýrlanmasýna dikkat edilmiþtir. 
+
+2.2. Koruyucular (Preservatives) 
+Hýzlandýrýlmýþ soldurma deneyleri için hazýrlanan örnek yüzeylerinde, koruma amaçlý olarak; %5–%10’luk gomlak cilasýçözeltisi, tik yaðý ve %5 titanyum dioksit ilaveli sývýparafin ve badem yaðý kullanýlmýþtýr. 
+
+
+2.3. Deney Örneklerinin Hazýrlanmasý(Preparation of Test the Samples) 
+Aðaç malzemelerden hazýrlanan taslaklar, iyi havalandýrýlabilen ve direkt güneþýþýðý almayan ortamda 20±2 ºC sýcaklýk ve %65±5 baðýl nem þartlarýnda 6 ay süre ile istifte bekletilmiþtir. Ön kontrolde ortalama rutubet miktarý, rasgele seçilen 20 örnekte %12±0,5 olarak belirlenmiþtir. Rutubet ölçümlerinde, TS 2471’de belirtilen esaslara uyulmuþtur [17]. 
+Renk deðiþimi örneklerinin hazýrlanmasýnda TS 2470 esaslarýna uyulmuþ [18] ve yýllýk halkalarýn deneme yüzeyine dik (radyal) gelmesine özen gösterilmiþtir. UV deney cihazýnýn örnek tutucu ölçüleri de dikkate alýnarak 120x40x3 mm boyutlarýnda her aðaç türü, koruyucu çeþidi ve kontrol için 3’er adet olmak üzere toplam 60 (5x4x3) adet deney örneði hazýrlanmýþtýr. Örnek yüzeylerinde, önce 80 numaralýdaha sonra 120 numaralý zýmparalar ile iþlem yapýlarak koruyucu uygulamasýna hazýr hâle getirilmiþtir. 
+Gomlak cilasý uygulamasý, cila topu kullanýlarak dolgu, örtü ve bitirme cilasýolmak üzere üç aþamada yapýlmýþtýr. Dolgu cilasý, aðaç malzemenin gözeneklerini doldurmak ve düzgün bir zemin oluþturmak maksadýyla, %5’lik eriyikle pomza tozu ilaveli olarak yapýlmýþtýr. Örtü cilasý, dolgu cilasýndan sonra yüzeyde film katmanýoluþturmak için %10’luk eriyikle yapýlmýþtýr. Üçüncü aþamada ise, yüzeyde oluþturulan gomlak filmini parlatmak ve katmaný sýkýlaþtýrmak için %5’lik cila çözeltisi ile bitirme cilasýyapýlarak cila uygulamasýtamamlanmýþtýr. 
+Tik yaðý ve sývý parafin de gomlak cilasýna benzer þekilde ve aðaç malzeme doygun hâle gelinceye kadar uygulanmýþtýr. Bu malzemeler, ambalaj viskozitesinde kullanýlmýþtýr. Sývý parafinin ilk kat uygulamasýnda, içerisine %5 oranýnda TiO2 pigmenti ilave edilmiþtir. Koruyucunun kurumasý için katlar arasýnda 8 saat bekleme süresi verilmiþtir. Sývý parafin uygulanmasýnda son iþlem olarak, mum artýklarýnýn temizlenmesi amacýile örnek yüzeyleri badem yaðý ile silinmiþtir. 
+
+
+
+2.4. UV Deneyi (UV Test) 
+UV ýþýðýn örnek yüzeylerindeki renk deðiþtirici etkisini belirlemek için yapýlan deneylerde TS 8106–2 ISO 4892–2 esaslarýna uyulmuþtur [19]. Deneyler, ATLAS 150 S XENONTEST cihazýnda 72 saat süre ile güneþ yayýlýmý ve küresel yayýlým, xenon ark yayýlýmýile taklit edilerek yapýlmýþtýr. Deneylerde ýþýnlama þiddeti 340 nm seçilmiþtir. Örnekler, ýþýn kaynaðýna 90° açýda ve 100 mm uzaklýkta konumlandýrýlmýþtýr. 
+
+2.5. Renk Ölçme (Color Measurement) 
+Renk ölçümleri, ASTM–D 2224–2 e1’de belirtilen esaslara göre MÝNOLTA CR–231 renk ölçme cihazý
+ile yapýlmýþtýr [20]. CIEL* a *b* ölçüm yapabilen cihazýngösterilmiþtir.  renk sistemine göre  kesiti Þekil 1’de  
+d  
+ b  
+c  c  
+
+a 
+e 
+ a: Xenon ark lambas  d: Birleþtirme odasý
+ b: Fiber optik kablo (ölçüm için) e: Deney örneði 
+c: Fiber optik kablo (ýþýk iletimi için) 
+Þekil 1. Renk ölçme cihazý(Chroma meter) [21] 
+CIEL*a*b* renk sisteminde; renklerdeki farklýlýklar ve bunlarýn yerleri L*, a*, b* renk koordinatlarýna göre tespit edilmektedir. Burada, L* siyah-beyaz (siyah için L*=0, beyaz için L*=100) ekseninde, a* kýrmýzý­yeþil (pozitif deðeri kýrmýzý, negatif deðeri yeþil) ekseninde, b* ise sarý-mavi (pozitif deðeri sarý, negatif deðeri mavi) ekseninde yer almaktadýr [22, 23]. CIEL*a*b* renk alanýÞekil 2’de gösterilmiþtir. 
+Deðiþimin, rengin hangi tonunda etkili olduðunu belirlemek maksadýyla kýrmýzý renk tonu (a*), sarýrenk tonu (b*) ve renk parlaklýðý (L*) deðerleri birbirinden baðýmsýz olarak incelenmiþ, ayrýca toplam renk deðiþimi (.E*); 
+.E*=(.L)2 +(.a*)2 +(.b*)2  (1) 
+eþitliðinden yararlanýlarak belirlenmiþtir. 
+.E*nin düþük deðerde olmasý, rengin deðiþmediði yada çok az deðiþim olduðunu göstermektedir. 
+Beyaz 
+L* Parlaklýk 
++b* Sarý 
+-a* 
++a* Yeþil Kýrmýzý
+-b* Mavi Gri 
+Siyah 
+Þekil 2. CIEL*a*b* renk alaný(CIEL*a*b* Color space) [21] 
+2.6. Yüzey Pürüzlülüðü (Surface Roughness) 
+Yüzey pürüzlülüðünün belirlenmesinde ISO 4287’de belirtilen esaslara uyulmuþtur [24]. Ölçme iþleminde, ardýþýk profil deðiþimini ölçebilen dokunmalý (iðneli) TIME-TR 200 yüzey pürüzlülüðü cihazý kullanýlmýþtýr. Cihaz 2,5 mm ölçme adýmý, 3 ölçme sayýsýna (cut–off) ayarlanmýþ ve bu ayar iþlem süresince korunmuþtur. 
+Yüzey pürüzlülüðü, cihazýn tarama iðnesinin 5 µm çaplý elmas ucunu örnek yüzeyinde aþaðý–yukarýhareket ettirirken yüzeyde bulunan girinti ve çýkýntýlarýn profili çýkartýlmak suretiyle ölçülmektedir. Profil girintileri (vadi) ile çýkýntýlarý (tepe) arasýnda bulunan merkez çizgisi ortalama pürüzlülük deðerini (Ra) göstermektedir. Bu çalýþmada da, yüzey pürüzlülüðü Ra parametresi esasýna göre deðerlendirilmiþtir. 
+
+
+2.7. Verilerin Deðerlendirilmesi (Statistical Evaluation) 
+Sonuçlarýn deðerlendirilmesinde (deney öncesi–deney sonrasý) ölçüm farklarýveri olarak kullanýlmýþtýr. Varyans analizi (ANOVA) testleri ile faktör etkileri tespit edilmiþtir. Gruplar arasý fark önemli çýktýðýnda, Duncan testi ile ortalama deðerler arasýndaki fark karþýlaþtýrýlmýþtýr. Böylece, denemeye alýnan faktörlerin birbirleri arasýndaki baþarý sýralamalarý, en küçük önemli fark (LSD) kritik deðerine göre homojenlik gruplarýna ayrýlmak suretiyle belirlenmiþtir. Veriler, PC için yazýlmýþMSTAT–C paket programýnda 0,95 güven düzeyinde deðerlendirilmiþtir. 
+3. BULGULAR (FINDINGS) 
+UV ýþýnlarýn, koruyucu ile iþlem görmüþ aðaç malzemenin rengine etkisini belirlemek üzere yapýlan ölçümlerde elde edilen kýrmýzý renk tonu (a*), sarýrenk tonu (b*) ve renk parlaklýðý (L*) deney öncesi– deney sonrasý deðerleri ile bunlarýn farklarýna ait aritmetik ortalamalar Tablo 1’de verilmiþtir. 
+
+C. Söðütlü ve A. Sönmez Deðiþik Koruyucular ile Ýþlem Görmüþ Bazý Yerli Aðaçlarda UV Iþýnlarýnýn Renk Deðiþtirici Etkisi 
+Tablo 1. Kýrmýzýrenk tonu (a*), sarý renk tonu (b*) ve renk parlaklýðý (L*) deney öncesi–deney sonrasýölçümleri ile farklarýna iliþkin ortalama deðerler (Redness value (a*), yellowness value (b*) and lightness value (L*) mean values related to measurements of color and their differences before and after experiment 
+AÐAÇ TÜRÜ  RENKÐERÝ KORUYUCU ÇEÞÝDÝ 
+SIVI PARAFÝN  GOMLAK CÝLASI  TÝK YAÐI  KONTROL  
+DE DÖ  DS  Fark  DÖ  DS  Fark  DÖ  DS  Fark  DÖ  DS  Fark  
+a*  10,51  10,68  -0,17  19,34  21,86  -2,53  10,08  11,77  -1,70  7,53  7,53  0,00  
+AKASYA  b*  30,84  30,05  0,79  72,19  69,11  3,08  36,05  36,16  -0,11  21,75  27,40  -5,65  
+L*  57,76  64,92  -7,16  51,73  54,25  -2,53  58,76  63,62  -4,86  58,68  69,17  -10,49  
+a*  19,29  16,62  2,67  24,17  26,08  -1,91  21,19  23,53  -2,35  13,70  12,91  0,79  
+ARMUT  b*  25,40  19,00  6,40  61,82  54,03  7,79  34,28  25,59  8,68  22,89  22,94  -0,05  
+L*  50,86  50,04  0,82  45,36  43,04  2,31  49,15  42,55  6,60  63,90  62,40  1,50  
+a*  8,29  10,37  -2,08  18,49  20,92  -2,42  8,75  9,46  -0,70  5,14  7,65  -2,51  
+KESTANE  b*  25,74  31,57  -5,83  68,28  69,01  -0,74  31,32  35,43  -4,11  18,50  30,54  -12,04  
+L*  66,51  69,00  -2,49  52,18  59,07  -6,89  63,86  71,63  -7,87  73,17  74,78  -1,61  
+a*  12,08  12,11  -0,02  21,70  23,39  -1,69  12,55  13,01  -0,46  7,19  9,34  -2,15  
+MEÞE  b*  25,38  25,36  0,02  66,73  59,91  6,82  32,74  29,56  3,18  20,28  28,00  -7,72  
+L*  57,69  58,54  -0,85  48,01  49,86  -1,86  57,16  61,12  -3,96  69,17  65,97  3,20  
+a*  7,77  9,51  -1,74  20,78  25,43  -4,64  12,40  12,73  -0,33  6,79  9,47  -2,68  
+T. SEDÝRÝ b*  25,22  26,80  -1,58  62,15  62,12  0,04  35,62  30,09  5,54  24,43  27,76  -3,34  
+L*  56,69  65,40  -8,71  44,26  48,59  -4,33  49,81  59,11  -9,30  66,38  68,79  -2,41  
+
+DÖ :Deney Öncesi  DS :Deney Sonrasý Not : Eksi (-)deðerler artýþý ifade etmektedir. 
+Tablo 1 sonuçlarýna göre, renk tonu ve renk parlaklýðýdeðerlerinde farklýlýklar bulunmaktadýr. Farklýlýklarýn kaynaðýnýbelirlemek üzere istatistik deðerlendirmeler yapýlmýþtýr. 
+3.1. Kýrmýzý Renk Tonu (a*) (Color Tone for Redness) 
+Kýrmýzý renk tonundaki deðiþimin kaynaðýný belirlemek üzere iki faktörlü varyans analizi yapýlarak sonuçlarýTablo 2’de gösterilmiþtir. 
+Buna göre, aðaç türü, koruyucu çeþidi ve bunlarýn etkileþimleri istatistiksel olarak önemli bulunmuþtur (.=0,05). Daha sonra aðaç türü ve koruyucu çeþidi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarýTablo 3’de verilmiþtir. 
+Duncan testi karþýlaþtýrma sonuçlarýna göre (Tablo 3), kýrmýzý renk tonunda en az artýþ armutta elde edilmiþbunu sýrasýyla meþe, akasya, kestane ve Toros sediri izlemiþtir. Akasya ile meþe, kestane ile Toros sediri arasýndaki fark önemsiz çýkmýþtýr. Koruyucu çeþidi düzeyinde ise en az artýþ sývý parafin kullanýmý ile elde edilmiþ ve bunu sýrasýyla tik yaðý, kontrol örnekleri ve gomlak cilasý izlemiþtir. Kontrol örnekleri ile tik yaðýkullanýmý arasýndaki fark önemsiz çýkmýþtýr. 
+Tablo 3. Aðaç türü ve koruyucu çeþidi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý (The comparative results of Duncan analysis on the wood species and preservatives) 
+AÐAÇ TÜRÜ  X  HG  
+AKASYA  -1,100  B  
+ARMUT  -0,199  A*  
+KESTANE  -1,930  C  
+MEÞE  -1,081  B  
+TOROS SEDÝRÝ -2,349  C  
+LSD ± 0,4599  
+KORUYUCU ÇEÞÝDÝ X  HG  
+SIVI PARAFÝN  -0,270  A*  
+GOMLAK CÝLASI  -2,639  C  
+TÝK YAÐI  -1,107  B  
+KONTROL  -1,131  B  
+LSD ± 0,4114  
+
+X : Aritmetik ortalama *: Kýrmýzý renk tonunda en az artýþ HG : Homojenlik Grubu
+Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarýTablo 4’de gösterilmiþtir. 
+Tablo 4’e göre, kontrol örneði ve sývý parafin sürülen armudun kýrmýzý renk tonunda azalma görülürken, diðer örneklerin tamamýnda artýþ olmuþtur. En çok artýþgomlak cilasý sürülen Toros sedirinde elde edilmiþtir. 
+
+Tablo 2. Kýrmýzý renk tonu deðiþimine iliþkin varyans analizi sonuçlarý(The results of variance analysis related to the tone changes in redness value) 
+VARYANS KAYNAÐI  Serbestlik Derecesi  Kareler Toplamý  Kareler Ortalamasý  F Deðeri  P . 0,05  
+Aðaç Türü (A)  4  33,509  8,377  26,4192  0,0000*  
+Koruyucu Çeþidi (B)  3  43,292  14,431  45,5091  0,0000*  
+Etkileþim (AB)  12  65,161  5,430  17,1246  0,0000*  
+Hata  40  12,684  0,317  
+Toplam  59  154,646  
+
+*: Fark, 0,05’e göre önemli 
+
+Tablo 4. Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý(The 
+comparative results of Duncan analysis on the wood species–preservatives) 
+KORUYUCU ÇEÞÝDÝ AÐAÇ TÜRÜ  
+AKASYA  ARMUT  KESTANE  MEÞE  T. SEDÝRÝ 
+X  HG  X  HG  X  HG  X  HG  X  HG  
+SIVI PARAFÝN  -0,173  BC  2,670  A*  -2,083  D  -0,023  BC  -1,740  D  
+GOMLAK CÝLASI  -2,527  D  -1,910  D  -2,423  D  -1,690  D  -4,643  E**  
+TÝK YAÐI  -1,697  D  -2,347  D  -0,703  C  -0,460  C  -0,330  C  
+KONTROL  -0,003  BC  0,790  B  -2,510  D  -2,150  D  -2,683  D  
+LSD ± 0,9199  
+
+X : Aritmetik ortalama  *: Kýrmýzý renk tonunda en çok azalma **: Kýrmýzý renk tonunda en çok artýþ
+Akasya kontrol örneði ile akasya ve meþede sývýparafin kullanýmý, kestane, meþe ve Toros sedirinde tik yaðý kullanýmý ve diðer örneklerin pek çoðunda kýrmýzý renk tonu farký anlamsýz bulunmuþtur. 
+3.2. SarýRenk Tonu (b*) (Color Tone for Yellowness) 
+Sarý renk tonundaki deðiþimin kaynaðýný belirlemek üzere iki faktörlü varyans analizi yapýlmýþ ve sonuçlarý Tablo 5’de gösterilmiþtir. 
+Buna göre, aðaç türü, koruyucu çeþidi ve bunlarýn ikili etkileþimi istatistiksel olarak önemli çýkmýþtýr (.=0,05). Daha sonra aðaç türü ve koruyucu çeþidi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarýna göre (Tablo 6), armut, meþe ve Toros sedirinin sarý renk tonunda azalma görülürken, kestane ve akasyada artýþ olmuþtur. Sarý renk tonunda en çok azalma armutta, en çok artýþ ise kestanede elde edilmiþtir. Koruyucu çeþidi düzeyinde ise gomlak cilasý ve tik yaðýnda azalma, kontrol örnekleri ve sývýparafinde artýþ olmuþtur. En çok azalma gomlak cilasýnda, en çok artýþ kontrol örneklerinde elde edilmiþtir. 
+Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý Tablo 7’de verilmiþtir. 
+Tablo 6. Aðaç türü ve koruyucu çeþidi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý(The comparative results of Duncan analysis on the wood species and preservatives) 
+AÐAÇ TÜRÜ  X  HG  
+AKASYA  -0,473  C  
+ARMUT  5,705  A*  
+KESTANE  -5,680  D**  
+MEÞE  0,573  B  
+TOROS SEDÝRÝ 0,165  BC  
+LSD ± 0,8371  
+KORUYUCU ÇEÞÝDÝ X  HG  
+SIVI PARAFÝN  -0,042  C  
+GOMLAK CÝLASI  3,399  A*  
+TÝK YAÐI  2,636  B  
+KONTROL  -5,761  D**  
+LSD ± 0,7487  
+
+X : Aritmetik ortalama *: Sarý renk tonunda en çok azalma 
+**: Sarýrenk tonunda en çok artýþ
+Tablo 7’ye göre, en çok azalma tik yaðý sürülen armutta, en çok artýþ ise kestane kontrol örneðinde bulunmuþtur. Kontrol örneklerinin tamamýnýn sarýrenk tonunda artýþ olmuþtur. Armutta sývý parafin ile meþede gomlak cilasý kullanýmý, akasyada gomlak cilasý ile meþede tik yaðý kullanýmý, akasyada tik yaðý, armut kontrol örnekleri, kestane ve Toros sedirinde gomlak cilasý ile meþede sývý parafin kullanýmý, 
+
+Tablo 5. Sarý renk tonu deðiþimine iliþkin varyans analizi sonuçlarý(The results of variance analysis related to the tone changes in yellowness value) 
+VARYANS KAYNAÐI  Serbestlik Derecesi  Kareler Toplamý  Kareler Ortalamasý  F Deðeri  P . 0,05  
+Aðaç Türü (A)  4  784,460  196,115  186,8267  0,0000*  
+Koruyucu Çeþidi (B)  3  775,162  258,387  246,1496  0,0000*  
+Etkileþim (AB)  12  168,341  14,028  13,3640  0,0000*  
+Hata  40  41,989  1,050  
+Toplam  59  1769,952  
+
+*: Fark, 0,05’e göre önemli 
+
+Tablo 7. Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde Duncan testi karþýlaþtýrma sonuçlarý(The comparative results of Duncan analysis on the interaction of the wood species–preservatives) 
+KORUYUCU ÇEÞÝDÝ AÐAÇ TÜRÜ  
+AKASYA  ARMUT  KESTANE  MEÞE  T. SEDÝRÝ 
+X  HG  X  HG  X  HG  X  HG  X  HG  
+SIVI PARAFÝN  0,787  E  6,397  BC  -5,833  H  0,017  EF  -1,577  F  
+GOMLAK CÝLASI  3,083  D  7,793  AB  -0,737  EF  6,820  BC  0,037  EF  
+TÝK YAÐI  -0,107  EF  8,683  A*  -4,110  GH  3,177  D  5,537  C  
+KONTROL  -5,653  H  -0,053  EF  -12,040  J**  -7,720  I  -3,337  G  
+LSD ± 1,674  
+
+X : Aritmetik ortalama *: Sarý renk tonunda en çok azalma **: Sarý renk tonunda en çok artýþ
+C. Söðütlü ve A. Sönmez Deðiþik Koruyucular ile Ýþlem Görmüþ Bazý Yerli Aðaçlarda UV Iþýnlarýnýn Renk Deðiþtirici Etkisi 
+akasya kontrol örnekleri ile kestanede sývý parafin kullanýmý arasýndaki fark önemsiz çýkmýþtýr. 
+3.3. Renk Parlaklýk Deðeri (L*) (Value of Lightness) 
+Renk parlaklýk deðerindeki deðiþimin kaynaðýný tespit etmek üzere yapýlan iki faktörlü varyans analizi sonuçlarý Tablo 8’de verilmiþtir. 
+Buna göre, aðaç türü, koruyucu çeþidi ve bu faktörlerin karþýlýklý etkileri istatistiksel olarak önemli bulunmuþtur (.=0,05). Daha sonra aðaç türü ve koruyucu çeþidi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarýTablo 9’da verilmiþtir. Tablo 9’a göre, armudun renk parlaklýðý deðerinde azalma görülürken, akasya, kestane, meþe ve Toros sedirinde artýþ olmuþtur. En çok azalma armutta, en çok artýþ ise akasyada elde edilmiþtir. Koruyucu çeþidine göre, renk parlaklýðý deðerinde en az artýþ kontrol örneklerinde elde edilmiþ ve bunu sýrasýyla gomlak cilasý, sývý parafin ve tik yaðý izlemiþtir.  
+Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý Tablo 10’da verilmiþtir. 
+Tablo 10’a göre, en çok azalma tik yaðý sürülen armutta, en çok artýþ ise akasya kontrol örneklerinde elde edilmiþtir. Armutta gomlak cilasý kullanýmý ile meþe kontrol örnekleri, meþede gomlak cilasýkullanýmý ile kestane kontrol örnekleri, akasyada gomlak cilasý ve kestanede sývý parafin kullanýmý ile Toros sediri kontrol örnekleri, Toros sedirinde sývýparafin ve tik yaðý kullanýmýile kestanede tik yaðýkullanýmlarý arasýndaki fark önemsiz çýkmýþtýr. 
+3.4. Toplam Renk Deðiþimi (.E*) (Total Color Change) 
+Toplam renk deðiþimi ortalama deðerleri Tablo 11’de verilmiþtir. 
+Buna göre, aðaç türleri ve koruyucu çeþidi düzeylerinde toplam renk deðiþimi ortalama deðerleri arasýnda farklýlýklar bulunmaktadýr. Farklýlýklarýn kaynaðýný belirlemek üzere iki faktörlü varyans analizi yapýlarak sonuçlarý Tablo 12’de verilmiþtir. 
+Varyans analizi sonuçlarýna göre, aðaç türü, koruyucu çeþidi ve bunlarýn etkileþimleri istatistiksel olarak 
+Tablo 9. Aðaç türü ve koruyucu çeþidi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý(The comparative results of Duncan analysis on the wood species and preservatives) 
+AÐAÇ TÜRÜ  X  HG  
+AKASYA  -6,261  D**  
+ARMUT  2,808  A*  
+KESTANE  -4,715  C  
+MEÞE  -0,867  B  
+TOROS SEDÝRÝ -6,186  D  
+LSD ± 1,276  
+KORUYUCU ÇEÞÝDÝ X  HG  
+SIVI PARAFÝN  -3,678  BC  
+GOMLAK CÝLASI  -2,657  AB  
+TÝK YAÐI  -3,878  C**  
+KONTROL  -1,964  A  
+LSD ± 1,141  
+
+X : Aritmetik ort. *: Renk parlaklýk deðerinde en çok azalma **: Renk parlaklýk deðerinde en çok artýþ
+
+Tablo 8. Renk parlaklýk deðeri deðiþimine iliþkin varyans analizi sonuçlarý(The results of variance analysis related to the changes in lightness value) 
+VARYANS KAYNAÐI  Serbestlik Derecesi  Kareler Toplamý  Kareler Ortalamasý  F Deðeri  P . 0,05  
+Aðaç Türü (A)  4  743,906  185,977  76,2199  0,0000*  
+Koruyucu Çeþidi (B)  3  6,209  12,070  4,9466  0,0052*  
+Etkileþim (AB)  12  399,030  33,253  13,6281  0,0000*  
+Hata  40  97,600  2,440  
+Toplam  59  1276,746  
+Tablo 10. Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý
+
+
+*: Fark, 0,05’e göre önemli 
+
+(The comparative results of Duncan analysis on the wood species–preservatives) 
+KORUYUCU ÇEÞÝDÝ AÐAÇ TÜRÜ  
+AKASYA  ARMUT  KESTANE  MEÞE  T. SEDÝRÝ 
+X  HG  X  HG  X  HG  X  HG  X  HG  
+SIVI PARAFÝN  -7,157  IJ  0,817  BCD  -2,490  EFG  -0,853  CDE  -8,707  JK  
+GOMLAK CÝLASI  -2,527  EFG  2,313  B  -6,887  HIJ  -1,853  DEF  -4,330  FGH  
+TÝK YAÐI  -4,860  GHI  6,600  A*  -7,870  JK  -3,960  FG  -9,300  JK  
+KONTROL  -10,50  K**  1,500  BC  -1,613  DEF  3,200  B  -2,407  EFG  
+LSD ± 2,552  
+
+*: Renk parlaklýk deðerinde en çok azalma  **: Renk parlaklýk deðerinde en çok artýþ
+in total color) 
+
+Tablo 12. Toplam renk deðiþimine iliþkin varyans analizi sonuçlarý(The results of variance analysis related to the changes 
+
+VARYANS KAYNAÐI  Serbestlik Derecesi  Kareler Toplamý  Kareler Ortalamasý  F Deðeri  P . 0,05  
+Aðaç Türü (A)  4  68,431  17,108  10,0105  0,0000*  
+Koruyucu Çeþidi (B)  3  40,839  13,613  7,9656  0,0003*  
+Etkileþim (AB)  12  409,729  34,144  19,9791  0,0000*  
+Hata  40  68,360  1,709  
+Toplam  59  587,359  
+
+*: Fark, 0,05’e göre önemli 
+
+Tablo 11. Toplam renk deðiþimi (.E*) ortalama deðerleri (Mean value of total color change) 
+
+AÐAÇTÜRÜ  KORUYUCU ÇEÞÝDÝ 
+S. Parafin  Gomlak C.  Tik Yaðý  Kontrol  
+AKASYA  7,120  5,753  5,230  11,93  
+ARMUT  7,013  8,537  11,21  1,813  
+KESTANE  6,680  7,363  8,913  12,47  
+MEÞE  1,017  7,300  5,203  8,797  
+T. SEDÝRÝ 9,047  6,383  10,90  4,993  
+
+önemli bulunmuþtur (.=0,05). Daha sonra aðaç türü ve koruyucu çeþidi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarýTablo 13’de verilmiþtir. 
+Tablo 13’e göre, aðaç türü düzeyinde toplam renk deðiriþimi en çok kestanede, en az ise meþede elde 
+
+Tablo 13. Aðaç türü ve koruyucu çeþidi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý(The comparative results of Duncan analysis on the wood species and preservatives) 
+
+AÐAÇ TÜRÜ  X  HG  
+AKASYA  7,532  B  
+ARMUT  7,144  B  
+KESTANE  8,856  A*  
+MEÞE  5,559  C**  
+TOROS SEDÝRÝ 7,831  AB  
+LSD ± 1,068  
+KORUYUCU ÇEÞÝDÝ X  HG  
+SIVI PARAFÝN  6,193  C**  
+GOMLAK CÝLASI  7,067  BC  
+TÝK YAÐI  8,292  A*  
+KONTROL  8,001  AB  
+LSD ± 0,955  
+
+X : Aritmetik ortalama     HG : Homojenlik Grubu 
+* : En çok (.E*)   ** :En az(.E*) 
+edilmiþtir. Akasya ile armut arasýndaki fark önemsiz çýkmýþtýr. Koruyucu çeþidi düzeyinde toplam renk deðiþimi en çok tik yaðýnda elde edilmiþ, bunu sýrasýile kontrol örnekleri, gomlak cilasý ve sývý parafin izlemiþtir. Kontrol örnekleri ile tik yaðý kullanýmýarasýndaki fark önemsiz çýkmýþtýr. 
+Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý Tablo 14’de verilmiþtir. 
+Buna göre, .E* en çok kestane kontrol örneklerinde, en az ise sývý parafin sürülen meþede elde edilmiþtir. Akasya ile kestanenin kontrol örnekleri arasýndaki fark önemsiz çýkmýþtýr. 
+3.5. Yüzey Pürüzlülüðü (Surface Roughness) 
+UV ýþýnlarýn, koruyucu ile iþlem görmüþ aðaç malzemenin yüzey pürüzlülüðüne (Ra) etkisini belirlemek üzere yapýlan ölçümlerde elde edilen deney öncesi–deney sonrasý deðerleri ile bunlarýn farklarýna ait aritmetik ortalamalar Tablo 15’de verilmiþtir. 
+Buna göre, UV ýþýnlarýdeney örneklerinin yüzey pürüzlülüðünü artýrmýþtýr. Artýþ, en fazla sývý parafin uygulanan meþede, en az ise gomlak cilasý uygulanan armutta elde edilmiþtir. 
+4. SONUÇLAR, TARTIÞMA ve ÖNERÝLER (CUNCLUSIONS, DISCUSSIONS and SUGGESTIONS) 
+UV ýþýnlar, örneklerin kýrmýzý renk tonunda artýþa sebep olmuþtur. Aðaç türü düzeyinde artýþ en az armutta (-0,199), en çok Toros sedirinde (-2,249); koruyucu çeþidi düzeyinde artýþ en az sývý parafin (­0,270), en çok gomlak cilasýnda (-2,639) bulunmuþtur. 
+
+Tablo 14. Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde yapýlan Duncan testi karþýlaþtýrma sonuçlarý
+(The comparative results of Duncan analysis on wood the species–preservatives) 
+KORUYUCU ÇEÞÝDÝ AÐAÇ TÜRÜ  
+AKASYA  ARMUT  KESTANE  MEÞE  T. SEDÝRÝ 
+X  HG  X  HG  X  HG  X  HG  X  HG  
+SIVI PARAFÝN  7,120  DEF  7,013  DEF  6,680  DEF  1,017  G**  9,047  BCD  
+GOMLAK CÝLASI  5,753  F  8,537  CDE  7,363  DEF  7,300  DEF  6,383  EF  
+TÝK YAÐI  5,230  F  11,21  AB  8,913  BCD  5,203  F  10,90  ABC  
+KONTROL  11,93  A  1,813  G  12,47  A*  8,797  CDE  4,993  F  
+LSD ± 2,136  
+
+X : Aritmetik ortalama   HG : Homojenlik Grubu * : En çok (.E*) * : En az (.E*) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+C. Söðütlü ve A. Sönmez Deðiþik Koruyucular ile Ýþlem Görmüþ Bazý Yerli Aðaçlarda UV Iþýnlarýnýn Renk Deðiþtirici Etkisi 
+Tablo 15. Ortalama yüzey pürüzlülüðü deðerleri (µm) (Mean values of surface roughness) 
+
+AÐAÇTÜRÜ  KORUYUCU ÇEÞÝDÝ 
+S. Parafin  Gomlak C.  Tik Yaðý Kontrol  
+AKASYA DÖ  4,074  1,009  3,559  3,965  
+DS  5,255  1,134  3,966  4,712  
+Fark  1,180  0,305  0,407  0,746  
+ARMUT DÖ  3,811  0,626  2,580  4,024  
+DS  4,101  0,718  2,701  4,260  
+Fark  0,290  0,092  1,121  0,235  
+KESTANE DÖ  4,150  1,057  3,720  4,061  
+DS  5,105  1,375  4,189  5,006  
+Fark  0,955  0,318  0,469  0,945  
+MEÞE DÖ  6,944  1,614  6,424  5,558  
+DS  8,705  2,068  7,808  6,831  
+Fark  1,761  0,454  1,384  1,273  
+T. SEDÝRÝ DÖ  4,769  1,124  3,718  3,705  
+DS  4,969  1,210  4,005  4,270  
+Fark  0,200  0,086  0,287  0,565  
+
+DÖ :Deney Öncesi  DS :Deney Sonrasý 
+Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde gomlak cilasý sürülen Toros sedirinde (-4,643) en çok artýþ olurken, sývý parafin sürülen armutta (2,670) en çok azalma meydana gelmiþtir. Ultraviyole ýþýnlar, yapýsýnda reçine gibi ekstraktif maddeler bulunduran aðaç malzemelerde kýsa sürede rengin kýrmýzýlaþmasýna sebep olmaktadýr. Dýþ etkilere açýk býrakýlan sarýçam, Toros sediri gibi aðaç odunlarýnda kýsa sürede bu oluþum gözlenir. Kýrmýzý tonun artýþýnda Toros sedirindeki ekstraktif maddeler etkili olmuþtur. 
+Sarý renk tonunda aðaç türü düzeyinde armut, meþe ve Toros sediri odununda azalma görülürken, kestane ve akasya odununda artýþ olmuþtur. Sarýrenk tonunda en çok azalma armut (5,705), en çok artýþ ise kestanede (-5,680) elde edilmiþtir. Koruyucu çeþidine göre sarýrenk tonunda deðiþim; gomlak cilasý ve tik yaðýnda azalma, kontrol örnekleri ve sývý parafinde artýþþeklindedir. En çok azalma gomlak cilasýnda (3,399), en çok artýþ ise kontrol örneklerinde (-5,761) elde edilmiþtir. Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde sarý renk tonunda en çok azalma tik yaðýsürülen armutta (8,683), en çok artýþ ise kestane kontrol örneðinde (-12,040) bulunmuþtur. Kestane UVýþýnlarýn etkisi ile sararmýþtýr. Literatürde, sýcaklýk veya UV ýþýnlarýna maruz kalan aðaç malzemenin renginde sararma þeklinde deðiþiklik olduðu bildirilmiþtir [10]. Kontrol örneklerinin tamamýnda sarý renk tonunda artýþ olmuþtur. Koruyucular aðaç malzemedeki sararmayý azaltýcý etkide bulunmuþtur.  
+Renk parlaklýk deðerindeki azalma renk tonunda koyulaþmayý, artýþ ise rengin açýldýðýný göstermektedir. Buna göre, armudun renginde koyulaþma (2,808); akasya (-6,261), Toros sediri (-6,186), kestane (-4,715) ve meþenin (-0,867) renginde açýlma tespit edilmiþtir. 
+Koruyucu çeþidi düzeyinde deðiþim; koruyucularýn tamamýnda ve kontrol örnekleri için renk açýlmasýþeklinde gerçekleþmiþtir. Rengin açýlmasýen az kontrol örneklerinde (-1,964) bulunmuþ, bunu sýrasý ile gomlak cilasý (-2,657), sývý parafin (-3,678) ve tik yaðý (3,878) takip etmiþtir. Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde en çok renk koyulaþmasý tik yaðý sürülen armutta (6,600), en çok renk açýlmasý ise akasya kontrol örneklerinde (-10,50) bulunmuþtur. 
+.E*, aðaç türü düzeyinde en çok kestanede (8,856), en az meþede (5,559); koruyucu çeþidi düzeyinde deðiþim en çok tik yaðýnda (8,292), en az sývýparafinde (6,193) bulunmuþtur. Bu baðlamda, en baþarýlý sonucu meþe ve TiO2 ilaveli sývý parafin vermiþtir. Aðaç türü–koruyucu çeþidi etkileþimi düzeyinde .E* en çok kestane kontrol örneklerinde (12,47) olurken, en az sývý parafin sürülen meþede meydana gelmiþtir. Münferit olarak ele alýndýðýnda meþe ve sývý parafinde baþarýlý sonuç alýnmýþtýr. Baþarý, meþede sývý parafin uygulamasýnda (1,017) daha da artmýþtýr. 
+UVýþýnlar, aðaç malzemenin rengini deðiþtirdiði gibi yüzey pürüzlülüðünü de artýrýcý etki yapmýþtýr. 
+Literatürde, dýþ ortamda kullanýlan aðaç malzemenin renginde solma meydana geldiði ve üst yüzey iþleminde kullanýlan koruyucularýn tahribatýna sebep olduðu [1– 3], çevresel faktörler arasýnda UV ýþýnlarýn, aðaç malzemenin yapýsýnda bozulmalara yol açan en önemli etken olduðu [5, 6] ve bunun aðaç türlerine göre, gri, sarý, kýrmýzýmsý veya kahverengi tonlarýnda artýþþeklinde gerçekleþtiði [7] bildirilmiþtir. Çalýþmada elde edilen sonuçlar, bu bakýmdan literatür ile uyumlu bulunmuþtur. 
+Renk deðerlerindeki deðiþimlerin sebeplerinden birisi olarak da, aðaç malzemenin fotokimyasal reaksiyonlarýbaþlatan elektromanyetik radyasyonun bütün dalga boylarýný absorbe ederek [8], önemli bileþenlerinden olan ligninin kimyasal yapýsýndaki bozulmalara yol açabilmesidir. 
+Sonuç olarak, UV ýþýnlar aðaç malzemede renk deðiþtirici etki yapmaktadýr. Dolayýsý ile aðaç malzemeden yapýlan ürünlerin renklerinin tazeliðini uzun süre koruyabilmesi için koruyucu kullanýlmasýgerekmektedir. Bu baðlamda, koruyucu malzeme seçiminde aðaç türü dikkate alýnmalýdýr. Renk deðerlerindeki deðiþimin az olmasý sebebiyle meþe ve TiO2 pigmenti ilaveli sývý parafin kullanýlmasýönerilebilir.  
+KAYNAKLAR (REFERENCES) 
+1.	Miniutti, V. P., “Microscala Changes in Cell Structure at Softwood Surfaces during Weathering”, Forest Products Journal, Cilt 14, No 12, 571– 576, 1964. 
+
+2.	
+Hon, D. N. S., Chang, S. T., “Surface Degradation of Wood by Ultraviolet Light”, Journal. Polymer Science: Polymer Chemistry, Cilt 22, 2227–2241, 1984. 
+
+3.	
+Williams, R. S., Plantinga, P. L., Feist, W. C., “Photodegradatin of Wood Effects Paint Adhesion”, Forest Products Journal, Cilt 40, No 1, 45–49, 1990. 
+
+4.	
+ Sönmez, A., Aðaç Ýþlerinde Üst Yüzey Ýþlemleri–Hazýrlýk ve Renklendirme, Çizgi Matbaacýlýk, Ankara, 70–74, 2000. 
+
+5.	
+Futo, L. P., “Der Photochemische Abbau des Holzes als Praparations und Analysenmethode”, Holz als Roh–Werkstoff, Cilt 32, 303–311, 1974. 
+
+6.	
+Ayadi, N., Lejeune, F, Charrier, F., Charrier, B., Merlin, A., “Color Stability of Heat–Treated Wood During Artificial Weathering”, Holz als Roh–und Werkstoff, Cilt 61, No 3, 221–226, 2003. 
+
+7.	
+Sandermann, W., Schlambom, F., “On the Effect of Filtred Ultraviolet Light on Wood–Part I and Part II”, Holz als Roh–Werkstoff, Cilt 20, 245– 285, 1962. 
+
+8.	
+Tolvaj, L., Faix, O., “Artificial Ageing of Wood Monitored by DRIFT Spectroscopy and CIEL*a*b* Color Measurements. 1. Effect of UV Light”, Holzforschung, Cilt 49, 397–404, 1995. 
+
+9.	
+Hon, D. N. S., “Photochemical Degradation of Lignocellulosic Material”, In: Developments in Polymer Decradations, N. Grassie, ed. Appl. Sci. Publ., London, 1981. 
+
+10. 
+Çakýcýer, N., Aðaç Yüzeylerinde Kullanýlan Verniklerin Su ile Eritilen Aðaç Boyalarýnýn Renginde Yaptýðý Deðiþiklikler, Yüksek Lisans Tezi, Gazi Üniversitesi, Fen Bilimleri Enstitüsü, Ankara, 1994.  
+
+11. 
+Budakçý, M., Çýnar, H., “Colour Effects of Stains on Wood with Knots, Cracks and Rots”, Progress in Organic Coatings, Cilt 51, 1–5, 2004. 
+
+12. 
+Sönmez, A., “Color Changing Effects of Varnishes on Wood Surfaces”, 11th World Forestry Congress, Antalya, 36, 13–22 October, 1997. 
+
+13. 
+Delikan, A. B., Aðaç Boyalarý ile RenklendirilmiþAðaç Malzemede Hýzlandýrýlmýþ Solma 
+
+
+Deneyleri, Yüksek Lisans Tezi, Gazi Üniversitesi, Fen Bilimleri Enstitüsü, Ankara, 42–46, 2001. 
+14. 
+Hocken, J., Pipplies, K., Schulte, K., “The Advantageous Use of Ultra Fine Titanium Dioxide in Wood Coatings”, Sachtleben Chemie GmbH, Duisburg, Germany, 1–15, 2002. 
+
+15. 
+Sudiyani, Y., Imamura, Y., Dio, S., Yamauchi S., “Infrared Spectroscopic Investigations of Weathering Effects on the Surface of Tropical Wood”, Journal of Wood Science, Cilt 49, No 1, 86–92, 2003. 
+
+16. 
+Mitsui, K., “Changes in the Properties of the Light–Irradiated Wood with Heat Treatment”, Holz als Roh–und Werkstoff, Cilt 62, No 1, 23– 30, 2004. 
+
+17. 
+TS 2471, “Odunda Fiziksel ve Mekaniksel Deneyler Ýçin Rutubet Miktarý Tayini”, Türk StandartlarýEnstitüsü, Necatibey Caddesi, No 112, Bakanlýklar/ Ankara, 1976. 
+
+18. 
+TS 2470, “Odunda Fiziksel ve Mekanik Deneyler Ýçin Numune Alma Metotlarý ve Genel Özellikleri”, Türk Standartlarý Enstitüsü, Necatibey Caddesi, No 112, Bakanlýklar/Ankara, 1976. 
+
+19. 
+TS 8106–2 ISO 4892–2, “Plastikler–Laboratuvar Iþýn Kaynaklarýna Maruz Býrakma Metotlarý– Bölüm 2: Ksenon Ark Lambasý”, Türk StandartlarýEnstitüsü, Necatibey Caddesi, No 112, Bakanlýklar/ Ankara, 1998. 
+
+20. 
+ASTM–D 2224–2 e1, ”Standard Practice for Calculation or Color Tolerances and Color Differences from Instrumentally Measured Color Coordinates”, ASTM Standards, A.B.D., 2003. 
+
+21. 
+Anonim, “Minolta CR–231 Chroma meter, ver 3.0.”, Cihaz Kullanma Kýlavuzu. 
+
+22. 
+Oliver, J. R., Blakeney, A. B., Allen, H. M., Measurement of Flour Color in Color Space Parameters, Cereal Chem, 69, 546-551, 1992. 
+
+23. 
+McGuire, R. G., Reporting of Objective Color Measurements, HortScience, Cilt 27, 1254-1255, 1992. 
+
+24.
+ ISO 4287, “Geometrical Product Specifications Surface Texture Profile Method Terms, Definitions and Surface Texture Parameters, International Standart Organization, 1997. 
+
+
+
+
+
+
+

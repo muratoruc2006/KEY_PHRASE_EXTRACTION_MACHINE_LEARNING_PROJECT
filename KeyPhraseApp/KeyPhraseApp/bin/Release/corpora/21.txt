@@ -1,0 +1,359 @@
+KONUTTA KALÝTE KAVRAMI VE YAPI HASARLARI 
+Ziya UTKUTUÐ 
+
+Mimarlýk Bölümü, Mühendislik Mimarlýk Fakültesi, Gazi Üniversitesi, Maltepe, 06570, Ankara, 
+ziyaut@gazi.edu.tr 
+
+(Geliþ/Received: 14.01.2004; Kabul/Accepted: 15.03.2006) 
+
+ÖZET 
+Yapýda kalite kavramýný geniþ bir yelpazede ele almak mümkündür. Yapýhata ve hasarlarýný önlemek, ürün kalitesini elde edebilmek ve elde edilen kaliteyi iyileþtirebilmek, sürdürebilmek için gereklidir. Bu nedenle, sorunlarýn kaynaðýna ulaþabilmek önem kazanmaktadýr. Yapý hata ve hasarlarýný saptamaya ve gidermeye yönelik iki temel yöntem vardýr. Birincisi; yapý eleman ve bileþenleri üzerinde gözlem yolu ile elde edilen bulgular, diðeri ise; performans kriter ve ölçütlerini göz önüne alan performans yaklaþýmýdýr. Bu çalýþmada; konut yapýlarýndaki hata kaynaklarý; tasarým, yapým ve kullaným süreci kaynaklý hatalar olarak belirlenmektedir. Daha sonra, bu yapýlarda görülen hata ve hasarlar performans gereklilikleri ile iliþkilendirilmektedir. Araþtýrma projeleri sonuçlarýna dayanan bu belirlemeler listelenerek sunulmaktadýr. 
+
+1. GÝRÝÞ: AMAÇ – KAPSAM gelir-kültür gruplarýnca yaratýlmaktadýr. Kentlerin (Introduction: Objective and Scope) biçimlenmesinde ve diðer yapý türü ve niteliklerinin 
+belirlenmesinde bu yöndeki geliþim yönlendirici bir Konuttan beklentiler bir toplumda toplum rol de üstlenmektedir. Ancak nitelik ve kalite kesimlerinin gelir ve kültür düzeylerine göre çok kavramlarý kültürel özellikler çerçevesinde nesnel deðiþik boyutlarda ortaya çýkabilmektedir. Bu olduðu kadar subjektif faktörleri de içermektedir. boyutlar genel olarak iki temel grupta toplanabilir. Nesnel faktörler þüphesiz hedeflenen nitelik Bunlardan ilki ve en önemlisi barýnma sorununa çerçevesinde belirlenebilmektedir. Bu faktörler aynýçözüm getirmek ile ilgili olup konut açýðýnýn zamanda bina ve çevresinin performans ölçütleri ile giderilmesini amaçlar. Diðer boyut ise, kullanýcýnýn ilgilidir. Subjektif faktörler ise; çevre peyzaj düzeni, tercih ettiði veya talep ettiði sosyo-kültürel bir bina görsel ifadesi, konut birimlerinde yer alan oda, ortamda ve bu kültürel ortama uygun nitelikte konut banyo sayýsýve mekanlarda kullanýlan malzemelerin talebine yöneliktir. Bu ikinci boyut konut ve çevresine lüks olma düzeyi ile iliþkilendirilmiþ görülmektedir. deðiþen kültürel özellikler çerçevesinde nitelik-kalite kavramýný getirmektedir. Bu tür talepler toplumlarýn Son on yýl içerisinde yapý talebinde nitelik–kalite yaygýnlýklarý ve etkinlikleri ölçüsünde orta üst düzey sorunu subjektif faktörlerin etkisi altýnda ele alýndýðý, 
+Z. Utkutuð 
+nesnel faktörlerin büyük ölçüde göz ardý edildiði bu konuda yapýlan uygulamalardan ve kullanýcýmemnuniyetinin saptanmasýna yönelik sürdürülen araþtýrmalarýn içeriðinden anlaþýlmaktadýr [1]. Bu nedenle yapýda kalite kavramýna eðilmek, yapý hata ve hasarlarýnýönlemeye yönelik önlemleri almak üzere, sorunlarýn kaynaklarýna ulaþmak önem kazanmaktadýr. 
+
+
+2. YAPIDA KALÝTE KAVRAMI (Quality in Building) 
+Yapýda kalite kavramýna deðinmeden önce, yapýkalitesinin deðerlendirildiði temel alanlarýn tanýmlanmasý gereklidir. Yapý kalitesinin deðerlendirildiði temel alanlar þunlardýr [2]: 
+*	
+ Kullanýcý gereksinimleri 
+
+*	
+Kalite ölçümü ve ölçütleri 
+
+*	
+Kalite elde etme eylemleri gereksinimi 
+
+*	
+Elde edilen kalitenin sürdürülebilirliði 
+
+*	
+Elde edilen yapý kalitesinin çevresel kaliteye etkisi. 
+
+
+Görüleceði üzere, kalite kavramý; “kullanýcýgereksinimlerinden” baþlayarak “çevresel kalite”ye uzanan bir çerçevede ele alýnmaktadýr. Bina üretim sürecinde temel amaç, kullanýcý gereksinimleri doðrultusunda ve çevre faktörleri göz önüne alýnarak nitelikli bir çevre oluþturmaktýr. Nitelik kavramýçoðunlukla “kalite” kavramý ile eþanlamlýkullanýlmaktadýr. Ansiklopedik kaynaklarda nitelik kavramý, “...bir þey/nesne hakkýnda olumlu, ya da olumsuz bir yargýya varýlmasýna yol açan ve o þeyin/nesnenin kendi doðasýnýn ya da kendinden beklenene uygun olup olmamasýný saðlayan özelliklerin tümüne dayanan görünüm; bir nesneyi ortalamanýn üzerine çýkaran þey...” olarak tanýmlanmaktadýr. Yukarýda verilen tanýmdan anlaþýlacaðý üzere nitelik kavramýnýn nesnel boyut kazanmasýnda kullanýcýnýn kültürel düzeyi çerçevesindeki beklentisi ile bu beklentinin ürüne yansýma düzeyi önem kazanmaktadýr. Bu nedenle nitelik kavramýnýn yer, zaman ve kullanýcýözelliklerine göre deðiþkenlik gösterebileceði açýktýr. Diðer taraftan, kalite kavramýna yönelik geniþyelpazede tanýmlara rastlamak mümkündür. Bu tanýmlarýn ortak noktalarýný, konu ile ilgili uluslararasýkuruluþlarýn ortaya koyduðu tanýmlarda aramak daha doðru olacaktýr. Bu tanýmlar þu þekilde özetlenebilir: 
+-	“Bir mal ve/veya hizmetin belirlenen, ya da 
+olabilecek ihtiyaçlarý karþýlama kabiliyetine 
+dayanan özelliklerinin toplamý” (ISO 8402, Kalite 
+Sözlüðü) -“Bir mal, ya da hizmetin belirli bir gerekliliði 
+karþýlayabilme yeteneklerini ortaya koyan 
+karakteristiklerinin tümü” (ASQC Amerikan 
+Kalite Kontrol Derneði) -“Bir mal, ya da hizmetin tüketicinin isteklerine 
+uygunluk derecesi” (EOQC Avrupa Kalite 
+Kontrol Organizasyonu) 
+Konutta Kalite Kavramý ve Yapý Hasarlarý
+Kalite kavramýna yönelik olarak yukarýda verilen tanýmlar irdelendiði zaman görülür ki; ürün niteliði kullanýcý/tüketici gereksinimleri doðrultusunda belirlenmektedir. Kullanýcý gereksinimleri ise, zaman, mekan -coðrafya-, sosyo-ekonomik ve kültürel özelliklere göre deðiþkenlik göstermektedir. Bu tür özellikler beðeni, prestij saðlama gibi subjektif sayýlabilecek kriterleri oluþtururken, gereksinimlerin mekan büyüklükleri, yapý malzeme ve bileþenlerinin performansýile ilgili nesnel türleri kalitenin ölçülebilir, veya kýyaslanabilir kriterlerini oluþturmaktadýr. Ýlk grup dýþýnda kalan ve nesnel ölçütler taþýyan özellikler optimum kalite kavramýçerçevesinde tanýmlanabilmektedirler. Bu kavram üretim faktörlerinin bileþkesi, diðer bir ifade ile, teknolojik düzey üzerine kurgulanmaktadýr. 
+Kaliteyi belirleyen kriterler deðiþik yazarlarca deðiþik biçimlerde ve birbirlerini tamamlayan biçimlerde ortaya konulmuþtur. Bunlardan bazýlarýþu þekillerde özetlenebilir: 
+* 	
+R. Bozkurt, A. Odaman’a göre [3]: 
+
+1.	
+Performans: üründe bulunan birincil özellikler  
+
+2.	
+Uygunluk: spesifikasyonlara, belgelere ve standartlara uygunluk  
+
+3.	
+Dayanýklýlýk: ürünün kullanabilirlilik özelliði 
+
+4.	
+Güvenirlilik: ürünün kullaným ömrü içerisinde performansýnýn sürekliliði 
+
+5.	
+Hizmet görürlülük: ürüne iliþkin sorunlarýn çözülebilme yeteneði 
+
+6.	
+Ýtibar: ürünün veya onu oluþturan elemanlarýn geçmiþteki performansý
+
+7.	
+Estetik: ürünün albenisi ve duyulara seslenebilme yeteneði 
+
+8.	
+Diðer unsurlar: ürünün çekiciliðini saðlayan diðer unsurlar  
+
+
+
+* 	
+Genel anlamda bir endüstri ürününe yönelik kalite kavramýnýn boyutlarýný/ kriterlerini yukarýda belirtilen biçimde ortaya koyan Bozkurt ve Odaman görüþlerinin genelliði yanýnda yapýüretimi alanýnda çalýþan Y. Sey; nitelik kavramýndan hareketle, mimarlýk alanýnda ilk teorisyenlerden biri olarak kabul edilen Vitrivius dan bu yana öncelikleri ve içerikleri deðiþik biçimlerde ifade edilen bu kriterleri beþ grupta toplamaktadýr [4]. 
+
+1. 	
+Ýþlevsellik: ürünün kullaným amacýna uygunluðu 
+
+2. 	
+Dayanýklýlýk: deðiþik etki ve kuvvetlerin etkisi altýnda ürünün iþlevini sürdürebilme derecesi  
+
+3. 	
+Güvenlik: kullanýcýnýn eylemlerini güvenlik içinde yapmasýnýn saðlanmasý
+
+4. 	
+Güvenirlilik: ürünün belirlenen yaþam süresi içerisinde sorun yaratmamasý
+
+5. 	
+Estetik: beðeni ile ilgili görsel özellikler  
+
+
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+Bitmiþ ürüne yönelik, veya tasarým aþamasýnýn ilk evresinde ürün niteliðini tanýmlama evresini de içeren bir süreç olarak ele alýnmasý, kalite kavramýkriterlerinin bir yandan ürün deðerlendirme, diðer taraftan da tasarým kriterleri olarak ele alýnabilmesi sonucunu getirmektedir. Üretim etkinliðinin planlama evresinden baþlayarak yapým ve kullaným süreçlerini de içermesi, kalite kavramýný bu baðlamda irdelenmesini doðurmuþtur. Ý. Kavrakoðlu, kalite kavramýný “istenen özelliklere uygunluk” olarak tanýmlayarak, kalitenin “tasarým” ve “uygunluk” kaliteleri olarak iki boyutta irdelenmesi gerektiðini savunmaktadýr [5]. Bu anlayýþa göre tasarým kalitesi; ürün, ya da hizmetten beklenen özelliklerin belirlenmesi olup, tasarým kriterlerini tanýmlamaktadýr. Bu kriterler ise üründen beklenen performans kriter ve ölçütlerinin tanýmlanmasýanlamýný taþýmaktadýr. Uygunluk kalitesi ise, üretim sonrasý ortaya çýkan ürünün tasarým aþamasýnda belirlenen kriter ve ölçütlere uygunluk derecesidir. Böyle bir yaklaþým süreç özelliklerinden kaynaklanan performans düzeyi düþüþlerini engellemek veya denetlemek amacý ile süreç ve ürün kalitelerinin planlanýp, denetlenmelerini zorunlu kýlar. Toplam Kalite Yönetimi, ürün kalitesinin arttýrýlmasýndan öte üretimin sürekli iyileþtirilmesine odaklanmýþtýr. Bu nedenle kalitenin yönetimi üzerine deðil, yönetim sisteminin kalitesine dayanýr. Yönetimin rolü, problemi çözme yerine sistem problemlerini öne çýkarmaktýr [6]. Toplam kalite yönetimi olarak adlandýrýlabilen bu denetim süreci þu iþlem basamaklarýný içermektedir: 
+1.	Üretim sürecinin iyileþtirilmesi, 
+•	
+Tasarýmýn planlanmasý / denetimi, 
+
+•	
+Yapým sürecine girdi veren nesnelerin -malzeme, bileþen vb. planlanmasý / denetimi,  
+
+•	
+Ürünün ve montajýnýn planlanmasý / denetimi,  
+
+•	
+Süreç etütleri. 
+
+
+2.
+ Tasarýmcý, yapýmcý, kullanýcý ve tedarikçinin sürece katýlýmý
+
+3.
+ Katýlýmcýlarýn eðitimi 
+
+4.
+ Maliyetlerin minimizasyonu 
+
+5.
+ Sýfýr hataya yönelik yönetim. 
+
+
+Üretim süreci içinde, tasarýmýn, niteliðe iliþkin subjektif faktörleri de içereceði açýktýr. Ancak bu süreç, ardýþýk nesnel dönüþümler zinciri olan yapma eylemini de ürün performansý doðrultusunda tanýmlamak durumundadýr. Mimarlýk etkinliði çerçevesinde oluþabilecek, kaliteyi etkileyen problem noktalarý olarak hatalar ve yapý hasarlarý bu süreçlerde ortaya çýkacaktýr. 
+
+3. YAPI, YAPIM HATA VE HASARLARI (Building, Construction Faults and Damages) 
+Yapýda ortaya çýkan hata ve hasarlar yapým ve kullaným süreci içinde gerek iþlevsel zorlama, gerekse 
+Z. Utkutuð 
+malzemenin doðal ömrüne baðlý olmaksýzýn çýkmaktadýrlar. Elde edilen yapýsal kalitenin sürdürülebilirliðini engelleyen bu sorunlarýn kökeninde ise, deðiþik alt süreçlerde alýnan hatalýkararlar ve uygulamalar yatmaktadýr. Hasar kavramý“zorlu bir olay ve dýþ etkiler sonucu meydana gelen kýrýlma, dökülme,çatlama, yýkýlma gibi zarar, bir yapýnýn tümünün ya da bir parçasýnýn iþlevini göremeyecek durumundaki zararý” [7] olarak tanýmlanmaktadýr. Diðer taraftan yapýda oluþan hasarlar baþka malzeme ve/veya bileþenlere yansýyarak onlarýn da hasar görmelerine neden olurlar. Belirtilen ilk türdeki oluþumlara doðrudan veya birincil hasar adlandýrýlmasý yapýlýrken, ikinci türdeki hasarlara dolaylý, ya da ikincil hasar tanýmý yapýlabilir.  
+Yapý hata ve hasarlarýný saptamaya ve gidermeye yönelik iki temel yöntem söz konusudur. Bunlardan ilki yapý eleman ve bileþenleri üzerinde gözlem yolu ile elde edilen bulgular üzerine kurguludur. Bu yöntemde; ilgili yapý elemaný, bileþeni üzerinde görülen hata ve hasarlar tespit edilerek, nedenleri belirlenir ve tamiri, mümkün olmasý durumunda da deðiþtirilmesi yolu ile giderilmeye çalýþýlýr. Bu boyutlarýile üretim sürecinde bir denetim mekanizmasý olarak da görev yapabilme olanaðýnývermektedir. Ancak bu yöntemde uç ürün olan binanýn deðerlendirilmesi nedeni ile, tasarým sürecinde alýnan kararlarýn doðru ve eksiksiz olmasýkabulü þarttýr. Diðer taraftan yapýlan bir hatanýn, baþka hata ve hasarlara neden olabileceði gerçeði bu yöntemde göz ardý edilebilmektedir. Bununla birlikte gözleme dayalý olarak elde edilen bulgular, hata-hasar nedenleri saptanarak bir baþka üretim sürecinde tekrarlanmamasý amacýile geri besleme (feed back) mekanizmasý olarak da kullanýlabilir. Yerli ve uluslararasý literatürde bu yönde; “Defect and Deterioration in Building” [8], “Housing Defects Referance Manual” [9], “Ýnþaat Uygulamalarýnda Yanlýþlar ve Doðrular” [10] baþlýklý örneklerde görüleceði gibi, araþtýrmalar oldukça yaygýndýr. Bu yaklaþýmda; yapý hata ve hasarlarý yapý elemanlarýüzerinde gözlemlenmekte, deneyimlere dayalý olarak hasar nedenleri ve bunlara baðlý olarak önermeler geliþtirilmektedir (Tablo1) [11]. 
+Yapý hata ve hasarlarýnýn nedenlerini saptayarak gidermeye yönelik diðer yöntem ise performans yaklaþýmý ile iliþkilidir. Bu yönteme göre; yapý eleman ve bileþenleri üzerinde, yine gözleme dayalý olarak görülen hata ve kusurlar performans gereklilikleri, kriter ve ölçütleri göz önüne alýnarak irdelenir ve bu baðlamda çözüm önerileri geliþtirilebilir. Bu çerçevede sürdürülecek olan analizlerde, soruna iliþkin süreç analizlerinin yapýlabilme olanaðýnedeniyle, bir evvelki süreçlerde oluþan hatalarýn da saptanarak sorunun giderilmesi söz konusu olabildiði gibi, olasý baþka hatalardan kaynaklanan dolaylý, ya da ikincil hatalarýn kökenleri de saptanabilmektedir. 
+
+Z. UtkutuðKonutta Kalite Kavramý ve Yapý Hasarlarý
+Tablo 1. Yapý elemanlarýnda görülen hasarlar ve nedenleri [11] 
+yapý elemanlarý hasar türleri  hasar nedenleri  öneriler  
+temeller  T1, T2,...... Tn  T1n, T2n .... Tnn  a, b, ....n  
+duvarlar dýþ duvarlar    iç duvarlar  Dd1,Dd2, .... Ddn Di1, Di2, ..... Din  Dd1n, Dd2n ... Ddnn Di1n, Di2n, ... Dinn  a, b, ... n a, b, ... n  
+döþemeler  Dö1,Dö2, .... Dön  Dön1, Dön2,....Dönn  a, b, ....n  
+çatýlar  çatý konst. ve yüzeyi çatý oluklarý çatý parapetleri  Çk1, Çk2, .... Çkn Ço1, Ço2, .... Çon Çp1, Çp2, .... Çpn  Çk1n, Çk2n, ... Çknn Ço1n, Ço2n, ....Çonn Çp1n, Çp2n, ....Çpnn  a, b, ... n a, b, ... n a, b, ... n  
+kaplamalar  döþeme kaplamalarý   duvar kaplamalarý   tavan kaplamalarý Kd1, Kd2, ... Kdn Ku1, Ku2, ... Kun Kt1, Kt2, ... Ktn  Kd1n, Kd2n, ... Kdnn Ku1n, Ku2n, ... Kunn Kt1n, Kt2n, ... Ktnn  a, b, ... n a, b, ... n a, b, ... n  
+tesisat ýsýtma tesisatý sýhhi tesisat    elektrik tesisatý Tý1, Tý2, ..... Týn Ts1, Ts2, .... Tsn Te1, Te2, .... Ten  Týn1, Týn2, .....Týnn Tsn1,Tsn2, .... Tsnn Ten1,Ten2, .... Tenn  a, b, ... n a, b, ... n a, b, ... n  
+
+Bu yaklaþýmda, sorun “Toplam Kalite Yönetimi” çerçevesinde ele alýnmakta ve sorunlara kaynak olabilecek, yapý elde etme süreci aþaðýda belirtildiði gibi ardýþýk dört alt süreç çerçevesinde irdelenmektedir: 
+•	
+Yapým kararýnýn ölçek, nitelik, ekonomik boyutlarý ile alýndýðý “planlama”  
+
+•	
+Alýnan plan kararlarý çerçevesinde planlanan binanýn “tasarlanmasý” 
+
+•	
+Tasarlanan binanýn “gerçekleþtirilmesi”  
+
+•	
+Gerçekleþtirilen binanýn “iþletilmesi”.  
+
+
+Yapý hata ve hasarlarýda bu alt süreçlerin birinde oluþmakta ve sonuçta yapý eleman veya bileþeni üzerinde görülmektedir. Bu çerçevede nitelik belirleme iþlevini üstlenen “planlama aþamasý” ile “kullaným aþamasýnda” kullanýcýdan kaynaklanan hatalar göz önüne alýnmaz ise, hata kaynaklarý aþaðýda belirtildiði gibi, tasarým ve yapým süreçleri kaynaklýolarak genelde üç temel grupta toplanmaktadýr: 
+1. Tasarým süreci kaynaklý hatalar; 
+•	
+Yapýformu, teknoloji koordinasyon yetersizliði, yada yanlýþ teknoloji seçimi, 
+
+•	
+Yapýeleman ve bileþenlerinin davranýþlarý ve boyutlandýrýlmalarýna iliþkin teknik þartname, standart gibi teknik bilgi ve dokümanýn eksikliði, yada yetersizliði, 
+
+•	
+Farklý proje hizmetleri arasýnda olmasý gereken koordinasyon yetersizliði, 
+
+•	
+Yapý bileþeni tasarýmý, yapý alt sistemleri ile olan iliþkisi ve konstrüksiyonuna iliþkin yetersiz bilgi birikimi, 
+
+•	
+Detay bilgilerinde malzeme açýlým ve kullanýmýna iliþkin bilgi yetersizliði ve/veya eksikliði, 
+
+
+• Yetersiz ve/veya yanlýþ malzeme seçimi,  
+2. Yapým süreci kaynaklý hatalar; 
+•	
+Yapým ekibi ile tasarým ekibi arasýnda yetersiz koordinasyon,  
+
+•	
+Yapým tekniðine göre donaným yetersizliði, 
+
+•	
+Yapým sürecinin denetiminin yetersizliði, 
+
+•	
+Yapý bileþen ve elemanlarýnýn üretiminde boyutsal sapmalar ve deformasyonlarýn denetlenememesi/kalite kontrolu yetersizliði, 
+
+•	
+Tasarým sürecinde yeterli düzeyde verilmeyen konstrüksiyon ve malzeme bilgileri nedeni ile oluþan karar boþluklarýnýn hatalý ve/veya eksik bilgiye dayalý olarak doldurulmasý, 
+
+•	
+Konstrüksiyon ve montaj hatalarý, 
+
+
+3.	 Kullaným süreci kaynaklý hatalar; 
+•	
+Fonksiyon gereksinimleri deðiþimi nedeniyle yapýlan ekleme, ya da çýkartmalar 
+
+•	
+Bakým, onarým yapýlmamasý, ya da hatalýyapýlmasý
+
+•	
+Aþýnma ve deformasyonlar 
+
+•	
+Malzeme / Sistem performans düþüklüðü. 
+
+
+Yapý eleman ve bileþenleri üzerinde görülen ve yukarýda süreç özelliði çerçevesinde belirtilen hata ve hasarlarýn performans gereklilikleri ile olan iliþkisinin öncelikle saptanmasýbu yöntemde ön koþuldur (Tablo 2). 
+Bu çerçevede tasarým, yapým aþamalarýnýn her ikisinden de kaynaklanan hatalar þu þekilde toparlanabilir: 
+1. Dayaným faktörüne iliþkin kriterler; 
+* Yük aktarýmý ve strüktürel stabilite, 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+
+
+
+Yapýlarda görülen hata ve hasarlar Ýlgili performans gereklilikleri 
+
+bileþen strüktürel ve boyutsal gereklilikleri bileþende ve yüzeyde yüzey deformasyonu 
+kalýp özellikleri bileþen montaj gereklilikleri bileþenin konstrüksiyonel gereklilikleribileþende görülen yüzey çatlaklarýbileþen üretim gereklilikleri bileþen kenar, köþe standartlarýbileþenin köþe, kenarlarýnda görülen kýrýklar 
+üretim, kaldýrma, taþýma ve montaj gereklilikleri bileþenin yerleþtiði yerden ayrýlmasý
+ bileþen montaj gereklilikleri kaplama malzemesi performansý uygulama ilkeleri yapý dýþ yüzeyinde kaplama, boya bozulmalarýhigrotermik denetim ilkeleri derz boyutlandýrýlmasý ilkeleri derz dolgu malzemeleri bina iç mekanlarýna hava sýzýntýlarýnýn oluþmasý
+performanslarý ve uygulama ilkeleri bina iç mekanlarýna yaðmur suyu girmesi 
+hava sýzýntýlarý denetimi gibi bina dýþ kabuðu iç yüzeylerinde nem, küf ve  
+higrotermik denetim ilkeleri lekelenme oluþumu bileþen yüzeylerinden kaplama malzemelerinin  
+higrotermik denetim ilkeleri ayrýlmasý
+kaplama malzemesi uygulamasý ilkeleri tesisat donanýmý üzerinde çiðleþme oluþumu 
+ýsýl denetim ilkeleri 
+havada yayýlan ve darbe seslerine karþý yönetmelik ve darbe ve havada yayýlan ses kaynaklý gürültü 
+standartlar yalýtým malzemesi performanslarý ve uygulama ilkeleri tesisat donanýmý uygulama ilkeleri tesisat gürültüsü yalýtým malzemesi performanslarý ve uygulama ilkeleri 
+* 	
+Yapý elemaný,bileþeni ve malzemelerinin doðru konstrüksiyonu, 
+
+* 	
+Yapý eleman, bileþen ve malzemelerinin ömrü ve yýpranma performansý, 
+
+* 	
+vb… 
+
+
+2. 	Uygunluk faktörüne iliþkin kriterler; 
+* 	
+Boyutsal - ergonomik uygunluk, 
+
+* 	
+Ýþlevsel iliþkiler uygunluðu, 
+
+* 	
+Fiziksel çevre denetimi koþullarýna uygunluk,  
+
+* 	
+Su - nem denetimi 
+
+* 	
+Higrotermik denetim 
+
+*	
+Gürültü denetimi  
+
+* 	
+Gün ýþýðý denetimi  
+
+* 	
+vb… 
+
+
+
+
+3. 	Güvenlik faktörüne iliþkin kriterler; 
+* 	
+Eylem güvenliðini saðlayacak yapý eleman, bileþen-malzeme seçimi ve tasarýmý, 
+
+* 	
+Yangýn güvenliði denetimi, 
+
+* 	
+vb… 
+
+
+Bu hasarlardan dayaným ve güvenlik faktörlerine dayalý olanlar, yapýda büyük ölçüde deformasyonlar ve boyutsal sapmalar olarak ortaya çýkmaktadýr. Bu tür hatalar ve onlarýn sonucunda oluþan hasarlar ise, yine büyük ölçüde kaplama malzemeleri ile giderilmeye veya tamir edilmeye çalýþýlmakta ise de, hatalarýn olduðu bölgelerde çatlak ve kýrýlmalar, veya boyutsal ve yüzeysel deformasyonlar hata düzeyine baðlý olarak görülebilmektedir. Uygunluk faktörü baðlamýnda irdelenen fiziksel konfor koþullarýnýsaðlamaya yönelik oluþan hatalar, büyük ölçüde tasarlanan faydayý saðlamamasýþeklinde belirdiði gibi problem alanýnda dolaylý yönde oluþan hasarlarýn ortaya çýkmasýna da neden olabilmektedir. Kaplama malzemelerinin su, nem gibi etkiler altýnda bozulmasýve iþlevsel özelliklerini kaybetmesi, hijyenik olmayan fiziksel ortamlarýn oluþmasý bu baðlamda örneklenebilir.  
+Bu baðlamda hata ve onlara baðlý olarak oluþan yapýhasarlarý ile onlara kaynaklýk eden nedenler Tablo 3’de belirtildiði gibi formüle edilebilirler. Bu türdeki kurgu, sorunlarýn kaynaðýný belirlemek bakýmýndan önem kazanýrken, “toplam kalite yönetimi” çerçevesinde hatalarýen aza indirgeyebilmek için planlama aþamasýndan baþlayarak bakým-onarým aþamasýný içerecek biçimde üretim sürecinin bu çerçevede denetimini de saðlamaya yönelik model oluþumuna yardýmcý olabilirler. Bu noktada, üretim sürecinin her alt basamaðýnda gereksiz bilgileri yüklememek için performans gerekliliklerine iliþkin hiyerarþik bir yapýlanma oluþturulmalýdýr. Örneðin; “ön tasarým” aþamasýnda hangi performans gerekliliklerine, ne ölçüde öncelik verileceðinin tanýmý önem kazanýrken tasarýmýn detaylandýrýlmasýaþamasýnda tanýmlanan performans gereklilikleri, kriterleri baðlamýnda ölçütlerinin de tanýmlanmasýönem kazanacaktýr. Aynýþekilde, “yapým” aþamasýnda da performans kriterlerine uygulama ilkeleri, “bakým ve onarým” aþamasýnda da yine bu kriterlere uygun ölçütlerin kullanýcýlara aktarýlmasýönem kazanmaktadýr. 
+Performans yaklaþýmý çerçevesinde yapý hata ve 
+
+Z. UtkutuðKonutta Kalite Kavramý ve Yapý HasarlarýTablo 3. Performans gereklilikleri baðlamýnda yapý hasarlarý [11]
+Yapý performansýný  belirleyen faktörler / Performans gereklilikleri  performans kriterleri ve ölçütleri  hata ve hasarlar  
+bileþen tasarýmý ve konstrüksiyonu bileþenin kompozisyonu bileþenin konstrüksiyonu    derz denetimi  Bkom1, Bkom2, ... Bkomn Bkon 1, Bkon2, ... Bkonn Bd1, Bd2, ... Bdn  a, b, ....n a, b, ....n a, b, ....n  
+higrotermik denetim ýsýl korunum yoðuþma  Hý1, Hý2, ... Hýn Hy1, Hy2, ... Hyn  a, b, ... n a, b, ... n  
+gürültü denetimi   darbe gürültüsü    havada yayýlan gürültü dýþ ortam gürültüsü  Gd1, Gd2, ... Gdn Gh1, Gh2, ... Ghn Gdýþ1, Gdýþ2, ... Gdýþn  a, b, ....n a, b, ....n a, b, ....n  
+su, nem denetimi   temelde su, nem denetimi yapý yüzeyinde su, nem denetimi çatýda su, nem denetimi  St1, St2, ... Stn Sy1, Sy2, ... Syn Sç1, Sç2, ... Sçn  a, b, ... n a, b, ... n a, b, ... n  
+gün ýþýðý denetimi  Gü1 Gü2 .. Gün  a, b, ... n  
+yangýn denetimi  Y1, Y2, ... Yn  a, b, ... n  
+
+hasarlarýnýn saptanmasý, veya bu yöndeki oluþumlarýn engellenmesi, veya en aza indirgenmesinde performans kriterlerine iliþkin ölçütlerin belirlenmesi þarttýr. Bu ölçütler ulusal ve/veya uluslararasýstandartlarda mevcuttur. Performans kriterleri ölçütlerine ulaþýlamamasýhalinde, daha önceki uygulama sonuçlarý, Ar-Ge çalýþmalarý ve malzeme, bileþen üretici firmalarýnýn öngörüleri bu çerçevede deðerlendirilmelidir (Tablo 4). Tasarým sürecinden baþlayarak nesnel dönüþümün her evresinde, bu ölçütler aynýzamanda bir süreç denetim mekanizmasýunsuru olarak kullanýlabilecektir. 
+Tablo 4. Performans kriterleri ve ölçütleri [11] Tablo 4. (devam ediyor) 
+Performans Kriterleri  Ölçütler  
+Bkom  1. iþlevsel gereklilikler, mekan standartlarý2. strüktürel gereklilikler, standartlar – yönetmelikler 3. boyutsal toleranslar ve standartlar 4. bileþen kenar, köþe profilleri standartlarý5. kalýp gereklilikleri - kýsýtlarý6. depolama, montaj – kýsýtlarý 
+Bkon  1. bileþen baðlantý özellikleri ve türleri 2. baðlantý malzemeleri ve performans kriterleri 3. baðlantý araçlarý 
+Bd  1. düþey yatay derz aralýklarýstandartlarý2. derz dolgu malzemeleri tür ve performanslarý3. derz dolgu malzemeleri uygulama ilkeleri 4. bileþen kenar profilleri uygulama öncesi bakýmý 
+
+Hi  1. bileþenin ýsýl kütle özellikleri 2. bileþenin U deðeri ile ilgili yönetmelikler ve standartlarý3. ýsý yalýtým malzemesi performansý4. ýsý yalýtýmý uygulama prensipleri 5. baðlayýcý malzeme performansý ve uygulama ilkeleri 6. ýsý köprüleri  
+Hy  1. bileþenin buhar difüzyon direnci özellikleri 2. nem köprüleri 3. buhar kesici malzeme performanslarý4. buhar kesici malzeme uygulama ilkeleri  
+Gd  1. kabul edilebilir gürültü düzeyi ile ilgili standart ve yönetmelikler 2. havada yayýlan seslere karþý duvar – döþeme elemanlarý gereklilikleri 3. darbe seslerine karþý duvar – döþeme elemanlarý gereklilikleri 4. bina dýþý gürültüye karþý yapý dýþkabuðu gereklilikleri 5. ses yalýtým malzemeleri performanslarý ve kullanýn olanaklarý6. ses yalýtým malzemeleri uygulama ilkeleri  
+Gt  1. tesisat bacasý, kanalý ve duvarýözellikleri ve standartlarý2. tesisat donanýmý duvar – döþeme baðlantý özellikleri ve standartlarý3. ses yalýtým malzemeleri performanslarý ve kullaným olanaklarý4. ses yalýtýmý uygulama ilkeleri  
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+3. SONUÇ (Conclusion) 
+Ýnsan yaþamýnda güvenliðin her zaman ön planda olmasý, dayaným ve güvenliðe iliþkin faktörlerin de ön plana alýnmasýný doðal olarak gerektirmiþtir. Ancak geliþen kültürel ve ekonomik düzeye paralel olarak uygunluk faktörüne iliþkin kriterler giderek artan boyutlarda aranmaya baþlanmýþtýr. Bu baðlamda öncelikle su-nem denetimi, giderek enerjinin kýt ve pahalýbir faktör haline gelmesi ve enerji korunumu ile higrotermik gereklilikler ve son on yýl içinde de gürültü denetimine iliþkin önlemlerin gerekliliði, özellikle üst kültür grubunun gereksinimi olarak yapýda kalite belirleyici bir faktör olarak ortaya çýkmýþtýr. Yine bu çerçevede, konuya iliþkin yönetmelik ve standartlarýn, TS 825 örneðinde olduðu gibi, zaman içinde sürekli revize edilerek geliþtirildiði örneklenebilir. 
+Yapýmda geleneksel tekniklerin terk edilerek endüstriyel süreçlere geçiþ, toplumlarýn ekonomik ve kültürel geliþimleri ile paralellik göstermektedir. Bu yöndeki geliþim toplumun gereksinimlerini deðiþtirip geliþtirdiði gibi, yaygýnlaþmasýna da neden olmaktadýr. Böylesine bir deðiþim daha nitelikli ürün talebi yaratmaktadýr. Refahýn yaygýnlaþmasý ise, bu tür talebin hýzlý ve seri üretimle karþýlanma sonucunu doðurmaktadýr. Genel boyutlarý ile endüstriyel süreçlere geçiþ olarak tanýmlayabileceðimiz bu ortamda geleneksel tekniklerin rasyonalizasyonu ile amaca ulaþýlabildiði gibi, ileri tekniklerin üretim sürecine doðrudan aktarýmý da söz konusu olabilmektedir. Geliþtirilen teknoloji veya üretim sürecine sokulan ileri teknikler, geleneksel teknolojilerin zaaf noktalarýný gidermek amacý yanýsýra, kültürel geliþimlerden kaynaklanan yeni gereksinimleri de karþýlarlar. Diðer taraftan, her teknolojik düzey gereksindiði üretim faktörleri düzeylerini de belirler. Bu baðlamda geleneksel teknolojilerde görülen strüktürel ve bölme elemanlarýnda sýkça rastladýðýmýz betonarme kalýp sisteminden kaynaklanan boyutsal deformasyonlar ve iþçilik hatalarý kalýp özelliklerinden dolayý en aza indirgenebilmektedir.  
+Endüstriyel süreçlerde deðiþimin öncelikli itici gücü yapýgereçlerinde olmakta, sahada iþlenerek dönüþtürülen malzeme yerini performans kriterleri baðlamýnda bütünleþik bileþen üretimine ve bu bileþenlerin montajýna býrakmaktadýr. Böyle bir deðiþimin, denetim mekanizmalarýna da yansýyacaðýaçýktýr. Bu yöndeki oluþum, yapý üretimi denetim mekanizmasýný iki ayrý gruba ayýrmaktadýr. Bunlardan ilki bütünleþik nitelikteki yapý bileþenine iliþki performans kriter ve ölçütlerine dayalý kalite denetimi, diðeri ise sýzdýrmazlýk performansýna dayalý
+Z. Utkutuð 
+montaj denetimidir. Böyle bir ortamda olasý yapý hata ve hasarlarýnýn da bu boyutlarda irdelenmesini gerektirecektir. Bu nedenle geleneksel üretim süreçlerinin baskýn olduðu yapýlaþma ortamýnda, yapýhata ve hasarlarýnýn analizi gözleme dayalý geleneksel yöntemlere, endüstriyel süreçlerin baskýn olduðu ortamlarda ise, performans yaklaþýmý çerçevesinde kurgulanacak modellere dayandýrýlmasý uygun olacaktýr. 
+TEÞEKKÜR (Acknowledgement) 
+TÜBÝTAK – ÝNTAG, (Proje No:232), “Tünel KalýpTeknikleri ile Üretilen Toplu konutlarda Problem Alanlarýnýn Saptanmasý”, adlý araþtýrma projesini desteklediði için TÜBÝTAK’a ve bu projede katkýsýolan tüm araþtýrma personeline teþekkürlerimi sunarým. 
+
+
+KAYNAKLAR (References) 
+1.	
+Gültekin, A.T., “Toplu Konutlarda YapýBileþenlerinin Kalite Deðerlendirmesi”, Gazi Üniversitesi Mühendislik, Mimarlýk Fakültesi Dergisi, Cilt 17, No 3, 137-152, 2002. 
+
+2.	
+Gültekin, A.T., “YapýKalitesi Elde Etmede Kullaným Sorunlarý Girdisi”, Gazi Üniversitesi Fen Bilimleri Enstitüsü Dergisi, Cilt 12, No 1, 199-205, 1999. 
+
+3.	
+Bozkurt, R., Odaman, S., ISO 9000 Kalite Güvence Sistemleri, MPM Yayýnlarý, No:549, Ankara, 1998. 
+
+4.	
+Sey, Y., “Konutta Kalite ve Maliyet”, Konutta Kalite Sempozyumu, MESA Mesken Sanayii A.Þ. Yayýnlarý, der: Aktüre, T., Ankara,1994. 
+
+5.	
+Kavrakoðlu, Ý., Kalite Güvencesi: ISO 9000 ve Toplam Kalite, Rekabetçi Yönetim Dizisi, Dünya Yayýnlarý, Ýstanbul, 1999. 
+
+6.	
+Gültekin, A.T., “Total Quality Management Approach in Building Obtaining Process”, CIB W-63 Uluslararasý Toplantýsý, University of Novi Sad, Novi Sad, 31-38, 12-14 Kasým 1997. 
+
+7.	
+Hasol, D., Ansiklopedik Mimarlýk Sözlüðü, YEM Yayýnlarý, Ýstanbul,1999. 
+
+8.	
+Richardson, B.A., Defects and Deterioration in Building, E.and FN. Spon, London, 1990. 
+
+9.	
+Housing Defects Reference Manual, BRE Yayýnlarý E.and FN. Spon, London, 1991. 
+
+10. 
+Baytop, F., Ýnþaat Uygulamalarýnda Yanlýþlar, Doðrular, YEM Yayýnlarý, Ýstanbul, 2001. 
+
+11. 
+Utkutuð Z., Tünel Kalýp Teknikleri ile Üretilen Toplu konutlarda Problem Alanlarýnýn Saptanmasý, TÜBÝTAK – Ýntag, 232., Araþtýrma Projesi, Ankara, 2000. 
+
+
+
+
+

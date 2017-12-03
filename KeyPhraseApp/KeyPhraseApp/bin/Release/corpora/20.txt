@@ -1,0 +1,172 @@
+BÝR TABU ARAMA UYGULAMASI: ESNEK ÝMALAT SÝSTEMLERÝ’NDE PARÇA SEÇÝMÝ VE TAKIM MAGAZÝNÝYERLEÞÝMÝ
+Murat ARIKAN ve Serpil EROL 
+
+Endüstri Mühendisliði Bölümü, Mühendislik Mimarlýk Fakültesi, Gazi Üniversitesi 06570, Ankara, marikan@gazi.edu.tr, serpiler@gazi.edu.tr 
+(Geliþ/Received: 24.01.2005; Kabul/Accepted: 10.05.2005) 
+ÖZET 
+Parça tipi seçimi, Esnek Ýmalat Sistemleri’nin temel problemlerinden biridir. Problem kombinatoryal olduðundan geleneksel matematiksel programlama teknikleriyle çözülmesi güçtür. Bu çalýþmada, parça tipi seçimi, iþlem ve takým atamalarýný da dikkate alan karýþýk tamsayýlý bir programlama modeli olarak formüle edilmiþ ve bir tabu arama algoritmasýyla çözülmüþtür. En iyi parametre seti faktöryel deney tasarýmý ile belirlenen algoritmanýn etkinliði, rassal olarak üretilmiþ farklý büyüklükteki problemler üzerinde test edilmiþve elde edilen sonuçlar matematiksel model çözümleriyle karþýlaþtýrýlmýþtýr. 
+
+1.GÝRÝÞ
+çizelgeleme ve kontrol olarak sýnýflandýrmýþtýr. Bu 
+çalýþmada, EÝS planlama aþamasýnýn temel Esnek Ýmalat Sistemleri (EÝS), düþük hacim/yüksek problemlerinden biri olan parça tipi seçimi ile çeþit üretim alanýnda karþýlaþýlan sorunlarý ortadan ilgilenilmiþtir. Parça seçimi, üretilmek üzere bekleyen kaldýrmak üzere tasarlanmýþlardýr. EÝS’lerin temel iþler setinden, belli bir performans ölçütünü amacý, kitle üretiminin etkinliði ile atölye tipi eniyileyecek ve sistem kýsýtlarýna aykýrý düþmeyecek üretimin esnekliðini tek bir üretim sisteminde bir alt setin ayný üretim çevriminde iþlenmek üzere birleþtirmektir. Bir EÝS, bilgisayar kontrolü altýnda seçilmesi olarak tanýmlanabilir. Burada, makina çalýþan bir malzeme taþýma sistemiyle birbirine yükleme problemini oluþturan iþlem ve takým atama baðlanmýþ bilgisayar sayýsal kontrollü (CNC) kararlarýda parça seçimi ile birlikte ele alýnmýþtýr. makinalardan oluþan ve birbirinden farklý parçalar Böylece, ortak kýsýtlara sahip iki problemin çözüm üretebilen bir üretim sistemi olarak tanýmlanabilir. setlerinin uyumlu olmalarý saðlanýr. Esnek Ýmalat Sistemleri, deðiþen pazar þartlarýna karþýlýk vermekte zorlanan geleneksel üretim Literatürde, parça seçimi probleminin genellikle sistemlerine bir seçenek oluþtururlar. Stecke [1], bir matematiksel programlama yaklaþýmýyla ele alýndýðýEÝS’yi ilgilendiren iþletim problemlerini planlama, görülmektedir [2-10]. Ancak, problemin kombina­
+M. Arýkan ve S. Erol Bir Tabu Arama Uygulamasý: Esnek Ýmalat Sistemleri’nde Parça Seçimi ve Takým Magazini Yerleþimi 
+toryal bir yapýya sahip olmasý nedeniyle boyut büyüdükçe matematiksel modellerle sonuca ulaþmak zorlaþmaktadýr. Bir çok çalýþmada problemin Lagrange gevþetme gibi matematiksel programlama tabanlý çözüm teknikleri [4,10] ya da probleme özel sezgiseller [3,5] yardýmý ile çözüldüðü gözlenmiþtir. Son yýllarda ise kombinatoryal problemlerin çözümlerinde gösterdikleri baþarý ve her tip probleme uygulanabilir olmalarý sayesinde büyük ilgi gören tavlama benzetimi [7,11], tabu arama [6,12] ve genetik algoritmalar [9] gibi modern sezgisel tekniklerin, EÝS planlama problemlerinde de kullanýlmaya baþlandýðý görülmektedir. 
+Benzer problemin modern sezgisel tekniklerle çözüldüðü önceki çalýþmalarda, Srivastava ve Chen [6,7], parça seçimi probleminin çözümü için tavlama benzetimi ve tabu arama algoritmalarýndan yararlanmýþtýr. Ancak, çalýþmalarýnda bir parçanýn tüm iþlemlerinin ayný makina üzerinde yapýldýðýnývarsaymýþlardýr. Mukhopadhyay ve diðerleri [11], Sarma ve diðerleri [12], makina yükleme problemi için parça sýralama yaklaþýmýný kullanmýþlar ve sýrasýyla tavlama benzetimi ve tabu arama ile çözmüþlerdir. Bu iki çalýþmada da takým magazini kapasiteleri dikkate alýnmasýna raðmen takým atamalarý yapýlmamaktadýr. Kumar ve Shanker [9] ise parça seçimi ve makina yükleme problemini genetik algoritma ile çözmüþlerdir. Çalýþmalarýnda, planlama dönemini sabit uzunlukta kabul etmiþler ve her iþlemin yapýlmasýnda alternatif takýmlar kullanýlabildiðini varsaymýþlardýr. Ayrýca, problemin çözümünde iþyükü dengeleme amaçlarý üzerine odaklanmýþlardýr. Bu çalýþmada ise, makina yüklemeye göre önceliðe sahip olan parça seçim problemi ile ilgilenilmektedir. Parçalarý oluþturan iþlemler dikkate alýnmýþ olup parçaya ait tüm iþlemlerin ayný makinada yapýlma zorunluluðu yoktur. Ayrýca, makinalarýn takým magazini yüklerinin belirlenmesi problemin önemli bir parçasýdýr. Bununla birlikte, planlama aþamasýnda istenen sonucun elde edilmesi için parça seçim ve makina yükleme problemlerinin sýralý çözümünü gerektiren deðiþken planlama periyodu kullanýlmýþtýr. Burada, ele alýnan problemin çözümü için kýsa dönem hafýzalý bir tabu arama algoritmasý geliþtirilmiþtir. 
+
+2. PROBLEMÝN TANIMI 
+Burada gözönüne alýnan EÝS, takým magazinleriyle donatýlmýþm tane çok amaçlý makina içermektedir. Makinalarýn sahip olduklarý takým magazinlerinin kapasiteleri belirlidir. Sistemde üretilmeyi bekleyen i farklý parça tipi vardýr ve her parça bir veya daha fazla iþlemden oluþmaktadýr. Her iþlemin bir kesici uç (takým) kullanýlarak gerçekleþtirilebildiði ve bir veya daha fazla makinada yapýlabildiði varsayýlmaktadýr. Tüm iþlemlerin makina zamanlarý, iþlemler tarafýndan gerek duyulan takýmlar ve takým magazinlerinde kapladýklarý yerler bilinmektedir. Problemin amacý, seçilecek parçalardan saðlanacak faydayý en büyükleyecek þekilde bir sonraki üretim çevriminde üretilecek parçalarýn belirlenmesidir. Bir sonraki üretim çevriminde iþlenecek parçalar bir kere belirlendikten sonra, parçalarýn hepsi tamamlanýncaya kadar takým magazini yüklerinde bir deðiþiklik yapýlmamaktadýr. Sistem hazýrlama her üretim çevriminin baþlangýcýnda gerçekleþtirilmektedir. 
+Gösterim 
+i : parça tipleri, i=1,2,…,I 
+
+k : iþlemler, k=1,2,…,K 
+
+t : takým tipleri, t=1,2,…..,T 
+
+m : makinalar, m=1,2,….,M Wi : i parçasýnýn seçilmesinin saðlayacaðý fayda Pikm : i parçasýnýn k iþleminin m makinasýndaki 
+
+
+zamanýTi : i parçasýnýn toplam iþlem zamaný.KM .
+..
+.Ti =..Pikm .Vikm ..k =1m=1 .Jm : m makinasýnda iþlenebilecek iþlerin kümesi M(i,k) : i parçasýnýn k iþleminin yapýlabileceði makinalar kümesi Cm : m makinasýnýn takým magazini kapasitesi nbt : t takýmýndan sistemde mevcut miktar St : t takýmýnýn makina takým magazininde kapladýðý yer TMikmt : i parçasýnýn k iþlemi m makinasýnda t takýmýyla yapýlabiliyorsa 1, aksi halde 0 Vikm : i parçasýnýn k iþlemi m makinasýna atanmýþsa 1, aksi halde 0 Yi : i parçasýüretilmek üzere seçilmiþse 1, aksi halde 0 Rtm : t takýmým makinasýna atanmýþsa 1, aksi halde 0 Om : m makinasýna atanan iþyükünün ortalama yükten yukarý sapma miktarýUm : m makinasýna atanan iþyükünün ortalama yükten aþaðý sapma miktarý
+Formülasyon 
+
+I Max.WiYi  (1) i=1I .Pikm .Vikm +Um -Om =.Ti .Yi 
+M .m  (2) (i,k).Jm i=1
+.Vikm =Yi .i,.k  (3) m.M (i,k ) 
+T Vikm ..TMikmt .Rtm .i,.k,.m  (4) 
+t=1 T .st .Rtm .Cm .m  (5) t=1M .Rtm .nbt .t  (6) m=1
+Vikm .(0,1).i,.k,.m  (7) 
+Yi .(0,1).i  (8) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+Rtm .(0,1).t,.m  (9) Adým 1: Her makinada her bir takým tipiyle Um ,Om .0 .m  (10) yapýlabilen iþlemlerin sayýsýný belirle ve bunlarýbüyükten küçüðe doðru sýrala. 
+Amaç fonksiyonu (1) ile sistemde üretilmesinden maksimum faydanýn saðlanacaðý parça seti belirlenir. Kýsýt (2), iþyükü dengesini tanýmlamaktadýr. Kýsýt (3), i parçasý iþlenmek üzere seçilmiþse, i parçasýna ait her iþlemin bir makinaya atanmasýný saðlar. Kýsýt (4), i parçasýnýn k iþlemi m makinasýna atanmýþsa gerektirdiði takýmýn da m makinasýna atanmasýnýsaðlar. Kýsýt (5), m makinasýna atanan takýmlarýn kapladýðý toplam yerin o makinanýn takým magazini kapasitesini geçmemesini saðlar. Kýsýt (6), t takýmýndan tüm makinalara atanan toplam miktarýn, o takýmýn sistemdeki mevcut sayýsýndan az olmasýnýsaðlar. (7)-(10) no’lu kýsýtlar sýfýr veya pozitif olma þartlarýný ve deðiþken tiplerini tanýmlamaktadýrlar. 
+Yukarýda verilen model, sahip olduðu kýsýtlardan da anlaþýlabileceði gibi karýþýk tamsayýlý doðrusal bir programlama modelidir. Karýþýk tamsayýlýprogramlarýn hesaplama karmaþýklýklarý, orta büyüklükteki bir problem için bile çözüm zamanýnýoldukça arttýrmaktadýr. Ele alýnan problem kýsa dönemli planlanlama problemleri arasýndadýr, sýklýkla (vardiya, gün vb. aralýklarla) çözülmesi gerektiðinden en kýsa zamanda çözüme ulaþmasýistenir. Bu nedenle problem, modern sezgisel teknikler arasýnda yer alan ve kombinatoryal yapýdaki problemler için kýsa sürelerde en iyiye yakýn sonuçlar verdiði bilinen Tabu Arama (TA) ile çözülmüþtür. 
+
+
+3. TABU ARAMA 
+Tabu Arama (TA), Glover [13,14] tarafýndan kombinatoryal problemlerin çözümü için önerilmiþyüksek seviyeli bir sezgisel programlama tekniðidir. Teknik hakkýnda detaylýbilgiye Glover ve Laguna’dan [15] ulaþýlabilir. Tabu Arama’yýkombinatoryal bir probleme uygulamak için bir takým kararlarýn alýnmasýgereklidir. Bu kararlar ve bu çalýþmada ele alýnan problem için nasýl alýndýklarýaþaðýda anlatýlmýþtýr [16]. 
+Çözüm uzayý ve baþlangýç çözümü: Parça seçimi problemi için en kritik karar hangi takýmlarýn hangi makinalara atanacaðýnýn belirlenmesidir. Parçaya ait bir iþlemin yapýlabilmesi için ilgili takýmýn, iþlemin yapýlabildiði makinalardan birine atanmýþ olmasýgerekir. Parça ise ancak ve ancak, sahip olduðu iþlemlerin her birinin atandýðý bir makina mevcutsa seçilebilir. Bu durumda makinalara atanan takýmlar, seçilecek parça sayýsýný doðrudan etkiler. Bu sebeple problemin çözümü, t takýmýnýn m makinasýna atanýp atanmadýðýný gösteren Rtm deðiþkenlerinin oluþturduðu bir vektörle ifade edilmiþtir. Algoritmanýn baþlangýç çözümü biri rassal, diðeri sezgisel olmak üzere 2 farklýþekilde elde edilmiþtir. Kullanýlan sezgisel algoritmanýn adýmlarýÞekil 1’de verilmiþtir. 
+Adým 2: Her bir makina için, sýranýn en baþýndaki takýmdan baþlayarak takým atamalarýný yap. Eðer sýradaki takým daha önce baþka bir makinaya atandýysa, atamayýyapmadan bir sonraki takýma geç. Bu iþlemi makinanýn takým magazininde yer kalmayýncaya kadar tekrarla. 
+Adým 3: Ýþlenecek parçalara ait iþlemlerin sýrayla makinalara atamasýný yap. Eðer bir parçaya ait iþlemlerden biri herhangi bir makinaya atanamamýþsa, parçanýn o ana kadar makinalara atanmýþ iþlemlerini makinalardan sil ve parçayýseçilmemiþ parçalar listesine al. Eldeki tüm parçalar bitinceye kadar bu adýmý tekrar et. 
+Adým 4: DUR 
+Þekil 1. Sezgisel baþlangýç çözümü algoritmasý
+Komþu arama mekanizmasý: Mevcut çözümden (.) komþu bir çözüme (.’) geçmek için ekleme/çýkarma hareket mekanizmasý kullanýlmýþtýr. Komþu arama sýrasýnda sadece uygun çözümler incelenmektedir. Hareket mekanizmasýþu þekilde açýklanabilir: Rassal olarak seçilen bir Rtm deðiþkeninin deðeri 0’sa 1 yapýlýr. Ancak 1’se 0 yapýldýktan sonra çözüme eklenebilecek baþka bir deðiþken aranýr. Bunun için de yine rassal olarak deðeri 0 olan bir deðiþken belirlenir ve 1 deðeri verildikten sonra çözümün uygunluðu kontrol edilir. Çözüm uygunsa deðerlendirmeye alýnýr, deðilse eklenen deðiþken tekrar 0 yapýlarak çözümün önceki hali deðerlendirilir.  Amaç deðerinin hesaplanmasý: Problemin amaç fonksiyonu, eþitlik (1)’de tanýmlandýðý gibi, seçilen parçalarýn aðýrlýklý toplamýdýr. Ancak, yanlýz baþýna, hangi takýmýn hangi makinaya atandýðýný belirten bir çözümün tanýmlanmasý amaç fonksiyonunun deðeri hakkýnda bir ipucu vermez. Bu nedenle, her iterasyonda, yani mevcut çözüm her güncellendiðinde çalýþtýrýlmak üzere bir altprogram tasarlanmýþtýr. Bu altprogram, bir taraftan makinalara iþlem atamalarýnýyaparak mevcut çözümün amaç fonksiyonunu hesaplarken, diðer taraftan mevcut çözümden hareketle ulaþýlabilecek komþu çözümlerin amaç deðerlerinin hesaplanmasýnda kullanýlacak bir takým bilgileri toplar. Bu bilgiler komþu arama sýrasýnda kullanýlarak aday çözümün amaç fonksiyonu bulunur.  Yeniliðe dayalý hafýza ve tabu listeleri: Yapýlan bir hareketin tabu olarak tanýmlanmasý ve yapýlacak bir hareketin tabu olup olmadýðýnýn kontrolü için iki ayrýtabu listesi kullanýlmýþtýr. Ekleme ve çýkarma hareketleri için tutulan bu listeler (t)x(m) boyutlu matrisler ile gösterilmektedir. Bu matrislerde, ilgili deðiþkenin ekleme/çýkarma hareketleri için tabu durumu baþlangýç iterasyonlarý tutulur. Ayrýca, bir hareketin kaç iterasyon boyunca tabu kalacaðýnýbelirlemek için iki ayrý (ekleme ve çýkarma olmak üzere) tabu liste uzunluðu tanýmlanmýþtýr. 
+
+M. Arýkan ve S. Erol Bir Tabu Arama Uygulamasý: Esnek Ýmalat Sistemleri’nde Parça Seçimi ve Takým Magazini Yerleþimi 
+Aday liste stratejisi: Ele alýnan problem için, komþu bir çözümün amaç deðeri doðrudan bilinmemektedir. Ayrýca, mevcut çözümün tüm komþularýnýn deðerlendirilmesi de çözüm zamanýný oldukça arttýrmaktadýr. Bu nedenle, bu çalýþmada aday çözümlerin rassal olarak belirlenmesi tercih edilmiþtir. Tabu yýkma ölçütü: Bu çalýþmada, tabu yýkma ölçütlerinden amaca göre tabu yýkma kullanýlmýþtýr. Bu ölçüte göre tabu olan bir hareket, mevcut iterasyona kadar bulunmuþ en iyi çözümden daha iyi bir çözümün elde edilmesini saðlýyorsa, tabu olmasýna raðmen gerçekleþtirilmektedir. 
+Durdurma koþulu: Algoritma, mevcut en iyi çözümde önceden belirlenmiþ bir iterasyon sayýsý boyunca bir iyileþme saðlanamadýðý takdirde durdurulmaktadýr. 
+Geliþtirilen tabu arama algoritmasýÞekil 2’dedir. 
+
+
+4. DENEYSEL ÇALIÞMA 
+Algoritmanýn göstereceði performans, algoritma parametrelerine verilecek deðerlerle yakýndan ilgilidir. Bu nedenle, algoritmanýn en iyi sonuç verdiði parametre setinin belirlenmesi için bir deneysel çalýþma yapýlmýþtýr. Literatürde, tanýmlanan probleme iliþkin bir veri seti bulunamadýðýndan, algoritmanýn performansýný ölçmek üzere farklý büyüklüklerde test problemleri rassal olarak üretilmiþtir. Problem büyüklükleri, makina, parça, iþlem ve takým sayýlarýyla tanýmlanmýþtýr. Makina sayýlarý 5-8, parça sayýlarý 20-40, iþlem sayýlarý 3-5, takým sayýlarý da 20­50 arasýnda olmak üzere 8 farklý problem büyüklüðü belirlenmiþve problemlere ait parametreler, takýmlarýn uyumlu olduðu makinalar, iþlemlerin gerektirdikleri takýmlar tekdüze rassal daðýlýma uygun olarak üretilmiþtir. 
+Daha sonra, test problemlerinin karýþýk tamsayýlýprogramlama modelleri kurulmuþ ve GAMS (General Algebraic Modelling System) programýnýn OSL çözücüsü ile çözülmüþtür. GAMS koþumlarý için, problemlerin makul bir zaman diliminde en iyi çözüme ulaþamama durumuna karþý, 86400 saniyelik (24 saat) bir süre limiti verilmiþtir. Bu süre sýnýrýiçinde test problemlerinin 5’inde (problem no. 1, 2, 3, 5, 7) en iyi deðere ulaþýlýrken, kalan problemlerde (problem no. 4, 6, 8) en iyi çözüm bulunamamýþtýr. Tablo 1’de GAMS çözümlerinden elde edilen 
+
+Kýsa dönem hafýzalý Tabu Arama Algoritmasý
+(*X0, baþlangýç çözümü*) (*Xbest, en iyi çözüm*) (*Xneigh, komþuluktaki en iyi çözüm*) (*cls, aday liste uzunluðu*)(*iterbest, en iyi çözümün bulunduðu iterasyon sayýsý*) 
+Begin 
+ Algoritma parametrelerine baþlangýç deðerlerini ver; Bir baþlangýç çözümü bul (X0); Xbest=X0; fbest=f(X0); X=X0; While iteration-iterbest<iterfark do Begin fneigh_best=0; Repeat  Mevcut çözümün uygun bir komþusunu (X’) üret; l=l+1;  if (güncel hareket tabu deðil) or (f(X’)>fbest) then  begin  if f(X’)> fneigh_best then begin  komþuluktaki en iyi çözümü güncelle; (Xneigh=X’; fneigh_best=f(X’)) 
+end; end;  Until l=cls; if fneigh_best>fbest then en iyi çözümü güncelle
+ (Xbest=Xneigh);  mevcut çözümü güncelle (X=Xneigh); 
+ tabu listelerini güncelle;  iteration=iteration+1; end; 
+Yazdýr (fbest, Xbest) 
+End. 
+Þekil 2. Tabu Arama algoritmasý
+sonuçlar verilmektedir. 
+Test problemleri GAMS ile çözüldükten sonra, algoritmanýn en iyi parametre setinin belirlenmesinde faktöryel tasarýmdan yararlanýlmýþtýr. Tabu arama algoritmasýTurboPascal programlama diliyle kodlanmýþ ve tüm bilgisayar koþumlarý Pentium IV 
+2.6 Ghz iþlemcili bir bilgisayarda gerçekleþtirilmiþtir. Etkinlik ölçütü olarak test problemlerinin karýþýk tamsayýlý programlama modeliyle çözümlerinden elde edilen amaç deðerlerinin, Tabu Arama algoritmasýyla bulunan ortalama amaç deðerinden oransal farkýkullanýlmýþtýr. Faktöryel tasarýma dahil edilen algoritma parametreleri aþaðýdadýr, parametrelerin 
+
+Tablo 1. Test problemlerinin GAMS ile çözümlerinden elde edilen sonuçlar 
+
+
+
+Pr. m i k t GAMS GAMS tamsayýÇözüm zamanýNo. çözüm deðeri üst sýnýr  (CPU sn) 
+1 5 20 3 20 513 513 101,99 2 5 20 5 30 390 390 10029,12 3 5 30 3 30 765 765 19341,35 4 5 30 5 40 660 669 86401,26 5 8 30 3 30 471 471 86400,72 6 8 30 5 40 579 605 86401,37 7 8 40 3 40 946 946 5246,10 8 8 40 5 50 520 531 86401,81 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+gözönüne alýnan düzeyleri de Tablo 2’de verilmiþtir. 
+1. 
+Baþlangýç çözümü (bç): Baþlangýç çözüm kalitesinin algoritma performansýný etkileyebileceði düþünülmektedir. 
+
+2. 
+Tabu süreleri (ts): Ekleme ve çýkarma hareketleri için tabu süreleri eþit kabul edildiðinden tek bir faktör olarak alýnmýþlardýr. 
+
+3. 
+Aday liste uzunluðu çarpaný (aluç): Bu faktör, her iterasyonda incelenecek aday çözümlerin sayýsýnýn problem büyüklüðüne baðlý olarak belirlenmesinde kullanýlmaktadýr. Aday liste uzunluðu, ilgili problem çözümündeki deðiþken sayýsýnýn aluç faktörü ile çarpýlmasýyla hesaplanmaktadýr. 
+
+4. 
+Ýterasyon sayýsý (iterfark): Bu faktör durdurma koþulunu, yani en iyi çözüm deðiþmeden geçecek iterasyon sayýsýný göstermektedir. 
+
+
+Tablo 2’den anlaþýlacaðý gibi, baþlangýç çözümü 2, diðer faktörler 3 düzeye sahiptir. Tabu süresi faktörü, ekleme ve çýkarma hareketleri için eþit alýnmýþtýr. Tam faktöryel analiz için 2×33=54 farklý parametre kombinasyonu mevcuttur. Her kombinasyon 3 farklýprobleme (Problem No. 1, 5, 8) uygulanmýþtýr ve her kombinasyon için farklý baþlangýç rassal sayýlarýyla 5’er koþum olmak üzere toplam 54×3×5=810 deneme yapýlmýþtýr. Gözönüne alýnan faktörlerin performans ölçütü üzerindeki etkisini araþtýrmak için varyans analizi (ANOVA) kullanýlmýþ ve faktörlerin seçilen düzeyleri arasýnda anlamlý bir farklýlýk olup olmadýðýnýn anlaþýlmasý için Duncan çoklu aralýk testi yapýlmýþtýr. ANOVA sonuçlarý Tablo 3’te görülmektedir. 
+Tablo incelendiðinde, .=0.05 anlamlýlýk düzeyinde, dikkate alýnan tüm faktörlerin algoritma performansýüzerinde etkili olduðu görülmektedir. Ýkili ortak etkilerden ise sadece baþlangýç çözümü (bç) ve iterasyon sayýsý (iterfark) ikili ortak etkisi anlamlýbulunmuþtur. Üçlü ve dörtlü ortak etkilerden hiçbiri algoritmanýn performansý üzerinde etkili deðildir. Varyans analizi sonucunda, ana etkide anlamlý çýkan faktörlerin düzeyleri arasýnda anlamlý bir farklýlýðýn olup olmadýðýnýn belirlenmesi amacýyla yapýlan Duncan çoklu aralýk testinin sonuçlarý da tablo 4’te görülmektedir. Duncan çoklu aralýk testinin sonuçlarýincelendiðinde, iki düzeye sahip baþlangýç çözümü faktörünün sezgisel düzeyinin rassal düzeye göre daha iyi sonuçlara ulaþýlmasýný saðladýðý görülmüþtür. Tabu süresi faktörünün ise orta ve yüksek düzeyleri arasýnda algoritma performansýnýn farksýz olduðu, buna karþýn tabu süresinin düþük düzeyinde algoritmanýn daha iyi performans gösterdiði belirlenmiþtir. Ayrýca, aday liste uzunluðu ve iterasyon sayýsý ile ilgili faktörlerin tüm düzeyleri 
+
+Tablo 2. Algoritma parametreleri ve faktöryel tasarýmda göz önüne alýnan düzeyleri 
+Faktör ismi  Düþük Düzey (-1)  Orta Düzey (0)  Yüksek Düzey (+1)  
+Baþlangýç çözümü (bç)  rassal  - sezgisel  
+Tabu süreleri (ts)  5  7  10  
+Aday liste uzun. çarpaný (aluç)  0,05  0,10  0,15  
+Ýterasyon sayýsý (iterfark)  500  1000  1500  
+
+Tablo 3. Tabu Arama algoritmasý için ANOVA sonuçlarý
+Deðiþim Kaynaðý  Kareler toplamý  Serbestlik Derecesi  Ortalama kare  F deðeri  P-deðeri  
+bçtsaluçiterfark2 ortak bç * ts bç * aluç bç * iterfarkts * aluç ts * iterfark aluç * iterfark 3 ortak bç * ts * aluç bç * ts * iterfark bç * aluç * iterfark ts * aluç * iterfark 4 ortak bç*ts*aluç*iterfark Hata Toplam   8,242E-03  1,009E-02  ,100  3,519E-02 1,181E-04 9,248E-06  3,827E-03 9,565E-04 1,458E-03 8,552E-04 2,285E-03 8,160E-04 9,259E-04 3,452E-03 2,446E-03 8,878E-02 1,131  1 2 2 2 2 2 2 4 4 4 4 4 4 8 8 216 270  8,242E-03 5,043E-03 5,008E-02 1,759E-02 5,904E-05 4,624E-06 1,913E-03 2,391E-04 3,645E-04 2,138E-04 5,712E-04 2,040E-04 2,315E-04 4,315E-04 3,058E-04 4,110E-04  20,055 12,270 121,856 42,810 ,144 ,011 4,656 ,582 ,887 ,520 1,390 ,496 ,563 1,050 ,744  ,000 ,000 ,000 ,000 ,866 ,989 ,010 ,676 ,473 ,721 ,239 ,738 ,690 ,400 ,653  
+
+M. Arýkan ve S. Erol Bir Tabu Arama Uygulamasý: Esnek Ýmalat Sistemleri’nde Parça Seçimi ve Takým Magazini Yerleþimi 
+algoritmanýn farklý performans göstermesine yol açmaktadýr ve bu faktörlerin yüksek düzeylerinde daha iyi sonuçlar elde edilmektedir. TA algoritmasýiçin yapýlan varyans analizi ve Duncan çoklu aralýk testine göre baþlangýç çözümü sezgisel olarak belirlendiðinde, ekleme ve çýkarma tabu süreleri 5, aday liste uzunluðu çarpaný 0.15 ve en iyi çözüm deðiþmeden geçecek iterasyon sayýsý 1500 olarak alýndýðýnda algoritmanýn en iyi sonucu verdiði Tablo 4’ten görülmektedir. 
+Tablo 5’te, test problemlerinin GAMS paket programýve TA algoritmasýyla çözüm sonuçlarý birbirleriyle karþýlaþtýrýlarak verilmiþtir. Geliþtirilen kýsa dönem hafýzalý TA algoritmasý, en iyi parametre seti ile farklýbaþlangýç rassal sayýlarýyla her problem için 5’er kez koþturulmuþ ve elde edilen maksimum, ortalama ve minimum çözüm deðerleri tabloda gösterilmiþtir. Algoritma ile en iyi çözümü bilinen problemlerde (Pr. No. 1, 2, 3, 5, 7) en iyi deðerden % 0,17 ile % 2,10 arasýnda bir ortalama sapma elde edilmiþtir. Bunun yanýsýra, problem 5 hariç, tüm bilinen en iyiye sahip problemlerde, 5 koþumun en az 2’sinde en iyiye ulaþýlmýþtýr. En iyi deðerin bilinmediði problemlerde ise (Pr. No. 4, 6, 8), GAMS çözümlerinden % 0,48 ile % 2,57, üstsýnýrdan ise % 1,82 ile % 5,61 arasýnda daha kötü sonuçlara ulaþýldýðý gözlenmiþtir. Daha önce de belirtildiði gibi, parça seçim problemi kýsa dönemli planlama problemleri arasýndadýr ve çok sýk aralýklarla çözümüne ihtiyaç duyulabilir. Bu nedenle, algoritma için kritik performans ölçütlerinden biri de koþum zamanýdýr. Algoritmanýn ortalama koþum zamanlarýnýn çok kýsa olduðu tablodan görülmektedir. 
+
+5. SONUÇ VE ÖNERÝLER 
+Esnek Ýmalat Sistemleri, yoðunlaþan uluslararasýrekabet ve sürekli deðiþen pazar þartlarý karþýsýnda üreticilerin ayakta kalmalarýný kolaylaþtýran yüksek teknolojiye dayalýmodern üretim sistemlerinden biridir. Ancak, sistemden beklenen yararlarýn alýnabilmesi ve yatýrýlan sermayenin kýsa sürede geri dönüþünün saðlanabilmesi için EÝS’lerin etkin bir þekilde planlanmalarý ve iþletilmeleri gerektiði açýktýr. 
+Bu çalýþmada, EÝS planlama problemleri arasýnda yer alan parça seçim, iþlem atama ve takým magazini yerleþimi problemleri için kýsa dönem hafýzalý bir tabu arama algoritmasý geliþtirilmiþ ve algoritmanýn en iyi parametre setinin belirlenmesinde varyans analizinden yararlanýlmýþtýr. Yapýlan deneysel çalýþmalar sonucunda, baþlangýç çözümü sezgisel olarak belirlendiðinde, ekleme ve çýkarma tabu süreleri 5, aday liste uzunluðu çarpaný 0.15 ve en iyi çözüm deðiþmeden geçecek iterasyon sayýsý 1500 olarak alýndýðýnda, algoritmanýn iyi sonuçlara oldukça kýsa sürelerde ulaþtýðý görülmüþtür.  
+Burada problem, parça seçim amacý altýnda çözülmüþtür. Çalýþmanýn devamýnda problemin, tüm 
+
+Tablo 4. Duncan çoklu aralýk testi sonuçlarý
+Faktörler  Düzeyler  Grup Ortalamasý  Test Sonuçlarý  
+Kombinasyonlar  Anlamlý Farklýlýk  
+1. bç  RassalSezgisel  6,2E-02  5,1E-02  rassal-sezgisel  var  
+2. ts  (5, 5) (7, 7) (10, 10)  4,9E-02 5,8E-02 6,4E-02  (5, 5)-(7, 7) (5, 5)-(10,10) (7, 7)-(10, 10)  var var yok  
+3. aluç  0,05 0,10 0,15  8,3E-02 4,9E-02 3,8E-02  0,05-0,10 0,05-0,15 0,10-0,15  var var var  
+4. iterfark  500 10001500 7,2E-02  5,5E-02  4,4E-02  500-1000 500-1500 1000-1500  var var var  
+
+Tablo 5. TA algoritmasýnýn test problemleri üzerindeki performansý
+TA Algoritmasý  GAMS  GAMS  (2)-(1)  (3)-(1)  Ort. TA koþum  
+(TA)  çözüm  tamsayý  arasýndaki  arasýndaki  zamaný  
+Pr  deðerleri  üst sýnýr  % fark  % fark  (CPU saniye)  
+No  min  ort (1)  max  (2)  (3)  
+1  477  502,2  513  513  513  2,10  2,10  2,11  
+2  378  387,4  390  390  390  0,66  0,66  2,89  
+3  755  759,2  765  765  765  0,76  0,76  2,43  
+4  652  656,8  660  660  669  0,48  1,82  3,24  
+5  465  466,8  468  471  471  0,89  0,89  4,99  
+6  571  571  571  579  605  1,38  5,61  5,49  
+7  942  944,4  946  946  946  0,17  0,17  9,60  
+8  498  506,6  517  520  531  2,57  4,59  10,60  
+226  Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006  
+
+planlama aþamasýný kapsayacak þekilde, farklý amaç systems: tabu search algorithms”, Annals of fonksiyonlarýnýn sýralý ya da eþzamanlý göz önüne Operations Research, Cilt 41, 279-297, 1993. alýnmasýyla geniþletilmesi düþünülmektedir. Ayrýca, 7. Srivastava, B. ve Chen, W.H., “Batching in üretim oraný belirleme, kaynak tahsisi (palet ve production planning for flexible manufacturing sabitleyicilerin atanmasý) gibi diðer planlama systems”, International Journal of Production problemleriyle ilgili kýsýtlarýn da matematiksel modele Economics, Cilt 43, 127-137, 1996. eklenmesiyle, algoritma yeniden düzenlenebilir. 8. Lee, D.H. ve Kim, Y.D., “A multi-period order 
+selection problem in flexible manufacturing KAYNAKLAR systems”, Journal of the Operational Research 
+Society, cilt 49, 278-286, 1998. 
+
+1.	
+Stecke, K. E., “Design, Planning, Scheduling and 9. Kumar, N. ve Shanker, K., “A genetic algorithm Control Problems of Flexible Manufacturing for FMS part type selection and machine loading”, Systems”, Annals of Operation Research, Cilt 3, International Journal of Production Research, 3-12, 1985. Cilt 38, No 16, 3861-3887, 2000. 
+
+2.	
+Hwang, S., “A Constraint-directed Method to 10. Liang, M. ve Dutta, S. P., “An integrated Solve the Part Type Selection Problem in approach to the part selection and machine Flexible Manufacturing Systems Planning Stage”, loading problem in a class of flexible Proceedings of the Second ORSA/TIMS manufacturing systems”, European Journal of Conference on Flexible Manufacturing Operation Research, Cilt 67, 387-404, 1993. Systems: Operation Research Models and 11. Mukhopadhyay, S.K., Singh, M.K. ve Srivastava, Applications, edited by K.E. Stecke and R. Suri, R., “FMS machine loading: a simulated annealing Elsevier Science Publishers B.V., Amsterdam, approach”, International Journal of Production 297-309, 1986. Research, Cilt 36, No 6, 1529-1547, 1998. 
+
+3.	
+Rajagopalan, S., “Formulation and Heuristic 12. Sarma, U.M.B., Kant, S., Rai, R. ve Tiwari, M.K., Solutions for Parts Grouping and Tool Loading in “Modelling the machine loading problem of Flexible Manufacturing Systems”, Proceedings FMSs and its solution using a tabu-search-based of the Second ORSA/TIMS Conference on heuristic”, International Journal of Computer Flexible Manufacturing Systems: Operation Integrated Manufacturing, Cilt 15, No 4, 285­Research Models and Applications, edited by 295, 2002. 
+
+K.E. Stecke and R. Suri, Elsevier Science 13. Glover, F., “Tabu Search-Part I”, ORSA Journal Publishers B.V., Amsterdam, 311-320, 1986. on Computing, Cilt 1, No 3, 190-206, 1989. 
+
+4.	
+Hwan S.S. ve Shogan A.W., “Modelling and 14. Glover, F., “Tabu Search-Part II”, ORSA solving an FMS part selection problem”, Journal on Computing, Cilt 2, No 1, 4-32 1990. International Journal of Production Research, 15. Glover, F. ve Laguna, M., “Tabu Search”, Cilt 27, 1349-1366, 1989. Kluwer Academic Publishers, USA, Boston, 
+
+
+5.	Moreno, A.A. ve Ding, F.Y., “Heuristics for the 1997. FMS loading and part type selection problems”, 16. Arýkan, M., Esnek Ýmalat Sistemleri’nde Parça International Journal of Flexible Seçimi, Operasyon Atama ve Alet Deposu Manufacturing Systems, Cilt 5, 287-300, 1993. Yerleþimi Ýçin Sezgisel Algoritmalar, Doktora 
+6.	Srivastava, B. ve Chen, W.H., “Part type Tezi, Gazi Üniversitesi, Fen Bilimleri Enstitüsü, selection problem in flexible manufacturing 2003. 
+
+
+
+

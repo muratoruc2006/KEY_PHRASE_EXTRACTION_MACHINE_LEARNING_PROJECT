@@ -1,0 +1,180 @@
+YERÇEKÝMÝNE TERS DÖKÜM YÖNTEMÝNÝN DÖKÜMPARÇALARIN BESLEME ÖZELLÝKLERÝNE ETKÝLERÝ
+Hasan HASIRCI ve Ferhat GÜL 
+
+Metal Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, 06500, Beþevler, Ankara, hasirci@gazi.edu.tr, fgul@gazi.edu.tr 
+(Geliþ/Received: 28.03.2005; Kabul/Accepted: 18.05.2006) 
+ÖZET 
+Bu çalýþmada, yaþ kum kalýplar kullanýlarak geleneksel yerçekimi (gravity casting) ve yerçekimine ters döküm (counter gravity casting) yöntemleri ile üretilen parçalarýn besleme özellikleri üzerine döküm sýcaklýðý ve basýncýn etkisi araþtýrýlmýþtýr. Deneysel çalýþmalarda Al-% 10 Si döküm alaþýmý kullanýlmýþtýr. Numuneler 600, 640 ve 690 °C sýcaklýklarda, 100, 200, 250, 300 ve 500 mmHg vakum seviyelerinde dökülmüþtür. Sonuçlar, yerçekimine ters döküm yöntemiyle geliþmiþ besleme özelliklerinin elde edildiðini göstermiþtir. 
+
+1. GÝRÝÞ(INTRODUCTION) fazla olmasý da katýlaþma sýrasýnda döküm parçalarda 
+çekme miktarýnýn artmasýna yol açmaktadýr [1-8]. Üretilen döküm parçalar uzay ve otomotiv endüstrisi baþta olmak üzere birçok alanda yaygýn olarak Döküm parçalarýn üretimi sýrasýnda özellikle kalýn kullanýlmaktadýr. Metalik malzemeler sývýdan kesitli parçalarda katýlaþma çekmesinin karþýlanmasýkatýlaþmaya baþladýklarýnda hacimce küçülürler. Bu ya da katýlaþma sýrasýnda büzülerek metalin boþalttýðýdurum döküm iþlemlerinde katýlaþma çekmesi olarak yerlerin doldurularak saðlam parçalarýn üretilebilmesi ifade edilmektedir. Katýlaþma çekmesi, sývý metal amacýyla genellikle besleyiciler kullanýlmaktadýr sýcaklýðý, malzeme bileþimi, katýlaþma ve döküm [1,3]. Döküm parça kesit kalýnlýðýndaki artýþiþlem þartlarýna baðlý olarak deðiþim gösterir. sonucunda soðuma hýzý azalmaktadýr. Döküm Sýcaklýkla birlikte malzemelerin hacimce büyüme ya sýcaklýðýnýn artmasý da ayný etkiye sebep olmaktadýr. da küçülme oranlarýo malzemelerin genleþme ve Bu sebeple besleyici ve besleme ihtiyacýnýn büzülme miktarlarý ile iliþkilidir. Ancak, sýcaklýðýn azaltýlmasý amacýyla kesit kalýnlýðý, döküm artmasý, metal atomlarý arasýndaki mesafenin de sýcaklýðýnýn azaltýlmasý ve basýnç yardýmýyla (pres artmasýna yol açtýðýndan ayný kütledeki metalin döküm) döküm iþlemleri yaygýn olarak uygulanan kapladýðý hacminde artýþ meydana gelmektedir. Bu tekniklerdendir [3,9-11]. durum yüksek sýcaklýklarda dökülen metal ve alaþýmlarýn kalýp içersinde katýlaþma sürecinde daha Al-Si alaþýmlarýnýn çekme ve besleme karakteristikleri fazla büzülmesi anlamýna gelmektedir. Büzülmenin konusunda yapýlan çalýþmalar bulunmaktadýr 
+H. Hasýrcýve F. Gül Yerçekimine Ters Döküm Yönteminin Döküm Parçalarýn Besleme Özelliklerine Etkileri 
+[2,3,12,13]. Bunlar genellikle basýnçlý döküm iþlemleri [1,10,11], alaþým elementlerinin etkileri, soðutucu kullanýmý gibi etkilerin [1,2,14,15] incelenmesi þeklindedir. Ancak özellikle kullanýlan kalýp malzemesi, soðuma þartlarý ve vakum uygulamasýnýn etkileri konusunda çalýþmalar bulunmamaktadýr. Basýnç yardýmýyla (pres döküm) sývý metalin kalýba sýkýþtýrýlarak doldurulmasýnýn da besleme ihtiyacýnýn azaltýlmasýnda önem taþýdýðý göz önüne alýndýðýnda, bu yöntemin önemli avantaj saðlayacaðý düþünülmektedir. Diðer yandan vakum ile sývý metalin yerçekiminin tersi yönde hazýrlanan kalýplara doldurulduðu yerçekimine ters döküm yöntemi üretilen parçalarýn yapý ve özelliklerini olumlu yönde geliþtirdiði bilinmektedir. Yerçekimine ters döküm yöntemi ile çok düþük döküm sýcaklýklarýnda üretim yapýlabilmektedir. Çekme boþluðu bulunmayan parça üretimi, döküm iþlemlerinin temel amaçlarýnda birisidir. Bu nedenle hangi döküm yöntemi kullanýlýrsa kullanýlsýn üretilen parçalarýn her açýdan saðlam ya da diðer bir ifade ile amaca uygun olmasý istenir. Bu amaçlarla birçok teknik (basýnçlý döküm), metalürjik iþlem (tane inceltme ve modifikasyon) ve malzemeler (alaþým elementi ilavesi) kullanýlmaktadýr [11,12,15]. Bunlardan birisi de; burada olduðu gibi döküm iþlemlerinde vakum uygulanmasýdýr. Yerçekimine ters döküm konusundaki yayýnlarda besleme konusunda çalýþmalarýn olmamasý önemli bir eksiklik oluþturmaktadýr. Ancak besleme ile ilgili olarak basýnçlý(pres) döküm konularýndaki çalýþmalar [3,9­11] incelendiðinde; basýncýn avantaj saðladýðýgörülmektedir. Bu çalýþmalarýn temel noktasýný; çekme oluþan bölgelerin sývýmetal ile doldurulmasýsýrasýnda basýncýn etkilerinin tespit edilmesi oluþturmaktadýr. Çalýþmalarýn neticesinde, uygulanan basýncýn artýrýlmasýyla dökümlerde çekmeye baðlýgözeneklerin azaldýðý, hatta önlenebildiði görülmektedir. 
+Yaþ kum kalýplarda Al-% 10 Si alaþýmýnýn farklýdöküm sýcaklýklarý ve vakum seviyelerinde üretilmesi sýrasýnda meydana gelen boþluk þeklindeki çekme miktarlarýnýn tespit edilmesi ve elde edilen sonuçlarýn geleneksel döküm ile karþýlaþtýrýlmasý amacýyla bu çalýþma yapýlmýþtýr. 
+
+2. DENEYSEL ÇALIÞMALAR (EXPERIMENTAL PROCEDURE) 
+Yerçekimine ters döküm yöntemi ile numune üretimi için elektrik direnç ergitme ünitesi kullanýlarak sývýmetal hazýrlanmýþtýr. Ergitme sýrasýnda; ocak ve sývýmetalin sýcaklýðý K-tipi ýsýl-çiftler yardýmýyla ölçülmüþtür. Döküm iþlemlerinde, kimyasal bileþimi Tablo 1’de verilen %10 Si içeren ticari Al-Si döküm alaþýmý(ETÝAL 171) kullanýlmýþtýr. Çalýþmada vakum ile yerçekimine ters döküm yapýlabilmesi için çelik malzemeden özel olarak hazýrlanmýþ olan boru tipi dereceler kullanýlmýþtýr. Yerçekimi döküm iþlemlerinde ise dökümhanelerde kullanýlan geleneksel çerçeve tipi dereceler kullanýlmýþtýr. Ø 50 x 70 mm boyutlarýnda hazýrlanan model (Þekil 1) kullanýlarak yaþ kum kalýp malzemesinde kalýplar hazýrlanmýþtýr. 
+Tablo 1. Döküm iþlemlerinde kullanýlan Al -% 10 Si alaþýmý kimyasal bileþimi (Table 1. Chemical analysis of Al-10Si alloy used in casting process ) 
+Element  Bileþim oraný (% aðýrlýk)  
+% Si  9.42  
+% Fe  0.38  
+%Cu  0.05  
+%Mn  0.431  
+%Mg  0.36  
+%Cr  0.015  
+%Ni  0.04  
+%Zn  0.06  
+%Ti  0.10  
+%Pb  0.011  
+%Al  Kalan  
+
+
+Þekil 1. Besleyici modeli (Figure 1. Model of feeder) 
+Yerçekimi ile döküm iþlemi bir pota yardýmýyla sývýmetalin hazýrlanan kalýba doldurulmasý yoluyla gerçekleþtirilmiþtir. Vakum ile yerçekimine ters döküm iþlemleri ise hazýrlanan özel bir düzenek kullanýlarak yapýlmýþtýr. Geleneksel yerçekimi yönteminde model Þekil 2’de görüldüðü gibi alt dereceye dikey pozisyonda yerleþtirilmiþ, dikey yolluk ve buna baðlý olan tek meme yardýmýyla döküm iþlemi gerçekleþtirilmiþtir. Yerçekimine ters döküm iþlemlerinde ise; Þekil 3’te olduðu gibi dikey pozisyondaki modelin alt kýsmýndan meme baðlantýsýyardýmýyla döküm iþlemleri gerçekleþtirilmiþtir. 
+Döküm iþlemleri hazýrlanan yaþ kum kalýplar 
+
+Þekil 2. Geleneksel döküm yöntemi kalýp tasarýmý(Figure 2. Mold desing of traditional casting process) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+
+Þekil 3.Yerçekimine ters döküm yöntemi kalýp tasarýmý(Figure 3. Mold desing of counter gavity casting process) 
+kullanýlarak 600, 640 ve 690°C sýcaklýlarda ve 100, 250 ve 500 mmHg vakum seviyelerinde gerçekleþtirilmiþtir. Döküm iþlemleri sonucunda elde edilen parçalar kullanýlarak önce parçanýn dýþkýsmýndan, daha sonra ise dikey yönde ortalarýndan kesilen numuneler üzerinde meydana gelen boþluklarýn þekline bakýlarak besleme konusundaki incelemeler gerçekleþtirilmiþtir. Meydana gelen çekme boþluklarýnýn miktarlarý çizgisel kesiþme metodu yardýmýyla Þekil 4’te verilen skala kullanýlarak numune dýþ ve iç yüzeylerinden ölçülerek gerçekleþtirilmiþtir. Sonuçlar hacimsel anlamda çekmeyi ifade etmemektedir. Elde edilen sonuçlar incelenen numunenin yüzey alanýna karþýlýk gelen çekme bölgesinin % cinsinden oranýný göstermektedir. Elde edilen çekme miktarlarý geleneksel dökümde en yüksek sýcaklýkla diðer sýcaklýklar, yerçekimine ters döküm de ise geleneksel dökümde ayný döküm sýcaklýðý baz alýnarak vakum miktarýnýn etkisi deðerlendirilmiþ ve deðiþim oranlarý belirlenmiþtir. 
+
+Þekil 4. Çizgisel kesiþme metodu skalasý(Figure 4. Scale of lineer intercept method) 
+3. SONUÇLAR VE TARTIÞMA (RESULTS AND DISCUSSION) 
+Al- 10 Si alaþýmýndan üretilen parçalarda besleme ihtiyacýnýn belirlenebilmesi amacýyla yerçekimine ters ve geleneksel yer çekimiyle dökümle üretilen numuneler kesilmeden önce elde edilen görüntüler Þekil 5’te, merkezlerinden dikey yönde kesilmiþgörünümleri ise Þekil 6’da verilmektedir. Kalýn kesitli parçalarda çekme görüntüleri genellikle üst kýsýmdan çökme ve iç kýsýmlarda parça merkezi boyunca boþluk ya da gözenekler þeklinde olmaktadýr. Üretilen numuneler incelendiðinde; geleneksel yöntemde döküm sýcaklýðýndaki artýþa baðlý olarak çekme boþluklarýnýn arttýðý görülmektedir (Þekil 5.a-c). Döküm sýcaklýðýnýn 600 °C’den 690 °C’ye artýrýlmasýsonucunda çekme boþluk miktarýnda artýþ olmaktadýr. Geleneksel yöntem ile üretimde bütün döküm sýcaklýklarýnda çekme boþluklarýnýn olduðu ve buna baðlý olarak önemli oranda besleyici ihtiyacýnýn bulunduðu görülmektedir. Bu sonuçlar, döküm sýcaklýðýnýn azalmasýnýn kalýn kesitli saðlam döküm 
+
+
+Þekil 5. a) 600, b) 640 ve c) 690 °C’de geleneksel döküm; 600 °C’de; d) geleneksel, e) 100, f) 250 ve g) 500 mmHg vakum, 640 °C’de; h) geleneksel, k) 100, l) 250 ve m) 500 mmHg vakum, 690 °C’de; n) geleneksel, p) 100, r) 250 ve s) 500 mmHg vakum ile döküm numuneleri (Figure 5. Specimens of traditional 
+casting at a) 600, b) 640 and c) 690 °C, at 600 °C; d) traditional casting, e) 100, f) 250 and g) 500 mmHg with vacum, at 640 °C; h) traditional casting, k) 100, l) 250 and m) 500 mmHg with vacum, at 690 °C; n) traditional casting, p) 100, r) 250 and s) 500 mmHg with vacum) 
+H. Hasýrcýve F. Gül Yerçekimine Ters Döküm Yönteminin Döküm Parçalarýn Besleme Özelliklerine Etkileri 
+parça üretiminde önemli oranda avantaj saðladýðýnýgöstermektedir. 
+Malzemeler genellikle döküm için ýsý verilerek ergitilirler ve ergime sýcaklýðýndan bir miktar daha yüksek sýcaklýkta dökülürler. Bu sýcaklýða ise döküm sýcaklýðý denilmektedir [1,2]. Döküm sýcaklýðýnýn artmasý sonucunda atomlar arasý mesafe de artmaktadýr. Sýcaklýðýn artmasý ile birlikte atomlar birbirlerinde uzaklaþmakta ve atomlar arasý baðlar zayýflayarak ergime iþlemi saðlanmaktadýr. Böylece malzemeler katý halden sývýya dönüþmektedirler. Sýcaklýk ne kadar fazla olursa bu atomlar arasý mesafe de o kadar artmaktadýr. Bu durum ayný kütleye sahip bir malzemenin daha yüksek bir sýcaklýk ortamýnda daha fazla hacim kaplamasý anlamýna gelmektedir. Döküm iþlemlerinde bu ve benzeri nedenlerden dolayýmümkün olan en düþük sýcaklýkta döküm yapýlmasýtercih edilmektedir [1-8]. Sývý metal kalýba doldurulup katýlaþmaya býrakýldýðýnda atomlar kendi denge noktalarýna gelecek ve katýyý meydana getirecektir. Sýcaklýða baðlý olarak artan atomlar arasý mesafe nedeniyle sabit hacimli kalýp içerisine doldurulabilen metal miktarý azalacaktýr. Bu durumda katýlaþma sonucunda meydana gelecek boþluk miktarý da artacaktýr. Bunun sonucunda yüksek oranda besleme ihtiyacý ortaya çýkacaktýr. Çekme boþluðunun azaltýlmasý için yapýlabilecek en basit iþlem ise sýcaklýðýn azaltýlmasýdýr. 
+Diðer yandan basýncýn atomlar arasý mesafeye etkisi de bilinen bir gerçektir. Basýncýn etkisiyle sýkýþtýrma sonucunda atomlar arasý mesafe azalmaktadýr [3,9­11]. Bu durumda sývýdan katýya geçen malzeme içerisindeki atomlar arasý mesafelerin azalmasý ile daha yüksek yoðunlukta malzeme üretilebilmektedir. Bu çalýþmada döküm iþlemlerinde vakum ile emme þeklinde negatif bir basýnç uygulanmaktadýr. Bu vakum nedeniyle daha yüksek yoðunluða sahip parçalar üretilmekte ve bunun sonucunda ise yüksek mekanik özellikler elde edilebilmektedir [1,16-21]. Vakum uygulamasýnýn katýlaþmayý hýzlandýrmasý ve atomlar arasý mesafeyi azaltarak yoðunluðu artýrmasýnedeniyle çekme boþluðunun azaltýlabileceði düþünülerek bu çalýþma gerçekleþtirilmiþtir. 
+Diðer yandan yerçekimine ters döküm yöntemi ile üretilen numunelere bakýldýðýnda, geleneksel yöntemde olduðu gibi döküm sýcaklýðýndaki azalma ile birlikte çekme miktarýnýn azaldýðý ve buna baðlýolarak besleme gereksinimin de azaldýðý tespit edilmiþtir. 600 °C döküm sýcaklýðýnda bütün vakumda seviyelerinde üretilen numunelerde ise çekme boþluklarýnýn neredeyse bulunmadýðý görülmüþtür. Bu yöntemde sýcaklýktaki düþüþün yanýnda, uygulanan vakuma baðlý olarak besleme ihtiyacýnýn azaldýðýdüþünülmektedir. Çünkü ayný sýcaklýkta, ancak farklývakum miktarlarýnda üretilen numuneler incelendiðinde artan vakuma baðlý olarak çekme boþluklarýnýn miktarý azalmaktadýr (Þekil 5). Bu sonuçlar; yerçekimine ters döküm yöntemi ile çok düþük sýcaklýklarda ve uygulanan vakum yardýmýyla çekme boþluklarýnýn giderilerek saðlam döküm parça üretiminin saðlanabileceðini ortaya koymaktadýr. Döküm sýcaklýðýna baðlý olarak geleneksel yöntemde en düþük çekme miktarýnýn 600 °C sýcaklýkta döküm sonucunda elde edilebildiði görülmektedir (Þekil 5.a). Düþük sýcaklýkta üst kýsýmda küçük miktarda çekme boþluðu (çökme þeklinde) görülürken, sýcaklýðýn artmasýna baðlý olarak boþluk miktarý artmakta ve hatta 690 °C sýcaklýkta (Þekil 5.c) orta yan kýsýmda da boþluðun meydana geldiði görülmektedir. Bu sonuçlar döküm sýcaklýðýndaki artýþýn saðlam döküm parça üretiminde olumsuzluklara sebep olduðunu göstermektedir. 
+Vakum uygulamasý sonucunda; geleneksel yönteme kýyasla çekme boþluðu oluþumu ve miktarý da azalmaktadýr. 600 °C sýcaklýkta döküm sonuçlarýincelendiðinde; geleneksel yöntem ile üretim sonucu yüzeyde çekme görülürken, uygulanan vakum seviyelerinin tümünde çekme oluþumu görülme­mektedir (Þekil 5.d-g). 640 °C’de ise 100 mmHg vakumda çekme bulunmasýna raðmen, geleneksel yöntem sonucunda oluþan çekme miktarýna kýyasla daha azdýr. Ancak diðer vakum seviyelerinde parçalarýn yüzeylerinde kesinlikle çekme görülme­mektedir (Þekil 5.h-m). 690 °C sýcaklýkta döküm sonucunda ise hem geleneksel, hem de tüm vakum seviyelerinde yüzeyde çekme meydana gelmiþtir. Ancak uygulanan vakum sonucunda meydana gelen boþluklarýn geleneksel yöntemdeki boþluklara kýyasla daha küçük ya da az olduðu görülmektedir (Þekil 5.n­s). Sonuçlar, genel olarak düþük döküm sýcaklýðý ve vakum uygulamalarý sonucunda çekme miktarýnýn azaltýlabildiðini göstermektedir. 
+Diðer yandan, çekme oluþumunun sadece parça yüzeylerinde olmayýp, iç kýsýmda merkez bölgelerde de meydana geldiði bilinmektedir [1,2]. Bu amaçla üretilen numuneler dikey orta kýsýmlarýndan kesilerek iç kýsýmlarda meydana gelebilecek çekme boþluklarýincelenmiþtir. Elde edilen görüntüler Þekil 6’da verilmiþtir. 600 °C sýcaklýkta döküm sonucunda üretilen numunelere bakýldýðýnda (Þekil 5.a-d) geleneksel yöntemde üst kýsýmda boþluk ve çökme þeklinde çekme görülürken, vakum uygulamasýsonucunda çekme miktarýnýn çok az miktarda ve gözenekler þeklinde oluþtuðu görülmektedir. Yüksek vakum seviyelerinde (500 mmHg) gözenek miktarýnýn yok denilecek kadar azaltýlabildiði görülmüþtür. 640 °C sýcaklýkta döküm sonucunda meydana gelen çekme görüntüleri ve miktarlarýÞekil 6.e-h’de görülmektedir. Geleneksel döküm sonucunda üst kýsýmda çökme ve orta kýsýmda geniþ bir alanda gözenek þeklinde çekme oluþtuðu görülmektedir. Vakum uygulamasý ile çekme þekli ve miktarýdeðiþmektedir. Düþük vakum seviyelerinde (100 mmHg) kenar kýsýmda boþluk ve iç kýsýmda gözenek þeklinde çekme meydana gelirken, vakum miktarýnýn 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+
+Þekil 6. Döküm numunelerinin merkezden kesilmiþ fotoðraflarý; 600 °C’de a)geleneksel, b) 100 mmHg, c) 250 mmHg ve d) 500 mmHg vakum, 640 °C’de e)geleneksel, f) 100 mmHg, g) 250 mmHg ve h) 500 mmHg vakum, 690 °C’de k)geleneksel, l) 100 mmHg, m) 250 mmHg ve n) 500 mmHg vakum (Figure 6. 
+Photograps of cutting ceterline of casting  specimens; at 600 °C; a) traditional casting, b) 100, c) 250 ve d) 500 mmHg with vacum, at 640 °C; e) traditional casting, f) 100, g) 250 ve h) 500 mmHg with vacum, at 690°C; k) traditional casting, l) 100, m) 250 ve n) 500 mmHg with vacum) 
+artmasýyla boþluk yerine daha çok iç kýsýmda gözenek biçiminde çekme oluþtuðu görülmektedir. Ancak, vakum miktarýndaki artýþa (250 ve 500 mmHg) baðlýolarak çekme miktarýnýn geleneksel yönteme göre azaldýðý görülmektedir. 690 °C sýcaklýkta üretilen numunelere bakýldýðýnda (Þekil 6.k-n) çekme miktarýnýn düþük döküm sýcaklýklarýna kýyasla daha yüksek olduðu görülmüþtür. 690 °C’de iç kýsýmlarda meydana gelen çekme görüntüleri incelendiðinde üst ve yan kýsýmda çökme, iç kýsýmda ise gözenek biçiminde olduðu görülmektedir. Bu sýcaklýkta da diðer sýcaklýk þartlarýnda olduðu gibi vakum uygulamasý sonucunda çekme miktarýnýn azaldýðýtespit edilmiþtir. 690 °C sýcaklýkta diðer döküm sýcaklýklarýndan farklý olarak vakum miktarýnýn artýrýlmasýna raðmen numunenin üst ve yan kýsýmlarýnda bulunan çökme þeklindeki (Þekil 5.n-s) çekme görüntüleri giderilememiþtir. Ancak, bu çökmenin vakum miktarýndaki artýþla birlikte meme baðlantýsýnýn bulunduðu numunenin alt kýsmýna doðru kaydýðý görülmektedir. Daha yüksek vakum seviyelerinde döküm yapýlmasý durumunda çekmenin daha da azaltýlabileceði elde edilen sonuçlardan görülebilmektedir. Yerçekimine ters döküm yöntemiyle kalýn kesite sahip parçalarýn baþarýlý bir þekilde üretilebileceði elde edilen bu sonuçlardan görülmektedir. 
+Üretilen numunelerde meydana gelen çekme boþluklarýnýn sayýsal olarak ifade edilmesinin daha doðru olacaðý düþünülerek yapýlan ölçümler sonucunda elde edilen veriler Tablo 2 ve Þekil 7-8’de verilmiþtir. 
+Tablo 2. Döküm sýcaklýðý ve uygulanan vakum miktarýna baðlý olarak çekme miktarýnýn deðiþimi (Table 2. Variable of shrinkage cavity depending on pouring temperature and applied vacuum) 
+600 °C  640 °C  690 °C  
+Geleneksel  % çekme miktarý  13,01  17,2  23,8  
+% çekmenin azalmasý  45,33  27,73  
+100 mmHg  % çekme miktarý  7,98  10,03  17,1  
+vakum  % çekmenin azalmasý  36,66  41,68  28,15  
+250 mmHg  % çekme miktarý  7,1  9,2  12,9  
+vakum  % çekmenin azalmasý  45,42  46,51  45,79  
+500 mmHg  % çekme miktarý  1,7  6,4  10,1  
+vakum  % çekmenin azalmasý  86,93  67,79  57,56  
+
+Elde edilen sonuçlar incelendiðinde sýcaklýðýn artmasýna baðlý olarak çekme miktarý önemli oranda artmaktadýr. Oluþan çekme boþluklarýnýn miktarlarýndaki deðiþimler döküm sýcaklýðýnýn etkilerinin belirlenebilmesi amacýyla geleneksel dökümlerde sýcaklýklar arasýndaki farklar ve yerçekimine ters döküm sonuçlarý ise geleneksel yöntemle aralarýnda meydana gelen farklar kullanýlarak bulunmuþtur. Geleneksel yöntemde en düþük ve en yüksek sýcaklýða baðlý olarak deðiþim miktarý yaklaþýk % 34,29 oranýnda gerçekleþmiþtir. Vakum uygulamasýna baðlý olarak çekme miktarý
+
+H. Hasýrcýve F. Gül Yerçekimine Ters Döküm Yönteminin Döküm Parçalarýn Besleme Özelliklerine Etkileri azaltýlmýþtýr. Bu sýcaklýkta 500 mmHg vakum 
+28 
+miktarýnda ise hemen hemen çekme yok denecek 
+24 
+20 
+16 
+düzeydedir. Daha yüksek sýcaklýklarda dökümde 
+ise vakum miktarýndaki artýþa baðlý olarak çekme 
+12 8 
+
+
+4)Çekme oluþumunun azaltýlabilmesi ya da 
+4 
+önlenebilmesi açýsýndan düþük sýcaklýk ve yüksek 
+0 
+seviyede vakum ile döküm yapýlmasýnýn yarar 
+Çekme Miktarý, %
+miktarýnda azalma görülmüþtür. 
+saðlayacaðý görülmüþtür. 
+KAYNAKLAR (REFERENCES)
+
+
+Vakum Miktarý, mmHg 
+
+Þekil 7. Üretilen numunelerde meydana  gelen çekme 1. Rasmussen, N.W., “New Filling/Feeding boþluklarýnýn miktarlarý(Figure 7. Shrinkage cavity ratio of Process Produces Vertically-Parted Aluminum specimens) Green Sand Castings” Modern Casting, 54-55, 
+April 2000. 
+2.	Kuo, Y.S., Chang, E. and Lin, Y.L., “The 
+84 
+
+
+Feeding Effect of Risers on the Mechanical 
+76 
+Properties of A201 Al Alloy Plate Casting” AFS 
+68 
+Transaction, Cilt 89, No 159, 777-782, 1989. 
+60 
+3.	Campbell, J. Casting, Butterworth-Heinemann, 
+52 
+120-300, 1999. 
+Çekmenin azalmasý, % 
+4. Güleyüpoðlu, S., “Casting Process Design
+44 
+Guidelines”, AFS Transactions, Cilt 97, No 83, 
+36 
+869-876, 1997. 
+
+28 
+5.	
+Kuo, J.H., Hsu, F.L. and Hwang, W.S., “Development of an Interactive Simulation System For the Determination of the Pressure-Time Relationship During the Filling in A Low Pressure Casting Process”, Science and Technology of Advanced Materials, Cilt 2, 131-145, 2001. 
+
+6.	
+Dash M., and Malkhlouf, M., “Effect of Key Alloying Elements on the Feeding Characteristics of Aluminum- Silicon Casting Alloys”, Journal of Light Metals, Cilt 1, 251­265, 2001. 
+
+7.	
+Li, K.D., Cheng, M.C. and Chang, E., “Effect of Pressure on the Feeding Behavior of A356 Alloy In Low-Pressure Casting” AFS Transaction, Cilt 01, No 026, 311-320, 2001. 
+
+8.	
+Lee, Y.W., Chang, E., Lin, Y.L and Yeh, C.H., “Correlation of Feeding and Mechanical Properties of A206 Aluminum Alloy Plate Casting” AFS Transaction, Cilt  90, No 187, 935-941, 1990. 
+
+9.	
+Loper Jr, C.R. and Prucha, T.E., “Feed Metal Transfer in Al-Cu-Si Alloys” AFS Transaction, Cilt 90, No 165, 845-853, 1990. 
+
+10.	
+Fuoco, R., Correa, E.R. and A. Bastos, M., “Effects of Grain Refinement on Feeding Mecanims in A356 Aluminum Alloy” AFS Transaction, Cilt 98, No 78, 401-409, 1998. 
+
+11.	
+Pan, E.N., Lin, C.S. and Loper Jr, C.R., “Effects of Solidification Parameters on the Feeding Efficiency of A356 Aluminum Alloy” AFS Transaction, Cilt 90, No 117, 735-746, 1990. 
+
+12.	
+Taylor, J.A., Schaffer, G.B. and StJohn, D.H., “Shrinkage Porosity Formation in Iron­
+
+
+20 100 250 500 
+Vakum Miktarý, mmHg 
+Þekil 8. Üretilen numunelerde vakum uygulamasýna baðlý olarak meydana gelen çekme miktarlarýnýn azalmasý(Figure 8. % Decrease in shrinkage cavity of specimen 
+depending on vacuum level) 
+büyük oranda azalmýþtýr. Her bir döküm sýcaklýðýkendi içerisinde deðerlendirildiðinde deðiþim oranlarý600 °C’de % 86,93, 640 °C’de % 67,79 ve 690 °C’de ise % 54,04 þeklindedir. Bu sonuçlar döküm sýcaklýðýnýn azalmasý ve ayný zamanda vakum miktarýnýn artmasý ile çekme miktarýnýn büyük oranda azaltýlabildiðini göstermektedir azaltýlabildiðini göstermektedir. 
+
+
+
+4. SONUÇLAR (CONCLUSIONS) 
+1)Ayný sýcaklýk þartlarýnda geleneksel yönteme kýyasla vakum uygulamasý sonucunda çekme miktarýnda önemli oranda azalma meydana gelmiþtir. 
+2)Geleneksel yöntemle üretilen numunelerde üst kýsýmda ve yüzeyde dýþa açýk þekilde çekme boþluðu, dikey ve yatay doðrultuda numunelerin merkez kýsýmda gözenekler meydana gelmiþtir. Diðer yandan vakum uygulamasýna baðlý olarak çekme miktarýnýn azaldýðý ve biçiminin de birçok numunede boþluk yerine çoðunlukla gözenek þeklinde oluþtuðu görülmüþtür. 
+3)600 °C sýcaklýkta vakum uygulanmasý sonucunda çekme oluþumu ve miktarý büyük oranda 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+Containing Al-Si-Cu-Mg Casting Alloys”, Proc. Processing Technology, Cilt 105, 119-127, Inter. Conf. on Casting and Solidification of 2000. Light Alloys, Gold Coats, Australia, 55-60, 17. Anon, “Turning the Gating World Upside 30-31 August 1995. Down”, Technical Paper, Hitchiner
+13.	
+Xiong, M. and Kuznetsov, A.V., “An Manufacturing Co., (www.hitchiner.com), 2005. Investigation of the Microporosity Formation in 18. Ripkin, F. and Lipson, S., “Counter Gravity An Al-4.1 %Cu Alloy Casting in Microgravity Casting of Aluminum Alloys in Green Sand and in Standard Gravity”, Heat and Mass Molds” AFS Transactions, Cilt 70, 581-592, Transfer, Cilt 38, 35-43, 2001. 196). 
+
+14.	
+Dahle, A.K. and StJohn, D.H., “Rheological 19. Lipson, S. and Ripkin, F., “Effect of Sections Behaviour of the Mushy Zone and Its Effect on Thickness on the Tensile Properties of Thin-the Formation of Casting Defects During Section Aluminum Alloy Sand Casting” AFS Solidification”, ACTA Metallurgica, Cilt 47, Transactions, Cilt 69, 192-197, 1969. No 1, 31-41, 1999. 20. Chandley, G.D., “Making Casting Without 
+
+15.	
+Knuutinen, A., Nogita, K., McDonald, S.D. and Ladles or Sprues – The CLA Process” AFS Dahle, A.K., “Porosity Formation in Aluminum Transactions, Cilt 28, 37-42, 1976. Alloy A356 Modified with Ba, Ca, Y and Fb” 21. Shenefelt, J.R. and others, “Countergravity Journal of Light Metals, Cilt 1, 241-249, 2001. Casting of Thin-Wall Al A356, Part II: Result of 
+
+16.	
+Niu, X.P., Hu, B.H., Pinwill, I. and Li, H., Casting Characterization Studies” AFS “Vacuum Assisted High Pressure Die Casting of Transactions, Cilt 101, 563-566, 1998. Aluminium Alloys”, Journal of Materials 
+
+
+
+
+
+

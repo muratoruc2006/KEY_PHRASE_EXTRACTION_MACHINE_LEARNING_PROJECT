@@ -1,0 +1,881 @@
+ÝDEAL OLMAYAN ÞEBEKE GERÝLÝMÝ VE DENGESÝZ YÜK ÞARTLARINDA 3-FAZLI 4-TELLÝPARALEL AKTÝF GÜÇ FÝLTRESÝ DENETÝMÝ
+Bu çalýþmada, ideal olmayan þebeke gerilimi ve dengesiz yük koþullarýnda reaktif gücü kompanze etmek, harmo­nik akýmlarý filtrelemek, nötr akýmýný yok etmek ve yük akýmlarýný dengelemek amacýyla 3-fazlý 4-telli Paralel Aktif Güç Filtresi (PAGF) için Anlýk Güç Teorisi (AGT) tabanlý yeni bir denetim algoritmasý önerilmektedir. 3­fazlý4-telli PAGF, histerezis-bant Darbe Geniþlik Modülasyonlu (DGM) akým denetleyici, geleneksel 3-kollu Gerilim KaynaklýEvirici (GKE) ve DA hattýnda seri baðlýiki kondansatörden oluþmaktadýr. Önerilen AGT tabanlý denetim algoritmasýnýn geçerliliðini göstermek için, ideal þebeke gerilimi, dengesiz þebeke gerilimi, dengeli-bozuk ve dengesiz-bozuk þebeke gerilimi olmak üzere dört uygulama örneðine ait Matlab/Simulink yazýlýmý ile elde edilen simülasyon sonuçlarý verilmekte ve geleneksel AGT ile karþýlaþtýrýlmaktadýr. Önerilen AGT tabanlý denetim algoritmasý ile 3-fazlý 4-telli PAGF’nin performansý, tüm ideal olmayan þebeke gerilimi koþullarýnda reaktif güç kompanzasyonu, harmonik akýmlarýn filtrelenmesi, yük akýmlarýnýn dengelemesi ve nötr akýmý yok edimi fonksiyonlarý için oldukça etkili ve yeterli bulunmaktadýr. 
+
+1. GÝRÝÞki harmonik problemleri artýþ göstermektedir. Doðru­
+sal olmayan elektronik yükler tarafýndan üretilen Modern güç elektroniði devreleri içeren cihazlarýn harmonik akýmlar, güç daðýtým sisteminin empedansýkullanýmýnýn yaygýnlaþmasý ile elektrik þebekelerinde-ile etkileþime girmekte ve ortak baðlantý noktasýnda 
+M. Uçar ve E. Özdemir Ýdeal Olmayan Þebeke Gerilimi ve Dengesiz Yük Þartlarýnda 3-Fazlý 4-Telli Paralel Aktif Güç Filtresi Denetimi 
+(PCC) diðer yükleri de etkileyen gerilim harmonikleri üretmektedir. Güç daðýtým sistemlerinde akým ve geri­lim harmonikleri, transformatör ve iletim hatlarýnda ilave kayýplara, güç faktörünün azalmasýna, hassas elektronik cihazlarýn ve koruma sistemlerinin hatalýçalýþmasýna neden olmaktadýr. 
+3-fazlý 4-telli bir sistemde, üç-fazlý doðrusal olmayan yükler (hýz denetim cihazlarý, frekans dönüþtürücüleri, tristör denetimli doðrultucular, …) tarafýndan üretilen pozitif ve negatif sýralý (5., 7., 11., 13., …) harmonik akýmlarýn, aralarýndaki 120°’lik faz farký nedeniyle toplamlarý sýfýr olmakta ve nötr iletkeninden akým geçmemektedir. Fakat faz-nötre baðlý tek-fazlý doðru­sal olmayan yükler (bilgisayar sistemleri, ofis cihaz­larý, elektronik balastlar, motor sürücüleri ve evirici­ler, kesintisiz güç kaynaklarý, ...) tarafýndan pozitif ve negatif sýralý harmoniklere ek olarak üretilen 3 ve 3’ün katý sýfýr sýralý (3., 9., 15., 21., …) harmonik akýmlar, aralarýndaki 360°’lik faz farký nedeniyle nötr iletkeninden toplanarak geçmektedir. Bu nedenle nötr akýmý deðeri faz akýmý deðerinin 1.73 katýna kadar çýkabilmekte ve nötr iletkeni aþýrýýsýnmaktadýr. 
+Geleneksel pasif LC filtreler, harmonik akýmlarýn aký­þýný elimine etmek ve güç kondansatörleri yükün güç faktörünü artýrmak amacýyla oldukça yaygýn bir þekil­de kullanýlmaktadýr. Fakat pasif filtreler, büyük fizik­sel boyutlarý, ayar problemleri ve seri/paralel rezonans gibi bir çok dezavantajlara sahiptir. Bunun aksine 3­fazlý 4-telli PAGF, harmonik, reaktif güç ve aþýrý nötr akýmý problemlerini çözmekte geleneksel yöntemler­den daha iyi bir çözüm olmaktadýr. 
+1983 yýlýnda Akagi tarafýndan önerilen AGT, üç-fazlýsistemlerde PAGF denetimi için baþarýlý bir þekilde kullanýlmaktadýr [1, 2]. Bu teori geniþletilerek 3-fazlý4-telli sistemlerde kullanýlabilmektedir [3, 4]. Bu teo­ride þebeke gerilimleri, PAGF referans kompanzasyon akýmlarýnýn hesaplanmasýnda ideal olarak varsayýl­maktadýr. Fakat endüstri güç sistemlerinde þebeke ge­rilimi, dengesiz ve/veya harmonik bozuluma sahip o­labilmektedir. Bu þartlar altýnda bu teori, 3-fazlý 4-telli PAGF denetimi için yeterli performans saðlayama­maktadýr. Ýdeal olmayan þebeke gerilimi koþullarýnda PAGF performansýný artýrmak için çeþitli denetim tek­nikleri önerilmiþtir [5, 6, 7, 8, 9]. Bu çalýþmada, den­gesiz ve doðrusal olmayan yük ile ideal olmayan þe­beke gerilimi durumlarýnda 3-fazlý 4-telli PAGF için AGT tabanlý yeni bir yaklaþým sunulmaktadýr. Öneri­len AGT tabanlý metodun performansý, ideal, dengesiz ve/veya bozuk þebeke gerilimi uygulama örneklerinde AGT’den daha üstün ve etkili bulunmuþtur. 
+2.	 3-FAZLI 4-TELLÝ PARALEL AKTÝF GÜÇ FÝLTRESÝ
+Þekil 1’de doðrusal olmayan yüke paralel baðlanmýþakým kaynaðý olarak çalýþan, PAGF temel kompanzas­yon güç devre þemasý görülmektedir. PAGF’nin temel 
+iS iL 
+
+
+ZY 
+RS, LS 
+Kaynak 
+
+
+Þekil 1. PAGF’nin temel kompanzasyon güç devre þemasý
+fonksiyonu doðrusal olmayan yükün çektiði harmonik ve reaktif akýmlara ters fazda ve eþit genlikte akým üreterek yükün reaktif güç ihtiyacýný karþýlamak,  har­monikleri yok etmek ve þebekeden dengeli sinüzoidal akýmlar çekilmesini saðlamaktýr [1]. Þekil 2 ve (1) eþitliðinde görüldüðü gibi; kompanzasyon sonucunda AGF akýmý (iC) ve yük akýmý (iL) toplanarak, þebeke­den çekilen akým (iS) sinüzoidal olmaktadýr. 
+iL [A] 
+
+iC [A] 
+
+iS [A] 
+
+t[s] 
+Þekil 2. Yük, PAGF ve þebeke akýmý dalga þekilleri 
+
+iS=iL+iC  (1) 
+Þekil 3’de dengesiz ve doðrusal olmayan yüklerin bulunduðu 3-fazlý 4-telli güç sistemine paralel baðlýgeleneksel 3-kollu GKE tabanlý 3-fazlý 4-telli PAGF’nin güç devre þemasý görülmektedir.  
+RS LSRL LL
+
+
+Þekil 3. 3-kollu GKE tabanlý PAGF güç devre þemasý
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+DA hattý üzerinde seri baðlý iki enerji depolama 3-fazlý 4-telli sistemde toplam anlýk güç (p3), anlýk kondansatörü ve 6 IGBT anahtarlama elemanýna sahip gerçek ve anlýk sýfýr sýralý gücün toplamýna eþittir ve 3-kollu GKE, 3-fazlý 4-telli PAGF olarak uygulan-(5) eþitliði ile hesaplanmaktadýr. maktadýr [10]. PAGF’de nötr hattý, GKE’nin DA tara­
+fýnda seri baðlý iki kondansatörün orta noktasýna bað­
+=
+
+=
+
+=
+
+
+p3
++pp0 
+v0i0
++
+
+v.i.
++
+
+vßiß vaia
++
+
+vbib
++
+
+vcic  (5) 
+
+Anlýk gerçek ve anlýk sanal güç, aþaðýdaki eþitlikte 
+gösterildiði gibi AA ve DA bileþenlerden oluþmak­
+tadýr. 
+lanmaktadýr. Üç histerezis-bant denetleyici, GKE anahtarlama sinyallerini elde etmek için kullanýlmak­tadýr. GKE tarafýndan üretilen anahtarlama harmonik­
+lerini azaltmak amacýyla PAGF’nin AA tarafýna yük­
+sek geçiren bir filtre (RF, CF) konulmaktadýr. 
+~
+
++
+
++
+
++
+
+p
+=
+
+p p
+=
+
+p p p
+2. h
+
+3. ANLIK GÜÇ TEORÝSÝ TABANLI DENETÝM 
+ (6) 
+
+~
+
++
+
++
+
++
+
+
+q
+=
+
+q q
+=
+
+q q q
+STRATEJÝSÝ
+2. h 
+
+3-fazlý 4-telli PAGF’nin AGT tabanlý denetim algorit-3-fazlý4-telli sistemlerde, p ve q’nun DA bileþenleri masý blok diyagramýÞekil 4’de görülmektedir. ( p , q ), yük akýmýnýn pozitif sýralý bileþeninden oluþ­maktadýr. p ve q’nun AA bileþenleri ( ~p , ~q ), yükün 
+VC2 
+
+
+harmonik güç (ph, qh) ve negatif sýralý güç (p2., q2.)
+
+VC1 
+
+
+bileþenlerinden oluþmaktadýr [11]. Hem harmonik ve 
+VRef 
+
+hem de reaktif güç kompanzasyonu yapmak için sanal 
+gücün tamamý (DA ve AA bileþenleri) ile gerçek 
+gücün AA bileþeni kullanýlarak hesaplanan .-ß koor­
+
+
+dinatlarýndaki referans kompanzasyon akýmlarý (7) 
+
+
+eþitliðinde verilmektedir. 
+
+
+*
+~ 
+p +.
+....
+.
+i
+.
+1 v -v -
+. ß 
+pC. 
+ (7) 
+
+..............
+=..
+*
+22
+i vß v -q
++
+.
+v v
+Cß 
+. ß 
+
+Sýfýr sýralý akýmlarýn da kompanze edilmesi gerek­
+tiðinden 0 koordinatýndaki referans kompanzasyon AGT, (2) ve (3) eþitliðinde görüldüðü gibi a-b-c akýmý aþaðýda verilmektedir. koordinatlarýndaki üç-fazlýþebeke gerilimleri (vSa, vSb, 
+vSc) ve yük akýmlarýnýn (iLa, iLb, iLc), .-ß-0 koordinat­
+
+i
+*
+C0 
+=-i
+0 
+ (8) 
+
+
+larýna cebrik dönüþümünden (clarke dönüþümü) ve sonrasýnda anlýk güç bileþenlerinin (p, q, p0) hesaplan-PAGF’de enerji dengesi, (9) eþitliðinde verildiði gibi 
+= 
+masýndan oluþmaktadýr [3, 4]. AA þebekeden bir ortalama gerçek güç çekilerek saðlanmaktadýr. 
+
+.
+..
+..
+v 
+v
+0 
+a
+
+...
+........
+ (9) 
+
+
+.p
+........
++
+=
+p p
+0 kayýp
+1 -1/2 -1/2 
+ (2) 
+
+v 
+v
+. 
+b 
+v
+v 
+gücü, PAGF’deki anahtarlama kayýplarýný kom­
+ß
+
+.
+.
+c pkayýp 
+
+*
+panze etmek ve PI denetleyici, DA hat gerilim deðiþi­mini azaltmak amacýyla kullanýlmaktadýr [10]. iC0 
+
+
+.
+..
+i 
+i
+
+..
+,
+
+0 
+a
+
+....
+........
+2
+
+....
+*
+iCß
+
+ve reaktif akýmlarýna karþýlýk gelen ve PAGF tarafýn­
+*
+(3) iC. ve , .-ß-0 koordinatlarýnda yükün harmonik 
+i 
+1 -1/2 -1/2 i i 
+
+= 
+. 
+b
+3i 
+
+....
+ß
+
+.
+c 
+
+dan üretilmesi gereken akýmlardýr. Bu akýmlardan, 
+(10) eþitliði kullanýlarak üç-fazlý güç sisteminde yü-Anlýk gerçek güç (p), anlýk sanal güç (q) ve anlýk sýfýr 
+*
+**
+kün ürettiði harmonik ve reaktif akýmlarý yok edecek sýralý güç (p0) aþaðýdaki eþitlikteki gibi hesaplanmak-a-b-c koordinatlarýndakiiCa iCc
+ referans , iCb ve 
+tadýr. 
+
+kompanzasyon akýmlarý elde edilmektedir. 
+..
+.
+.
+i00
+
+..
+p v
+0
+
+**
+. .....
+..
+0 
+i
+
+
+.
+........
+....
+21 0
+
+........
+Ca C0
+
+..........
+0 
+i 
+(4)
+
+
+.....
+2
+p 
+v. vß 
+
+......
+i i i 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+
+......
+1/ 1/ 2 -1/2 3/2 1/ 2 -1/2-3/2 
+.
+
+**
+ (10)
+
+i
+
+= 
+Cb C.
+3
+0 
+i
+q 
+-vß v. 
+
+....= 
+ß
+
+**
+i
+Cc Cß 
+
+M. Uçar ve E. Özdemir Ýdeal Olmayan Þebeke Gerilimi ve Dengesiz Yük Þartlarýnda 3-Fazlý 4-Telli Paralel Aktif Güç Filtresi Denetimi 
+
+4. ÖNERÝLEN DENETÝM ALGORÝTMASI
+AGT, ideal þebeke gerilimi koþulu için uygundur fa-
+kat dengesiz ve/veya bozuk þebeke gerilimi koþulla­
+
+
+rýnda yeterli deðildir. Ýdeal olmayan þebeke gerilimi 
+..
+
+v
+ß 
+..
+
+..
+
+sin(.t) -cos(.t)
+..
+
+..
+
+v
+q 
+..
+
+
+koþullarýnda gerçek ve sanal güçler akým harmonikle­rinin yaný sýra gerilim harmoniklerini de içermektedir. Bu sebeple akým harmoniklerini yok etmek için he­saplanan anlýk referans kompanzasyon akýmlarý, (7) limler (11) eþitliði kullanýlarak senkron d-q 
+2 
+2
+eþitliðindeki ( 
+
+) toplamý sabit olmadýðý için koordinatlara (park dönüþümü) çevrilmektedir. 
++
+
+v
+v
+. 
+ß 
+yanlýþ hesaplanmakta ve istenmeyen harmonik bile­
+..
+va
+
+..
+sin(.t) sin(.t -120) sin(.cos(.t)
+..
+120) 120) 
+....
+2þenler kompanzasyondan sonra þebeke akýmlarýnda t
++
+vd
+....
+....
+(11)
+
+....
+= 
+vb 
+vc 
+görülmektedir.  
+cos(.t -120) cos(.t3
++
+v
+q 
+Sonuç olarak þebekeden sinüzoidal akým çekilebilme­si için þebeke gerilimlerinin dengeli, sinüzoidal olma­sý veya filtrelendikten sonra bu gerilimlerin PAGF’ye uygulanmasý gerekmektedir. 3-kollu 4-telli PAGF’nin AGT tabanlý önerilen denetim algoritmasýnýn blok di-Gerilimin, elde edilen d-q bileþenleri 5 sýralý 50 Hz kesim frekanslý alçak geçiren filtreler kullanýlarak filt­relenmekte ve (12) eþitliði kullanýlarak tekrar .-ß ko­ordinatlarýna çevrilmektedir. 
+
+yagramýÞekil 5’de görülmektedir. 
+
+.
+
+.
+
+.
+
+.
+
+sin(.t) cos(.t)
+
+.
+
+.
+
+v v
+.
+d 
+(12) 
+
+=
+
+
+Þekil 5. 3-kollu 4-telli PAGF’nin AGT tabanlýönerilen denetim algoritmasýnýn blok diyagramý
+PAGF’ye uygulanan gerilimlerin dengeli ve sinüzo­idal olmasý için önerilen gerilim harmoniklerini filtre­leme blok diyagramýÞekil 6’da görülmektedir. 
+Önerilen metotta, a-b-c koordinatlarýndaki anlýk geri-Böylece filtrelenen ideal olmayan þebeke gerilimleri­nin .-ß bileþenleri, PAGF’nin AGT tabanlý deneti­minde ideal sinüzoidal kaynak olarak kullanýlabilmek­tedir. Ayrýca PAGF giriþ gerilimleri artýk sýfýr sýralýbileþen içermediði için p0 daima sýfýr olmaktadýr. A­nahtarlama sinyallerinin üretimi PAGF hat akýmlarý­nýn anlýk denetimi ile baþarýlmaktadýr. PAGF hat a-kýmlarý ölçülerek, denetim algoritmasý tarafýndan üre­tilen referans akýmlar ile karþýlaþtýrýlmakta ve histere­zis-bant akým denetleyici ile anahtarlama sinyalleri elde edilmektedir. Histerezis-bant akým denetimi, mi­nimum donaným ve yazýlým ile hýzlý ve basit bir dene­tim metodudur fakat deðiþken anahtarlama frekansýönemli dezavantajýdýr [12]. 3-fazlý 4-telli PAGF siste­minin Matlab/Simulink simülasyon blok diyagramýÞekil 7’de görülmektedir.  
+
+
+Þekil 7. 3-fazlý 4-telli PAGF sisteminin Matlab/Simulink simülasyon blok diyagramý
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+
+5. UYGULAMA ÖRNEKLERÝ 
+ Önerilen metot ve AGT ile 3-fazlý 4-telli PAGF’nin harmonik akýmlarý filtrelemesi, reaktif güç kompan­zasyonu, yük akýmlarýný dengelemesi ve nötr akýmý yok edimi performansý, ideal þebeke gerilimi, denge­siz þebeke gerilimi, dengeli-bozuk ve dengesiz-bozuk þebeke gerilimi olmak üzere 4 uygulama örneði ile incelenmekte ve karþýlaþtýrýlmaktadýr. Uygulama ör­neklerine ait geniþ simülasyon sonuçlarý Matlab/Si­mulink Power System Toolbox yazýlýmý kullanýlarak elde edilmektedir. 3-fazlý 4-telli güç sistemi, harmo­nik üreten ve reaktif güç talep eden üç-fazlý tam dene­timli tristörlü doðrultucuyu ve ‘b’ fazýna baðlý, denge­sizliðe ve yüksek nötr akýmýna neden olan tek-fazlý di­yot köprü doðrultucuyu beslemektedir. PAGF, 0.15 s sonra devreye alýnmaktadýr. PAGF’nin dinamik per­formansýný deðerlendirmek amacýyla 0.2. s’de ‘c’ fazý­na tek-fazlý diyot köprü doðrultucu baðlanmaktadýr. Üç-fazlý tristörlü doðrultucunun tetikleme açýsý.=30° ve DA tarafýnda RL yük baðlýdýr. Tek-fazlý diyot köp­rü doðrultucularýn DA tarafýnda LC filtreli omik yük baðlýdýr. PAGF’nin reaktif güç kompanzasyonu per­formansýnýþekillerde daha açýk görmek amacýyla yük ve þebeke akýmlarý 3 katý büyütülmüþtür. Kapsamlý simülasyon sonuçlarý aþaðýda sunulmaktadýr. 
+ 
+5.1. Ýdeal Þebeke Gerilimi 
+ Ýdeal þebeke gerilimi koþulunda 3-fazlý 4-telli PAGF’nin harmonik akýmlarý filtrelemesi simülasyon sonuçlarýÞekil 8’de görülmektedir. Önerilen metot ve AGT ile kompanzasyondan sonra üç-faz þebeke akým­larý dengeli ve sinüzoidal olmaktadýr.  
+PAGF Ýþletim PAGF Ýþletimde 
+Dýþý  Yük Artýþý
+400 200 0 -200 -400
+0.1 0.15 0.2 0.25 
+(a). Ýdeal þebeke gerilimleri (vSabc [V]).100 
+0 
+-100
+0.1 0.15 0.2 0.25 
+(b). Yük akýmlarý (iLabc [A]). 100 
+0 
+-100
+0.1 0.15 0.2 0.25 
+(c). AGT metodu ile iþletimde þebeke akýmlarý (iSabc [A]). 
+100 
+0 
+-100
+
+0.1 0.15 t[s] 0.2 0.25 (d). Önerilen metot ile iþletimde þebeke akýmlarý (iSabc [A]). 
+Þekil 8. Ýdeal þebeke gerilimi koþulunda harmonik akýmlarýn filtrelenmesi 
+PAGF Ýþletim PAGF Ýþletimde Dýþý Yük Artýþý
+50 
+0 
+-50 
+
+
+0.1	0.15 0.2 0.25 (a). Yük nötr akýmý(iLn [A]). 
+50 
+0 
+-50 
+0.1	0.15 0.2 0.25 (b). AGT metodu ile iþletimde þebeke nötr akýmý (iSn [A]). 
+50 
+0 
+-50 
+0.1	0.15 0.2 0.25 (c). Önerilen metot ile iþletimde þebeke nötr akýmý(iSn [A]). 
+
+400 200 0 -200 
+vSc 3x iLc
+
+-400 
+0.1 0.15 0.2 0.25 (d). Þebeke gerilimi ve yük akýmý. 
+400
+200
+
+
+0 -200 vSc 3x iSc-400 
+0.1	0.15 0.2 0.25 (e). AGT metodu ile iþletimde þebeke gerilimi ve akýmý. 
+400
+200
+
+
+0 -200 vSc 3x iSc-400 
+0.1	0.15 t[s] 0.2 0.25 (f). Önerilen metot ile iþletimde þebeke gerilimi ve akýmý. 
+
+Þekil 9. Ýdeal þebeke gerilimi koþulunda nötr akýmý yok edimi ve reaktif güç kompanzasyonu 
+Þekil 9’da her iki metotta da nötr akýmý yok ediminin ve reaktif güç kompanzasyonun baþarýyla yapýldýðý gösterilmektedir. Yük ve þebeke akýmlarý ile Toplam Harmonik Bozulum (THB) deðerlerinin detaylý özeti Tablo 1’de verilmektedir. Sonuç olarak, AGT ve öne­rilen metot, ideal þebeke gerilimi koþulunda yeterli sonuç vermektedir. 
+Tablo 1. Ýdeal þebeke gerilimi koþulunda ölçülen deðerlerin özeti  YÜK ÞEBEKE AKIMLARI  
+3FAZ AKIMLARI AGT ÖNERÝLEN &  METOT 
+NÖTRt<0.2 t>0.2 t> 0.15 t>0.2 t> 0.15 t>0.2 
+ (s) (s) t<0.2 (s) (s) t<0.2 (s) (s) 
+A 26.53 26.58 2.94 3.97 2.07 2.41 B 15.48 15.48 3.42 3.41 2.32 2.11 C 26.74 7.78 3.68 4.15 2.49 2.51 N 15.38 12.94 - - - - 
+A 22.29 22.26 25.35 39.85 25.38 39.7 B 41.36 41.33 25.54 39.78 25.57 39.78 C 22.21 62.56 25.47 40.32 25.45 40.09 N 23.05 34.15 1.29 1.94 1.46 1.38 
+RMS (A) THB % 
+
+
+M. Uçar ve E. Özdemir  Ýdeal Olmayan Þebeke Gerilimi ve Dengesiz Yük Þartlarýnda 3-Fazlý 4-Telli Paralel Aktif Güç Filtresi Denetimi 
+5.2. Dengesiz Þebeke Gerilimi 
+ Üç-faz þebeke gerilimi dengesiz olduðunda, faz geri­limlerinin efektif deðerleri eþit olmamakta ve þebeke gerilimi temel frekansta negatif sýralý gerilim bileþeni içermektedir.Dengesizliðin derecesi, (13) eþitliðinde verilen þebeke geriliminin temel negatif sýralý bileþeni (V1-) ile temel pozitif sýralý bileþeni (V1+) karþýlaþtýrý­larak veya (Vi) faz gerilimi olmak üzere (14) eþitliðin­de verilen yaklaþýk formülle de belirlenebilmektedir [13]. 
+ 
+V1-
+%GerilimDengesizliði =x100  (13) V1+  
+Vi - Vort
+%GerilimDengesizliði =max x100  (14) 
+Vort  Üç-faz dengesiz þebeke gerilimi aþaðýda verilen eþit­likteki gibi ifade edilebilmektedir [6]. Sistemde sýfýr sýralý gerilim bileþeni bulunmamaktadýr. 
+ vv v
+.da ..1a+..1a-.
+...	.. . 
+.vdb .=.v1b+.+.v1b-.  (15) .v ..v ..v .
+.dc ..1c+..1c-. Bu uygulama örneðinde %10 dengesiz üç-faz þebeke gerilimi (16) eþitliðinde görülmektedir.  
+ vda vdb vdc 
+ 
+=311sin(.t) +31sin(.t)=311sin(.t -120°) +31sin(.t +120°)  (16) =311sin(.t +120°) +31sin(.t -120°)
+Þekil 10’da dengesiz üç-faz þebeke gerilimi koþulun­da, 3-fazlý 4-telli PAGF’nin geleneksel AGT ve öneri­len metot ile harmonik akýmlarý filtrelemesi simülas­yon sonuçlarý görülmektedir. ‘c’ fazý yük akýmýnýn THB deðeri, 0.2 s’den önce %28.97 ve 0.2 s’den son­ra %8.79’dur. Þekil 10c’de görüldüðü gibi AGT ile kompanze edilmiþ þebeke akýmlarý, PAGF referans kompanzasyon akýmlarý negatif sýralý bileþen içerdiði için sinüzoidal deðildir. Geleneksel AGT metodu ile kompanzasyondan sonra ‘c’ fazý þebeke akýmý THB deðeri, 0.15<t<0.2 s süresince %10.15 ve 0.2 s sonrasý %10.44’dür. Þekil 11d’de görüldüðü gibi önerilen metotta þebeke geriliminin negatif sýralý bileþeni filt­relendiði için kompanzasyondan sonra üç-faz þebeke akýmlarý dengeli ve sinüzoidal olmaktadýr. Önerilen metot ile kompanzasyondan sonra ‘c’ fazý þebeke akýmý THB deðeri, 0.15<t<0.2 s süresince %2.16 ve 
+0.2 s sonrasý %2.09’dur. Þekil 11’de gösterildiði gibi her iki metotla da 3-fazlý 4-telli PAGF, nötr akýmý yok edimini ve reaktif güç kompanzasyonunu baþarýyla yapýlabilmektedir. 3-fazlý 4-telli güç sisteminde þe­beke geriliminin dengesiz olmasý, önerilen metot ile PAGF’nin performansýný etkilememektedir.  
+400 
+200 
+
+0 -200 -400
+0.1 
+
+100 0 -100 
+0.1 
+
+100 0 -100 
+0.1 
+
+100 0 -100 
+0.1 
+PAGF Ýþletim PAGF Ýþletimde Dýþý Yük Artýþý
+
+
+0.15 0.2 0.25 (a). Dengesiz þebeke gerilimleri (vSabc [V]). 
+0.15 0.2 0.25 (b). Yük akýmlarý (iLabc [A]). 
+0.15 0.2 0.25 (c). AGT metodu ile iþletimde þebeke akýmlarý (iSabc [A]). 
+
+
+0.15 t[s] 0.2 0.25 
+(d). Önerilen metot ile iþletimde þebeke akýmlarý (iSabc [A]). 
+
+Þekil 10. Dengesiz þebeke gerilimi koþulunda harmo­nik akýmlarýn filtrelenmesi 
+PAGF Ýþletim PAGF Ýþletimde Dýþý Yük Artýþý
+
+50 
+0 
+
+-50 
+
+0.1	0.15 0.2 0.25 (a). Yük nötr akýmý (iLn [A]). 
+
+50 
+0 
+
+-50 
+0.1	0.15 0.2 0.25 (b). AGT metodu ile iþletimde þebeke nötr akýmý (iSn [A]). 
+
+50 
+0 
+
+-50 
+0.1	0.15 0.2 0.25 (c). Önerilen metot ile iþletimde þebeke nötr akýmý (iSn [A]). 
+
+400 
+200 
+0 -200 vSc 3x iLc-400 
+0.1	0.15 0.2 0.25 (d). Þebeke gerilimi ve yük akýmý. 
+
+400 200 0 -200 
+vSc 3x iSc
+
+-400 
+0.1 0.15 0.2 0.25 (e). AGT metodu ile iþletimde þebeke gerilimi ve akýmý. 
+
+400 200 0 -200 
+vSc 3x iSc
+
+-400 
+0.1 0.15 t[s] 0.2 0.25 (f). Önerilen metot ile iþletimde þebeke gerilimi ve akýmý. 
+
+Þekil 11. Dengesiz þebeke gerilimi koþulunda nötr akýmý yok edimi ve reaktif güç kompanzasyonu 
+
+RMS (A) THB % 
+Dengesiz üç-faz þebeke gerilimi koþulunda detaylý simülasyon sonuç özeti Tablo 2’de verilmektedir. 
+ Tablo 2. Dengesiz þebeke gerilimi koþulunda ölçülen deðerlerin özeti 
+ YÜK ÞEBEKE AKIMLARI  
+3FAZ AKIMLARI AGT ÖNERÝLEN &  METOT 
+NÖTR t<0.2 t>0.2 t> 0.15 t>0.2 t> 0.15 t>0.2 
+ (s) (s) t<0.2 (s) (s) t<0.2 (s) (s) 
+A 23.15 23.09 10.4 10.74 2.29 2.17 B 14.5 14.53 10.14 10.35 2.11 2.02 C 28.97 8.79 10.15 10.44 2.16 2.09 N 15.34 11.59 - - - - 
+A 23.81 23.76 24.92 38.1 25.03 38.56 B 39.65 39.76 25.05 37.8 25.3 38.65 C 21.51 59.56 24.71 38.1 24.9 38.77 N 21.98 36.45 0.9 1.46 0.72 0.91 
+ 
+5.3. Dengeli-Bozuk Þebeke Gerilimi 
+ Üç-faz þebeke gerilimi dengeli-bozuk olduðunda, þe­beke gerilimi temel bileþen dýþýnda harmonik gerilim bileþenleri içermektedir.Üç-faz dengeli-bozuk þebeke gerilimi aþaðýdaki eþitlikteki gibi ifade edilebilmek­tedir [6].  
+ 
+.vba ..v1a+..vah .......
+.vbb .=.v1b+.+.vbh .  (17) .v ..v ..v .
+.bc ..1c+..ch . Türkiye’de güç sistemlerindeki gerilim harmonikleri oldukça önemli harmonik kirliliðe neden olmaktadýr [15]. Simülasyonlarda kullanmak amacýyla güç har­monik analizörü ile ölçülen gerçek þebeke gerilimi dalga þekli, THB seviyesi ve harmonik daðýlýmýÞekil 12’de görülmektedir. Þebeke gerilimi, 5. harmonik bi­leþenin baskýn olduðu 3., 7. ve 11. harmonik bileþen­lere sahiptir. Bu durumdaki bir harmonik bozuluma sahip 3-faz þebeke gerilimi (18) eþitliðinde veril­mektedir. 
+ 
+ 
+vSa [V] t[s] 
+10.0
+100 Voltage Ph1 (%)       Thd = 6.37% 
+9.0 
+8.0 
+7.0 
+6.0 
+5.0 
+4.0 
+3.0 
+2.0 
+1.0 
+0 0 4 8 12162024283236404448525660 thd 
+Þekil 12. Ölçülen þebeke gerilim dalga þekli ve harmonik daðýlýmý 
+vba =311sin(.t) +3.7sin(3.t) +18.6sin(5.t -120°) 
++ 4.5sin(7.t) +3.1sin(11.t -120°) 
+vbb =311sin(.t -120°) +3.7sin(3.t) +18.6sin(5.t) 
+ 
++ 4.5sin(7.t -120°) +3.1sin(11.t) 
+vbc =311sin(.t +120°) +3.7sin(3.t) +18.6sin(5.t +120°) 
++ 4.5sin(7.t +120°) +3.1sin(11.t +120°) 
+
+ (18)  Þekil 13’de AGT ve önerilen metot ile 3-fazlý 4-telli PAGF’nin dengeli-bozuk þebeke gerilimi uygulama örneði koþulunda harmonik akýmlarý filtrelemesi si­mülasyon sonuçlarý görülmektedir. Bu koþulda gele­neksel AGT performansý yeterli görülmemektedir. ‘c’ fazý yük akýmýnýn THB deðeri 0.2 s’den önce %25.81 ve 0.2 s’den sonra %6.74’dür. Geleneksel AGT metodu ile kompanzasyondan sonra ‘c’ fazý þebeke akýmýnýn THB deðeri, 0.15<t<0.2 s süresince %6.95 ve 0.2 s sonrasý %7.16’dýr. Þekil 13d’de görüldüðü gibi önerilen metotta kompanzasyondan sonra þebeke akýmlarý dengeli ve sinüzoidal dalga þekline sahip olmakta ve ‘c’ fazý þebeke akýmýnýn THB deðeri, 0.15<t<0.2 s süresince %2.90 ve 0.2 s sonrasý %2.73 seviyesine düþürülmektedir. 
+ 
+PAGF Ýþletim PAGF Ýþletimde Dýþý Yük Artýþý400 200 0 -200 -400 
+
+0.1 0.15 0.2 0.25 (a). Bozuk þebeke gerilimleri (vSabc [V]). 
+100 
+0 
+
+-100 
+0.1 0.15 0.2 0.25 (b). Yük akýmlarý (iLabc [A]). 
+100 
+0 
+
+-100 
+0.1 0.15 0.2 0.25 (c). AGT metodu ile iþletimde þebeke akýmlarý (iSabc [A]). 
+100 
+0 
+
+-100 
+0.1 0.15 t[s] 0.2 0.25 (d). Önerilen metot ile iþletimde þebeke akýmlarý (iSabc [A]). 
+
+Þekil 13. Dengeli-bozuk þebeke gerilimi koþulunda 
+harmonik akým filtrelemesi  Þekil 14’de, her iki metotta da nötr akýmý yok ediminin ve reaktif güç kompanzasyonunun 3-fazlý 4­telli PAGF ile baþarýyla yapýlabildiði görülmektedir. Üç-faz dengeli-bozuk þebeke gerilimi koþulu için detaylý simülasyon sonuç özeti Tablo 3’de verilmekte­dir. Sonuç olarak, önerilen metot ile harmonik bozu­lum seviyesinde önemli bir azalma olmakta ve þebeke akýmlarýnýn harmonik bozulumu, IEEE 519-1992 standardýnda belirtilen %5 harmonik akým sýnýr deðe­rinin çok daha altýna düþürülmektedir. 
+
+M. Uçar ve E. Özdemir  Ýdeal Olmayan Þebeke Gerilimi ve Dengesiz Yük Þartlarýnda 3-Fazlý 4-Telli Paralel Aktif Güç Filtresi Denetimi 
+PAGF Ýþletim PAGF Ýþletimde Dýþý  Yük Artýþý50 0 -50 
+0.1 0.15 0.2 0.25 (a). Yük nötr akýmý (iLn [A]). 
+50 0 -50 
+
+
+0.1 0.15 0.2 0.25 (b). AGT metodu ile iþletimde þebeke nötr akýmý(iSn [A]). 
+50 0 -50 
+0.1 0.15 0.2 0.25 (c). Önerilen metot ile iþletimde þebeke nötr akýmý (iSn [A]). 
+400 200 0 -200 -400
+0.1 
+400 200 0 -200 -400
+0.1 
+vSc 3x iLc 
+0.15 0.2 0.25 (d). Þebeke gerilimi ve yük akýmý. 
+vSc 3x iSc 
+0.15 0.2 0.25 
+(e). AGT metodu ile iþletimde þebeke gerilimi ve akýmý. 
+400 
+(f). Önerilen metot ile iþletimde þebeke gerilimi ve akýmý. 
+200  
+0  
+0.1-400 -200  0.15  t[s]  0.2  vSc  0.25 3x iSc  
+
+Þekil 14. Dengeli-bozuk þebeke gerilimi koþulunda nötr akýmý yok edimi ve reaktif güç kompanzasyonu 
+ 
+5.4. Dengesiz-Bozuk Þebeke Gerilimi 
+ Üç-faz þebeke gerilimi dengesiz ve bozuk olduðunda þebeke gerilimi, negatif sýralý bileþen ve harmonik bileþenler içermektedir. Bu durumda, dengesiz ve bozuk üç-faz þebeke gerilimi (19) eþitliðinde verildiði gibi ifade edilebilmektedir [8]. 
+Tablo 3. Dengeli-bozuk þebeke gerilimi koþulunda ölçülen deðerlerin özeti 
+ YÜK ÞEBEKE AKIMLARI 
+ 
+3FAZ AKIMLARI AGT ÖNERÝLEN &  METOT 
+NÖTR t<0.2 t>0.2 t> 0.15 t>0.2 t> 0.15 t>0.2 
+ (s) (s) t<0.2 (s) (s) t<0.2 (s) (s) 
+A 26.02 25.83 6.77 7.3 2.65 2.52 B 15.02 15.07 6.91 6.97 2.79 2.23 C 25.81 6.74 6.95 7.16 2.90 2.73 N 25.4 23.97 ----
+A 22.4 22.43 25.92 40.38 25.85 40.23 B 41.57 41.51 26.12 40.32 26.03 40.32 C 22.47 62.86 25.98 40.88 25.93 40.64 N 23.44 34.52 1.19 1.88 0.93 1.33 
+.vdba ..v1a+..v1a-..vah ..........vdbb .=.v1b+.+.v1b-.+.vbh .  (19) 
+.v ..v ..v ..v .
+
+.dbc ..1c+..1c-..ch . Bu uygulama örneðini gerçekleþtirmek için simülasyonda kullanýlan dengesiz ve bozuk üç-faz þebeke gerilimi aþaðýda verilmektedir.   
+vdba =311sin(.t) +31sin(.t) +3.7sin(3.t) 
++18.6sin(5.t -120°) +4.5sin(7.t) 
++ 3.1sin(11.t -120°) 
+vdbb =311sin(.t -120°) +31sin(.t +120°) +3.7sin(3.t) 
++18.6sin(5.t) +4.5sin(7.t -120°) +3.1sin(11.t) vdbc =311sin(.t +120°) +31sin(.t -120°) +3.7sin(3.t) 
++18.6sin(5.t +120°) +4.5sin(7.t +120°) 
++ 3.1sin(11.t +120°) 
+
+ (20)  Þekil 15’de AGT ve önerilen metot ile 3-fazlý 4-telli PAGF’nin dengesiz ve bozuk þebeke gerilimi uygu­lama örneði koþulunda harmonik akýmlarý filtrelemesi simülasyon sonuçlarý görülmektedir.   Bu koþulda, geleneksel AGT ile 3-fazlý 4-telli PAGF’nin performansý yeterli görülmemektedir. ‘c’ fazý yük akýmýnýn THB deðeri 0.2 s’den önce %28.17 ve 0.2 s’den sonra %6.61’dir. AGT ile kompanzas­yondan sonra ‘c’ fazý þebeke akýmý 0.15<t<0.2 s süresince %11.9 ve 0.2 s sonrasý %12.21 THB seviye­sine sahiptir. Kompanzasyondan sonra önerilen metot ile þebeke akýmlarý dengeli ve sinüzoidal dalga þekline sahip olmakta ve 0.15<t<0.2 s süresince %2.67 ve 0.2 s sonrasý %2.01 THB seviyesine düþürülmektedir. 
+PAGF Ýþletim PAGF Ýþletimde Dýþý Yük Artýþý400 200 0 -200 -400 
+0.1 0.15 0.2 0.25 (a). Dengesiz-bozuk þebeke gerilimleri (vSabc [V]).
+100 
+0 
+
+-100 
+0.1 0.15 0.2 0.25 
+(b). Yük akýmlarý (iLabc [A]). 100
+0 
+
+-100 
+0.1 0.15 0.2 0.25 (c). AGT metodu ile iþletimde þebeke akýmlarý (iSabc [A]). 
+100 
+0 
+
+-100 
+0.1 0.15 t[s] 0.2 0.25 (d). Önerilen metot ile iþletimde þebeke akýmlarý (iSabc [A]). 
+
+Þekil 15. Dengesiz-bozuk þebeke gerilimi koþulunda harmonik akýmlarýn filtrelemesi
+RMS (A) THB % 
+
+
+Þekil 16’da görüldüðü gibi her iki metot ile de 3-fazlý 4-telli PAGF, nötr akýmý yok edimini ve reaktif güç kompanzasyonunu baþarýyla yapabilmektedir.  
+PAGF Ýþletim PAGF Ýþletimde Dýþý  Yük Artýþý50 0 -50 
+
+
+0.1 0.15 0.2 0.25 (a). Yük nötr akýmý (iLn [A]). 
+50 
+0 
+-50 
+
+0.1 0.15 0.2 0.25 (b). AGT metodu ile iþletimde þebeke nötr akýmý(iSn [A]). 
+50 
+0 
+-50 
+
+
+
+0.1 0.15 0.2 0.25 (c). Önerilen metot ile iþletimde þebeke nötr akýmý(iSn [A]). 
+400 
+200 
+0 
+-200 vSc 3x iLc-400
+0.1 0.15 0.2 0.25 (d). Þebeke gerilimi ve yük akýmý. 
+400 
+200 
+0 
+-200 vSc 3x iSc-400
+0.1 0.15 0.2 0.25 (e). AGT metodu ile iþletimde þebeke gerilimi ve akýmý. 
+400 
+200 
+0 
+-200 vSc 3x iSc-400
+0.1 0.15 t[s] 0.2 0.25 (f). Önerilen metot ile iþletimde þebeke gerilimi ve akýmý. 
+Þekil 16. Dengesiz-bozuk þebeke gerilimi koþulunda nötr akýmý yok edimi ve reaktif güç kompanzasyonu 
+Yük ve þebeke akýmlarý ile THB deðerlerinin özeti Tablo 4’de verilmektedir.   
+Tablo 4. Dengesiz-bozuk þebeke gerilimi koþulunda ölçülen deðerlerin özeti  YÜK ÞEBEKE AKIMLARI  
+3FAZ AKIMLARI AGT ÖNERÝLEN &  METOT 
+NÖTR t<0.2 t>0.2 t> 0.15 t>0.2 t> 0.15 t>0.2 
+ (s) (s) t<0.2 (s) (s) t<0.2 (s) (s) 
+A 22.71 22.74 12.61 12.84 2.63 2.59 B 15.94 15.67 11.54 11.86 2.46 2.07 C 28.17 6.61 11.9 12.21 2.67 2.01 N 27.22 19.64 - - - - 
+A 23.96 23.96 25.41 38.8 25.51 39.05 B 40.01 40.1 25.52 38.52 25.77 39.17 C 21.7 59.98 25.21 38.78 25.4 39.26 N 22.39 37.04 0.96 1.53 0.78 0.98
+RMS (A) THB % 
+
+Dengesiz ve bozuk þebeke gerilimi koþulu çok özel bir durumdur. Fakat önerilen metot ile þebeke akýmý harmonik bozulum seviyesinde önemli bir azalma olmaktadýr. Simülasyon çalýþmalarýnda kullanýlan sistem parametreleri Tablo 5’de verilmektedir. 
+Tablo 5. Simülasyon çalýþmalarýnda kullanýlan sistem parametreleri 
+PARAMETRE DEÐERÝ 
+ Gerilimi (VSabc) 220Vrms/Faz-Nötr 
+Þebeke Frekansý (f) 50Hz 
+Empedansý (RS, LS) 10m. 0.1mH 
+DA bara gerilimi (VDA) 800V 
+ DA kondansatör (C1=C2) 4500µF 
+PAGF Anahtarlama frekansý (fS) 10KHz/Ortalama  
+AA tarafý filtre (RC, LC) 0.1.,1mH (RF, CF) 2., 20µF 
+AA tarafý filtre (RY, LY) 1., 0.25mH 
+Yük 	DA tarafý (RY1, RY2, RY3) 15., 10., 5. (LY1, LY2=LY3) 50mH, 1mH (CY1=CY2) 100µF 
+
+ 
+6. SONUÇ  
+Bu çalýþmada, dengesiz ve doðrusal olmayan yükler ile ideal olmayan þebeke gerilimi uygulama örnekle­riyle 3-fazlý 4-telli PAGF’nin performansýný artýrmak için AGT tabanlý yeni bir denetim algoritmasý öneril­mektedir. Uygulama örneklerine ait simülasyon so­nuçlarýna göre, önerilen denetim algoritmasý ile 3­fazlý 4-telli PAGF aþaðýdaki fonksiyonlarý baþarýyla yerine getirmektedir. 
+ 
+i. Harmonik akýmlarý filtrelemesi 
+ii. 	Reaktif güç kompanzasyonu 
+iii. Yük akýmlarýný dengelemesi 
+iv.
+ Aþýrý nötr akýmý yok edimi 
+
+v. 	
+Dinamik ve sürekli hal iþletmelerindeki yüksek 
+
+
+performansý.  Önerilen denetim algoritmasý ile geleneksel 3-kollu GKE tabanlý 3-fazlý 4-telli PAGF, ideal olmayan tüm þebeke gerilimi durumlarýnda IEEE 519-1992 standart gereksinimleri için oldukça yeterlidir. 
+ 
+TEÞEKKÜR 
+ Bu çalýþma, 103E034-AY-57 sayýlý TÜBÝTAK Araþtýrma Altyapýsýný Destekleme Programý kapsa­mýnda desteklenmektedir. 
+ KAYNAKLAR  
+1. 	
+Akagi, H., Kanazawa, Y., Nabae, A., “Instantaneous Reactive Power Compensators   Comprising Switching Devices without Energy Storage Elements”, IEEE Trans. on Industry Applications, Cilt 1A-20, 625-630, 1984. 
+
+2. 	
+Afonso, J., Couto, C., Martins, J., “Active Filters with Control Based on the p-q Theory”, IEEE Industrial Electronics Society Newsletter, Cilt 47, No 3, 5-11, 2000. 
+
+
+M. Uçar ve E. Özdemir Ýdeal Olmayan Þebeke Gerilimi ve Dengesiz Yük Þartlarýnda 3-Fazlý 4-Telli Paralel Aktif Güç Filtresi Denetimi 
+3.	
+Peng, F. Z., Ott, G. W., Adams D. J., “Harmonic and Reactive Power Compensation Based on the Generalized Instantaneous Reactive Power Theory for 3-phase 4-Wire Systems”, IEEE Transactions on Power Electronics, Cilt 13, No 6, 1174-1181, 1998. 
+
+4. 	
+Akagi, H., Ogasawara, S., Kim, H., “The Theory of Instantaneous Power in Three-Phase Four-Wire Systems and Its Applications”, Electrical Engineering in Japan, Cilt 135, No 3, 74-86, 2001. 
+
+5.	
+Komatsu, Y., Kawabata, T., “A Control Method for the Active Power Filter in Unsymmetrical Voltage Systems”, Int. J. Electronics, Cilt 86, No 10, 1249-1260, 1999. 
+
+6.	
+Huang, S. J., vd., “A Study of Three-Phase Active Power Filters under Non-ideal Mains Voltages”, Electric Power Systems Research, Cilt 49, 125-137, 1999. 
+
+7.	
+Chen, C. C., Hsu, Y. Y., “A Novel Approach to the Design of a Shunt Active Filter for an Unbalanced Three-Phase Four-Wire System under Nonsinusoidal Conditions”, IEEE Transactions on Power Delivery, Cilt 15, No 4, 1258-1264, 2000. 
+
+8.	
+Haque, M. T., Ise, T., ve Hosseini, S. H., “A Novel Control Strategy for Active Filters Usable in Harmonic Polluted and/or Imbalanced Utility Voltage Case of 3-Phase 4-Wire Distribution Systems”, Proceedings of Ninth International Conference on Harmonics and Quality of Power, 239-244, 2000. 
+
+9.	
+Lin, B. R., Lee, Y. C., “Three-Phase Power Quality Compensator under the Unbalanced Sources and Nonlinear Loads”, IEEE Transactions on Industrial Electronics, Cilt. 51, No. 5, 1009-1017, 2004. 
+
+10.	
+Aredes, M., Hafner, J., Heumann, K., “Three-Phase Four-Wire Shunt Active Filter Control Strategies”, IEEE Transactions on Power Electronics, Cilt 12, No 2, 311-318, 1997. 
+
+11.	
+Watanabe, E. H., Stephan R. M., Aredes, M., "New Concepts of Instantaneous Active and Reactive Powers in Electrical Systems with Generic Loads," IEEE Transactions on Power Delivery, Cilt 8, No 2, 697-703, 1993. 
+
+12. 	
+Malesani, L., Mattavelli, P. ve Tomasin, P., “High-Performance Hysteresis Modulation Technique for Active Filters”, IEEE Transactions on Power Electronics, Cilt 12, No 5, 876-884, 1997. 
+
+13.	
+The New IEEE Standard Dictionary of Electrical and Electronics Terms, IEEE Std. 100-1992. 
+
+14.	
+IEEE Recommended Practice and Requirements for Harmonic Control in Electrical Power Systems, IEEE Std. 519-1992. 
+
+15.	
+Uçar, M., 3-Fazlý 4-Telli Paralel Aktif Güç Filtresinin Tasarýmý ve Uygulanmasý, YüksekLisans Tezi, Kocaeli Üniversitesi, Fen Bilimleri Enstitüsü,  2005. 
+
+
+
+SÝMGELER DÝZÝNÝ
+CF  : Anahtarlama  harmonikleri  filtre  
+kondansatör kapasitesi  
+iCabc  : Anlýk kompanzasyon akýmlarý 
+*iCa  ,  *iCb  ,  *iCc  : a-b-c koordinatlarýnda anlýk referans  
+kompanzasyon akýmlarý 
+
+i* C0, 	i* C. , i* Cß : .-ß-0 koordinatlarýnda anlýk referans 
+kompanzasyon akýmlarýiLabc : Anlýk yük akýmlarýiSabc : Anlýk þebeke akýmlarýi., iß, i0 : .-ß-0 koordinatlarýnda anlýk þebeke 
+akýmlarýLC : Aktif filtre bobin endüktansýLS : Þebeke endüktansýLY : Yük filtre bobin endüktansý
+n : Nötr 
+
+p : Anlýk gerçek güç 
+
+p : Ortalama gerçek güç ~ 
+
+p : Gerçek gücün dalgalý bileþeni pkayýp : Ortalama kayýp gerçek güç 
+
+
+p0 : Anlýk sýfýr sýralý güç p2.: Gerçek gücün negatif sýralý bileþeni p3 : Üç-faz anlýk gerçek güç ph : Gerçek gücün harmonik bileþeni 
+q : Anlýk sanal güç 
+
+q : Ortalama sanal güç ~ 
+
+q : Sanal gücün dalgalý bileþeni q2.: Sanal gücün negatif sýralý bileþeni qh : Sanal gücün harmonik bileþeni 
+
+
+RC : Aktif filtre bobin direnci  RF : Anahtarlama harmonikleri filtreleme 
+direnci  
+RS  : Þebeke iç direnci  
+RY  : Yük filtre bobin direnci  
+vah, vbh, vch  : Þebeke  geriliminin  harmonik  
+
+bileþenleri 
+
+vba, vbb, vbc : a, b, c fazý dengeli-bozuk anlýk þebeke gerilimleri 
+vd, vq : d-q koordinatlarýnda anlýk þebeke gerilimleri 
+vda, vdb, vdc : a, b, c fazý dengesiz anlýk þebeke gerilimleri 
+vdba, vdbb, vdbc : a, b, c fazý dengesiz-bozuk anlýk 
+þebeke gerilimleri. 
+
+vSabc : a, b, c fazý anlýk þebeke gerilimleri 
+v., vß, v0 : .-ß-0 koordinatlarýnda anlýk þebeke 
+gerilimleri v1a+, v1b+, v1c+ : Þebeke geriliminin temel pozitif sýralýbileþeni v1a-, v1b-, v1c-: Þebeke geriliminin temel negatif sýralýbileþeni .p : Ortalama gerçek güç 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+
+
+

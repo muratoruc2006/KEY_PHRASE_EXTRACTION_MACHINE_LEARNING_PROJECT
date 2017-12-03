@@ -1,0 +1,140 @@
+YAPAY SÝNÝR AÐLARI ÝLE TÜRKÇE TIMES NEW ROMAN, ARIAL VE ELYAZISI KARAKTERLERÝ TANIMA 
+Yapay Sinir Aðlarý (YSA), giriþ verilerinin yetersiz olduðu, mevcut verilerden hareketle bilinmeyen iliþkilerin ortaya çýkarýlmasý ve algoritmasý veya kurallarý tam olarak bilinmeyen durumlar için geliþtirilmiþ bir bilgi iþleme sistemidir. Bu çalýþmada, yapay sinir aðlarýnýn önemli bir uygulamasý olan karakter tanýma iþlemi ele alýnmýþtýr. Times New Roman ve Arial biçimindeki A dan Z ye 29 Türkçe karakter küçük ve büyük harfleriyle birlikte, elyazýsý karakterler, giriþ vektörü olarak aða sunulmuþ ve YSA’nýn eðitim iþlemi bu karakterler üzerinden gerçekleþtirilmiþtir. Bu karakterler kullanýlarak yazýlmýþmetin içeren resime karakter algýlama ve tanýma iþlemi uygulandýktan sonra, resim yazýsý metne dönüþtürülmüþtür. Bu çalýþmada çok katmanlý ileri beslemeli bir YSA mimarisi ve geri yayýlým öðrenme metodu kullanýlmýþtýr. Ayrýca C++ Builder yazýlým geliþtirme ortamý ile resimden karakter algýlama ve tanýma iþlemini gerçekleþtiren bir yazýlým geliþtirilmiþtir ve uygulamasýyapýlmýþtýr. 
+
+1. GÝRÝÞtekniðinin gerekliliði, gerçek dünya ile bilgisayar 
+iliþkisinin baþlamasý ile ortaya çýkmýþtýr. Bu durum YSA, insan beyninin çalýþma ilkelerinden ilham YSA’nýn çok güçlü örnek tanýma tekniði olarak ortaya alýnarak geliþtirilmiþ, aðýrlýklý baðlantýlar denilen tek çýkmasýna ve geliþmesine neden olmuþtur [1]. yönlü iletiþim kanallarý vasýtasý ile birbirleriyle haberleþen, her biri kendi hafýzasýna sahip birçok Bu çalýþmada, resim üzerindeki Türkçe yazýyýiþlem elemanýndan (nöronlardan) oluþan paralel ve biçimlendirilebilir metne dönüþtürme üzerinde daðýtýk bilgi iþleme yapýlarýdýr. YSA’lar gerçek durulurken, kullanýlan resim örnekleri bilgisayar dünyaya ait iliþkileri tanýyabilir, sýnýflandýrma, ortamýnda oluþturulmuþtur. Bu nedenle gürültü kestirim ve iþlev uydurma gibi görevleri yerine minimum düzeyde olmaktadýr. getirebilirler. Desen tanýma (Pattern recognition) 
+O.A. Erdem ve E. Uzun Yapay Sinir Aðlarý ile Türkçe Týmes New Roman, Arial ve Elyazýsý Karakterleri Tanýma 
+2. YAPAY SÝNÝR AÐLARI VE KARAKTER TANIMA 
+Yapay sinir aðlarýnýn oluþturulmasýiçin örnek teþkil eden, biyolojik sinir aðlarýnýn ve insan beyninin en temel parçalarý, hatýrlama, düþünme, her harekette daha önceki deneyimlere baþvurma yeteneðini saðlayan kendine özgü sinir hücreleridir. Ýnsan beyninde yaklaþýk 1011 sinir hücresi vardýr. Þekil 1’de basitleþtirilmiþ biyolojik bir beyin sinir hücresi ve bileþenleri ile iliþkisi görülmektedir [2]. 
+
+Yapay sinir aðlarý, bir baþka deyiþle, biyolojik sinir aðlarýný taklit eden bilgisayar programlarýdýr [1]. Bir çok YSA tipi bulunmakla birlikte, en çok kullanýlan sinir aðý yapýsý, Ýleri Beslemeli Geri Yayýlýmlý YSA olarak bilinendir. Belirsiz, gürültülü ve eksik bilgilerin iþlenmesinde yapay sinir aðlarý baþarýyla kullanýlmaktadýr. Temel YSA yapýsýÞekil 2’de gösterilmiþtir. Klasik bilgisayarlar bilgiyi belleðinde belirli bir yerde saklar, sinir aðlarý ise bilgiyi tüm aðboyunca daðýtýr. Bu durum daðýtýlmýþ bellek olarak bilinir [3]. 
+Giriþler 
+Çýkýþlar 
+
+Çýkýþ KatmanýGizli Katmanlar Giriþ Katmaný
+
+Þekil 2. Çok katmanlý bir yapay sinir aðý
+
+Karakter tanýma iþlemi üzerinde yapýlan çalýþmalar sonucunda, elle veya baský ile oluþturulmuþkarakterlerin otomatik olarak nasýl tanýnacaðýkonusunda birçok teknik geliþtirilmiþtir [1]. 
+Karakter tanýma iþlemi klasik bilgisayar mantýðý ile de yapýlabilmektedir. Fakat YSA yönteminin karakter tanýma iþleminde klasik metotlara göre avantajlýyanlarý çok daha fazladýr. Klasik mantýkla karakter tanýma olayý gerçekleþtirilirken bazý durumlar da birçok zorluklar ortaya çýkmaktadýr. Örnek olarak; düzgün alfa nümerik þekilleri tanýyabilmek için karakteri bir matris haline dönüþtürmek gerekmektedir. ‘A’ harfinin 7×5’lik bir ikili sayýdan oluþan matris olarak temsil edilmesi Þekil 3’te gösterilmiþtir. Matris üzerinde dolu bulunan her piksel ‘1’ deðerini diðer yerler ise ‘0’ deðerini almak üzere, þekli ikili olarak kodlayabiliriz. Bunu tek bir vektör olarak yazarsak 35 bitlik ikili sayýveya buna karþýlýk gelen onluk sayýya göre bir karakter tablosundan arama yapýlarak karakterin ASCII (American Standard Code for Information Interchange) kodu elde edilir. 
+
+
+Bu tür bir yaklaþým hýzlý ve kolay bir metot olmasýna karþýn gerçek sistemlerde uygulanabilirliði yoktur. Çünkü gerçek hayattaki verilerde sürekli olarak gürültü ve bozucu etkiler mevcuttur. Böyle bir ortamda ayný‘A’ karakterinin ASCII dönüþtürücüye geldiðini varsayalým. Gürültü ve etkiler sebebiyle meydana gelebilecek deðiþimler yukarýda anlatýlan metodun iþlerliðini ortadan kaldýracaktýr. Çünkü bu metot giriþverisi ile çýkýþ verisi arasýndaki uyumun tam olmasýný gerektirmektedir. Dolayýsýyla sistem gürültülü bir ortamda yanlýþ bir sonuç üretecektir. 
+
+Þekil 3. Düzgün bir A karakterinin 7x5’lik 
+bir matrisle ikili gösterimi 
+
+Bu tür sorunlardan kurtulabilmenin yolu, gürültüdeki bütün pikselleri paralel olarak inceleyebilecek ve bu gürültüleri ihmal edecek yeni bir iþleme sistemidir. Bu sistem, bilinen karakterlere benzeyen fakat gürültü nedeniyle bozuk olan þekilleri önceden öðrendiði 
+þekillerden  birinin  özelliðine  benzetebilmeli  ve  
+gürültüyü  tamamen  ihmal  edebilmelidir.  Bu  
+özelliklerin  gerçekleþtirilebileceði  sistemler  de  
+
+YSA’lardýr [1,4]. 
+
+3. RESÝMDEKÝ TÜRKÇE YAZININ METNE DÖNÜÞTÜRÜLMESÝ
+Bu çalýþmada, tek gizli katmanlý ileri beslemeli geri yayýlýmlý YSA modeli kullanýlmýþ olup, sinir aðýnýn öðrenme yöntemi olarak GDK’dan (GenelleþtirilmiþDelta Kuralý) faydalanýlmýþtýr. 
+Öncelikle tanýnmak istenilen her desen (karakter) sinir aðýna öðretilmelidir. Bu iþlem için yukarýda bahsedildiði gibi Times New Roman 12 punto ve Arial 11 punto fontlarý ile yazýlmýþ öðretilecek desenler örnek seçilerek giriþ vektörlerini oluþturmak üzere resim dosyasý halinde kaydedilirler (Þekil 4). Türkçe’ de A’dan Z’ye 29 harf vardýr. Küçük harflerde eklendiðinde 58 giriþ deseni elde edilir. Bu sayý yalnýzca Times New Roman font biçimi içindir, 58 tane de Arial için font eklendiðinde, toplam sinir aðýmýza öðreteceðimiz giriþ deseni sayýsý 116 olur. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+
+
+Þekil 4. Öðretilecek her karakterin tek baþýna 
+resim dosyasýþeklinde kayýtlý hale getirilmesi 
+
+Bu aþamada, karakterlerin eðitim ve uygulama sýrasýnda sinir aðýnýn giriþleri için temsil edilme biçimlerinde iki farklý yöntem göz önünde bulundurulmuþtur. 
+3.1. Karakterlerin Aðýrlýk Merkezine DayalýGösterimi 
+Aðýrlýk merkezine dayalý tanýma, karakterlerin aðýrlýk merkezlerinin farklý noktalarda olduðu düþüncesinden ortaya çýkmýþtýr. Þekil 5’de bazý karakterlerin aðýrlýk merkezlerine iþaret edilmiþtir. Bu þekil piksel olarak incelendiðinde aðýrlýk merkezlerinin ayný noktada olduðu söylenebilir. Oysa ki oransal temelden bakýldýðýnda farklý olacaktýr. Aðýrlýk merkezine dayalýsýnýflandýrma sabit karakter boyutlarýnda iyi sonuçlar vermektedir. Desenler giriþmatrisine, kendi aðýrlýk merkezleri ile matrisin aðýrlýk merkezi çakýþacak þekilde yerleþirler. 
+
+Þekil 5. Eðitim desenlerinin aðýrlýk merkezleri 
+
+Aðýrlýk merkezi kriteri her ne kadar ayýrt edici özellik taþýyorsa da, ayný yazý tipinin farklý büyüklüklerinde aðýrlýk merkezi kaymaktadýr. Bu nedenle farklý özellik vektörlerine ihtiyaç duyulmaktadýr [5]. 
+
+3.2. Karakterlerin Sabit Bir Desen Matrisinin Bir Noktasýna Yerleþtirilmesi 
+Öðrenme iþlemi sýrasýnda öðretilecek her karakterin resim biçimi hazýr olduðundan (siyah-beyaz biçiminde), bu resim dosyalarýndan piksel deðerleri okunarak desen matrisinin sol üst kenarýna yaslanacak þekilde yerleþtirilir (Þekil 6). 
+Her iki yaklaþým için de, desen matrisi 20x20 olarak sinir aðýnýn giriþlerine göre düzenlenmiþtir. Bu çalýþmada, uygulamada kolaylýk olmasý açýsýndan karakterlerin sinir aðýna sunulmasýnda ikinci temsil biçimi kullanýlmýþtýr. 
+
+
+Uygulamada esnasýnda resimden alýnan karakterler için, sinir aðýnýn eðitiminde ise örnek giriþ desenleri için oluþturulan bu harf matrisi vektör haline dönüþtürülerek, 400 giriþli að yapýsýna sunulur. Aðçýkýþlarý uygulanan her harf desenine karþýlýk gelen ASCII kodlarý üretecek þekilde tasarlanmýþtýr. Giriþvektörü olarak ‘A’ deseni uygulandýðýnda 9 çýkýþlý aðyapýsý 65 desimal sayýsýna karþýlýk gelen binary sayýyý(001000001) üretecektir. Bu þekilde sinir aðý desenleri doðru þekilde öðreninceye kadar eðitim iþlemine devam edilir. Ancak eðitim iþlemi tamamlandýktan sonra resimden metin elde etme iþlemi verimli bir þekilde çalýþmaktadýr. Að giriþlerine Türkçe karakterler olan ç, ð, ý, ö, þ, ü, Ç, Ð, Ý, Ö, Þ, Ü harfleri uygulandýðýnda, bu harflerin ASCII tablosunda karþýlýðý olmadýðýndan sinir aðýna hedef çýkýþ olarak öðretilecek deðerin ne olacaðý sorun teþkil eder. Bu sorunu çözmek için bu özel Türkçe harflere özel kodlar oluþturulmuþtur. Normal karakterlerin ASCII kodu öðretilirken að çýkýþlarý 9 bit olarak atanmýþtýr. 
+9. bitin ‘0’ olmasýkarakterin ASCII koda sahip olduðu anlamýna gelmektedir. 9. bit ‘1’ olduðunda; örneðin çýkýþýn (100000001)2 (257)10 hedef olmasýdurumunda çýkýþta elde edilen kod karþýlýðý 255 den büyük olduðundan sinir aðý giriþin ‘Ç’ karakteri olduðunu anlayacaktýr. Çizelge 1’de sinir aðýnýn eðitiminde kullanýlan hedef çýkýþ deðerleri gösterilmektedir. Desenleri öðretme iþlemi kabul edilebilir bir hata deðeriyle sonlandýrýldýðýnda, resim üzerinden elde edilen karakterlerin sinir aðýna sunulmasý mümkündür. Þekil 7’de sinir aðýna uygulanan örnek yazý içeren resim yapýsýgörülmektedir. 
+Þekil 7’de görülen resimdeki karakterleri elde etme iþlemi þu þekilde gerçekleþmektedir; Öncelikle resim siyah ve beyaz harici tüm renklerden arýndýrýlýr (Thresold-Eþikleme Ýþlemi). Bu iþlemden sonra resim üzerinde iki ayrý tarama gerçekleþtirilir. Ýlk olarak, resim yatay eksende taranýr ve satýrlarýn baþlangýç ve bitiþ noktalarý belirlenir. Her satýrýn yatay eksendeki baþlangýç ve bitiþ noktalarý dinamik bir liste yardýmýyla kaydedilir. Daha sonra her satýr düþey eksende taranýr ve birbirinden ayrý harflerin baþlangýç 
+O.A. Erdem ve E. Uzun Yapay Sinir Aðlarý ile Türkçe Týmes New Roman, Arial ve Elyazýsý Karakterleri Tanýma Çizelge 1. Yapay sinir aðýnýn eðitimi için hedef çýkýþ deðerleri 
+Arial 11pt hedef çýkýþ deðerleri  Times New Roman 12pt hedef çýkýþ deðerleri  
+001000001-A 001000010-B 001000011-C 100000001-Ç (257) 001000100-D 001000101-E 001000110-F 001000111-G 100000010-Ð (258) 001001000-H 001001001-I 100000011-Ý (259) 001001010-J 001001011-K 001001100-L 001001101-M 001001110-N 001001111-O 100000100-Ö (260) 001010000-P 001010010-R 001010011-S 100000101-Þ (261) 001010100-T 001010101-U 100000110-Ü (262) 001010110-V 001011001-Y 001011010-Z  001100001-a 001100010-b 001100011-c 100000111-ç (263) 001100100-d 001100101-e 001100110-f 001100111-g 100001000-ð (264) 001101000-h 001101001-i 100001001-ý (265) 001101010-j 001101011-k 001101100-l 001101101-m 001101110-n 001101111-o 100001010-ö (266) 001110000-p 001110010-r 001110011-s 100001011-þ (267) 001110100-t 001110101-u 100001100-ü (268) 001110110-v 001111001-y 001111010-z  001000001-A 001000010-B 001000011-C 100000001-Ç (257) 001000100-D 001000101-E 001000110-F 001000111-G 100000010-Ð (258) 001001000-H 001001001-I 100000011-Ý (259) 001001010-J 001001011-K 001001100-L 001001101-M 001001110-N 001001111-O 100000100-Ö (260) 001010000-P 001010010-R 001010011-S 100000101-Þ (261) 001010100-T 001010101-U 100000110-Ü (262) 001010110-V 001011001-Y 001011010-Z  001100001-a 001100010-b 001100011-c 100000111-ç (263) 001100100-d 001100101-e 001100110-f 001100111-g 100001000-ð (264) 001101000-h 001101001-i 100001001-ý (265) 001101010-j 001101011-k 001101100-l 001101101-m 001101110-n 001101111-o 100001010-ö (266) 001110000-p 001110010-r 001110011-s 100001011-þ (267) 001110100-t 001110101-u 100001100-ü (268) 001110110-v 001111001-y 001111010-z  
+
+
+Þekil 7. Örnek yazý içeren taranmýþ resim 
+ve bitiþ noktalarý belirlenir. Aralarýnda en az bir piksel boþluk olan harfler birbirinden ayrýlabilir [6]. Bu aþamada karakterin yatay ve düþey eksendeki baþlangýç noktalarý aradaki boþluklar yardýmýyla tespit edilip yine bir dinamik listeye kaydedilir. Karakterlerin tek tek belirlenmesi esnasýnda önemli olan nokta her harf arasýnda en az bir piksel boþluk olmasýdýr. Aksi taktirde harfler birbirinden ayrýlamaz.  
+Bu noktada kelimeler arasýndaki boþluðu tespit etmek zor olur. Bu nedenle düþey eksendeki taramalar esnasýnda karakterler arasýndaki boþluklarýn piksel olarak deðerleri toplamýnýn aritmetik ortalamasýnýn, tahmini kelimeler arasý boþluða eþit olduðu kabul edilmiþtir. Eðer iki karakter arasý boþluk hesaplanmýþtahmini kelimeler arasý boþluktan fazla ise, bu boþluðun iki kelime arasý boþluk olduðu sonucuna varýlýr [7-9]. Böylece kelimeler birbirinden ayrýlmýþolur. Dolayýsýyla kelime arasýndaki boþluklar tespit edildiðine göre, ne olduðu zaten belli olan bir karakterin sinir aðýna sunulmasýna gerek kalmaz. Bu aþamada karakterler doðrudan ayrýlmaz. Þekil 8’de ilk adýmda belirlenen veriler görülmektedir. 
+Ýlk adýmda resimden elde edilen veriler olan, karakterlerin yatay ve düþey eksenlerdeki baþlangýç ve bitiþ noktalarý, ikinci adýmda karakterlerin resimden alýnmasý iþleminde kullanýlýr. Karakterler resim olarak çýkartýlýp hafýzada saklanýr ve daha sonraki iþlem basamaklarýna geçilir [5,10]. 
+Karakterlerin birbirinden ayrýlmasý tamam fakat satýrýn yüksekliði, karakter yüksekliði ile aynýolmadýðý için resimden ayrýlan karakterin sol ve saðyanýnda problem olmayacaktýr fakat üst ve alt kýsýmlarýnda fazlalýklar olmasý muhtemeldir. Bu nedenle her karakter resmi sinir aðýna sunulmadan önce bir ön iþlemden daha geçirilmiþtir. Kýrpma 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+
+Þekil 8. Resim üzerinde ilk adýmda elde edilen veriler 
+iþlemiyle, karakter resminin üst ve alt kýsmýndaki gereksiz kýsýmlar yok edilerek, resimden elde edilen her karakter Þekil 10’da görüldüðü þekle gelmiþtir. 
+Eðer kýrpma iþlemi uygulanmasaydý, Þekil 9’ daki harf biçimi 20x20 matrise daha önce anlatýldýðý gibi yerleþtirildiðinde öðretilen harf ile uygulanan harf arasýnda iliþki kurulamaz ve dolayýsýyla harf deseni doðru bir þekilde tanýnamazdý. Þekil 10’daki gösterim, harf deseninin öðretildiði biçimle ayný olduðu için tanýma iþlemi sorunsuz gerçekleþir. Sonuç olarak eðitimde kullandýðýmýz giriþ matrisi nasýl ise, uygulama için de ayný giriþmatrisi elde edilmeye çalýþýlmalýdýr. Aksi taktirde sinir aðý giriþlerine uygulanan deseni tanýyamaz [8]. Þekil 11’deki akýþþemasý resimden karakterleri elde etme ve sinir aðýna uygulama iþlemini göstermektedir. 
+Sinir aðýna uygulanan her harf deseni için að, ASCII kodunu (Türkçe karakterler için özel, ASCII kod aralýðýnda olmayan özel bir kod biçimi) üretecek ve tanýnan her harf artýk metin anlamý taþýyacaktýr. Bu aþamadan sonra, Þekil 12’de görüldüðü gibi,. Times New Roman ve Arial fontlarý gibi standart karakterlere, Þekil 13’den görüldüðü gibi, elyazýsýformunda olan cümlelere, Þekil 14’den görüldüðü gibi, elyazýsý harfler üzerinde her türlü biçimlendirme, düzeltme, ekleme ve çýkarma iþlemleri gerçekleþtirilen metin elde edilmiþtir. 
+
+Þekil 9. Kýrpma iþleminden önce Þekil 10. Kýrpma iþleminden sonra elde edilen ‘r’ harfi ‘r’ harfi 
+
+Sýradaki karakteri aða uygula ve að çýkýþlarýný üret 
+Sinir aðýný, uygulanacak giriþdesenleri için eðit 
+Sinir aðýnýn çýkýþta ürettiði ascii koda karþýlýk gelen karakteri metne ekle 
+
+
+
+Resimden karakterleri al 
+
+
+
+Sonuç olarak oluþturulan metni göster 
+
+
+
+
+
+O.A. Erdem ve E. Uzun Yapay Sinir Aðlarý ile Türkçe Týmes New Roman, Arial ve Elyazýsý Karakterleri Tanýma 
+
+
+
+
+4. SONUÇ VE ÖNERÝLER 
+Yapýlan bu çalýþma günlük hayatta kullanýlabilecek Arapça, Farsça karakterleri gibi, bazý uygulamalarda denenememiþtir. Fakat gerçekleþtirilen uygulama bunlara bazý deðiþiklikler ile uyarlanabilir. Örneðin; tarayýcý kullanýlarak elde edilen bir kitap sayfasýndaki metni okuyabilen bir uygulamaya uyarlamak mümkündür. Kurulacak sistemde resim þeklinde kaydedilen kitap sayfasýndan, resim iþleme yöntemleri ile karakterler birer birer alýnýr ve daha önceden eðitilen YSA kullanýlarak karakter tanýma iþlemi gerçekleþtirilebilir. Bu tanýma iþlemi, çalýþmada geliþtirilen program aracýlýðý ile gerçekleþtirilmek­tedir. Burada dikkat edilmesi gereken en önemli husus; tarayýcý ile sayfalarý resim þeklinde elde ederken mümkün olduðunca bozulmasýný önlemek olmalýdýr. Aynýþekilde, üniversite yerleþkesi gibi giriþve çýkýþlarýn denetimli olarak saðlanmasý gereken yerlerde kullanýlan araç plaka tanýma sistemleri de bu uygulamadan faydalanýlarak gerçekleþtirilebilir. Kamerayla belirli bir uzaklýkta duran aracýn plakasýnýn resmi çekilir. Resim iþleme yöntemleri kullanýlarak, plaka üzerindeki harf ve rakamlar elde edilir ve daha önceden bu harf ve rakamlarý tanýmak üzere eðitilmiþ YSA’na sunulur. Sonuçta resim biçimindeki plaka, anlamlýharf ve rakam deðerleri içeren bir bilgiye dönüþür. Elde edilen bu bilgi kullanýlarak veritabaný sorgulamasý ile aracýn giriþveya çýkýþ için yetkisinin olup olmadýðýna karar verilir.  
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+
+Geliþtirilen algoritma ve program, kývrýmlý ve birbirlerine temas eden harflere sahip dillere de uygulanabilir. Bunun için harflerin birbirine temas etmesinden kaynaklanacak sorunlar giderilmelidir. Günümüzde standart bilgisayar karakterlerini tanýmak elyazýsý karakterlere göre daha kolay iken, elyazýsý ile yazýlan karakterlerin binlerce çeþit olabilmesinden dolayý, tanýmak zor ve kýsýtlýdýr. Bu gibi uygulamalarýn baþarýsý aðýn öðretilmesine baðlý olarak deðiþmektedir. Daha önce öðretilmiþ el yazýlarýnda %004 oranýnda hatalý sonuçlar alýnmaktadýr. Öðretilmemiþ el yazýlarýnda ise, bu oran yaklaþýk olarak % 4 civarýndadýr. Geriye yayýlým aðýnda gizli katmandaki nöron miktarýaðýn hatýrlama ve performansý üzerinde çok etkili olmaktadýr. Gizli katmanlardaki nöron sayýsýnýn fazlalýðý eðitim iþleminin fazla zaman almasýna neden olurken aðýn hatýrlama kabiliyetini de ayný oranda artýrmaktadýr. Eðer iþlem elemanlarýnýn sayýsý fazla tutulursa eðitimden sonra hatýrlama kabiliyeti de o kadar iyi olmaktadýr. Ancak iyi bir eðitim sonrasýnda da gizli katmandaki nöron sayýsýnýn az olmasý aðýn hatýrlama kabiliyeti üzerinde fazla etkili olmamaktadýr. Sonuç olarak, yapay sinir aðlarý, algoritmalarýçýkarýlamayan problemler için, çözüm saðlayan yeni ve güvenli bir bilgi iþleme sistemi olabilmektedir. Yapýlan çalýþma bu durum için uygun bir örnek durumundadýr. 
+
+
+KAYNAKLAR 
+1.	Elmas, Ç., Yapay Sinir Aðlarý, SeçkinYayýnevi, Ankara, 2003. 
+2.	
+Fausett, L., Fundamentals of neural networks, Prentice-Hall, Inc., 1994. 
+
+3.	
+Akpýnar, H., Yapay Sinir Aðlarý ve Kredi Taleplerinin Deðerlendirilmesinde Bir Uygulama Önerisi, Ýstanbul Üniversitesi Ýþletme Fakültesi Sayýsal Yöntemler Ana Bilim Dalý, Ýstanbul, 1993. 
+
+4.	
+Kýlýç, H. B., Yapay Sinir AðlarýÝle Karakter Algýlama, Yüksek Lisans Tezi, Gazi Üniversitesi Fen Bilimleri Enstitüsü, Ankara, 1998. 
+
+5.	
+Nabiyev, V. V., Yapay Zeka, Seçkin Yayýnevi, Ankara, 2003. 
+
+6.	
+Douglas Rohde, LENS: The Light, Efficient Neural Network Simulator, http://tedlab.mit.edu/~dr/Lens/. 
+
+
+7.Amin, A., Singh, S., “Machine Recognition of Hand-Printed Chinese Characters”, Intelligent Data Analysis-An International Journal, http://wwweast.elsevier.com/ida/browse/0102/00 08/ida00008.htm, 1, issue 2, 1998. 
+8.	
+Suen, C.Y. and Yu, C.L., “Performance Assessment of a Character Recognition Expert System”, Int. Expert Systems Application EXPERSYS 90, 195-300 1990. 
+
+9.	
+Fu, K. S., Applications of Pattern Recognition, Roca Raton, Florida, 1990. 
+
+10.	
+Masayoshi O., & Kazuhiko Y., “On-Line Handwriting Character Recognition using Direction-Change Features that Consider Imaginary Strokes”, Pattern Recognition, 32, 1115-1128, 1999. 
+
+
+
+
+

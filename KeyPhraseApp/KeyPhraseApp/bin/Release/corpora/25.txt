@@ -1,0 +1,211 @@
+ÜRETÝM ÞARTLARININ YERÇEKÝMÝNE TERS DÖKÜM YÖNTEMÝYLE ÜRETÝLEN PARÇALARIN YAPI VE MEKANÝK ÖZELLÝKLERÝNE ETKÝLERÝ
+Hasan HASIRCI ve Ferhat GÜL 
+
+Metal Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, 06500, Beþevler, Ankara, hasirci@gazi.edu.tr, fgul@gazi.edu.tr 
+(Geliþ/Received: 27.01.2005; Kabul/Accepted: 27.04.2006) 
+ÖZET 
+Bu çalýþmada, döküm sýcaklýðý ve basýncýnýn yaþ kum kalýplar kullanýlarak geleneksel yerçekimi (gravity casting) ve yerçekimine ters döküm (counter gravity casting) yöntemleri ile üretilen Al-% 10 Si alaþýmýnýn yapýve mekanik özelliklerine etkileri araþtýrýlmýþtýr. Alaþýma ait numuneler 600, 640 ve 690°C sýcaklýklarda 100, 200, 250, 300 ve 500 mmHg vakum seviyelerinde dökülmüþtür. Elde edilen sonuçlar, yerçekimine ters döküm yöntemiyle üretilen parçalarýn geleneksel döküm yöntemiyle üretilen parçalarda daha üstün mekanik özelliklere sahip olduklarýný göstermiþtir. 
+
+1. GÝRÝÞ(INTRODUCTION) seramik kalýp gibi) uygulamalarý daha önceki 
+çalýþmalarda çok sýnýrlý da olsa deðerlendirilmiþtir [1­Kaliteli, saðlam ve üstün özelliklere sahip döküm 9]. Ancak kalýp malzemesi, metalin doldurulma þekli, parçalarýn elde edilebilmesi amacýna yönelik olarak geleneksel yer çekimi döküm ile alaþýmlarýn mikro ve yapýlan çalýþmalar neticesinde yerçekimine ters makro yapýlarý ile kazandýrýlan özellikler bakýmýndan döküm (counter gravity casting) yöntemi birçok detayýn henüz tam olarak araþtýrýlmadýðýgeliþtirilmiþtir [1-9]. Bu yöntem basit bir ifadeyle sývýgörülmektedir. Daha önceleri dökümcüler tarafýndan metalin farklýþekillerde yerçekiminin tersi yönünde ergitilen metal bir piston vasýtasýyla sabit haldeki kalýba doldurulmasý esasýna dayanýr. Bu iþlemde sývýdöküm kalýbýna gönderilmek suretiyle döküm iþlemi metal basýnçlý gaz, elektromanyetik pompa ve vakum gerçekleþtirilmiþtir [4,5]. Daha sonra bu sistem yardýmý ile kalýp içerisine doldurulmaktadýr. Söz akýcýlýk, iþlem kolaylýðý, her türlü kalýp ve malzemeye konusu yöntem dökümü özel ve kontrollü yapýlmasýuygulanabilme gibi avantajlarýnýn fazla olmasýgereken alaþýmlarýn ve özellikle çok ince kesitli sebebiyle düþük gaz basýncý yardýmýyla döküm parçalarýn üretiminde baþarýlý bir þekilde iþlemlerine dönüþtürülmüþtür [2,6-9]. Basýnçla sývýkullanýlmaktadýr. Yöntemin yapýlýþý, iþlemin yapýldýðýmetalin kalýba gönderildiði sistemde, kalýp içerisinde düzenek, deðiþik kalýp malzemelerinin (kabuk kalýp, sývý metal ergitme ünitesinin de bulunduðu yalýtýlmýþ
+H. Hasýrcýve F. Gül Üretim Þartlarýnýn Yerçekimine Ters Döküm Yöntemiyle Üretilen Parçalarýn Yapý Ve Mekanik Özelliklerine Etkileri 
+bir düzenek içerisine yerleþtirilmiþtir (Þekil 1). Kalýbýn alt kýsmýnda ergimiþ metalin doldurulmasýna yarayan bir boru (gidici) bulunmaktadýr. 
+
+Þekil 1. Gaz basýncý yardýmýyla gerçekleþtirilen 
+yerçekimine ters döküm yönteminin þematik 
+gösterimi (Figure 1. Schematic illusturation of counter gravity 
+casting performed by the use of gas pressure) 
+Döküm iþlemi sývý metal üzerine basýnç uygulanmasýve bu þekilde kalýbýn doldurulmasý esasýna dayanmaktadýr. Gidicideki metal ayný zamanda besleyici görevi de yapmaktadýr. Bu durum alçak basýnçlý bu döküm yöntemi ile üretilen parçalara çok üstün özelliklerin kazandýrýlmasýna yardýmcý olur. Ýþlemlerin otomasyonu, düþük kalýp ve metal sýcaklýðýile iþlemlerin uygulanma kolaylýðý gibi açýlardan geleneksel (yer çekimi ile) döküm yöntemlerine oranla bu yöntemi avantajlý hale getirmektedir [1,3,10]. Düþük basýnç altýnda katýlaþma hýzýnýn artmasý nedeniyle dökümlerde tane boyutu ve dendrit kol aralýðý azaltýlmakta ve sonuçta mekanik özellikler iyileþtirilmektedir [1,3,10]. Ancak, sývý metalin doldurulmasý sýrasýnda uygulanan gaz basýncýnýn çalkantý oluþumu, metalin döküm sýrasýnda hýzlýkatýlaþarak akýcýlýðýn azalmasý gibi olumsuzluklar beraberinde birtakým döküm hatalarýný da getirebilmektedir. Ýþte bu nedenle geleneksel döküm yöntemlerine oranla bir çok avantajlarý bulunmasýna karþýn, vakumlu sisteme kýyasla dezavantajlarý da bulunmaktadýr [1,2]. Vakum kullanýmý ile sývý metalin kalýba dolmasýný saðlayan sistemde ise, kalýp boþluðuna sývý metalin itilmek suretiyle deðil de çekilerek veya emilerek doldurulmasý dýþýnda alçak basýnçlýgaz ile yerçekimine ters döküm yöntemi ile aralarýnda iþlemin yapýlýþý açýsýndan pek fark bulunmamaktadýr (Þekil 2). Yöntem otomasyona uygun olup, döküm sýrasýnda sývý metalin akýþý ve akýcýlýðý, çok ince kesite sahip parçalarýn üretimi, hedeflenen sýcaklýkta döküm, dökümü özel iþlem gerektiren parça ve alaþýmlarýn kontrollü atmosfer altýnda üretilebilmesi gibi bir çok faktörün kolayca kontrol edilebilmesi nedeniyle yüksek kalitede döküm parça üretimi yapýlabilmektedir [2-7,9-11].  
+Vakum yardýmýyla yerçekimine ters döküm yöntemi ile parça üretimi konusunda genel olarak yöntemin tanýtan sýnýrlý çalýþmalar bulunmaktadýr. Bu konuda vakum miktarý, döküm sýcaklýðý ve döküm iþlemlerinde dünyada en yaygýn olarak kullanýlan yaþkum kalýplarýn üretilen döküm parçalarýn yapý ve mekanik özelliklerine etkilerinin belirlenmesine yönelik çalýþma bulunmamaktadýr. Bu nedenle bu çalýþmanýn amacý sýcaklýk ve basýncýn yaþ kumdan hazýrlanan kalýplara dökülen Al -%10 Si alaþýmýnýn yapý ve mekanik özelliklerine etkilerinin belirlenmesidir. 
+2.	 DENEYSEL ÇALIÞMALAR (EXPERIMENTAL PROCEDURE) 
+Yerçekimine ters döküm yöntemi ile numune üretimi için elektrik direnç ergitme ünitesi kullanýlmýþtýr. Ergitme sýrasýnda; ocak ve sývý metalin sýcaklýðý K­tipi termokupllar yardýmýyla ölçülmüþtür. Döküm iþlemlerinde, kimyasal bileþimi Tablo 1‘de verilen %10 Si içeren ticari Al-Si döküm alaþýmý (ETÝAL 171) kullanýlmýþtýr. Çalýþmada vakum ile yerçekimine ters döküm yapýlabilmesi için çelik malzemeden özel olarak hazýrlanmýþ olan boru tipi dereceler kullanýlmýþtýr. Yerçekimi döküm iþlemlerinde ise dökümhanelerde kullanýlan geleneksel çerçeve tipi dereceler kullanýlmýþtýr. 
+Döküm iþlemleri 600, 640 ve 690°C sýcaklýlarda ve 100, 200, 250, 300 ve 500 mmHg vakum seviyelerinde hazýrlanan yaþ kum kalýplar yardýmýyla gerçekleþtirilmiþtir. Üretilen çubuk biçimindeki silindirik parçalar (Ø 20 x 200 mm) TS 138 standardýna uygun olarak Dartec 1200 tipi tahribatlýbilgisayar kontrollü numune test cihazýnda çekme deneyine tabi tutularak bunlarýn çekme dayanýmý ve % uzama deðerleri belirlenmiþtir. 
+
+1)
+
+ 2)
+ 3) 
+
+4)
+
+ 1) Hazýrlanan kalýp vakum haznesine yerleþtirilir 
+
+ 2) Kalýbýn yolluðu ergitme ocaðýna daldýrýlýp sývý metal vakum ile kalýp içerisine doldurulur (emdirilir) 
+3) Döküm parça katýlaþtýktan sonra ise vakumun kesilmesi ile yolluktaki sývý metal ocaða geri boþaltýlarak döküm iþlemi tamamlanýr. 
+ 4) Dökülen parçalar kalýptan çýkarýlýr. 
+
+Þekil 2. Vakum ile yapýlan yerçekimine ters döküm yönteminin iþlem aþamalarý [3] (Figure 2. Operation steps of vacuum counter gravity casting process) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+Tablo 1. Döküm iþlemlerinde kullanýlan Al -% 10 Si alaþýmý kimyasal bileþimi (Table 1. Chemical analysis of Al-10Si alloy used in casting process) 
+Element  Bileþim oraný (% aðýrlýk)  
+% Si  9.42  
+% Fe  0.38  
+%Cu  0.05  
+%Mn  0.431  
+%Mg  0.36  
+%Cr  0.015  
+%Ni  0.04  
+%Zn  0.06  
+%Ti  0.10  
+%Pb  0.011  
+%Al  Kalan  
+
+600°C döküm sýcaklýðý bu alaþým için çok düþük olduðundan bu sýcaklýkta geleneksel döküm yönteminde baþarýlý bir döküm yapýlamamýþtýr. Bu nedenle mekanik özellikleri test edilememiþtir. Üretilen çubuklardan alýnan numuneler metalografik hazýrlama iþlemlerinden geçirildikten sonra optik mikroskop monitörü üzerinde hazýrlanan bir skala yardýmýyla Çizgisel Kesiþme Metodu (Þekil 3) kullanýlarak incelenmiþtir. 
+Söz konusu numuneler %0,5 HCl + %99,5 saf sudan oluþan çözelti içerisinde daðlama iþlemine tabi tutulmuþtur. Döküm numunelerin yoðunluklarýnýn tespiti için Archimedes prensibi kullanýlmýþtýr. 
+
+Þekil 3. Çizgisel kesiþme metodu skalasý(Figure 3. Scale of lineer intercept method) 
+3.	 SONUÇLAR VE TARTIÞMA (RESULTS AND DISCUSSION) 
+
+
+
+3.1. Yapýsal Özelliklerin Deðerlendirilmesi (Evoluation of Structural Properties) 
+Üretilen numunelerin mikroyapýlarýný gösteren fotoðraflar Þekil 4 ve 5‘te verilmiþtir. Bu yapýlarda yer alan Si fazýnýn boyut ve þeklinin uygulanan döküm sýcaklýðý ve vakum miktarýnýn etkisiyle katýlaþma hýzý ve karakteristiðinin farklýlaþmasýna baðlý olarak deðiþtiði görülmektedir. 
+Al - %10 Si alaþýmýnýn mikroyapýsýnýn ötektik kanun olarak adlandýrýlan . (Al) fazý ile çubuk biçimindeki Si parçacýklarýnda oluþtuðu tespit edilmiþtir.  
+
+
+Þekil 4. (a) 600°C, (b) 640°C ve (c) 690°C döküm sýcaklýklarýnda geleneksel yerçekimi döküm yöntemi ile üretilen numunelerin mikroyapý fotoðraflarý(Figure 4. Micrographs of specimens produced by gravity casting process at pouring temperatures of (a) 600°C, (b) 640°C and (c) 690°C) 
+
+Þekil 5. (a) 600°C, (b) 640°C ve (c) 690°C döküm sýcaklýklarýnda yerçekimine ters döküm yöntemi ile 500 mmHg vakum uygulanarak üretilen numunelerin mikroyapý fotoðraflarý(Figure 5. Micrographs of specimens produced by counter gravity casting process at pouring temperatures of (a) 600°C, (b) 640°C and (c) 690°C and vacuum level of 500mmHg) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+H. Hasýrcýve F. Gül Üretim Þartlarýnýn Yerçekimine Ters Döküm Yöntemiyle Üretilen Parçalarýn Yapý Ve Mekanik Özelliklerine Etkileri 
+Döküm sýcaklýðýnýn azalmasýyla Si fazlarýnýn daðýlým ve biçimlerinin deðiþime uðradýðý görülmektedir. 690°C sýcaklýktaki kaba ve uzun çubuk þeklindeki Si faz boyutunun 640°C’de küçüldüðü görülmüþtür. Döküm sýcaklýðýnýn 600°C’ye düþmesi ile birlikte daha fazla deðiþim meydana gelmektedir. 600°C’de daha yüksek sýcaklýklara oranla Si fazýnýn boyutunun küçüldüðü tespit edilmiþtir. Vakum ile yerçekimine ters dökümde ise her üç döküm sýcaklýðýnda da ötektik görünümde deðiþim meydana gelmektedir. Vakum ile döküm sonucunda Si parçacýklarýnýn geleneksel yerçekimiyle döküme kýyasla kaba olan boyutlarýnýn küçülmesi neticesinde matris içerisindeki daðýlýmý artmaktadýr. Döküm sýrasýnda oluþan fazlarýn boyut ve þekillerinin katýlaþma hýzýna baðlý olarak deðiþtiði görülmektedir. Döküm sýcaklýðý arttýkça katýlaþma hýzý düþmekte ve sývýdan katý faza geçiþte daha az çekirdeklenme olmaktadýr. Çekirdekleþme hýzýnýn azalmasý sunucunda daha iri taneli yapýoluþmaktadýr [1,3,10]. Vakum uygulamasý durumunda döküm malzemenin katýlaþma hýzý ve biçimi deðiþime uðramaktadýr. Vakum uygulamasý sonucunda basýnçlýdöküm (pres döküm) uygulamalarýna benzer þekilde döküm malzemesinin katýlaþma hýzý artmakta ve katýlaþma süresi ise kýsalmaktadýr. Ýlaveten vakum ile katýlaþmanýn baþladýðý sýcaklýk da deðiþmektedir. 
+Vakum miktarý 100 mmHg’dan 500 mmHg’ya arttýðýnda katýlaþma sýcaklýðý daha da azalmakta ve katýlaþma süresi kýsalmaktadýr. Bu sonuç Þekil 6’da yaþ kum kalýpta geleneksel ve vakum ile döküm þartlarýnda elde edilen soðuma eðrilerinden net olarak görülmektedir. Vakum uygulanmasý sonucunda soðuma hýzýnýn artmasýna baðlý olarak katýlaþma hýzýnýn artmasý ile geleneksel döküme kýyasla malzemenin katýlaþma süresi daha kýsa olmaktadýr. Bu sonuçlar vakum uygulanmasý ile katýlaþmanýn daha kýsa sürede gerçekleþtiðini göstermiþtir. Hýzlýkatýlaþma sonucunda çekirdeklenme hýzý artmakta ve böylece daha küçük tane ve faz boyutlarý elde edilmektedir. Bu durum Si fazlarý arasýndaki mesafenin ölçülmesi sonucunda görülmüþtür. Üretilen alaþýma ait Si fazlarý arasýndaki mesafenin döküm sýcaklýðý ve vakum miktarýna baðlý olarak deðiþimi çizgisel kesiþme yöntemiyle incelenmiþtir. Sonuçlara bakýldýðýnda Si fazlarý arasý mesafenin geleneksel yerçekimi ile dökümlerde 600°C sýcaklýkta 10.73 µm, 640°C sýcaklýkta 12.33 µm ve 690°C sýcaklýkta ise 15 µm olduðu görülmektedir. 
+Döküm sýcaklýðýndaki artýþa baðlý olarak Si fazlarýarasýndaki mesafenin arttýðý görülmektedir. Bu durum döküm sýcaklýðýndaki artýþile birlikte Si fazýnýn kabalaþtýðýný göstermektedir. Ýlave olarak her bir döküm sýcaklýðýnda ve 500 mmHg vakum miktarlarýndaki Si fazlarý arasýndaki mesafe de ölçülmüþtür. Vakum uygulanmasý ile birlikte fazlar arasýndaki mesafenin 600°C sýcaklýkta 8.33 µm, 640°C sýcaklýkta 9.1 µm ve 690°C sýcaklýkta ise 
+13.3 µm olduðu görülmüþtür. Sonuçlar geleneksel döküm yöntemine kýyasla her bir döküm sýcaklýðýnda uygulanan vakum nedeniyle meydana gelen hýzlýkatýlaþma sonucunda fazlar arasý mesafenin azaldýðýnýgöstermektedir. Ayný zamanda vakum ile gerçekleþtirilen dökümlerde de döküm sýcaklýðýndaki artýþa katýlaþma hýzýnýn azalmasýna (Þekil 6) baðlýolarak Si fazlarý arasýndaki mesafenin arttýðý tespit edilmiþtir. Geleneksel ve 500 mmHg vakum altýnda yerçekimine ters döküm sonucunda Si fazlarýarasýndaki mesafenin deðiþimi incelendiðinde, fazlar arasýndaki mesafe deðiþimlerinin 600°C sýcaklýkta 
+
+
+Þekil 6. Geleneksel ve yerçekimine ters döküm yöntemleriyle üretilen parçalarýn soðuma eðrileri (Figure 6. Cooling curves of casting parts produced by counter gravity casting and gravity casting processes) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+% 22.36, 640°C sýcaklýkta % 27 ve 690°C sýcaklýkta ise % 11.33 olduðu görülmüþtür. Sonuçlar en fazla deðiþimin 640°C döküm sýcaklýðýnda meydana geldiðini göstermektedir. 
+
+3.2. Mekanik Deneylerden Elde Edilen Bulgularýn 
+Deðerlendirilmesi (Discussion of Mechanical Test Resuilts) 
+Mekanik deneylerden elde edilen sonuçlar Tablo 2 ve Þekil 7’de verilmiþtir. Bu sonuçlar vakum ile üretilen numunelerin geleneksel döküm yöntemiyle üretilen numunelerden daha yüksek sertlik ve çekme dayanýmýna sahip olduklarýný göstermektedir. Vakum ile döküm yapýldýðýnda kalýp içerisinden sýcaklýðýn daha hýzlý çekilmesi neticesinde döküm malzemesi daha hýzlý katýlaþmaktadýr (Þekil 6). Hýzlý katýlaþma nedeniyle dökülen numunelerde küçük boyutlu taneler oluþmaktadýr. Ayný zamanda yapý içerisindeki oluþan Si parçacýklarýnýn boyutu küçülmekte ve bunlarýn daðýlýmlarý daha homojen hale gelmektedir. Malzeme yapýsýndaki tane boyutunun küçülmesi ve sert 
+
+Tablo 2. Deðiþik sýcaklýk ve vakum þartlarý altýnda dökülen parçalarýn mekanik özellikleri (Table 2. Mechanical properties of casting parts poured at different temperatures and under different vacuum conditions) 
+Numune  Çekme Dayanýmý(MPa)  Uzama (%)  Kesit Daralmasý (%)  Sertlik (BHN)  
+1 (600°C)  (****)  (****)  (****)  62  
+1a (100 mmHg-600°C)  120  1.25  0.3  64  
+1b (200 mmHg-600°C)  125  1.55  0.3  68  
+1c (250 mmHg-600°C)  128  1.92  0.55  72  
+1d (300 mmHg-600°C)  142  2.4  0.7  74  
+1e (500 mmHg-600°C)  163  2.82  1.1  77  
+
+2 (640°C)  132  1.53  0.8  65  
+2a (100 mmHg-640°C)  142  2.36  1.2  71  
+2b (200 mmHg-640°C)  148  2.59  1.45  72  
+2c (250 mmHg-640°C)  157  3.1  1.4  73  
+2d (300 mmHg-640°C)  151  2.87  0.87  69  
+2e (500 mmHg-640°C)  135  1.78  0.78  68  
+
+3 (690°C)  127  1.92  0.72  58  
+3a (100 mmHg-690°C)  148  2.10  0.85  63  
+3b (200 mmHg-690°C)  153  2.38  1,1  65  
+3c (250 mmHg-690°C)  150  2.73  0.8  67  
+3d (300 mmHg-690°C))  143  2.7  0.75  62  
+3e (500 mmHg-690°C)  130  2.15  0.61  61  
+(****) : Döküm iþlemi sonucunda saðlam numune üretimi gerçekleþtirilememiþtir.  
+
+
+Þekil 7. Al - %10 Si alaþýmýnýn çekme dayanýmýnýn uygulanan vakum miktarý ve döküm sýcaklýðýna göre deðiþimini gösteren eðriler (Figure 7. Variation of tensile strength of Al-10%Si alloy with vacuum level and pouring temperature) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+H. Hasýrcýve F. Gül Üretim Þartlarýnýn Yerçekimine Ters Döküm Yöntemiyle Üretilen Parçalarýn Yapý Ve Mekanik Özelliklerine Etkileri 
+silisyum parçacýklarý arasýndaki ortalama uzaklýðýn azalmasý nedenleriyle üretilen Al - % 10 Si alaþýmýnýn sertlik ve çekme dayanýmý artmaktadýr [11-15]. 
+Düþük sýcaklýk ve vakum neticesinde sývý metalin akýþý çok zor olmakta ve akýcýlýk azalmaktadýr. Kalýp içerisine yeterli rahatlýkla doldurulamayan sývý metal ve hýzlý katýlaþma sonucunda gözenekler (boþluklar) oluþmaktadýr. Bu gözenekler oluþan gazlardan ziyade akýcýlýðý düþük metalin meydana getirdiði dentritlerarasý gözenekler þeklinde meydana gelmektedir. Bu durum mikroyapý incelemeleri sýrasýnda tespit edilmiþtir. Yüksek sýcaklýklarda ise kalýp içerisinde meydana gelen gazlar neticesinde gözenekler oluþtuðu görülmektedir. Oluþan gözenekler yoðunluðu düþürerek alaþýmýn mekanik özelliklerini olumsuz etkilemektedir. 600 °C sýcaklýkta özellikle 100 ve 200 mmHg vakum seviyelerinde döküm sonucunda elde edilen sertlik ve mukavemet deðerlerinin, 640 ve 690 °C sýcaklýklarýnda geleneksel yöntemle yapýlan dökümle elde edilen deðerlerden daha düþük olduðu görülmektedir. Çünkü 100 ve 200 mmHg vakum ve düþük sýcaklýk þartlarýnda sývý metal akýcýlýðýnýn azalmasý neticesinde döküm iþlemi oldukça güçleþmekte, hatta imkansýzlaþmaktadýr. Düþük sýcaklýkta döküm malzemesinin yarý katý halde olmasýve hýzlý katýlaþma (Þekil 6) sebebiyle düþük vakum seviyelerinde döküm sonucunda düþük yoðunlukta döküm parça üretimi gerçekleþtirilmektedir. Buna karþýn, düþük sýcaklýkta yüksek vakum ile döküm sonucunda özellikler iyileþmektedir. Düþük sýcaklýk ve vakum seviyelerinde düþük yoðunluk ve zayýf mekanik özelliklerin elde edilmiþ olmasý neticesinde, düþük döküm sýcaklýklarýnda yüksek vakum ile döküm yapýlmasýnýn önemli avantajlar saðlayacaðý bu çalýþma sonuçlarý ile görülmüþtür. Çünkü yüksek vakum ile sývý metal akýcýlýðý artmakta ve yoðunluðu yüksek malzeme üretimi mümkün olmaktadýr. Bu durum ise mekanik özellikleri iyileþtirmektedir. Yapýlan bu çalýþmada en yüksek dayaným, yoðunluk ve sertlik ile en düþük porozitenin 600 °C sýcaklýk ve 500 mmHg vakum seviyesindeki döküm þartlarýsonucunda elde edilmiþtir. 
+640 ve 690 °C döküm sýcaklýklarýnda elde edilen sonuçlara bakýldýðýnda ise düþük vakumda (0, 100 ve 200 mmHg) yapýlan döküm sonucunda düþük çekme dayanýmý elde edilirken, vakum miktarýnýn yaklaþýk 250 mmHg seviyelerine çýkarýlmasý durumunda en yüksek dayaným deðerlerine ulaþýlmaktadýr. Vakum miktarýnýn daha fazla artýrýlmasý ile dayaným tekrar azalma göstermektedir. En yüksek dayaným deðerlerinin 600 °C’de 500 mmHg, 640 °C sýcaklýkta 250 mmHg ve 690 °C’de ise 200 mmHg vakum seviyelerinde elde edildiði görülmektedir. Bu sonuçlar; döküm sýcaklýðýndaki artýþa baðlý olarak daha düþük vakum seviyelerinde daha yüksek dayaným elde edilebileceðini göstermektedir. Bir baþka ifadeyle yaþ kum kalýba döküm iþlemlerinde yüksek sýcaklýkta düþük basýnç ile çalýþma sonucunda çekme dayanýmý özelliklerinde artýþ saðlamaktadýr. 
+Diðer taraftan basýnçlý döküm (pres döküm) iþlemlerinde basýnç arttýkça üretilen parçalarýn mekanik özelliklerinin sürekli iyileþtiði ifade edilmektedir [13]. Ancak basýnçlý döküm iþlemlerinde metalik kalýplar kullanýlmaktadýr. Bu çalýþmada kullanýlan kalýp yaþ kum kalýp malzemesinden üretilmiþtir. Bu kalýp malzemesi silis kumu, kil (bentonit) ve nem (su) karýþýmýndan meydana gelmektedir. Yaþ kuma döküm iþlemlerinde nemden kaynaklanan gaz oluþumu nedeniyle döküm hatalarýçok sýkça görülmektedir. Yaþ kum kalýplarda yüksek döküm sýcaklýklarý ve vakum seviyelerinde gözenek artýþý kalýp malzemesindeki nem ile sývý metalin etkileþmesi sonucunda meydana gelmektedir. Yaþkum kalýplarda nem bulunmasý nedeniyle sývý metal ile karþýlaþan kalýp malzemesinde bulunan nemin 2Al + 3H2O › Al2O3 + 3H2 reaksiyonu sonucunda gaz (buhar) haline dönüþerek kalýp boþluklarýna doðru çýkmasý söz konusu olmaktadýr (Þekil 8). Bunun sonucunda oluþan gazlarýn iki farklý biçimde metal içerisinde kalabileceði düþünülmektedir. Birincisi kalýbýn doldurulmasýnýn ilk safhalarýnda, kalýp boþluðunun tam olarak sývýmetal ile doldurulmadýðýaþamada ortaya çýkan bu gazlar uygulanan vakumun etkisiyle ortamdan uzaklaþtýrýlmasý söz konusu olmaktadýr. Ancak, sývý metalin doldurulmasý ve katýlaþmanýn çok kýsa bir zamanda meydana geldiði gözden kaçýrýlmamalýdýr. Ýkinci olarak, katýlaþmanýn baþladýðý yerlerden birisinin de kalýp duvarlarýnýn olduðu göz önüne alýndýðýnda, ortaya çýkan gazlarýn bir kýsmýnýn uygulanan vakumun etkisi ile kalýp boþluðundan sývý metal dolmadan uzaklaþtýrýlabilmesi mümkün olabilmektedir. Ancak, uygulanan basýncýn vakum olmasý dolayýsýyla emme þeklinde olduðu düþünülürse, vakum uygulamasý sýrasýnda oluþan gazlarýn derin (uzun) parçalarda sývý metal içerisine çekilmesi ve hýzlý katýlaþma neticesinde kalýp boþluðu dýþýna atýlamamasý söz konusu olacaktýr. Gaz problemleri konusunda yapýlan bazý çalýþmalarda da [10,11-14] bu durumlar vurgulanmaktadýr. Bu reaksiyon sonucunda porozite (gözenek) meydana 
+
+Þekil 8. Döküm iþlemi sýrasýnda kalýpta oluþan gazlarýn metal içersindeki durumu (Figure 8. Formation of porosity inside mold during pouring) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+gelmekte ve üretilen parçalarýn özellikleri kötüleþmektedir. Porozitedeki artýþ ve yoðunluktaki azalma (Tablo 3) sonucunda dökülen alaþýmýn meka­nik özellikleri (Tablo 2) olumsuz etkilenmektedir. Bu gerçek baþka bir çalýþmada da [13] dile getirilmektedir. 
+Bu çalýþmada elde edilen sonuçlar (Tablo 3) genel olarak döküm sýcaklýðýndaki artýþa baðlý olarak yoðunluðun azaldýðýný ve gözenek miktarýnýn ise arttýðýný göstermektedir. Ayný zamanda vakum miktarýna baðlý olarak yoðunluk ve gözenek miktarlarýnýn deðiþtiði görülmüþtür. 600°C sýcaklýkta döküm sonucunda geleneksel yöntemle üretilen numuneler arasýnda en düþük yoðunluk sonuçlarýnýn elde edildiði görülmektedir. 600°C’de geleneksel yöntemle yarý-katý yada katýlaþmaya baþlayan metalin dökülebilme zorluklarýnedeniyle bu sonuç elde edilmiþtir. Geleneksel yöntemle en iyi sonuca 640°C sýcaklýkta döküm sonucunda ulaþýlmýþtýr. Sýcaklýðýn 690°C’ye yükseltilmesi ile yoðunluk tekrar azalmýþtýr. Vakum uygulamasýna baðlý olarak 600°C sýcaklýkta döküm sonuçlarý incelendiðinde, vakum miktarýndaki artýþa paralel olarak yoðunlukta artýþ, gözenek miktarýnda ise azalma görülmektedir. 640°C döküm sýcaklýðýndaki sonuçlar incelendiðinde ise; 250 mmHg vakuma kadar yoðunluðun arttýðý, ancak daha yüksek vakumlarda tekrar yoðunluðun azaldýðýgörülmektedir. 690°C sýcaklýkta elde edilen sonuçlar da benzer özellikler taþýmakta, ancak bu sýcaklýkta en yüksek yoðunluk deðerine 200 mmHg vakumda ulaþýlmaktadýr. 
+Bulunan sonuçlar, 600°C sýcaklýkta 500 mmHg’dan daha yüksek vakum seviyesinde yapýlan dökümle daha yüksek yoðunluk deðerlerinin elde edilebileceðini göstermektedir. Metal sýcaklýðýnýn çok düþük olmasý, metalin yarý-katý ya da katýlaþmaya çok yakýn bir halde bulunmasý gaz nedeniyle gözenek miktarýnýn azalmasýna sebep olurken, metalin kalýba doldurulmasýný güçleþtirmektedir. Daha yüksek sýcaklýklarda ise yaþ kum kalýplarýn bünyesindeki nem nedeniyle meydana gelen gazlarýn olumsuzluk­larýndan dolayý yüksek vakum seviyelerinde gözenek oluþumu artarken, yoðunluk ise azalmaktadýr. Ancak, 640°C sýcaklýkta elde edilen sonuçlar bu alaþýmýn yaþkum kalýplara dökümü ile genel olarak en iyi özelliklerin elde edildiðini göstermektedir. Gözenek miktarý azaldýkça yoðunluk artmaktadýr. Elde edilen sonuçlar deðerlendirildiðinde yoðunluðun artmasýna yol açan þartlarda üretilen alaþýmýn mekanik özelliklerinin iyileþtiði görülmektedir (Tablo 2). 
+Ayrýca döküm sýcaklýðý azaldýkça alaþýmýn yüzde uzama ve kesit daralmasýnýn yükseldiði görülmüþtür. 600°C sýcaklýkta en iyi sertlik ve mukavemet 500 mmHg basýnçta elde edilirken, 640°C’de 250 ve 690°C sýcaklýkta ise 200 mmHg vakum seviyelerinde elde edilmiþtir. Bu sonuçlar çekme dayanýmýnda meydana gelen deðiþim ile paralellik göstermektedir. 
+4. SONUÇLAR (CONCLUSIONS) 
+Bu çalýþmadan elde edilen sonuçlar aþaðýda verilmiþtir. 
+
+Tablo 3. Deðiþik sýcaklýk ve vakum altýnda dökülen parçalarýn bazý fiziksel özellikleri (Table 3. Some physical properties of specimens cast at different temperatures and under different vacuum conditions) 
+Numune  Yoðunluk (gr/cm3)  Gözenek (%)  
+1 (600 °C)  2,565  5,769  
+1a (100 mmHg-600 °C)  2,618  3,628  
+1b (200 mmHg-600 °C)  2,643  2,648  
+1c (250 mmHg-600 °C)  2,660  1,992  
+1d (300 mmHg-600 °C)  2,665  1,801  
+1e (500 mmHg-600 °C)  2,705  0,295  
+
+2 (640 °C)  2,648  2,454  
+2a (100 mmHg-640 °C)  2,669  1,648  
+2b (200 mmHg-640 °C)  2,678  1,306  
+2c (250 mmHg-640 °C)  2,692  0,780  
+2d (300 mmHg-640 °C)  2,666  1,762  
+2e (500 mmHg-640 °C)  2,652  2,300  
+
+3 (690 °C)  2,605  4,145  
+3a (100 mmHg-690 °C)  2,644  2,609  
+3b (200 mmHg-690 °C)  2,657  2,107  
+3c (250 mmHg-690 °C)  2,621  3,510  
+3d (300 mmHg-690 °C)  2,615  3,747  
+3e (500 mmHg-690 °C)  2,610  3,946  
+Döküm malzemesinin teorik yoðunluðu 2.7128 g/cm3’tür.  
+
+H. Hasýrcýve F. Gül Üretim Þartlarýnýn Yerçekimine Ters Döküm Yöntemiyle Üretilen Parçalarýn Yapý Ve Mekanik Özelliklerine Etkileri 
+1)Yerçekimine ters döküm iþleminde sýcaklýk ve basýnç deðiþimine baðlý olarak üretilen malzemenin yapýve özelliklerinde deðiþim meydana gelmektedir. Döküm sýcaklýðýndaki azalmaya baðlý olarak mikroyapýda bulunan Si parçacýklarýnýn küçüldüðü tespit edilmiþtir. Bu yapýsal deðiþimin mekanik özelliklerin geliþtirilmesinde etkili olduðu görülmüþtür.  
+2)Vakum uygulamasý ile üretilen alaþýmýn geleneksel döküm yöntemiyle üretilen alaþýmdan daha üstün yapý ve mekanik özellikler sergilediði görülmüþtür. 
+3)Yaþ kum kalýplarda vakum miktarýnýn döküm sýcaklýðý göz önüne alýnarak belirlenmesi gerek­tiði görülmüþtür. Yüksek döküm sýcaklýklarýnda vakum seviyesinin düþürülmesinin mekanik özelliklerin iyileþmesine katký saðlayacaðý tespit edilmiþtir. 
+4)600°C döküm sýcaklýðýnda 500 mmHg, 640°C’de 250 mmHg ve 690°C’de ise 200 mmHg vakum seviyelerinin kullanýlmasý sonucunda en üstün mekanik özelliklerin elde edilebileceði belirlenmiþtir. 
+5)Yaþ kum kalýplarda vakum ile yerçekimine ters döküm yönteminde kalýplarýn kurutulmasý ya da boyanmasý üretilen parçanýn özelliklerinin daha da iyileþmesine yardýmcý olabilir. 
+KAYNAKLAR (REFERENCES) 
+1.	
+G.D.Chandley, “Use of Vacuum for Counter Gravity Casting of Metals” Materials Res. Innovant, pp: 14-23, 1999. 
+
+2.	
+F.Ripkin and S.Lipson, “Counter Gravity Casting of Aluminum Alloys in Green Sand Molds” AFS Transactions, 67-70, pp: 581-592, 1967. 
+
+
+3.Anon, “Turning the Gating World Upside Down”, Technical Paper, Hitchiner Manufacturing Co., (www.hitchiner.com) 2003. 
+4.	G.D.Chandley, “Counter Gravity Casting of Aluminum in Investment and Sand Molds”, AFS Transactions, 86-39, pp: 209-214, 1986. 
+5.	
+S.Lipson and F.Ripkin, “Effect of Sections Thickness on the Tensile Properties of Thin-Section Aluminum Alloy Sand Casting” AFS Transactions, 69, pp: 192-197, 1969. 
+
+6.	
+G.D.Chandley and M.C.Flemings, “Gating Premium Quality Casting” AFS Transactions, 88-37, pp: 121-128, 1988. 
+
+7.	
+M.C.Flemings, H.F.Conrad and H.F.Taylor, “Aluminum Alloys Fluidity Test” AFS Transactions, 93-59, pp: 496-507, 1993. 
+
+8.	
+I.H.Katzarov and others, “Porosity Formation in axi-symetric castings produced by counter-gravity casting method” International Journal of Heat and Mass Transfer, Vol: 44, pp: 111­119, 2001. 
+
+9.	
+D.M.Stefanescu and others, “In Situ Research Utilization for Processing of Metals Alloys on Lunar and Mars Bases”, (www. Science.nasa.gov/newhome/headlines/ space98pdf/insitu.pdf) 2003. 
+
+10.	
+G.D.Chandley, “Making casting without ladles or sprues – the CLA process” AFS Transactions, 76-28, pp: 37-42, 1976. 
+
+
+11.Anon, Molding Methods and Materials, American Foundryman’s Society publications, Illinois, USA, pp: 120-300, 1962. 
+12.	
+E.S. Kim, K.H. Lee and Y.H. Moon, “A feasibility study of the partial squeeze and vacuum die casting process”, Journal of Materials Processing Technology 105, p: 42­48, 2000. 
+
+13.	
+X.P. Niu, B.H. Hu, I. Pinwill and H. Li, “Vacuum assisted high pressure die casting of aluminium alloys”, Journal of Materials Processing Technology 105, p: 119-127, 2000. 
+
+14.	
+Anson, J.P., Stucky, M. and Druzleski, J.E., “Effect of Sr modification on nucleation and growth of microporosity during the solidification of Al-7%Si foundry alloy”, AFS Transactions, 00-70, p: 419-426, 2000. 
+
+15.	
+Campbell, J. “Casting” Butterworth-Heinemann, 120-300, 1999. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+
+
+
+
+

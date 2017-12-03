@@ -1,0 +1,307 @@
+OTOMOBÝL EMNÝYET KEMERÝ KULLANILABÝLÝRLÝK TESTÝ
+Diyar AKAY ve Mustafa KURT 
+
+Endüstri Mühendisliði Bölümü, Mühendislik-Mimarlýk Fakültesi, Gazi Üniversitesi, Maltepe, Ankara, 
+diyar@gazi.edu.tr, mkurt@gazi.edu.tr 
+
+(Geliþ/Received: 19.11.2004; Kabul/Accepted: 27.02.2006) 
+ÖZET 
+Bu çalýþmada otomobillerde bulunan emniyet kemeri kullanýlabilirliði deðerlendirilmeye çalýþýlmýþtýr. Örnek olmasý amacýya ülkemizde üretilen X (üretici firma ismi ve araç modeli gizli tutulmuþtur.) marka aracýnda bulunan emniyet kemerinin kullanýlabilirliði yapýlan iki deneysel çalýþma ile incelenmiþtir. Birinci deney çalýþmasý sonuçlarý, kullanýlabilirliði olumsuz etkileyen en önemli problemin kemeri takma ve çýkarma sýrasýnda yaþanan zorlanma olduðunu tespit etmiþtir. Sürücü ve ön yolcu koltuðu arasýndaki konsolun bu probleme neden olduðu hipotezini ispatlamak amacýyla yapýlan ikinci deney çalýþmasý ile ön koltuk arasýna yerleþtirilen ve hacim olarak çok fazla yer kaplayan aksesuarlarýn emniyet kemeri konforunu olumsuz olarak etkilediði ispatlanmýþtýr. 
+
+1. GÝRÝÞsonucu savrulan bir eþya da olsa insan bedeni de olsa 
+eninde sonunda bir engelle durdurulur. Bir çarpma Dünyada her 9 saniyede bir trafik kazasýnýn olduðu ve anýnda araç saniyenin ilk on salisesinde durmakta ise her 13 saniyede bir kiþinin de trafik kazasý sonucu de eðer emniyet kemeri takýlý deðilse direksiyon, hayatýný kaybettiði düþünülürse, trafik kazalarýnýkontrol paneli ya da ön cam tarafýndan durdurulana önleyecek ve kazalardaki yaralanma düzeyini en aza kadar araç içindeki eþyalar ve araçta bulunan kiþilerin indirecek araç teknolojilerin geliþtirilmesinin bedenleri ayný hýzdaki hareketlerine devam günümüz de nedenli önemli olduðununun anlaþýlmasýedeceklerdir. Oysa doðru takýlmýþ bir emniyet kemeri da daha kolay olacaktýr. Bu teknolojilerden biri de çarpma/çarpýþma anýnda koltuktan fýrlamayýaraç içindeki yolcularýn kazalardan en düþük zararla engelleyerek, hassas ve önemli organlarýn bir yere kurtulmalarýný saðlamak amacýyla geliþtirilmiþ bir çarpmasýný önleyerek korumaktadýr [3]. kiþisel koruyucu ekipman olan emniyet kemeridir [1]. 
+Genel bir ifade ile belirtilecek olunursa emniyet Emniyet kemerinin yararlarý, kaza kategorilerinin kemeri kullanýmýnýn zorunlu olduðu ülkelerdeki ölüm hepsinde görülmektedir. Fakat ölüm ve aðýr yaralan ve yaralanma oranlarý, kullanýmýn zorunlu olmadýðýmanýn en çok meydana geldiði çarpma/çarpýþma ülkelere göre % 40 daha azdýr. Bununla beraber kazalarýndaki yararlarý daha dikkat çekicidir. Emniyet birçok ülkede emniyet kemeri zorunlu olmasýna kemeri kullanýmý ölüm ve aðýr yaralanmalarý % 45 raðmen çoðu insan rahatsýzlýk verdiði için emniyet gibi büyük bir oranda azaltmaktadýr [2]. Çarpma kemerini kullanmak istememektedirler. Emniyet kemeri ile ilgili en önemli þikayetlerin kemeri takma ve çýkarma sýrasýnda yaþanan zorluklar, kemerin uzun süreli takýlý kalmasý nedeniyle karþýlaþýlan boyun, omuz ve göðüs bölgesindeki rahatsýzlýklar olduðu tespit edilmiþtir. Ayný çalýþmada emniyet kemeri kullanmamaya neden olarak konforsuzluðun % 33 ile unutkanlýk ve kemeri takma konusunda tembellik faktörünün ardýndan ikinci sýrada olduðunu göstermiþtir [4]. 
+Motor Industry Research Association’ýn 1980 yýlýnda yaptýðý bir çalýþmada katýlýmcýlarýn %84’ü kullanmýþolduklarý araçlarýn emniyet kemeri tasarýmýnda bir veya birden fazla ergonomik sorun olduðuna deðinmiþlerdir [5]. Balcý vd. çalýþmalarýnda 40 yaþüstü kiþilerin ve erkeklere oranla bayanlarýn emniyet kemerinden daha fazla þikayette bulunduklarýna dikkat çekmiþlerdir [6]. 
+Günümüzde insanlarýn araç içerisinde seyahat ederek geçirdikleri zaman gittikçe artmaktadýr. Bu da insanlarýn araçlardan bekledikleri konfor düzeyini artýrmaktadýr. Konfor düzeyi hem yolculuk sýrasýndaki yorgunluðu azaltmada hem de sürücü-araç etkileþim performansýný artýrarak kazalarýn önlenmesi ve emniyetli sürüþ ortamýnýn oluþturulmasýnda etkili olmaktadýr. Bu nedenle günümüzde konfor, ergonomiklik, kullanýcýmerkezli gibi kavramlar üreticiler için tasarýmýn en önemli unsurlarý haline gelmiþtir. Üreticiler yoðunlaþan rekabet karþýsýnda mevcudiyet lerini devam ettirmek, deðiþime ayak uydurabilmek için ürettikleri ürünleri kullanýcý açýsýndan deðerlendirmek ve kullanýcý beklentilerini karþýlamak zorundadýrlar. Üretilen bir ürünün, piyasada tutunabilmesi için kullanýcýlarýn memnuniyetini kazanmasý gerekmektedir. Ýþte bu noktada “kullanýcý­merkezli tasarým” yaklaþýmý karþýmýza çýkmaktadýr (7,8). Kullanýcý-merkezli tasarým yaklaþýmýnýn üzerinde yoðunlaþtýðý konu ise kullanýlabilirliktir. Kullanýlabilirlik kýsaca kullanýcý ile ürünün etkileþimini tanýmlayan ölçülebilir bir özellik olarak nitelendirebilinir.  
+Bir ürünün kullanýlabilirliði; fonksiyonel olmasý, fiyatý, satýþtan sonraki servis kalitesi vb. gibi kullanýcýnýn ürünü alýrken hesaba kattýðý en önemli faktörlerden biri haline gelmiþtir. Üretim teknikleri ve proseslerinin artýk teknolojik açýdan en üst seviyeye 
+Otomobil Emniyet Kemeri Kullanýlabilirlik Testi 
+ulaþtýðý düþünülürse üretim maliyeti ve kalite konusuda ki iyileþtirmelerin ürüne katkýsý marjinal olacaktýr. “Kullanýcý dostu” veya “ergonomik tasarlanmýþ” ürünleri pazara sürmek, teknik ve fonksiyonel özellikleri bakýmýndan birbirine benzer ürünlerin üretilmeye baþlandýðý pazarda tüketicilerin ürünleri satýn almasýnda bir öncelik konumunda olacaktýr. Üreticilerin reklamlarýnda veya ürün üzerinde “kullanýcý dostu”, ergonomik tasarým” gibi imaj kelimelerini daha sýk kullanmasýkullanýlabilirliðinin üreticiler içinde önemli olduðunu göstermektedir [7]. 
+Uluslararasý Standardizasyon Kuruluþu (ISO) “kullanýlabilirliði” (ISO 9241–11); bir sistemin kullanýmýyla belirlenen amaçlara ne derece ulaþýldýðýnýn (etkililik), belirlenen amaçlarýn elde edilmesi için harcanmasý gereken zaman, para, zihinsel çaba vb. kaynaklarýn (etkinlik) ve kullanýcýnýn, sistemi kabul edilebilir bulma derecesinin (tatmin) bir ölçüsü olarak tanýmlamaktadýr. Etkililik, etkinlik ve tatmin bir ürün veya sistemin kullanýlabilirliðini belirleyen önemli üç faktördür. Bu faktörleri deðerlendirebilmek için bunlarýn alt kriterlere ayrýlmasý gerekmektedir [9,10,11]. Bu alt kriterler aracýlýðýyla da sistemin kullanýlabilirliði ölçülebilir (Þekil 1). 
+Emniyet kemeri kullanýmýnýn öneminden dolayý bu ekipmanýn insan faktörleri ve ergonomi ile kriterleri yerine getirmesi gerekmektedir. Emniyet kemerininin kullanýmýiçin gereken fiziksel çaba ve kullanýcýlarýn emniyet kemerinin kabul edilebilir bulma derecesi (tatmin-memnuniyet) kullanýlabilirlik ölçütleri olarak tanýmlanabilir.  
+Emniyet kemeri kullanýlabilirliðinin bu kadar önemli olmasýna raðmen literatürde bu konuya deðinenen çalýþma sayýsý yok denecek kadar azdýr [6]. Bu çalýþmada, örnek olmasý amacýya ülkemizde üretilen X (üretici firma ismi ve araç modeli gizli tutulmuþtur.) marka aracýnda bulunan emniyet kemerinin kullanýlabilirlik düzeyinin belirlenmesi hedeflenmiþtir. Ýlgili aracýn emniyet kemerinin kullanýlabilirliðini test etmek amacýyla iki deneysel çalýþma gerçekleþtirilmiþtir. Birinci çalýþma genel olarak aracýn emniyet kemeri kullanýlabilirliðini teste yönelik bir anketten oluþmuþ ve bu anketin sonuçlarýdeðerlendirilmiþtir. Birinci çalýþma sonucu ilgili 
+
+
+Þekil 1. Kullanýlabilirlik kriterleri  
+araçta emniyet kemeri ile görülen en önemli sorun emniyet kemerini takma ve çýkarma sýrasýnda ortaya amacýyla ikinci bir deneysel çalýþma yapýlmýþtýr. Bu soruna neden olan problemi tespit etmek amacýyla ikinci bir deneysel çalýþma yapýlmýþtýr. Ýkinci çalýþma soruna neden olan probleminin kaynaðýný ortaya çýkarmak için tasarlanmýþ olan kullanýlabirlik testi ve bu testin sonuçlarýný kapsamýþtýr. 
+
+2. BÝRÝNCÝ ÇALIÞMA 
+2.1. Çalýþmada Ýzlenen Metot 
+Emniyet kemerinin takýlmasý, kullanýmý ve çýkartýlmasý süreci dikkatli bir þekilde analiz edilerek, bu süreçlerdeki problemleri tespit etmeyi saðlayacak bir anket literatürde daha önce yapýlmýþ çalýþmalardan da faydalanarak tasarlanmýþtýr [6]. Anket iki bölümden oluþturulmuþtur. Birinci bölüm sürücü bilgilerinden oluþurken ikinci bölüm emniyet kemeri ile ilgili konfor ve kullanýlabilirlik bilgilerini toplamayý amaçlamýþtýr. 
+Emniyet kemeri kullanýlabilirlik testi çalýþmasýna Gazi Üniversitesi Fen Bilimleri Enstitüsü Kazalarýn Çevresel ve Teknik Araþtýrýlmasý Ana Bilim Dalýnda yüksek lisans ve doktora eðitimine devam etmekte olan otuz kiþi katýlmýþtýr. Konu ile ilgili eðitim ve bilgi düzeylerinin yüksek olacaðý düþüncesiyle kullanýcý gurubu olarak bu kiþiler seçilmiþtir. Katýlýmcýlara çalýþmaya katýlýmlarýndan dolayýherhangi bir ücret veya ödül verilmemiþtir. Lewis iyi tasarlanmýþ bir kullanýlabilirlik çalýþmasý ile ürünle ilgili kullanýlabilirlik problemlerinin %80’ni ortaya çýkarmak için beþ kullanýcýnýn teste katýlmasýnýn yeterli olduðunu belirtmektedir [12]. Beþ sayýsýnýn yeterli olmasýna raðmen çalýþmamýzda emniyet kemeri ile ilgili tüm problemleri ortaya çýkarmak için otuz kiþiden faydalanýlmýþtýr. 
+Uygulama 3 aþamadan oluþmuþtur. Birinci aþamada, deneye katýlacak olanlara çalýþmanýn amacý ve izlenecek yöntem hakkýnda 30 dakikalýk bir birifing verilmiþtir. Bu brifing sýrasýnda anketin birinci ve ikinci bölümünde yer alan sorular katýlýmcýlara açýklanmýþ ve birinci bölümdeki sorularýn (kiþisel bilgiler, araç ve emniyet kemeri kullaným tarzlarý) cevaplanmasý istenmiþtir. Bu iþlemin ardýndan kullanýcýlara 10’ar dakikalý süre verilerek araçla ilgili (X aracý) önceden belirlenmiþgörevleri (araca bin, kemeri tak, aracý çalýþtýr, belirlenmiþ güzergahta turunu yap, park et, emniyet kemerini çýkart) yapmalarý istenmiþtir (Tüm testler trafiðe kapalýortamda gerçekleþtirilmiþtir.). Böylece hem emniyet kemerini takma ve çýkarma sýrasýndaki sorunlar hem de yolculuk sýrasýnda emniyet kemerinin takýlý olduðu zaman boyunca ortaya çýkan problemler tespit edilmiþtir. Uygulamanýn üçüncü aþamasýnda ise her bir kullanýcýdan görevi tamamlar tamamlamaz anketin ikinci kýsmýnda 
+D Akay ve M. Kurt 
+yer alan sorularý (emniyet kemerinin konfor ve kullanýlabilirliðine yönelik sorular) cevaplamalarýistenmiþtir. 
+
+
+2.2. Birinci Çalýþma Verilerinin Analizi 
+
+2.2.1. Katýlýmcýlarýn özellikleri 
+Çalýþmanýn sonuçlarý incelendiðinde katýlýmcýlarýn büyük çoðunluðunu (%90) erkeklerin oluþturduðu görülmüþtür. 25-45 yaþgrubundaki erkekler toplam erkeklerin %88.9’unu, 18-35 yaþ arasýndaki kadýnlar da toplam kadýnlarýn %89’unu kapsamýþtýr. Katýlýmcýlarýn %44.4 araç testi sýrasýnda ince kýyafet, %55.6’sý ise orta kalýnlýkta kýyafet giymiþlerdir. Kullanýcýlarýn ortalama boy uzunluðu 176 cm ve ortalama aðýrlýðý 75 kg’dýr. 
+Ortalama olarak katýlýmcýlarýn 10 yýldýr ehliyete sahip olduklarý tespit edilmiþtir. Tablo 1 araç kullaným sýklýðý ve süresi ile ilgili bilgileri göstermektedir. Katýlýmcýlarýn %60’ý haftada 3-4 kere ulaþým için araçlarýný kullanýrken, ortalama yolculuklarý 10-30 dakika arasý (% 26.7) sürmektedir. Ortalama olarak bir yolculuðun süresinin 10-30 dakika arasý sürmesine raðmen deneye katýlanlarýn %60’ý sürekli olarak, %26.7’si ise genellikle emniyet kemerini kullanmaktadýrlar (Tablo 2). 
+Emniyet kemerini her zaman/sürekli kullanmayanlara (bu grup katýlýmcýlarýn %40’ýný oluþturmaktadýr), kemeri kullanmama sebebleri sorulduðunda Þekil 2’deki sonuçlar elde edilmiþtir. Emniyet kemeri takmamanýn en önemli sebebi “unutkanlýk” olarak ortaya çýkmýþtýr. Unutkanlýktan sonraki en önemli sebep kemerin konforsuz ve rahatsýz verici olmasýolarak tespit edilmiþtir. 
+Anketin birinci bölümünde son soru olan arabaya biniþte öncelikle yapýlan iþleme cevap olarak katýlýmcýlarýn % 87’si önce koltuðu ayarlayýp sonra emniyet kemerini taktýklarýný, %13’ü ise önce emniyet kemerini takýp sonra koltuðu ayarladýklarýnýbelirtmiþlerdir. Bu da bize emniyet kemerinin 
+Tablo 1. Araç kullaným süresi ve sýklýðý yüzdeleri 
+
+Sýklýk (%)  
+Her gün  Haftada  3-4 gün  Haftada bir kez  
+Ortalama yolculuk süresi  < 10 dak.  3.3  3.3  0  
+10-30 dak.  16.7  26.7  6.7  
+30-60 dak.  10.0  23.3  0  
+> 60 dak.  3.3  6.7  0  
+Toplam  33.3%  60.0  6.7  
+
+Tablo 2. Emniyet kemeri kullanma sýklýðý (%) 
+Her zaman/sürekli  60.0%  
+Genellikle  26.7%  
+Arada bir/nadiren  13.3%  
+Kullanmýyorum  0%  
+
+
+konforsuz olmasýna yol açan faktörün, koltuk ayarýndan farklý bir faktör olduðunu iþaret etmektedir 
+
+
+2.2.2. Kullanýlabilirlik ve konfor sonuçlarý
+Emniyet kemerini almakta/kavramakta zorlanýyormu sunuz sorusuna katýlýmcýlar, %80 gibi büyük bir oranda zorlandýklarýný belirtmiþlerdir. Emniyet kemerinin çok yüksek veya düþük konumda kalmasý %83.3 oranýyla emniyet kemeri tokasýnýalmaktaki sorun olarak ön plana çýkmýþtýr (Tablo 3). 
+Tablo 3. Emniyet Kemerini kavramada zorlanmaya 
+neden olan faktörler 
+Sýklýk  Yüzde  
+Kemer çok geride  Evet  18  %60  
+kalýyor  Hayýr  12  %40  
+Çok yüksek veya çok  Evet  25  %83.3  
+düþük konumda kalýyor  Hayýr  5  %16.7  
+Kemeri bulmak çok zor  Evet  15  %50  
+Hayýr  15  %50  
+
+Emniyet kemerini takma sýrasýnda karþýlaþýlan sorunlara bakýlacak olunursa deneye katýlan her üç kiþiden biri emniyet kemerini tokasýnýn ulaþýmýnýn zor bir yere konumlandýrýlmasý, emniyet kemerini kilitleyecek tokayý bulamama, kilitlemek için iki el kullanma ihtiyacý veya çok fazla güç harcama gereksinimi sorunlarýyla karþýlaþtýklarýný belirtmiþ­lerdir (Tablo 4). Bu sorunun ön koltuklarýn arasýna 
+Tablo 4. Kemeri takma sýrasýnda karþýlaþýlan sorunlar 
+Kemeri takma sýrasýnda karþýlaþýlan sorunlar  Sýklýk  
+Emniyet kemerinin tokasý ulaþýmý zor bir yere konumlandýrýlmýþ 20  
+Emniyet kemerinin tokasýný bulmakta zorlanýyorum  15  
+Emniyet kemeri tokasýný yuvaya kilitlemek için çok fazla güç harcamam gerekiyor  12  
+Emniyet kemerini takmak için her iki elimi de kullanmam gerekiyor  11  
+Çok kalýn giysi giydiðim zamanlarda kemeri takmakta zorlanýyorum  6  
+
+Otomobil Emniyet Kemeri Kullanýlabilirlik Testi 
+monte edilmiþ konsoldan kaynaklandýðý düþünül­mektedir. Kemer takýlý iken en çok karþýlaþýlan sorun %30 gibi bir oranla baþýn yan tarafa çevrilmesi durumudur (Tablo 5). Kemerin sýký durmasý (özelikle küçük frenleme durumunda bile gerginliðin artmasý) %23 oranýyla ikinci sýk karþýlaþýlan sorun olarak gözükmektedir. Katýlýmcýlarýn %23’ü de emniyet kemeri takýlý durumda iken herhangi bir sorunla karþýlaþmadýklarýný belirtmiþlerdir. 
+Tablo 5. Kemer takýlý durumdayken karþýlaþýlan sorunlar 
+Sorun  %  
+Baþýmý çevirdiðim zaman kemer rahatsýz ediyor  30  
+Bazý zamanlar kemer çok sýký konumda duruyor  23  
+Hayýr hiçbir sorunla karþýlaþmýyorum  23  
+Kemer yana bakýþ açýlarýmý sýnýrlandýrýyor  17  
+Kemer bel bölgesinde çok sýký/çok gevþek  10  
+Kemer geniþlik olarak çok geniþ/çok dar geliyor  10  
+
+Yaþ gruplarýna göre araçtaki emniyet kemerinin konforu ile ilgili olarak Þekil 3’deki sonuçlara ulaþýlmýþtýr. Grafik incelendiðinde görüleceði üzere hiçbir kullanýcý seçeneklerde olmasýna raðmen “çok konforlu” seçeneðini iþaretlememiþtir. 35-45 yaþgrubundakilerin “konforlu” seçeneðini seçme oranýfazla iken, 18-25 ve 25-35 yaþ grubundakiler, kemerin kullaným açýsýndan “konforsuz” ve “çok konforsuz” olduðunu belirtmiþler dir. Yaþ ile konfor seviyesi arasýnda iliþki olup olmadýðýný incelemek üzere yapýlan korelasyon analizi sonucunda 0.37 gibi düþük bir korelasyon deðeri bulunmuþtur. Bu da yaþ gruplarýile konfor seviyesi arasýnda bir iliþki olmadýðýnýgöstermiþtir. 
+Emniyet kemerinin yükseklik ayarýyla ilgili olarak 12 kiþi ayar düðmesinin çok geride veya yan taraflarýnda kaldýðýný belirtirken, 11 kiþi de emniyet kemerinin yükseklik ayarýyla ilgili bu özellikten haberdar olmadýklarýný söylemiþlerdir. Ayrýca ayar düðmesinin küçüklüðü ve ayar için çok fazla efor harcama sorun olarak ortaya çýkmýþtýr. 
+Emniyet kemerini çýkarma sýrasýnda karþýlaþýlan sorunlar incelendiðinde kemeri serbest býrakmayýsaðlayan butonun yerini bulmakta zorlanma % 43 (13/30=0.43) oranýyla en çok þikayet edilen durum olarak belirlenmiþtir. 
+Katýlýmcýlardan yalnýzca 3 kiþinin kemeri çýkarma sýrasýnda bir problemle karþýlaþmadýklarýný belirtmesi kullanýlabilirlik açýsýndan bir sorun olduðunun göstergesidir (Tablo 6). 
+X aracýnda ön koltuklarýn arasýna monte edilmiþkonsol butonu zor bulma nedeni olarak düþünülmektedir. Katýlýmcýlar genel olarak kemeri 
+
+80 
+60 
+Yüzde 
+40 
+20 
+0 
+Tablo 6. Emniyet kemerini çýkarma sýrasýnda karþýlaþýlan problemler 
+Sýklýk  
+Kemeri serbest býrakmayý saðlayan butonun yerini bulmakta zorlanýyorum  13  
+Butona ulaþmakta zorlanýyorum. Uzanma mesafesi çok fazla  12  
+Butona basýp kemeri serbest býrakmak için gerekli kuvvet çok fazla  7  
+Buton çok küçük  6  
+Bu iþlemi yapmak için her iki elimi de kullanmam gerekiyor  6  
+Herhangi bir sorunla karþýlaþmýyorum  3  
+
+serbest býrakmayý saðlayan butonun bulunmasýndan ve kemeri serbest býrakma sýrasýnda iki eli birden kullanma veya kemeri býrakma sýrasýnda aþýrý kuvvet kullanmaktan þikayet etmektedirler. Butonunun büyüklüðü ve butona basarak kemeri býrakma için harcanan güç miktarýnýn insan performans sýnýrlarýnýdikkate alarak tasarlanmamasý bu problemleri ortaya çýkarmýþtýr. 
+Kemeri çýkarttýktan sonra yuvasýna hareketi sýrasýnda en çok karþýlaþýlan sorun geri gitme iþlemine yardýmcýolmak için ellerin sürekli kullanýlmasý ihtiyacýdýr (Tablo 7). 
+Tablo 7. Emniyet kemerini çýkardýktan sonra 
+yuvasýna doðru hareketi sýrasýnda karþýlaþýlan 
+problemler 
+Sýklýk  
+Kemerin geri gitme iþlemine yardýmcýolmak için ellerimi kullanarak kemeri yönlendirmek zorunda kalýyorum  15  
+Herhangi bir sorunla karþýlaþmýyorum  9  
+Kemer çok hýzlý/çok yavaþ geri gidiyor  7  
+Kemer, yerinden çýkýp makaraya doðru hareket ederken dolaþýp karýþýyor  5  
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+Tablo 8. Emniyet kemerinin sürüþ performansýüzerine etkisi 
+Sýklýk  
+Rahatsýz edici,dikkat daðýtýcý 17  
+Olumsuz olarak etkilemiyor  7  
+Yan pencerelere bakýþ açýmý sýnýrlýyor  5  
+
+Emniyet kemerinin sürüþ performansýný nasýl etkilediði sorulduðunda; 30 kiþiden 17’si kemeri rahatsýz edici ve dikkat daðýtýcý olarak sýnýflandýrmýþtýr (Tablo 8). 
+Emniyet kemerinin sürüþ performansýný nasýl etkilediði sorulduðunda; 30 kiþiden 17’si kemeri rahatsýz edici ve dikkat daðýtýcý olarak sýnýflandýrmýþtýr (Tablo 8). 
+
+
+
+2.3. Birinci Çalýþmanýn Sonuçlarý
+Birinci çalýþma sonuçlarý genel olarak incelendiðinde X aracýndaki emniyet kemerinin konforsuz olduðu sonucuna ulaþýlmýþtýr. Anket sonuçlarý incelendiðinde, kemeri takma ve çýkarma sýrasýnda yaþanan zorluklarýn konforsuzluða yol açan en önemli problem olarak tespit edilmiþtir. Sürücü ve ön yolcu koltuðu arasýnda konulmuþolan konsolun bu probleme neden 
+
+
+
+Kemer takýlýkonumdayken, kemerin konforu hakkýndaký düsünce 
+
+
+Çok konforsuz 
+
+
+Konforsuz 
+
+
+Az konforlu 
+
+
+Konforlu 
+
+
+Þekil 3. Yaþ gruplarýna göre kemer konfor deðerlendirmesi 
+olduðu düþünülmüþtür (Þekil 4). Problemin gerçekten konsoldan kaynaklanýp kaynaklanmadýðýný tespit etmek amacýyla ikinci bir deney çalýþmasý yapýlmýþtýr. 
+
+
+
+3. ÝKÝNCÝ ÇALIÞMA VE ÇALIÞMADA ÝZLENEN METOT 
+Ýkinci deney çalýþmasý konsolun gerçekten emniyet kemeri kullanýlabilirliðine etki edip etmediðini test etmek amacýyla yapýlmýþtýr. Bu amaçla 3 farklý aracýn emniyet kemeri test edilmiþtir. X aracý (ön koltuklar arasýnda konsolun bulunduðu model), Y aracý (X aracýnýn baþka bir versiyonu olup, koltuklar arasýnda konsol bulunmamaktadýr.) ve Z aracýnýn (X aracýndan farklý bir model) emniyet kemer konforlarýný ölçme ve analiz etmeye yönelik bir deney tasarlanmýþtýr. Deneyde kullanýlan araçlardan X, Y araçlarý 2004 model ve Z aracý ise 2000 modeldir. 
+Bu üç aracýn seçilmesinin nedeni X aracýnda ön koltuklar arasýnda bir konsol bulunurken, Y ve Z araçlarýnda benzer bir aksesuarýn bulunmamasýdýr. X aracýnda konsol kullanýmýile hem küçük eþyalarýn saklanabileceði bir göz hem de elin kolun yatay pozisyonda üzerinde rahatça durabileceði bir alan yaratýlmak istenmiþtir (Þekil 5a). Temel olarak X ve Y araçlarýnda kullanýlan el freni dizayný uçaklarda kullanýlan dizayna benzemektedir. Y aracýnda ise konsol bulunmamasýna raðmen el freninin dizaynýnda kullanýlan farklý yapýnýn kullanýlabilirliði olumsuz olarak etkilediði düþünülmektedir (Þekil 5b). Z aracýnda (Þekil 5c) ise ön koltuklar arasýnda kemeri takmayý/çýkarmayý zorlaþtýracak yüksek hacimde yer kaplayan bir aksesuar bulunmamaktadýr. 
+Araçlardaki kemer konforunu test etmek üzere yapýlan deneye; yaþ ortalamasý 23 standart sapmasý 3 olan altýsý erkek, altýsý kadýn 12 üniversite öðrencisi katýlmýþtýr. Deneye katýlacak kiþilere deneyden önce çalýþmanýn amacý, izlenecek yöntem ve prosedürler anlatýlmýþtýr. 
+Deneye baþlamadan önce ayrýca tüm kullanýcýlara her üç araçta koltuk ayarýnýn nasýl yapýlmasý gerektiði hakkýnda bilgi verilmiþtir. Kullanýcýlardan her bir araç için, Tablo 9’da gösterilmiþ iþlemleri sýrasýyla yapmalarý istenmiþtir. Her bir araç için bu iþlemlerin tamamlanmasýnýn ardýndan Þekil 6’daki konfor skalasý üzerinde (yatay doðru) kullanýcýlarýn dikey bir çizgi ile emniyet kemeri konforunu ölçmeleri istenmiþtir. Konfor skalasý üzerinde sol tarafa gidiþkonforsuzluðu sað tarafa doðru gidiþ ise konforun arttýðýný göstermektedir. Dikkat edileceði üzere skala üzerinde karar vermede zorluða yol açan herhangi bir sayýsal ifade yer almamýþtýr. Skala çok konforsuzdan (0 puan) çok konforluya (100 puan) doðru olacak þekilde milimetrik olarak ölçeklendirilmiþtir (9). 
+Deneyde rassallýðý saðlamak ve öðrenme etkisini (tekrarlý yapýlan iþlerin daha kolay ve hýzlý yapýlmasý) mümkün olduðunca en aza indirmek etmek için kullanýcýlarýn araçlarý test sýrasýnýn belirlenmesinde tamamen dengelenmiþ tasarým sýrasý (completely counterbalanced order design) yaklaþýmý kullanýlmýþtýr [13]. Böylece tüm kullanýcýlarýn araçlara biniþ sýrasýnýn birbirinden farklý olmasý saðlanmýþtýr. 
+
+Tablo 9. Kullanýcýlardan yapmasý istenilen iþlemler 
+Ýþlemler sýrasý: 
+
+1.
+ Koltuða otur ! 
+
+
+2. 
+Emniyet kemerini takmadan önce koltuk ayarýný yap. 
+
+3.
+ Kemere uzan ! 
+
+4. 
+Kemeri tak ! 
+
+5. 
+Ýki elinle direksiyonu tut ! 
+
+6.
+ Kemeri çýkart ! 
+
+7. 
+1 dakika araç içinde bekle ! 
+
+8.
+ Kemere uzan 
+
+9.
+ Kemeri tak ! 
+
+
+10. 
+Baþýný önce sola sonra sað tarafa çevir ! 
+
+11. 
+Dikiz aynalarýnýn hepsine sýrayla bak ! (sol, orta, sað) 12.Ýki elinle direksiyonu tut ! 
+
+
+13. Kemeri çýkart ! 
+
+
+X aracý (a)  Y aracý (b)  Z aracý (c) Þekil 5. Ön koltuklar arasý yerleþim 
+
+Þekil 6. Konfor skalasý
+3.1. Ýkinci Çalýþma Verilerinin Analizi 
+Konfor skalasýkullanarak 12 kiþinin 3 araçla ilgili olarak deðerlendirme sonuçlarý sayýlaþtýrýlmýþ ve Tablo 10’da gösterilmiþtir. Þekil 7’de sonuçlara iliþkin boxplot grafiði çizilmiþtir. Grafik incelendiðinde Z aracý en konforlu, X aracý ise en konforsuz olarak gözükmektedir. 
+
+Tablo 10. Konfor deðerlendirmesi sonuçlarý (%) 
+
+Kullanýcýlar  X aracý  Y aracý  Z aracý  
+Erkek  1  28  50  88  
+2  18  40  80  
+3  62  44  90  
+4  15  54  31  
+5  74  72  85  
+6  56  50  70  
+Kadýn  7  22  38  58  
+8  10  16  34  
+9  18  32  76  
+10  74  30  84  
+11  56  30  74  
+12  16  38  40  
+
+faktör olarak deneye katýlan kullanýcýlarýn cinsiyeti (2 faktör seviyesi: Erkek, Kadýn) seçilmiþtir. Cinsiyet faktörü bireyler arasý faktör (between subject factor), araç tipi ise bireyler içi (within subject factor) olarak alýnmýþtýr [13]. Varyans analizi ile ilgili hesaplamalar SPSS 12.0 ile yapýlmýþtýr. Þekil 8’de araç tipine göre konfor deðerlerinin marjinal ortalamalarý görülmektedir. Ortalamalar cinsiyete göre büyük oranda deðiþkenlik göstermemekle birlikte araç tipine göre deðiþkenlik (yatay eksen üzerinde soldan saða doðru gidildikçe) oldukça fazladýr. Tablo 11’de varyans analizi sonuçlarý verilmiþtir. 
+
+Y Z 
+
+
+Konfor yüzdesi 
+Þekil 7. Konfor sonuçlarýna iliþkin boxplot grafiði 
+Araç tipine baðlýolarak konfor sonuçlarý arasýnda anlamlý bir farklýlýk olup olmadýðýný tespit etmek amacýyla 2 faktörlü çoklu varyans analizi yapýlmýþtýr. Birinci faktör olarak araç tipi alýnmýþ ve 3 faktör seviyesi (X,Y ve Z araçlarý) belirlenmiþtir. Ýkinci Tablo 11 incelendiðinde % 5 anlamlýlýk düzeyinde cinsiyet faktörü ve cinsiyet-araç tipi etkileþimi istatiksel olarak konfor üzerinde etkili bulunmamýþtýr. Araç tipinin ise emniyet kemeri konfor seviyesi üzerinde % 5 anlamlýlýk düzeyinde (p< 0.05) etkili olduðu görülmüþtür. Cinsiyet faktörünün önemsiz çýkmasý cinsiyetin konfor üzerinde etkili olmadýðýgerçeðini de ortaya çýkarmýþtýr. Analiz sonuçlarýkonfor üzerinde etkili olan en önemli faktörün araç tipi olduðunu göstermektedir. Varyans analizi ile gruplar arasýnda (araç tipleri) farklýlýk tespit edilmiþtir. 
+Bu farklýlýðýn hangi araç tipleri arasýnda olduðunu belirleyebilmek için ise post-hoc testlerinden biri olan Tukey’s HSD (Tukey’s Honestly Significant Difference) testi kullanýlmýþtýr. Tüm karþýlaþtýrmalar için toplam hatayý. seviyesinde tutabildiðinden dolayý Tukey’s testi 
+
+Tablo 11. Varyans Analizi Tablosu 
+Kaynak  Serbestlik Derecesi  Kareler Toplamý  Kareler Ortalamasý  F  P  
+Cinsiyet  1  1892.3  1892.3  2.7  0.129  
+Hata (Cinsiyet)  10  6924.1  692.4  
+Araç tipi  2  6450.1  3225.0  12.7  0.00  
+Cinsiyet x Araç tipi  2  208.5  104.3  0.4  0.669  
+ Hata (Araç tipi)  20  5090.8  254.5  
+Toplam  35  20565.6  
+
+karþýlaþtýrmalarda en çok kullanýlan testtir (13). Tukey’s HSD testini yapabilmek için CDmean (Eþitlik.1) ve faktör seviyeleri arasýndaki ortalama farklar (DÝ) hesaplanmýþtýr. 
+Ortalama Konfor(%) X aracý A1= 37.42 Y aracýA2= 41.17 Z aracýA3= 67.5 
+D1=A1-A2= -3.75 
+D2=A1-A3= -30.09 
+D3=A2-A3= -26.34 
+
+CDmean =q(rmax,dferror)* 
+MSerror/n  (1) 
+CDmean = Kritik fark rmax = Studentized range istatistiði (.=0.05) Mserror = Karþýlaþtýrmasý yapýlacak faktöre ait hata 
+teriminin kareler ortalamasý
+dferror = Karþýlaþtýrmasý yapýlacak faktöre ait hata teriminin serbestlik derecesi 
+
+CDmean =q(3,20) * 
+254.5/12 = 16.48  (2) 
+.CDmean ise .=0.05 düzeyinde karþýlaþtýrmada Di 
+kullanýlan faktör seviyeleri arasýnda anlamlý bir farklýlýk vardýr denilebilir. 
+Eþitlik 2’de kritik fark 16.48 olarak hesaplanmýþtýr. Bu deðere göre; 
+¾X ve Y araçlarýnýnýn emniyet kemeri konforu arasýnda .=0.05 anlamlýlýk düzeyinde bir farklýlýk yoktur. 
+¾X ve Z araçlarýnýnýn emniyet kemeri konforu arasýnda .=0.05 anlamlýlýk düzeyinde farklýlýk vardýr. 
+¾Y ve Z araçlarýnýnýn emniyet kemeri konforu arasýnda .=0.05 anlamlýlýk düzeyinde bir farklýlýk vardýr. 
+Karþýlaþtýrma sonuçlarý incelendiðinde X ve Y araçlarýndaki emniyet kemeri konforu arasýnda bir farklýlýk tespit edilememiþtir. Bununla beraber hem X hem de Y modellerindeki emniyet kemerleri ile Z aracýndaki emniyet kemeri arasýndaki konfor düzeyi arasýnda farklýlýk belirlenmiþtir. Bu sonuçta ön koltuk arasýna yerleþtirilen ve hacim olarak yer kaplayan aksesuarlarýn (konsol ve emniyet frenlerinin uçaklardakine benzer bir þekilde tasarlanmasý) emniyet kemeri konforunu olumsuz olarak etkilediðini ispatlamaktadýr. 
+
+
+
+4. SONUÇLAR 
+Bu çalýþmada X aracýndaki emniyet kemeri kullanýlabilirliðini test etmek için iki deneysel çalýþma yapýlmýþtýr. Genel olarak araçta bulunan emniyet kemerinin kullanýlabilirliði düþük bulunmuþtur. Emniyet kemerinin kullanýlabilirlik seviyesini düþüren en önemli sorunun ön koltuklar arasýna yerleþtirilmiþ olan ve hacim olarak yer kaplayan aksesuarlar (konsol ve el frenlerinin uçaklardakine benzer bir þekilde tasarlanmasý) olduðu tespit edilmiþtir. Araçta konsol kullanýmýile hem küçük eþyalarýn saklanabileceði bir göz hem de kolun yatay pozisyonuda üzerinde rahatça durabileceði bir alan yaratýlarak müþteri memnuniyet seviyesi artýrýlmak istenmiþtir. Fakat bunu yaparken konsol tasarýmý ile emniyet kemeri tasarýmý arasýndaki etkileþimin dikkate alýnmamasý kemerin konfor düzeyini düþürmüþtür. 
+Çalýþmanýn birinci aþamasýnda elde edilen veriler aynýzamanda kemer tasarýmýnda ergonomik açýdan gözönüde tutulmasý gereken faktörleride gün ýþýðýna çýkarmýþtýr. Bu çalýþma ayrýca otomobil üreticilerin tüm tasarým faaliyetlerinde insan faktörünü dikkate alýrken, dizayn problemlerini ve çözüm alternatiflerini çok boyutlu olarak düþünmeleri gerektiði ve tasarým parametreleri arasýndaki etkileþimlerin ürün kullanýlabilirliði üzerinde doðrudan etkili olduðu sonucunuda ortaya çýkarmýþtýr. 
+
+
+KAYNAKLAR 
+1.	Dinh-Zarr, T. B., D. A. Sleet, R. A. Shults, S. Zaza, R. W. Elder, J. L. Nichols, R. S. Thompson, ve D. M. Sosin, “Reviews of Evidence Regarding Interventions to Increase the Use of Safety Belts”, American Journal of Preventive Medicine, Cilt. 21, No. 4, pp 48–65, 2001. 
+2.	Kahane, C.J. Fatality Reduction by Safety Belts for Front-Seat Occupants of Cars and Light Trucks, DOT-HS-809-199-National Highway 
+
+Traffic Safety Administration, U.S. Department 8. Rubin, J., Handbook of Usability Testing: How of Transportation, 2000. to Plan, Design and Conduct Effective Tests, 
+3.	
+Evans, L. Traffic Safety and the Driver. Van John Wiley & Sons, 1994. Nostrand Reinhold, New York, 1991. 9. Dumas, J.S. and Redish, J.C., A Practical Guide 
+
+4.	
+Block, A.W., Motor Vehicle Occupant Safety to Usability Testing, Intellect Books, NJ, 1994. Survey. Vol. 2, Seat Belt Report, National 10. Ergonomic requirements for office work with Highway Traffic Safety Administration, U.S. visual display terminals (VDTs) -- Part 11: Department of Transportation, 2001. Guidance on usability, ISO 9241-11,1998. 
+
+5.	
+Kendall, D.L., Fowkes, M.I, Haslegrave, C.M., 11. Jordan, P.W., An introduction to usability, Taylor Comfort and Convience of Safety Belts in & Franchis, London, 1998. Everyday Use, The Motor Industry Research 12. Lewis, J.R., “Sample sizes for usability Association, 1981. studies:additional considerations”, Human 
+
+6.	
+Balci, R., Vertiz, A., Shen, W., “Comfort and Factors, Cilt 36, 368-378, 1994.  Usability of Seat Belts”, Society of Automative 13. Keppel, G., Design and Analysis: A Engineers Technical Paper, 2001-01-0051. Researcher’s Handbook, Prentice Hall, 1991. 
+
+7.	
+Jordan P.W., “Human factors for pleasure in product use”, Applied Ergonomics, Cilt 29, No 1, 25-33, 1998. 
+
+
+
+
+
+

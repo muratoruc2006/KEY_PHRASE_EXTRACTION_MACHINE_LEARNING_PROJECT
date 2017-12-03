@@ -1,0 +1,480 @@
+UÇUCU KÜLLERÝN ÝNÞAAT SEKTÖRÜNDE KULLANIM POTANSÝYELÝ
+Hüseyin Yýlmaz ARUNTAÞYapý Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, Teknikokullar, 06500 Ankara, 
+aruntas@gazi.edu.tr 
+
+ÖZET 
+Bu çalýþmada, termik santrallerden elde edilen uçucu küllerin inþaat sektöründe kullaným potansiyeli incelenmiþtir. 1970'li yýllarda bütün Dünyada yaþanan petrol krizinden sonra alternatif enerji kaynaklarýbulmaya, enerji kullanýmýný azaltmaya ve daha ekonomik malzemeler üretmeye yönelik çalýþmalar yapýlmaktadýr. Ýnþaat sektöründe de atýk malzemelerin kullanýlmasý ile ilgili araþtýrmalar halen devam etmektedir. Termik santral atýðý olan uçucu küller, çok önemli çevre kirliliðine neden olmaktadýr. Bu sebeple uçucu külün çeþitli alanlarda kullanýlmasý ve deðerlendirilmesi çok önemlidir. Uçucu külün özellikleri, bu malzemenin puzolanik bir malzeme olduðunu ve inþaat sektöründe yaygýn olarak kullanýlabileceðini göstermektedir. 
+
+1. GÝRÝÞ (INTRODUCTION) Türkiye’de halen sadece kömür ile çalýþan 15 tane 
+termik santral faaliyet göstermektedir. Bu santrallere Türkiye’de elektrik enerjisi, kömüre dayalý termik ait bilgiler, alfabetik olarak Tablo 1’de verilmiþtir [4­santrallerden ve hidroelektrik santrallerinden elde 7]. edilmektedir. Son yýllarda bunlara üçüncü olarak doðalgaz santralleri de katýlmýþtýr. Düþük kalorili Tablo 1’de görüldüðü gibi; Çatalaðzý, Çolakoðlu ve linyit kömürlerinin yakýldýðý termik santrallerde, Sugözü-Ýskenderun termik santrali haricindeki bütün elektrik üretimi sýrasýnda toz haldeki kömürün santraller, linyit kömürü ile çalýþmaktadýr. Türkiye’de yanmasýsonucu baca gazlarý ile sürüklenen ve elektro elektrik enerjisinin yaklaþýk yarýsýnýn üretildiði termik filtreler yardýmý ile tutularak atmosfere çýkýþý önlenen santrallerde [8] 55 milyon ton/yýl düþük kalorili linyit mikron boyutunda kül tanecikleri meydana kömürü yakýlmakta ve bunun sonucunda da gelmektedir. Endüstriyel bir atýk olan ve uçabilen bu bacalardan 1993 yýlý verilerine göre 13,5 milyon küllere, uçucu kül (UK) adý verilmektedir [1-4]. Bu ton/yýl, 1998 yýlý verilerine göre ise yaklaþýk 13 iþlem esnasýnda daha iri taneli olan ve baca gazlarý ile milyon ton/yýl UK elde edilmektedir [4,9]. Bu miktar, birlikte atmosfere sürüklenemeyerek kazan tabanýna A.B.D.’de 45 milyon ton/yýl ve Hindistan’da 50 düþen küllere de taban külü denilmektedir [2]. milyon ton/yýl dolayýndadýr [10,11]. 
+H.Y. Aruntaþ Uçucu Küllerin Ýnþaat Sektöründe Kullaným Potansiyeli Tablo 1. Türkiye’deki kömürle çalýþan termik santraller (Table 1. Thermal power plant in Turkey) 
+No  Santral adý  Yakýt cinsi  Kurulu güç (MW)  Bulunduðu il  
+1  Afþin-Elbistan A  Linyit  1355  Kahramanmaraþ  
+2  Afþin-Elbistan B  Linyit  1440  Kahramanmaraþ  
+3  Çan  Linyit  320  Çanakkale  
+4  Çatalaðzý Taþkömürü  300  Zonguldak  
+5  Çayýrhan Park  Linyit  620  Ankara  
+6  Çolakoðlu 2  Taþkömürü  190  Kocaeli  
+7  Kangal  Linyit  457  Sivas  
+8  Kemerköy  Linyit  630  Muðla  
+9  Orhaneli  Linyit  210  Bursa  
+10  Seyitömer  Linyit  600  Kütahya  
+11  Soma A-B  Linyit  1034  Manisa  
+12  Sugözü-Ýskenderun  Ýthal kömür  1210  Adana  
+13  Tunçbilek A-B  Linyit  429  Kütahya  
+14  Yataðan  Linyit  630  Muðla  
+15  Yeniköy  Linyit  420  Muðla  
+
+Bütün Dünyada bir yýlda üretilen toplam UK’ün ancak % 25’den daha azý deðerlendirilmektedir. Bununla birlikte Almanya, Hollanda ve Belçika’da üretilen toplam UK’ün % 95’den fazlasý, Ýngiltere’de ise yaklaþýk % 50’si kullanýlmaktadýr [12,13]. Diðer taraftan büyük miktarlarda UK üretilen A.B.D. ve Çin’de sýrasýyla yaklaþýk % 32 ve % 40 oranýnda UK kullanýldýðý görülmektedir [12]. 1990 yýlý verilerine göre Türkiye’de UK kullaným oraný, % 1’den daha azdýr [9]. Son yýllara ait yeni veriler ise elde edilememiþtir. 
+UK’lerin bacalarda tutulmasý ile günümüzün çok önemli problemlerinden biri olan hava ve toprak dolayýsýyla çevre kirliliði de kýsmen önlenmiþolmaktadýr. Öte yandan UK’lerin biriktirilmesi veya atýlmasý, önemli oranda çevre kirliliðine yol açmaktadýr. UK’lerin neden olduðu çevre problemleri arasýnda, tozlanma, tarým ürünlerine zarar verme, yaðmur ve rüzgar erozyonu, toprakta süzülme dolayýsýyla toksik madde taþýnmasý ve radyasyon sayýlabilir. Bu çevre sorunlarý nedeniyle tarým ürünleri, su ve havanýn kalitesi, doðal hayat, bölgenin ekonomik durumu ve çevre güzelliði açýsýndan istenmeyen sonuçlar ortaya çýkmaktadýr [4,14,15]. Rüzgar erozyonu ve tozlanma, UK’lerin havuzlarda çökeltilmesi veya ýslatýlarak taþýnmasý sayesinde önlenebilmektedir [4]. Yukarýda sayýlan sorunlarýn çözümlenmesi, UK’lerin çeþitli kullaným alanlarýnda deðerlendirilerek ülke ekonomisine kazandýrýlmasý ile mümkün görünmektedir. UK’lerin deðerlendirildiði sektörlerin baþýnda aðýrlýklý olarak inþaat sektörü gelmektedir. Bundan baþka UK, kimya, seramik, cam, cam-seramik, döküm-metal sanayii, tarým sektöründe zemin ýslahý, çevre, sondaj çalýþmalarý, buzlanmanýn önlenmesi ve maden ocaklarýnda filler olmak üzere çeþitli alanlarda kullanýlmaktadýr [3,15-17]. 
+1.1. UK’lerin Sýnýflandýrýlmasý(Classification of FA) 
+Bilindiði gibi kendi baþýna baðlayýcý olmayan ancak öðütülmüþ halde, normal sýcaklýkta ve rutubetli ortamlarda kalsiyum hidroksitle (sönmüþ kireç) reaksiyona girerek ilave baðlayýcý bileþikler meydana getiren silisli veya silisli ve alüminli malzemelere puzolan adýverilmektedir [18]. Puzolanlar, doðal ve yapay olmak üzere iki gruba ayrýlmaktadýr. UK, yapay puzolan sýnýfýna giren atýk bir malzemedir [7,19-21]. UK’ler, kimyasal kompozisyonlarýna göre çeþitli þekillerde sýnýflandýrýlmaktadýr. UK’ler, içerdiði analitik CaO miktarý bakýmýndan; 
+1. 
+CaO miktarý % 10’dan az olanlara düþük kireçli/kalsiyumlu UK,  
+
+2. 
+CaO miktarý % 10’dan fazla olanlara yüksek kireçli/kalsiyumlu UK, 
+
+
+olmak üzere ikiye ayrýlmaktadýr [22]. 
+UK, yapýsýndaki kireç ve SO3 miktarýna göre ise üç grupta toplanmaktadýr. Bunlar; 
+a)Esas yapýsý siliko aluminatlardan meydana gelen, SiO2+Al2O3+Fe2O3 (S+A+F) toplamý % 70’in üzerinde olan ve genellikle taþkömüründen elde edilen siliko aluminalý UK, 
+b)Genellikle linyit kömüründen elde edilen, S+A+F toplamý % 50 ile % 70 arasýnda olan ve kireç ile silika miktarý yüksek olan siliko kalsik UK, 
+c)Genellikle linyit kömüründen elde edilen, S+A+F toplamý % 50’in üzerinde olan ve diðerlerine göre daha fazla SO3 ve CaO ihtiva eden sülfo kalsik UK’lerdir [23]. 
+UK’ler, ASTM C 618’e göre de iki baþlýk altýnda toplanmaktadýr. Bunlar sýrasýyla, 1) bitümlü kömürlerden elde edilen ve S+A+F toplamý % 70’in üzerinde olan F sýnýfý UK, 2) genellikle linyit veya yarý bitümlü kömürlerden elde edilen ve S+A+F toplamý % 50’in üzerinde olan C sýnýfý UK’lerdir [22]. Yukarýda belirtilen siliko aluminalý UK, F sýnýfýndadýr. Siliko kalsik UK’lerin bazýlarý F sýnýfýiçinde, bazýlarý da C sýnýfý içinde yer almaktadýr. Sülfo kalsik UK’lerin çoðu, C sýnýfý UK olarak isimlendirilmektedir [23]. Diðer bir sýnýflandýrma, ENV 197-1’e göre yapýlmakta ve UK, iki kategoriye ayrýlmaktadýr. Buna göre UK’lü çimentolarda kullanýlacak olan UK’ler, silisli ve kalkerli UK’ler olarak sýnýflandýrýlmýþtýr [19]. 
+1.2. UK’lerin Fiziksel Özellikleri (Physical Properties of FA) 
+UK’ün fiziksel özellikleri, genel olarak termik santralde yakýlan kömürün özelliklerine ve yanma sistemine baðlý olarak deðiþiklik göstermektedir. UK, genellikle gri renktedir ve rengi, içindeki yanmamýþkarbon miktarý arttýkça daha koyu bir hal almaktadýr. UK, % 60-90 camsý bileþen ihtiva eden çok ince taneciklerden meydana gelmektedir [20,21]. UK’ün tane þekli, yuvarlaktýr ve çaplarý, 1-200 µm arasýnda deðiþir [2-4]. Taneciklerin yaklaþýk % 75’inin çapý 45 µm’den, % 50’den çoðu ise 20 µm’den daha küçüktür [2,3]. UK’ün yoðunluðu, 2.2­
+2.7 g/cm3 dolayýndadýr [3]. UK’ün özgül yüzeyi, çimento inceliðine yakýn olup öðütme yapýlmadan kullanýlabileceðini göstermektedir [9]. UK’lerin fiziksel özellikleri Tablo 2’de özetlenmiþtir. 
+Tablo 2. UK’lerin fiziksel özellikleri (Table 2. 
+Physical properties of FA) 
+Çap (µm)  Þekil  Renk  Yoðunluk (g/cm3)  Ýncelik  
+1­200  Yuvarlak  Gri  2.2-2.7  ~ Çimento inceliðinde  
+
+1.3. UK’lerin Kimyasal Kompozisyonlarý(Chemical Compositions of FA) 
+UK’lerde S+A+F toplamýnýn, genellikle % 70 deðerinden fazla olduðu ve ASTM C 618’deki þartýn saðlandýðý görülmektedir. Kullanýlan kömür cinsine baðlý olarak bazýUK’lerde önemli oranda CaO bulunmaktadýr. CaO miktarý % 10’un altýnda olan UK’ler, düþük kireçli veya düþük kalsiyumlu, % 10’un üstünde olanlar ise yüksek kireçli veya 
+H.Y. Aruntaþ 
+yüksek kalsiyumlu UK olarak adlandýrýlmaktadýr. ASTM C 618’e göre UK’ler, S+A+F toplamý % 70’in üzerinde ise F sýnýfý UK, S+A+F toplamý % 50’nin üzerinde ise C sýnýfý UK olarak gruplandýrýlmaktadýr [22]. Türkiye’de elde edilen bazý UK’lerin kimyasal kompozisyonlarý, TS 639 ve ASTM C 618 sýnýr deðerleri ile birlikte Tablo 3’te verilmiþtir [4,9,22,24,25]. Afþin-Elbistan UK’ü dýþýnda diðerlerinin genel olarak TS 639’da belirtilen sýnýr deðerlere uygun olduðu, ASTM C 618’e göre ise Afþin-Elbistan UK’ünün C sýnýfý, diðer UK’lerin F sýnýfý olduðu görülmektedir. 
+
+1.4. UK’lerin Mineralojik Yapýlarý(Mineralogical Compositions of FA) 
+UK’lerin puzolanik özellikleri, kimyasal bileþiminden daha çok mineralojik yapýlarý ile iliþkilidir. Düþük kireçli UK’lerin ana aktif bileþeni, silis ve aluminadan oluþan amorf ya da camsý fazdýr. Bu tip UK’ler, rutubetli ortamda sönmüþ kireç (CaOH2) ile reaksiyona girdikleri için puzolanik özelliðe sahiptirler. Yüksek kireçli UK’ler ise, hem puzolanik özellik gösterirler hem de sahip olduklarý serbest kireç, trikalsiyum aluminat, amorf silis ve alumina vb. sebebiyle kendi baþlarýna bir miktar baðlayýcý özelliðe sahip olabilirler [4]. Tipik bir F sýnýfý UK’ün SEM’deki görüntüsü Þekil 1’de gösterilmiþtir [2]. Görüldüðü gibi UK tanecikleri, yuvarlak bir þekle sahiptir. 
+Düþük kireçli UK’lerdeki camsý faz miktarý, yüksek kireçli UK’lerden daha fazladýr. Düþük kireçli UK’lerde mineral faz olarak; camsý faz, mullit(Al6Si2O13), hematit (Fe2O3), manyetit (Fe2O4), kuvartz(SiO2) vb. var iken yüksek kireçli UK’lerde sayýlanlara ek olarak serbest kireç(CaO), anhidrit(CaSO4), trikalsiyum aluminat (Ca3Al2O6), plajiyoklaz, gehlenit, feldspat gibi kalsiyum silikatlar bulunmaktadýr [4,26]. Türkiye’deki bazý UK’lerin mineralojik kompozisyonlarý Tablo 4’de verilmiþtir [9]. 
+
+Tablo 3. Türkiye’deki bazý UK’lerin kimyasal kompozisyonlarý (Table 3. Chemical compositions of some fly ashes in Turkey) 
+Bileþim  Afþin- TS 639  ASTM C 618 sýnýrlarý 
+(%)  Elbistan  Çatalaðzý Tunçbilek  Çayýrhan  sýnýrlarý F  C  
+SiO2  27.4  56.8  58.59  49.13  - - - 
+Al2O3  12.8  24.1  21.89  15.04  - - - 
+Fe2O3  5.5  6.8  9.31  8.25  - - - 
+S+A+F  45.7  87.7  89.79  72.42  >70  >70  >50  
+CaO  47.0  1.4  4.43  13.2  - - - 
+MgO  2.5  2.4  1.41  4.76  <5  <5  <5  
+Na2O  (N+K) 0.3  (N+K) 3.0  0.24  2.2  - <1.5  <1.5  
+K2O  - - 1.81  1.76  - - - 
+SO3  6.2  2.9  0.41  3.84  <5  <5  <5  
+K.K  2.4  0.6  1.39  0.72  <10  <12  <6  
+
+H.Y. Aruntaþ Uçucu Küllerin Ýnþaat Sektöründe Kullaným Potansiyeli 
+Tablo 4. Türkiye’deki bazý UK’lerin mineralojik kompozisyonlarý(Table 4. Mineralogical compositions of some fly ashes in Turkey) 
+Mineral, %  Uçucu kül  
+Afþin-Elbistan  Çatalaðzý  Seyitömer  Soma B  Tunçbilek  Yataðan  
+Mullit  1.0  18.1  1.2  4.3  8.8  6.0  
+Kuvartz  4.5  10.9  5.6  5.1  13.9  22.4  
+Manyetit  0.8  0.2  2.5  0.6  4.1  2.9  
+Hematit  4.0  0.1  6.0  2.0  3.0  7.0  
+Anhidrit  12.2  - 9.3  7.4  - - 
+Serbest CaO  18.6  0.7  5.5  9.8  0.9  1.0  
+Plajiyoklaz  ~28  - ~15  ~20  - ~25  
+Camsý ve amorf faz  ~30  ~70  ~50  ~50  ~70  ~35  
+
+
+1.5. Türk Standartlarýnda UK (FA in Turkish Standards) 
+Türk Standardlarý Enstitüsü, UK ile ilgili olarak beþtane standart yayýnlamýþtýr. Bunlar sýrasýyla, TS 639 [25], TS 640 [27], TS EN 450 [28], TS EN 451-1 [29] ve TS EN 451-2 [30] standartlarýdýr. Bu standartlara ait bilgiler, Tablo 5’te sunulmuþtur. TS 640, AB’ye uyum çerçevesinde yürürlükten kaldýrýlmýþ ve yerine TS EN 197-1 “Çimento-Bölüm 1: Genel Çimentolar” standardý uygulamaya konulmuþtur [31]. 
+2. ÝNÞAAT SEKTÖRÜNDE UK KULLANIMI (FLY ASH USAGE IN CONSTRUCTION SECTOR) 
+Dünyada 1970'li yýllarda baþlayan petrol krizinin ardýndan enerji kullanýmýný azaltmaya ve alternatif malzemelerin kullanýlmasýna yönelik çalýþmalar artarak devam etmektedir. UK’lerin fiziksel, kimyasal ve mineralojik özellikleri incelendiðinde, bunlarýn inþaat sektöründe rahatlýkla kullanýlabileceði ve dolayýsýyla bir yandan malzeme ve enerji üretiminde ekonomi saðlanýrken diðer taraftan çevre kirliliðinin önlenmesi ile ekolojik dengenin korunmasý da mümkün görülmektedir. Ýnþaat sektöründe UK; çimento, beton, agrega, kerpiç, tuðla, gaz beton ve yalýtým malzemesi üretiminde, baraj ile yol yapýmýnda ve geoteknik uygulamalarda kullanýlmaktadýr. Türkiye ve Dünyada UK’lerin inþaat sektöründe kullanýldýðý alanlar Tablo 6’da özetlenmiþtir. 
+Türkiye’de UK kullanýmýna ait detaylý veriler bulunmamakla birlikte genellikle çimento ve tuðla üretimi ile baraj yapýmýnda kullanýldýðý görülmektedir [9]. Avrupa’da inþaat sektöründe UK kullanýmýna örnek olarak Ýngiltere’deki durum Þekil 2’de 
+Tablo 6. UK’lerin inþaat sektöründe kullanýldýðýalanlar (Table 6. Using areas in construction sector of fly ashes) 
+Malzeme  Kullaným amacý / yeri  
+Çimento  Hammadde, katký ve ikame malzemesi olarak  
+Agrega  Ýnce agrega, iri agrega ve hafif agrega olarak  
+Beton  Katkýve ikame malzemesi olarak  
+Tuðla, ateþ tuðlasý Katký malzemesi olarak  
+Kerpiç  Baðlayýcý malzeme olarak  
+Yapý malzemeleri  Blok, panel, duvar, gaz beton, beton boru, cam, boya, seramik, plastik, harç  
+Çeþitli yapýlar / uygulamalar  Baraj, otoyol, nükleer santral, geoteknik uygulamalar  
+
+
+Tablo 5. UK ile ilgili Türk Standartlarý(Table 5. Turkish Standards concerning FA) 
+Standart no  Standardýn adý  Açýklama  
+TS 639  Uçucu küller-çimentoda kullanýlan  Tarifi, sýnýflandýrýlmasý, özellikleri, deney metotlarý ve kalite kontrolü  
+TS 640  Uçucu küllü çimento  Fiziksel, kimyasal ve mekanik özellikleri ve deney metotlarý  
+TS EN 450  Uçucu kül-betonda kullanýlan  Özellik ve kalite kontrolü  
+TS EN 451-1  Uçucu kül-Deney metodu-Bölüm 1  Serbest kalsiyum oksit tayini  
+TS EN 451-2  Uçucu kül-Deney metodu-Bölüm 2  Islak eleme ile incelik tayini  
+
+
+Þekil 2. Ýngiltere’deki termik santrallerden elde edilen UKlerin kullaným alanlarý [32] (Figure 2. Usage of coal fired power station products in the UK [32]) 
+gösterilmiþtir. Ýngiltere’de UK’ün aðýrlýklý olarak beton, hafif beton blok ve gaz beton blok üretiminde kullanýldýðý görülmektedir. 
+2.1. Çimentoda UK Kullanýmý( Usage FA in Cement) 
+Ýnþaat sektöründe UK’ün yaygýn olarak kullanýldýðýalanlarýn baþýnda çimento sanayisi gelmektedir. 1980'li yýllardan itibaren Türkiye’de katkýlýçimentolarýn çimento üretimindeki payý, % 90'larýn üstüne çýkmýþtýr [33]. UK’lerin çimentoda; 1) hammadde, 2) katkýmaddesi, 3) ikame malzemesi olarak kullanýldýðý görülmektedir [1,3,4,9,17]. 
+UK, çimentonun ana hammaddeleri olan kil ve kalkere hammadde olarak karýþtýrýlarak klinker üretiminde kullanýlmaktadýr. UK çimentoda katkýolarak kullanýldýðýnda enerji tasarrufu saðlanmakta ve daha ucuz çimento elde edilmektedir. Yine UK’ün, ikame malzemesi olarak çimentoda kullanýlmasýdurumunda da ekonomi saðlanmaktadýr. Türkiye’deki UK’ler ile ilgili olarak yapýlan deneysel bir çalýþmada, Afþin-Elbistan, Çatalaðzý, Çayýrhan, Orhaneli, Soma ve Tunçbilek UK’lerine ait özgül yüzey deðerleri, çimento standartlarýnda aranan en az 2800 cm2/g deðerinden büyük veya yaklaþýk eþit olarak bulunmuþtur [4]. Elde edilen bu sonuçlar, UK’lerin öðütme iþlemi yapýlmadan doðrudan çimento üretiminde veya üretim sonrasý ikame metodu ile çimentonun bir bölümü yerine kullanýlabileceðini göstermektedir. Öte yandan çimento üretimi sýrasýnda çok büyük miktarda doðal hammadde ve enerji tüketimi yapýlmakta ve atmosfere CO2 gazýçýkmaktadýr. Bu da sera etkisi yaparak iklim deðiþikliklerine neden olmaktadýr. Bu yüzden çimento üretiminde UK kullanýlmasý ile, doðal çevrenin bozulmasý ve enerji tüketimi azalacaðý gibi havadaki CO2 miktarý da azalacaðý için global ýsýnmanýn en aza indirilmesi mümkün görülmektedir [17]. Bu durumda enerji tasarrufu saðlandýðýndan çimento maliyetinin de azalmasý söz konusudur. 
+Türkiye’de ve Dünyada UK’lü çimentolar ve bu çimentolarýn özellikleri ile ilgili çok sayýda araþtýrma bulunmaktadýr [34-40]. Türkiye’de 1980 yýlýna kadar çimento üretiminde kullanýlan toplam UK miktarý, yaklaþýk olarak 40.000 tondur [41]. Ýtalya’da elde edilen UK’ün ancak % 1’i çimento üretiminde kullanýlýrken [42], Fransa’da 4 milyon ton/yýl dolayýnda UK elde edilmekte ve bunun % 25’i çimento üretiminde kullanýlmaktadýr [43]. A.B.D.’de ise üretilen UK’ün yaklaþýk % 25’i çimento ve betonda deðerlendirilmektedir [44]. Çin’de UK-kireç karýþýmlarý, yaklaþýk 50 yýldan beri duvar çimentosu olarak yaygýn bir þekilde kullanýlmaktadýr [45]. Öte yandan deneysel bir çalýþma ile UK’ün, çimento þerbeti içinde yüksek miktarda ek baðlayýcý madde olarak kullanýlabileceði belirlenmiþtir [46]. 
+2.2. Agrega Olarak UK Kullanýmý(Usage of FA as Aggregate) 
+UK’ün agrega olarak beton ve harç içinde kullanýldýðýuzun zamandan beri bilinmektedir. UK; Türk, Amerikan ve Ýngiliz standartlarýnda beton ve duvar elemanlarý için yapay hafif agrega olarak kabul edilmektedir [47-52]. Betonda UK kullanýmý; 1) ince agrega, 2) sinterleme sonrasý yapay hafif agrega ve 3) UK ile bir miktar PÇ karýþtýrýlarak elde edilen iri hafif agrega olmak üzere üç þekilde yapýlmaktadýr. Ülkemizde yapýlan bir çalýþmada, sinterlenmiþ UK hafif agregasý üretimi laboratuvar þartlarýnda 
+H.Y. Aruntaþ
+gerçekleþtirilmiþ ve bu malzemenin inþaat sektöründe baþta agrega olmak üzere bir çok alanda kullanýlabileceði önerilmiþtir [53]. Sinterlenmiþ UK hafif agregasýnýn geleneksel agrega yerine betonda içi dolu veya boþ blok üretimi için kullanýlabileceði ve çok katlý binalarda ölü yükü azaltacaðýbelirtilmektedir [11]. 
+UK’ün agrega olarak kullanýmý ile ilgili çalýþmalar, özellikle son yýllarda hýz kazanmýþtýr. Beton karýþýmýna ince agreganýn bir kýsmý yerine UK kullanýlarak yapýlan çalýþmalarda olumlu sonuçlar elde edilmiþ ve UK’ün ince agreganýn bir bölümü yerine kullanýlabileceði tespit edilmiþtir [54,55]. UK’den elde edilen hafif agregalarla ilgili literatürde bir çok çalýþma vardýr [56-59]. Yapýlan bu çalýþmalarda, yüksek sýcaklýkta sinterlenerek yapay iri hafif agrega olarak üretilen UK, hafif beton yapýmýnda kullanýlmýþ ve beton özelliklerine etkisi araþtýrýlmýþtýr. Diðer taraftan yüksek oranda UK ile bir miktar PÇ karýþtýrýlarak elde edilen iri hafif agregalarýn, hafif beton üretiminde kullanýldýðý ve taþýyýcý betonlar elde edildiði görülmektedir [60,61]. Baþka bir çalýþmada UK, kil ile birlikte yapay agrega olarak üretilmiþ ve betonda, yýkýntý atýðý ile birlikte baþarýyla kullanýlmýþtýr [62]. Öte yandan UK’ün bir dizi iþlem sonrasý beton içinde tekrar kullanýlan agrega (recycled agrega) olarak kullanýldýðý bir araþtýrmada, doðal agrega kullanýlarak üretilen beton ile atýk agrega içeren betonda benzer sonuçlar elde edilmiþtir [63]. Ýngiltere’de inþa edilen nükleer bir santral inþaatýnda 1.300 ton sinterlenmiþ UK, hafif agrega olarak beton içinde kullanýlmýþtýr [64]. 
+2.3. Betonda UK Kullanýmý(Usage FA in Concrete) 
+UK’ün çimento ile birlikte inþaat sektöründe en çok kullanýldýðý diðer bir alan, beton üretimidir. UK, hem normal ve hafif betonda hem de giderek kullanýmýyaygýnlaþan hazýr beton üretiminde gerek katkýgerekse ikame malzemesi olarak kullanýlmaktadýr [1,16,65-67]. Bundan baþka UK, ön üretim ve ön gerilmeli beton elemanlarýn yapýmýnda da kullanýlmaktadýr [66,68]. Diðer taraftan UK’ün, betonda su tutucu katkýmaddesi olarak da kullanýlabileceði önerilmektedir [43].  
+Dünyada UK’ün inþaat sektöründe kullanýmý ile ilgili çalýþmalar, genellikle beton üzerinde yoðunlaþmaktadýr [69-82]. Beton karýþýmýnda UK kullanýldýðýnda, betonun hem dayaným hem de dayanýklýlýðýnda artýþlar elde edilmektedir [69-72]. Çayýrhan ve Soma-B UK’leri, çimentonun bir kýsmýyerine ikame malzemesi olarak normal betonda kullanýldýðýnda basýnç dayanýmý artýþý saðlanmýþtýr [24]. Betonda yüksek oranda UK ikamesi yapýlan ve SA kullanýlan deneysel bir çalýþmada, basýnç dayanýmý artarken aþýnma dayanýmlarýnýn da arttýðýgözlenmiþtir [73]. Benzer þekilde hafif betonlarda UK’ün çimento ile ikame edildiði durumda da 
+ Uçucu Küllerin Ýnþaat Sektöründe Kullaným Potansiyeli 
+dayaným artýþý elde edilmiþtir [74,75]. Yüksek miktarda C sýnýfý UK’ün kullanýldýðý bir çalýþmada, daha iyi kalitede ve düþük maliyetli beton üretimi gerçekleþtirilmiþtir [76]. Dördüncü eleman olarak yüksek miktarda UK’ün betondaki performansýnýn uzun süreli olarak incelendiði diðer bir çalýþma, UK’ün taþýyýcý beton uygulamalarý ile sülfat ve klorür etkisine maruz kalan ortamlarda kullanýlabileceðini göstermiþtir [77]. Öte yandan yapýlan deneysel bir araþtýrma sonucunda UK’ün polimer beton üretiminde de kullanýlabileceði tespit edilmiþtir [78]. Beton karýþýmýnda hafif iri agrega olarak sinterlenmiþUK’ün kullanýldýðý bir çalýþmada, betonarme kiriþler üretilmiþ ve kiriþler üzerinde yapýlan deneylerde uygun sonuçlar elde edilmiþtir [79]. UK’ün olumlu bir etkisi de betonarme çeliði üzerinedir. Beton karýþýmýnda UK kullanýlmasý durumunda betonarmede donatý korozyonunun azaldýðý deneysel olarak belirlenmiþtir [80]. UK’ün kullanýldýðý diðer bir beton çeþidi lifli betondur. Deneysel olarak yapýlan araþtýrmalarda otoklav uygulanmýþ lifli beton üretiminde ve kendiliðinden yerleþen lifli beton yapýmýnda yüksek oranda UK kullanýlabileceði önerilmektedir [83,84]. 
+Diðer taraftan UK, betonun hidratasyon ýsýsýnýdüþürmek maksadýyla Türkiye’de ve Dünyada bir çok barajýn yapýmýnda da kullanýlmýþtýr [9,41,42,67,85, 86]. A.B.D.’de 1953 yýlýnda tamamlanan Hungry Horse barajýnýn kütle betonunda 120.000 ton UK kullanýldýðý bildirilmektedir [66]. Bundan baþka silindirle sýkýþtýrýlmýþ beton (rolkrit) çok sayýda baraj, beton karýþýmlarýna UK katýlarak inþa edilmiþtir [87­89]. Ýngiltere’de nükleer bir enerji santralý inþaatýnda kullanýlan betonda yaklaþýk olarak 100.000 ton UK’ün katký malzemesi olarak kullanýldýðý görülmektedir [64]. 
+2.4. Kerpiç Yapýmýnda UK Kullanýmý(Usage FA in Adobe Production) 
+Bilindiði gibi kerpiç yapýmýnda, killi toprak ile lif olarak saman kullanýlmaktadýr. Kerpiç, dayanýmýdüþük ve suya karþý da dayanýksýz olan geleneksel bir yapýmalzemesidir. Kerpicin dayanýmýný ve dayanýklýlýðýný artýrmaya yönelik çeþitli araþtýrmalar bulunmaktadýr. Kerpice baðlayýcý olarak alçý katýlmýþve elde edilen bu malzemeye alker adý verilmiþtir. Alçý, Alker’in fiziksel ve mekanik özelliklerini, normal kerpice göre önemli ölçüde iyileþtirmiþtir [90]. Bundan baþka, kerpiç üretiminde UK’ün kullanýldýðýbazý araþtýrmalar da yapýlmýþtýr [91-93]. Bu çalýþmalardan elde edilen sonuçlar, UK’ün kerpiç özelliklerini olumlu yönde etkilediðini, dolayýsýyla kerpiç üretiminde baðlayýcý malzeme olarak UK’ün kullanýlabileceðini göstermektedir. 
+2.5. Tuðla Yapýmýnda UK Kullanýmý(Usage FA in Brick Production) 
+UK’ün baþka bir kullaným alaný ise tuðla üretimidir [3,4]. UK’ün belirli oranlarda çeþitli malzemelerle birlikte tuðla üretiminde kullanýlabileceði yapýlan çalýþmalarla belirlenmiþtir [94-96]. Elle çalýþtýrýlan tuðla makinesinin kullanýldýðý bir araþtýrmada UK, kireç ve kum birlikte tuðla üretiminde kullanýlmýþtýr [97]. Baþka bir çalýþmada UK, tüf ve kireç birlikte kullanýlmýþ ve baþarýlý sonuçlar elde edilmiþtir [98]. UK’ün kireç ile birlikte deðiþik oranlarda karýþtýrýlarak tuðla yapýmýnda kullanýlabileceði, deneysel olarak yapýlan bir çalýþma ile önerilmiþtir [99]. Hindistan’da yapýlan inþaatlarda UK tuðlasýkullanýlmasý uygun görülmektedir[100]. Türkiye’de tuðla üretiminde UK kullanýmý, 1967 yýlýnda baþladýðýhalde daha sonra kesintiye uðramýþtýr. Ayrýca 1973 ve 1979 yýllarýnda ateþ tuðlasý üretiminde UK kullanýldýðýgörülmektedir [9,41]. 
+2.6. Yapý Malzemesi Üretiminde UK Kullanýmý(Usage FA in Construction Material Production) 
+UK’ler, gaz beton, yalýtým malzemesi, duvar, beton boru, harç, cam gibi yapýmalzeme ve elemanlarýnýn üretiminde kullanýlmaktadýr [3,4,17,65,67,101]. UK­kireç karýþýmý, Çin’de 1950’li yýllardan beri blok üretiminde kullanýlmaktadýr [45]. UK’ler, harç karýþýmlarýnda da karýþýmýn bir elemaný olarak kullanýlmaktadýr [102]. UK’ün duvar yapýmýnda kullanýlan hafif yapý malzemesi, yük taþýmayan panel ve blok üretiminde kullanýlabileceði deneysel çalýþmalarla belirlenmiþtir [45,94,95,98,103]. Baþka bir çalýþmada UK, silis kaynaðý olarak gaz beton üretiminde hammaddeye karýþtýrýlarak kullanýlmýþtýr [104]. UK’ün, plastik ve boya üretiminde filler olarak da kullanýldýðý görülmektedir [105]. UK, seramik kaplama malzemesi üretiminde kullanýlmýþ ve üretilen seramiklerin eðilme dayanýmlarý, döþeme seramikleri için standartta belirtilen deðerin 6 katý olarak bulun­muþtur [17]. Öte yandan UK, cam yapýcý ana oksitlere sahip olmasýnedeniyle cam-seramik üretiminde de kullanýlmaktadýr [106,107]. Yapýlan çalýþmalar, UK’lerin hammadde olarak cam-seramik malzeme­lerin üretiminde kullanýlabileceðini ortaya koymuþtur [108-110]. Ýki farklý UK’ün % 50 oranýnda diðer atýklarla birlikte kullanýldýðý bir çalýþmada, UK’den cam ve cam-seramik üretimi baþarýlý bir þekilde gerçekleþtirilmiþtir [105]. Düþük maliyetli yapýmalzemesi üretiminin amaçlandýðý baþka bir araþtýr­mada, UK kullanýlarak bu malzemenin üretilebileceði ve hem üreticiye hem de tüketiciye büyük oranda tasarruf saðlayacaðýbelirtilmektedir [111]. Deneysel diðer bir çalýþmada ise UK, fenol formaldehit reçinesi içinde dolgu maddesi olarak kullanýlarak suya dayanýklý seramik görünümlü yapý malzemesi üretilmiþtir. UK’ün pirina ile birlikte kullanýlmasýdurumunda ise yine suya dayanýklý fakat ahþap görünümlü yapýmalzemesi elde edilmiþtir [112]. 
+2.7. Yol Ýnþaatlarýnda UK Kullanýmý(Usage FA in Road Constructions) 
+UK, inþaat sektöründe yol yapým çalýþmalarýnda da 
+H.Y. Aruntaþ 
+kullanýlmaktadýr [3,4,67]. Kaplama olarak hem beton hem de asfalt kullanýlan otoyollarýn yapýmýnda UK kullanýlmaktadýr [10,101]. Konu ile ilgili çalýþmalarýn A.B.D.’de 1930’lu yýllarda baþladýðý görülmektedir. Ýlk defa UK, 1938 yýlýnda A.B.D.’nin Þikago þehrinde bir yol inþaatýnda çimentoya karýþtýrýlarak kullanýlmýþtýr [43]. UK’ün, yol yapýmýnda temel malzemesi [101,113,114] ve asfalt karýþýmý içinde de mineral filler olarak kullanýldýðý görülmektedir [115]. Öte yandan UK, yolun temel ve alt temelinin yapýmýnda kum ve/veya çimentonun bir kýsmý yerine de kullanýlabilmektedir [17]. Deneysel bir çalýþma ile UK’ün asfalt karýþýmýnda ince malzemenin bir kýsmýyerine kullanýlabileceði belirlenmiþtir [10]. Baðlayýcýbaþka bir malzeme kullanýlmadan UK ve kum karýþýmýndan iyi ve ucuz stabilizasyonun elde edilebileceði belirtilmektedir [116]. Afþin-Elbistan UK’ünün kullanýldýðý deneysel olarak yapýlan çalýþmalarda, bu külün kireç ile birlikte yol stabilizasyonunda ve bitümlü sýcak karýþýmlarda filler olarak kullanýlabileceði belirtilmektedir [117,118]. 
+2.8. Geoteknik Çalýþmalarda UK Kullanýmý(Usage FA in Geotechnical Application) 
+Geoteknik uygulamalarda UK, dolgu yapmak, zemin stabilizasyonu saðlamak ve bent yapmak amacýyla kullanýlmaktadýr [1,5,10,17,119,120]. Bunun yaný sýra UK’ün, sýzdýrmazlýk saðlamak amacýyla atýk depolama sahalarýnda, yol kaplamasý altýndaki dolgu tabakasý yapýmýnda, donatýlý zemin duvarlarda duvarýn arka dolgusu olarak ve ayrýca çöp atýk sahalarý üzerinde yapýlan beton kaplama veya döþemelerdeki farklý oturma hasarlarýnýn onarýmý için kireç ile birlikte enjeksiyon uygulamasýnda kullanýlmaktadýr [121]. Deneysel bir araþtýrma, yol dolgularýnýn yapýmýnda UK’ün çimento ile birlikte pratik olarak kullanýlabileceðini göstermiþtir [122]. 
+3. SONUÇLAR (CONCLUSIONS) 
+Bu çalýþmadan elde edilen sonuçlar, UK’lerin inþaat sektöründe çok büyük kullaným potansiyelinin bulunduðunu göstermektedir. UK kullanýmýnýn özellikle çimento, beton ve yapý malzemelerinin üretiminde daha yaygýn olduðu görülmektedir. Bununla birlikte UK’ün zararlý ortamlara dayanýklýlýk, ekonomi ve çevreye etkisini inceleyen uzun süreli daha çok araþtýrmaya ihtiyaç bulunmaktadýr. Türkiye’de ve Dünyada bu atýðýn deðerlendirilmesi durumunda, enerji tasarrufu saðlanmasý, daha ucuz ve kaliteli malzeme üretilmesi, atýk malzemenin geri dönüþtürülmesiyle ülke ekonomisine katkýsaðlanmasýnýn yaný sýra hem doðal hammadde ile ekolojik dengenin korunmasýhem de çevre kirliliðinin önlenmesi mümkün görünmektedir. 
+KAYNAKLAR (REFERENCES) 
+1.	Neville, A.M., Properties of Concrete, Longman Scientific & Technical, New York, 1981. 
+H.Y. Aruntaþ
+2.	
+Mehta, P.K., Concrete- Structure, Properties, and Materials, Prentice-Hall, New Jersey, 1986. 
+
+3.	
+Erdoðan, T.Y., “Atýk Malzemelerin Ýnþaat Endüstrisinde Kullanýmý-Uçucu kül ve Yüksek Fýrýn curufu”, End. Atýklarýn Ýnþaat Sektöründe Kul. Semp., Ankara, 1-8, 18-19 Kasým 1993. 
+
+4.	
+Tokyay, M., Erdoðdu, K., Türkiye Termik Santrallerinden Elde Edilen Uçucu Küllerin Karakterizasyonu, TÇMB, Ankara, 1998. 
+
+5.	
+http://www.teias.gov.tr/apkuretimplani/veriler.htm 
+
+6.	
+http://www.epdk.org.tr/lisans/elektrik/lisansdatab ase/verilentesistipi.asp 
+
+7.	
+http://www.teias.gov.tr/apkuretim/Tablo1.xls 
+
+8.	
+http://www.maden.org.tr/yeni3/yayinlar/raporlar/l inyitraporu.htm 
+
+9.	
+Tokyay, M., “Betonda Uçucu Kül Kullanýmý(Türkiye Deneyimi)”, End. Atýklarýn Ýnþaat Sektöründe Kul. Semp., Ankara, 29-36, 18-19 Kasým 1993. 
+
+10.	
+http://www.tfhrc.gov/pubrds/fall94/p94au32.htm 
+
+11.	
+Verma, C.L., Handa, S.K., Jain, S.K., et. al., “Techno-commercial Perspective Study for Sintered Fly Ash Lightweight Aggregates in India”, Construction and Building Materials, Cilt 12, No 6-7, 341-346, 1998. 
+
+12.	
+Bhattacharjee, U., Kandpal, T.C., “Potential of Fly Ash Utilisation in India”, Energy, Cilt 27, No 2, 151-166, 2002. 
+
+13.	
+McCarthy, M.J., Dhir, R.K., “Towards Maximising the Use of Fly Ash as a Binder”, Fuel, Cilt 78, No 2, 121-132, 1999. 
+
+14.	
+Gray, D.H., “Handling, Placement, and Storage of Ash to Maximize Utility and Minimize Environmental Impact”, A Short Course on Technology and Utilization of Power Plant Ash, 48p., 1977. 
+
+15.	
+Türkiye Uçucu Küllerinin Özellikleri ve Kullanýlma Alanlarý, EÝE. Genel Dir., Yayýn no. 81-45, Ankara, 1979. 
+
+16.	
+Abdun-nur, E.A., “Fly Ash in Concrete-an Evaluation”, Highway Research Board Bulletin, No. 284, Washington D.C., 1961. 
+
+17.	
+Ferreira, C., Ribeiro, A., Ottosen, L., “Possible Applications for Municipal Solid Waste Fly Ash”, Journal of Hazardous Materials, Cilt 96, No 2-3, 201-216, 2003. 
+
+18.	
+Aruntaþ, H.Y., Diatomitlerin Çimentolu Sistemlerde Puzolanik Malzeme Olarak Kullanýlabilirliði, Doktora Tezi, Gazi Üniversitesi, Fen Bilimleri Enstitüsü, 1996. 
+
+19.	
+ENV 197-1, Cement-Composition, Specifications and Conformity Criteria-Part 1: Common Cements, CEN, 1994. 
+
+20.	
+Lea, F.M., The Chemistry of Cement and Concrete, Chemical Publishing Co., New York, 1956. 
+
+21.	
+Gani, M.S.J., Cement and Concrete, Chapman & Hall, London, 1997. 
+
+
+ Uçucu Küllerin Ýnþaat Sektöründe Kullaným Potansiyeli 
+22.	
+ASTM C 618, Specification for Fly Ash and Raw or Calcined Natural Pozzolan for use as a mineral admixture in Portland Cement Concrete, ASTM, 1991. 
+
+23.	
+Aitcin, P.C., Autefage, F., Carles-Gibergues, A., et. al., “Comparative Study of the Cementitious Properties of Different Fly Ashes”, Proc. of 2nd Int. Conf. on Fly Ash, Silica Fume, Slag, and Natural Pozzolans in Concrete, Madrid, V. 1, 91-114, 1986. 
+
+24.	
+Þimþek, O., Aruntaþ, H.Y., Fýrat, S., “Çayýrhan ve Soma-B Termik Santralleri Uçucu Küllerinin Betonun Basýnç Dayanýmýna Etkisi”, Türkiye Ýnþ. Müh. XVI. Teknik Kongresi, Ankara, 1-3 Kasým 2001. 
+
+25.	
+TS 639, Uçucu Küller, TSE, Ankara, 1975. 
+
+26.	
+Tokyay, M., Hubbard, F.H., “Mineralogical Investigations of High-Lime Fly Ashes”, Proc. of Fourth Int. Conf. on Fly Ash, Silica Fume, Slag, and Natural Pozzolans in Concrete, Ýstanbul, V.1, 65-77, 1992. 
+
+27.	
+TS 640, Çimento -Uçucu Küllü Çimento, TSE, Ankara, 1992. 
+
+28.	
+TS EN 450, Uçucu Kül - Betonda kullanýlan -Tarifler, Özellikler ve Kalite Kontrolü, TSE, Ankara, 1998. 
+
+29.	
+TS EN 451-1, Uçucu Kül - Deney Metodlarý -Bölüm 1: Serbest Kalsiyum Oksit Tayini, TSE, Ankara, 2000. 
+
+30.	
+TS EN 451-2, Uçucu Kül - Deney Metodu -Bölüm 2: Islak Eleme ile Ýncelik Tayini, TSE, Ankara, 2000. 
+
+31.	
+TS EN 197-1, Çimento - Bölüm 1: Genel Çimentolar - Bileþim, Özellikler ve Uygunluk Kriterleri, TSE, Ankara, 2002. 
+
+32.	
+http://www.ukqaa.org.uk/Papers/Wascon2003Pos terPresentationSear.pdf 
+
+33.	
+Öztekin, E., Cimilli, T., “History and Use of Blended Cements in Turkey”, Cement, Concrete and Aggregates, Cilt 9, No 1, 44-48, 1987. 
+
+34.	
+Tokyay, M., Effect of a High-Calcium and a Low-Calcium Fly Ash on the Properties of Portland Cement-Fly Ash Pastes and Mortars,Doktora Tezi, ODTÜ. 1987. 
+
+35.	
+Shashiprakash, S.G., Nagaraj, T.S., Raviraj, S. et. al., “Proportioning of Fly-Ash cement Concrete Mixes”, Cement Concrete Aggregates, Cilt 16, No 2, 104-109, 1994. 
+
+36.	
+Fu, X.H., Hou, W.P., Yang, C.X. et. al., “Studies on High-Strength Slag and Fly Ash Compound Cement”, Cement and Concrete Research, Cilt 30, No 8, 1239-1243, 2000. 
+
+37.	
+Li, D.X., Chen, Y.M., Shen, J.L. et. al., “The Influence of alkalinity on Activation and Microstructure of Fly Ash”, Cement and Concrete Research, Cilt 30, No 6, 881-886, 2000. 
+
+38.	
+Kýlýnçkale, F.M., “Uçucu Küllü Çimento Üretiminde Uçucu Külün Öðütme Þeklinin Çimento Özelliklerine Etkisi”, End. Atýklarýn 
+
+
+Ýnþaat Sektöründe Kul. Semp., Ankara, 33-44, 1995. 
+39.	
+Demirbaþ, A., Aslan, A., “Evaluation of lignite combustion residues as cement additives”, Cement and Concrete Research, Cilt 29, No 7, 983-987, 1999. 
+
+40.	
+Kula, I., Olgun, A., Erdoðan, Y., Sevinç, V., “Effects of colemanite waste, cool bottom ash, and fly ash on the properties of cement”, Cement and Concrete Research, Cilt 31, No 3, 491-494, 2001. 
+
+41.	
+Erdoðan, T., Ar, G., Koman, K., “Türkiye Uçucu Külleri (Üretim, Kullanýlma Olanaklarý, Sorunlar, Öneriler), E.Ý.E. Gn. Dir., Yayýn no:82-19, Ankara, 1982. 
+
+42.	
+Valenti, G.L., Cioffi, R., Sersale, R., “Production and Utilization of Fly Ash in Italy”, Proc. of 2nd Int. Conf. on the Use of Fly Ash, Silica Fume, Slag, and Natural Pozzolans in Concrete”, Madrid, V. 1, 741-762, 1986. 
+
+43.	
+Postacýoðlu, B., Beton-Baðlayýcý Maddeler, Cilt 1, Teknik Kitaplar Yayýnevi, Ýstanbul, 1986. 
+
+44.	
+Rayzman, V.L., Shcherban, S.A., Dworkin, R.S., “Technology for Chemical-Metallurgical Coal Ash Utilization”, Energy &Fuels, Cilt 11, No 4, 761-773 1997. 
+
+45.	
+Jueshi, Q., Caijun, S., Zhi, W., “Activation of Blended Cements Containing Fly Ash”, Cement and Concrete Research, Cilt 31, No 8, 1121­1127, 2001. 
+
+46.	
+Krishnamoorthy, T.S., Gopalakrishnan, S., et. al., “Investigations on the Cementitious Grouts Containing Supplementary Cementitious Materials”, Cement and Concrete Research, Cilt 32, No 6, 1395-1405, 2002. 
+
+47.	
+TS 1114, Hafif Agregalar-Beton için, TSE, Ankara, 1986. 
+
+48.	
+ASTM C 330, Lightweight Aggregates for Structural Concrete, ASTM, 1989. 
+
+49.	
+ASTM C 331, Lightweight Aggregates for Concrete Masonry Units, ASTM, 1989. 
+
+50.	
+ASTM C 332, Lightweight Aggregates for Insulating Concrete, ASTM, 1987. 
+
+51.	
+BS 3797, Lightweight Aggregates for Masonry Units and Structural Concrete, BSI, 1990. 
+
+52.	
+BS 3892-1, Pulverized Fuel Ash for Use in Concrete, BSI, 1997. 
+
+53.	
+Baykal, G., Özturan, T., Savaþ, M., Ramadan, K., “Uçucu Külün Ýnþaat Mühendisliðinde BazýKullaným Olanaklarý”, End. Atýklarýn Ýnþaat Sektöründe Kul. Semp., Ankara, 89-102, 1993. 
+
+54.	
+Ravina, D., “Properties of Fresh Concrete Incorporating a High Volume of Fly Ash as Partial Fine Sand Replacement”, Materials and Structures, Cilt 30, No 202, 473-479, 1997. 
+
+55.	
+Papadakis, V.G., “Effect of Fly Ash on Portland Cement Systems Part II. High-Calcium Fly Ash”, Cement and Concrete Research, Cilt 30, No 10, 1647-1654, 2000. 
+
+
+H.Y. Aruntaþ 
+56.Yamashita, T., et al., “Fly Ash Lightweight Aggregate Sintered in a Circular Grate Kiln”, Proc. of 4th Int. Conf. on Fly Ash, Silica Fume, Slag, and Natural Pozzolans in Concrete, Ýstanbul, SP, 895-915, 1992. 
+57.	
+Wasserman, R., Bentur, A., “Effect of Lightweight Fly Ash Aggregate Microstructure on the strength of Concretes”, Cement and Concrete Research, Cilt 27, No 4, 525-537, 1997. 
+
+58.	
+Kayall, O., Haque, M.N., Zhu, B., “Drying shrinkage of fibre-reinforced lightweight aggregate concrete containing fly ash”, Cement and Concrete Research, Cilt 29, No 11, 1835­1840, 1999. 
+
+59.	
+Kayall, O., Haque, M.N., Zhu, B., “Some Characteristics of High Strength Fiber Reinforced Lightweight Aggregate Concrete”, Cement&Concrete Composites, Cilt 25, No 2, 207-213, 2003. 
+
+60.	
+Chang, T.P., Shieh, M.M., “Fracture Properties of lightweight concrete”, Cement and Concrete Research, Cilt 26, No 2, 181-188, 1996. 
+
+61.	
+Gesoðlu, M., Özturan, T., Güneyisi, E., Shrinkage cracking of lightweight concrete made with cold-bonded fly ash aggregates, Cement and Concrete Research, Cilt 34, No 7, 1121­1130, 2004. 
+
+62.	
+Zakaria, M., Cabrera, J.G., “Performance and Durability of Concrete Made with Demolition Waste and Artificial Fly Ash-Clay Aggregates”, Waste Management, Cilt 16, No 1-3, 151-158, 1996. 
+
+63.	
+Collivignarelli, C., Sorlini, S., “Optimisation of Industrial Wastes Reuse as Construction Materials”, Waste Management & Research, Cilt 19, No 6, 539-544, 2001. 
+
+64.	
+Davies, D.R., Kitchener, J.N., “Massive Use of Pulverised Fuel Ash in Concrete for the Construction of a UK Power Station”, Waste Management, Cilt 16, No 1-3, 169-180, 1996. 
+
+65.	
+Berry, E.E., Malhotra, V.M., “Fly Ash for Use in Concrete-A Critical Review”, ACI Journal, Proceedings, Cilt 77, No 2, 59-73, 1980. 
+
+66.	
+ACI Committee 226, “Use of Fly Ash in Concrete”, ACI Materials Journal, Cilt 83, No 5, 381-409, 1987. 
+
+67.	
+Manz, O.E., “Coal Fly Ash: a Retrospective and Future Look”, Fuel, Cilt 78, No 2, 133-136, 1999. 
+
+68.	
+Wesche, K., Fly Ash in Concrete: Properties and Performance, E&FN Spon, RILEM, London, 1991. 
+
+69.	
+Bayazýt, Ö.L., Tunçbilek Uçucu Küllerinin Betonun Fiziko Kimyasal ve Mekanik Özelliklerine Etkileri, Doktora Tezi, ADMMA., 1980. 
+
+70.	
+Öztekin, E., Sümer, M., “Uçucu Küllü ve Fillerli Betonlarýn Bazý Karþýlaþtýrmalý Özellikleri”, End. 
+
+
+H.Y. Aruntaþ
+Atýklarýn Ýnþaat Sektöründe Kul. Semp., Ankara, 23-28, 1993. 
+71.	
+Ramyar, K., Durability Aspects of Fly Ash Concrete, Doktora Tezi, ODTÜ., 1993. 
+
+72.	
+Lee, C.Y., Lee, H.K., Lee, K.M., “Strength and Microstructural Characteristics of Chemically Activated Fly Ash-Cement Systems”, Cement and Concrete Research, Cilt 33, No 3, 425-431, 2003. 
+
+73.	
+Atiþ, C.D., “Yüksek Oranda Uçucu Kül Kullanýmý ile Üretilen Betonun Aþýnma Direnci”, Teknik Dergi, Cilt 11, Sayý 4, 2000. 
+
+74.	
+Kýlýç, R., Þimþek, O., “Maden Þehiri(Karaman) Doðusundaki Ponza Taþýile Üretilen Hafif Beton Dayanýmýna Uçucu Kül Oranýnýn Etkisinin Ýncelenmesi”, Türkiye Mühendislik ve Çevre Bilimleri Dergisi, Cilt 15, No 3, 283-295, 1991. 
+
+75.	
+Þimþek, O., Aruntaþ, H.Y., Eroltekin, V., “Uçucu Külün Hafif Beton Yapý Elemaný Üretiminde Kullanýmý ve Mekanik Özelliklerine Etkisi”, Z.K.Ü. Teknoloji Dergisi, Cilt 2, No 3-4, 15-23, 1999. 
+
+76.	
+Naik, T.R., Singh, S., Ramme, B., “Mechanical Properties and Durability of Concrete Made with Blended Fly Ash”, ACI Materials Journal, Cilt 95, No 4, 454-462, 1998. 
+
+77.	
+Dunstan, M.R.H., Thomas, M.D.A., Cripwel, J.B. et. al., “Investigation into the Long Term In-Situ Performance of High Fly Ash Content Concrete Used for Structural Applications”, Proc. of 4th Int. Conf. on Fly Ash, Silica Fume, Slag, and Natural Pozzolans in Concrete, Ýstanbul, V.1, 1-20, 1992. 
+
+78.	
+Rebeiz, K.S., Mielich, K.L., “Construction Use of Municipal-Solid-Waste Ash”, Journal of Energy Engineering-ASCE, Cilt 121, No 1, 2-13, 1995. 
+
+79.	
+Swamy, R.N., Lambert, G.H., “Flexural Behaviour of Reinforced Concrete Beams Made with Fly Ash Coarse Aggregates”, Int. Journal of Cement Composites and Lightweight Concrete, Cilt 6, No 3, 189-200, 1984. 
+
+80.	
+Montemor, M.F., Simoes, A.M.P., Salta, M.M., “Effect of Fly Ash on Concrete Reinforcement Corrosion Studied by EIS”, Cement&Concrete Composites, Cilt 22, No 3, 175-185, 2000. 
+
+81.	
+Sarýçimen, H., Maslehuddin, M., Altayyib, A.J., et al., “Permeability and Durability of Plain and Blended Cement Concretes Cured in Field and Laboratory Conditions”, ACI Materials Journal, Cilt 92, No 2, 111-116, 1995. 
+
+82.	
+Özturan, T. and Bastopçu, M.E., “Effect of Curing on Durability of Fly Ash Concrete”, Sixth CANMET/ACI Int. Conf. on Durability of Concrete, Thessaloniki-Greece, SP-212, 353-368, 2003. 
+
+83.	
+Yazýcý, H., Yiðiter, H., Aydýn, S., Baradan, B., “Autoclaved SIFCON with high volume Class C fly ash binder phase”, Cement and Concrete Research, Cilt 36, No 7, 481-486, 2006 
+
+
+ Uçucu Küllerin Ýnþaat Sektöründe Kullaným Potansiyeli 
+84.	
+Þahmaran, M., Yaman, Ý.Ö., “Hybrid fiber reinforced self-compacting concrete with a high-volume coarse fly ash”, Construction and Building Materials, 2005 (article in Press). 
+
+85.	
+Bayazýt, Ö.L., “Application of Fly Ash in Gökçekaya Dam and Economy”, Europe Committee on Electric Power, Symposium on the Use of Ash, Paper A-2, 1970. 
+
+86.	
+Özel, Ý., “Utilization of Fly Ash in the Production of Mass Concretes Used in the Construction of Porsuk Dam in Turkey”, Europe Committee on Electric Power, Symposium on the Use of Ash, Paper A-5, 1970. 
+
+87.	
+Dunstan, M.R.H., “Use of Pozzolans in RCC Dams”, CANMET/ACI Int. Conf. on Advances in Concrete Technology, Compilation of Research Papers, Athens, 33-54, 1992. 
+
+88.	
+Akman, M.S., “Aðýrlýk Barajlarýnda Uçucu Küllü Rolkrit Kullanýmý”, End. Atýklarýn Ýnþaat Sektöründe Kul. Semp., Ankara, 9-21, 1993. 
+
+89.	
+Papayianni, J., “Performance of a High-Calcium Fly Ash in Roller Compact Concrete”, Proc. of 4th Int. Conf. on Fly Ash, Silica Fume, Slag, and Natural Pozzolans in Concrete, Ýstanbul, V.1, 367-386, 1992. 
+
+90.	
+Kafesçioðlu, R., Gürdal, E., Çaðdaþ YapýMalzemesi-Alker-Alçýlý Kerpiç, Enerji ve Tabii Kaynaklar Bakanlýðý Enerji Dairesi Baþkanlýðý, Ankara, 1985. 
+
+91.	
+Baradan, B., “Kerpiç Yapýlarýn KorunmasýÝçin Uygun Puzolanik Karýþýmlar”, End. Atýklarýn Ýnþaat Sektöründe Kul. Semp., Ankara, 73-79, 1995. 
+
+
+92.Þimþek, O., Sancak, E., Fýrat, S., “KerpiçÖzelliklerini Ýyileþtirme Yönünde Bir Araþtýrma”, Türkiye Ýnþ. Müh. XVI. Teknik Kongre ve Sergisi, Ankara, 2001. 
+93.	
+Erol, Ö., Uçucu Kül Katkýsýyla Kerpiç Üretimi Üzerine Bir Araþtýrma, Y. Lisans Tezi, GaziÜniversitesi, Fen Bilimleri Enstitüsü, 2000. 
+
+94.	
+Baradan, B., “Fly ash-cement based structural materials”, Int. Journal of Cement Composites and Lightweight Concrete, Cilt 9, No 4, 225­228, 1987. 
+
+95.	
+Kumar, S., “Fly Ash-Lime-Phosphogypsum Hollow Blocks for Walls and Partitions”, Building and Environment, Cilt 38, No 2, 291­295, 2003. 
+
+96.	
+Öztürk, A.Ç., Tuðla Üretiminde Termik Santral Atýðý Puzolanik Uçucu Küllerin Deðerlendirilmesi Üzerine Bir Araþtýrma,Doktora Tezi, Mimar Sinan Üniversitesi, 2001. 
+
+97.	
+Askhedkar, R.D., Modak, J.P., “Hypothesis for the Extrusion of Lime-Fly Ash-Sand Bricks Using a Manually Driven Brickmaking Machine”, Building Research and Information, Cilt 22, No 1, 47-54, 1994. 
+
+98.	
+Kocaçýtak, S., Termik Santral Uçucu Küllerinin Hafif Yapý Malzemesi Yapýmýnda 
+
+
+Kullanýlma Olanaklarýnýn Araþtýrýlmasý,TÜBÝTAK MAG No: 429, Ankara, 1977. 
+99.	Tokyay, M., Çetin, B.K., “Preslenmiþ, Buhar Kürü Uygulanmýþ Uçucu Kül-Kireç Tuðlalarýnýn Dayaným ve Su Emme Özellikleri”, Teknik Dergi, Cilt 2, No 4, 385-394, 1991. 
+100.http://www.nirmithi.kar.nic.in/Karnik_Workshop _mainpage2_contents.htm 
+101.Türker, P., Erdoðan, B., Katnaþ, F., Yeðinobalý, A., Türkiye’deki Uçucu Küllerin Sýnýflandýrýlmasý ve Özellikleri, TÇMB, Ankara, 2003. 
+102.Iyer, R.S., Scott, J.A., “Power Station Fly Ash-A Review of Value-Added Utilization Outside of the Construction Industry”, Resources Conservation& Recycling, Cilt 31, No 3, 217­228, 2001. 
+103.Uçucu Küllü Yapý Blok Elemaný Üretimi Ön Çalýþmalarý ve Fizibilite Etüdü, Dokuz Eylül Üniversitesi, Ýzmir, 1984.  
+104.Ropelewski, L., Neufeld, R.D., “Thermal Inertia Properties of Autoclaved Aerated Concrete”, Journal of Energy Engineering-ASCE, Cilt 125, No 2, 59-75, 1999. 
+105.Barbieri, L., Lancellotti, I., Manfredini, T., et. al., “Design, Obtainment and Properties of Glasses and Glass-Ceramics from Coal Fly Ash”, Fuel, Cilt 78, No 2, 271-276, 1999. 
+106.Cumpston, B., Shadman, F.,“Utilization of Coal-Ash Minerals for Technological Ceramics”, Journal of Materials Science, Cilt 27, 1781­1784, 1992. 
+107.Cioffi, R., Pernice, P., Aronne, A., Catauro, M., “Glass-Ceramics from Fly Ash with Added Li2O”, Journal of the European Ceramic Society, Cilt 13, No 2, 143–148, 1994. 
+108.Erol, M., Demirler, U. Küçükbayrak, S. et. al., “Characterization investigations of glass-ceramics developed from Seyitömer thermal power plant fly ash”, Journal of the European Ceramic Society, Cilt 23, No 5, 757–763, 2003. 
+109.Ergüt, Þ., Yýlmaz, Þ., Günay, V., Özkan, O.T., “Termik Santral Atýk Uçucu Küllerinin Karakterizasyonlarý, Seramik ve Cam Hammaddesi olarak Kullaným Potansiyelleri”, 8. Uluslararasý Metalurji ve Malzeme Kongresi, Ýstanbul, Cilt 2, 869-874, 1995. 
+110.Yýlmaz, Þ., Günay, V., “Uçucu Küllerden Üretilen Cam-Seramiklerin Aþýnma Özellikleri”, 
+7. Denizli Malzeme Sempozyumu, Denizli, 157­161, 2-4 Nisan 1997. 
+H.Y. Aruntaþ 
+111.Wei, L.H., Naik, T.R., Golden, D.M., “Construction Materials Made with Coal Combustion By-Products”, Cement Concrete and Aggregates, Cilt 16, No 1, 36-42, 1994. 
+112.Gürü, M., “Uçucu Kül ve Pirinadan Plastik Kompozit Malzeme Üretimi”, Politeknik Dergisi, Cilt 4, No 1, 35-38, 2001. 
+113.Tuncan, A., Tuncan, M., Koyuncu, H., “Use of Petroleum-Contaminated Drilling Wastes as Sub-Base Material for Road Construction”, Waste Management Research, Cilt 18, No 5, 489-505, 2000. 
+114.Takada, T., Hashimoto, I., Tsutsumi, K., et al., “Utilization of Coal Ash from Fluidised Bed Incineration Boilers as Road Base Material”, Resources Conservation & Recycling, Cilt 14, No 2, 69-77, 1995. 
+115.Ali, N., Chan, J.S., Simms, S., et al., “Mechanistic Evaluation of Fly Ash Asphalt Concrete Mixtures”, Journal of Materials in Civil Engineering, Cilt 8, No 1, 19-25, 1996. 
+116.Mulder, E., “A Mixture of Fly Ashes as Road Base Construction Material”, Waste Management, Cilt 16, No 1-3, 15-20, 1996. 
+117.Alataþ, T., Yýldýrým, B., “Afþin-Elbistan Termik Santralý Uçucu Külünün Yol Stabilizasyonunda Kireç ile Birlikte Kullanýmý”, End. Atýklarýn Ýnþaat Sektöründe Kul. Semp., Eskiþehir, 21­35, 1-2 Ekim 1997. 
+118.Yýldýrým, B., Kuloðlu, N., Güngör, M.M., “Afþin-Elbistan Uçucu Külünün Asfalt Betonu Kaplamalarda Kullanýmý”, End. Atýklarýn Ýnþaat Sektöründe Kul. Semp., Eskiþehir, 187-196, 1-2 Ekim 1997. 
+119.Pandian, N.S., Sridharan, A., Srinivas, S., “Angle of Internal Friction for Pond Ashes”, Journal of Testing and Evaluation, Cilt 28, No 6, 443-454, 2000. 
+120.Alosman, M.S., Kýral, Þ., Albayrak, Þ., Turp, S.M., Öz, N., “Atýklarýn Ýnþaat Malzemesi Olarak Deðerlendirilmesi”, SAÜ Fen Bilimleri Enstitüsü Dergisi, Cilt 7, No 1, 284-290, 2003. 
+121.Wasti, Y., “Uçucu Küllerin Geoteknik Uygulamalarda Kullanýmý”, End. Atýklarýn Ýnþaat Sektöründe Kul. Semp., Ankara, 37-44, 1993.  
+122.Kamon, M., Katsumi, T., Sano, Y., “MSW Fly Ash Stabilized with Coal Ash for Geotechnical Application”, Journal of Hazardous Materials, Cilt 76, No 2-3, 265-283, 2000. 
+
+
+
+
+

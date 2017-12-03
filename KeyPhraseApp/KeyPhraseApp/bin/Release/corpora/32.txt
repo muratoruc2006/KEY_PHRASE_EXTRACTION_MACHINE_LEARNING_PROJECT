@@ -1,0 +1,317 @@
+ÖTEKTÝK Al-Si ALAÞIMINDA SOÐUTUCU YÜZEY PÜRÜZLÜLÜÐÜNÜN ARAYÜZEY ISI TRANSFER KATSAYISINA ETKÝSÝ
+H. Mehmet ÞAHÝN, Kadir KOCATEPE*, Ramazan KAYIKCI** ve Neþet AKAR* Makina Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, Beþevler, Ankara, mesahin@gazi.edu.tr 
+* Metal Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, Beþevler, Ankara, kadirk@gazi.edu.tr, nakar@gazi.edu.tr ** Metal Eðitimi Bölümü, Teknik Eðitim Fakültesi, Sakarya Üniversitesi, Sakarya, rkayikci@sakarya.edu.tr 
+(Geliþ/Received: 28.04.2005 ; Kabul/Accepted: 01.08.2005) 
+ÖZET 
+Ara yüzey ýsý transfer katsayýsýnýn metalden kalýba olan ýsý transfer oraný üzerinde önemli rolü vardýr. Dökümlerin makro ve mikro yapýlarý esas olarak ýsý transfer oranýna baðlýdýr. Bu çalýþmanýn amacý su soðutmalýçelik soðutucu (H13) üzerinde tek yönlü dikey olarak katýlaþan ötektik Al-Si alaþýmýnda soðutucu yüzey pürüzlülüðünün ara yüzey ýsý transfer katsayýsýna etkisini incelemektir. Ara-yüzey ýsý transfer katsayýsý soðutucu yüzey pürüzlülüðüne baðlý olarak, Sonlu Farklar Metoduna dayalý FORTRAN programý ile belirlenmiþtir.  
+Sonuç olarak; ýsý transfer katsayýsý soðutucu yüzey pürüzlülüðü azaldýkça artmýþtýr, maksimum ýsý transfer katsayýsý deðerleri; 0.15 µm soðutucu yüzey pürüzlülüðünde 3320 W/m2K, 0.22 µm soðutucu yüzey pürüzlülüðünde 3302 W/m2K ve 2.47 µm soðutucu yüzey pürüzlülüðünde 2954 W/m2K olarak elde edilmiþtir, ara yüzey ýsý transfer katsayýlarý zamanýn güçlü bir fonksiyonu olarak belirlenmiþtir, nümerik çözümün hassaslýðýFourier sayýsý azaldýkça artmýþtýr, optimum çözüm hesaplama zamaný göz önünde tutularak Fo=0.0625 ve .x=0.25 mm ile elde edilmiþtir. 
+
+H. M. Þahin v.dÖtektik Al-Si Alaþýmýnda Soðutucu Yüzey Pürüzlülüðünün Arayüzey Isý Transfer Katsayýsýna Etkisi 
+1. GÝRÝÞ(INTRODUCTION) 
+Sývý metallerin kalýba döküldükten sonra katýlaþma sürecinde meydana gelen ýsý transferinin belirlenmesi döküm parçasýnýn kalitesi açýsýndan son derece önemlidir. Dökümlerin mekanik özelliklerini belirleyen makro yapý (tane yapýsý ve boyutu) ve mikro yapý (fazlar, fazlarýn þekli, miktarý, boyutu ve daðýlýmý) özellikleri sývý metalin soðuma hýzýna baðlýdýr. Diðer taraftan bilgisayar teknolojisindeki geliþmelere paralel olarak bilgisayar destekli tasarým ve modelleme yazýlýmlarý ile döküm simülasyonlarýyapýlmaktadýr. Bu programlarda ýsý transferi katsayýsýve diðer sýnýr þartlarý ile kalýp ve döküm malzemesinin termo-fiziksel özellikleri doðru olarak belirlenip kullanýlýrsa elde edilen simülasyon sonuçlarý da güvenilir olmaktadýr. Bu nedenle deneysel verilerle elde edilecek döküm kalýp ara yüzeyindeki ýsý transfer katsayýlarýnýn tespiti önem arz etmektedir.  
+Bir döküm kalýbýnda sývý metalin katýlaþmasýesnasýnda ýsý transferi katsayýsýnýn doðru olarak tespit edilebilmesi döküm içindeki sýcaklýk daðýlýmý, döküm alaþýmýnýn özellikleri, kalýbýn özellikleri ve katýlaþma sýrasýndaki sýnýr þartlarýnýn belirlenmesine baðlýdýr. Bu parametreler katýlaþma sýrasýnda sýcaklýða ve zamana baðlý olarak deðiþim gösterirler. Isý akýþý, sývýmetalin kalýba temasýndan itibaren soðuma ve katýlaþma süresi boyunca dökümden kalýba doðru üç ana mekanizma yolu ile gerçekleþir. Demir dýþý metal ve alaþýmlarýn dökümünde ýsý önemli ölçüde iletim mekanizmasýile transfer edilirken yüksek döküm sýcaklýklarýna sahip metal ve alaþýmlarýn dökümünde taþýným ve ýþýným yolu ile transfer edilmektedir.  
+Döküm kalýp ara yüzeylerinde ýsý transfer katsayýlarýölçümleri genellikle sývýmetalin tek yönlü kalýpta soðutularak katýlaþtýrýlmasýile elde edilen zaman­sýcaklýk verileri ile yapýlmaktadýr. Deneysel dökümlerde döküm alaþýmý ve kalýp malzemeleri genellikle alüminyum, bakýr, dökme demir ve çelik gibi termo-fiziksel özellikleri iyi bilinen metal ve alaþýmlarý kullanýlmaktadýr [1-6]. Öte yandan, kum kalýplarda ýsý transferi, kumun tipi, kumun tane boyutu, þekli ve daðýlýmý, baðlayýcýtipi ve oraný, kum kalýbýn yoðunluðu, nem oraný ve kalýba dökülen metalin sýcaklýðý, kum karýþýmýnýn termo-fiziksel özellikleri gibi birçok parametreden etkilenir. Kumun iyi bir iletken olmamasý döküm-kalýp ara yüzeyinde oluþan ýsýl direncin önemini ortadan kaldýrdýðýndan bu kalýplarda soðuma modellemeleri ara yüzey ýsýtransfer katsayýlarýnýdikkate almazlar [3,7-10]. Ara yüzey ýsý transfer deðerleri alaþýmý oluþturan malzemelerin cinsine ve bileþimine göre deðiþim göstermektedir ve literatürde ýsý transferi katsayýlarý250 ile 30000 W/m2K aralýðýnda görülmektedir [11­13]. Alüminyum-Silisyum alaþýmlarýnýn dökümünde hem ýsý akýþý hem de ara yüzey ýsý transfer katsayýsýalaþýma giren Si miktarýndaki azalmaya baðlý olarak artýþ göstermektedir [11]. Dökümlerde yüksek döküm sýcaklýðýnýn düþük döküm sýcaklýðýna göre daha yüksek ýsý transfer katsayýsý verdiðine iliþkin sonuçlar yayýnlanmýþtýr [17-19]. Deneysel çalýþmalar sývýmetalin kalýba döküldüðü anda kalýp yüzeyi ile kýsmi bir temas saðlayabildiðini göstermektedir [14,15]. Sývý-metal kalýp temasý ancak kalýp yüzeyindeki pürüzlerin tepeciklerinde mikro ölçütlerde gerçekleþebilmektedir. Katýlaþmanýn baþlamasý ile oluþan katý kabuk belirli bir yüzey profiline sahiptir ve kritik bir kalýnlýða ulaþtýðýnda ise üzerindeki sývýmetal basýncýný kalýba iletmez. Bu olaylara baðlýolarak ara yüzey ýsý transfer katsayýlarý kademeli olarak azalýr [16]. Katýlaþma sýrasýnda sývý metale uygulanan dýþ basýnç kalýp yüzeyi ve döküm metali temas alaný üzerinde önemli bir etkiye sahiptir [20,21]. Uygulanan basýnç uyum bölgesinin süresini arttýrýr ve baþlangýçta ýsý transfer katsayýsýnda önemli bir artýþmeydana gelir. [2,16]. Kalýp yüzeylerine uygulanan kaplama ve kalýp boyalarý ara yüzey ýsýtransfer katsayýlarýný önemli ölçülerde etkilemektedir [22-24]. Literatürdeki bazý çalýþmalarda, yüzey pürüzlülüðünün azalmasý ile ýsý transferinin arttýðýbelirtilmiþtir [11,25]. 
+Bu çalýþmalar ýþýðý altýnda, bir önceki çalýþmamýzda döküm malzemesi olarak Al-Si alaþýmý, soðutucu olarak çelik ve bakýr seçilerek tek yönlü katýlaþma esnasýnda döküm kalýp ara yüzeyinde ýsý transferinin tespiti yapýlmýþtýr [1]. 
+Yapýlan bu çalýþmada ise, literatürdeki çalýþmalar ve problemler dikkate alýnarak, döküm malzemesi olarak Al-Si alaþýmý ve kalýp malzemesi olarak çeþitli pürüzlülük deðerlerindeki çelik (H13) malzemesi seçilmiþtir. Tek yönlü katýlaþma meydana getirebilmek için diðer yönler izole edilerek soðuma aþaðýdan yapýlmýþtýr. Döküm kalýp ara yüzeyindeki ýsýtransfer katsayýsýnýn tespiti, döküm ve kalýp içinde belirlenen noktalardaki zamana baðlý deneysel sýcaklýk verileri Beck yöntemi kullanýlarak, Sonlu Farklar Metoduna dayanan ve bir önceki çalýþmada 
+[1] ayrýntýlarý verilen Fortran dilinde yazýlan bir bilgisayar programý ile yapýlmýþtýr. Çelik kalýbýn yüzey pürüzlülüðüne baðlý olarak elde edilen sonuçlar deðerlendirilmiþ ve literatürdeki deðerlerle karþýlaþtýrýlarak tartýþýlmýþtýr. 
+
+
+2. MATERYAL VE METOD (MATERIAL AND METHOD) 
+
+2.1. Isý Transfer Katsayýsýnýn Belirlenmesi (Determination of Heat Transfer Coefficient) 
+Isý transferinin belirlenmesi kalýp içindeki sýcaklýk daðýlýmýnýn bilinmesine baðlýdýr. Sýcaklýk daðýlýmýgerçek uygulamalarda üç boyutlu ve geometriye baðlýolarak düzlemsel, silindirik veya küresel koordinatlar þeklindedir. Fakat problemin sadeleþmesi ve çözüm kolaylýðý açýsýndan yönlü katýlaþma þartlarýnýn saðlanmasý gerekir. Yönlü katýlaþmada tek yönde ýsýçýkýþý ile mümkün olacaðýndan kalýbýn diðer iki yönü izole edilir. Böylelikle düzlem geometride tek boyutlu ýsý transferi saðlanmýþ olur. Döküm-kalýp ara yüzeyindeki ýsý transfer katsayýsýaþaðýdaki eþitlikler ile bulunur [26,27]; 
+
+h = q	(1)
+(TD - TK ) Burada h döküm-kalýp ara yüzeyindeki ýsý transferi katsayýsýdýr (W/m2K), q birim zamanda birim yüzeyden geçen ýsý akýsý (W/m2), TD ve TK sýrasýyla 
+döküm ve kalýp ara yüzey sýcaklýklarýdýr (K). 
+
+
+2.2. Zamana Baðlý IsýÝletim Denklemi (Time Dependent Heat Conduction Equation) 
+Hem kalýp malzemesi hem de döküm malzemesinin katý ve sývý faz durumlarý için bir boyutlu zamana baðlý düzlem geometrideki sýcaklýk daðýlýmý aþaðýdaki ýsý iletim eþitliðin çözümü ile elde edilir. 
+.T .2T
+.c =k(2)
+.t .x2 Bu eþitlikte ., c ve k sýrasý ile malzemenin yoðunluðu (kg/m3), özgül ýsýsý (J/kgK) ve ýsýl iletkenlik katsayýsý(W/mK), T sýcaklýk (K), t zaman (s), x uzunluktur (m). 
+Metaller katýlaþýrken ergime gizli ýsýlarýný býrakarak faz dönüþümüne uðrarlar ve bu durumda döküm parça içinde ýsý üretimi olur. Isý üretimi olmasý durumunda denklem aþaðýdaki þekilde yazýlýr. 
+
+.cdT =kd2T+q'
+' (3)dt dx2 
+Eþitliðin sað tarafýndaki q''
+ katýlaþma sýrasýnda katýlaþan metalin ergime gizli ýsýnýný býrakmasýndan oluþan birim zaman ve birim hacimde ýsý üretimi terimidir (W/m3) ve aþaðýdaki eþitlik ile hesaplanýr. 
+. 
+df
+s
+
+q'
+'= .L(4)
+dt 
+Burada L ergime gizli ýsýsý (J/kg) ve fs katýlaþma 
+df
+sýrasýndaki katý oranýdýr. Eþitlik (4)’deki s terimi
+dt sýcaklýkla iliþkilendirilerek eþitlik (3)’de yerine konulursa, denklem 
+dT d2T df dT
+.c =k2 +.Ls	(5)
+dt dx dT dtdf
+
+s
+þekline gelir. Burada: c'=c -L katýlaþma 
+dT esnasýndaki özgül ýsýdýr. Eþitlik (5) aþaðýdaki þekilde yazýlýr. 
+.c'dd Tt = k ddx 2T 2	(6) 
+Eþitlik (6) döküm malzemesinin faz deðiþim durumu için bir boyutlu zamana baðlý düzlem geometrideki sýcaklýk daðýlýmýný veren ifadedir. Bu ifadeyi çözebilmek için döküm malzemesinin katý oranýnýn bilinmesi gerekir. 
+2.3. Zamana Baðlý IsýÝletiminin Sonlu Farklar (Explicit) Metodu ile Çözümü (Solution of Time 
+Dependent Heat Conduction by Using Finite Difference (Explicit) Method) 
+Sonlu farklar, x = xo noktasýnda F(x) fonksiyonunun türevi ile tanýmlanýr [26]. Sonlu Farklar Yönteminde referans noktasý genelde düðüm noktasý olarak adlandýrýlýr ve bu noktalarýn tümüne að denir. Analitik çözümde bir bölgenin tümünde sýcaklýk belirlenirken, sayýsal çözümde sýcaklýk sadece belirlenen düðüm noktalarýnda bulunur. Sayýsal çözümün hassaslýðýseçilen düðüm noktalarýnýn sayýsýna baðlýdýr ve bu sayý ne kadar büyükse (aralýklar o kadar sýktýr) çözümde o kadar hassastýr. 
+Eþitlik (2)’deki zamana baðlý tek boyutlu ýsý iletim denklemi sonlu farklar olarak eþitlik (7) ile verilir. 
+Tp(m+1) +Tp(m-1) -2Tp(m) = 1 Tp+1(m) -Tp(m) (7)
+(.x)2 ..t 
+Bu eþitlikte üst indis p, T ’nin zamana baðlýlýðýnýgöstermektedir ve zaman türevi hesaplanan (p+1) ve hesaplanandan bir önceki (p) zamana ait sýcaklýklarýn 
+k
+farký ile iliþkilidir. Eþitlik (7)’deki .= terimi
+.c 
+ýsýl yayýlým katsayý (m2/s)’dýr. 
+..t
+Fourier sayýsýFo =olduðundan ve eþitlik (.x2) 
+(7) düzenlenerek; 
+Tp+1(m) =Tp(m)(1-2Fo)+Fo(Tp(m+1) +Tp(m-1)) (8) 
+þeklinde yazýlýr. Eþitlik (8) ile verilen yöntem explicit yaklaþýmý olarak isimlendirilir [27]. Bu yöntemde bir sonraki adýmdaki sýcaklýklar, sadece bir önceki adýmdaki sýcaklýklara baðlýdýr. T = 0 (p=0) için düðüm noktalarýndaki sýcaklýklar baþlangýç koþullarýndan belirlenmektedir. 
+Sonlu-fark çözümünün hassaslýðý.x ve .t deðerleri azaltýlarak arttýrýlabilir. Doðal olarak, iç düðüm noktalarýnýn sayýsý, .x küçüldükçe artar. Ayrýca çözümü elde etmek için gereken zaman adýmlarýnýn sayýsý, .t küçüldükçe artar. Böylece, hesaplama süresi .x ve .t’nin küçültülmesi ile artar. .x’in seçimi hassaslýk ve hesaplama süresi arasýnda bir dengeye 
+
+H. M. Þahin v.dÖtektik Al-Si Alaþýmýnda Soðutucu Yüzey Pürüzlülüðünün Arayüzey Isý Transfer Katsayýsýna Etkisi 
+göre yapýlýr. .x bir kez belirlendikten sonra .t baðýmsýz olarak seçilemez. .t’nin deðeri yakýnsama koþulundan bulunur. Eþitlik (8)’da bir boyutlu geometride iç düðüm noktasý için, (1 -2Fo) . 0 olmasýþarttýr. Baþka bir deyiþle, 
+1
+Fo .	 (9) 
+2 olmasý gerekmektedir. Bu kýstas, .x ve .’nýn verilen deðerleri için .t’nin alabileceði en büyük deðeri bulmakta kullanýlabilir. Fourier sayýsýnýn sonuçlara etkisi sonuçlar bölümünde tartýþýlacaktýr. 
+
+
+2.4. Sýnýr Þartlarý(Boundary Conditions) 
+Döküm parçada adyabatik (10) ve belirli sýcaklýk (11) olmak üzere iki tip sýnýr þartý yazýlabilir. Döküm malzemede diðer yönler izole edildiðinden ýsý tek yöne doðru akacaktýr. Þekil 1’de görüldüðü gibi 
+arayüzeyden -Amesafesindeki yalýtýlmýþ yüzeyde adyabatik sýnýr þartý (10) yazýlabilir. 
+dT 
+(-A,t) =0 x = -A ve t .0 (10) 
+dx Yine Þekil 1’de görülen -x1 ve x1 noktalarýnda termokapýl ile ölçülen zamana baðlý sýcaklýklarý birer 
+
+Þekil 1. Bir boyutlu düzlemsel koordinatlarýn þematik görünüþü. (Schematic representaion of one dimensional Cartesian coordinates.) 
+sýnýr þartý olarak (11a) ve (11b) þeklinde verilebilir.  T (-x1,t) =Tmt .0 (11a) T (x1,t) =Tmt .0 (11b) 
+Baþlangýç sýnýr þartý olarak, t = 0 zamanýnda -x1 ve x1 
+noktalarýnda  ölçülen  sýcaklýklar,  eþitlik  (12)  de  
+verilmiþtir.  
+TixT ,0) =(  (12)  
+
+Böylece sýnýr þartlarý yardýmýyla döküm kalýp ara yüzeyine doðru bilinmeyen tüm noktalar bulunur.  
+2.5. 	Deneylerin Yapýlýþý ve Deney Düzeneði (Experimental Procedure and Set-up) 
+Veri toplama ve analiz sistemine baðlý deneylerin yapýldýðý düzenek Þekil 2’de þematik olarak gösterilmiþtir. Tek yönlü katýlaþma saðlanan dökümde ve soðutucuda ýsýl çiftlerin yerleri aynýþekil üzerinde verilmiþtir. Sývý Al-Si alaþýmý 28 mm iç çapýnda ve 200 mm boyunda ýsý iletkenliði çok düþük olan alümina-silika seramik kalýp boþluðuna dökülmüþtür. 28 mm çapýnda ve 90 mm boyunda su soðutmalý (20 litre/dakika) silindirik çelik (H13) soðutucu Þekil 2’de gösterildiði gibi kalýba yerleþtirmiþtir. Her bir deneyde 60, 280 ve 400 grit (1 in2 deki SiC partikül sayýsý) zýmparalar kullanýlarak sýrasýyla 2.47, 0.22 ve 
+0.15 µm soðutucu yüzey pürüzlülüðü deðerlerine (Ra) sahip soðutucular kullanýlmýþtýr. Kalýba ve soðutucuya altý adet kalibrasyonlarý yapýlmýþ K tipi ýsýl çiftler döküm-soðutucu ara yüzeyinden 5 mm, 
+37.5 mm ve 75 mm uzaklýkta simetrik olarak yerleþtirilmiþtir. Isýl çiftler, K tipi ýsýl çift için özel taþýma kablosu ile veri toplama sistemine baðlanmýþtýr. 
+
+
+Þekil 2. Deney düzeneðinin þematik gösterimi (Schematic representaion of experimental set-up) 
+Tablo 1. IHTC’nýn hesaplanmasý esnasýnda bilgisayar programýna girilen termofiziksel özellikler [28]. 
+(Thermophysical properties using input data to computer program during the calculation of the IHTC [28]) 
+Malzeme  C, J/ kgK  ., kg/m3  k, W/mK  
+Çelik Soðutucu Kalýp (H13)  435,37+0,2·T  7866,86-0,3174·T  0,00029·T-26,85  
+Al-%13Si (Katý*)  1180  2682,54-0,2969·T  149,2+0,019667·T  
+Al-%13Si (Sývý**)  1200  2613,27-0,2414·T  0,865·T-648,75  
+
+Sýcaklýk (T) Kelvin’dir, *Katýlaþma Sýcaklýðý 849 K, **Ergime Sýcaklýðý 850 K 
+Soðutucu ve döküm malzemesinin termofiziksel özellikleri Tablo 1’de verilmiþtir. Yaygýn olarak kullanýlan ötektik bileþime sahip Al-Si alaþýmý ve soðutucu olarak da termofiziksel özellikleri çok iyi bilinen ve dökümcülükte çok yaygýn metal kalýp malzemesi olarak kullanýlan sýcak iþ takým çeliði (H13) bu deneysel çalýþmada döküm ve kalýp 
+malzemesi olarak seçilmiþtir. 
+Tek yönlü katýlaþma düzeneði ýsýnýn yalnýz alttan su soðutmalý soðutucu tarafýndan uzaklaþtýrýlacak þekilde tasarlanmýþtýr. Seramik kalýbýn çevresi ekstra olarak 20 mm kalýnlýðýnda cam yünü ile sarýlarak izolasyon güçlendirilmiþ ve tek yönlü katýlaþmanýn ara yüzeyden baþlayarak yukarýya doðru devam etmesi saðlanmýþtýr. 
+Ergitme iþlemi direnç telli ergitme ocaðýnda yapýlmýþve 980 K sýcaklýðýndaki sývý metal oda sýcaklýðýna sahip kalýba dökülmüþtür. Daha sonra oda sýcaklýðýna kadar soðumaya býrakýlmýþtýr. Katýlaþma sýrasýnda ýsýl çiftlerden 0.5 s zaman aralýðýnda elde edilen sýcaklýk verileri otomatik olarak kaydedilmiþ ve bilgisayara aktarýlmýþtýr. Ölçülen zaman sýcaklýk verileri Sonlu Fark Yöntemi kullanýlarak döküm ve soðutucu için sýcaklýk daðýlýmlarýnýn belirlenmesinde kullanýlmýþtýr. 
+3. SONUÇLAR VE TARTIÞMA (RESULTS AND DISCUSSION) 
+0.15 µm yüzey pürüzlülüðüne sahip soðutucu kalýpta, döküm-kalýp ara yüzeyden simetri olarak 5 mm, 37,5 mm ve 75 mm mesafede 0.5 s zaman aralýklarýnda ýsýl çiftlerle ölçülen ve hesaplanan sýcaklýk eðrileri Þekil 3’de verilmiþtir. Hesaplar yapýlýrken döküm ve kalýp malzemeleri için Tablo 1’de verilen termofiziksel deðerler kullanýlmýþtýr. Þekil 3’de TC1, TC2 ve TC3 sýcaklýk eðrileri soðutucudan, TC4, TC5 ve TC6 sýcak­lýk eðrileri dökümden zamana baðlý olarak ölçülen sýcaklýklardýr. TD ve TK döküm ve kalýp yüzeylerine denk gelen düðüm noktalarý için, T37.5 ara yüzeyden simetri olarak kalýp ve soðutucu orta noktalarýnda hesaplanan sýcaklýk eðrilerini göstermektedir.  
+Ölçülen sýcaklýklarla hesap edilen sýcaklýklarýn uyum içinde olduklarýÞekil 3’te açýk bir þekilde görülmektedir. Sývý metal dökümünü takip eden ilk bir kaç saniyede katýlaþmaya baþlamýþ ve kalýp ara yüzeyinden yukarý doðru ilerlemiþtir. Katýlaþma döküm­kalýp ara yüzeyinden 75 mm mesafede 76. saniyede baþlamýþ ve 262. saniyede 186 saniyelik zaman aralýðýnda tamamlanmýþtýr. 2.47 ve 0.22 µm yüzey 
+
+
+Þekil 3. Ölçülen ve hesap edilen sýcaklýklar (Calculated and measured temperatures) 
+H. M. Þahin v.d Ötektik Al-Si Alaþýmýnda Soðutucu Yüzey Pürüzlülüðünün Arayüzey Isý Transfer Katsayýsýna Etkisi 
+Tablo 2. Fo ve .x deðerlerine baðlý olarak ölçülen ve hesap edilen sýcaklýklar arasýndaki farklar. (Differences between measured and calculated temperatures depending Fo and .x values) 
+Kalýp  Fo = 0.5  Fo = 0.25  Fo = 0.125  Fo = 0.0625  
+.x (mm)  1  0.5  0.25  1  0.5  0.25  1  0.5  0.25  1  0.5  0.25  
+.5372 TTC - 6.69  4.51  3.49  6.00  3.90  3.48  4.70  3.38  3.36  3.66  3.36  3.30  
+Döküm  Fo = 0.5  Fo = 0.25  Fo = 0.125  Fo = 0.0625  
+.x (mm)  1  0.5  0.25  1  0.5  0.25  1  0.5  0.25  1  0.5  0.25  
+.5375 TTC - 11.73  11.57  11.49  11.72  11.56  11.49  11.68  11.55  11.48  11.61  11.55  11.46  
+
+pürüzlülüðüne sahip soðutuculara yapýlan dökümlerden de benzer sýcaklýk-zaman eðrileri elde edilmiþtir. 
+TC1 ve TC6 hesaplamalar için sýnýr þartý olarak alýnan deðerlerdir. Döküm-kalýp ara yüzeyinden simetrik olarak 5 mm mesafede hesap edilen sýcaklýk deðerleri, bu noktalarda ölçülen TC3 ve TC4 sýcaklýklar ile karþýlaþtýrýlmýþtýr. Bilgisayar programý bu noktalarda ölçülen ve hesap edilen sýcaklýk farklarýnýn (hassaslýðýn) en fazla ± 0.1’den küçük olmasýdurumuna kadar hesap yapmaktadýr. 
+Hesap edilen sýcaklýk daðýlýmýnýn kontrolünü yapmak için döküm ve kalýp ara yüzeyden simetri olarak 37.5 mm mesafede ölçülen sýcaklýklarla hesap edilen sýcaklýklar karþýlaþtýrýlmýþtýr. Hesap yönteminin hassaslýðýný artýrmak için eþitlik (8)’de Fo sayýsýküçültülerek hesaplar yapýlmýþtýr. Fo sayýsýnýn ve buna baðlý olarak .x deðerinin azalmasýna baðlýolarak ölçülen ve hesap edilen sýcaklýk farklarý Tablo 2’de verilmiþtir. Hesaplama zamaný da dikkate alýnarak, Fo = 0.0625 ve .x = 0.25 mm alýndýðýnda hesaplarýn en hassas sonuçlarý verdiði tespit edilmiþtir. Sýcaklýk farkýnýn dökümde en fazla 11.46 K olduðu, kalýpta ise bu deðerlerin en fazla 3.30 K olduðu görülmüþtür. Literatürdeki çalýþmalarda bu noktalardaki sýcaklýk farkýnýn 20 K’den küçük olmasýkabul edilebilir durum olduðu belirtilmektedir [4]. Bu çalýþmadaki sýcaklýk farklarýkabul edilebilir sýnýr olan 
+
+Þekil 4. 0.15 µm yüzey pürüzlülüðüne sahip soðutucu ve döküm ara yüzeyinde hesap edilen ara yüzey ýsý transfer katsayýlarýnýn (h) zamanla deðiþimi. (Time depending variation of calculated interfacial 
+heat transfer coefficients between casting and 0.15 µm surface roughness chill.) 
+20 K’den küçüktür. Döküm ve kalýp malzemesinde ölçülen ve hesaplanan sýcaklýklar arasýndaki bu ükemmel uyum deney düzeneðinin ve kullanýlan malzemelerin termofiziksel özelliklerinin doðru seçildiðini ve hesap yönteminin hassas olduðunu göstermektedir. 
+Sayýsal çözümün hassaslýðýný belirleyen Fo sayýsýnýn ve düðüm noktalarýnýn sýklýðýküçültülerek elde edilen sonuçlarýn hassaslýðý arttýrýlmýþtýr. Hesaplama süresi de göz önüne alýnarak en iyi çözüm Fo=0.0625 ve .x=0.25 mm deðerleri için elde edilmiþtir. Sýcaklýk daðýlýmýna baðlý olarak ýsý transfer katsayýsý da doðru olarak tespit edilmiþtir. 
+Þekil 4’te 0.15 µm yüzey pürüzlülüðüne sahip soðutucu kalýp malzemesi için hesap edilen ara yüzey  ýsý transfer katsayýlarýnýn (h) zamanla deðiþimi gösterilmiþtir. 0.15 µm yüzey pürüzlülüðüne sahip soðutucu kalýp için ilk 3.5 saniyede ara yüzey ýsýtransfer katsayýsý hmax=3320 W/m2K ile en yüksek deðerine ulaþmýþtýr. 14. saniyede katýlaþmanýn yüzeye yakýn bölgelerde tamamlanmasý ile birlikte ara yüzey ýsý transfer katsayýsý deðerinin hýzlý bir þekilde 1150 W/m2K’e düþtüðü gözlenmiþtir. Ancak takip eden sürede ýsý transfer katsayýsý deðeri daha yavaþ düþmüþve 250. saniyeden itibaren yaklaþýk 340 W/m2K de sabit kalmýþtýr. Þekil 5 ve 6’da, 0.22 ve 2.47 µm soðutucu yüzey pürüzlülüðü için ara yüzey ýsý transfer  katsayýsýnýn maksimum deðerleri sýrayla hmax=3302 W/m2K ve hmax=2954 W/m2K olarak bulunmuþ ve 
+0.15 µm yüzey pürüzlülüðüne sahip soðutucu kullanýlarak yapýlan dökümden elde edilen ýsý transfer katsayýsýna benzer eðimler göstermiþtir. 
+Þekil 7’de ara yüzey ýsý transfer katsayýsýnýn maksimum deðerlerinin (hmax) yüzey pürüzlülüðü ile deðiþimi gösterilmiþtir. Yüzey pürüzlülüðünün artmasý ile maksimum ýsý transfer katsayýsý azalmýþtýr. Literatürde yapýlan benzer çalýþmalarda [6,12,25,29,30] yüzey pürüzlülüðünün artmasý ile ýsý transfer katsayýsýnýn azaldýðý belirtilmektedir. 
+Bu çalýþmada elde edilen ara yüzey ýsý transfer katsayýlarý ile metal kalýp yüzey pürüzlülüðü arasýndaki iliþki literatür ile uyum saðlamaktadýr. 
+Þekil 8 incelendiðinde de kalýp yüzey pürüzlülük deðe­rinin artmasý ile ara yüzey ýsý transfer katsayýsýnýn azaldýðý görülmektedir. Özellikle 2.47 µm yüzey Þekil 5. 0.22 µm yüzey pürüzlülüðüne sahip soðutu­cu ve döküm ara yüzeyinde hesap edilen ara yüzey ýsý transfer katsayýlarýnýn (h) zamanla deðiþimi. (Time 
+
+
+depending variation of calculated interfacial heat transfer coeffi­cients between casting and 0.22 µm surface roughness chill) 
+Þekil 6. 2.47 µm yüzey pürüzlülüðüne sahip soðutucu ve döküm ara yüzeyinde hesap edilen ara yüzey ýsý transfer katsayýlarýnýn (h) zamanla deðiþimi. (Time depending variation of calculated interfacial heat transfer coefficients between casting and 2.47 µm surface roughness chill.) 
+
+
+Þekil 7. Maksimum ara yüzey ýsý transfer katsayýsýnýn Þekil 8. Soðutucu yüzey pürüzlülüðü ile ara yüzey ýsý
+yüzey pürüzlülüðü ile deðiþimi (Variation of maximum 
+interfacial heat transfer coefficient with surface roughness) transfer katsayýsýnýn deðiþimi (Variation of interfacial heat 
+
+transfer coefficient with chill surface roughness) 
+pürüzlülüðünde ara yüzey ýsý transfer katsayýsýnda belirgin bir düþüþ gözlenmiþtir. 0.22 ve 0.15 µm soðutucu yüzey pürüzlülüklerinde sývý metal ile temas eden gerçek yüzey alaný 2.47 µm soðutucu yüzey pürüzlülüðündeki gerçek temas yüzey alanýna göre çok daha yüksektir. Sývýmetal bu soðutucularýn yüzeylerindeki oyuklarýn içine girememekte ve metal­kalýp temasý sadece pürüzlülüklerin tepe noktasýnda gerçekleþmektedir. Bu sebepten 2.47 µm soðutucu yüzey pürüzlülüðündeki ara yüzey ýsý transfer katsayýsý 0.22 ve 0.15 µm soðutucu yüzey pürüzlülüðündeki ara yüzey ýsý transfer katsayýsýna göre belirgin bir azalma göstermiþtir. 0.22 ve 0.15 µm yüzey pürüzlülük deðerlerinin birbirine yakýn olmasýndan dolayý birbirine yakýn ara yüzey ýsýtransfer katsayýsý deðerleri elde edilmiþtir. 
+Þekil 8’de ara yüzey ýsý transfer katsayýlarýnýn h=C(t)-n C ve n sabit deðerlerine baðlý, zamanýn bir fonksiyonu olarak azaldýðý görülmektedir. Garcia’nýn [31-38] Al-Si, Sn-Pb, Zn-Al, Al-Cu alaþým sistemleri ve Saf Sn ve Saf Al için yaptýðý birçok çalýþmada bu sonuçlara benzer sonuçlar elde etmiþtir. Garcia çalýþmalarýnda ýsý transfer katsayýsýnýn zamanýn fonksiyonu olduðu­nu, C ve n katsayýlarýnýn alaþýmýn kompozisyonuna, döküm þartlarýna, soðutucu malzemesine ve döküm sýcaklýðýna baðlý olduðunu bildirmiþtir. Bu çalýþmada elde edilen sonuçlar Garcia’nýn sonuçlarý ile benzerlik göstermektedir. 
+4. SONUÇLAR (CONCLUSIONS) 
+Bu çalýþmada; döküm malzemesi olarak Al-Si alaþýmýve kalýp malzemesi olarak çeþitli pürüzlülük deðerlerindeki çelik (H13) malzemesi seçilerek, tek yönlü katýlaþma þartlarýnda döküm-kalýp ara-yüzey ýsýtransfer katsayýsý baþarý ile tespit edilerek, aþaðýdaki sonuçlar elde edilmiþtir. 
+1) Nümerik çözümün hassaslýðý Fourier sayýsý azaldýkça artmýþtýr. Optimum Fo sayýsýnýn ve buna baðlý olarak .x deðeri hesaplama zamanýda dikkate alýnarak, Fo = 0.0625 ve .x = 0.25mm olarak bulunmuþtur. 
+
+H. M. Þahin v.dÖtektik Al-Si Alaþýmýnda Soðutucu Yüzey Pürüzlülüðünün Arayüzey Isý Transfer Katsayýsýna Etkisi 
+2) 2.47, 0.22 ve 0.15 µm soðutucu yüzey pürüzlülük­leri için maksimum ara yüzey ýsý transfer katsayýlarýsýrasý ile 2954 W/m2K , 3302 W/m2K ve 3320 W/m2K olarak hesaplanmýþtýr. 3) Maksimum  ara  yüzey  ýsý transfer katsayýsýhmak = -235.22Ra + 4700.8 kalýp yüzey pürüzlülüðüne baðlýolarak elde edilmiþtir. 4) Ara yüzey ýsý transfer katsayýsý soðutucu yüzey pürüzlülüðü azaldýkça artmýþtýr. 5) Ara yüzey ýsý transfer katsayýlarýnýn h=C(t)-n eþit­liðine baðlý olarak zamanýn çok güçlü bir fonksiyonu olduðu gözlenmiþtir. 
+SEMBOLLER (NOMENCLATURE) 
+C : Özgül ýsý, J/kgK 
+
+H : Ara yüzey ýsý transfer katsayýsý, W/m2K 
+
+k : Isý iletkenlik katsayýsý, W/mK 
+
+l : Ergime gizli ýsýsý, J/kg 
+
+L : Uzunluk, m 
+
+M : Alt-bölge sayýsý
+
+q.: Isý akýsý, W/m2 q''': Birim hacimde ýsý üretim oraný, W/m3 
+
+t : Zaman, s 
+
+T : Sýcaklýk, K TC : Döküm metal yüzey sýcaklýðý, K TM : Soðutucu metal yüzey sýcaklýðý, K 
+
+X : Mesafe, m 
+
+
+Yunan harfleri 
+.: Yoðunluk, kg/m3 .t : Zaman aralýðý.x : Mesafe aralýðý
+Alt indisler 
+m : Düðüm noktasý
+Üst indisler 
+p : Zaman iþareti 
+TEÞEKKÜR (ACKNOWLEDGEMENT) 
+Bu çalýþmaya 07/2002-08 numaralý Bilimsel Araþtýrma Projesi çerçevesinde maddi destek saðlayanGazi Üniversitesi Rektörlüðüne teþekkür ederiz.  
+KAYNAKLAR (REFERENCES) 
+1.	
+H. M. Þahin, K. Kocatepe, R. Kayýkcý ve N. Akar “Determination of Unidirectional Heat Transfer Coefficient during Unsteady State Solidification at Metal Chill Interface” Energy Conversion and Management, (Accepted on 30 March 2005, in press). 
+
+2.	
+Fortin, G., Louchez, P., Samuel, F. H., “Factors Controlling Heat Transfer Coefficients at the Metal-Mold Interface During Solidification of Aluminum Alloys: An Analytical Study” AFS Transactions, Vol 100, 863-871, 1992. 
+
+3.	
+Hartley, J.G., Patterson, J.A.L., “The Influence of Temperature, Moisture Content and Binder Content on the Conductivity of Dried Bentonite-Bonded Zirkon and Silica Sands”, AFS Transac­tions, Vol 91, 183-190, 1983. 
+
+
+4.	
+Griffiths,W.D., “The Heat-Transfer Coefficient During the Unidirectional Solidification of an Al-Si Alloy Casting”, Metallurgical And Materials Transactions , Vol 30B, 437-482, 1999. 
+
+5.	
+Poirier D.R., and Poirier E.J., “Heat Transfer Fundamentals for Metal Castings”, The Mineral, Metals and Materials Society, ABD, 1992. 
+
+6.	
+Prabhu, K.N., Srinivas, G., Venkataraman, N., “Modeling Heat Transfer and Soldification Behavior of Gravity Diecast Al-Cu-Si Alloy (LM21) Plates”, AFS Transactions, Vol 101, 653­659, 1999. 
+
+7.	
+Kannaiah, P., Narayana, K.L., Roshan, H. Md., “Thermal Properties of Molding Sands: Casting-Over Probe Embedded Specimen Method”, AFS Transactions, Vol 95, 591-600, 1987. 
+
+8.	
+Hartley, J.G., Babcock, D., Berry, J.T., “The Ther­mal Conductivity of Bentonite-Bonded Molding Sands”, AFS Transactions, Vol 89, 469-476, 1981. 
+
+9.	
+Bandyopadhyay, B.P., Joshi, M.D., Chakraborty, P.N., “A Transient Method of Simultaneous Measurement of Thermal Properties of Moulding Sand Using Plane Heat Source”, British Foundryman, Vol 77, 318-321, 1984. 
+
+10.	
+Seshadri, M.R., Ramachandran, A., “Mold Materials Thermal Properties”, AFS Transac­tions, Vol 69, 616-624, 1961. 
+
+11.	
+Muojekwu, C.A., Samarasekera, I.V., Brimacombe, J.K., “Heat transfer and Microstructure during the Early Stages of Metal Solidification”, Metallurgical and Materials Transactions B, Vol 26, 361-382, 1995. 
+
+12.	
+Michel, F., Louchez, P. R., Samuel, F. H., “Heat Transfer Coefficient during Solidification of Al-Si Alloys: Effects of Mold Temperature, Coating Type and Thickness”, AFS Transactions, Vol 103, 275-283, 1995. 
+
+13.	
+Krishnan M and Sharma D.G.R, “Determination of Heat Transfer Coefficient Between Casting and Chill in Unidirectional Heat Flow”, AFS Transactions, Vol 102, 769-774, 1994. 
+
+14.	
+Biloni H and Chalmers B., “Predendritic Solidification”, Trans. Met. Soc. (AIME), Vol 233, 373-379, 1965. 
+
+15.	
+Prates M and Biloni H., Variables Affecting the Nature of the Chill Zone”, Met. Trans., Vol 3, 1501-1510, 1972. 
+
+16.	
+Ho, K., Pehlke, R.D., “Mechanisms of Heat Transfer at a Metal-Mold Interface”, AFS Trans­actions, Vol 92, 587-598, 1984. 
+
+17.	
+El-Mahallawy N.A, and Assar A.M., “Effect of Melt Superheat on Heat Transfer Coefficient for Aluminium Solidifying against Copper Chill”, J. Materials Science, Vol 26, 1279-1733, 1991. 
+
+18.	
+Taha M.A, El-Mahallawy N.A, Assar A.W.M and Hammouda R.M., “Effect of Melt Superheat and Chill Material on Interfacial Heat-Trasnfer Coefficient in end-chill Al and Al-Cu Alloy Castings”, J. Materials Science, Vol 27, 3467­3473, 1992. 
+
+
+
+19. 
+Todoroki H, LertaromL, Suziki T and Crumb A.W., “Heat Transfer Behaviour of Pure Iron and Nickel against a Water Cooled Copper Mold During Inýtýal Stage of Solidification”, Proceedings of 1997 Iron Making Conference, 731-742, 1997. 
+
+20.	
+Sun R., “Simulation and Study of Surface Conductance for Heat Flow in the Early Stage of Casting” AFS Cast Metals Research Journal, Vol 6, 105-110, 1970. 
+
+21.	
+Tadayon M.R and Lewis R.W, “A Model of Metal-Mould Interfacial Heat Transfer for Finite Element Simulation of Gravity-diecasting”, Cast Metals, Vol 1, 24-28, 1988. 
+
+22. 
+Davies, V.L., “Heat Transfer in Gravity Diecast­ings”, British Foundrymen, Vol 73 331-334, 1980. 
+
+23.	
+Chiesa, F, “Measurement of the Thermal Conduc­tance at the Mold-Metal Interface of Permanent Molds”, AFS Transactions, Vol 98,193-200, 1990. 
+
+24.	
+Nyamekye, K., Wei, S., Askeland, D., Voigt, R.C., Pischel, R.P., Rasmussen, W., Ramsay, C., “A Rewiew of Permanent Mold Coating and Their Effect on Heat Transfer in the Mold”, AFS Transaction, Vol 101, 869-876, 1994. 
+
+25.	
+Assar, A.M., “Mould Surface Roughness and Interface Heat Transfer using Heat Flow Model”, Materials Science and Technology, Vol 13, 702-704, 1997. 
+
+26. 
+Özýþýk, M. N., “Finite Difference Methods in Heat Transfer”, Mechanical and Aerospace Engineering Department, North Carolina State University, ABD, 1994. 
+
+27.	
+Incropera, F., P., Dewitt, D., P., “Fundamentals of Heat and Mass Transfer”, John Wiley&Sons, Purdue University, School of Mechanical Engineering, ABD, 1996.Hallam, C.P., Griffiths, W.D., “A Model of the Interfacial Heat Transfer Coefficient for The Alüminum Gravity Die Casting Process”, Materials and Metallurgical Transactions, Vol 35, 721-733, 2004. 
+
+28.	
+Taha, M.A., El-Mahallawy, N.A., El-Mestekawi, M.T., Hassan, A. A., “Estimation of Air Gap and Heat Transfer Coefficient at Different Faces of Al and Al-Si Casting Solidifying in Permanent 
+
+
+Mould”, Materials Science and Technology, Vol 17, 1093-1101, 2001. 
+29.	
+Wang,G.-X., Matthys, E.F., “Experimental Determination of the Interfacial Heat Transfer during Cooling and Solidification of Molten Metal Droplets Impacting on A Metallic Substrate: Effect of Roughness and Superheat”, International Journal of Heat and Mass Transfer, Vol 45, 4967–4981, 2002. 
+
+30.	
+Santos, C.A., Quaresma, J.M.V., Garcia, A., “Determination of Transient Interfacial Heat Transfer Coefficients in Chill Mold Casting”, Journal of Alloys and Compaunds, Vol 319, 174-186, 2001. 
+
+31.	
+Santos, C.A., Siqueira, C.A., Garcia, A., Quaresma, J.V.M., Spim, J.A., “Metal/Mold Heat Transfer Coefficients during Horizontal and Vertical Unsteady-State Solidification of Al-Cu and Sn-Pb Alloys”, 4th International Conference on Inverse Problems in Engineering, Rio de Janeiro, Brazil, 2002. 
+
+32.	
+Osorio, W.R., Garcia, A., “Modeling Dendritic Structure and Mechanical Properties of Zn–Al Alloys as A Function of Solidification Conditions”, Materials Science and Engineering A, Vol 325, 103–111, 2002. 
+
+33.	
+Siqueira, C.A., Cheung, N., Garcia, A., “The Columnar To Equiaxed Transition during Solidification of Sn–Pb Alloys”, Journal of Alloys and Compounds, Vol 351, 126–134, 2003. 
+
+34.	
+Peres, M.D., Siqueira, C.A., Garcia, A.,”Macrostructural and Microstructural Development in Al–Si Alloys Directionally Solidified under Unsteady-State Conditions”, Journal of Alloys and Compounds, Vol 381,168–181, 2004. 
+
+35.	
+Santos, C.A., Siqueira, C.A.,Garcia, A., Quaresma, J.M.V., Spim, J.A., “Metal–Mold Heat Transfer Coefficients during Horizontal and Vertical Unsteady-State Solidification of Al–Cu and Sn–Pb Alloys”, Inverse Problems in Science and Engineering, Vol 12, 279–296, 2004. 
+
+36.	
+Sá,F., Rocha,O.L., Siqueira, C.A., Garcia, A., “The Effect of Solidification Variables on Tertiary Dendrite Arm Spacing in Unsteady-State Directional Solidification of Sn–Pb And Al–Cu Alloys”, Materials Science and Engineering A , Vol 373, 131–138 2004. 
+
+37.	
+Spinelli, J.E., Rosa, D.M., Ferreira, I.L., Garcia, A., “Influence of Melt Convection On Dendritic Spacings of Downward Unsteady-State Directionally Solidified Al–Cu Alloys”, Materials Science and Engineering A, Vol 383, 271–282, 2004. 
+
+
+
+
+
+

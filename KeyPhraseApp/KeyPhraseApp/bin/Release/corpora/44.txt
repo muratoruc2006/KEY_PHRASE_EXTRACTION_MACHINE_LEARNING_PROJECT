@@ -1,0 +1,328 @@
+CANDU REAKTÖRLERÝNDE ThC VE LWR YAKIT ATIÐI KARIÞIMI KULLANIMININ ÝNCELENMESÝ
+Bu çalýþmada; ThC ve Hafif su reaktörü (LWR) yakýt atýðý karýþýmýnýn CANDU reaktörlerinde kullanýlabilirliði ve reaktör performansýna etkisi araþtýrýlmýþtýr. Bunun için yakýt olarak % 100 UO2, % 100 LWR yakýt atýðý ve % 40 ThC + % 60 LWR yakýt atýðý karýþýmý kullanýlmýþtýr. Hesaplamalar tek boyutlu SCALE 4.4a bilgisayar sistem kodu yardýmýyla yapýlmýþtýr. Yapýlan hesaplamalar sonucunda, k. = 1.06 sýnýr deðerinde bu yakýtlar için yanma dereceleri sýrasýyla 7.700, 27.000 ve 11.000 MW.D/MT bulunmuþ ve reaktör iþletim süreleri 170, 660, 280 gün elde edilmiþtir. Buna baðlý olarak, ThC ile LWR yakýt atýðý karýþýmýnýn doðal UO2 yakýtýna nazaran kritiklik ve yanma derecesi açýsýndan çok iyi nükleer performans sergilediði görülmüþtür. 
+
+1. GÝRÝÞ yakýt atýðýnýn enerji üretimi açýsýndan tekrar 
+deðerlendirilmesinin mümkün olabildiði belirtilmiþtir Kanada Döteryum Uranyum (CANDU) reaktörleri ve [1-9]. Hafif Su Reaktörleri (LWR) dünya enerji ihtiyacýnýn karþýlanmasýnda önemli bir paya sahip olan fisyon Dünyadaki uranyum rezervlerinin sýnýrlý olmasý ve reaktörleridir. LWR’ler de yakýt olarak zenginleþtirme iþleminin yüksek maliyet zenginleþtirilmiþ (~% 3.5 235U) fisil yakýt kullanýrken, getirmesinden dolayý yeni tip nükleer yakýtlar günümüz CANDU reaktörlerinde doðal araþtýrýlmaya baþlanmýþtýr. Bu çalýþmalarda, doðal (~% 0.71 235U) UO2 kullanýlmaktadýr. Hafif su uranyum rezervlerinden yaklaþýk üç kat daha fazla reaktörlerinde yanma derecesi ~35.000 MW.D/MT rezerve sahip olan toryum yakýtýndan faydalanýlmasýseviyesine ulaþtýðýnda yakýt demetleri reaktörden amaçlanmaktadýr [10-16]. 232Th izotopunun yüksek çýkarýlmaktadýr. Çýkarýlan yakýt demetindeki mevcut enerjili (MeV seviyesinde) nötronlarla fisyon yakýt atýðýnda ise doðal UO2’den daha fazla (~% 1.5-reaksiyonlarý yapmasýnýn yaný sýra, termal ve orta 2 235U) fisil izotop bulunmaktadýr [1-4]. Yapýlan enerjili nötronlarý yutarak çok kaliteli fisyon araþtýrmalarda, yüksek oranda fisil izotop içeren LWR yapabilen bir izotop olan 233U izotopu üretmektedir. 
+A. Acýr Candu Reaktörlerinde ThC ve LWR Yakýt Atýðý Karýþýmý Kullanýmýnýn Ýncelenmesi 
+Üretilen 233U izotopu çok iyi fisyon yapma özelliði nedeniyle klasik nükleer reaktörlerde yakýt olarak kullanýlabilmektedir. 
+Toryum ile LWR yakýt atýðýnýn belirli oranlarda 
+karýþtýrýlarak CANDU reaktörlerinde kullanýlmasý
+durumunda reaktör performansý açýsýndan daha iyi sonuçlar elde edilecektir [5-6,17]. 
+Bu çalýþmada, CANDU reaktörlerinde toryum yakýt bileþenlerinden birisi olan seramik esaslý ThC yakýtýnýn da LWR yakýt atýðý ile karýþtýrýlarak 
+kullanýlabilirliði incelenmiþ ve CANDU performansýna etkisi araþtýrýlmýþtýr.  reaktör  
+2. REAKTÖR GEOMETRÝSÝ 
+Bu çalýþmada incelenen CANDU-toryum  reaktör  
+
+tasarým geometrisi daha önce üzerinde araþtýrma 
+
+yapýlan GENTILLY-2 reaktör karakteristiklerine 
+sahiptir [5,15]. Þekil 1’de görüldüðü gibi reaktör koru 
+ve reflektör malzemesi, ASTM 304 L alaþýmýndan yapýlmýþ bir kap ile çevrelenmiþtir. 
+CANDU reaktör koru 380 yakýt kanalýndan 
+oluþmaktadýr ve Þekil 2’de tek bir yakýt kanalýnýn 
+kesiti gösterilmiþtir. Zirkaloy-2 (Zircalloy-2) 
+alaþýmýndan yapýlan ve yakýt demetini çevreleyen 
+kalandriya tüpü, düþük sýcaklýkta (<71 °C) ve 
+~100 kPa basýnçta D2O (aðýr su) soðutucu içerisine 
+kare hücre þeklinde yerleþtirilmektedir [18]. Böylece, 
+basýnç tüpü içerisindeki yakýt demeti bölgesinde 
+meydana gelen ve basýnç tüpü çevresine etki eden ýsý
+üretimi D2O soðutucu akýþkan tarafýndan güç dönüþümü için transfer edilmektedir.  
+Kalandriya tüpü, yakýt demetini çevreleyen moderatör 
+ile CO2 gazýný ayýran silindirik yapýdadýr. Zr-Nb alaþýmýndan yapýlmýþ olan basýnç tüpü, yakýt demeti Þekil 2. Yakýt kanalý kesit görünüþü (cm) 
+I- Orijinal CANDU karesel hücre yapýsý
+II- Hesaplamalarda kullanýlan eþdeðer çap 
+ile birlikte soðutucu akýþkaný çevrelemektedir [19]. D2O soðutucunun giriþ sýcaklýðý 266 °C ve çýkýþ
+sýcaklýðý 310 °C’dir (~10 MPa basýnçta) [20]. Ayrýca, 
+düþük ve yüksek sýcaklýktaki D2O soðutucu akýþkan 
+arasýndaki ýsý kaybýný azaltabilmek amacýyla basýnç ve 
+kalandriya tüpleri arasýnda CO2 gazý ile doldurulmuþ
+bir bölge oluþturulmuþtur. CANDU reaktörlerinde 
+kullanýlan yakýt demeti 49.5 cm uzunluðunda olup 37 
+adet yakýt çubuðundan meydana gelmektedir. Þekil 3 
+A’da yakýt demetinin kesit görünüþü ve Þekil 3 B’de 
+ise yakýt çubuðu boyutlarý gösterilmiþtir. 
+CANDU reaktörlerinde kullanýlan yakýt çubuðu, yakýt olarak doðal UO2 yakýtý ve zýrh olarak zirkonyum 
+alaþýmý olan Zirkolay-4 malzemesinden oluþmaktadýr. 
+765.12 
+
+759.4 
+
+
+
+A 
+Reflektör 
+
+Kor 
+96.5 
+594.4 
+A 
+628.6 
+
+
+675.6 
+681.32 
+
+
+
+Þekil 1. CANDU reaktör koru ve reflektör yapýsýnýn kesit görünüþü (cm)Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+A B
+
+Yakýt Soðutucu Basýnç tüpü 
+13.08 
+29.769 
+57.506 
+86.614 
+Soðutucu Zýrh Yakýt 
+Di D0 
+Yakýt hücresiDi=12.2423; D0=13.081
+
+Þekil 3. Yakýt demetinin kesit görünümü (mm) 
+Yapýlan bu çalýþmada; seramik esaslý ThC yakýtý ile LWR yakýt atýðý karýþýmýnýn CANDU reaktör performansýna etkisi araþtýrýlmýþ ve diðer yakýtlarla bu karýþýmýnýn reaktör performansýna etkisini karþýlaþtýrabilmek amacýyla aþaðýda belirtilen 3 farklýyakýt bileþimi incelenmiþtir. 
+.  Mode 1: CANDU reaktörlerinde kullanýlan  
+doðal % 100 UO2 yakýtý.  
+.  Mode  2:  % 100  LWR  yakýt  atýðýnýn  
+kullanýlmasý. Bu çalýþmada kullanýlan LWR  
+yakýt atýðý, 1000 MWel  PWR ve 150 günlük  
+çalýþma  zamanýndan  sonra  uranyum  
+yakýtýndan meydana gelen fisyon olabilen  
+izotop bileþenlerini içermektedir [21].  
+.  Mode 3: % 40 ThC ve % 60 LWR yakýt atýðý 
+kullanýlmasý.  
+
+
+3. NÜMERÝK SONUÇLAR 
+3.1. Hesaplama Yöntemi 
+Nötron transport ve reaksiyon miktarýhesaplamalarýnda kullanýlan tesir-kesit kütüphanelerindeki nötron enerji aralýklarýnýn sýklýðýçok önemli bir rol oynar. Doðal UO2 ve ThO2 yakýtlýnükleer reaktörlerde nötron enerji grup yapýlarýndaki enerji aralýklarý daðýlýmýnýn ve rezonans iþlemlerinin nötron aký daðýlýmýndaki, fisil yakýt üretimi ve fisyon reaksiyonlarýüzerine etkileri yapýlan çalýþmalarda ihmal edilemeyecek kadar önemlidir [22,23]. Reaktördeki nötron aký daðýlýmý ve reaksiyon miktarlarý nötron enerjilerine ve rezonans bölgesi enerji aralýk yapýlarýna baðlý olduðundan, bu çalýþmada en sýk nötron enerji aralýk yapýsýna ve rezonans yapýlarýna sahip olan 238 Grup ENDF/B-V 
+[24] tesir-kesit kütüphanesi seçilmiþtir. SCALE [25] sisteminin en geniþkütüphanesi olan bu kütüphane genel amaçlý kritiklik analizleri kütüphanesidir ve 300’den fazla çekirdek için datalar ihtiva eder. 45 hýzlýnötron grubu, 145 rezonans nötron grubu ve 48 termal nötron grubuna sahiptir. Bir çok rezonans çekirdekler çözümlü (resolved) rezonans bölgesinde NITAWL-II [26] tarafýndan oluþturulmuþ rezonans datalara ve çözümsüz rezonans (unresolved) bölgesinde BONAMI [27] tarafýndan oluþturulmuþBondarenko faktörlerine sahiptir. Sayýsal hesaplamalar için yakýt bölgesinde hücre aðýrlýklý ve rezonans iþlemli tesir kesitleri kullanýlmýþtýr. Yakýt bölgesi için önce 238 Grup ENDF/B-V kütüphanesi kullanýlarak CSAS [28] kontrol modülü ile hücre aðýrlýklý ve rezonans iþlemli tesir kesitleri elde edilmiþtir. Bu modül hücre geometrisi için rezonans iþlemcisi olarak ilk önce BONAMI kodunu kullanýr ve buradan aldýðý datalarý NITAWL-II kodu kullanarak hücre aðýrlýklýve rezonans iþlemli tesir kesitlerini elde eder. Hesaplamalar nötron transport hesaplamasý SN transport kodu olan XSDRNPM [29] kodu kullanýlarak Boltzman transport denklemi çözülerek yapýlmýþtýr. Bu kod hücre aðýrlýklýkütüphaneden aldýðý datalarý yakýt bölgesinde iþleyerek Boltzman transport denkleminin nümerik çözümünü gerçekleþtirmek suretiyle nötron akýdaðýlýmlarýnýhesaplayarak nötron reaksiyonlarýnýveren bir iþlemcidir. XSDRNPM kodu ile yapýlmýþbütün transport hesaplamalarýnda, açýsal nötron akýsýnýn integrasyonu S8-P3 yaklaþýmýyla yapýlmýþtýr. 
+Her bir yakýt çubuðunun nükleer kalitesindeki deðiþim, nötron spektrumu ile fisil ve fertil izotoplarýn atomik yoðunluklarýndaki deðiþimler dikkate alýnarak radyal koordinatlarda ve zaman aralýðý.t=10 gün olmak üzere incelenmiþtir. Bu iþlem için yapýlan hesaplamalarda arayüz programý olarak ERDEMLÝkod programý [30] kullanýlmýþtýr. 
+
+
+3.2. Kritiklik ve Yakýt Yanma Derecesi 
+Reaktör iþlem zamaný boyunca 232Th, 238U, 240Pu gibi fertil yakýtlarýn nötronlarla reaksiyona girmesi 
+
+A. Acýr Candu Reaktörlerinde ThC ve LWR Yakýt Atýðý Karýþýmý Kullanýmýnýn Ýncelenmesi 
+sonucunda 233U, 239Pu ve 241Pu gibi düþük enerjili nötronlarla çok iyi fisyon yapabilen yeni fisil izotoplar meydana gelmektedir. Nükleer reaksiyon ve radyoaktif dönüþümlere baðlý olarak iþlem zamanýboyunca atomik yoðunluklarýnda deðiþiklik gözlenen fisil çekirdeklerin izotopik dönüþüm biçimleri Þekil 4’de gösterilmiþtir. CANDU reaktörü iþletim süresinin bir fonksiyonu olarak .t zaman aralýklarýiçin üretilen (Eþ.1) ve tüketilen (Eþ.2) izotoplarýn atomik yoðunluklarýndaki deðiþim, 
++.Nd=.t·Nm1 ..b,m1(E) ·.(E) ·dE+.t·.m2 ·Nm2  (1) 
+-.N=.t·N·..dep(E)·.(E) ·dE+.t·.·N (2) 
+ile elde edilmektedir [5]. Burada; (m) esas çekirdek izotopu, (d) yeni oluþan çekirdek izotopu, (E) nötron enerjisi, (N) atomik yoðunluk, (.) mikroskobik tesir kesiti, (.) nötron akýsý, (.) bozunma sabitidir. Eþ. 1 ve Eþ. 2 yardýmýyla radyal koordinatlarda yakýt demetindeki fisyona uðrayabilen izotoplarýn atomik yoðunluklarýndaki deðiþim .t =10 günlük zaman aralýklarý için elde edilmiþtir. Reaktör iþlem zamanýsüresince nükleer yakýt, reaktör korunda fisyon enerjisi üretmektedir. Fertil yakýtlardan elde edilen fisyon olabilen yeni izotoplarýn miktarý arttýkça reaktördeki fisyon enerjisi de artar. Fisyon reaksiyonlarý ile yakýtýn tümünü tüketmek mümkün deðildir. Bu durum için iþlem zamaný boyunca CANDU reaktöründeki tahmini yakýt yanma derecesinin Eþ. 3’de görülen analitik metot yardýmýyla elde edilebileceði belirtilmiþtir [1,31]. 
+Wdis
+.[k(w) -k0 ]dw=0  (3) 
+0 
+Hücre hesaplamalarýnda elde edilen Wdis, yakýt deðiþtirme için elde edilen tahmini yanma deðeri olup, k(w) sonsuz çoðaltým faktörü olarak belirtilmiþtir. k0 deðeri reaktör korunda parazitik yutulmalar ve kaçaklar dikkate alýndýðýnda 1.05-1.06 arasýnda deðiþmektedir. 
+Þekil 5’de yakýt bileþenlerinin yanma dereceleri ve kritikliðin (k.) deðiþimi reaktör çalýþma süresine baðlýolarak gösterilmiþtir. Yakýt çubuklarýnda k.=1.06 deðerine düþüldüðünde yakýtýn fisil kalitesi de oldukça azaldýðýndan, çubuklara yeni yakýt yüklemesi yapýlmasý gerekmektedir [31]. Yapýlan hesaplamalar sonucunda; Mod 1, Mod 2 ve Mod 3’de k. = 1.06 deðerine sýrasýyla 170. gün, 660. gün ve 280. günlerde ulaþýlmýþ ve bu sürelerin sonunda yanma dereceleri de sýrasýyla ~7.700, ~27.000 ve~11.000 MW.D/MT olarak elde edilmiþtir. 
+CANDU reaktörlerinde doðal uranyum için ortalama yanma derecesi 7500 MW.D/ MT olarak belirtilmiþtir [15]. Belirtilen bu yanma derecesinin, bu çalýþmadaki Mod 1 ile hesaplanan yanma derecesine (~7.700) hemen hemen eþdeðer olduðu görülmüþtür. Kaynak [5]’de yapýlan çalýþmada; yakýt çubuklarýna % 60 LWR yakýt atýðý + % 40 ThO2 yakýt karýþýmýyerleþtirilmesi durumunda k. = 1.06 deðerine 340 gün reaktör iþletim zamaný sonunda ulaþýlmýþ ve ~14.300 MW.D/MT yanma derecesi elde edilmiþtir. 
+
+
+Þekil 4. Reaktör iþlem zamaný boyunca fisyon yapabilen çekirdeklerin izotopik dönüþüm biçimleri 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+1.5 
+30000 
+
+
+1.25 
+25000 
+Yakýt yanma derecesi (MW.D/MT) 
+1 
+20000 
+Kritiklik (k. ) 
+0.75
+
+15000
+
+0.5 
+10000 
+0.25
+
+5000
+
+0 0
+
+Ýþlem Zamaný (gün) Þekil 5. Yanma derecesinin ve k.’un iþletim zamanýyla deðiþimi 
+Kaynak [17]’de gösterilen diðer bir çalýþmada ise yakýt demetinde homojen yakýt daðýlýmýna sahip olmayan (LWR+ThO2) yakýt çubuklarý ile bir hesaplama yapýlmýþ, bu çalýþmada k. = 1.06 deðeri 240 gün iþletim zamaný sonunda elde edilmiþ ve ~10.000 MW.D/MT yanma derecesine ulaþýlmýþtýr. Elde edilen bu sonuçlardan da görüleceði üzere, bu çalýþmadaki Mod 3 ile hesaplanan deðerler Kaynak [17]’daki çalýþmadan daha iyi sonuçlar vermiþtir. 
+Þekil 5’de görüldüðü gibi, Mod 1 için reaktör k.deðeri ~30 gün boyunca hafif bir þekilde artýþ gösterip daha sonra azalmaya baþlamýþtýr. Bu artýþýn baþlýca sebebi, ilk 30 gün boyunca yakýt demetindeki 235U’in daha yoðun bir þekilde fisyona uðramasýndan kaynaklanmaktadýr. Ayný zamanda 238U(n,.) reaksiyonlarýsonucu daha iyi nükleer özelliklere sahip yeni 239Pu izotopu da üretilmektedir. 239Pu(n,.) reaksiyonlarý ile üretken bir izotop olan 240Pu izotopu üretilmektedir. 240Pu izotopu fisyon reaksiyonlarý yapmadýðýndan k.deðeri yanma süresi boyunca azalma eðilimi göstermiþtir. Mod 2 ve Mod 3 yakýt bileþenleri için k.deðerinde bu artýþ gözlenmemiþtir. Bunun baþlýca sebebi, LWR atýk yakýtýndaki mevcut tek ve çift numaralý plütonyum izotoplarýnýn reaktör iþletim süresince birbirini dengelemesinden kaynaklanmaktadýr. 
+Yapýlan bu çalýþmadaki temel hedef; toryum yakýtýnýn CANDU reaktörlerinde kullanýlabilirliði ve reaktör performansýna etkisi olmasýndan dolayý, Mod 3 yakýt karýþýmý kritiklik ve yanma derecesi açýsýndan Mod 1ve Mod 2 ile karþýlaþtýrýlmýþtýr. Bu karþýlaþtýrma sonucunda, Mod 3 yakýt karýþýmýnýn Mod 1’den kritiklik ve yanma derecesi açýsýndan daha iyi bir performans gösterdiði tespit edilmiþtir. 
+
+
+3.3. Fisyon Güç Yoðunluðu 
+Þekil 6’da reaktör iþlem zamaný baþlangýcý ve sonundaki Mod 1, Mod 2 ve Mod 3 yakýt bileþenleri için yakýt demetinde oluþan fisyon güç yoðunluk daðýlýmý gösterilmiþtir. 
+Doðal uranyum yakýtýnýn kullanýldýðý Mod 1’de reaktör çalýþma süresi boyunca yakýt demetinde düzgün bir güç yoðunluðu deðiþimi gözlenmiþtir. Ýþlem zamaný boyunca 235U izotopu sürekli olarak fisyona uðramaktadýr (.f,th(235U)=583.5 b) [32]. 238U(n,.) reaksiyonlarý sonucunda 239Pu üretimi ve 239Pu(n,.) reaksiyonlarý ile de 240Pu izotopu üretimiyle reaktör iþlem zamanýboyunca fisyon güç yoðunluðunun dengeli olmasý saðlanmaktadýr. Çünkü, 239Pu düþük enerjili nötronlarla çok iyi fisyon yapabilen kaliteli bir izotoptur (.f,th(239Pu) = 742.5 b) [32]. 239Pu’un bir bölümü fisyona uðrayarak reaktörün enerji artýþýna katký saðlar. Ayný zamanda 240Pu(n, .) reaksiyonlarý ile yine çok kaliteli fisyon yakýtý olan 241Pu üretilir (.f,th(241Pu) = 1009b) [32]. 
+Öte yandan, plütonyum yakýtý içeren yakýt demetlerinde yüksek oranda termal nötron 
+
+A. Acýr Candu Reaktörlerinde ThC ve LWR Yakýt Atýðý Karýþýmý Kullanýmýnýn Ýncelenmesi 
+1.2 
+1 
+0.8 
+0.6 
+0.4 
+0.2 
+0 012345 
+
+
+Yarýçap (cm) 
+Þekil 6. Yakýt tiplerine göre yakýt bölgesinde iþlem baþlangýç ve bitiþ zamanlarýndaki fisyon güç yoðunluðu daðýlýmý (— Baþlangýç zamaný, ---- Bitiþ zamaný) 
+Fisyon güç yoðunluðu (Baðýl deðer) 
+yutulmasýndan dolayý Mod 2 ile gösterilen LWR yakýt atýðý düzgün olmayan bir güç yoðunluðu daðýlýmýna sahiptir. Reaktör iþlem zamanýbaþlangýcýnda Mod 2 ile belirtilen LWR yakýt atýðýiçin yakýt demetinde merkezden çevreye doðru fisyon güç yoðunluðu daðýlýmýnda büyük bir artýþ meydana gelmiþtir. Yakýt demetindeki plütonyum yakýtýnýn düzensiz yanmasý iþlem zamaný boyunca kademeli olarak azalmýþ ve iþlem zamaný sonunda fisyon güç yoðunluðunun baþlangýç durumuna oranla bir miktar azaldýðý görülmüþtür. 
+Mod 3 için iþlem zamaný baþlangýcýndaki fisyon güç yoðunluðu Mod 2’ye benzer bir yapý göstermiþtir. Yakýt demetinin çevresine doðru merkeze oranla fisyon güç yoðunluðundaki artýþ Mod 2 ile gösterilen LWR atýk yakýtý fisyon güç yoðunluðu artýþýndan daha küçük olmuþtur. Bunun baþlýca sebebi yakýt demetinde plütonyum yakýtýnýn düzensiz bir þekilde yanmasýnýn iþlem zamaný boyunca azalmasý ve 233U izotopunun termal nötronlarla fisyon yapmasýndan kaynaklanmaktadýr. Bu sebeplerden dolayý, iþlem zamaný sonunda fisyon güç yoðunluðu daðýlýmýbaþlangýç durumuna oranla bir miktar azalmýþtýr. 
+Mod 3de fisyon güç yoðunluðu daðýlýmýnýn düzgün olmayan bir yapý göstermesi mühendislik bilimi açýsýndan tercih edilmemektedir. Ayrýca Mod 2 ve Mod 3 ile yapýlan hesaplamalardaki fisyon güç yoðunluðu daðýlýmýnýn, Kaynak [5]’de hesaplanan % 60 LWR+ % 40 ThO2 yakýt karýþýmý için elde edilen fisyon güç yoðunluðu daðýlýmýna benzer bir yapý sergilediði görülmüþtür. Kaynak [17]’de yapýlan çalýþmada ise, fisyon güç yoðunluk daðýlýmlarýndaki düzgünsüzlüðün çeþitli yakýt bileþim kompozisyonlarýile giderilebileceði gösterilmiþtir. Ayrýca literatürdeki bazý çalýþmalarda; düzgün olmayan fisyon güç yoðunluðunu düzgün hale getirebilmek için yakýt demetinin merkezinde bulunan yakýt çubuklarýnýn küçük yarýçapta, çevredeki yakýt çubuklarý için ise daha büyük çapta yakýt çubuklarý yerleþtirilerek düzgünleþtirme iþleminin gerçekleþtirilebileceði DUPIC yakýt demetleri ile önerilmiþtir [1]. 
+
+
+3.4. Fisil Yakýt Deðiþimi 
+Reaktör iþlem zamaný boyunca yakýt demetinde nükleer reaksiyon ve radyoaktif dönüþümlere baðlýolarak oluþan fisil çekirdeklerin izotopik dönüþüm biçimleri Þekil 4’de gösterilmiþtir. Reaktör iþlem zamaný boyunca kritiklik açýsýndan fisil izotoplar önem taþýmaktadýr. 
+Çünkü, fisyona uðrayabilen izotoplarýn iþlem zamanýboyunca nötronlarý absorbe ederek etkileþimi sonucunda yeni izotoplar meydana gelecek ve reaktörün kritik üstü olmasýný saðlayacaktýr. Þekil 7’de yakýt demetinde % 40 ThC + % 60 LWR oranlarýnda (Mod 3) karýþým halinde bulunan fisil yakýtlarýn reaktör çalýþma süresince (k.=1.06) yoðunluk deðiþimi gösterilmiþtir. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+0.035 
+0.03 
+Fisil izotop yoðunluðu (gr/cm3)
+0.025 
+0.02 
+0.015 
+0.01 
+0.005 
+
+
+0
+
+Ýþlem Zamaný (gün) 
+Þekil 7. Reaktör çalýþma süresi boyunca % 40 ThC + % 60 LWR yakýt karýþýmýnýn (Mod 3) izotop yoðunluk deðiþimi (— Yakýt demeti merkezi; ---- Yakýt demeti çevresi) 
+Yakýt içerisinde bulunan fisil izotoplarýn (235U, 239Pu,241Pu) yoðunluðu merkezde daha az ve çevrede daha yüksek bir oranda azaldýðý görülmektedir. Bu azalma yakýt bölgesinin çevresinde yüksek oranda termal nötron akýsý olmasýndan kaynaklanmaktadýr. Yeni üretilen 233U fisil izotop yoðunluðu merkezde daha az bir artýþ gösterirken çevrede daha fazla bir artýþa sahiptir. 
+Ayrýca; demet merkezindeki 240Pu izotopunun yoðunluðu reaktör iþletim süresince hemen hemen hiç 
+0.1 
+deðiþmemektedir. Buna karþýn çevredeki 240Pu izotopunun yoðunluðunun yaklaþýk 80 günden sonra hýzlý bir þekilde azaldýðý görülmektedir. Aynýþekilde 242Pu izotopu ise demet merkezinde düþük ve çevresinde daha fazla bir artýþ göstermektedir. 
+Þekil 8’de tüm yakýt modlarý için, yakýt demeti merkezinde ve çevresinde biriken fisil izotoplarýn (233U + 235U + 239Pu + 241Pu) toplam yoðunluklarýgösterilmiþtir. Tüm yakýt modlarýnda fisil izotoplarýn yoðunluðunda azalma gözlenmektedir. Mod 1’de 
+Toplam fisil izotop yoðunluðu (gr/cm3) 
+0.08 
+0.06 
+0.04 
+0.02 
+
+
+0
+
+Ýþlem Zamaný (gün) Þekil 8. Farklý yakýt tiplerindeki demet merkezi ve çevresindeki izotoplarýn (233U+ 235U+239Pu+ 241Pu) toplamýnýn yoðunluk deðiþimi (— Yakýt demeti merkezi; ---- Yakýt demeti çevresi) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+A. Acýr Candu Reaktörlerinde ThC ve LWR Yakýt Atýðý Karýþýmý Kullanýmýnýn Ýncelenmesi 
+görüldüðü gibi yakýt içerisinde bulunan fisil izotoplarýn (235U, 239Pu, 241Pu) yoðunluðu merkezde daha az ve çevrede daha yüksek bir oranda azaldýðýgörülmektedir. En hýzlý azalma Mod 2’de (% 100 LWR atýk yakýtý) olmasýna raðmen, en uzun çalýþma süresine ve en yüksek yanma deðerine bu mod sahiptir. Çünkü diðer yakýt tiplerine nazaran daha fazla fisil izotop içermektedir. Yakýt bölgesinin çevresinde yüksek oranda termal nötron akýsýolmasýndan dolayý tüm fisil yakýtlarýn (235U, 239Pu,241Pu) yoðunluklarýndaki deðiþim demet merkezine oranla daha düþük olduðu görülmüþtür. Mod 3 yakýt içerisinde bulunan fisil izotoplarýn (233U, 235U, 239Pu,241Pu) yoðunluklarý toplamýmerkezde daha az ve çevrede daha yüksek bir oranda azaldýðýgörülmektedir.  
+
+
+
+4. SONUÇLAR 
+Bu çalýþmada, ThC yakýtý ile LWR yakýt atýðýkarýþýmýnýn CANDU reaktörlerinde kullanýlmasýnýn reaktör performanslarýna etkileri zamana baðlý olarak incelenmiþtir. Benzer çalýþmalarda gözlendiði gibi bu çalýþmada da LWR yakýt atýðýnýn orijinal CANDU reaktörlerinde yakýt olarak kullanýlan doðal UO2’ye nazaran yanma derecesi açýsýndan en iyi nükleer performansý gösterdiði görülmüþtür. Ancak, bu çalýþmanýn temel esaslarýndan biri nükleer atýklarýn deðerlendirilmesi olmasýnýn yaný sýra toryumun da bir nükleer yakýt olarak deðerlendirilebilmesi olmasýndan dolayý yapýlan hesaplamalar sonucunda ThC yakýtý ile LWR yakýt atýðý karýþýmýnýn CANDU reaktörlerinde kullanýlmasýnýn mümkün olduðu tespit edilmiþtir. 
+ThC yakýtý ile LWR yakýt atýðý karýþýmý CANDU reaktöründe kullanýlabilirlik, yanma derecesi ve kritiklik açýsýndan doðal UO2 yakýtýna nazaran daha iyi nükleer performans sergilemiþtir. Yapýlan hesaplamalar sonucunda, doðal UO2 yakýtýkullanýldýðýnda elde edilen 7.700 MW.D/MT yanma derecesine karþýlýk, % 60 LWR + % 40 ThC yakýt karýþýmýnda yanma derecesi ~11.000 MW.D/MT olarak elde edilmiþtir. Bu durum hem toryum yakýtýnýn deðerlendirilmesinde hem de dünyanýn çeþitli bölgelerinde depolanmýþ olan LWR yakýt atýklarýnýn CANDU reaktörlerinde yeniden yakýt olarak geri kazandýrýlmasýný saðlamasýnýn yanýnda çevre ve enerji ekonomisi açýsýndan olumlu sonuçlar doðuracaktýr. 
+Elde edilen sonuçlar kaynak [5]’de yapýlan çalýþma ile (% 60 LWR yakýt atýðý + % 40 ThO2 yakýt karýþýmý) kýyaslandýðýnda, bu çalýþmada kullanýlan nükleer yakýtýn da (% 60 LWR yakýt atýðý + % 40 ThC yakýt karýþýmý) k.=1.06 deðerinde reaktör performansýaçýsýndan iyi sonuçlar verdiði tespit edilmiþtir.  
+Bu çalýþmada kullanýlan nükleer yakýt karýþýmýnýn (% 60 LWR yakýt atýðý + % 40 ThC yakýt karýþýmý) kaynak [17]’de yapýlan çalýþma ile (LWR+ThO2 yakýt karýþýmý) kýyaslandýðýnda k.=1.06 deðerinde reaktör performansý açýsýndan daha iyi sonuçlar verdiði gözlenmiþtir. 
+
+
+KAYNAKLAR 
+1.	
+Choi, H. B., Rhee, B. W., Park, H. S., “Physics Study on Direct Use of Spent Pressurized Water Reactor Fuel in CANDU (DUPIC)”, Nuclear Science and Engineering, Cilt 126, 80, 1997. 
+
+2.	
+Choi, H., Ko, W. I., Yang, M. S., “Economic Analysis on Direct Use of Spent Pressurized Water Reactor Fuel in CANDU Reactors-I: DUPIC Fuel Fabrication Cost”, Nuclear Technology, Cilt 134, 110-129, 2001. 
+
+3.	
+Choi, H., Ko, W. I., Yang, M. S., Namgung, I., Na, B.G., “Economic Analysis on Direct Use of Spent Pressurized Water Reactor Fuel in CANDU Reactors-II: DUPIC Fuel-Handling Cost”, Nuclear Technology, Cilt 134, 130-148, 2001. 
+
+4.	
+Kim, D.H., Choi, H., Yang W.S., Kim, J.K., “Composition Heterogenetiy Analysis for Direct Use of Spent Pressurized Water Reactor Fuel in CANDU Reactors (DUPIC)-I: Deterministic Analysis” Nuclear Science and Engineering, Cilt 137, 23-27, 2001. 
+
+5.	
+Þahin, S., Þahin, H.M., Alkan, M., Yýldýz, K., “An Assessment of Thorium and Spent LWR-Fuel Utilization Potential in CANDU Reactors”, Energy Conversion and Management, Cilt 45, 1067-1085, 2004. 
+
+6.	
+Alkan, M., Reutilization of Nuclear Fuel Wastes, PhD Thesis in Turkish, Gazi University, Institute of Science and Technology, Ankara, Turkey, 2003. 
+
+7.	
+Þahin, S., Yapýcý, H., “Rejuvenation of LWR Spent Fuel in Fusion Blankets” Annals of Nuclear Energy, Cilt 25, No 16, 1317-1339, 1998. 
+
+8.	
+Þahin, S., Übeyli, M., “LWR spent fuel transmutation in a high power density fusion reactor” Annals of Nuclear Energy, Cilt 31, No 8, 871-890, 2004. 
+
+9.	
+Übeyli, M., “Transmutation of Minor Actinides Discharged from LMFBR Spent Fuel in a High Power Density Fusion Reactor”, Energy Conversion and Management, Cilt 45, 3219­3238, 2004. 
+
+10. 
+Boczar, P. G., Chan, P. S. W., Dyck, G. R., Ellis, 
+
+R. J., Jones, R. T., Sullivan, J. D., Taylor, P., “Thorium Fuel-Cycle Studies for CANDU Reactors, Thorium Fuel Utilization: Options and Trends”, Proceedings of three IEAE meetings held in Vienna in 1997, 1998 and 1999, IEAE­TECDOC-1319, 25-41, 2002. 
+
+11. 
+Boczar, P. G., Dyck, G. R., Chan, P. S. W., Buss, 
+
+
+D. B., “Recent Advances in Thorium Fuel Cycles for CANDU Reactors, Thorium Fuel Utilization: Options and Trends”, Proceedings of three IEAE 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005 
+
+meetings held in Vienna in 1997, 1998 and 1999, IEAE-TECDOC-1319, 104-120, 2002. 
+12. 
+Critoph, E., “Prospects for Self–sufficient Equilibrium Thorium Cycles in CANDU Reactors”, Atomic Energy of Canada Ltd., Report AECL-5501, 1976. 
+
+13. 
+Galperin, A., Todosow, M., “Assessment of Homogeneous Thorium/Uranium Fuel for Pressurized Water Reactors”, Nuclear Technology, Cilt 138, 111-121, 2002. 
+
+14. 
+Hatcher, S. R., “Thorium Cycle in Heavy Water Moderated Pressure Tube (CANDU) Reactors”, Atomic Energy of Canada Ltd., Report AECL­5398, 1976. 
+
+15. 
+IAEA. “Status and Prospects of Thermal Breeders and their Effect on Fuel Utilization”, Technical Report Series No. 195, International Atomic Energy Agency, Vienna, 1979. 
+
+16. 
+Loewen, E. P., Wilson, R. D., Hohorst, J.K., Kumar, A.S., “Preliminary Frapcon-3th Steady-State Fuel Analysis of ThO2 and UO2 Fuel Mixtures”, Nuclear Technology, Cilt 136, 261­277, 2001. 
+
+17. 
+Þahin, S., Yýldýz K., Acýr A., “Power Flattening In The Fuel Bundle of a CANDU Reactor”, Nuclear Engineering and Design, Cilt 232, 7­18, 2004. 
+
+18. 
+“International Methods Handbook”, 10th Edition, American Society for Metals, Cilt 3, 1990. 
+
+
+19.	Ma, B. M. “Nuclear Reactor Materials and Applications”, Van Nostrand Reinhold Company Limited, Molly Millars Lane, Wokingham, Berkshire, England, 1983. 
+20.	
+Lamarsh, J. R., Baratta, A. J., “Introduction to Nuclear Engineering”, Third Edition, Prentice Hall, Upper Saddle River, New Jersey 07458, 2001. 
+
+21.	
+Manson, B., Pigford, T. H., Levi, H. W., “Nuclear Chemical Engineering”, New York: McGraw-Hill, 1981. 
+
+22.	
+Þahin, S., Þahin, H.M., Yýldýz, K., “Investigation of The Effects of The Resonance Absorption in a Fusion Breeder Blanket”, Annals of Nuclear Energy, Cilt 29, 1641, 2002. 
+
+
+23.	
+Yýldýz, K., “An Investigation of the neutron energy group structures and resonance effects in a Fusion-Fission Hybrid Reactors Fuelling with ThO2”, Annals of Nuclear Energy, Cilt 32, 101­118, 2004. 
+
+24. 
+Jordan W. C., Bowman, S. M., “Scale Cross-Section Libraries”, NUREG/CR-0200, Revision 6, 3, section M4, ORNL/NUREG/CSD-2/V3/R6, Oak Ridge National Laboratory, 2000. 
+
+25. 
+Petrie L. M., “SCALE System Driver”, NUREG/CR-0200, Revision 6, 3, Section M1, ORNL/NUREG/CSD-2/R6, Oak Ridge National Laboratory, 2000. 
+
+26. 
+Greene N. M., Petrie, L. M., Westfall, R. M., “NITAWL-II, Scale System Module For Performing Resonance Shielding and Working Library Production”, NUREG/CR-0200, Revision 6, 2, Section F2, ORNL/NUREG/CSD­2/V2/R6, Oak Ridge National Laboratory, 2000. 
+
+27. 
+Greene N. M., “BONAMI, Resonance Self-Shielding by the Bondarenko Method”, NUREG/CR-0200, Revision 6, 2, section F1, ORNL/NUREG/CSD-2/V2/R6, Oak Ridge National Laboratory, 2000. Bondarenko I. I. (Ed.), “Group Constants For Nuclear Reactor Calculations”, Consultants Bureau, New York, 1964. 
+
+28. 
+Landers N. F., Petrie, L. M., “CSAS, Control Module for Enhanced Criticality Safety Analysis Sequences”, NUREG/CR-0200, Revision 6, 1, Section C4, ORNL/NUREG/CSD­2/V1/R6, Oak Ridge National Laboratory, 2000. 
+
+29. 
+Greene N. M., Petrie, L. M., “XSDRNPM, A One-Dimensional Discrete-Ordinates Code For Transport Analysis”, NUREG/CR-0200, Revision 6, 2, Section F3, ORNL/NUREG/CSD­2/V2/R6, Oak Ridge National Laboratory, 2000. 
+
+30. 
+Þahin S., H. Yapýcý, S. Ünalan, “ERDEMLI, A Computer Program to Process ANISN Output Data”, Gazi University, Ankara, Turkey, 1991. 
+
+31. 
+Graves, H. W. Jr., “Nuclear Fuel Management”, John Wiley & Sons, New York, 1979. 
+
+32. 
+Seelmann-Eggebert, W., Pfennig, G., Münzel, H., Klewe-Nebenius, H., “Chart of the Nuclides”, 5th edition, Kernforschungszentrum Karlsruhe Gmbh, Germany, 1981. 
+
+
+
+
+
+

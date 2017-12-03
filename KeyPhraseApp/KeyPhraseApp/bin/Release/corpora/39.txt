@@ -1,0 +1,160 @@
+YAKMA ALIN KAYNAÐI ÝLE KAYNATILMIÞÝKÝ FARKLI ÇELÝÐÝN KAYNAK KALÝTESÝNE YIÐMA AKIM ZAMANININ ETKÝSÝ
+Cemil ÇETÝNKAYA, Uður ARABACI ve Ali AKAY 
+Metal Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, 06500 Teknikokullar, Ankara 
+ccetin@gazi.edu.tr, uarabaci@gazi.edu.tr, aliakay@hotmail.com 
+(Geliþ/Received: 23.05.2005; Kabul/Accepted: 22.02.2006) 
+ÖZET 
+Bu çalýþmada X40CrMoV5 1 (H13) sýcak iþ çeliði ile Ç1030 çelik çiftine yakma alýn kaynaðý uygulanmýþ, deney çalýþmalarý sýrasýnda yýðma basýncý2 bar, yýðma akým zamaný ise 1,6; 1,8 ve 2 saniye olarak seçilmiþtir. Uygulanan bu parametrelerin malzemelerdeki mikroyapý ve mekanik özellikleri üzerine etkisi incelenerek uygun kaynak parametreleri belirlenmeye çalýþýlmýþtýr. Deney sonuçlarý; Ç1030 numunelerinde en yüksek sertlik deðerlerinin birleþme ara yüzeyinde, H13 numunesinde ise iri taneli bölgede (ITAB) meydana geldiðini ancak yýðma akým zamanýnýn artmasýyla birlikte sertlik deðerlerinde düþüþ olduðunu göstermiþtir. Çekme deneyleri sonucunda ise bütün kopmalarýn, Ç1030 tarafýnda ITAB’ýn dýþýnda ana malzemede meydana geldiði görülmüþtür.  
+
+1.GÝRÝÞ(INTRODUCTION) kýsýmlarý HSS’den, sap kýsýmlarý düþük karbonlu 
+çeliklerden yapýlýr [4]. Matkap uçlarýnda olduðu gibi Benzer malzemelerin ya da farklý malzemelerin bir þaftýn tamamýnýn paslanmaz çelik yerine gerekli birleþtirilmesinde birçok problemle karþýlaþýlmaktadýr. kýsmý paslanmaz çelik, diðer kýsýmlarý karbonlu çelik Endüstride bu problemleri gidermek için bazýolarak tasarlanýp imal edildiðinde maliyet %45 yöntemler geliþtirilmiþtir. Bu yöntemlerden bir tanesi azalmaktadýr [5]. de yakma alýn kaynak tekniðidir. Yakma alýn kaynaðýelektrik direnç kaynaðýnýn bir türü olup, ýsý, dövme ve Farklý bileþimdeki iki ayrý malzemenin ergitme yýðma iþlemlerinden oluþur [1-3]. kaynak yöntemleri ile birleþtirilmeleri, çözümü zor 
+olan problemleri ortaya çýkarmaktadýr. Ergitme Yakma alýn kaynaðýnýn endüstriyel uygulamalarýndan kaynaðýnda curuf kalýntýsý gibi kaynak hatalarýnýn biri de matkap uçlarýnýn birleþtirilmesidir. Maliyeti ve oluþmasý, soðuma sýrasýnda makro düzeyde iç malzeme israfýný önlemek için matkap uçlarýnýn uç gerilmelerin meydana gelmesi bu yöntemlerin önemli 
+C. Çetinkaya vd. Yakma Alýn Kaynaðý ile KaynatýlmýþÝki Farklý Çeliðin Kaynak Kalitesine Yýðma Akým Zamanýnýn Etkisi  Tablo 1. X40CrMoV5 1 [H13] çeliðinin kimyasal analizi. (Chemical composition of X40CrMoV5 1 [H13]) 
+Element  C  Cr  Mo  V  Si  Mn  
+% Aðýrlýk  0,37-0,43  4,80-5,50  1,20-1,50  0,90-1,10  0,90-1,20  0,30-0,50  
+
+Tablo 2. Ç1030 çeliðinin kimyasal analizi. (Chemical composition of Ç1030) 
+Element  C  Mn  Si  P  S  
+% Aðýrlýk  0,25-0,34  0,60-0,90  0,10-0,30  0,040 [max]  0,050 [max]  
+
+dezavantajlarý olup, kaynaðýn mukavemetini düþür­mektedir [6]. Bu yüzden bileþimleri farklý olan malzemelerin birleþtirilmelerinde, boyutlarý ve þekli müsaade ettiði sürece yakma alýn kaynaðý tercih edilen katý hal kaynak türlerinden birisidir [7]. 
+Bu çalýþmada, sanayide metal enjeksiyon kalýplarýnda, hafif metallerin ekstrüzyon kalýplarýnda, dövme kalýp­larýnda ve plastik enjeksiyon kalýplarýnýn imalatýnda gibi birçok alanda kullanýlan sýcak iþ takým çeliklerinin, düþük karbonlu çeliklerle birleþtirilmesi incelenmiþtir. Ayrýca yöntemin önemli parametrelerinden birisi olan yýðma basýncý sabit tutularak; deðiþik yýðma akým zamanýnýn kaynak malzemesine, mikroskobik ve mekanik özellikler üzerine etkileri araþtýrýlmýþtýr. 
+2. MATERYAL VE METOD (MATERIALS AND METHOD) 
+2.1. Materyal (Materials) 
+Deneylerde kullanýlmak üzere her birinden 100 mm. boyunda ve 18 mm. çapýnda kesilen 63’er adet X40CrMoV5 1 (H13) ve Ç1030 çeliklerine ait kimyasal analiz sonuçlarýTablo 1 ve Tablo 2’de verilmiþtir. 
+2.2. Deneysel Metot (Experimental Procedure) 
+Kaynak iþlemi Ostim’deki Yapaþ Zincir Fabrikasý’nda, Schlatter marka yakma alýn kaynak makinesi ile yapýlmýþtýr. Çenelerin sýkma yüzeylerinde temas direnci oluþmamasý için yüzeyleri kirden ve pastan arýndýrýlmýþ ve kaynak süresince Tablo 3’te verilen parametreler sabit tutulmuþtur. 
+Birleþtirme iþlemlerinde makinenin en düþük yýðma basýncý olan 2 bar sabit tutulmuþtur. Deney parametreleri seçilirken daha önceki çalýþmalar ile makinenin teknik özellikleri göz önünde tutulmuþtur. Ýki saniyenin üstündeki yýðma akým zamanýnda ise kaynak metalinde yer yer istenmeyen yanmalar görüldüðü için bu sürenin üzerine çýkýlmamýþtýr. Tablo 4’te verilen parametrelerde kaynatýlan numunelerin, her birinden sertlik, mikroyapý ve çekme deneylerinde kullanýlmak üzere 7 adet 
+Tablo 3. Deneyler boyunca sabit tutulan kaynak 
+parametreleri. (Constant welding parameters) 
+Voltaj (V)  Akým (A)  Ön ýsýtma zamaný(s)  Temas zamaný (s)  Çene sýkma basýncý(bar)  Makine basýncý(bar)  
+3  30  3  1,2  3  6  
+
+Tablo 4. Uygulanan deney parametreleri (Applied parameters) 
+KOD  Yýðma Basýncý(bar)  Yýðma akým zamaný (s)  Kaynak sonrasýýsýl iþlem durumu  Numune Adeti  
+A1  2  1,6  Görmedi  21  
+A2  2  1,8  Görmedi  21  
+A3  2  2  Görmedi  21  
+
+ayrýlmýþtýr. Mikroyapý fotoðraflarý için % 4 Pikral ile daðlanan numunelerin mikroskop görüntüleri Prior marka mikroskop ile çekilmiþ, sertlik ölçümleri ise Instron Wolpert marka sertlik ölçüm cihazý ile Hv5 yük altýnda Vickers sertlik ölçümü yapýlmýþtýr. Sertlik deneylerinde her bir bölgeden alýnan 6 ölçümün ortalamasý kullanýlmýþtýr. Çekme deneylerinde çekme hýzý2 mm/sn olarak sabit tutulmuþ ve deneylerde kullanýlan parçalarýn çekme numuneleri standardýÞekil 1’de verilmiþtir. Deney numunelerinin ana malzeme bölgesine ait kopma yüzeyinin tarama elektron mikroskobu  (SEM) fotoðraflarý Jeol JSM 5600 marka elektron mikroskobu ile çekilmiþ, EDS analizleri ise TPAO Laboratuarlarýna ait yine aynýmarka cihaz yardýmýyla yapýlmýþtýr. 
+3. DENEY SONUÇLARI VE TARTIÞMA (RESULTS AND DISCUSSION) 
+3.1. Sertlik Sonuçlarý (Hardness Results) 
+
+
+
+Þekil 2’de yýðma akým zamaný 1,6; 1,8 ve 2 saniye olan numunelere ait sertlik grafiði ile bu sertlik ölçümlerinin alýndýðý noktalar þematik olarak gösterilmiþtir. 
+Þekil 2’de verilen A1, A2 ve A3 numunelerine ait sertlik grafiði incelendiðinde H13 tarafýnda en yüksek sertliðe iri taneli bölgede ulaþýldýðý ve ana malzemeye doðru gidildikçe sertlik deðerlerinde azalmalar olduðu görülmüþtür. Bu bölgede oluþan tane irileþmesinin kaynak bölgesinde oluþan yüksek sýcaklýðýn etkisi ile 
+
+62 
+L0=60 
+82 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+
+Þekil 2. A1, A2, A3 numunelerinin sertlik grafikleri (Hardness graphics of A1, A2, A3 samples) 
+oluþtuðu bilinmektedir. Ç1030 tarafýnda ise maksi­mum sertlik birleþme ara yüzeyinde elde edilmiþ, yine ana malzemeye doðru gidildikçe sertlik deðerlerinde bir düþüþ kaydedilmiþtir. Burada “0” noktasý tam birleþme çizgisi olarak verilmiþtir. Çizelgede “0” çizgisi üzerindeki sertlik noktalarý, her iki malzeme tarafýndan bu çizgiye sýnýr olan noktalardýr. 
+Oðuz [9] çalýþmasýnda maksimum sertliði, HSS 6-5-2 (Yüksek hýz çeliði) tarafýnda iri taneli bölgede elde ettiðini, aynýþekilde ana malzemeye doðru gidildikçe sertliðin azaldýðýný ifade etmiþtir. Yine benzer bir çalýþmada Civelekoðlu [10] yaptýðý farklý metal çiftlerine yakma alýn kaynaðý uygulamasýnda da en sert bölgenin Ck 60 çeliði tarafýnda kaynak metalinde görüldüðünü, aynýþekilde ana malzemeye doðru gidildikçe sertlik deðerlerinde de bir düþüþ olduðunu ifade etmiþtir. Her bir bölgeden alýnan 5’er sertlik ölçümünün ortalamalarýnda elde edilen en yüksek sertlik deðerleri H13 tarafýnda iri taneli bölgede ve A1 numunesi için 690, A2 numunesi için 683 ve A3 numunesi için ise 652 Hv olarak tespit edilmiþtir. Yýðma akým zamanýndaki artýþa baðlý olarak, ýsýgirdisiyle birlikte soðuma süresinin de artmasýyla sertliklerde bir düþüþ tespit edilmiþtir. 
+Ç1030 tarafýnda ise yine en yüksek sertlik deðer­lerinin elde edildiði kaynak bölgesindeki sertlikler A1 numunesinde 276 Hv, A2 numunesinde 259 Hv ve A3 numunesinde ise 242 Hv’dir. Burada da yine yýðma akým zamanýnýn ve soðuma sürelerindeki artýþa baðlýolarak kaynak bölgelerinin sertlik deðerlerinde bir düþüþ olduðu görülmüþtür. Çetinkaya [11] yaptýðýbenzer çalýþmada kaynak bölgesine uygulanan ýsýmiktarýnýn sýcaklýk daðýlýmýný ve soðuma hýzýnýetkilediðini dolayýsýyla kaynak bölgesindeki sertlik deðerlerinin de deðiþtiðini tespit etmiþtir. 
+3.2. Çekme Deneyi Sonuçlarý (Tensile Test Results) 
+Farklý parametrelerde kaynatýlmýþ numunelere ait bilgiler ve çekme deneyi sonucu Tablo 5’te verilmiþtir. 
+Çekme deneyleri bütün numunelerde kopmanýn H13’e göre daha yumuþak malzeme olan Ç1030 tarafýnda, ana malzemede meydana geldiðini göstermiþtir. ITAB’ýn dýþýnda ve Þekil 2’de 5 nolu nokta ile ifade edilen ana malzeme kaynak iþleminden ve deneylerde kullanýlan parametrelerden etkilenmemiþtir. Dolayý­sýyla kopmanýn meydana geldiði bu noktada numune­lerinin sertlik deðerlerinin hemen hemen birbirlerinin ayný olmasý sebebiyle çekme deneyleri sonucu elde edilen maksimum çekme dayaným deðerlerinin de bir­birlerine çok yakýn olmasý normal karþýlanmýþtýr. A1 numunesi 590 N/mm2, A2 numunesi 595 N/mm2 ve A3 
+Tablo 5. Numunelerin çekme deneyi sonuçlarý
+(Tensile test results) 
+
+Numune  Basýnç (bar)  Yýðma akým zamaný(s)  Max. çekme dayanýmý(N/mm2)  
+A1  2  1,6  590  
+A2  2  1,8  595  
+A3  2  2  591  
+
+C. Çetinkaya vd. Yakma Alýn Kaynaðý ile KaynatýlmýþÝki Farklý Çeliðin Kaynak Kalitesine Yýðma Akým Zamanýnýn Etkisi  
+A1 A2 
+
+
+Þekil 3. A1, A2 ve A3 numunelerine ait ana malzeme kopma yüzeyi SEM fotoðraflarý(SEM pictures of fracture surfaces of A1, A2 and A3 samples 
+numunesinde ise 591 N/mm2 ‘lik maksimum çekme dayaným deðerleri elde edilmiþtir. Malzemenin mikro­yapýsý ve sertlik deðerleri de bu sonuçlarý destekler niteliktedir.  
+Þekil 3’te, kopmalarýn tamamýnýn meydana geldiði Ç1030 çeliðinde, ana malzeme bölgesindeki kopma yüzeyi SEM görüntüleri incelendiðinde kopma yüzeylerinin düzgün olmadýðý, küçüklü büyüklü derinlikleri içeren siyah noktalarýn görüldüðü ayrýca girintili çýkýntýlý sünek kopma yüzeylerinin oluþtuðu tespit edilmiþtir. Bütün kopmalarýn hemen hemen aynýyerden ve maksimum çekme deðerlerinin de birbirine çok yakýn olmasýna baðlý olarak SEM görüntülerinin de birbirine benzediði görülmüþtür. 
+Deneyler sonucunda bütün kopmalarýn ayný bölgeden olmasýna baðlý olarak kopma yüzeyleri incelenen bütün numunelerin (3 adet) EDS grafiklerinde birbirlerine çok yakýn deðerler elde edilmiþtir. Bu sebeple elde edilen verilerin birbirlerinin benzeri olmasýndan dolayý kopma yüzeylerine ait ortalama deðerin tek grafikle yorumlanmasý yeterli görül­müþtür. Þekil 4’te bu numunelerin kopma noktalarýna ait EDS sonucu incelendiðinde kopma yüzeyinde bileþik olarak %100 oranýnda Fe2O3, element olarak ta % 30 O ve % 70 oranýnda da Fe tespit edilmiþtir. 
+Kopmalarýn tamamý Ç1030 tarafýnda ana malzemede meydana geldiði için EDS sonuçlarýnda %Fe aðýrlýk oranlarýnýn fazla çýkmasý normal karþýlanmýþtýr. 
+3.3. Mikroyapý Sonuçlarý(Microstructural Results) 
+Bu bölümde ana malzeme, ITAB ve kaynak metalinden çekilen fotoðraflar ile yýðma akým zamanýnýn numune mikroyapýlarý üzerindeki etkileri incelenecektir. 
+Þekil.5-a’daki Ç1030’a ait kaynak bölgesi mikroyapýfotoðrafý incelendiðinde açýk renkli olan ferritlerin, koyu renkli kaba taneli perlitlerin sýnýrlarýnda oluþ­tuðu, oldukça az miktardaki Widmanstatten ferritlerin ise birleþme bölgesinde perlit tanelerinin içine doðru uzandýðý görülmektedir. H13’e ait kaynak bölgesi mikroyapý fotoðrafýnda (Þekil.5-b) ise ince taneli ve homojen görünümlü martenzitik matris bir yapýnýn varlýðý göze çarpmaktadýr. 
+Ýri taneli bölgeye ait mikroyapý fotoðraflarýnda Ç1030 tarafýnda (Þekil 5-c) kaba taneli perlitlerin, tane sýnýrlarýnda bulunan Widmanstatten ferritlerin tane içle­rine doðru yönlendiði, H13 tarafýnda ise (Þekil 5-d) martenzitik matris yapýyla birlikte, ferrit taneleri arasýn­da bir miktar perlit tanelerinin bulunduðu görülmektedir. 
+
+Þekil 4. Numunelere ait kopma bölgesi EDS analizi (EDS analysis of fracture zone) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+Ýnce taneli bölgeye ait mikroyapý fotoðraflarýincelendiðinde Ç1030 tarafýnda (Þekil 5-e) ferrit ve perlit tanelerinin oldukça küçüldüðü ve homojen bir daðýlým sergilemediði tespit edilmiþtir. Yine yapýiçersinde perlit miktarýna göre fazla olan ve düþük yýðma akým zamanýna baðlý hýzlý soðumadan dolayýsivrimsi ferritlerin olduðu, H13 tarafýnda ise (Þekil 5­f) matris yapýnýn ferrit aðýrlýklý olduðu ve karbürlerin bu matris yapý içersinde daðýldýðý görülmektedir. 
+A2 numunesinde yýðma akým zamaný 1,8 saniyeye çýkartýlmýþtýr. Kaynak bölgesi mikroyapý fotoðraflarýincelendiðinde Ç1030 tarafýnda (Þekil 6-a) açýk renkli Widmanstatten ferrit yapýnýn yaný sýra az miktar da perlit taneleri görülmektedir. Þekil 6-b’deki H13 tarafýnda ise martenzit matris yapýiçersinde küçük bir oranda da olsa ferrit tanelerinin varlýðý söz konusudur. Ç1030’a ait iri taneli bölgenin (Þekil 6-c) yapýsýÞekil 5-c’deki A1 numunesine ait yapýyla karþýlaþtýrýldýðýn­da görüntü itibariyle birbirine çok benzediði ancak ýsýgirdisinin artmasýyla birlikte hem Widmanstatten ferrit miktarýnýn arttýðý hem de eþkenar ve normal ferrit tanelerinin kabalaþtýðý görülmüþtür. H13 tara­fýnda ise (Þekil 6-d) çýta martenzitlerinin arasýnda yer alan ferrit tanelerinin olduðu ve ýsý girdisine baðlýyavaþ soðumaya paralel olarak A1 numunesine göre (Þekil 5-d) arttýðý görülmektedir. 
+Þekil 6-e’deki mikroyapýda bulunan ferrit tanelerinin Þekil 6-c’deki iri taneli yapýya göre daha küçüldüðü ve daha geniþ bir alaný kapladýðý, ferrit yapýdaki küçülmeye paralel olarak perlit tanelerinin de yer aldýðý görülmektedir. Þekil 6-f’deki H13 çeliðine ait mikroyapý fotoðrafýnda ise Þekil 6-d’ye göre ferrit ve perlit tanelerinin biraz daha küçüldüðü ve daha homojen bir daðýlým sergilediði gözlenmiþtir. 
+Yýðma akým zamanýndaki artýþ numuneye daha fazla ýsý girdisine ve bu ýsý girdisindeki artýþ da tane yapýsýnda farklýlaþmaya yol açmýþtýr. Yýðma akým zamanýnýn artmasýyla, basýncýn daha da etkili olduðu ve yýðma miktarýnýn da artan yýðma basýncýna baðlýolarak arttýðý görülmektedir. 
+Ç1030 tarafýna ait kaynak bölgesi mikroyapýfotoðrafýnda (Þekil 7-a) görüldüðü gibi yýðma akým zamanýnýn 2 saniyeye çýkartýlmasýyla, Widmanstaten ferrit miktarýnýn ve hacimsel büyüklüðünün biraz daha 
+Ferrit 
+
+
+H13 
+Ç1030 
+Perlit 
+
+Widmanstatten Ferrit 
+
+Ferrit PerlitPerlit 
+
+Perlit 
+Ferrit 
+Ferrit 
+Perlit 25 
+
+
+C. Çetinkaya vd. Yakma Alýn Kaynaðý ile KaynatýlmýþÝki Farklý Çeliðin Kaynak Kalitesine Yýðma Akým Zamanýnýn Etkisi  
+
+H13
+Ç1030 
+
+
+
+Ferrit 
+Perlit 
+Ferrit 
+
+
+Ferrit 
+Perlit 
+
+baþkalaþýmlarda bu malzemenin kaynak bölgesinden uzaklaþtýkça sertlik deðerlerinin düþmesine sebep olmaktadýr. 
+4. SONUÇLAR (RESULTS) 
+H13 ve Ç1030 çeliklerinde yýðma akým zamanýnýn mekanik özeliklere etkisi ile ilgili genel sonuçlar aþaðýda verilmiþtir. 
+1-Sýcak iþ takým çeliðinde (H13),  en yüksek sertlik deðeri ITAB’da iri taneli bölgede elde edilirken, Ç1030 çeliðinde birleþme ara yüzeyinde elde edilmiþtir. 
+2-Her iki malzemede de yýðma akým zamanýnýn art-masýna baðlý olarak ýsý girdisinin artmasý soðumayýyavaþlattýðýndan ve ferrit miktarýný arttýrdýðýndan sertlik deðerlerinde azalma gözlenmiþtir. 
+3-Bütün kopmalar Ç1030 malzemesinde kaynak bölgesinin dýþýnda meydana geldiði için yýðma akým zamaný ve yýðma basýncýndaki deðiþikliðin çekme dayanýmlarý üzerinde etkisi görülememiþtir. 
+arttýðý görülmektedir. Þekil 7-b’de yýðma akým zamanýnýn artmasýna paralel olarak hem ferrit taneleri­nin büyüdüðü hem de miktarýnýn arttýðý, ayrýca yapýiçeri­sinde çýta martenzitin varlýðýný sürdürdüðü görülmektedir. 
+Þekil 7-c incelendiðinde de Widmanstatten ferrit mik­tarýnýn diðer numunelere göre arttýðý görülmektedir. Bunun nedeni yüksek ýsýgirdisi ve yavaþ soðumadan dolayý Widmanstatten ferrit baþlangýcý ile bitiþi arasýndaki sürenin fazla olmasý, yani Widmanstatten ferrit oluþumu için daha fazla süre verilmiþ olmasýdýr. Widmanstatten ferrit oranýnýn artmasý ise sertliðin düþmesine neden olmuþtur  (Þekil 2). Þekil 7-d ise martensit matris yapý içersinde ferritlerin yavaþ soðu­maya baðlý hacimsel olarak büyüdüðü görülmektedir. 
+Þekil 7-e’deki Ç1030 çeliðine ait ince taneli bölge mikroyapý fotoðrafýnda ferrit miktarýnýn fazla olduðu, perlitlerin ise ferrit tanelerinin arasýnda hem az hem de düzensiz bir þekilde daðýldýðý görülmüþtür. Ayrýca ferritlerin kaynaðýn ýsýl iþleminden etkilenerek Lüder bandlarýný oluþturduðu, Þekil 7-f’de H13’e ait bölgede ise ferrit ve perlit tanelerinin Þekil 5-f ve 6-f’ye göre bir miktar büyüdüðü görülmektedir. Bu mikroskobik 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+
+Þekil 7. A3 numunesine ait mikroyapý fotoðraflarý. a – b) Kaynak bölgesi,  c – d) Ýri taneli bölge, e – f) Ýnce taneli bölge. (Microstructural pictures of sample A3. a–b) Welding zone, c-d) Coarsen zone, e-f) Fine grained zone). 
+KAYNAKLAR (REFERENCES) 7. Trompler, Ruben Jr. “Flash Butt Welding of Crane Rail”, Iron And Steel Engineer. Oct., Vol 
+1.	
+Tülbentçi, K., Yýlmaz, M., Yakma Alýn 73, No 10 42-44, 1996. Kaynaðý. Kaynak Dünyasý, Birsen Basýmevi, 8. Thomas, K.- Michailov, V. Wohlfahrt, H. Ýstanbul, 14-25, 1990.  “Toughness Investigations on Narrow Process­
+
+2. 	
+Anýk, S., Kaynak Tekniði El Kitabý, Yöntemler Affected Zones of Resistance-Butt”. Welding ve Donanýmlar, Cilt 1, Birsen Basýmevi, And Cutting, Vol 52, 254-262, 2000. Ýstanbul, 40-50, 1983. 9. Sandal O., Farklý Malzemelerin Elektrik 
+
+3.	
+Kalvala, P.,  Rao K., Kannurpatti N., “Effect of Direnç Yakma Alýn Kaynaðýnda Kaynak Welding Parameters on the Quality and Bölgesinin Ýncelenmesi, Doktora Tezi, Yýldýz Corrosion Characteristics of Flash Butt Welded Teknik Üniversitesi, Ýstanbul, 3-15, 1988. Austenitic Steels”, Schweissen Und Schneiden., 10.  Civelekoðlu, F., Yüksek Hýz Çeliði [S-6-5-2] ile Vol 42, No 1, 4-6, 1990. Alaþýmsýz Karbon Çeliði [Ck60] Çubuklarýnýn 
+
+4. 	
+Ghosh, P. K., “Thermal Cycle and Micrustructure Yakma Alýn Kaynaðý ile Birleþtirilmesinde of Heat Affected Zone [HAZ] of Flash Butt Bazý Kaynak Parametrelerinin ve Kaynak Ara Welded Mn-Cr-Mo Dual Phase Steel”, ISIJ Yüzeyinin Etüdü, Doçentlik Tezi, ÝTÜ, Ýstanbul. International., Vol 30, No 4, 317-324, 1990. 7-59, 1971. 
+
+5. 	
+Yýlmaz M., Karagöz Þ., “Katý Hal Kaynaðýnda Mikro 11. Çetinkaya C., Arabacý U., “Yakma Alýn Analiz Uygulamasý”, XI. Ulusal Elektron Mikros-Kaynaðýnda Yýðma Akým Zamanýnýn Baðlantýnýn kopisi Sempozyumu, Edirne, 163-165,  1993. Mekanik Özellikleri Üzerine Etkisinin Ýncelenmesi” 
+
+6.	
+Kuchuk, S. “Experince of Flash- Butt Welding Politeknik Dergisi, Gazi Üniversitesi Teknik Application in Pipeline Construction in the Eðitim Fakültesi, Ankara, 7-4, 2004. USSR”, Proceeding of Pipeline Technology Conference, Östend, Belgium, 37-39, 1990. 
+
+
+
+
+
+
+

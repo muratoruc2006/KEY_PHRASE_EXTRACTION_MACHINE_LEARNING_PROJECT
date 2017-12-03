@@ -1,0 +1,431 @@
+ÝMALAT HÜCRESÝNDE KULLANILAN BÝR ROBOTUN ÝÞLEMLERÝNÝN SIRALANMASI 
+Yusuf USTA ve Yücel ERCAN* 
+
+Makina Mühendisliði Bölümü, Mühendislik Mimarlýk Fakültesi, Gazi Üniversitesi, 06570 Maltepe Ankara, 
+uyusuf@gazi.edu.tr
+
+*Makine Mühendisliði Bölümü, Mühendislik Fakültesi, TOBB-Ekonomi ve Teknoloji Üniversitesi, Söðütözü, Ankara, yercan@etu.edu.tr 
+(Geliþ/Received: 05.07.2005; Kabul/Accepted: 09.02.2006) 
+
+ÖZET 
+Hücresel imalat sistemi son yýllarda yaygýn olarak kullanýlan ve parti bazýndaki üretimlerde uygulanan bir tekniktir. Fiziksel olarak bir araya kümelenmiþ makinalardan oluþan bu hücrelerde üretim verimini, kaliteyi ve iþemniyetini artýrmak, sýkýcý iþleri yorulmadan yaptýrmak için robot kullanýmý tercih edilmektedir. Bu çalýþmada, en fazla on makinadan oluþan bir imalat hücresi ve bir tek robot olduðu kabul edilerek, en fazla on ayrý iþin aynýanda üretilmesi durumunda, robotun bu iþleri tezgahlara hangi zamanlarda ve hangi sýra ile yerleþtirip-almasýgerektiðini belirleyen algoritmalar geliþtirilmiþtir. Bu algoritmalar, imalat hücresini oluþturabilmek için gerekli kütüphane (tezgahlar, robotlar ve depolama alanlarý), tezgah yerleþimi ve iþ parçalarý bilgilerinin yer aldýðý bir uzman sistemin alt modülü olarak yapýlandýrýlmýþtýr. Giriþ bilgileri uzman sistemin çalýþmasý ile elde edilen veriler olmakta, çýkýþbilgileri yine aynýuzman sistem tarafýndan kullanýlmaktadýr. Geliþtirilen algoritmalar QUICKBASIC dilinde hazýrlanmýþ bir yazýlýma aktarýlmýþ ve uzman sistemin “karar mekanizmasý” kýsmýnýmeydana getirmiþtir. Örnek problemler üzerindeki testlerde geliþtirilen yazýlýmýn güvenilir sonuçlar ürettiði izlenmiþtir. 
+
+1. GÝRÝÞalmasýný saðlamýþtýr. Ýmalat hücresinde kullanýlan bir 
+robot, benzer ürünlerden bir kaç tanesini tezgahlara Esnek imalat sistemleri ve imalat hücrelerindeki sýrayla yerleþtirip alacaðýndan, belirli bir zaman modernleþme, iþ parçasýný yükleme, alma ve parçalarýdiliminde kendini tekrarlayan bir yollar zincirini takip yerine götürme iþlerinde, insanlarýn yerini robotlarýn eder. Bu çalýþmada, robotlu bir imalat hücresinde, 
+Y. Usta ve Y. Ercan 
+robotun bu taþýma iþlemleri için hangi zamanlarda hangi iþlemleri yapmasý gerektiðini belirleyen bir algoritma ve yazýlým geliþtirilmiþtir. Geliþtirilen algoritma, robotlu imalat hücreleri için geliþtirilen bir uzman sistemin modüllerinden biri olarak yapýlandýrýlmýþtýr. Ýmalat hücresinde en fazla 10 tezgah bulunabileceði ve ayný anda en fazla 10 iþparçasýnýn iþlem gördüðü varsayýlmýþtýr. Hücrede taþýma ve yerleþtirme iþlemleri için sadece bir tek robot olduðu kabul edilmiþtir. 
+Ýmalat hücrelerinde tezgahlarýn bir kýsmý birbiri ile ayný iþleri yapabilecek özelliklerde olabilecekleri gibi, farklý tezgahlar da yer almaktadýr. Dolayýsýyla belirli operasyonlarýn sistemdeki bir tek makinada yapýlmasýzorunluluðu olabilmektedir. Ýmalat hücrelerinde kullanýlan iþ parçasý yükleme boþaltma algoritmalarýbu sebepten dolayý esnek imalat sistemlerinden farklýlýklar gösterir. 
+Literatürde robotlu montaj sistemlerine ait çalýþmalara sýklýkla rastlanmaktadýr. Bu çalýþmalarda, montajýn robotla yapýlabilmesi için montaj sýralamasýnýn deðiþtirilmesi veya yeni baþtan montaj sýralamasýyapýlmasý gibi çalýþmalar dikkati çekmektedir [1,2]. Bu sýralamalarda hiyoristik algoritmalar kullanýlmakta ve imalat hücrelerindeki iþlem sýralamasýyla benzerlikler göstermektedir. Ýmalat hatlarýnda tekerlek üzerinde hareket edebilen robotlar kullanýlmaktadýr. Alexander J.C. ve arkadaþlarý [3] ile Desaulniers G. ve arkadaþlarý [4] tarafýndan yapýlan çalýþmalarda, hareketli robotlar için kullanýlabilecek en kýsa yol algoritmalarý geliþtirilmiþtir. 
+Robotlu imalat hücrelerindeki sýralama problemlerine ait çalýþmalar son yýllarda da hýzla devam etmektedir. Dawande M ve arkadaþlarý [5] yaptýklarý literatür araþtýrmasý ile çoðunluðu 1990'dan sonra yapýlan 70'in üzerindeki çalýþmayý incelemiþlerdir. Bu incelemelerden, bir ya da birden fazla robot bulunduran hücrenin, parça tiplerinin, robot eriþim zamanlarýnýn, robot türlerinin ve makine yerleþim tiplerinin dikkate alýnarak çözümler geliþtirilmeye çalýþýldýðý anlaþýlmaktadýr. 
+Üç makinadan oluþan robotlu bir imalat hücresinde parçalarýn hiç bekletilmediði bir sýralama problemi üzerinde Agnetis A. ve Pacciarelli D. bir çalýþma yapmýþlar [6] ve bazý çözümler ürettiklerini bildirmiþlerdir. Yine benzeri bir çalýþma Soukhal A. ve Martineau P. [7] tarafýndan yapýlmýþ; burada da tezgahlar arasýnda bekleme alanlarýnýn olmadýðývarsayýlmýþtýr. Bir diðer çalýþmada ise [8], tezgah aralarýnda bekleme alaný yerine robot elinin çift çeneli olmasý önerisi sunulmuþ ve önce iki makina için hiyoristik bir çözüm üretilmiþ ve ardýndan bu çözüm dört makina için geniþletilmiþtir. 
+Yarý iletkenlerin inceltilmesi için kullanýlacak ve büyük bir robotlu imalat hücresi için yapýlmýþ bir 
+Ýmalat Hücresinde Kullanýlan Bir Robotun Ýþlemlerinin Sýralanmasý
+çalýþma ise [9], çevrim zamanýnýn optimizasyonu üzerine yapýlmýþtýr. 
+Literatür araþtýrmalarý ve ticari olarak piyasada bulunan imalat sistemlerinin incelenmesi sonucunda hem yükleme-boþaltma sistemlerinin ve hem de deðiþik sýralama yöntemlerinin var olduðu anlaþýl­maktadýr. Ancak, piyasada satýlan sistemlerde, rekabet etme þartlarýndan dolayý hangi kriterler ve yöntemlerle karar verme mekanizmalarýnýn kullanýldýðý bilgilerine ulaþmak hemen hemen mümkün deðildir. Yurdumuzda 1990'dan itibaren kullanýlmaya baþlanan CNC üretim tezgahlarý ve 1994'ten itibaren kullanýlmaya baþlanan esnek imalat hücreleri gün geçtikçe artmaktadýr. Piyasa koþullarý dünyadaki gibi yurdumuzda da bu tür üretim teknolojilerinin çoðalmasýný ve imalat hatlarýnýn esnekliðini giderek artýrmayý zorunlu hale getirmektedir. Bu yöndeki geliþmeler doðrultusunda, yurdumuzda da yerli bir teknolojinin oluþmasýna katkýda bulunmak bu çalýþmanýn baþlýca amaçlarýndandýr. 
+Bu çalýþmada geliþtirilen robot iþlemleri sýralamasýalgoritmasý ve yazýlýmý bir uzman sistemin alt modülünü oluþturmaktadýr. Uzman sistem KAPPA™ yazýlýmý kullanýlarak geliþtirilmiþtir. Nesneye dayalýolarak geliþtirilen bu uzman sistemin yapýsýÞekil 1‘de görülmektedir. 
+Þekilde görülen baðlama çizgileri nesnelerin her biri arasýndaki hiyerarþinin nasýl ilerlediðini göster­mektedir. Þekilde çizgiler boyunca soldan saða doðru ilerledikçe bir önceki nesneden alýnan bilgi ve özel­likler de aktarýlmaktadýr. Yani, çizgilerin en saðýnda bulunan bir nesne kendisinden önceki nesnelerin bütün özelliklerini taþýmakta ve gerekiyorsa fazladan bazý bilgi ve özellikleri de içerebilmektedir. 
+Uzman sistem dört ayrý modül altýnda toplanmýþtýr. Bunlardan birincisinde, bütün uzman sistemlerde olduðu gibi, bir “kütüphane” yer almaktadýr. Kütüphanede, imalat hücresinin ihtiyacý olan ekipmanlar (tezgahlar, robotlar, iþ tablalarý) bulunmaktadýr. Her bir ekipmanýn fiziki boyutlarý, kapasiteleri ve haberleþme sinyalleri gibi bilgiler kütüphanede yer almaktadýr. 
+Uzman sistemde, oluþturulan imalat hücresinde aynýanda imal edilecek parçalara ait bilgileri o parçalarýn operasyon planlarýndan çýkaran bir modül de bulunmaktadýr. Bu modüle “iþ parçasý” modülü adýverilmiþtir. Ýþ parçasý modülü, robot iþlerinin sýralanmasý için gereken hazýr bilgileri operasyon planý içerisinden almaktadýr. 
+Uzman sistemin üçüncü kýsmýný “imalat hücresi” modülü oluþturmaktadýr. Burada, kütüphanede bulunan ekipmanlardan bir kýsmýnýn seçilmesiyle imalat hücresi oluþturulmaktadýr. Tezgahlar ve iþtablalarý ile birlikte imalat hücresinin yerleþim planý
+
+
+Þekil 1. Uzman sistemin genel yapýsý
+ve fiziki boyutlarý ortaya çýkmaktadýr. Kütüphanedeki robotlardan birinin imalat hücresinde kullanýmýyla da robotun hareket edebileceði alanlar ve çalýþma hacmi ortaya çýkmýþ olmaktadýr. 
+Uzman sistem yapýsý içerisindeki dördüncü modül “iþlem planlamasý” adý verilen kýsýmdýr. Bu modülün çalýþtýrýlmasý sonucunda robotun yapacaðý iþlemler dizisi oluþturulmakta ve daha sonraki kullanýmlar için bir kütükte saklanmaktadýr. Bu çalýþmada geliþtirilen sýralama algoritmasý ve yazýlýmý uzman sistemin bu modülünde yer almaktadýr. 
+
+2. ROBOT ÝÞLEMLERÝNÝN SIRALANMASI 
+Robotlu imalat hücresi uzman sisteminin karar mekanizmasýný oluþturan iki kýsýmdan birisi, tezgah yükleme sýrasýný belirleyen Kayan DarboðazlýSezgisel Algoritmasýdýr (Shifting Bottleneck Heuristic Algorithm-SBH) [10]. Karar mekanizmasýnýn ikinci kýsmýnýise robot iþlemlerini sýralayan algoritmalarýn yerleþtirildiði program bloklarý oluþturmaktadýr. Kayan darboðazlý sezgisel  algoritmanýn (SBH) uygulanmasýyla her bir tezgahta operasyona girecek iþparçasý sýrasýbelirlenir. Ancak, SBH algoritmasýnýkullanan programýn çýkýþ bilgilerine bakarak robotun yapmasý gereken iþlemler hemen ortaya çýkmamaktadýr. Ýþ parçalarýnýn tezgahlara yerleþtirilip alýnmasý iþlemlerinin mantýklý bir sýra içinde takip edilmesi gereklidir. Bu çalýþmada geliþtirilen algoritmalar ve “SIRALAMA” adý verilen program, bu robot iþlemleri zincirini belirlemektedir. Bu amaçla, literatürde bulunmayan algoritmalar geliþtirilmiþ ve tamamen kiþisel tecrübeye dayalýkarar mekanizmalarý oluþturulmuþtur. “SIRALAMA” programý QUICKBASIC (sürüm 7.1) ile hazýrlan­mýþtýr. Daha sonra  “exe” hali, uzman sistemdeki “Ýþlem planlamasý” modülüne yerleþtirilmiþ ve modülün “metot” kýsmýnda yazýlan “exe” programýçalýþtýrma komutu ile çalýþmasý saðlanmýþtýr. 
+SBH ve diðer sýralama algoritmalarý iþ parçalarýnýn tezgahlarda hangi sýra ile iþleme gireceðini belirle­mekte, ancak herhangi bir zaman bilgisi vermemek­tedir.  Elde edilen sýralama bilgileri ve iþlem zamanlarý dikkate alýnarak her tezgahýn iþleri hangi zamanlarda operasyona alacaðýnýn belirlenmesine “çizelgeleme” denmekte [11,12] ve iþlemler Gantt diyagramlarýnda gösterilmektedir. Burada da, robot iþlerinin sýraya sokulmasýnda, hemen hemen bütün aþamalarda Gantt diyagramý üzerinde çalýþýlacaktýr. Diyagramda iþlerin baþlangýç ve bitiþ zamanlarýdikkate alýnarak bir çok kararlar verilecektir. Gantt diyagramý burada hem bilgi kaynaðý ve hem de sonuçlarýn görüldüðü bir yer olacaktýr. 
+
+2.1. Algoritmalar ve Programýn Genel Yapýsý
+Geliþtirilen algoritmalar ve SIRALAMA programýtanýtýlýrken ayný zamanda 4 makina ve 3 iþ parça­sýndan oluþan bir sýralama problemi ele alýnacaktýr. Bu tür problemlerin çözümüne ait yöntemler literatürde de bir örnekle anlatýlmakta ve algoritmalar böylece daha kolay izlenebilmektedir [11]. 
+
+2.1.1. Sýralama programýnýn giriþ bilgileri 
+SIRALAMA programýnýn giriþ bilgileri, SBH algoritmasý programýnýn “ISSIRASI.TXT” isimli çýkýþkütüðündeki bilgilerdir. Þekil 2‘de bu kütüðün yapýsýverilmiþtir. 
+Þekil 2'de her bir makinanýn karþýsýnda yatay yönde ilerleyerek ilgili tezgahtaki iþ parçasý sýralarý ve bunlara ait en erken iþleme baþlayabilme zamaný (serbest kalma zamaný- SKZ) ile proses süresi görülebilmektedir. 
+
+Y. Usta ve Y. Ercan Ýmalat Hücresinde Kullanýlan Bir Robotun Ýþlemlerinin Sýralanmasý
+Hücredeki makina sayýsý: 4 Hücrede ayni anda imal edilecek parça sayýsý: 3 
+Mak.No IsNo S.K.Z. Pr.Sur. IsNo S.K.Z. Pr.Sur. IsNo S.K.Z. Pr.Sur. 1 1 0 10 2 10 3 3   13 4 -1 17 2 2 0 8 1 10 8 3   18 7 -1 25 3 1    18 4 2 22 6 -1 28 4 2    13 5 3 25 3 -1 28 
+IsNo Ýþin gideceði makinalar 1 1 2 3 -1 2 2 1 4 3-1 3 1 2 4 -1 
+Mak.No: Tezgah numarasýIsNo: Tezgahta iþlem görecek iþ parçasý numarasýS.K.Z.: Ýþ parçasýnýn o tezgahta operasyona girebileceði en erken zaman Pr.Sur.: Ýþ parçasýnýn o tezgahtaki iþlem süresi
+Þekil 2. SIRALAMA programýnýn giriþ bilgilerini içeren “ISSIRASI.TXT” kütüðünün görünümü 
+
+2.1.2. Ýþlemlerin kutularýnýn oluþturulmasý ve ilk haliyle Gantt diyagramýnýn elde edilmesi 
+SIRALAMA programý, giriþ kütüðünü okuduktan sonra bir Gantt diyagramý oluþturmaktadýr. Þekil 3'te görülen diyagramdaki gibi, tezgahlardaki her bir operasyon bir kutu ile gösterilmektedir. Her bir kutuya ait dört temel bilgi mevcuttur. Ayrýca söz konusu operasyon kutusunun bir tezgaha mý yoksa bir iþ tablasýna mý ait olduðuna dair beþinci bir bilgiye de ihtiyaç duyulmaktadýr. Bir kutuyu temsil eden bilgiler þöyledir: 
+1.	
+KUTU(NN,1): NN’inci kutuda kullanýlan makinan n veya iþ tablasýnýn numarasý. 
+
+2.	
+KUTU(NN,2): NN’inci kutuda iþlem gören iþparçasýnýn numarasý. 
+
+3.	
+KUTU(NN,3): NN’inci kutuda iþlem gören iþparçasýnýn iþlenmesine baþlanma zamaný. 
+
+4.	
+KUTU(NN,4): NN’inci kutuda iþlem gören iþparçasýnýn bitiþ zamaný. 
+
+5.	
+KUTU(NN,5): NN’inci kutu=0 ise imalat tezgahý, = -1 ise iþ tablasý. 
+
+
+Makina 1 
+Makina 2 
+Makina 3 
+Makina 4 
+0 10
+
+Tanýtýlan kutularla her bir operasyonun yeri kolaylýkla belirlenebilmektedir. “NN” deðeri kutu indisidir ve en büyük deðeri imalat hücresinde yapýlacak toplam operasyon sayýsýný gösterir. SIRALAMA programý ile robotun yapacaðý iþlemler dizisi oluþturulurken, tezgah aralarý ile iþ parçalarýnýn ilk ve son operasyona girdikleri tezgahlarýn yanýna iþ tablalarý yerleþtirme iþlemi de gerçekleþtirilmektedir. Programýn baþýnda KUTU(NN,5) deðerlerinin hepsi de sýfýrdýr. Çünkü bu aþamada henüz iþ tablasý yerleþtirme iþlemine karar verilmemiþtir. 
+
+
+2.1.3. Ayný anda yapýlan transfer operasyonlarýnýn tespiti ve zaman kaydýrmalarý yapýlmasý
+Robot iþlemleri sýralanýrken ileride karþýlaþýlabilecek en büyük sorunlardan biri, robotun elinde iþ parçasývarken dolu bir tezgaha gitmesidir. Robotun mantýklýbir sýra ile çalýþabilmesi için öncelikle iþ parçasýyükleyeceði tezgahýn boþ olmasý gereklidir. Dolayýsýyla iþ parçasýnýn gideceði tezgah önceden boþaltýlmýþ olmalýdýr. Ayrýca, hücrede ayný anda birden fazla yükleme ve boþaltma iþlemi yapýlmasý
+
+
+20 30 t (zaman) 
+
+Þekil 3. Dört makina ve üç iþe ait zaman bilgilerini gösteren örnek bir Gantt diyagramý
+gerekiyorsa bunlarýn önceliðine karar vermek son derece güç olabilmektedir. 
+Þekil 3'te, örneðin 10. zaman diliminde 1. tezgahtan 1. iþ parçasýnýn alýnmasý, 2. tezgaha 1. iþ parçasýnýn yerleþtirilmesi ve 1. tezgaha 2. iþ parçasýnýn yerleþtirilmesi olmak üzere 3 robot iþlemi görülmektedir. Burada ilk olarak 1. tezgaha 2. iþparçasýkoyulamaz; çünkü 1. tezgah doludur. Aynýþekilde 1. tezgah boþaltýldýktan sonra 2. iþ parçasý aynýtezgaha koyulamaz; bu defa da robot eli doludur. Bu kýsmýn çözümü için, ilk olarak 1. tezgahtan 1. iþparçasý alýnmalý, sonra ayný parça 2. tezgaha konulmalý ve son olarak 2. iþ parçasý bulunduðu yerden alýnarak 1. tezgaha koyulmalýdýr. Þekil 3'te benzeri bir durum da 18. zaman diliminde görül­mektedir. 
+Þekil 3'teki örnek Gantt diyagramýnda ortaya çýkan bu ayný zamanlý iþlem durumlarý, ilk bakýþta kolayca çözülebilecek bir sýralama olarak gözükmektedir. Ancak bu durumlarýn çok karmaþýk olanlarý ortaya çýkabilmektedir. Yapýlan araþtýrmalar neticesinde çakýþan iþlemlerin beþ deðiþik grupta toplandýðýbelirlenmiþ ve bunlarýn her biri için ayrý çözüm yöntemi geliþtirilmiþtir. Ayrýca ilerideki aþamalarýn doðru çalýþabilmesi için bu aþamada . gibi küçük zaman kaydýrmalarý yapýlmasý (.=0,01) zorunluluðu ortaya çýkmýþtýr. 
+
+2.1.3.1. Normal ucu açýk transfer çevrimi  (PROBLEM-1) 
+Þekil 4a‘da örneði görülen bu problem türünde, t0 anýnda boþ bir makina ve boþaltýldýktan sonra t0'da tekrar yükleme yapýlmayan bir makina vardýr. t0 anýnda toplanmýþ bütün iþlemlerde, her bir iþ bir makinadan alýnacak ve diðer bir makinaya 
+Orjinal problem Tezgahlar 
+1A 
+4 3B 2 1C 3 2D 
+
+
+E 
+
+
+t0 zaman 
+(a) 
+Y. Usta ve Y. Ercan 
+yüklenecektir. Yani bu anda sadece yüklenecek ya da sadece boþaltýlacak bir iþ parçasý yoktur. 
+Problemin çözümüne transfer sýrasý belirlenerek baþlanýr. Ýlk transfer boþolan makinaya yapýlarak her yeni boþalan makinaya transfere devam edilir ve tüm transfer iþlemleri tamamlanýr. Þekildeki örnekte transfer zinciri BE, DB, CD ve AC þeklindedir. 
+SIRALAMA programý çalýþýrken bu tür problemi tespit ettiðinde, iþlemlerin hangi sýrayla yapýlacaðýnýbelirlemek amacýyla transfer zamanlarýný aralarýnda .kadar süre olacak biçimde Þekil 4b'deki gibi kaydýrmaktadýr. Burada görüldüðü gibi, ayný anda yapýlacak iþlemler, . kadar farklý zaman aralýklarýyla sadece “önce boþalt - sonra yerleþtir” þeklinde gruplara dönüþmektedir. 
+
+
+2.1.3.2. 	Dejenere ucu açýk transfer çevrimi tip-1 (PROBLEM-2) 
+Bu sýralama problemi türünde, t0 anýnda boþaltýlan ve baþka iþ yüklenmeyen bir makina ile bir iþ boþaltýlýp baþka bir iþ yüklenen makinalar vardýr. Ýþ parçalarýbiri dýþýnda, bir makinadan alýnýp diðer makinaya t0 anýnda yüklenmektedir. Parçalardan birisi ise t0 anýnda herhangi bir makinadan alýnmakta, ancak diðer makinaya t0'dan daha sonraki bir zamanda yüklenmektedir (Þekil 5). 
+Transfer iþlemlerini gerçekleþtirebilmek için t0 zamanýnda B tezgahýndan boþaltýlan 3 no.lu parçayý t1 zamanýna kadar bekletme zorunluluðu nedeniyle bir iþtablasýnýn sisteme eklenmesi gereklidir. Yerleþtirilen bu iþ tablasý hayali bir tezgah gibi düþünülerek þekildeki orijinal problem “Problem-1" tipindeki bir sýralama problemine dönüþtürülür. Bu dönüþüm ile problem-1'in çözüm kurallarý uygulanýr ve hayali E 
+Tezgah boþaltma ve yükleme zamanlarý kaydýrýlmýþ durum 
+A 
+B 
+C 
+D 
+E 
+
+t0 
+(b) 
+
+Þekil 4. Normal ucu açýk transfer çevrimine (Problem-1) ait bir örnek 
+Y. Usta ve Y. Ercan 
+Orjinal problem 
+
+Tezgahlar 
+A 
+B 
+E 
+¤Õ tablas2C 
+D zaman 
+
+t0 t1 
+Þekil 5. Dejenere ucu açýk transfer çevrimi tip-1'e ait bir örnek sýralama problemi 
+tezgahý t0'da boþ olduðundan ilk yüklemeye buradan baþlanýr. Þekil 5‘teki problemin modifiye edilmiþdurumu ve çözümden sonra oluþacak yeni Gantt diyagramýÞekil 6‘da verilmiþtir. Görüldüðü gibi, iþlem sýralamalarýný belirlemek amacýyla transfer zamanlarý, aralarýnda .kadar süre olacak biçimde kaydýrýlmýþtýr. Çözülmüþ problemde transfer zinciri BE, CB ve AC olacaktýr. 
+
+
+2.1.3.3. Dejenere ucu açýk transfer çevrimi tip-2 (PROBLEM-3) 
+Bu sýralama problemi türünde, t0 anýnda yüklenen ve önceden boþ olan bir makina ile bir iþ boþaltýlýp baþka bir iþ yüklenen makinalar vardýr. Biri dýþýnda bütün iþparçalarý bir makinadan alýnýp diðer bir makinaya t0 anýnda yüklenmektedir. Parçalardan birisi ise t0 anýnda herhangi bir makinaya yüklenmekte ancak diðer makinadan t0'dan daha önceki bir zamanda (t1) alýnmaktadýr (Þekil 7). 
+Bu problemde transfer iþlemlerini yapabilmek için t1 zamanýnda A tezgahýndan alýnan 1 no.lu iþ parçasýnýstoklamak üzere bir iþ tablasýnýn tezgah çýkýþýna yerleþtirilmesi gereklidir. Yerleþtirilen bu iþ tablasýyine hayali bir tezgah gibi düþünülerek þekildeki orijinal problem “Problem-1" tipindeki bir sýralama 
+Modifiye problem 
+A 1 
+
+B 3 
+E 
+2 t0 
+
+Ýmalat Hücresinde Kullanýlan Bir Robotun Ýþlemlerinin SýralanmasýOrjinal problem 
+Tezgahlar A E ¤Õ tablas2
+B C D zaman 
+
+
+t1 t0 Þekil 7. Dejenere ucu açýk transfer çevrimi tip-2'ye ait bir örnek sýralama problemi 
+problemine dönüþtürülür. Bu dönüþümden sonra problem-1'in çözüm kurallarý uygulanýr ve ilk yükleme önceden boþolan D tezgahýna yapýlýr. Çözülmüþ problemde transfer zinciri BD, CB ve EC olacaktýr. Þekil 7‘deki problemin modifiye edilmiþdurumu ve çözümden sonra oluþacak yeni Gantt diyagramýÞekil 8‘de verilmiþtir. 
+Görüleceði gibi, D tezgahýna ilk yüklemenin yapýlmasýyla B tezgahý boþalýr ve bu tezgaha bir sonraki iþ parçasýný yükleme zamaný. kadar kaydýrýlýr. Bu þekilde sýrayla boþalan her tezgahýn yükleme zamaný. kadar ileri kaydýrýlarak Þekil 8b‘deki Gantt diyagramý elde edilir. 
+
+
+2.1.3.4. Kapalý transfer çevrimi (PROBLEM-4) 
+Þekil 9‘da örneði görülen bu problem türünde, t0 zamanýnda, ayný anda boþaltýlan ve yüklenen tezgahlar mevcuttur. Yani, boþbir makina veya boþaltýldýktan sonra tekrar yükleme yapýlmayan bir makina yoktur. t0 anýnda toplanmýþ bütün iþlemlerde, her bir parça bir makinadan alýnacak ve diðer bir makinaya yüklenecektir. 
+Bu problem herhangi bir tezgahýn çýkýþýna bir iþtablasý yerleþtirilerek Problem 1’e dönüþtürülebilir. 
+Tezgah boÕaltma ve yükleme 
+zamanlar2 kayd2r2lm2Õ durum 
+
+A 
+B 
+C 
+
+t0 t0+g ¤Õ tablas2
+Þekil 6. Problem-2 türü modifiye edilmiþ sýralama problemi ve çözümden sonraki Gantt diyagramý
+Modifiye problemTezgah boÕaltma ve yükleme zamanlar2kayd2r2lm2Õ durum 
+E 
+
+
+E 
+
+3 
+B
+B 
+C 
+C
+2 
+D 
+D 
+t0 
+
+
+(a) (b) Þekil 8. Problem-3 türü modifiye edilmiþ sýralama problemi ve çözümden sonraki Gantt diyagramý hali 
+Tezgah boÕaltma ve yükleme Orjinal problem zamanlar2 kayd2r2lmiÕ durum 
+Tezgahlar A A 
+1 E B 
+2 B C 
+3 C t0 zaman 
+
+
+
+
+t0 
+
+(a) (b) Þekil 9. Kapalý transfer çevrimine (Problem-4) ait bir örnek 
+Þekil 9’da böyle bir iþ tablasý A tezgahýnýn çýkýþýna koyulmuþtur. Böylece iþlem baþlangýcýnda bir boþtezgah (iþ tablasý) elde edilmiþolur. Önce A tezgahýndan bu boþ tezgaha yükleme yaparak ve her boþalan tezgahýn yükleme zamanýný. kadar ileri atarak transfer iþlemleri tamamlanýr. Buna göre Þekil 9’daki örnek için oluþacak transfer zinciri AE, CA, BC ve EB þeklindedir. Yükleme zamanlarýnýn kaydýrýlmasý sonucu elde edilen yeni Gantt diyagramýise Þekil 9b’de verildiði gibidir. 
+
+
+2.1.3.5. Kompozit dejenere ucu açýk transfer çevrimi (PROBLEM-5) 
+Bu problem türü Problem 2 ve Problem 3'ün özelliklerini bir arada taþýr. t0 anýnda sadece boþaltýlan veya sadece yüklenen tezgah yoktur. Problemde t0 zamanýnda bir iþ herhangi bir makinaya yüklenecektir, ancak bu iþ t0'dan önceki bir t1 zamanýnda baþka bir makinadan alýnmýþtýr. Aynýþekilde, t0 zamanýnda bir iþ herhangi bir makinadan alýnacaktýr, ancak bu iþin bir baþka makinaya yüklenmesi t0'dan daha sonraki bir t2 zamanýnda olacaktýr. 
+Bu transfer probleminin bir örneði Þekil 10‘da verilmiþtir. Þekilden anlaþýlacaðý gibi, 1 no.lu iþparçasý A tezgahýndan alýndýktan sonra C tezgahýna yüklenebilmek için beklemektedir. Yine aynýþekilde, 4 no.lu parça B tezgahýndan alýndýktan sonra E tezgahýna yüklenebilmek için bekleyecektir. 
+Bu transfer iþleminin gerçekleþtirilebilmesi için 1 no.lu iþ parçasýný A tezgahýndan aldýktan sonra stoklamak için bir iþ tablasý (F), 4 no.lu iþ parçasýný B tezgahýndan aldýktan sonra stoklamak için de diðer bir iþ tablasý (G) kullanýlmasý gerekmektedir. Bu iþtablalarý koyulursa A ve E tezgahlarýnýn Problem 5'in çözümünde dikkate alýnmasýna gerek kalmamaktadýr. Elde edilen modifiye problem Þekil 11‘in solundaki gibidir. Elde edilen yeni problem, Problem 1'e benzemektedir. 
+Problemin çözümüne boþ olan tezgaha (iþ tablasý G) ilgili iþ parçasýný yükleyerek baþlanýr. Bunun sonucunda boþalan tezgahýn (B) yükleme zamaný.kadar ileri kaydýrýlarak, iþlemlere benzer biçimde bütün transferler tamamlanýncaya kadar devam edilir. 
+Y. Usta ve Y. Ercan 
+Orjinal problem 
+Tezgahlar A F B G 
+D 
+
+t1 t0 t2 zamanÞekil 10. Kompozit dejenere ucu açýk transferçevrimine (Problem-5) dair bir örnek 
+Þekil 11‘deki problem için bu yöntemle elde edilecek transfer zinciri BG, DB, CD ve FC biçimindedir. Yükleme zamanlarýnýn ileriye doðru kaydýrýlmasýneticesinde, çözümlenen problemin Gantt diyagramýyapýsýÞekil 11’in sað tarafýnda görüldüðü gibi olacaktýr. 
+
+
+2.1.4. Ýmalat hücresine iþ tablalarýnýn yerleþtirilmesi 
+Yukarýda kýsým 2.1.3’te verilen örneklerden de görüldüðü gibi, tezgah yükleme zamanlarýnýn boþaltma zamanlarýna göre .kadar süreyle ileri kaydýrýlmasý ve çeþitli tezgahlarýn boþaltma/yükleme sýralamalarýnýn belirlenmesi için iþ tablalarýnýn fiili olarak yerleþtirilmesi gerekli deðildir. Önemli olan, problem türünün tanýmlanmasý, boþaltma iþlemine doðru tezgahla baþlanmasý ve sýrasýyla boþaltýlan her tezgahýn yükleme zamanýnýn boþaltma zamanýna göre . kadar ileri kaydýrýlmasýdýr. SIRALAMA programýilk aþamada sadece transfer sýralamasý ve yükleme 
+Modifiye problem 
+G 
+
+
+
+G 
+B B 
+
+CC DD 
+F F 
+
+
+Ýmalat Hücresinde Kullanýlan Bir Robotun Ýþlemlerinin Sýralanmasý
+zamaný kaydýrma iþlemlerini yapmaktadýr. Ýkinci aþamada ise bu þekilde düzenlenmiþ ve boþaltma/yükleme zamanlarý kaydýrýlmýþ Gantt diyagramlarýna dayanarak, yukarýdaki özel problemlere çözüm getirecek ve kilitlenmeleri önleyecek biçimde, tezgah yanlarýna iþ tablalarýyerleþtirilmektedir. 
+Ýþ tablalarý üç farklý noktaya yerleþtirilmektedir. Bunlar operasyon aralarýna, her iþin ilk operasyonun olduðu tezgah yanýna ve her iþin son operasyonunun yapýldýðý tezgah yanýna þeklindedir. 
+Operasyon aralarýna yerleþtirilecek iþ tablalarýna karar verebilmek için tezgahlardaki bekleme sürelerinin göz önüne alýnmasý gerekmektedir. Bekleme sürelerinin belirlenmesi için Gantt diyagramýna bakýlmalýdýr. Þekil 3’e bakýldýðýnda, iþlerin bir tezgahtan çýktýktan sonra nereye gideceðini bildiren oklar görülecektir. Eðer imalat sýrasýnda herhangi bir bekleme söz konusu deðilse bu oklar dikey olarak yer alacaklardýr. Ama iþ parçasý diðer tezgaha gitmek için bekliyorsa ok eðimli olacaktýr. Gantt diyagramýnda böyle eðimli oklarýn bulunduðu zamanlarda iþ tablasý bulundurma ihtimali vardýr. Diðer zamanlarý kontrol etmeye gerek yoktur. Þekil 3’te 8-10, 17-18 ve 18-22. zaman dilimleri, iþ tablasý yerleþtirilebilecek yerlerdir. 
+Ayrýca Bölüm 2.3.3’te anlatýlan ayný zamanlý parça transferlerinde, Problem 1 dýþýndaki durumlarda, belirli tezgahlardan sonra iþ tablasý koyulmasýgerekmektedir. Aþaðýda verilen “iþ tablasý yerleþtirme kriteri” hem eþ zamanlý parça transferi yapýlan bu özel durumlarda hem de genel durumlarda gereken iþtablalarýný sisteme ilave etmektedir. Eðer Bölüm 2.3.3’te anlatýlan ayný zamanlý parça transferleri varsa, aþaðýdaki kural uygulanmadan önce ilgili kýsýmlarda açýklandýðý gibi boþaltma ve yükleme zamanlarýkaydýrmalarý yapýlarak modifiye edilmiþ Gantt diyagramlarý elde edilmelidir. 
+Tezgah boÕaltma ve yükleme 
+zamanlar2 kayd2r2lmiÕ durum 
+
+
+t0 
+Kural: Eðer bir iþin herhangi bir tezgahtaki bitme zamaný ile, bir sonraki tezgahtaki baþlama zamaný arasýnda süre varsa ve boþaltýlacak tezgaha daha önce baþka bir iþ koyuluyorsa, bu iþi bu süre içinde tutmak için tezgahýn çýkýþýna iþ tablasý koy. 
+Yukarýdaki iþ tablasý yerleþtirme kriteri SIRALAMA programýna yerleþtirilmiþtir. Yapýlan testlerde, bu kriterin Bölüm 2.3.3’teki özel durumlarda doðru olarak çalýþtýðý görülmüþtür. Ayrýca Þekil 3’teki örnek Gantt diyagramý üzerinde çalýþtýrýldýðý zaman, 8. zaman diliminde 2. tezgahta iþi biten 2. parçayý 10. zaman diliminde 1. tezgaha koyabilmek için 2. tezgahýn çýkýþýna iþ tablasý yerleþtirilmesi gerektiðini belirlemiþtir. Çünkü 10. zaman diliminde hem 1 ve hem 2. tezgah ayrý bir iþ parçasýný iþleyeceðinden, 2. tezgahýn boþaltýlmýþ olmasý gerekmektedir. Program, 17 ve 18. zaman dilimlerinde ise bir iþ tablasýyerleþtirmemiþtir. Çünkü burada, iþlemi biten iþparçasý diðer tezgahta operasyona baþlayana kadar boþalan tezgaha bir baþka iþ parçasý gelmemektedir. Dolayýsýyla iþi biten parça tezgahta bekleyebilir. Bu durumda, bekleme olduðu halde iþ tablasýyerleþtirilmeyen kýsýmlarda, daha sonraki program aþamalarýnýn doðru çalýþabilmesi için kutularýn bitiþzamanlarýný kaydýrmak gereði vardýr. Aksi takdirde, örneðin, 17. zaman diliminde robot 1. tezgahtan 3. parçayý alacak, ancak nereye götüreceðini bilemeyecektir. Yapacaðý en mantýklý iþlem, 3. parçanýn 2. tezgaha yüklendiði 18. zaman dilimine kadar parçayý elinde tutmaktýr. Ancak bu kez de 18. zaman diliminde 2. tezgahý boþaltmasý gerekmektedir. Yani robot, eli dolu iken bir tezgaha iþ almak için gelecektir. Bu kilitlenme durumunu ortadan kaldýrmak için operasyonu biten parçanýn kutusunun bitiþ zamanýný (KUTU(NN,4)) diðer tezgahta iþleme gireceði zamana kadar kaydýrmak yeterli olacaktýr. SIRALAMA programýna sözü geçen bu iþlemi yapan kýsýmlar yerleþtirilmiþtir. 
+Y. Usta ve Y. Ercan 
+Ýmalat sisteminde iþ tablasý yerleþtirilecek diðer kýsýmlar ise, her bir iþin ilk ve son operasyona girdiði tezgahlarýn yanýdýr. Robot, imalatý baþlatabilmek için ham malzeme tablasýndan iþ parçasýný alacak ve ilk tezgaha yükleyecektir. Ham malzeme ise iþ tablasýna baþka bir kaynaktan konulmaktadýr. Aynýþekilde robot, imalatý biten parçayý tezgahtan alýp bitmiþ ürün tablasýna koyacaktýr. Bu tabla da bir baþka kaynak tarafýndan boþaltýlacaktýr. Buna göre, imalat hücresinde hem giriþe ve hem çýkýþa, imal edilecek parça türü kadar iþ tablasý yerleþtirilmelidir. Bu ihtiyacý saðlamak için SIRALAMA programýna bu iþtablalarýný koyan satýrlar da yerleþtirilmiþtir. 
+Ýþ tablalarý program içinde tezgahlar gibi tanýmlanmakta ve iþlem görmektedir. Yani bunlarýn da kutularý vardýr. Baþlangýca ve sona yerleþtirilen iþtablalarýnýn durumu ise biraz farklýdýr. Baþlangýçtaki iþ tablalarý robot tarafýndan yüklenmediði için bunlarýtemsil eden kutularýn baþlama zamaný “-1" gibi imkansýz bir zaman olarak tanýmlanmýþtýr. Aynýþekilde bitiþteki iþ tablalarý da robot tarafýndan boþaltýlmadýðýndan, bunlarýn boþalma zamaný “999" gibi toplam imalat süresinin çok üstünde bir deðerle tanýtýlmýþtýr. Robot iþlemlerinin sýralanmasýesnasýnda, program bu “-1” ve “999”lu deðerlere sahip zamanlarý dikkate almamaktadýr. Þekil 3’te görülen imalat sistemine ilave edilmiþ iþ tablalarý ve zamanlarý kaydýrýlmýþ kutularla oluþan yeni Gantt diyagramýÞekil 12‘de verilmiþtir. 
+Tezgah kutularýnýn 5. deðeri daha önceden bir þey tanýtýlmadýðý için sýfýrdýr. Ýþ tablasý yerleþtirme kýsmýnda yapýlan diðer bir iþlem ise, iþ tablalarýna ait kutularýn 5. deðerinin “-1” yapýlarak (KUTU(NN,5)=-1) bunlarýn iþ tablasý olduðunun iþaretlenmesidir. 
+
+
+0 10 20 30 t (zaman) 
+Y. Usta ve Y. Ercan 
+
+
+2.1.5. Yerleþtirme ve alma iþlemlerinin artan zamana göre sýralanmasý
+Robot iþlemlerinin ilerleyen zamana göre sýralanmasýgerekmektedir. Gantt diyagramýnda görülen her bir kutunun baþlangýç ve bitiþ zamanlarý birer robot operasyonunu belirtmektedir. Dolayýsýyla programda kutularýn baþlangýç ve bitiþ zamanlarý küçükten büyüðe doðru sýralanacaktýr. 
+Sýralama iþleminin yapýlabilmesi için her bir kutunun baþlangýç ve bitiþ deðerlerinin bir tek dizide toplanmasý gerekmektedir. Bunun için iki boyutlu yeni bir dizi daha program içerisinde tanýtýlmýþtýr. Bunun tanýtýmýþöyledir: 
+SIRALIZAMAN1(NNN,1). Kutu numarasý. 
+SIRALIZAMAN1(NNN,2). Baþlangýç veya bitiþ
+bilgisi (3: yükleme 
+(baþlangýç), 4: 
+boþaltma (bitiþ)). 
+Programýn baþlangýcýnda SIRALIZAMAN1(NNN,2)deðeri sýfýrdýr. Daha sonra zamanlarýn sýraya sokulmasýnda, önce alma ve sonra koyma iþlemleri ayrý ayrý sýralanacak ve o anda SIRALIZAMAN1(NNN,2) deðeri 3 veya 4 olacaktýr. 
+Bundan sonra SIRALIZAMAN1 dizisi artan zamana göre yeniden sýralanacaktýr. SIRALIZAMAN1 dizisindeki kutularýn önce baþlangýç deðerleri dikkate alýnarak sýralama yapýlmakta ve dizinin 2. boyutuna “3” deðeri verilmektedir. Daha sonra ise kutularýn bitiþ deðerleri dikkate alýnarak sýralama yapýlmakta ve bu kez de dizinin 2. boyutuna “4” deðeri verilmektedir. Böylece SIRALIZAMAN1 dizisinde önce 2. deðeri “3” ve baþlangýç zamanlarý küçükten büyüðe sýralanmýþ kutu numaralarý, ardýndan da “4” deðerine sahip 2. deðerler ve bitiþ zamanlarý küçükten büyüðe sýralanmýþ kutu numaralarý yer almaktadýr. 
+Baþlangýç ve bitiþ deðerlerini gösteren zamanlarýn ayný anda sýralanmasý mümkün olmamaktadýr. Aynýanda sýralama yapýldýðýnda, sýraya giren kutunun baþlangýcýnýn mý, yoksa bitiþinin mi yer aldýðýbilinememektedir. Dolayýsýyla programýn doðru çalýþabilmesi için iki ayrý sýralama yapýlýp daha sonra bunlarýn artan zamana göre birleþtirilmesi gerekmektedir. Bu birleþik sýralama ile elde edilen yeni diziye “SIRALIZAMAN” adý verilmiþtir ve bu dizi de týpkýSIRALIZAMAN1 dizisi gibi olup iki boyutludur. Dizinin birinci deðeri kutu numarasýnýikinci deðeri ise baþlangýç (yükleme) veya bitiþ (alma) bilgisini taþýr. 
+2.1.6. Ayný iþ parçasýný alan ve koyan iþlemlerin önce alma sonra koyma þeklinde ard arda getirilmesi 
+Yukarýdaki iþlemle elde edilmiþ yeni dizinin 
+Ýmalat Hücresinde Kullanýlan Bir Robotun Ýþlemlerinin Sýralanmasý
+(SIRALIZAMAN), kutularýn sadece baþlangýç ve bitiþzamanlarý dikkate alýnarak sýraya sokulmasý ve aldýðýdeðerlere karþýlýk gelen kutu bilgileriyle elde edilen birkaç satýr 
+
+SIRALIZAMAN(7,1)=11 SIRALIZAMAN(7,2)=4 
+
+KUTU(11,4)=10 KUTU(11,2)=2 KUTU(11,1)=2 
+
+SIRALIZAMAN(8,1)=5 
+
+KUTU(5,3)=10 KUTU(5,2)=1 KUTU(5,1)=2 
+
+SIRALIZAMAN(9,1)=2 
+
+KUTU(2,3)=10 KUTU(2,2)=2 KUTU(2,1)=1 
+
+SIRALIZAMAN(10,1)=1 SIRALIZAMAN(10,2)=4 
+
+KUTU(1,4)=10 KUTU(1,2)=1 KUTU(11,1)=1 
+þeklindedir. Bu satýrlara bakýldýðýnda, 10. zaman diliminde (üçüncü sütun) 4 operasyonun varlýðýanlaþýlmaktadýr. Ýkinci sütuna bakýldýðýnda görülen “4” deðeri kutunun bitiþ deðerini gösterir ve iþparçasýnýn tezgahtan veya iþ tablasýndan alýnacaðýnýgösterir. Aynýþekilde “3” kutunun baþlangýç deðerini gösterir ve iþ parçasýnýn tezgaha veya iþ tablasýna yerleþtirileceðini gösterir. Dördüncü sütunda iþparçasý numaralarý vardýr. Beþinci sütunda ise tezgah numaralarý sýralanmýþtýr. 
+Bu sýralamaya göre ilk bakýþta, önce 2. tezgahtan 2. iþin alýnacaðý, sonra 2. tezgaha 1. iþin koyulacaðý, daha sonra 1. tezgaha 2. iþin koyulacaðý ve en sonunda 1. tezgahtan 1. iþin alýnacaðý bilgilerine ulaþýlmaktadýr. Görüldüðü gibi, robot 2. tezgahtan 2. iþi alacak fakat bunu býrakmadan önce 1. iþi 2. tezgaha koymaya çalýþacaktýr. Yani eli dolu iken bir baþka iþi taþýmaya kalkýþacaktýr. Bu mantýksýz iþlemler zinciri verilen örnekte 4. satýrda da sürmektedir. Halbuki, robot eline aldýðý parçayý boþolan bir tezgaha yüklemelidir. Ancak bu þekilde mantýklý iþlemler dizisi elde edilebilir. Buna göre, 
+robot önce eline parçayýalacak ve sonra aynýparçayý önceden boþ olan bir tezgaha koyacaktýr. Bu sýrayý saðlayabilmek için önce ayný iþ numarasýna sahip satýrlarýn (dördüncü sütun) peþ peþe getirilmesi gerekmektedir. Bunun ardýndan ayný iþe sahip her iki satýr kendi içinde önce alma (4) - sonra koyma (3) (ikinci sütun) þeklinde yeniden düzenlenmelidir. Bu þartlara göre düzenlenmiþ yukarýdaki dört satýr þöyle olacaktýr: 
+
+Ýmalat Hücresinde Kullanýlan Bir Robotun Ýþlemlerinin Sýralanmasý Y. Usta ve Y. Ercan  
+SIRALIZAMAN(7,1)=11 SIRALIZAMAN(7,2)=4  KUTU(11,4)=10  KUTU(11,2)=2  KUTU(11,1)=2  
+SIRALIZAMAN(8,1)=2  SIRALIZAMAN(8,2)=3  KUTU(2,3)=10  KUTU(2,2)=2  KUTU(2,1)=1  
+SIRALIZAMAN(9,1)=1  SIRALIZAMAN(9,2)=4  KUTU(1,4)=10  KUTU(1,2)=1  KUTU(11,1)=1  
+SIRALIZAMAN(10,1)=5 SIRALIZAMAN(10,2)=3 KUTU(5,3)=10  KUTU(5,2)=1  KUTU(5,1)=2  
+
+Sayýlan bu kurallara göre SIRALIZAMAN dizisini yukarýdaki gibi düzenleyen program satýrlarýSIRALAMA programýnda yer almýþtýr. 
+2.1.7. Robot iþlem sýralamasýnýn makina ve iþtablasý arasýndaki öncelik sýrasýna göre yeniden sýraya sokulmasý
+SIRALAMA programýnda, yukarýda anlatýlan iþlemleri yapan program bloklarýyla, iþ parçalarýnýn önce alýnmasýsonra da koyulmasýþeklinde iþlemler sýraya sokulmuþ olmaktadýr. Yapýlan bu sýralama robotun doðru zamanda doðru iþlemleri yapabilmesi için yeterli deðildir. Ayrýca, robotun elindeki iþin gideceði tezgahýn önceden boþ olmasý gereklidir. Yani robot dolu tezgaha iþ parçasý yerleþtirmeye kalkýþmamalýdýr. Buradan, ayný anda yapýlan iþlemler arasýnda, öncelikle “tezgahlarýn boþaltýlmasý” iþleminin yapýlmasý gerektiði þartý ortaya çýkmaktadýr. Boþ olan tezgahlara iki kaynaktan iþ parçasý gelebilir. Bu kaynaklar ya bir tezgah, ya da bir iþ tablasýolabilir. Yani, ya tezgahtan tezgaha, ya da iþtablasýndan tezgaha þeklinde iki tür iþ parçasý transferi olabilir. Burada da bir öncelik söz konusudur. Bir parçayý tezgahtan alýp bir baþka tezgaha götürmek zaman kazandýracaktýr. Çünkü bir tezgahtan çýkan parça iþ tablasýna uðramadan diðer tezgaha geçecek ve sadece robot intikal süresi kadar bir süre sonunda iþ parçasý operasyonlarýna devam edebilecektir. Tezgahtan tezgaha transferin diðer bir amacý da aynýanda bir tezgahýn daha boþaltýlmýþ olmasýdýr ki, boþaltýlan bu tezgah bir baþka iþi yüklenmeye hazýrdýr. Anlatýlan bu bilgilere göre sýralamada ikinci önceliði “tezgahtan tezgaha transferler” alacaktýr. 
+Ayný anda yükleme yapýlan iþlemler arasýnda, geriye kalan robot iþlemleri ise iþ tablasýndan tezgaha yüklenen parçalarýn transferi iþlemleridir. Dolayýsýyla transferde son öncelik “iþ tablasýndan tezgaha” parçalarýn taþýnmasýdýr. Yukarýda sayýlan bu üç öncelik þöyle sýralanýp özetlenebilir: 
+Öncelik sýrasýÝþlemin adý
+ 1    Makinadan iþ  tablasýna  
+2    Makinadan makinaya 
+ 3  Ýþ  tablasýndan makinaya  
+
+Bu aþamada öncelik kazandýrýlmayan tek þey ayný tür iþlemlerin kendi içinde sýralandýrýlmasýdýr. Programda ayný tür taþýma iþlemlerinin sýrasý rasgeledir. Ancak bu durum kilitlenmeye yol açmamaktadýr. Sadece intikal zamanlarý nedeniyle toplam imalat süresi etkilenebilir. 
+SIRALAMA programýna yerleþtirilen bu kurallarla robotun yapacaðý iþlemler mantýklý bir sýraya dizilmiþolmaktadýr. Þekil 12‘deki Gantt diyagramýna bakýldýðýnda, 0, 10, 13, 18, 22 ve 28. zaman dilimlerinde ayný anda yapýlacak iþlemler görülmektedir. Burada 0. zamanda iki adet iþtablasýndan tezgaha transfer vardýr ve yeni yapýlan bir þey yoktur. 10. zaman diliminde ise 1 adet tezgahtan tezgaha ve 1 adet de iþ tablasýndan tezgaha transfer vardýr. Sýralama önceliði sonucunda, önce 1. tezgahtan 2. tezgaha 1. iþ parçasý taþýnacak ve böylece 
+1. tezgah boþalmýþ olacaktýr. Sonra da iþ tablasýnda bulunan 2. iþ parçasý boþalmýþ olan 1. tezgaha yüklenecektir. 10. zaman dilimindeki çözümde ilginç bir nokta yakalanmýþtýr: Burada, yukarýda sayýlan önceliklerle herhangi bir kilitlenme olmadan sýralama yapýlabilmekte ve 1. tezgaha 2. iþ parçasý son olarak yüklenmektedir. Fakat programýn baþýnda yapýlan beþtür problem tipi ve buna baðlý. zaman kaydýrmalarýneticesinde, program bu zaman diliminde bir adet problem-3 türü transfer çevrimi tespit etmiþ ve bunun çözümü sonucunda 1. tezgahýn yükleme zamanýný.kadar ileri almýþtýr. Böylece 10. zamanda tezgahtan tezgaha bir tek iþlem ve 10+.. zamanda da iþtablasýndan tezgaha bir tek iþlem olarak sýralama çýkmýþtýr. SIRALAMA programýnda . zaman kaydýrmasý iþlemleri ayný anda tek iþlem esasýna göre yapýlýrken, öncelik belirlemede ise tezgah boþaltýlmasýna ilk öncelik verilmiþtir. Görüldüðü gibi, her iki çözüm yöntemi farklý bir esasa göre yürütülmekte fakat 10. zamanda her ikisinin de verdiði sonuç ayný olmaktadýr. Bu, programda geliþtirilen algoritmalarýn güvenilir olduðunu göstermektedir. 
+Þekil 12'deki diyagramda, 18. zaman diliminde 2 adet tezgahtan tezgaha yükleme iþlemi mevcuttur. Burada öncelikli yöntem bir sonuç vermemektedir. Ancak programýn baþýnda 2. ve 3. makinadaki transferler arasýnda problem-3 türü bir çevrim bulunmuþ ve bunun sonucunda 3. iþ parçasýnýn yüklenme zamaný.kadar ileri alýnmýþtýr. Dolayýsýyla burada önce 1. iþparçasýnýn sonra da 3. iþ parçasýnýn transferi yapýlarak akýcýlýk sürdürülmüþtür. 
+22. zamanda yine 1 adet tezgahtan tezgaha ve 1 adet tezgahtan iþ tablasýna transfer vardýr. Burada da önce tezgahtan iþ tablasýna transfer yapýldýðýndan bir kilitlenme söz konusu deðildir. Gantt diyagramýnýn sonunda yer alan 28. zamanda 2 adet tezgahtan iþtablasýna taþýma vardýr ve bunlarýn sýrasý rasgeledir. 
+
+
+2.1.8. Sonuçlarýn çýkýþ kütüðüne kaydedilmesi 
+SIRALAMA programýnýn çýktýsý yine bir çýkýþkütüðünde toplanmýþtýr. Þekil 13’te, incelenen örnek problemin çýkýþ kütüðü görülmektedir. Burada, ikinci 
+
+Y. Usta ve Y. Ercan Ýmalat Hücresinde Kullanýlan Bir Robotun Ýþlemlerinin Sýralanmasý
+ ROBOT ÝÞLEMLERÝ SIRASI Ýþlem   Tezgah sýrasý Zaman   no Ýþno Açýklamalar 
+1  0  2  2  Ýþ tablasýndan al.  
+2  0  2  2  Tezgaha yerleþtir.  
+3  0  1  1  Ýþ tablasýndan al.  
+4  0  1  1  Tezgaha yerleþtir.  
+5  8  2  2  Tezgahtan al.  
+6  8  2  2  Ýþ tablasýna yerleþtir. 
+ 7  10  1  1  Tezgahtan al.  
+8  10  2  1  Tezgaha yerleþtir.  
+9  10  2  2  Ýþ tablasýndan al.  
+10  10  1  2  Tezgaha yerleþtir.  
+11  13  1  2  Tezgahtan al.  
+12  13  4  2  Tezgaha yerleþtir.  
+13  13  1  3  Ýþ tablasýndan al.  
+14  13  1  3  Tezgaha yerleþtir.  
+15  18  2  1  Tezgahtan al.  
+16  18  3  1  Tezgaha yerleþtir.  
+17  18  1  3  Tezgahtan al.  
+18  18  2  3  Tezgaha yerleþtir.  
+19  22  3  1  Tezgahtan al.  
+20  22  3  1  Ýþ tablasýna yerleþtir. 
+ 21  22  4  2  Tezgahtan al.  
+22  22  3  2  Tezgaha yerleþtir.  
+23  25  2  3  Tezgahtan al.  
+24  25  4  3  Tezgaha yerleþtir.  
+25  28  4  3  Tezgahtan al.  
+26  28  4  3  Ýþ tablasýna yerleþtir. 
+ 27  28  3  2  Tezgahtan al.  
+28  28  3  2  Ýþ tablasýna yerleþtir.  
+
+ÝMALAT HÜCRESÝNE YERLEÞTÝRÝLMESÝ GEREKEN ÝÞTABLALARI VE YERLERÝOperasyon aralarýnda ihtiyaç duyulan iþ tablalarý: Tezgah no Koyulacak iþ parçasý
+ 2 2 Ham iþ parçalarýnýn ilk operasyonuna ait tezgah giriþindeki iþ tablalarý: Tezgah no Koyulacak iþ parçasý
+ 1 1 2 2 1 3 
+
+Ýþ parçalarýnýn son operasyonunun yapýldýðý tezgah çýkýþýndaki iþ tablalarý: 
+Tezgah no Koyulacak iþ parçasý 3 1 3 2 4 3 
+
+Þekil 13. SIRALAMA programýnýn çýkýþ bilgilerini içeren “SIRALAMA.TXT” kütüðünün görünümü 
+sütunda her bir iþlemin yapýlacaðý zamanlar Ancak açýklamalara bakýldýðýnda 2. tezgahýn görülmektedir. yanýndaki iþ tablasýndan 2. iþ parçasýnýn alýnmasý
+iþleminin yapýlacaðý anlaþýlmaktadýr. Ýkinci satýrdaki Üçüncü sütunda ise iþlemin hangi tezgahta (ya da bilgilerde de tezgah numarasýnýn 2 ve iþ numarasýnýn tezgah yanýndaki iþ tablasýnda) gerçekleþeceði bilgisi 2 olduðu görülmektedir. Açýklamaya bakýldýðýnda ise, yer almaktadýr. Dördüncü sütunda ise taþýnacak 1. satýrdaki iþlemle robotun elinde bulunan 2 no.lu iþparçanýn numarasý yer almýþtýr. parçasýnýn 2. tezgaha konulmasý iþlemi 
+anlaþýlmaktadýr. “Açýklamalar” sütununda yer alan bilgiler önemlidir. “Tezgah No” sütununda yer alan rakamlar, iþlemin Bir iþ parçasýnýn herhangi bir yerden alýnýp baþka bir tezgahta mý ya da iþ tablasýnda mý gerçekleþeceði yere konulmasý iþleminin izlenebilmesi için iki satýra bilgisini vermemektedir. Bu bilgi için “açýklamalar” birlikte bakýlmalýdýr. Zaten dördüncü sütunda iþsütunundaki bilgilere bakýlmalýdýr. Örneðin, þekilde parçasý numaralarý bunu doðrulayacak þekilde iki birinci sýradaki iþleme bakýldýðýnda, 2. tezgahtan 2. satýrda peþ peþe yerleþmiþtir. Ayný sebeple,iþin alýnmasý ya da koyulmasý iþlemi anlaþýlmaktadýr. 
+“açýklamalar” sütununda iþlemlerin “al” ve “yerleþtir” þeklindeki bir sýrayý takip ettiði görülmektedir. 
+SIRALAMA programýnýn çalýþtýrýlmasý ile, imalat hücresinde bulunmasý gereken iþ tablalarý, bu tablalarýn nerede yer alacaðý ve üzerinde hangi parçayý bulunduracaðýna dair kararlar alýnmaktadýr. Çýkýþ kütüðünde bu bilgilere de yer verilmiþtir. Kütüðe bakýldýðýnda, operasyon aralarýnda ihtiyaç duyulan iþ tablalarý ile, ham malzeme ve bitmiþürünün koyulacaðý iþ tablalarýna ait bilgiler görülmektedir. Tezgah no. sütununda görülen bilgiler iþ  tablasýnýn hangi tezgahýn yanýna yerleþtirilmesi gerektiðini vermektedir. 
+
+
+
+2.2. Örnek Problemler 
+Uzman sistemin karar mekanizmalarý anlatýlýrken 4 makina ve 3 iþten oluþan örnek bir sýralama problemi dikkate alýnarak hem geliþtirilen algoritmalar açýklanmýþ ve hem de bu arada adý geçen problemin çözümü ortaya çýkmýþtýr. Þekil 2 ve 13'te görülen SBH algoritmasý ve SIRALAMA programý çýkýþkütükleri söz konusu 4 makina ve 3 iþli problemin çözüm kütükleridir. Bunun yanýsýra, baþka sýralama problemlerinin SBH algoritmasý ve SIRALAMA programlarýnda çözümleriyle elde edilen örnek çözüm sonuçlarý da incelenmiþtir [14]. Ýncelenen örnek problemlerde de, SIRALAMA programýnýn sonuçlarýnýn hiç bir týkanmaya sebep olmadan robot iþlemlerini sýraladýðý görülmüþtür. 
+BNECK ve SIRALAMA programýnýn çalýþma hýzlarýörneklerin çözümü sýrasýnda izlenmiþtir. 4 makina, 4 iþ parçasý ve toplam 16 operasyona sahip problemin en uzun çözüm süresini verdiði görülmüþ ve bunun çözümü için BNECK programýnýn yaklaþýk 10 sn., SIRALAMA programýnýn ise yaklaþýk 8 sn. zaman harcadýðý gözlenmiþtir. Bu hýzlar 266 MHz hýzýna sahip bir bilgisayarda kaydedilmiþtir. 
+
+
+3. SONUÇ VE ÖNERÝLER 
+Geliþtirilen algoritmalar robotlu bir imalat hücresi için yapýlandýrýlan bir uzman sistemin karar mekaniz­masýný oluþturmaktadýr. Karar mekanizmasýnýn birinci kýsmýný tezgah yükleme sýralarýný belirleyen Kayan Darboðazlý Sezgisel (SBH) algoritma oluþturmaktadýr. Diðer kýsmý ise, robotun hangi zamanlarda hangi iþlemleri yapacaðýna karar veren ve bu çalýþmada geliþtirilen algoritmalardýr. Bu algoritmalara dayanarak hazýrlanan programýn çalýþtýrýlmasýyla, tezgahlar arasýnda yükleme -boþaltma yapabilmek için iþ parçalarýnýn ham malzeme alanýndan alýnýp bitmiþ ürün alanýna kadar götürülmesini izleyen bir iþlemler zinciri oluþturulmaktadýr. Program, kullanýlan algoritmalar ile, tezgahlarýmümkün olan en yüksek dolulukta tutabilmek için operasyon aralarýnda gerekirse parçalarý iþ tablalarýna (buffer) yerleþtirme iþlemine de karar vermektedir. SIRALAMA adý
+Y. Usta ve Y. Ercan 
+verilen bu uzman sistem yazýlýmýnýn çalýþtýrýlmasýsonucunda, belirli bir zamanda, robotun hangi parçayýhangi tezgahtan (veya hangi iþ tablasýndan) alacaðý ve bunu nereye koyacaðý (diðer tezgah, iþ tablasý veya bitmiþ ürün alaný) bilgileri tablo halinde elde edilmektedir (Þekil 13). 
+Bölüm 2'de uzman sistemin karar mekanizmalarýanlatýlýrken 4 makina ve 3 iþten oluþan örnek bir sýralama problemi dikkate alýnarak hem geliþtirilen algoritmalar açýklanmýþ ve hem de bu arada adý geçen problemin çözümü ortaya çýkmýþtýr. Þekil 2 ve 13'te görülen SBH algoritmasý ve SIRALAMA programýçýkýþ kütükleri söz konusu 4 makina ve 3 iþli problemin çözüm kütükleridir. Bunun yanýsýra, diðer bazý örnek problemlerin çözümleri de elde edilmiþ ve týkanmaya sebep olmadan robot iþlemlerini baþarýyla sýraladýðý gösterilmiþtir. 
+Bu çalýþmada geliþtirilen algoritmalar ile imalat hücresine yerleþtirilecek iþ tablalarý ve robotun söz konusu yükleme-boþaltma iþleri için yapmasý gereken iþlemler ortaya çýkmaktadýr. Bundan sonraki aþamada robotun bu iþlemleri yapabilmek için izleyeceði yollarýn belirlenmesi incelenmelidir. 
+Yapýlacak bu iþlemler için robotun zamana göre izlemesi gereken yollar çýkarýlýrken imalat hücresinin fiziki boyutlarý dikkate alýnmalý ve çarpmalarýönlemek için ara noktalar tarif edilmelidir. 
+
+
+TEÞEKKÜR 
+KAPPA™ yazýlýmýn kullanýmý için ODTÜ bilgisayar imkanlarýndan yararlanýlmýþtýr. Teþekkürü bir borç biliriz. 
+
+KAYNAKLAR 
+1.	
+Su, C.T. & Fu, H.P., “A Simulated Annealing Heuristic for Robotics Assembly Using The Dynamic Pick-And-Place Model”, Production Planning & Control, Vol.9, No.8, 795-802, 1998. 
+
+2.	
+Son, C., “An Optimal Planning Technique for Intelligent Robot’s Part Assembly in Partially Unstructured Environments”, Robotica, Vol.16, 47-57, 1998, UK. 
+
+3.	
+Alexander, J.C., Maddocks, J.H. & Michalowski, B.A., “Shortest Distance Paths for Wheeled Mobile Robots”, IEEE Transactions on Robotics and Automation, Vol.14, No.5, 657­662, 1998. 
+
+4.	
+Desaulniers, G., Soumis, F. & Laurent, J.C., “A Shortest Path Algorithm for A Carlike Robot in A Polygonal Environment”, The Int. Journal of Robotics Research, Vol.17, No.5, 512-530, 1998. 
+
+5.	
+Dawande, M., Geismar, H.N., Sethi, S.P., & Sriskandarajah, C., “Sequencing and Scheduling in 
+
+
+Y. Usta ve Y. Ercan 
+Robotic Cells: Recent Developments”, Journal of Scheduling, Vol.8, No.5, 387-426, 2005. 
+6.	
+Agnetis, A., & Pacciarelli, D., “Part Sequencing in Three-Machine No-Wait Robotic Cells,” Operations Research Letters, Vol.27, No.4, 185-192, 2000. 
+
+7.	
+Soukhal, A., & Martineau, P., “Resolution of a Scheduling Problem in a Flowshop Robotic Cell”, European Journal of Operational Research, Vol.161, No.1, 62-72, 2005. 
+
+8.	
+Sriskandarajah, C., Drobuuchevitch, I., Sethi, S.P., & Chandrasekaran, R., “Scheduling Multiple Partsin a Robotic Cell Served by a Dual-Gripper Robot”, Operations Research, Vol.52, No.1, 65-82, 2004. 
+
+9.	
+Kumar, S., Ramanan, N., & Sriskandarajah, C., “Minimizing Cycle Time in Large Robotic Cells”, IIE Transactions (Institute of 
+
+
+Ýmalat Hücresinde Kullanýlan Bir Robotun Ýþlemlerinin Sýralanmasý
+Industrial Engineers), Vol.32, No.2, 123-136, 2005. 
+10.	
+Adams, J., Balas, E. & Zawack, D., “The Shifting Bottleneck Procedure for Job Shop Scheduling”, Management Science, Vol.34, No.3, 391-401, 1988. 
+
+11.	
+Pinedo, M., Scheduling - Theory, Algorithms, and Systems, Prentice Hall Englewood Cliffs, New Jersey, USA, 1995. 
+
+12.	
+Acar, N., Üretim Planlamasý Yöntem ve Uygulamalarý, 2. Baský, Milli Prodüktivite Merkezi Yayýnlarý, No:280, Ankara, 1985. 
+
+13.	
+Usta, Y., “Robotlu Ýmalat Hücresindeki Taþýma Ýþlemleri Ýçin Modele Dayalý Bir Uzman Sistem Geliþtirilmesi, Gazi Üniv. Müh. Mim. Fak. Dergisi, Cilt.20, No.2, 275-288, 2005. 
+
+14.	
+Usta, Y., Robotlu Ýmalat Hücreleri için Uzman Sistem Geliþtirilmesi, Doktora Tezi, Gazi Üniv. Fen Bilimleri Enst. Ankara, 1999. 
+
+
+
+
+
+

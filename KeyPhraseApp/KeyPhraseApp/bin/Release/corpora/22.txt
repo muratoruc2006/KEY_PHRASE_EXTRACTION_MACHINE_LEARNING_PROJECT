@@ -1,0 +1,341 @@
+AHÞAP PENCERE KANATLARINDA BÝRLEÞÝM YERLERÝ MEKANÝK ÖZELLÝKLERÝ
+Metin ARSLAN, Serkan SUBAÞI ve Cesur ALTUNTAÞ* 
+Yapý Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, 06500, Beþevler, Ankara, marslan@gazi.edu.tr, subasi@gazi.edu.tr 
+* Türközü Oðuzhan Endüstri Meslek Lisesi, T.C.Milli Eðitim Bakanlýðý, Mamak, Ankara, 
+cesur_altun@hotmail.com 
+
+(Geliþ/Received: 14.02.2005; Kabul/Accepted: 10.05.2005) 
+ÖZET 
+Bu çalýþmada ahþap pencere kanatlarýnda uygulanan zývanalý birleþimlerin çekme dayanýmlarý ve sarkma deðerleri araþtýrýlmýþtýr. Pencere kanatlarý birleþim yerleri deney örneklerinin üretilmesinde birinci sýnýf sarýçam kerestesi kullanýlmýþtýr. Alt köþe birleþim yerleri için 35 adet kavelalý, 35 adet kavelasýz olmak üzere toplam 70 adet, üst köþe birleþim yerleri için 35 adet kavelalý, 35 adet kavelasýz olmak üzere toplam 70 adet deney örneði üretilmiþtir. Deney örnekleri üzerinde ayrýca; rutubet miktarý ve yoðunluk ölçümleri gerçekleþtirilmiþtir. Sonuç olarak, ahþap pencere kanatlarýnýn alt ve üst köþe zývanalý birleþimlerinde çekme dayanýmý ve sarkma verileri bakýmýndan kavelalý birleþimlerin kavelasýz birleþimlerden daha iyi sonuçlar verdiði görülmüþtür. 
+
+1.GÝRÝÞüretildiði ve binalarýn toplam yüzölçümünün yaklaþýk 
+olarak 43.119.114 m2 olduðu görülmektedir [1]. Ýmar Pencereler iþlevleri nedeniyle önemli bir bina elemanýyönetmeliklerine göre pencere boþluklarý döþeme durumundadýr. Ýnsanlar eski çaðlardan beri, alanýnýn %15’i kadar olmak durumundadýr. Bu pencerelerin görevlerinin bir kýsmýný veya tamamýnýverilerden hareketle 2003 yýlýnda yaklaþýk olarak gerçekleþtirebilen, yapý elemanlarý üretmiþlerdir. Bu 6.467.867 m2 pencere doðramasý üretildiði elemanlar ilk çaðlarda, maðara delikleri olarak ortaya söylenebilir [2]. Diðer taraftan Türkiye’de konut çýkmýþtýr. Zaman içerisinde, teknik geliþmeler ihtiyacýnýn artma eðilimi içerisinde olduðu sonunda, günümüzdeki pencere tipleri ortaya bilinmektedir. Bina üretiminde bu kadar önemli yer çýkmýþtýr. tutan pencerelerin üretiminde, malzeme seçimi, 
+tasarým ve yapým hatalarýndan kaynaklanan olumsuz Devlet Ýstatistik Enstitüsü verilerine göre Türkiye’de sonuçlar önemli ekonomik kayýplara neden 2003 yýlýiçerisinde 51.960 adet deðiþik amaçlý bina olabilmektedir. 
+
+bazý aðaç türlerinde temel iþlem makineleri ile açýlmýþ
+zývanalarýn diyagonal basýnç ve çekme dirençlerinin 
+belirlenmesine yönelik olarak üç farklý aðaç türü ve iki farklý tutkal türü denenmiþ ve köþe birleþim mukavemetlerindeki deðiþimler araþtýrýlmýþtýr [4]. 
+Türkiye’de ahþap doðramalarla ilgili teknik yayýnlarýn 
+Üst görünüþ
+yeterli düzeyde olmadýðý ve dolayýsý ile doðrama 
+Not: Ölçüler mm’dir.
+üretiminin büyük bir kýsmýnýn geleneksel yöntemlerle 
+gerçekleþtirildiði bilinmektedir. Bu nedenle, imal edilen doðramalarýn kullaným sürecinde önemli problemler ortaya çýkmaktadýr. Bu problemlerin en önemlisi ve sýk oluþaný, doðrama kanatlarýnýn sarkmasý ve bunun doðal sonucu olarak kanat geometrisinin bozulmasýdýr. Kanat geometrisi bozulan pencerelerde açýlýp kapanma güçlükleri ortaya çýkmaktadýr. 
+Bu araþtýrmanýn amacý, ahþap pencere kanat birleþtirmelerinde kullanýlan zývanalý birleþim türlerinin çekme dayanýmý ve sarkma özelliklerini belirlemektir. 
+
+2. MALZEME VE METOD 
+
+2.1. Malzemeler 
+
+Yan görünüþ 
+
+Deney örneklerinin üretilmesinde 1. sýnýf sarýçam (Pinus silvestris) kerestesi kullanýlmýþtýr. Kereste seçiminde TS 2860 “Ahþap Pencereler-Yapým Kurallarý” standardýnda belirtilen esaslara uyulmuþtur [5]. Zývana yüzeylerinin yapýþtýrýlmasýnda, sentetik Üst görünüþpolivinilasetat (PVA) tutkalý kullanýlmýþtýr. 
+Not: Ölçüler mm’dir. 
+
+
+2.2. Metotlar 
+olarak 35 adet kavelasýz, 35 adet kavelalý alt köþe 
+
+2.2.1. Deney örneklerinin hazýrlanmasýbirleþim örneði üretilmiþtir. birleþim yüzeylerinin biçilme-
+Deney örneklerinin üretiminde kullanmak için, 70 Deney örneklerinin 
+adet 70×100mm enkesitlerinde, 120 adet 50×70mm sinde, kalýnlýðý:1mm, diþ profili:PV, diþ yüksekliði: 14mm, göðüs açýsý: 22°, çapraz miktarý: iki diþ
+enkesitlerinde ve 500mm uzunluðunda toplam 190 adet deney parçasý üretilmiþtir. Üretilen 
+
+çaprazlý bir diþ düz þerit testere kullanýlmýþ ve biçme parçalarý TS 1350 “Yuvarlak Odun ve Kerestelerin hýzý yaklaþýk olarak 5-8m/dk olarak gerçekleþti­Ýstiflenmesi Kurallarý” standardýnda belirtilen esaslara rilmiþtir. Diðer taraftan tutkallanacak 
+kaydedilmiþtir. 
+deney birleþim 
+uygun olarak istiflenmiþ ve üç ay süre ile bekletilerek yüzeyleri ölçülerek Kavelasýz ve 
+kavelalý köþe birleþim yüzeylerine, fýrça ile PVA 
+
+tutkal sürülmüþ, elemanlar gönyesine getirildikten uygun olarak 35 adet kavelasýz, 35 adet kavelalý üst sonra iþkence ile sýkýlarak 15 saat süre ile kurumaya köþe birleþim örneði, Þekil 2’de verilen plana uygun býrakýlmýþtýr. Diðer taraftan kavelalý birleþimlerde 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+hava kurusu rutubet derecesine (%11.5) getirilmiþtir 
+[6]. Deney parçalarýndan; Þekil 1’de verilen plana 
+
+
+kavela da tutkallanarak çakýlmýþtýr. Deney örneklerinin özellikleri ve uygulanan deney türleri Tablo 1’de verilmiþtir. 
+2.2.2. Hava kurusu rutubet miktarýnýn ölçülmesi 
+Rutubet miktarýnýn ölçülmesi için, birleþim yerleri eðilme ve sehim deneyi uygulanan deney örneklerinden deney uygulanmasýndan hemen sonra, TS 2470 “Odunda Fiziksel ve Mekaniksel Deneyler Ýçin Numune Alma Metotlarý ve Genel Özellikler” standardýnda belirtilen esaslara uygun olarak 20×20×20mm boyutlarýnda 35 adet küp deney örneði üretilmiþtir [7]. Üretilen küp deney örnekleri üzerinde, TS 2471 “Odunda, Fiziksel ve Mekaniksel Deneyler Ýçin Rutubet Miktarý Tayini” standardýnda belirtilen esaslara uygun olarak rutubet ölçümü yapýlmýþtýr [8]. Rutubet miktarýnýn hesaplanmasýnda, 
+W =[(m1 -m2)/ m2 ].100  formülü kullanýlmýþtýr. 
+Formülde;W = Rutubet miktarý (%) m1 = Hava kurusu aðýrlýk (gr)m2 = Tam kurusu aðýrlýk (gr), olarak gösterilmiþtir. 
+
+2.2.3. Hava kurusu yoðunluk ölçülmesi 
+Hava kurusu yoðunluk ölçümü, hava kurusu rutubet miktarý ölçümünde kullanýlan 35 adet küp örnek 
+M. Arslan vd. 
+üzerinde, TS 2472 “Odunda, Fiziksel ve Mekaniksel Deneyler Ýçin Birim Hacim Aðýrlýðý Tayini” standardýnda belirtilen esaslara uygun olarak gerçekleþtirilmiþtir [9]. Hava kurusu yoðunluðun hesaplanmasýnda; 
+Ph =Mh /Vh 
+formülü kullanýlmýþtýr. 
+Formülde; Ph = Hava kurusu yoðunluk (gr/cm3) Mh = Hava kurusu aðýrlýk (gr) Vh = Hava kurusu hacim (cm3), olarak gösterilmiþtir 
+
+
+2.2.4. Çekme dayanýmý ve sarkma deneyi 
+Örneklerin çekme dayanýmý ve sehim deneyi, TS 7251 EN 107 “Pencereler- Deney Metodlarý- Mekanik Deneyler” standardýnda belirtilen esaslara uyularak gerçekleþtirilmiþtir [10]. Deneyde, 300 kN kapasiteli, dijital göstergeli, yükleme hýzý ayarlanabilir basýnç test cihazý kullanýlmýþtýr. Test cihazýna kuvvet ve sarkma miktarýnýn ayný anda okunabilmesine imkan saðlayan özel bir deney aparatý baðlanmýþtýr. Deney aparatýnýn kullanýmýna iliþkin plan Þekil 3’te görülmektedir. 
+Þekil 3’te görüldüðü gibi deney örneklerine 260mm açýklýkta kuvvet uygulanmýþve her 300 N’luk kuvvet 
+
+Tablo 1. Hazýrlanan örneklere ait bilgilerKodu Deney örneði türü Tutkallanan yüzey alaný (mm2) Adedi 
+
+1 Kavelasýz üst köþe birleþimi 4500 35 
+2 Kavelasýz alt köþe birleþimi 5300 35 
+3 Kavelalý üst köþe birleþimi 4500 35 
+4 Kavelalý alt köþe birleþimi 5300 35 
+Örnek sabitleme 
+kelepçesi 
+
+Deney örneði 
+P (Kuvvet) 
+Destek lamasý 
+Komparatör
+
+260 mm 
+M. Arslan vd. 
+uygulanmasýna karþýlýk 0,1mm hassasiyetle sarkma ölçümü yapýlmýþtýr. 
+Þekil 4’te gösterildiði gibi uygulanan P-kuvvetlerinin B noktasýna göre moment hesabý yapýlarak; köþe birleþim bölgesinin aðýrlýk merkezinde (C noktasýnda) oluþturduðu T-kuvvetleri bulunmuþ ve tutkallanan yüzey alanýna (AT) bölünerek çekme gerilmesi deðerleri hesaplanmýþtýr. Hesaplamada; .M =0, 
+P.260 =T.30, T =P.260 , .çekme =T  formülü 
+30 AT kullanýlmýþtýr. 
+
+Þekil 4. Hesaplamada kullanýlan statik sistem 
+
+
+2.2.5. Ýstatistik metotlar 
+Deneysel çalýþmalar sonucu 2 ayrýdeney türü için 4 gruba ait gözlemler elde edilmiþtir. Her deney türü için ayrý ayrý olmak üzere 4 grubun açýklayýcýistatistikleri hesaplanmýþ ve gruplarýn ortalamalarý
+Ahþap Pencere Kanatlarýnda Birleþim Yerleri Mekanik Özellikleri 
+arasýnda fark olup olmadýðý varyans analizi tekniði ile belirlenmiþtir. Bu çalýþmada yanýlma olasýlýðý.= 0.05 olarak kabul edilmiþtir [11]. Ayrýca gruplara ait verilerin daðýlým deðerlerinin görülebilmesi bakýmýnda kutu grafikleri çizilmiþtir. Bir kutu grafiðinin yapýsýÞekil 5’te görülmektedir. Diðer taraftan, her grubun çekme dayanýmý/sarkma regresyon analizleri yapýlarak regresyon modelleri belirlenmiþ ve serpilme diyagramlarý çizilmiþtir. 
+Þekil 5’te verilen kutu grafiðinde; 
+.	
+Ortanca çizgisi ile merkezi eðilimler (ortanca çizgisi kutunun ekseninde ise daðýlým normal, ortanca çizgisi 1. çeyrek çizgisine daha yakýn ise daðýlým pozitif yönde çarpýk olduðu, ortanca çizgisi 3. çeyrek çizgisine daha yakýn ise daðýlým negatif yönde çarpýk olduðu), 
+
+.	
+Kutunun boyu ile verilerin yayýlma veya deðiþkenliði (gözlemlerin % 50 sinin deðerleri kutu içerisinde yer almakta, bu durumda kutu boyunun uzun olmasý yayýlma veya deðiþkenliðin fazla olduðu), ifade edilmektedir [12]. 
+
+
+
+
+
+3. BULGULAR VE TARTIÞMA 
+
+3.1. Hava Kurusu Rutubet Miktarý ve Yoðunluk 
+Deneysel çalýþmalar sonucunda elde edilen hava kurusu rutubet miktarý ve yoðunluk deðerlerine iliþkin açýklayýcý istatistikler Tablo 2’de verilmiþtir. Deneyin gerçekleþtirilmesi sýrasýnda deney örneklerinin ortalama rutubet miktarýnýn %11.05, ortalama yoðunluðun ise 0.493gr/cm3 olduðu görülmektedir. 
+
+
+* 
+.
+K U T U 
+
+.
+* 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+Tablo 2. Hava kurusu rutubet miktarý ve yoðunluk deðerlerine iliþkin açýklayýcý istatistikler Hesaplanan deðerler 
+Deney türü  Min  Art. ort.  Maks  Std. Sap.  
+Hava kurusu rutubet miktarý (%)  9,99  11,05  13,41  0,85  
+Hava kurusu yoðunluk (gr/cm3)  0,398  0,493  0,592  0,049  
+
+
+3.2. Çekme Dayanýmý ve Sarkma 
+Deney sonucunda elde edilen çekme dayanýmý ve sarkma deðerlerine ait açýklayýcý istatistikler Tablo 3’te, ortalama deðerlere ait grafikler ise Þekil 6 ve 7’de verilmiþtir. 
+Pencere üst köþe kavelalý birleþiminde ortalama çekme dayanýmýnýn 1,994 N/mm2, ortalama sarkma deðerinin 21,9 mm olduðu, kavelasýz birleþimin ort.çekme dayanýmýnýn 1,666 N/mm2, ort.sarkma deðerinin ise 15,5 mm olduðu görülmektedir (Tablo 3). 
+Pencere üst köþe birleþimine ait çekme dayanýmý ve sarkma deðerleri üzerinde gerçekleþtirilen varyans analizinde kavelalý birleþimin kavelasýz köþe birleþiminden hem çekme dayanýmý hem de sarkma deðerleri bakýmýndan .=0,01 anlamlýlýk düzeyinde farklý olduðu görülmüþtür (Tablo 4). 
+Üst köþe birleþimi çekme dayanýmý deðerlerinin, kavelalý olanlarýn kavelasýz olanlardan %16 daha büyük olduðu, sarkma deðerlerinde ise kavelalýolanlarýn kavelasýz olanlardan %29 daha büyük olduðu görülmüþtür. 
+Çekme dayanýmý ve sarkma verileri regresyon modeli, kavelalý üst köþe birleþimleri için Y =-0,0957 +0,1846X -0,0033X 2 
+kavelasýz üst köþe birleþimleri için Y =-0,0451+0,01846X -0,0033X 2 
+olarak belirlenmiþtir (Þekil 8). 
+Pencere alt köþe kavelalý birleþiminde ortalama çekme dayanýmýnýn 2,396 N/mm2, ortalama sarkma deðerinin 20,9 mm olduðu, kavelasýz birleþimin ort.çekme dayanýmýnýn 2,031 N/mm2, ort.sarkma deðerinin ise 16,1 mm olduðu görülmektedir (Tablo 3). 
+
+Tablo 3. Çekme dayanýmý ve sarkma deðerlerine ait açýklayýcý istatistikler Çekme dayanýmý (N/mm2) Sarkma (mm) 
+Birleþim türü  Art. ort.  Std. Sap.  Min.  Mak.  Art. ort.  Std. Sap.  Min.  Mak.  
+Kavelasýz üst köþe  1,666  0,342  0,92  2,37  15,5  3,21  11,1  21,0  
+Kavelasýz alt köþe  2,031  0,362  1,32  2,65  16,1  2,99  12,4  25,4  
+Kavelalý üst köþe  1,994  0,270  1,60  2,52  21,9  5,19  12,4  32,2  
+Kavelalý alt köþe  2,396  0,365  1,60  3,07  20,9  5,00  13,6  31,6  
+
+Ortalama çekme dayanýmý (N/mm²) 
+2,60 2,40 2,20 2,00 1,80 1,60 
+1,40 
+
+
+Köþe birleþimi Þekil 6. Ortalama çekme dayanýmý deðerleri 
+Pencere kanadýÜst köþeAlt köþe
+
+M. Arslan vd. Ahþap Pencere Kanatlarýnda Birleþim Yerleri Mekanik Özellikleri Tablo 4. Pencere üst köþe birleþimi çekme dayanýmý ve sarkma deðerlerine iliþkin varyans analizi
+Anlamlýlýk  
+Varyansýn  Serbestlik  Kareler  Kareler  düzeyi  
+Deney Türü  Kaynaðý Derecesi  Toplamý  Ortalamasý  F-testi  (.)  
+
+Gruplar Arasý 1 1,893 1,893 19,875 0,01 Üst köþe birleþimi Gruplar Ýçi 68 6,475 9,522.10-2 çekme dayanýmýToplam 69 8,368 
+Üst köþe birleþimi Gruplar Arasý 1 721,287 721,287 38,649 0,01 Gruplar Ýçi 68 1269,034 18,662 sarkma Toplam 69 1990,321 
+Çekme dayanýmý (N/mm²) Maksimum sarkma deðerleri (mm) 
+24,0 
+22,0 
+20,0 
+18,0 
+16,0 
+14,0 
+
+
+Pencere kanadýÜst köþeAlt köþe
+
+Köþe birleþimi Þekil 7. Ortalama sarkma deðerleri 
+2,5 
+2,0 
+1,5 
+
+
+
+Köþe birleþimi 1,0 
+
+Kavelalý r²=0,98 
+
+
+Kavelasýz ,5 
+r²=0,99 0 5 10152025 
+Sarkma miktarý(mm) 
+Þekil 8. Pencere kanat üst köþe birleþtirmelerinin çekme dayanýmý-sarkma regresyon analizi grafiði 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+Pencere alt köþe birleþimine ait veriler üzerinde gerçekleþtirilen varyans analizinde kavelalý birleþimin kavelasýz köþe birleþiminden hem çekme dayanýmýhem de sarkma deðerleri bakýmýndan .=0,01 anlamlýlýk düzeyinde farklý olduðu görülmüþtür (Tablo 5). 
+Alt köþe birleþimi çekme dayanýmý deðerlerinin, kavelalý olanlarýn kavelasýz olanlardan %15 daha büyük olduðu, sarkma deðerlerinde ise kavelalýolanlarýn kavelasýz olanlardan %22 daha büyük olduðu görülmüþtür. 
+Çekme dayanýmý ve sarkma verileri regresyon modeli, kavelalý üst köþe birleþimleri için 
+Y =-0,079 +0,2565.X -0,0059.X2 
+kavelasýz üst köþe birleþimleri için 
+Y =-0,1104 +0,2285.X -0,0057.X2 
+olarak belirlenmiþtir (Þekil 9). 
+Ayrýca kavelalý birleþimler için pencere alt ve üst köþe birleþimlerindeki çekme dayanýmý ve sarkma deðerleri karþýlaþtýrýlmýþtýr (Tablo 6). .=0,01 anlamlýlýk düzeyine göre yapýlan karþýlaþtýrmada; alt ve üst köþe 
+M. Arslan vd. 
+birleþimlerinin çekme dayanýmý deðerleri bakýmýndan farklý, sarkma deðerleri bakýmýndan farksýz olduðu görülmüþtür. Diðer taraftan, pencere kanat alt ve üst köþe kavelalý birleþimlerde alt birleþimlerin üst birleþimlerden % 17 daha büyük çekme dayanýmýna sahip olduðu görülmüþtür. 
+Kavelasýz birleþimler için alt ve üst köþe birleþimlerindeki çekme dayanýmý ve sarkma deðerleri karþýlaþtýrýldýðýnda (Tablo 7), .=0,01 anlamlýlýk düzeyinde çekme dayanýmý deðerleri bakýmýndan farklý, sarkma deðerleri bakýmýndan farksýz olduðu, pencere kanat alt ve üst köþe kavelasýz birleþimlerde alt köþe birleþimlerin üst köþe birleþimlerine göre çekme dayanýmý deðerlerinin % 18 daha fazla olduðu görülmüþtür. 
+Çekme dayanýmý deneyi sonucunda elde edilen verilere ait daðýlým grafiði Þekil 10’da görülmektedir. Kavelasýz köþe birleþimlerinde çekme dayanýmýverilerinin üst köþe birleþimi için negatif yönde çarpýk olduðu, alt köþe birleþimleri için normal olduðu fakat aykýrý deðerler içerdiði, kavelalý birleþimlerde ise çekme dayanýmý verileri daðýlýmýnýn üst köþede pozitif yönde çarpýk, alt köþede ise negatif yönde çarpýk olduðu görülmüþtür. 
+
+Tablo 5. Pencere alt köþe birleþimi çekme dayanýmý ve sarkma deðerleri varyans analizi 
+Deney Türü  Varyansýn Kaynaðý Serbestlik Derecesi  Kareler Toplamý  Kareler Ortalamasý  F-testi  Anlamlýlýk düzeyi (.)  
+Alt köþe birleþimi  Gruplar Arasý  1  2,333  2,333  17,638  0,01  
+çekme dayanýmýdeðerleri  Gruplar ÝçiToplam  68 69  8,995 11,329  0,132  
+
+Gruplar Arasý 1 418,706 418,706 24,624 0,01 Alt köþe birleþimi 
+sarkma deðerleriGruplar Ýçi 68 1156,249 17,004Toplam 69 1574,955
+3,0 
+2,5 
+2,0 
+1,5 
+
+
+Köþe birleþimi1,0 
+
+Kavelalýr²=0,99 ,5 
+
+
+Kavelasýz 0,0 
+r²=0,99 0 5 10152025 
+Sarkma miktarý(mm)Þekil 9. Pencere kanat alt köþe birleþtirmelerinin çekme dayanýmý-sarkma regresyon analizi grafiði
+Çekme dayanýmý (N/mm²) 
+
+M. Arslan vd. Ahþap Pencere Kanatlarýnda Birleþim Yerleri Mekanik Özellikleri Tablo 6. Kavelalý birleþimler için pencere alt-üst köþe çekme dayanýmý ve sarkma deðerleri varyans analizi
+Varyansýn  Serbestlik  Kareler  Kareler  Anlamlýlýk  
+Deney Türü  Kaynaðý Derecesi  Toplamý  Ortalamasý  F-testi  düzeyi (.)  
+Alt-üst köþe birleþimi  Gruplar Arasý  1  2,824  2,824  27,316  0,01  
+çekme dayanýmý Gruplar Ýçi  68  7,030  0,103  
+deðerleri  Toplam  69  9,854  
+
+Alt-üst köþe birleþimi Gruplar Arasý 1 15,746 15,746 0,606 0,439 sarkma deðerleri Gruplar Ýçi 68 1768,237 26,003 Toplam 69 1783,983 
+Tablo 7. Kavelasýz birleþimler için pencere alt-üst köþe çekme dayanýmý ve sarkma deðerleri varyans analizi 
+Anlamlýlýk Varyansýn Serbestlik Kareler Kareler düzeyi Deney Türü KaynaðýDerecesi Toplamý Ortalamasý F-testi (.) 
+Alt-üst köþe birleþimi Gruplar Arasý 1 2,337 2,337 18,828 0,01 çekme dayanýmýGruplar Ýçi 68 8,440 0,124 deðerleri Toplam 69 10,777 
+Alt-üst köþe birleþimi Gruplar Arasýsarkma deðerleri Gruplar ÝçiToplam
+40 
+30 
+20 
+10 
+0 Kavelasýz 
+Maksimum sarkma deðerleri (mm) 
+
+
+1  5,887  5,887  0,609  0,438  
+68  657,046  9,662  
+69  662,933  
+
+Pencere kanadýÜst köþe Alt köþe 
+
+Kavelalý 
+
+Köþe birleþimi Þekil 10. Köþe birleþimlerde pencere kanadý alt ve üst köþe çekme dayanýmý deðerleri daðýlýmý
+Sarkma verilerine ait daðýlým grafiði Þekil 11’de pencere kanadý alt ve üst köþe birleþim örnekleri görülmektedir. Kavelasýz köþe birleþimlerinde sarkma üzerinde gerçekleþtirilen çekme dayanýmý ve sarkma deðerleri daðýlýmýnýn üst köþede negatif yönde çarpýk verileri üzerinde yapýlan deðerlendirmelerde; olduðu, alt köþede normal daðýlým göstermekle birlikte aykýrý deðerlerin bulunduðu, kavelalý.Alt ve üst köþe kavelalý-kavelasýz birleþimlerin birleþimlerde ise sarkma deðerlerinin üst köþede çekme dayanýmý ve sarkma deðerlerinin .=0,01 negatif yönde çarpýk, alt köþede pozitif yönde çarpýk anlamlýlýk düzeyinde birbirinden farklý olduðu, olduðu görülmüþtür. .Üst köþe kavelalý birleþimlerin çekme 
+dayanýmlarýnýn kavelasýz birleþim çekme 
+
+5. SONUÇ VE ÖNERÝLER dayanýmlarýndan %16 daha büyük olduðu, 
+. Üst köþe kavelalý birleþimlerin sarkma Hava kurusu rutubet miktarý %11, yoðunluðu 0,493 deðerlerinin kavelasýz birleþim sarkma gr/cm3 olan I.sýnýf sarýçam kerestesinden üretilen deðerlerinden %29 daha büyük olduðu, 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+Maksimum sarkma deðerleri (mm) 
+40 
+30 
+20 
+10 
+0 
+
+
+Pencere kanadýÜst köþeAlt köþe
+
+
+Kavelasýz Kavelalý
+Köþe birleþimi Þekil 11. Köþe birleþimlerde, pencere kanadý alt ve üst köþe sarkma deðerleri daðýlýmý
+.	
+Alt köþe kavelalý birleþimlerin çekme dayanýmlarýnýn kavelasýz birleþim çekme dayanýmlarýndan %15 daha büyük olduðu, 
+
+.	
+Alt köþe kavelalý birleþimlerin sarkma deðerlerinin kavelasýz birleþim sarkma deðerlerinden %22 daha büyük olduðu, 
+
+Diðer taraftan, 
+
+.	
+Kavelalý birleþimlerde alt köþe birleþimlerin çekme dayanýmlarýnýn üst köþe birleþim çekme dayanýmlarýndan % 17 daha büyük olduðu, 
+
+.	
+Kavelasýz birleþimlerde alt köþe birleþimlerin çekme dayanýmlarýnýn üst köþe birleþim çekme dayanýmlarýndan % 18 daha büyük olduðu görülmüþtür. 
+
+
+Sonuç olarak, ahþap pencere kanatlarýnýn alt ve üst köþe zývanalý birleþimlerinde çekme dayanýmý ve sarkma verileri bakýmýndan kavelalý birleþimlerin kavelasýz birleþimlerden daha iyi sonuçlar verdiði görülmüþtür. 
+Ahþap pencere üreticilerin çalýþma belirtilen hususlara uygun olarak pencere kanadý ürettikleri taktirde, ileride doðabilecek tadilat masraflarýnýn ýsý kaybýndan dolayý yakýt giderleri artýþýnýn ve aðaç zayiatýnýn önlenebileceði düþünülmektedir. 
+KAYNAKLAR 
+1.	
+Bina ÝnþaatýÝstatistikleri, Devlet Ýstatistik Enstitüsü, Ankara, 1996. 
+
+2.	
+3194 SayýlýÝmar Kýyý Kanunu ve Yönetmelikleri, 
+
+
+Bayýndýrlýk ve Ýskan Bakanlýðý, Teknik Araþtýrma ve Uygulama Genel Müd. Yayýný, Ankara, 1996. 
+3.	
+Sayýl, B., Ahþap Doðrama Köþe Birleþimlerinin Rijitliðini Arttýrma Yolarý Üzerine Bir Araþtýrma, Ýstanbul Teknik Üniversitesi, Fen Bilimleri Enst., Doktora Tezi, Ýstanbul, Nisan, 1996. 
+
+4.	
+Tekin, A., Bazý Aðaç Türlerinde Temel Makineler Ýle Açýlmýþ Zývanalarýn Diyagonal Basýnç ve Çekme Dirençlerinin Belirlenmesi,Gazi Üniversitesi, Fen Bilimleri Enst., Y.Lisans Tezi, Ankara, Kasým, 2000. 
+
+5.	
+TS 2860, Ahþap Pencere- Yapým Kurallarý, Türk Standartlarý Enstitüsü, Ankara, Nisan, 1978. 
+
+6.	
+TS 1350, Yuvarlak Odun ve Kerestelerin Ýstiflenmesi Kurallarý, Türk StandartlarýEnstitüsü, Ankara, Eylül, 1975. 
+
+7.	
+TS 2470, Odunda Fiziksel ve Mekeniksel Deneyler Ýçin Numune Alma Metodlarý ve Genel Özellikler, Türk Standartlarý Enstitüsü, Ankara, Kasým, 1976.  
+
+8.	
+TS 2471, Odunda, Fiziksel ve Mekeniksel Deneyler Ýçin Rutubet Miktarý Tayini, Türk Standartlarý Enstitüsü, Ankara, Kasým, 1976. 
+
+9.	
+TS 2472, Odunda, Fiziksel ve Mekaniksel Deneyler Ýçin Birim Hacim Aðýrlýðý Tayini, Türk Standartlarý Enstitüsü, Ankara, Kasým, 1976. 
+
+10.	
+TS 7251 EN 107, Pencereler- Deney Metodlarý-Mekanik Deneyler, Türk StandartlarýEnstitüsü, Ankara, Mayýs, 2003. 
+
+11.	
+Neter, J. Ve ark., Applied Statistics, 3.th edition, Allyn and Bacon Inc., London, 1988. 
+
+12.	
+Norusis, M.J., SPSS for Windows Base System Users Guide Release 6.0, SPSS Inc., Chicago, 1993. 
+
+
+
+
+
+
+
+

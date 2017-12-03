@@ -1,0 +1,256 @@
+BULANIK MODEL REFERANS ÖÐRENMELÝ DENETÝM YÖNTEMÝNDE KULLANILAN KAZANÇLARIN BÝR GENETÝK ALGORÝTMA ÝLE BELÝRLENMESÝ
+Özgür KARADUMAN ve Z. Hakan AKPOLAT*
+Bilgisayar Prog. Bölümü, Tek. Bil. MYO, Fýrat Üniversitesi, Elazýð, okaraduman@firat.edu.tr
+
+* Elektronik ve Bilg. Bölümü, Tek. Eðt. Fak., Fýrat Üniversitesi, Elazýð, hakpolat@firat.edu.tr 
+(Geliþ/Received: 12.11.2004; Kabul/Accepted: 21.11.2005) 
+ÖZET 
+Bulanýk Model Referans Öðrenmeli Denetim (BMRÖD), bulanýk denetleyicilerin tasarýmý için sistematik tasarým prosedürü saðlayan bir yöntemdir. Çoðu klasik bulanýk denetim sisteminde, üyelik fonksiyonlarýnýn bazýparametreleri deneme-yanýlma yöntemi ile belirlenir. Buna karþýn, BMRÖD metodunda, bu parametreler bir öðrenme mekanizmasý ile belirlenir. Bu makalede, BMRÖD metodu incelenerek kargo gemisi dümen denetimine uygulanmýþ ve benzetim sonuçlarý sunulmuþtur. Ýncelemeler sýrasýnda, BMRÖD sisteminde kullanýlan giriþ ve çýkýþ kazançlarýnýn denetim performansý üzerinde çok etkili olduðu ve bu kazançlarýn belirlenmesi için literatürde sistematik bir yolun olmadýðý tespit edilmiþtir. Bu nedenle, bu çalýþmada, iyi bir denetim performansýsaðlayacak kazançlarýn bulunmasý için Genetik Algoritma (GA) kullanýlmýþtýr. Sunulan denetim yapýsýnýn etkinliðini gösteren benzetim sonuçlarý makalede verilmiþtir. 
+
+1. GÝRÝÞciddi manada dezavantajlarý vardýr: Bulanýk 
+denetleyicide yer alan pek çok parametrenin doðru bir Bulanýk mantýk denetim, zamanla deðiþen, doðrusal þekilde ve tam olarak nasýl seçileceði çoðu zaman olmayan ve özellikle matematiksel modeli tam olarak belirgin deðildir. Üyelik fonksiyonlarýnýn bilinmeyen sistemlerin denetlenmesinde son yýllarda belirlenmesi, durultma ve çýkarým mekanizmalarýnýn klasik denetim yöntemlerine pratik bir alternatif oluþturulmasýbuna örnek olarak verilebilir. Ayrýca olarak ortaya çýkmýþtýr [1]. Bulanýk denetimin bulanýk denetleyici, önceden anlaþýlamayan ve önemli endüstriyel alanlarda pek çok baþarýlý uygulamasýmiktardaki parametre deðiþiklikleri, yapýsal bulunmaktadýr [2,3]. Buna karþýn bulanýk denetimin deðiþiklikler ya da çevreden gelen bozucu etkilerin ortaya çýkmasý halinde bir müddet sonra görevini yapmakta yetersiz kalabilir. 
+Öðrenmeli denetim sistemleri bulanýk denetim sistemlerinin bu açýklarýný kapatarak performansýarttýrmak için tasarlanmýþtýr. Bulanýk Model Referans Öðrenmeli Denetim (BMRÖD), bulanýk denetle­yicilerin tasarýmýnda karþýlaþýlan bazý problemlere çözüm getireceði düþünülen bir denetim algoritmasýdýr. Bu algoritma bilgi tabanlý bir bulanýk denetleyicinin sentezlenmesi ve ayarlanmasýnýsaðlamak amacýyla, kapalý çevrim denetim performansýna iliþkin geri besleme elde etmek üzere bir referans model kullanýr (Bu referans model, kontrol edilen sistemin ideal veya istenen davranýþýnýsergileyen bir modeldir). Bu nedenle algoritma “bulanýk model referans öðrenmeli denetim” olarak adlandýrýlýr [1,4]. 
+Bulanýk model referans öðrenmeli denetim, klasik uyarlamalý denetimdeki bilinen belli baþlý fikirleri kullanmak suretiyle Procky ve Mamdani’nin dilbilimsel kendinden organizeli denetleyicisinin nasýl iyileþtirileceði üzerine bir araþtýrma neticesinde geliþtirilmiþtir [5,6]. Bulanýk model referans öðrenmeli denetimin kendinden organizeli sisteme karþý ilk göze çarpan avantajý tam bir ters modelin kullanýþýnýn zorunlu olmayýþý yani bir ters modele baðýmlýlýðýn olmamasýdýr (Bir çok uygulamada ters modeli çýkarmanýn zor olduðu bilinmektedir). Ayrýca dilbilimsel kendinden organizeli denetim sistemi için performans kriteri, aslýnda sadece yükselme zamanýile aþma arasýndaki baðýntýyý karakterize edebilir ve dolayýsýyla hangi performansta olacaðýný belirlerken fazla bir esneklik saðlamaz [7-9]. 
+Bir referans model kullanarak, BMRÖD’de istenen herhangi bir performansýn çok hassas bir þekilde elde edilmesi imkaný bulunur. Bunun yanýnda Procky ve Mamdani’nin bilgi tabaný güncelleme algoritmasýnýn 
+[6] bulanýk denetleyicinin giriþ ve çýkýþlarý arasýndaki iliþkiyi tanýmlayan bir bulanýk iliþki düzenleme tablosuna dayandýðýna dikkat edilmelidir. BMRÖD yönteminde bir bulanýk iliþki tablosu yerine, bir kural tabanlý dizi tablosu kullanýlmak suretiyle hesaplama süresi ve bellek ihtiyacýný azaltan bilgi tabanlý bir güncelleme algoritmasý kullanýlmaktadýr. Kendinden organizeli denetim, robotik [11,12], motor ve sýcaklýk denetimi [13], kan basýncý kontrolü [14] ve uydu kontrolünde [15-17] kullanýlmýþtýr. BMRÖD ise son zamanlarda; kendinden organizeli sistem üzerinde belli baþlý iyileþtirmelerin yapýldýðý bir sarkaç sistemi [10], yolda dikkate deðer deðiþiklikler olduðunda performansý arttýrmak üzere kaymasýz fren sistemi [18,19], klasik model referans uyarlamalý denetimine göre bazý avantajlarý olduðu ifade edilen kargo gemisinin dümen denetimi [20], bir yük deðiþimindeki etkileri telafi etme kabiliyetini arttýrma amaçlý iki eklemli robot kolu denetimi [21], bir problem çýkmasýhalinde uçak denetimindeki kuralýn yeniden düzenlenmesi [22] gibi çalýþmalarda kullanýlmýþtýr. 
+BMRÖD yöntemi, yukarýda da bahsedilen bir takým avantajlara sahip olmasýnýn yanýnda, denetleyici giriþçýkýþlarýnda ve bulanýk ters model giriþ ve çýkýþlarýnda bulunan kazançlarýn seçimi için genel bir yöntem olmamasý, tasarým esnasýnda bir problem oluþturmaktadýr. Bu makalede, BMRÖD yönteminin baþarýlý çalýþmasýný etkileyen söz konusu kazançlarýn daha kolay ve etkili seçilmesi için bir yöntem önerilmiþtir. Bu yöntemde, Genetik Algoritmalar (GA) yardýmýyla, denetlenen sistemin en iyi cevabývermesini saðlayan kazanç deðerlerinin tespit edilmesine çalýþýlmýþtýr. 
+
+2. BULANIK MODEL REFERANS ÖÐRENMELÝ DENETÝM (BMRÖD) 
+Öðrenmeye dayalý bulanýk denetim sistemleri, deðiþikliklere uyum saðlayan dayanýklý sistemlerdir. Öðrenmeli denetim tekniðinde dile dayalý denetim kavramlarý [6] bir adým daha ileri götürülmüþ ve alýþýlagelmiþ Model Referans Uyarlamalý Denetim (MRUD) [23] için kullanýlan bazý temel fikirlerden istifade edilmiþtir. Bulanýk Model Referans Öðrenmeli Denetimin yapýsýÞekil 1’de verilmiþtir. 
+BMRÖD yapýsýnda, klasik denetleyicilerin (genelde doðrusal) ayarlandýðý MRUD’a benzer, kapalý çevrim sistemin önceden belirlenmiþ bir referans model gibi davranmasýný saðlayacak þekilde bulanýk denetleyiciyi ayarlayan bir öðrenme mekanizmasý gerekir. Öðrenme ve uyarlama tanýmlarýndan esinlenerek, MRUD’a benzerliði ve yaptýðý ayarlamalarý hatýrlamasýyla benzersiz bir yaklaþým olmasý sebebiyle bu yeni öðrenmeli denetim tekniðine Bulanýk Model Referans Öðrenmeli Denetim (BMRÖD) adý verilmiþtir [1,10]. 
+
+2.1. BMRÖD Yönteminde Bulanýk Denetleyici 
+Þekil 1’de denetlenen sistemin, r-boyutlu u(kT)=[u1(kT)….ur(kT)]t vektörüyle belirtilen r-giriþe ve s-boyutlu y(kT)=[y1(kT)…..ys(kT)]t vektörüyle belirtilen s-çýkýþa sahip olduðu varsayýlmýþtýr. Genellikle bulanýk denetleyici giriþleri, denetlenen sistem çýkýþýy(kT) ve referans giriþi r(kT)’nin doðrusal fonksiyonu yoluyla üretilir. Bulanýk denetleyicinin giriþleri, s-boyutlu e(kT)=[e1(kT)….es(kT)]t vektörüyle belirtilen hata ve n-boyutlu c(kT)=[c1(kT)….cn(kT)]t vektörüyle belirtilen hatadaki deðiþimdir. Hata ve hatadaki deðiþim aþaðýdaki þekilde tanýmlanmýþtýr: 
+e(kT) =r(kT ) -y(kT ) (1) c(kT ) =e(kT ) -e(kT -T ) 
+T  (2) 
+Ýstenilen süreç çýkýþý r(kT) = [r1(kT)….rs(kT)]t þeklinde belirtilmiþtir. Genellikle, bulanýk denetleyici 
+
+
+Þekil 1. Bulanýk model referans öðrenmeli denetimin fonksiyonel mimarisi 
+uygulamalarýnýn esnekliði için her bir süreç giriþuzayý sabit ölçeklendirme faktörü vasýtasýyla, [-1,+1] aralýðýnda normalize edilir. Buradaki bulanýk denetleyicinin tasarýmýnda hata e(kT), hatadaki deðiþim c(kT) ve denetleyici çýkýþý u(kT) için ge, gc ve gu kazançlarý normalize iþleminde kullanýlmaktadýr (örneðin ge=[ge1….ges]t ise ge x ei(kT) bulanýk denetleyicinin ölçeklenmiþ giriþidir). 
+Bulanýk denetleyici için n. süreç giriþiyle ilgili IF­THEN denetim kuralý aþaðýda verilmiþtir: 
+If .1 is .1j and … and .s is .sk and c.1 is C1.l and … and c.s is C.sm Then u.n is U.nj,…,k,l…m 
+Burada .a ve c.a giriþ deðiþkenleri ve u.n ise çýkýþdeðiþkeni için kullanýlan dilsel etiketlerdir. .ab ve C.ab giriþ üyelik kümelerini ve U.nj,…,k,l…m ise çýkýþ üyelik kümelerini temsil etmektedir. Bulanýk ima iþlemi ise, 
+Rnj,…,k,l,…,m = (E1j × … × Esk) × (C1l × … × Csm) × Uj,…,k,l,…,m (3) 
+þeklinde bir bulanýk iliþki ile ifade edilebilir. Bu denetim kuralýna iliþkin bulanýk denetleyici karar mekanizmasý
+Ûnj,…,k,l,…,m(kT)=(((Ê1(kT) × Ê2(kT) ×…×Ês(kT)) × (C1(kT) × C2(kT) ×…× Cs(kT))) o Rnj,…,k,l,…,m (4) 
+olarak ifade edilebilir. Burada Êj(kT) ve Cj(kT) sýrasýyla bulandýrýlmýþ hata ve hatadaki deðiþimi ifade eder. Bununla baðlantýlý olarak da e(kT) veya c(kT), Ûnj,…,k,l,…,m(kT)’nin j. elemaný ima edilen bulanýk kümeyi göstermekte olup ‘o’ ise Zadeh’in kompozisyon iþlemini ifade etmektedir. Bulanýk sistem tasarýmýnda bulanýk sisteme giriþi tarif eden olasý her bir bulanýk kümeye ait olan kombinasyon için bir bulanýk ima mevcuttur. Dolayýsýyla bulanýk denetleyici çýkýþý, tüm kontrol iþleminin denklem (5) ile ifade edilen “aðýrlýk merkezi” metoduna göre hesaplanabileceði pek çok bulanýk imadan oluþur: 
+j,...,k,l,...,mAj,...,k,l,...,m(kT)cj,...,k,l,...,m(kT)
+n
+Un(kT) =. .j,...,k,l,...,mAnj,...,k,l,...,mn (kT)  (5) 
+Burada Ânj,…,k,l,…m(kT) ve cnj,…,k,l,…m(kT), Unj,…,k,l,…,m(kT) ile iliþkili olan üyelik fonksiyonuna ait, sýrasýyla, alan ve alanýn merkezidir [14]. 
+
+
+2.2. Referans Model 
+Referans model, sistemin istenilen performansa ulaþabilmesini saðlamak için kullanýlýr. Referans model doðrusal ya da doðrusal olmayan, zamana baðlýolan veya zamana baðlý olmayan, ayrýk ya da sürekli zaman gibi herhangi bir sistem olabilir [10]. 
+
+
+2.3. Öðrenme Mekanizmasý
+Öðrenme mekanizmasý, bir direkt bulanýk denetleyicinin bilgi tabanýný yenileme iþlevi sayesinde kapalý çevrimli sistemin referans model gibi davranmasýný saðlar. BMRÖD’de öðrenme mekanizmasý iki kýsýmdan oluþur. Bunlar bulanýk ters model ve bilgi-tabaný yenileyicisidir [10]. 
+
+2.3.1. Bulanýk ters model 
+Alýþýlmýþ denetim yöntemlerinde, çok açýk bir þekilde sistemlerin tam bir matematiksel modeline ve fiziksel sistemlere iliþkin kabullere baðýmlýlýk vardýr. Sistemlerin matematiksel modeline olan bu baðýmlýlýk uygulamalarda ciddi güçlüklere sebep olabilir. Örneðin böyle bir yaklaþýmda denetlenen sistemin genellikle sabit bir kazanç olduðunun kabullenilmesi gerekmektedir ve uyarlama mekanizmasýnýn da bu durumdan kaynaklanabilecek olumsuzluðu karþýlayabileceði düþünülmektedir [10]. 
+Bulanýk ters model, denetlenen sistem çýkýþý y(kT)’yi referans model çýkýþý ym(kT)’ye mümkün olduðu kadar yakýnlaþtýrmaya yöneltecek deðiþikliðin nasýl olacaðýný karakterize etmek için kullanýlýr. Aþma olmamasý için ye’nin (denetlenen sistem ile referans model arasýndaki hata) deðerinin küçük olmasýyanýnda deðiþiminin de küçük olmasý istenmektedir. 
+Þekil 1’de bulanýk ters model ölçekleme faktörlerini de içerecek þekilde gösterilmiþtir. Bu faktörler gye, gyc ve gp ile isimlendirilen kazançlardýr. Bu kazançlar denetleyicinin tüm performansýný etkilemektedir. n. süreç giriþi ile ilgili bulanýk ters modeline iliþkin bilgi tabaný, If Ye1j and … and Yesk and Yc1l and … and 
+m
+Ycs Then Pnj,…,k,l,…,m, kurallarý ile ifade edilmiþtir. Burada Yeab, Ycab sýrasýyla yea hata ve yca hata deðiþimi ile ilgili b. bulanýk kümeyi göstermektedir. Ayrýca a. iþlem çýkýþý ile ilgili olan Pnj,…,k,l,…,m, n. süreç giriþindeki gerekli deðiþikliðin tarif edildiði bu kurala iliþkin sonuç bulanýk kümesine iþaret eder. 
+Bir bulanýk ters model için tipik bir kural tabaný Tablo 1’de gösterilmiþtir. Tablo 1’de Yej ve Yck ile sýrasýyla ye(kT) ve yc(kT) ile ilgili, pij,k ile de istenilen süreç giriþ deðiþikliði olan pi(kT)’nin ölçülmüþ bulanýk kümeleri belirtilmiþtir. Tablo 1’de, [-1,+1] aralýðýnda olmak üzere üyelik fonksiyonlarýnýn merkezleri listelenmiþtir. 
+Tablo 1’de gösterilen deðerlerin seçiminin sistem performansý üzerindeki etkisi konusunda literatürde herhangi bir bilgi yoktur. Bu konuda ayrýca bir çalýþma yapýlabilir. Bu deðerler, BMRÖD yöntemini geliþtiren Passino ve öðrencileri tarafýndan sönüm özelliði saðlamak için birikim ve tecrübe neticesinde belirlenmiþtir [1,4,10]. Örneðin, ye(kT)’nin küçük olduðu durumu karakterize etmesi sebebiyle Yej (j=0) bulanýk kümesiyle en iyi þekilde karakterize edilen ye(kT)=0 olduðu durumu düþünelim. Ye(kT)’deki en iyi deðiþiklik yc(kT)=0 olmasýdýr. Bu da Yck(k=0) ile benzer þekilde karakterize edilir. Bu sýfýr noktasý(j=k=0) bulanýk ters modelinin y(kT)=ym(kT) eþitliðini zorlamak için giriþte hiçbir deðiþikliðe gerek olmadýðý durumu temsil etmektedir. j=0, k=-2 için (y(kT), ym(kT)’ye yakýn ama y(kT), ym(kT)’nin üzerindeki bir deðere doðru artmasý durumu) Tablo 1, Pij,k için bulanýk küme merkezinin -0.4’de olduðunu göstermektedir. Bu da y’nin artmaya devam etmeyeceðini garantilemek (küçük bir ye’nin korunmasý) için giriþ iþlemine negatif bir artýþýn eklenmesi gerektiðini karakterize eder. Geriye kalan elemanlar için de benzer ifadeler ortaya çýkar. 
+Bulanýk ters modelin geliþtirilmesi denetlenen sistemin matematiksel modelinin varlýðýna ve özelliklerine baðlý deðildir. Dolayýsýyla denetlenen sistemin tersine ihtiyaç yoktur [10]. Bulanýk ters model denetlenen sistemin tersi olan matematiksel modelle karýþtýrýlmamalýdýr. 
+
+
+2.3.2. Bilgi tabaný yenileyici 
+Burada bilgi tabaný yenileme algoritmasýkullanýlmaktadýr [9]. Rn bulanýk iliþki dizisini deðil de sonuç bulanýk kümelerine (Un j,…,k,l,…,m) ait üyelik fonksiyonlarýný deðiþtirmek suretiyle hesaplama verimini arttýrýr. Bulanýk ters modelden elde edilen p(kT) vektörüyle ifade edildiði üzere giriþteki gereken deðiþiklikler hakkýndaki bilginin bilinmesi halinde, bilgi tabaný yenileyici daha önceden uygulanan kontrol iþleminin p(kT) miktarýna göre deðiþtirilecek þekilde bulanýk denetleyicinin bilgi tabanýný deðiþtirir. Dolayýsýyla iyi ya da kötü mevcut sistem performansýna katkýda bulunan daha önceden 
+
+Tablo 1. Bulanýk ters model için tipik bir kural tablosu 
+Pi j,k  Yck  
+-5 -4 -3 -2 -1 0 +1 +2 +3  +4  +5  
+Ye j  -5 -4 -3 -2 -1 0 +1 +2 +3 +4 +5  -1.0 -1.0 -1.0 -1.0 -1.0 -1.0 -0.8 -0.6 -0.4 -1.0 -1.0 -1.0 -1.0 -1.0 -0.8 -0.6 -0.4 -0.2 -1.0 -1.0 -1.0 -1.0 -0.8 -0.6 -0.4 -0.2 0.0 -1.0 -1.0 -1.0 -0.8 -0.6 -0.4 -0.2 0.0 +0.2 -1.0 -1.0 -0.8 -0.6 -0.4 -0.2 0.0 +0.2 +0.4 -1.0 -0.8 -0.6 -0.4 -0.2 0.0 +0.2 +0.4 +0.6 -0.8 -0.6 -0.4 -0.2 0.0 +0.2 +0.4 +0.6 +0.8 -0.6 -0.4 -0.2 0.0 +0.2 +0.4 +0.6 +0.8 +1.0 -0.4 -0.2 0.0 +0.2 +0.4 +0.6 +0.8 +1.0 +1.0 -0.2 0.0 +0.2 +0.4 +0.6 +0.8 +1.0 +1.0 +1.0 0.0 +0.2 +0.4 +0.6 +0.8 +1.0 +1.0 +1.0 +1.0  -0.2 0.0 +0.2 +0.4 +0.6 +0.8 +1.0 +1.0 +1.0 +1.0 +1.0  0.0 +0.2 +0.4 +0.6 +0.8 +1.0 +1.0 +1.0 +1.0 +1.0 +1.0  
+
+hesaplanmýþ olan denetim iþlemi dikkate alýnmalýdýr. Ýstenen denetleyici çýkýþý
+u(kT) = u(kT -T) + p(kT) (6) 
+olarak ifade edilir. Benzer denetleyici giriþlerinin verilmesi halinde bulanýk denetleyicinin istenen bu çýkýþý üretmesi saðlanýr. 
+cn j,…,k,l,…,m ‘nin Un j,…,k,l,…,m bulanýk kümesiyle ilgili üyelik fonksiyonunun merkez deðerini gösterecek þekilde bulanýk denetleyicinin çýkýþý için sadece simetrik üyelik fonksiyonlarýnýn tanýmlandýðý kabul edilmelidir. u(kT - T) önceki kontrol iþlemine katkýda bulunan bulanýk imalarý ile ilgili Un j,…,k,l,…,m bulanýk kümelerine ait üyelik fonksiyonlarýnýn merkezlerini kaydýrmak suretiyle bilgi tabaný deðiþimi yapýlýr. Bu yenileme, üyelik fonksiyonlarýný
+cn j,…,k,l,…,m (kT) = cn j,…,k,l,…,m (kT - T) + pn(kT) (7) 
+olacak þekilde p(kT) = [p1(kT) … pr(kT)]t ile belirlenen bir miktarda kaydýrma iþleminden ibarettir. Bulanýk denetleyicideki belli bir bulanýk imaya olan katký derecesi yani Rn j,…,k,l,…,m þeklinde gösterilen bulanýk iliþkinin katký derecesi, 
+.n j,…,k,l,…,m(t) = min{µEij (e1(t)), …, µEij (es(t)), µC1l (c1(t)), …,µCsm(cs(t))} (8) 
+þeklinde tanýmlanmýþ olan aktivasyon seviyesine göre bulunur. Burada µA, A bulanýk kümesine ait üyelik fonksiyonunu, t ise þu anki zamaný gösterir. Sadece aktivasyon seviyesinin .n,…,k,l,…,m(kT - T) > 0 olduðu Rn j,…,k,l,…,m(kT – T) þeklinde olan bulanýk imalar yenilenir. Geriye kalanlar deðiþmez; bu da lokal öðrenmeyi saðlar. 
+Yukarýdaki bilgi tabaný yenilemenin denklem (5)‘te ifade edilen aðýrlýk merkezi yöntemi durultucusu üzerine yaptýðý etkiyi düþünelim. Bahsedilen bulanýk kümelerinin alanýnýn bulanýk iliþkisine ait aktivasyon seviyesiyle orantýlý olmasý sebebiyle yalnýzca aktivasyon seviyelerinin sýfýrdan büyük olduðu bulanýk iliþkilerinin aðýrlýk merkezini etkilediðine dikkat edilmelidir. Ayrýca simetrik üyelik fonksiyonlarýnýn kullanýlmasý sebebiyle Un 
+j,…,k,l,…,m(kT) 
+bulanýk kümesi ile ilgili üyelik fonksiyonundaki bir kaymanýn daha önceden ima edilen Ûn j,…,k,l,…,m(kT – T) bulanýk kümeleriyle ilgili üyelik fonksiyonlarýnýn merkezlerini ayný miktarda kaydýracaðýna dikkat edilmelidir. Dolayýsýyla e(kT - T) ve c(kT – T) önceki denetleyici giriþleri ile sonuç bulanýk kümesini kaydýrdýktan sonra elde edilen Rn j,…,k,l,…,m(kT) yeni bulanýk iliþkinin bilinmesi halinden ima edilen Ûn j,…,k,l,…,m(kT – T) bulanýk kümesiyle ilgili üyelik fonksiyonunun yeni merkez deðeri þöyle ifade edilir: 
+cn j,…,k,l,…,m (kT) = cn j,…,k,l,…,m (kT - T) + pn(kT) (9) Denklem (9)‘u denklem (5)’te yerine koyarsak, 
+u (kT-T)=.j,...,k,l,...,mAnj,...,k,l,...,m(kT-T)cnj,...,k,l,...,m(kT-T)  (10) 
+n . Anj,...,k,l,...,m(kT-T)j,...,k,l,...m
+elde edilir. Burada u(kT – T) elde edilen yeni kontrol iþlemidir. Bu ifade çýkýþ denkleminde, 
+un(kT) = un(kT – T) + pn(kT – T) (11) 
+þeklinde yer alýr. Bu da istenen etkidir. Ayrýca bilgi tabanlýmodifikasyon prosedürünün bir “lokal uyarlama” formunu yerine getirdiði ve dolayýsýyla bellek kullandýðýna dikkat edilmelidir. Kural tabanýnýn muhtelif kýsýmlarý sistemin farklý çalýþma þartlarý esas alýnarak doldurulur ve kural tabanýnýn bir alaný güncelleþtiðinde diðer kurallar etkilenmez. Dolayýsýyla denetleyici yeni durumlara uyum saðlar. Ayrýca önceki durumlara nasýl uyarlandýðýný da hatýrlarlar. Bu yüzden bu yöntemin adýnda “öðrenme” terimi kullanýlmýþtýr. 
+Bilgi tabanlý öðrenme modifikasyonuna bir örnek olarak Tablo 2’de, giriþleri normalize edilmiþ ([-1 +1] aralýðýnda normalize edilmiþ) bir uzayda tanýmlanmýþima edilen Uj,k bulanýk kümeleriyle ilgili simetrik üyelik fonksiyonlarýna ait merkez deðerlerini gösteren bilgi tabanlý bir dizi tablosunu göstermektedir. Bulanýk denetleyicinin Tablo 2’ye benzer bilgi tabanlý
+
+Tablo 2. Bilgi tabanýdizisi için tipik bir kural tablosu 
+Ck  
+U j,k  -5  -4  -3  -2  -1  0  +1  +2  +3  +4  +5  
+-5  +1.0  +1.0  +1.0  +1.0  +1.0  +1.0  +0.8  +0.6  +0.4  +0.2  0.0  
+-4  +1.0  +1.0  +1.0  +1.0  +1.0  +0.8  +0.6  +0.4  +0.2  0.0  -0.2  
+-3  +1.0  +1.0  +1.0  +1.0  +0.8  +0.6  +0.4  +0.2  0.0  -0.2  -0.4  
+-2  +1.0  +1.0  +1.0  +0.8  +0.6  +0.4  +0.2  0.0  -0.2  -0.4  -0.6  
+E j  -1 0  +1.0 +1.0  +1.0 +0.8  +0.8 +0.6  +0.6+0.4   +0.4 +0.2  +0.20.0   0.0 -0.2  -0.2 -0.4  -0.4 -0.6  -0.6 -0.8  -0.8 -1.0  
++1  +0.8  +0.6  +0.4  +0.2  0.0  -0.2  -0.4  -0.6  -0.8  -1.0  -1.0  
++2  +0.6  +0.4  +0.2  0.0  -0.2  -0.4  -0.6  -0.8  -1.0  -1.0  -1.0  
++3  +0.4  +0.2  0.0  -0.2  -0.4  -0.6  -0.8  -1.0  -1.0  -1.0  -1.0  
++4  +0.2  0.0  -0.2  -0.4  -0.6  -0.8  -1.0  -1.0  -1.0  -1.0  -1.0  
++5  0.0  -0.2  -0.4  -0.6  -0.8  -1.0  -1.0  -1.0  -1.0  -1.0  -1.0  
+
+bir dizi tablosunu kullanmasý halinde bilgi tabanlýmodifikasyon iþlemi aþaðýda ifade edilen basit iki adýmlý algoritmaya indirgenmiþ olur: 
+Bilgi tabanlýdizi tablosundaki bulanýk imalarýndan hangisinin daha önceki uygulanmýþ olan giriþe katkýda bulunduðunu belirleyiniz. Baþka bir deyiþle birincil elemanýn sýfýrýn üzerindeki bir aktivasyon seviyesine sahip olduðu bulanýk imalarýný belirleyiniz. 
+Adým1’de bulunanlarýn bulanýk imalarýna iliþkin bilgi tabaný dizisindeki giriþleri düzenleyiniz. 
+Örneðin önceki iþlem hatasý e(kT – T)’nin sýfýrdan büyük olarak deðerlendirildiði Tablo 2’de gösterilen E+3 ve E+4 kümeleriyle ilgili üyelik fonksiyonlarý gibi bir deðer aldýðýnýkabul ediniz. Benzer þekilde c(kT - T) iþlem hatasýndaki önceki deðiþikliðin en iyi C-4 ile C-5 bulanýk kümeleri tarafýndan karakterize edildiði kabul edilmelidir. Daha önce uygulanan süreç giriþine katkýsý olan (yani .>0 idi) bulanýk imalar Tablo 2’deki kare içine alýnmýþ giriþlerle gösterilmiþtir (Yani bunlar kare içine alýnmýþgiriþlerin sol taraftaki elemanlarý bulunduran imalarýn tamamýdýr – bu durumda 4 kural). pi’(kT)’nin süreç giriþinde normalize edilmiþ istenen deðiþiklik olacak þekilde pi’(kT) = guipi’(kT) olduðu kabul edilmelidir. 
+Örnekte pi’(kT) = 0.1 olduðu kabul edilmiþtir. Bu taktirde Tablo 2’de kare içine alýnmýþ olan 0.4, 0.2, 
+0.0 ve 0.2 deðerleri için bilgi tabaný yenilemeden sonra sýrasýyla 0.5, 0.3, 0.1 ve 0.3 deðerleri elde edilir. Bu durumda tablodaki diðer hiçbir deðer deðiþmemektedir [10]. 
+
+
+
+
+3. GA YOLUYLA KAZANÇLARIN BULUNMASI 
+BMRÖD yönteminde bulanýk denetleyicinin ve bulanýk ters modelin giriþlerinde ve çýkýþýnda kullanýlan kazançlarýn seçimi için genel bir yöntem yoktur. Kazançlar, sistemin verdiði cevabýn durumuna göre deneme yanýlma yöntemiyle bulunmaktadýr. Bu anlamda, Genetik Algoritmalar (GA) kazançlarýn belirlenmesinde rahatlýkla kullanýlabilir. GA, en kestirme yoldan, yani iyilerin hayatta kalmasýkötülerin elenmesiyle en uygun deðerleri bulma prensibiyle çalýþmaktadýr. GA’nýn BMRÖD yöntemindeki kazançlarýn belirlenmesindeki kullanýmýÞekil 2’de blok diyagram olarak gösterilmiþtir. 
+Bu makalede GA, BMRÖD yöntemindeki kazançlarýnýn belirlenmesi için, kargo gemisi dümen denetimi problemine uygulanmýþtýr [20]. Uygulama için bu problemin seçilmesinin temel nedenleri, gerçek bir fiziksel sistem olmasý, doðrusal olmayan bir dinamiðe sahip olmasý ve BMRÖD yönteminin bu probleme daha önce uygulanmýþ olmasýdýr. Bu çalýþmada önerilen yöntem genel olarak, klasik yöntemlerle denetimi zor olan ve doðrusal olmayan sistemlere uygulanabilir. Kargo gemisinin denetimi, dümen tarafýndan geminin doðrultusunun ayarlanmasýproblemidir. Kargo gemisi 3. dereceden bir denklem ile tanýmlanmýþtýr [5] ve benzetimde de kullanýlan bu denklem aþaðýda verilmiþtir: 
+...11.. 1 .3 . 
+.(t) +( +).(t) +( )(a.(t) +b.(t)) =.1 .2 .1.2  (12) 
+.
+k 
+.1.2(..(t) +.(t))
+3 
+Giriþ (., rad) dümen açýsý ve çýkýþ (., rad) da geminin doðrultusudur. Benzetimde a ve b sabitlerinin deðeri 1 olarak seçilmiþtir. Ayrýca k, .1, .2 ve .3 
+k =k0 u  (13) l 
+. =. l ,  i=1,2,3 (14) 
+ii0 
+u 
+olarak verilmiþtir. Burada u geminin arkasýnýn hýzý(m/s), l ise geminin uzunluðudur (m). Kargo gemisi için k0 = -3.86, .10=5.66, .20=0.38, .30= 0.89, l=161m ve u=5m/s alýnmýþtýr. Kabul edilebilir dümen açýsý en fazla ±1.3963 radyan, yani ±80° dir. 
+
+3.1. GA’nýn Tasarýmý
+Kargo gemisi dümen denetimi probleminde kullanýlan BMRÖD yapýsýnda, bulanýk denetleyici ve bulanýk ters model giriþlerinde ikiþer (ge, gc ve gye, gyc) ve çýkýþlarda da birer (gu ve gyu) olmak üzere toplam altýkazanç mevcuttur. Algoritma, istenen kriterleri saðlayacak kazançlarý belirlemeyi amaçlamaktadýr. GA’daki birey, bu altý kazancýn birleþmesinden oluþmaktadýr. Çalýþmada kullanýlan örnek bir bireyin yapýsý aþaðýda verilmiþtir: 
+1. Giriþ Kazançlarý(24-bit) 2. Giriþ Kazançlarý (24-bit) Çýkýþ Kazançlarý(14 bit) 
+
+
+Þekil 2. GA’nýn BMRÖD yöntemindeki kazançlarýn belirlenmesindeki kullanýmý
+000000001110011001101100…  000000001011111011011110 01001111100100…  000000000001100001010111…  000000000011111101010001 00111011010100 
+Sayýlar ikili düzende deðerlendirilmektedir. Ýkili düzen, GA’nýn temel iþlemlerinden biri olan çaprazlamanýn mantýðýndaki, bireylerin iyi özelliklerini diðerlerine geçirme amacýna oldukça uygundur. Birey uzunluðu 24 bit+24 bit+14 bit + 24 bit + 24 bit + 14 bit = 124 bittir. 24 bit uzunluðu giriþlere aittir ve 10 bitlik tam kýsmý 0-1023 sayýaralýðýný, geri kalan 14 biti de kesir kýsmýný temsil etmektedir (10-bit tam+14-bit ondalýk=24-bit). 14bit de çýkýþlara aittir ve 0-16383 sayý aralýðýný temsil etmektedir. Bireylerin bit sayýlarý farklý problemler için farklý seçilebilir. Yani, bireylerin alabileceði maksimum ve minimum deðerler göz önüne alýnarak bit sayýsý belirlenebilir. Bit sayýsý çalýþmalarda genellikle birikim ve tecrübeye göre belirlenmektedir. Diðer taraftan, bit sayýsýnýn iþlem süresini de etkileyebileceði dikkat edilmesi gereken bir husustur. Yukarýdaki örnek bireyi oluþturan deðerler aþaðýda verilmiþtir: 
+ge : 0000000011.10011001101100 gc : 0000000010.11111011011110 gu : 01001111100100 gye: 0000000000.01100001010111 gyc: 0000000000.11111101010001 gyu: 00111011010100 
+Bu örnek birey, baþlangýç topluluðu bireylerinin sadece bir tanesidir. Toplulukta bu birey gibi birçok birey vardýr. Uygulamamýzda topluluktaki birey sayýsý60 olarak alýnmýþtýr. 
+
+
+3.2. GA’nýn Önerdiði Deðerlerin Sisteme Uygulanmasý
+Topluluðun her bir bireyi gerekli kazanç deðerlerini elde edecek þekilde parçalanýp BMRÖD sistemine verilmektedir. BMRÖD’de bu bireyden elde edilen performans deðerlendirilerek puanlamaya tabi tutulmaktadýr. Ýterasyonun bir adýmý, topluluktaki tüm bireylerin bu þekilde performanslarýnýn elde edilmesiyle tamamlanýr. Uygulamada kullanýlan algoritmanýn genel olarak adýmlarý aþaðýda verilmiþtir: 
+1) Baþlangýç topluluðunu oluþtur ve uygunluk 
+fonksiyonundan ilk sonuçlarý al. 2) Eðer tüm bireyler aynýysa veya hata belli bir 
+deðerin altýna düþmüþse adým 7’ye git. 3) Bireyler arasýnda çaprazlama yap. 4) Gerekirse mutasyona uðrat. 5) Uygunluk fonksiyonunda deðerleri al. 6) 5.Adýmdaki deðerlere göre yeni nesil (yeni 
+topluluk) oluþtur. Yani iyi bireyleri hayatta býrak, 
+kötü bireyleri at ve adým 2’ye git. 7) Dur. 
+Önerilen GA sisteme uygulanýrken kullanýlan bazýkriterler þunlardýr: Çaprazlama ihtimali 0.1 olarak seçilmiþtir. Yani birey adedinin %10 u sýnýr olmak üzere rasgele bir sayý kadar çaprazlama yapýlmasýsaðlanmýþtýr. Hangi bireylerin çaprazlanacaðý ve çaprazlamanýn hangi konumdan baþlayacaðý rasgele belirlenmiþtir. Çaprazlanan bit adedi bu çalýþmada bireyin bit sayýsýnýn %15’i olarak kullanýlmýþtýr. Ayrýca, mutasyonun hangi bireye uygulanacaðý, mutasyon yapýlacak konum ve kaç bitte mutasyon yapýlacaðý rasgele belirlenmiþtir. Uygunluk fonksiyonu ise “Bireylerin performans ölçümü” baþlýðý altýnda anlatýlmýþtýr. 
+
+3.3. Bireylerin Performans Ölçümü 
+Topluluðun her bir bireyi, söz konusu altý kazancýn muhtemel deðerlerini içermektedir. Bireylerin performansýnýn ölçülmesi için, bireylerin içindeki bu kazanç deðerleri ayrýþtýrýlarak BMRÖD sistemine uygulanmakta ve denklem (12) ile verilen baþarým indeksi kullanýlmaktadýr [25]: 
+B.I. =1000 
+100mp +6tp +3ts +100ess  (15) 
+Burada mp en büyük aþma miktarý, tp en büyük aþma zamaný, ts %5’lik yerleþme zamaný ve ess kalýcý durum hatasýdýr [25]. GA kullanýlarak belirlenen kazançlar ge=0.602634, gc=250.224050, gu=1.446679, gye=0.599845, gyc=9.897732, gyu=0.413558 olarak bulunmuþtur. 
+
+3.4. Benzetim Sonuçlarý 
+Önerilen GA tabanlý yöntemle elde edilen kazanç deðerlerinin BMRÖD ‘de kullanýlmasý sonucunda elde edilen sistem cevabý ve referans modeli izleme hatasý sýrasýyla Þekil 3 ve 4’de verilmiþtir. 
+Þekil 3’de referans giriþ r(t), referans model çýkýþýym(t) ve sistem çýkýþý y(t) ayný eksen üzerinde verilmiþtir. Sekil 4 ise referans model çýkýþý ym(t) ve sistem çýkýþý y(t) arasýndaki hata ye(t)’yi göstermektedir. Görüldüðü gibi, hata, BMRÖD sayesinde, kararlý bir þekilde azalmaktadýr. 
+
+
+
+4. TARTIÞMA VE SONUÇLAR 
+Bu makalede, Bulanýk Denetleyici (BD) tasarýmý için sistematik bir metot saðlayan Bulanýk Model Referans Öðrenmeli Denetim (BMRÖD) yöntemi incelenmiþve denetim performansý üzerinde çok etkili olan giriþve çýkýþ kazanç katsayýlarýnýn sistematik bir yolla deðil de deneme yanýlma süreci ile belirlendiði tespit edilmiþtir. Bu konuda yapýlan çalýþmalara ait literatür incelendiðinde, deneme yanýlma ile elde edilen kazançlarýn sadece ince ayarý için ve yalnýz “denetleyici kazançlarýna” GA’nýn uygulandýðý [26], ancak kazançlarýn, deneme yanýlma yöntemi hiç  _. _. : r(t) _ _ : ym(t) _ : y(t) 
+
+
+Þekil 3. Sistemin verdiði cevap 
+
+Þekil 4. Geminin doðrultusu ile referans model arasýndaki hata 
+kullanýlmadan ve “bulanýk ters modeldeki kazançlar” da dahil olmak üzere tüm kazançlarýn seçimi için herhangi bir yöntemin önerilmediði belirlenmiþtir. 
+Etkin bir BD tasarým yöntemi olan BMRÖD yönteminin güçlendirilmesi ve tam olarak sistematik hale getirilmesi gerçeðinden hareketle bu çalýþmada, iyi bir denetim performansý saðlayacak kazançlarýn bulunmasý için Genetik Algoritma (GA) kullanýlmýþtýr. Sunulan denetim yapýsýnýn etkinliðini göstermek için önerilen yöntem bir kargo gemisinin dümen denetimine uygulanmýþ ve baþarýlý benzetim sonuçlarý sunulmuþtur. 
+
+
+
+KAYNAKLAR 
+1.	
+Passino,K., and Yurkovich S., Fuzzy Control, Addison-Wesley Publishing Company, 1998. 
+
+2.	
+Kickert, W. and Lemke H. V. N., “Application of a fuzzy controller in a warm water plant”, Automatica, vol. 12,no. 4, pp. 301–308, 1976. 
+
+3.	
+Self, K., “Designing with fuzzy logic”, IEEE Spectrum, pp. 42-105 and 105, 1989. 
+
+4.	
+Layne, J., Fuzzy model reference learning control, Master’s thesis, Department of Electrical Engineering, The Ohio State University, 1992. 
+
+
+5.	
+Astrom, K., and Wittenmark, B., Adaptive Control. Reading, Addison-Wesley Publishing Company, 1989. 
+
+6.	
+Procyk, T., and Mamdani, E., “A linguistic self-organizing process controller”, Automatica, vol. 15, no.1, pp. 15–30, 1979. 
+
+7.	
+Scharf, E., and Mandic, N., “The application of a fuzzy controller to the control of a multi-degree­of-freedomrobot arm”, in Industrial Applications of Fuzzy Control, pp. 41–62, Amsterdam, the Netherlands: M. Sugeno(ed.), 1985. 
+
+8.	
+Tanscheit, R., and Scharf, E, “Experiments with the use of a rule-based self-organising controller for roboticsapplications”, Fuzzy Sets and Systems, vol. 26, pp. 195–214, 1988. 
+
+
+9.	Yamazaki, T., An improved algorithm for a self-organizing controller and its experimental analysis. PhD thesis, London University, 1982. 
+10.	
+Layne, J., and Passino, K., “Fuzzy model reference learning control”, Proceedings of the 1st IEEE Conference on Control Applications, pp. 686–691, 1992. 
+
+11.	
+Scharf, E., and Mandic, N., “The application of a fuzzy controller to the control of a multi-degree-
+
+
+
+of-freedomrobot arm”, in Industrial Applications of Fuzzy Control, pp. 41–62, Amsterdam, the Netherlands: M. Sugeno(ed.), 1985. 
+12.	
+Tanscheit, R., and Scharf, E, “Experiments with the use of a rule-based self-organising controller for roboticsapplications”, Fuzzy Sets and Systems, vol. 26, pp. 195–214, 1988. 
+
+13.	
+Shao, S., “Fuzzy self-organizing controller and its application for dynamic processes”, Fuzzy Sets and Systems, vol. 26, pp. 151–164, 1988. 
+
+
+14.Isaka, S., Sebald, A, Karimi, A., Smith, N., and Quinn, M., “On the design and performance evaluation of adaptive fuzzy controllers”, Proceedings, IEEE Conference on Decision and Control, pp. 1068–1069, 1988. 
+15.Daley, S., and Gill, K., F., “Comparison of a fuzzy logic controller with a P+D control law”, Journal of Dynamical System, Measurement, and Control, vol. 111, pp. 128–137, 1989. 
+16.	
+Daley, S., and Gill, K., F., “Altitude control of a spacecraft using an extended self-organizing fuzzy logic controller”, Proc. I. Mech. E., vol. 201, no. 2, pp. 97–106, 1987. 
+
+17.	
+Daley, S., and Gill, K., F., “A design study of a self-organizing fuzzy logic controller”, Proc. I. Mech. E., vol. 200, pp. 59–69, 1986. 
+
+18.	
+Layne, J., Passino, K., and Yurkovich, S., “Fuzzy learning control for anti-skid braking systems”, IEEE Trans. on Control System Technology, vol. 1, pp. 122–129, 1993. 
+
+19.	
+Layne, J., Passino, K., and Yurkovich, S., “Fuzzy learning control for anti-skid braking systems”, 
+
+
+
+
+Proc. IEEE Conf. on Decision and Control, pp. 2523–2528, 1992. 
+20.	
+Layne, J. and Passino, K., “Fuzzy model reference learning control for cargo ship steering”, IEEE Control Systems, vol. 13, no. 6, pp. 23–34, 1993. 
+
+21.	
+Moudgal, V., Kwong, W., Passino K., and Yurkovich S., “Learning control for a two-link.exible mechanism”, Proc. of the American Control Conference, pp. Baltimore, MD, 1994. 
+
+
+22.Kwong, W., and Passino, K., “Fuzzy learning systems for aircraft control law recon.guration”, Proceedings of the IEEE Int. Symp. on Intelligent Control, pp. Columbus, Ohio, Aug. 16-18, 1994. 
+23.	
+Narendra, K., and Annaswamy, A., Stable Adaptive Systems, Prentice Hall. Englewood Cli.s, 1989. 
+
+24.	
+Farrell, J. and Baker, W., “Learning control systems”, in An Introduction to Intelligent and Autonomous Control Systems (P. Antsaklis and 
+
+
+K. Passino, eds.), Kluwer Academic Publishers; Norwell MA, 1993. 
+25.Tokat, S. and Eksin, Ý. and Güzelkaya, M., “Deðiþken Kayma Yüzeyi Eðimi Kullanan Bulanýk Kayma Kipli Kontrolör Tasarýmý”, Elektrik-Elektronik-Bilgisayar Mühendisliði 
+9. Ulusal Kongresi, Kocaeli, 2001. 
+26.	Brown, S.,C., and Passino, K., M., “Intelligent Control for An Acrobot”, J. Of Intelligent and Robot Systems, v.18,pp. 209-248, 1997. 
+
+

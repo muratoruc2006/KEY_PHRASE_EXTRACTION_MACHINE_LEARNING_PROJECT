@@ -1,0 +1,252 @@
+SON ÝÞLEMCÝ TASARIMINA YENÝ BÝR YAKLAÞIM 
+Ýmalat teknolojisindeki geliþmelerle birlikte karmaþýk þekil ve hassas tolerans deðerlerine sahip parçalarýn iþlenmesi gerçekleþtirilebilmektedir. Bu imalat uygulamalarýnda “Son iþlemcilerin” rolü yadsýnamaz. Bilgisayar Destekli Tasarým ve Ýmalat (BDT-BDÝ) programlarý kullanýlarak tasarlanan parçalarýn imalinde, tezgahlarla olan etkileþim ‘Son iþlemciler’ adý verilen arayüzler yardýmýyla gerçekleþtirilir. Son iþlemciler, tasarým ve imalat bilgilerinin deðerlendirilmesi yapýlarak kesici yoluna ait verilerden (CLDATA) parça programý çýkaran BDÝ’nin son aþama uygulamalarýdýr. Bu çalýþmada, BDT ve BDÝ programlarý kullanýlarak elde edilen kesici yolu verilerini (CLDATA) istenilen kontrol ünitesine ait programa dönüþtürebilen bir son iþlemci yazýlýmýnýn tanýtýmýyapýlmýþtýr. Yazýlýmýn en önemli özelliði, herhangi bir kontrol ünitesi formatýný oluþturma imkaný sunmadaki esnekliðidir. Tasarým modülünde hazýrlanmýþ katý model bilgilerini kullanarak ve CLDATA deðerlendirilerek, parça üzerindeki iþlemler ve kontrol üniteleri (Mazak, Sinümerik ve Fanuc) için parça programlarýna ait çýktýlar elde edilmiþtir. Elde edilen çýktýlarýn gerçek üretim ünitesinde kullanýlan programlar ile karþýlaþtýrýlmasýyapýlmýþtýr. 
+
+1. GÝRÝÞ(INTRODUCTION) lemlerin belirlenmesi, sýralanmasý, iþleme parametre­
+lerinin seçilmesi, kesicilerin baðlama kalýplarýnýn Günümüzde üretilen takým tezgahlarýnýn özellikleri ayarlanmasý ve bunlarla ilgili bilgilerin BSD’li tezga­her geçen gün geliþmekte, bunun neticesinde daha hýn iþlem birimcisine herhangi bir þekilde tanýtýlmasýkarmaþýk þekle ve hassas tolerans deðerlerine sahip gerekir. Bu tanýtým iþlemlerinden en önemlisi de kesi­parçalar üretilebilmesine olanak saðlanmaktadýr. cinin parça geometrisini oluþtururken takip edeceði BSD’li bu tezgahlarda üretimin gerçekleþtirilebilmesi yoldur. Bu yolun da “parça programý” denen özel bir için tasarým ve imalat arasýnda bir hazýrlýk aþamasýnýn formatta ifade edilmesi gerekir. Bilgisayarla Sayýsal çok iyi deðerlendirilmesi gerekmektedir. Bu aþama da Denetimli Tezgahlarda (BSDT) parça programýiþlem planlamasýdýr. Ýþlem planlamasý aþamasýnda iþ-hazýrlamada  yaygýn olarak iki metot kullanýlmaktadýr. 
+A.O. Er ve E. Aslan 
+Bunlardan ilki, programýn yazýlabilmesi için kesicinin hareket edeceði koordinatlarýn belirlenerek tezgah ba­þýna geçip satýr satýr programýn yazýlmasýdýr. Bu yön­temle karmaþýk þekillere sahip parçalara ait koordinat­larýn tespiti güç, hata yapma olasýlýðý fazla ve tezgaha aktarýlmasý zordur [1]. Bu sorunlarýn aþýlabilmesi  için ikinci metot geliþtirilmiþ ve BDT-BDÝ programlarýyardýmýyla kesici yolu bilgilerinin (CLDATA) oluþtu­rulmasý saðlanmaktadýr. Daha sonra oluþturulan kesici yolu bilgileri BSDT kontrol ünitesi tarafýndan anlaþý­lacak formata “Son Ýþlemciler” yardýmýyla dönüþtü­rülmektedir. 
+BDT-BDÝ programlarý yardýmýyla kesici yolu bilgi­lerinin oluþturulmasý birkaç basamaktan oluþmaktadýr. Öncelikle üretilecek parçaya ait katý model BDT programlarýnda oluþturulur. Ýkinci adým olarak talaþkaldýrmak için kullanýlacak kesiciler, kesme hýzý, iler­leme deðeri, kesme yönü gibi teknik ve teknolojik bilgiler programa girdi olarak verilir [2]. Bu bilgilerin ve geometrik bilgilerin deðerlendirilmesi ile kesici yolu bilgileri oluþturulur. Bundan sonraki basamak ise kesici yolu bilgilerinin BSDT tarafýndan kullanýlabile­cek formata dönüþtürmektir. Bunun için her bir kont­rol ünitesi için ayrý bir son iþlemciye ihtiyaç duyul­maktadýr. BDT ve BDÝ ile BSDT arasýnda bütün­leþmeyi saðlarken, her bir kontrol ünitesi için ayrý bir son iþlemciye ihtiyaç duymak sorun yaratmaktadýr. 
+Gerçekleþtirilen çalýþmada, BDÝ programlarýndan alý­nan kesici yolu bilgilerinin tüm BSDT’larda kul­lanýlmasýný saðlayabilecek bir son iþlemci tasarýmýhedeflenmiþtir. 
+Bu hedef doðrultusunda katý model bilgilerini kulla­narak, iþlem planlamasýnýn derlediði verileri iþleyerek, hazýrlanan kesici yolunun deðerlendirmesini yapýp SD’li parça programý oluþturan bir son iþlemci tasarlanmýþtýr. 
+Bu sayede iþlenmesi güç parçalarýn BSDT’lerde iþlenebilmesi için geçen sürenin ve program yazýlýmýsýrasýnda hata yapma olasýlýðýnýn en aza indirimi saðlanmýþtýr. 
+Bu zamana kadar tasarlanan son iþlemciler incelen­diðinde [3-9], kesici yolu bilgilerini önceden belir­lenen tek bir kontrol ünitesinin kullanabileceði parça programýna dönüþtürme iþlevini yerine getirebiliyordu [10]. Bu çalýþmada önceden formatý tanýmlanmýþ tüm kontrol ünitelerinin veya tasarým aþamasýnda tanýmla­nacak farklý kontrol ünitelerine sahip tezgahlarda kul­lanýlabilecek bir son iþlemcinin tasarýmý yapýlmýþtýr. 
+Oluþturulan program tüm komutlarý ve komutlara ait deðiþkenleri kapsayacak þekilde planlanmýþtýr. Prog­ramýn mimarisi Þekil 1’de verilmiþtir. 
+Programdan alýnan sonuçlarýn doðruluðunun kontrolü için silah sanayinden iki örnek alýnmýþ ve daha önce 
+Son Ýþlemci Tasarýmýna Yeni Bir Yaklaþým 
+Kullanýcý Tarafýndan Kontrol Ünitesine Ait Bilgi Giriþi 
+
+VERÝ TABANI 
+
+
+SON ÝÞLEMCÝ
+
+
+BSD PARÇAPROGRAMI
+CLDATA 
+
+Þekil 1. Programýn mimarisi (Programme architecture). 
+oluþturulmuþolan SD parça programlarýyla aynýçýktýlarýn elde edildiði görülmüþtür. 
+
+
+2. MATERYAL VE YÖNTEMLER (MATERIAL AND METHODS) 
+Son iþlemci tasarýmý ISO 4343 “Numerical control of machines – NC processor output – Minor elements of 2000-type records (postprocessor commands)” [11] isimli standartýn içeriðinde var olan CLDATA bilgile­rine göre gerçekleþtirilmiþtir.  
+Bu noktadaki kritik soru hangi kontrol ünitesine ait formatta çýktý verilmesidir. Þu anda ticari olarak kul­lanýlan BDT-BDÝ programlarýnýn desteklediði kontrol üniteleri birbirinden farklýlýk göstermektedir. Bir baþ­ka ifade ile, bir programýn desteklediði kontrol ünitesi diðeri tarafýndan desteklenememektedir. Bu da parça programlarýnýn otomatik hazýrlanmasýnda yazýlým baðýmlýlýðý ortaya çýkarmaktadýr. Piyasadaki kontrol ünitelerinin deðerlendirilmesi, ISO 3592 [12] ve ISO 6983/1’in [13] kapsamýna göre satýr formatlarýný açýk­layan, komut ve tanýmlayýcý deðiþkenlerinden oluþan dosya tipi bir veri tabaný oluþturulmuþtur. Veri taba­nýnda ifade edilen bilgiler Þekil 2’de verilmiþtir. 
+Buna ek olarak farklý parçalar için hazýrlanmýþ kesici yolu bilgilerine ait bileþenler, deðiþik kontrol ünite­lerine ait programlama klavuzlarýna [14-16] göre hazýrlanmýþtýr. 
+Enterpolatörler, tezgah fonksiyonlarý, takýmlama, ko­numlama, birimler, yüzey koordinat sistemleri ve döngülerle ilgili tüm bilgiler veri tabanýna yazýldýktan sonra, CLDATA dosyasý program tarafýndan satýr sa­týr taranýr. Bu okuma ve dönüþüm iþlemi Þekil 3 ve 4’deki algoritmaya dayalý olarak gerçekleþtirilmek­tedir. 
+Kontrol ünitesi baðýmsýz çalýþan son iþlemcinin tasarý­mýnda hazýrlanan veri tabaný için aþaðýdaki aþamalar izlenmiþtir: 
+1.	CLDATA komutlarýndaki sabit ve deðiþken­lerin tespit edilmesi. 
+ENTERPOLATÖRLER 
+  Komut ve tanýmlayýcý deðiþkenleri 
+• 
+Hýzlý Hareket 
+
+• 
+Lineer Enterpolasyon 
+
+• 
+Dairesel Enterpolasyon 
+
+• 
+Silindirik Enterpolasyon 
+
+• 
+Helisel Enterpolasyon... 
+
+
+
+
+
+TEZGAH FONKSÝYONLARI
+  Komut ve tanýmlayýcý deðiþkenleri 
+• 
+Program durdurma 
+
+• 
+Geçici durdurma 
+
+• 
+Program Sonu 
+
+• 
+Ýþ mili döndürme-durdurma 
+
+• 
+Soðutma sývýsý tipi-açma-
+
+
+
+
+
+• G Kodlarý – Hazýrlayýcý Fonk. 
+
+
+
+
+
+GENEL TERÝMLER 
+• M Kodlarý – Yardýmcý Fonk.   Komut ve tanýmlayýcýlarý
+TAKIMLAMA 
+• 
+Ýlerleme – F, Takým – T 
+
+• 
+Dönme Hýzý - S
+
+
+• Takým deðiþtirme • Koordinat Tanýmlayýcýlarý• Takým çap telafisi X-Y-Z-I-J-K
+• 
+Takým uzunluk telafisi 
+
+• 
+Takým telafisi iptali... 
+
+
+
+
+
+
+Þekil 2. Veri tabaný sistemi (Database system). 
+A.O. Er ve E. Aslan 
+
+
+KOORDÝNAT SÝSTEMLERÝ
+ Komut ve  tanýmlayýcýlarý
+• 
+Düzlem seçimi (XY-YZ-ZX) 
+
+• 
+Makina Koordinat Sistemi 
+
+• 
+Parça Koordinat Sistemi 
+
+•	
+Koordinat Sistemi seçimi (Polar-Kartezyen) 
+
+
+
+DÖNGÜLER 
+Komut ve  tanýmlayýcýlarý
+• 
+Delme Döngüsü 
+
+• 
+Derin Delme Döngüsü 
+
+• 
+Diþ Açma Döngüsü 
+
+• 
+Raybalama Döngüsü 
+
+• 
+Yüzey-Kanal frezeleme Dön. 
+
+
+
+2.	
+Kontrol ünitelerinin komut satýrlarýndaki sabit, deðiþken ve iþaretlemeler göz önünde bulundurularak Þekil 2’deki ana komut gruplarýnýn oluþturulmasý. 
+
+3.	
+Kullanýcý tarafýndan istenen kontrol ünitesine ait komut satýr tanýmlamalarý. 
+
+
+Özellikle üçüncü maddede ifade edilen format taným­lamasýile herhangi bir kontrol ünitesi tanýmlamasýnýn yapýlmasý mümkün olmuþtur. Bununla ilgili olarak enterpolatörlerin tanýmlanmasý ile ilgili komut ekranýve tanýmlamalar  Þekil 5’te verilmiþtir. 
+Örnek olarak CLDATA’da GOTO komutuyla karþýla­þýldýðýnda, komut satýrýndaki Hedef  Nokta Koordinat­larýna ait deðiþkenler kopyalanarak bir üst satýra geçi­lerek kontrol edilir. Bu satýrda FEDRAT komutu varsa, bu komutun enterpolatörlerden “Lineer Hare­ket” komutu olduðu anlaþýlýr. Daha sonra FEDRAT komut satýrýndaki Ýlerleme Hýzý ve Birimi gibi deðiþ­kenler kopyalanýr. Bütün bu bilgiler elde edildikten sonra kontrol ünitesinin Enterpolatörler kýsmýna giril­miþ “Lineer Hareket” tanýmlamasý alýnarak az evvel kaydedilmiþ deðiþkenler bu tanýmlamanýn belirtilen yerlerine girilerek BSD parça program satýrýÞekil 3’te gösterildiði gibi oluþturulur. Ayný mantýkla GOTO komutunun altýndaki satýrda MOVARC komutu ile karþýlaþýlýrsa bunun “Dairesel Hareket” komutu ol­duðu anlaþýlýr ve o komutun tanýmlanmasýyla ilgili deðiþkenler tespit edilir, kontrol ünitesinin Enterpola­törler kýsmýna girilmiþ  “Dairesel Hareket” tanýmla­masý alýnarak BSD parça program satýrý oluþturulur. Bu iþlem tüm komutlar için teker teker tekrarlanýr. 
+Programýn çalýþabilirliliði sanayide uygulamasý ya­pýlmýþ, yapým resmi Þekil 6’da verilen parça ile denenmiþtir. 
+Stok parça ve iþlenecek parçaya ait katý modelleri Þekil 7’de gösterildiði gibi ticari bir yazýlýmla oluþturulmuþ, daha sonra ayný programýn imalat modülüne talaþlý imalat iþlemiyle ilgili iþlem planlamasýna ait tüm teknik ve teknolojik bilgiler girilmiþ ve CLDATA elde edilmiþtir. Daha sonra istenilen kontrol ünitelerinin (Mazatrol M Plus ISO, Fanuc Series 0, 00, 0-Mate ve Sinümerik 840D / 810D / FM çalýþmada örneklenmiþtir.) bilgileri veri tabanýna girdi olarak verilmþtir. Model parçanýn üretimi için gerekli bigi çýkarýmý, bilgi deðerlendirme ve Mazak kontrol ünitesi için parça programý oluþumu basamak basamak Þekil 8’de anlatýlmýþtýr. Taným­lanan format bilgileri ve diðer bilgilerin son iþlemci yardýmýyla deðerlendirilmesi sonucu parça programýelde edilmiþtir. Parçanýn üretimi için sanayideki tezgahta kullanýlan programýn benzeri program parça­nýn üretilmesine olanak tanýmýþtýr. 
+
+A.O. Er ve E. Aslan Son Ýþlemci Tasarýmýna Yeni Bir Yaklaþým A.O. Er ve E. Aslan Son Ýþlemci Tasarýmýna Yeni Bir Yaklaþým 
+
+
+
+Þekil 5. Kontrol ünitesi enterpolatör tanýmlama ekraný(Enterpolator discription screen of control unit) 
+
+Þekil 6. Örnek olarak seçilen parçaya ait yapým resmi (Technical drawing of example part) 
+
+3. TARTIÞMA VE SONUÇ (DISCUSSION AND CONCLUSION) 
+Mekanik parçalarýn BSDT’da iþlenmesi amacýyla SD programýnýn oluþturulmasý için gerekli olan kesici ko­num koordinatlarýnýn hesaplanmasý ve tezgahýn anla­yacaðý formata çevrilmesinin zorluðunun yanýnda, he­saplama yapýlýrken hata yapma olasýlýðý da yüksektir. Bu sebeple özellikle karmaþýk þekillere sahip parçala­rýn iþlenmesinde BDÝ programlarýna duyulan ihtiyaç gün geçtikçe artmaktadýr [17]. Bu programlarda da son iþlemcilerin vazgeçilmez bir rolü mevcuttur. Bu role uygun olarak gerçekleþtirilen çalýþma sayesinde oluþturulan son iþlemci aþaðýdaki özelliklere sahiptir. 
+a. BDT/BDÝ programlarý kullanýlarak oluþturulmuþkesici yolu verilerini BSDT’lerin kontrol üniteleri 
+
+
+
+
+¾Satýr satýr okurken GOTO komutu tespit edilir. 
+
+¾/ iþaretinden sonraki deðerler, ilk virgüle kadar olan X, ikinci virgüle kadar Y ve geri kalan da Z deðeri olarak depolanýr. 
+¾Üst satýr kontrol edilir ve FEDRAT olduðu için lineer hareket olduðu anlaþýlýr. / iþaretinden sonraki deðerler, ilk virgüle kadar olan ilerleme deðeri ve virgülden sonrasý da birimi olarak depolanýr. Þekil 2’de gösterilen veri tabanýnýn ENTERPOLATÖRLER kýsmýndan Þekil 5’te görüleceði gibi enterpolatörlere ait lineer hareket kodu ve formatý veri tabanýndan alýnýr. Depolanan X, Y, Z ve ilerleme deðerleri formatta ilgili yerlere yazýlarak N80 ve N90 ile ifade edilen komut satýrlarý oluþturulur. 
+¾Satýr satýr okurken GOTO komutu tespit edilir. 
+¾/ iþaretinden sonraki deðerler, ilk virgüle kadar olan X, ikinci virgüle kadar Y ve geri kalan da Z deðeri olarak depolanýr. 
+
+¾Üst satýr kontrol edillir ve MOVARC olduðu için dairesel hareket olduðu anlaþýlýr. / iþaretinden sonraki deðerler ilgili deðiþkenlere depolanýr. Þekil 2’de gösterilen veri tabanýnýn ENTERPOLATÖRLER kýsmýndan Þekil 5’te görüleceði gibi enterpolatörlere ait dairesel hareket kodu ve formatý veri tabanýndan alýnýr. Depolanan deðerler formatta ilgili yerlere yazýlarak N100 ve N110 ile ifade edilen komut satýrlarý oluþturulur. 
+Þekil 8. Mazak kontrol ünitesi için parça programýnýn basamak basamak oluþturulmasý (Processing the part program step by step for Mazak kontrol unit). 
+A.O. Er ve E. Aslan 
+tarafýndan algýlanabilecek BSD parça programlarýna dönüþtürme iþlemini gerçekleþtirebilmektedir. 
+b. 
+Tezgahlarda kullanýlan kontrol ünitelerinin farklýfarklý olmasý gerçeði gözönünde bulundurularak, kontrol ünitelerini tanýmlamak üzere bir veri tabanýoluþturulmuþtur. Bu veri tabaný sayesinde, kontrol üniteleri tarafýndan kullanýlan kodlar ve bu kodlarla birlikte tanýmlanmasý gereken satýr formatýnýn kaydedilerek saklanmasý mümkün olmuþtur. 
+
+c. 
+Veri tabanýna kontrol ünitelerini tanýtan veriler girildiði takdirde, BDÝ programlarý tarafýndan oluþturulmuþ CLDATA’larý, parçanýn iþleneceði tezgah tarafýndan kullanýlan kontrol ünitesince anlaþýlabilecek SD formatýna dönüþtürmek tasarlanan son iþlemci tarafýndan gerçekleþtirilebilmektedir. Sonuç olarak, her kontrol ünitesi için ayrýbir son iþ­lemci tasarýmýna duyulan ihtiyaç bir anlamda ortadan kaldýrýlmýþtýr. Buna ek olarak, BSDT tarafýndan kullanýlan kontrol üniteleri hakkýnda bilgi sahibi olmak isteyen kullanýcýlar için veri tabanýna yüklenen bilgiler, görsel olarak da rahatça anlaþýlabilecek þekilde ifade edilmiþtir. Yapýlan bu çalýþma sayesinde ayrý kontrol ünitelerine sahip BSDT’da parça iþlemek için gerekli SD parça programlarýnýn oluþturulmasýamacýyla ihtiyaç duyulan iþgücü ve  zaman en aza indirgenmeye çalýþýlmýþtýr. 
+
+
+
+
+KISALTMALAR 
+BDÝ: Bilgisayar Destekli Ýmalat BSD : Bilgisayarla Sayýsal Denetim BSDT : Bilg. Sayýsal Denetimli Tezgahlar BDT : Bilgisayar Destekli Tasarým CLDATA : Kesici Konum Verileri SD : Sayýsal Denetim 
+
+KAYNAKLAR 
+1.	
+Kim, C.B., Park, S., Yang, M.Y. “Verification of NC Tool Path and Manual and Automatic Editing of NC Code”, International Journal of Produc­tion Research, 33, 659-673, 1995. 
+
+2.	
+Aslan, E., “Sayýsal Denetimli Takým TezgahlarýÝçin Ýþlem Yapraðý, Kesici Yolu ve Otomatik Par­ça Programý Oluþumu”, Makina Metal Teknolo­jisi Dergisi, 66, 76-89, Haziran 1997. 
+
+3.	
+Aslan, E., Söylemez, E.,  “Ýki Eksenli Sayýsal De­netimli Takým Tezgahlarý için Bilgisayar Destekli Ýþlem Planlamasý ve Uygulamasý”, 6. UluslararasýMakina Tasarým ve Ýmalat Kongresi, ODTÜ, Ankara, 21-30, 21-23 Eylül 1994. 
+
+
+Son Ýþlemci Tasarýmýna Yeni Bir Yaklaþým 
+4. Lee, R.S., She, C.H., “Developing a Postprocessor for Three Types ofF-axis Mmachine Tools”, 1nternational Journal of Advanced Manufac­turing Technology, 13, 658-665, 1997. 
+5.	
+Stanislaw, Z., “System Integrated Product Design, CNC Programing And Post-Processing For Three Axis Lathes”, Journal of Materials Processing Technology, 109, 294-299, 2001. 
+
+6. 	
+Gamsýz, E., Cam Sistemlerinin CNC Takým Tezgahlarýna Uygulanmasý ve Postprocessor Hazýrlanmasý, Yüksek Lisans Tezi, Ý.T.Ü., Fen Bilimleri Enstitüsü,  1992. 
+
+7. 	
+Kayalý, M., Farklý CNC Torna Kodlarýný Prolog Dili Kullanarak Birbirine Dönüþtürme, YüksekLisans Tezi, Gazi Üniversitesi, Fen Bilimleri Ens­titüsü, 1996. 
+
+8. 	
+Kayýr, Y., Gülesin, M., “Kesici Konum Verilerinin (CLDATA) Sayýsal Denetimli Takým Tezgahlarýiçin Parça Programlarýna Dönüþtürülmesinde Son Ýþlemcilerin Tasarýmý”, 7. Uluslararasý Makina Tasarým ve Ýmalat Kongresi, ODTÜ, 371-381, Ankara, 1996. 
+
+9. 	
+Ersoyoðlu, A.S., SD Parça Programlarýnýn Oluþturulmasý için Son Ýþlemci Tasarýmý, Yük­sek Lisans Tezi, Selçuk Üniversitesi, Fen Bilim­leri Enstitüsü, 1999. 
+
+10. 
+ER, A. O., Aslan, E., Þeker, U., “Son Ýþlemcilerin Genel Yapýsý”, Makina Tasarým ve Ýmalat Tek­nolojileri Kongresi - Matit 2001, Konya, 167­172, 2-3 Kasým 2001. 
+
+11. 
+ISO 4343, “Numerical Control of Machines - NC Processor Output – Minor Elements of 2000-Type Records (Postprocessor Commands)”, 1978. 
+
+12. 
+ISO 3592, “Industrial Automation Systems-Numerical Control of Machines-NC Processor Output–File Structure And Language Format”, 2000. 
+
+13. 
+ISO 6983/1, “Numerical Control of Machines– Program Format and Definition Words–Part1: Data Format for Positioning, Line Motion and Contouring Control Systems.”, 1982. 
+
+14. 
+Mazak Programming Manual for Mazatrol M Plus ISO Programming, Yamazaki Mazak Cor­poration, Japan, 1996. 
+
+15. 
+Fanuc Series, 0-Mate Operator’s Manual., Fanuc Ltd., 1988. 
+
+16.
+ Sinümerik 840D / 810D / FM – NC Fundamentals Programming Guide, Siemens Ltd.,1996. 
+
+17. 
+Er, A.O., BDT ve BSDT’larýn Bütünleþmesi Ýçin Bir Son Ýþlemci Tasarýmý, Yüksek Lisans Tezi, Kýrýkkale  Üniversitesi, Fen Bilimleri Enstitüsü, Kýrýkkale, 2002. 
+
+
+
+
+

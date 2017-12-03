@@ -1,0 +1,159 @@
+YAPAY ZEKA DESTEKLÝ SÝSTEMATÝK TASARIM ÝÇÝN BÝLGÝ YÖNETÝM SÝSTEM MÝMARÝSÝ
+Bu çalýþmada, mekanik sistemlerin tasarýmý için bir kavramsal tasarým modeli geliþtirilmiþtir. Bu tasarým modeli takým tezgahlarýnýn kavramsal tasarýmýna uygulanmýþtýr. Tasarým iþlem modelinin þartname aþamasýnda fonksiyon temsilleriyle problem tarifi yapýlýr. Þartname aþamasýnda belirlenen tasarým sýnýrlandýrmalarý, ihtiyaç­fonksiyon grafiðiyle çýkarým bileþenlerine dönüþür. Hazýrlanan tasarým iþlem modelinin torna tezgahýuygulamasý olan TASÝTA programýnda,  klasik torna tezgahý tasarýmýve CNC torna tezgahlarýnýn seçimini yapa­bilen iki ayrý bilgi tabanýna sahip uzman sistem karar mekanizmasý geliþtirilmiþtir. Geliþtirilen model ile gerekli tasarým süresi kýsaltýlarak  ve tasarým maliyeti düþürülmektedir.  
+
+1. GÝRÝÞ tasarým kavramýnda  klasik tasarým ve modern 
+tasarým teknikleri ayýrýmý yapýlmýþtýr. Sistematik tasa-Problemlerin optimum çözümü olarak özetlenebilen rýmýn deðiþik aþamalarýnda bilgisayar teknolojisi ve tasarým kavramýnýn uygulanmasýna yönelik kullanýlan özellikle yapay zeka uygulamalarýnýn kullanýmýyla yöntem ve metotlarýnda, teknolojik geliþim süreci birlikte özellikle kullanýlan bilgi temsil teknikleri ve içerisinde sürekli yenilikler meydana gelmektedir. bu bilgilerin paylaþýmýbüyük önem kazanmaktadýr [1]. Belirli bir dönem tasarým iþlemi sýrasýnda esas olarak kullanýlan süsleme ve sanatsal anlayýþlarýn yerine, Karmaþýk mekanik sistemlerin baþýnda yer alan takým bilimsel yöntem ve tasarým tekniklerinin kullanýlmaya tezgahlarýnýn sistematik tasarýmýnýn yapýlmasý iþle­baþlanmýþ olmasý bu geliþmeler içerisinde önemlidir. minde, tasarýmý doðrudan etkileyen çok sayýda alt Ürün veya sistemlerin tasarýmý sýrasýnda kullanýlan sistemler ve bu sistemler arasýnda karmaþýk iliþkiler yeni teknikler ile mevcut tasarým tekniklerinin aynýaðý bulunduðu bilinmektedir.  Müþterinin yapýlacak türden tasarým problemine ait tanýmlama ve çözüm tasarýmla ilgili istekleri, mevcut sistem iliþkileri yaklaþýmlarýnýn belirgin olarak farklýlaþmasý sonrasýn-açýsýndan deðerlendirilip en uygun çözüm þekline 
+M. Bozdemir ve F. Mendi Yapay Zeka Destekli Sistematik Tasarým Ýçin Bilgi Yönetim Sistem Mimarisi 
+karar verilebilmesi için, bilgisayar destekli sistematik tasarýmda alternatif çözümler üretilmesi ve bunlarýn þartname ihtiyaçlarý yönünden deðerlendirilmesi gerekmektedir. Yapýlan sistematik tasarým uygulamasýsonrasýnda, tasarým süresi, kalitesi, maliyeti gibi faktörlerde olumlu geliþmeler gözlemlenmektedir. Kullanýcý ihtiyaçlarý dikkate alýnarak yapýlacak iyi bir sistematik tasarým uygulamasý sonrasýnda, tasarlanan sistem maliyetlerinde düþüþ saðlanmaktadýr. Yanlýþuygulanan bir tasarým süreci sonrasýndaki üretim aþamalarýnda, geriye dönüþü imkansýz veya çok pahalýya mal olabilecek etkilerle karþýlaþýlabil-mekte­dir. Karmaþýk mekanik yapýya sahip olan makinelerin, sistematik tasarým teknikleri kullanýlarak alternatif tasarým biçimleriyle çözülmesi ve alt fonksiyon yapýlarýyla uyumlu fiziksel sistemlerin seçimi bilgisayar destekli karar verme sistemiyle yapýlabilir. Sistematik tasarým uygulamasý için geliþtirilecek bu þekildeki iþlem modelleri daha verimli kullaným için hazýrlanacak tasarým kataloglarýyla desteklenmelidir.   
+TOSÝTA (Torna tezgahý sistematik tasarýmý) adýverilen program sayesinde takým tezgahlarýnýn yapay zeka destekli sistematik tasarýmý yapýlmýþtýr. Karar verme iþlemi sýrasýnda  sistem bileþenlerine ait çözüm önerilerini içeren tasarým katalog bilgilerinin  yüklü olduðu tasarým veri tabanýve kural tabaný bilgileri kullanýlmýþtýr. Þekil 1’de mekanik sistemler için bilgisayar destekli sistematik tasarým uygulamasýyapýlmasýnda kullanýlan TOSÝTA programýna ait akýþdiyagramý görülmektedir. Programýn þartname aþama­sýnda elde edilen tüm bilgiler, tasarým uygulamasýnýn sonuna kadar geçen süreçteki aþamalarda farklýbiçimlerde kullanýlmaktadýr. Sistematik tasarým uygulamalarýnda, þartname ve karar verme aþamalarýarasýndaki kuvvetli iliþki program içerisinde geri beslemeyle desteklenerek gerektiði zaman bilgi deðiþikliklerini sisteme yeniden saðlayabilmektedir.  
+
+2. BÝLGÝ TEMSÝLÝ TÝPLERÝ
+Sistematik tasarým tekniði kullanýlarak yapýlacak tasarým uygulamasý için baþlangýç noktasýný tüm fonksiyon ve alt fonksiyon yapýlarýnýn belirlendiði, problemin tarifi aþamasý oluþturur. Sistematik olarak yapýlacak torna tezgahý tasarýmýnda, fonksiyonel hiyerarþi ve fiziksel parçalarýn iliþkileri belirlenerek, hiyerarþik düzen içinde þartname aþamasýnda ihtiyaçlar ve sýnýrlamalar yapýlandýrýlýr [2]. 
+
+Mekanik sistemlerin sistematik tasarýmý içerisinde elde edilen tüm bilgiler; fonksiyonlar, formüller, çizimler, grafikler, katý modeller vb. þekillerde temsil edilebilir. Tasarým esnasýnda problemin yapýsýna uy­gun seçilmeyen bir temsil biçimi kullanýlacak olur ise,  elde edilecek çözümün gerçekleþtirilme baþarýsýnýetkileyecektir. Bu nedenle bilgi temsillerinin seçimin­de tasarým iþlemi merkezinde bulunan bilgisayar veya insan karar vericinin durumuna göre Þekil 2’de görü­len temsillerden uygun bir seçim yapýlmalýdýr. Temsil biçimi listesinin en üstünde programlama dilleri yer alýrken, en altta ise görüntü temsilleri yer almaktadýr. Bilgisayar merkezli bilgi temsillerinin en önemli özelliði olarak, verilerin çok hýzlýþekilde iþlenmesi ve uygun çözüm için muhakeme etmesi söylenebilir. Ýnsana yönelik olan bilgi temsillerinde ise, ilgili temsil yöntemlerini kullanarak  problemin çözümünde etkin rol oynayan tasarýmcý insan olmaktadýr [3]. 
+Gramer/dil temsil biçimi kullanýlarak tasarým bilgi­lerinin anlatýlmasýnda en etkili olarak kullanýlan yön­temlerdendir. Bilgisayar destekli sistematik tasarým çalýþmalarýn çoðunda, bilgilerin temsili dil/gramer kullanýlarak saðlanmaktadýr. Sistematik tasarým içeri­sinde þartname hazýrlama aþamasýnda istenilen davra­nýþlarý saðlayan bileþenler arasýnda etkileþimin taným­lanmasýnda graf tabanlý dil kullanýmý önerilmektedir. Mekanik sistemlerde sabit akslarýn hareketlerinin tanýmýnda kullanýlan ön bilgiler ve cebirsel  iliþkiler kullanýlarak her bileþene ait hareket ve pozisyonlar tanýmlanmýþtýr. Bazý araþtýrmalar ise, simgesel tabanlýmodeller kullanarak hazýrlanýlan gramer temsilini, tasarým bilgisi verilerine uygun olarak objelere uygulanabileceðini ileri sürmektedir. Bu gramer temsiline benzeyen bir dile örnek olarak  CANDLE gösterilebilir. CANDLE ile mühendislik alanlarýndaki 
+
+
+Þekil 1. Sistematik tasarýmda bilgi akýþýÞekil 2. Bilgi temsil modelleri [3] 
+deðiþik yöntemler ile manipülatör sistemler ve meka­nizma tasarýmýna ait çözüm yöntemlerinde yenilikler elde edilebilmiþtir [3-7]. 
+Geometrik modeller, bir ürünün yapýsal yönden temsili üzerine odaklanmýþtýr. Bilgisayar kullanýlarak yapýlan temsillerde, nesneler  2 boyutlu ve 3 boyutlu olarak ifade edilmektedir.  Günümüzde yapýlan en popüler geometrik þekil temsilleri olarak; B-rep, CSG, Deðiþken geometri ve Unsur temsili gösterilebilir. B-rep, bir þeklin sýnýr bilgileri olan yüzey, kenar ve köþe noktalarýyla temsilidir. Fonksiyonlarýn B-rep olarak temsil yapýlarýnýn oluþturulmasýndan sonra matris iliþkileri kurulabilir. Deðiþken modellemeyle 3 boyutlu uzayda geometrik bir modelin karakteristik taným noktalarýný doðrudan oluþturmak yerine, bu noktalarýn konumlarýnýn kýsýtlamalý sýnýr denklemi yardýmýyla bulunmasýna izin verilir. Geometrik model bilgileri ve temsil yöntemleri üzerinde sürekli yapýlan araþtýrmalar sonrasýnda, geometrik modellemeye elveriþli tanýmlama ve modifikasyonu saðlanabil­mektedir [3,8-11]. 
+Unsur kullanýlarak yapýlan temsillerde ilkel olarak oluþturulan nesneler kullanýlarak imalatý istenilen model oluþturulur. Unsur tabanlý bir tasarým yaklaþýmýnýn kullanýlabilmesi için, tasarýmcý hazýr­ladýðý unsurlarý bir unsur kütüphanesine yerleþtirir. Deðiþken tasarým temsillerinin kullanýmý sonucunda, oluþturulan unsurlardan birinin diðeriyle etkileþimi sonucunda ortaya çýkacak yeni unsurlarýn tanýmlan­masý, karmaþýk bir analiz iþlemine neden olmaktadýr. EDISON isimli bir unsur tabanlý modelleme çalýþmasýnda, bilinen mekanizmalarýn veri tabanýbilgileri, sistem yapýlarý ve konum bilgileri kullanýlabilecek biçimde düzenlemiþtir. Unsur temelli olarak yapýlan araþtýrmalardan bazýlarý ise, tasarýmýyapýlan ürünlerin iþlenmesi için gerekli tezgahta iþleme ve unsurlara ayrýþtýrmayla ilgilidir [12-15]. 
+Graflar ve aðaç yapýlarý, kavramsal  tasarým aþama­sýnda sýk olarak kullanýlan temsillerdir. Graflardaki düðümler unsur kümeleridir ve farklý fiziksel özellik­lerle iliþkilendirilmiþ olabilirler. Bu düðüm noktalarýçizgilerle birbirine baðlanýrken, bu baðlar güç ve hýz gibi özellikleri temsil edebilirler. Graflar ve aðaç yapýlarý, modellerin fiziksel bileþenlerinin temsil ve planlanmasýnda kullanýlýrlar. Kullanýlan graflardaki her bir parçayý baðýmsýz fiziki parçalar olarak inceleyebilmek amacýyla bond grafa dayalý yöntemler tercih edilmiþtir. Bond graf yöntemler genellikle dina­mik harekete sahip sistemlerin temsili için uygundur. Fonksiyonlarýn bond graf temsil edilmesi çalýþma­larýnda fiziksel parçalarýn davranýþlarýnýn temsilinde zorluklarla karþýlaþýlýr. Kullandýðý aðaç modeller sa­yesinde Kusiak, kavramsal tasarýmýn þartname aþa­masý içerisinde mekanik sistemlerinin ihtiyaç ve fonksiyon iliþkisini saðlamada matris denklemler kullanmýþtýr [3,16-21]. 
+Kolb ve Bailey nesneye yönelik kavramsal tasarým model tekniklerini uçak tasarýmý alanýnda kullan­mýþtýr. Kusiak, melez bir objeye yönelik temsil ve ürün kurallarýnýbirlikte ele alarak, kendisine ait CONDES sisteminde kullanmýþtýr. Bu sistemde, modelin tasarým sentezinde objeye yönelik temsil kullanýlýrken, iþleme kýlavuzluk için üretim kurallarýoluþturmuþtur [22,23]. 
+
+
+3. UZMAN SÝSTEMÝN YAPISI 
+Belirli bir problemin çözümünde uzman gibi davranan programlara uzman sistem denilir. Uzman sistemler veri iþlemeye gerek kalmadan, bilgi iþlemeye geçiþolarak anlatýlýr. Geleneksel programlar ile uzman sistemlerde algoritma ve çýkarým mekanizmalarý yer deðiþtirmiþtir. Uzman sistemler, bilgi tabanlý sistemler olup, problemleri daha geniþ bir perspektifte inceleyip, çözümünde insan zekasýný taklit etmeyi hedefleyen yapay zekanýn bir uygulama alanýdýr. Uzman sistem; özel takým problemlerinin çözümünde, uzman bilgisini ve çýkarým iþlemini taklit etmeyi amaçlayan danýþman programlardýr [24-26]. 
+Þekil 3’de TOSÝTA programý karar verme mekaniz­masýna ait iþlem yapýsý görülmektedir. Uzman sistem karar mekanizmasýnýn çalýþmasý sýrasýnda ilk olarak, kullanýcýyla iletiþimin saðlayan arayüz sayesinde þartname bilgileri elde edilmektedir. Ýlgili bilgiler çýkarým mekanizmasý aracýlýðýyla, bilgi tabaný ve veri tabaný kayýtlarýný deðerlendirir. Kural bilgi tabanýve tasarým veri tabaný kýlavuzunda hangi torna tezgahýtipi ve elemanlarýnýn seçileceðine çýkarým mekaniz­masý tarafýndan karar verilir. Genel olarak uzman sistemlerde bulunmasýgereken üç ana modül Þekil 3’de görülmektedir. Bunlar [27]; 
+1. 
+Bilgi tabaný, 
+
+2. 
+Sonuç çýkarma mekanizmasý, 
+
+3. 
+Kullanýcýara yüzü. 
+
+
+Bilgi Tabaný, uzmanlardan, yayýnlanmýþ veya yayýnlanmamýþ kaynaklardan, kitaplardan ve diðer literatürden elde edilen bilginin bulunduðu, saklandýðýve kullanýlmasý gerektiðinde kolaylýkla eriþilebilen bir 
+
+Þekil 3. Uzman sistemin yapýsý
+
+M. Bozdemir ve F. Mendi Yapay Zeka Destekli Sistematik Tasarým Ýçin Bilgi Yönetim Sistem Mimarisi 
+yapýdýr. Bilgi tabaný kurallar, gerçekler, þebekeler ve çerçevelerden oluþur. Sistem yapýsý ayný kalmak koþuluyla konu kapsamý geniþletilmek istenildiðinde kolayca güncelleþtirilebilmeli ve eklemeler yapýlabil­melidir. Çýkarým mekanizmasý, bilgi tabanýndaki kurallarý, gerçekleri ve diðer tüm bilgileri kullanarak hem ileriye hem de geriye doðru zincirleme metodu ile sonuca varabilen mekanizmadýr. Kullanýcý ara yüzü, uzman sistemi kullanan ve onunla sürekli etkileþimde bulunan önemli bir bileþendir. Bu etkileþim doðal dil etkileþimi, grafik etkileþimi, soru­cevap etkileþimi olarak gerçekleþtirilebilir.  
+Uzman kiþinin bilgi ve deneyimlerinin elde edilerek, bilgisayar ortamýna taþýnmasý uzman sistem hazýrla­madaki zor aþamalardandýr. Uzman sistemler  tasarým iþlemlerine bu nedenle “bilgi mühendisliði” olarak da isimlendirilir.  Uzman sistem tasarýmýnda, üzerinde çalýþýlan konu bilgilerinden baþka, ilgili bilgilerin bilgisayara uyarlanmasýna ihtiyaç duyulur. 
+TOSÝTA programý içerisindeki uzman sistem yapýsýna ait bilgilerin, kullanýlma yerlerine göre temsil biçim­leri Þekil 4’de görülmektedir. Uzman sistem çýkarým mekanizma yapýsýna ait bilgiler, biçim, tip, yapý, model ve sunumlarýna ait özelliklerine göre deðiþik baþlýklarda incelenebilmektedir.  
+
+
+4. BÝLGÝ TABANI YÖNETÝMÝ
+Takým tezgahlarýnýn bilgisayar destekli sistematik tasarýmý amacýyla hazýrlanan TOSÝTA programýnýn karar verme modülünde uzman sistem kullanýlmýþtýr. Uzman sistem içerisinde kullanýlan bilgi tabanýiçerisinde tasarým kural tabanýve sistem veri tabanýbulunmaktadýr. Karar verme aþamasýnda çýkarým mekanizmasýþartname bilgilerini deðerlendirirken bu iki bilgi tabanýnýn kýlavuzunda sonuca ulaþmaktadýr. Bilgi tabanlarýnýn sürekli güncellenmesi ve düzeni programýn uygun tasarýmlar yapabilmesi önemlidir. Tasarým bilgi kurallarýnýn oluþturulmasý, düzenlenmesi ve görüntülenmesini saðlamak amacýyla program içerisinde, kural oluþturma, düzenleme ve kayýt görüntüleme menüleri eklenmiþtir. 
+
+Þekil 5.a’da kullanýcýnýn tasarým bilgi tabanýna ulaþa­bilmesi için yetki kontrol menüsü görülmektedir. TOSÝTA programý için hazýrlanan tasarým bilgi taba­ný, tasarým uzmanýveya yetkili kullanýcýlarýn dýþýnda sisteme yanlýþ bilgi kuralýgirilmesini engellemek ama­cýyla, kullanýcý yetki kontrolü sýnýrlandýrmasý yapýlmýþtýr. 
+Þekil 5.b’de kullanýcýnýn giriþ yetkisine sahip olmasýdurumunda, bilgi tabanýna kural ekleme, düzenleme ve kural görüntülemesini saðlamak için kullandýðý, ta­sarým bilgi tabaný kural oluþturma menüsü görül­mektedir. Bu menü ile torna tezgahý tasarýmýna ait model tanýmlayýcýbilgiler seçilerek  tezgah model adýbelirlenir. Yeni kural öðret düðmesi kullanýlarak bir sonraki kural tanýmlamasý geçilebilir. Öðretilen yeni tezgah modellerine ait kural bilgilerinin, tasarým veri tabanýna kalýcý olarak eklenmesi için “Kural kaydet” düðmesi kullanýlýr. Tasarým bilgi tabaný içerisinde yapýla­cak tüm kayýt ekleme iþlemlerinde, kullanýcýya onay ve bilgilendirme amacýyla uyarýmesajlarý gönderilmektedir. 
+Þekil 6’da bilgi tabanýna ait kural kayýtlarýnýn görün­tülendiði arayüz görülmektedir. Kural kaydý gösterme arayüzündeki, “Ýleri-Geri” butonuna basýlarak, ilk ka­yýtla son kayýt bilgisi arasýndaki tüm kayýtlara ulaþým saðlanabilir.  
+
+
+
+
+Þekil 6. Bilgi tabaný kural görüntüleme 
+Kayýt görme iþleminde tasarým bilgi tabanýna en son eklenen kural kayýtlarýna ait detay ayrýntýlarý, kural bilgi tabanýiçerisinde mevcut yüklü kural sayýsý, yüklü kural dosyasý  adý, kayýt konumu, oluþturma tarihi ve saati gibi tüm bilgililere ulaþýlabilir. 
+Kural oluþturma arayüzünde bulunan “Kural editörü” butonu yardýmýyla Þekil 7’deki editör desteði saðlanmýþtýr. 
+Editör kullanýlarak program tarafýndan kullanýlan tüm bilgi tabanýiçerikleri görüntülenebilir ve gerekli deði­þiklikler yapýldýktan sonra kaydedilebilir. Editöre yük­lenmiþ bilgi tabaný üzerinde, yeni kural eklemeleri, güncelliðini kaybetmiþ kurallarýn silinmesi ve mevcut kural içeriklerinin deðiþtirilmesi saðlanabilir. 
+TOSÝTA programýnda kullanýlan sistem veri tabanýbilgilerinin düzenlenmesi amacýyla, veri tabaný listeleme ve veri tabaný editörleri eklenmiþtir. Veri tabaný düzen­leme iþlemleri içerisinde, “Veri tabaný listesi” ve “Veri tabaný editörü” iþlemleri bulunmaktadýr. Veri tabaný bilgileri içerisinde sistematik tasarým iþlemi sý­rasýnda kullanýlan tüm alt fonksiyon yapýlarýna ait sis­tem bileþenlerine ait yapýsal özellik bilgileri bulunmaktadýr. 
+
+Þekil 8’deki veri tabaný listesinde program içerisinde kullanýlmýþbulunan alt fonksiyon yapýlarý ve bu fonksi­yonlara baðlý elemanlarýn tüm özellikleri görülmektedir. 
+Veri tabaný listesi içindeki elemanlara ait herhangi bir düzelme gerektiði durumda Þekil 9’daki Access tabanlý ekleme-düzeltme arayüzü kullanýlýr. Veri tabaný ekleme-düzeltme menüsü içerisinde, yeni bilgi ekleme, bilgi düzeltilmesi veya silinmesi gibi tüm kayýt iþlemleri yapýlabilmektedir. 
+
+
+
+M. Bozdemir ve F. Mendi Yapay Zeka Destekli Sistematik Tasarým Ýçin Bilgi Yönetim Sistem Mimarisi 
+
+Veri tabaný sistem elemanlarýnýn, alt sistem adý, katalog numarasý, çalýþma prensibi özelliði, ekonomi, kontrol tipi gibi özelliklere ait bilgiler bu menüler sayesinde düzenlenebilir. Program içerisinde þartname bilgileri çýkarým kurallarýna dönüþtürülerek, sistem kural tabaný ve veri tabaný kýlavuzunda karar verme için kullanýlmaktadýr. 
+TOSÝTA programýnda karar verme iþlemi sonrasýnda uygun torna tezgahý yapýsý ve buna baðlý alt sistem elemanlarý seçilmektedir. Þekil 10’da program tarafýn­dan yapýlmýþdeðiþik tasarým uygulamalarý görülmektedir. 
+Bu aþamada fonksiyonlar arasýnda fiziksel iliþkiler kurularak, uzman sistem tarafýndan tasarýmý yapýlan sisteme veri tabanýndan uygun nesneler eklenebilir. Sistematik tasarým uygulamalarýnda yapýlan en son bilgi iþlemi ise, tasarým sýrasýnda elde edilen tüm bilgilerin doküman haline dönüþtürülmesidir. TOSÝTA programý kullanýmý sýrasýnda þartname, karar verme, þekillendirme tasarýmý ve ön hesaplama aþamalarýnda yapýlan tüm iþlemler kaydedilebilmekte ve gerektiðin­de kullanýlmak üzere sonuç raporu halinde düzenlene­bilmektedir. TOSÝTA programý tarafýndan yapýlmýþtasarým iþlemi sonrasýnda kullanýcýya sunulan bir tasarým sonuç raporu Þekil 11’de görülmektedir. 
+Rapor bilgisinde þartname aþamasýndan en son þekillendirme aþamasýna kadar süren tüm iþlemler ile uzman sistem karar mekanizmasýna ait seçim kuralýbilgileri yer almaktadýr. 
+
+
+5. SONUÇ 
+Yapýlan çalýþmada, karmaþýk mekanik sistemlerin sistematik tasarýmý sýrasýnda  kullanýlacak bir tasarým iþlem modeline ait TOSÝTA isimli bu programda kullanýlan bilgi akýþve yönetim biçimleri gösterilmiþ­tir. Program içerisinde uzman sistem destekli þartna­me hazýrlama, karar verme, þekillendirme ve doküman hazýrlama aþamalarýnda kullanýlan tasarým bilgilerinin iþleniþine ait uygulama örnekleri gösterilmiþtir. 
+Karar verme aþamasýnda yapay zeka tekniklerinden biri olan uzman sistemler kullanýlmýþ ve karar aþama­sýnda bilgi tabanlarýndan Eðer-O Halde çýkarýmýyla deðerlendirilmiþtir. TOSÝTA programý içerisinde kullanýlan bu bilgi yönetim sistemi sayesinde; 
+•
+Þartname bilgilerine karar aþamasýnda geri ulaþabilme ve yeniden düzenleme, 
+
+•
+Tasarým veri tabaný ve bilgi tabanýna dinamik ulaþým saðlama ve bilgi güncellemeleri yapabilme, 
+
+•
+Þartname bilgilerinin yapay zeka tarafýndan ön kontrolünün yapýlmasý, 
+
+•
+ Karar verme süresinde kýsalma, 
+
+•
+Tasarým iþlemi sonunda tüm bilgilere ait dokü­mantasyonun yapýlabilmesi, gibi sistematik tasarým iþlemlerinde önemli görülen avantajlar saðlanmýþtýr. 
+
+
+
+
+
+
+KAYNAKLAR 
+1.
+ Bozdemir M., Takým Tezgahlarýnýn Yapay Zeka Tekniklerine Dayalý Sistematik Tasarýmý, Gazi Üniv. Fen Bil. Enst., Ankara, Temmuz, 2003. 
+
+2.
+ Suh N., The Principles of Design, Oxford Unv. Pr., N.York, 12-110, 1990. 
+
+3. 
+Hsu W. and Woon M., “Current Research in the Conceptual Design of Mechanical Products”, CAD, 30(5):377-389,1998. 
+
+4. 
+Mullins S. and Rinderle J.R., “Grammatical Approaches to Engineering Design”, In Eng. Des., 2: 121-135, 1991. 
+
+5. 
+Neville D. and Joskowics L., “A Repr. Language for Mechanical Behaviour”, Proc. of the ASME Des. Theo. and Meth. Con., New Mex., 53:1-6, 1993 
+
+6. 
+Tyugu E., “Attribute Models of Design Objects”, Computer Applications in Technology, B-18: 33-34, 1994. 
+
+
+7. Andersson K., Makkonen P. and Person J. G., “A Proposal to a Product Modelling Language to Support Conceptual Design”, Annals of CIRP, 
+44: 129-132, 1995. 
+8.
+ WeilerJ. J., Topological Structure for Geometric Modelling, Ph.D. Thesis, Rensselaer Polytechnic Institute, New York,1-15, 1986. 
+
+9. 
+Mukherjee A. and Liu C.R., “Representation of Function–Form Relationship for the Conceptual Design of Stamped Metal Parts”, Research In Engineering Design, 7: 253-269, 1995. 
+
+10. 
+Lin V.C.,Variational geometry in computer– aided design, M.Sc. Thesis, MIT, Massachusetts, 2-20, 1981. 
+
+
+11.Light R. and Gossard D.C., “Modifications of Geometric Models Through Variational Geometry”, CAD, 14: 112-123, 1982. 
+12.Pratt M.J., “Solid Modelling and the Interface Between Design and Manufacturing”, Computer Graphics and Application, 52-59, 1984. 
+
+M. Bozdemir ve F. Mendi Yapay Zeka Destekli Sistematik Tasarým Ýçin Bilgi Yönetim Sistem Mimarisi 
+13.Dyer M., Flowers M. and Hodges J., “An Eng. Design Invention System Operating Naively”, Conf. of App. of Artf. Intel. in Eng., 327-341, 1986. 
+14.Keiroruz W., Pabon J. And Young R., “Integrating Parametric Geometry, Features, and Variations Modelling for Conceptual Design”, In Design Theory and Methodology, 1-9, 1990. 
+15.Cutkosky M.R., Tenebaum J.M., “Features in Process Based Design,” Proc. Of The Int. Comp. in Eng. Conf., California, 4: 563-569, 1988. 
+16.Malmqvist J., “Computer Aided Conceptual Design of Energy Transforming Technical Systems Based on Technical Systems Theorya Bond Graphs”, Inter. Conf. on Eng. Desing, Lancaster, 59-78, 1994. 
+17.Murty S. and Adnanki S., “PROMPT: An Innovative Design Tool”, In Proce. AAAI-87 MIT, Cambridge, 637- 642, 1987. 
+18.Ulrich K.T. and Seering W.P., “Synthesis of Schematic Descriptions in Mechanical Design”, Eng. Design, 1(1): 34-41, 1989 
+19.Ulrich K. and Seering W., “Functional Sharing in Mechanical Design”, 7 Th Nat. Conf. on Art. Int., Minneapolis, 342-346, 1988 
+20.Rinderle J.R., “Function and Form Relationships: A Basic for Preliminary Design”, Proceeding from the NSF Workshop on the Design Process, Ohio State University, 295-312, 1987. 
+21.Kusiak A., and Szczerbicki E., “A Formal Approach to Design Specifications”, Advances in Design Automation, 311-316, 1990. 
+22.Kolb M.A. and Bailey M.W., “FRODO: Constraint-Based Object Modelling for Preliminary Design”, Adv. In  Des. Automation, 307-318, 1993. 
+23.Kusiak A., Szczerbicki E. and Vujoseviç R., “An Intelligent System for Conceptual Design”, Expert Systems, 3: 35-44, 1991. 
+24.Allahverdi N., Uzman Sistemler, Atlas Yayýn, Ýstanbul, 1-100, 2002. 
+25. 
+Poyrazoðlu O., Gülesin M. ve Kayýr Y., “Uzman Sistem Tekniklerine Dayalý AlýþýlmamýþÝmalat Yöntemlerinin Tespiti”, Mak. Tas. ve Ýml. Yön. Knf., Gazi Üniversitesi, 80-89, 1997. 
+
+26. 
+Turban E., Decision Support and Expert Systems, Macmillan Pub. Comp., New York, 1-80, 1990. 
+
+
+27. Haliloðlu N., Bilgisayar Teknolojisinin Özellikleri: Yapay Zeka’ya Doðru Bir Geliþim, www.geocities.com/nurayhaliloglu/yapayzeka/y a-pay2. html, (02.05.2003). 
+
+
+
+

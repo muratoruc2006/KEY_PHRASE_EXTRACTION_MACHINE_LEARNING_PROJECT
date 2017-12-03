@@ -1,0 +1,238 @@
+R410A SOÐUTUCU AKIÞKANININ TERMODÝNAMÝK ÖZELLÝKLERÝNÝN YAPAY SÝNÝR AÐLARI METODUYLA MODELLENMESÝ
+Önder KIZILKAN, Arzu ÞENCAN ve Ali Kemal YAKUT 
+Makine Eðitimi Bölümü, Teknik Eðitim Fakültesi, Süleyman Demirel Üniversitesi, 32260 Isparta 
+kizilkan@tef.sdu.edu.tr , sencan@tef.sdu.edu.tr , akyakut@tef.sdu.edu.tr 
+(Geliþ/Received: 08.03.2005; Kabul/Accepted: 19.12.2005) 
+ÖZET 
+Bu çalýþmada, buhar sýkýþtýrmalý soðutma çevriminde kullanýlan ve ozon tabakasýna zararý olmayan çevre dostu R410a soðutucu akýþkanýnýn doyma basýncý, sývý ve buhar entalpileri, entropileri, kýzgýn buhar entalpisi ve sýcaklýðý gibi termodinamik özellikleri Yapay Sinir Aðlarý (YSA) modeliyle belirlenmiþtir. Bu modelde kullanýlan veriler, literatürde mevcut olan ampirik ve deneysel veriler yardýmýyla elde edilmiþtir. Çalýþmada; çok iyi eðitilmiþ bir YSA modeliyle,  istenilen her aralýkta soðutucu akýþkanýn termodinamik özelliklerinin tespiti için yeni  formülasyonlar türetilmiþtir. Bu formülasyonlar, að modeline ait aðýrlýk ve bias deðerleri kullanýlarak elde edilmiþtir. Modelden elde edilen denklemlerle çok daha hýzlý ve basit çözümlere ulaþýlmýþtýr. 
+
+1. GÝRÝÞFluoro-Carbon (HCFC) grubunda bulunan R21, R22, 
+R123, R124 gibi soðutucu akýþkanlarýn stratosferdeki Kompresörlü soðutma sistemleri, düþük sýcaklýktaki ozon tabakasýný tahrip ettiði belirlenmiþtir. Bu sebep­bir ortamdan ýsýyý çekerek yüksek sýcaklýktaki ortama ten dolayý birçok ülke arasýnda Montreal Protokolü ile atan ve böylece bulunduðu ortamý soðutan sistemler-bu tür soðutucu akýþkanlarýn üretim ve kullanýmýyla dir. Bu iþlemler soðutucu akýþkanlar yardýmýyla ve ilgili daha sýký önlemlerin alýnmasý için bazý kararlar dýþarýdan enerji harcanarak yapýlýr [1]. alýnmýþtýr [2]. 
+Soðutucu akýþkan seçimi yapýlýrken termodinamik Üretim ve kullanýmý önlenecek olan CFC ve HCFC özelliklerinin yanýnda çevresel etkileri de göz önüne türü soðutucu akýþkanlarýn yerine yeni soðutucu alýnmalýdýr. Yakýn zamana kadar geniþ ölçüde kullaný-akýþkanlarýn bulunmasý ve yaygýnlaþtýrýlmasý gereksi­lagelen halokarbon türü soðutucu akýþkanlardan klor nimi artmaktadýr. Bu çalýþmada modelleme, ozon içeren ve Chloro-Fluoro-Carbon (CFC) grubunda tabakasýna zarar vermeyen ve çevre dostu yeni bir bulunan R11, R12, R13, R113, R114, R500, R502, akýþkan olan R410a üzerine yapýlmýþtýr. R410a, R-22 R503 gibi soðutucu akýþkanlar ile Hidro-Chloro-(HCFC) ve R-500 (CFC) yerine uzun vadede kullanýlmasýöngörülen bir soðutucu akýþkandýr. Ayrýca R22’den daha yüksek basýnç ve soðutma kapasitesine sahiptir [3]. 
+R410a akýþkaný, ozon dostu iki HFC türü akýþkanýn karýþýmýdýr. Bu akýþkanlar R32 (% 50) ve R125 (% 50)’tir. Bu nedenle, R410a akýþkanýnýn çevreye zararýneredeyse yoktur.  
+R410a soðutucu akýþkaný özellikle, daha önceleri R22 kullanýlan iklimlendirme uygulamalarýnda geniþ kul­laným alaný bulmuþtur. Orta ve düþük sýcaklýk soðut­ma uygulamalarý gibi diðer birçok uygulamalarda da kullanýmýmümkündür. R22 akýþkaný ile karþýlaþtýrýl­dýðýnda daha yüksek basýnçlara sahip olan R410a akýþkaný için, bu akýþkana özgü kompresörlerin kulla­nýlmasý gerekmektedir [4]. 
+Literatürde R410a soðutucu akýþkanýnýn termodina­mik özellikleri için ampirik ifadeler verilmiþtir [4]. Fakat bu ifadeler oldukça karmaþýk olup çözümleri uzun zaman almaktadýr. Bu amaçla bu çalýþmada, literatürde belli çalýþma aralýklarýnda bulunan veriler kullanýlarak R410a soðutucu akýþkanýnýn termodina­mik özellikleri YSA modeliyle belirlenmiþ ve formüle edilmiþtir. YSA modeliyle türetilen denklemler yardý­mýyla, literatürde verilen karmaþýk ve kullanýlmasý zor denklemler yerine çok daha hýzlý ve basit çözümlere ulaþýlmýþtýr. Ayrýca bu denklemlerin kullanýmý için bilgisayar yazýlýmlarýna gerek yoktur. 
+
+2. YAPAY SÝNÝR AÐLARI (YSA) 
+Yapay sinir aðlarý, insan beyni esas alýnarak model­lenmiþ bir sistemdir. Klasik yöntemlerle çözülemeyen problemleri insan beyninin çalýþma sistemine benzer yöntemlerle çözmeye çalýþýr [5,6]. 
+Bilgisayar ortamýnda, beynin yaptýðý iþlemleri yapabi­len, karar veren, sonuç çýkaran, yetersiz veri duru­munda var olan mevcut bilgiden yola çýkarak sonuca ulaþan, sürekli veri giriþini kabul eden, öðrenen, hatýrlayan bir algoritma kýsaca “Yapay Sinir Aðlarý” olarak adlandýrýlýr [7–9]. 
+Yapay sinir aðlarý, insan beynindeki nöronlara benzer olarak meydana getirilen yapay nöronlarýn deðiþik baðlantý geometrisi ile birbirlerine baðlanmasýyla olu­þan karmaþýk sistemlerdir. Þekil 1’de biyolojik bir sinir hücresi görülmektedir. Biyolojik nöron, bir 
+
+Þekil 1. Biyolojik bir nöron X1 
+W1 
+
+X2 y
+W2 Wn 
+Xn 
+Þekil 2. Yapay sinir hücresi 
+çekirdek, gövde ve iki tür uzantýdan oluþmaktadýr. Bunlardan kýsa ve dallanmýþ olan dentrit giriþ bilgile­rini alýr. Uzun ve tek olan akson ise çýktý bilgilerini nöronlara taþýr. Akson ve dentritin birleþim yerine sinaps adý verilir. Bunlar nöronlardan aldýðý sinyalleri deðerlendirirler [10,11]. 
+Yapay bir sinir hücresi Þekil 2’de görülmektedir. Her yapay sinir hücresi Þekil 2’den görüldüðü gibi girdiler (Xn), aðýrlýklar (Wn), toplam fonksiyonu (.), aktivas­yon fonksiyonu F(.) ve çýktý (y) olmak üzere beþ ana kýsýmdan oluþur [12, 13]. 
+Girdiler, girdi seti veya kendinden önceki bir katman­daki baþka bir iþlem elemanýnýn çýktýsýdýr. Burada X girdi bilgilerini içeren vektör olmak üzere XT=[X1, X2,..., Xn] þeklinde ifade edilebilir. Aðýrlýklar, girdi seti veya kendinden önceki bir katmandaki baþka bir iþlem elemanýnýn, bu iþlem elemaný üzerindeki etki­sini ifade eden deðerlerdir. Aðýrlýk katsayý deðerlerini içeren vektör ise WT=[W1, W2,... , Wn] ile gösterilebilir. Toplam fonksiyonu, girdiler ve aðýrlýk­larýn tamamýnýn bu iþlem elemanýna etkisini hesapla­yan bir fonksiyondur. Aktivasyon fonksiyonu, toplam fonksiyonun çýktýsýnda hesaplanan deðerin 0 ile 1 veya  –1 ile 1 arasýnda iþlem elemaný çýktý deðerine dönüþtürüldüðü fonksiyondur. Çýktý, aktivasyon fonk­siyonunun sonucudur [14, 15]. 
+Hücreye taþýnan her bir bilgi, girdi deðerleri ve bað­lantý aðýrlýk deðerlerinin çarpýlmasýyla elde edilir. Hücrede toplanan net bilgi: 
+n NET=.XiWi  (1) 
+i=1 
+olarak elde edilir. Hücrede toplanan bilgi bir aktivas­yon fonksiyonundan geçirilerek hücrenin gerçek çýktýdeðeri olan y deðeri, y=f(NET) ifadesi ile elde edilir. Bu çalýþmada tan-sig aktivasyon fonksiyonu seçildiði için y çýktý deðeri: 
+2 
+y = 1+ e-2*NET -1 (2) 
+olarak bulunur. Mühendislikte ve pek çok alanda en çok kullanýlan öðrenme algoritmasý, geriye yayýlma algoritmasýdýr. Bunun en büyük nedeni, öðrenme ka­pasitesinin yüksek ve algoritmasýnýn basit olmasýdýr. Bu yüzden yapýlan çalýþmada YSA’yý eðitmek için geriye yayýlma algoritmasý kullanýlmýþtýr. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+Geriye yayýlmalý aðda, öncelikle ilk katmana bir girdi vektörü uygulanýr. Daha sonra girdi ve 1. katman ara­sýndaki aðýrlýklar yardýmýyla, 1. katmandaki her biri­min aldýðý toplam girdi belirlenir. Her birim, girdisini lineer olmayan bir fonksiyondan geçirerek bir sonraki katmana göndereceði çýktýyý belirler. Bir katmandaki tüm birimlerin durumlarý paralel olarak belirlenir. Bu iþlem, çýktý katmanýndaki birimlerin durumlarýbelirleninceye kadar sýrayla tekrar edilir [16,17]. 
+Geriye yayýlma algoritmasý, gerçek çýktý y ile istenen çýktý d arasýndaki ortalama karesel hatayý minimum yapmak için gradyen azalma algoritmasýný (gradiant descent algorithm) kullanýr ve hata aþaðýdaki gibi hesaplanýr. 
+2 .1/2
+1 .
+
+E = ... 
+. (3) dpk -ypk2 .pk 
+.
+. 
+. 
+Burada; E ortalama karesel hatayý, dpk istenen çýktývektörünü ve ypk gerçek çýktý vektörünü (að çýktýsý) gösterir. Hatanýn sýfýr veya sýfýra çok yakýn olmasý, aðýn çok iyi eðitildiðini gösterir. 
+
+
+3. YSA MODELÝÝLE R410A’NIN TERMODÝNAMÝK ÖZELÝKLERÝNÝN BELÝRLENMESÝ
+Bu çalýþmada, buhar sýkýþtýrmalý soðutma sistemlerin­de kullanýlan R410a soðutucu akýþkanýnýn  doyma basýncý, sývý ve buhar entalpileri, entropileri, kýzgýn buhar entalpisi ve sýcaklýðýgibi termodinamik özel­likleri, ileri beslemeli YSA modeli yardýmýyla tahmin edilmiþtir. Modelde kullanýlan girdi ve çýktý deðerleri Tablo 1’de görülmektedir. Tablodan görüleceði üzere, 5 no’lu modelde kýzgýn buhar bölgesindeki entalpinin hesaplanabilmesi için kýzgýn buhar basýncý ve kýzgýn buhar entropisi kullanýlmýþtýr. Sistemde buharlaþtýrýcý­dan çýkan soðutucu akýþkanýn kompresörde izentropik olarak sýkýþtýrýldýðý kabul edilmiþtir. Dolayýsýyla 4 no’lu modelde elde edilen doymuþ bölge entropisi, 5 no’lu modelde girdi olarak kullanýlmýþtýr. 
+YSA’yý eðitmek için geriye yayýlma algoritmasý kul­lanýlmýþtýr. Ayrýca, transfer fonksiyonu olarak tan-sig aktivasyon fonksiyonu seçilmiþtir. Uygulamada kulla-
+Tablo 1. Girdi ve çýktý parametreleri 
+YSA modeli  Girdi parametreleri  Çýktýparametreleri  
+1  Doyma sýcaklýðý  Doyma basýncý 
+2  Doymuþ sývý sýcaklýðýDoymuþ sývý basýncý Doymuþ sývýentalpisi  
+3  Doymuþ buhar sýcaklýðýDoymuþ buhar basýncý Doymuþ buhar entalpisi  
+4  Doymuþ buhar sýcaklýðýDoymuþ buhar basýncý Doymuþ buhar entropisi  
+5  Kýzgýn buhar basýncýKýzgýn buhar entropisi  Kýzgýn buhar entalpisi  
+6  Kýzgýn buhar basýncýKýzgýn buhar entalpisi  Kýzgýn buhar sýcaklýðý 
+
+nýlacak YSA modeli farklý katman ve nöronlar için denenmiþtir. Sonuç olarak soðutucu akýþkanýn termo­dinamik özelliklerin belirlenmesinde, bütün YSA mo­dellerinde en iyi tahmini, 1000 iterasyon sonucu tek gizli katman ve sekiz nörona sahip olan að mimarisi saðlamýþtýr. 
+Doyma bölgesinin termodinamik özelliklerini tahmin etmek için kullanýlan modelde, 172 veri mevcuttur. Kýzgýn bölgenin termodinamik özelliklerini tahmin etmek için kullanýlan modelde ise 2481 veri mevcut­tur. Termodinamik özelliklerin tahmini için bu veri­lerin %80’i eðitim, geri kalan %20’si test amaçlý kul­lanýlmýþtýr. Doyma basýncý için, eðitim iþlemi sürecin­ce iterasyonla MSE’deki (Mean Square Error) azalma Þekil 3’de görülmektedir. Gerçek deðerler ile YSA metodu kullanýlarak hesaplanmýþ deðerler (test deðer­leri) arasýndaki iliþki ise Þekil 4'te görülmekte olup R2=1 olarak bulunmuþtur. 
+Doymuþ sývýentalpisi için, eðitim iþlemi sürecince MSE’deki (Mean Square Error) azalma Þekil 5’de görülmektedir. Gerçek deðerler ile YSA metodu kullanýlarak hesaplanmýþ deðerler arasýndaki iliþki ise Þekil 6'da görülmekte olup R2=1 olarak bulunmuþtur.  
+Doymuþ buhar entalpisi için, eðitim iþlemi sürecince iterasyonla MSE’deki (Mean Square Error) azalma Þekil 7’de görülmektedir. Gerçek deðerler ile YSA metodu kullanýlarak hesaplanmýþ deðerler (test deðerleri) arasýndaki iliþki ise Þekil 8'de görülmekte olup R2=1 olarak bulunmuþtur. 
+
+Þekil 3. Doyma basýncý deðerlerinin eðitim sonuçlarý
+Simülasyon deðerler 
+1,2 
+1 0,8 0,6 0,4 0,2 
+0 
+R2 = 1  
+
+0 0,2 0,4 0,6 0,8 1 1,2 
+Gerçek deðerler 
+Þekil 4. Doyma basýncý için gerçek deðerler ile YSA metodu kullanýlarak hesaplanmýþ test deðerleri arasýn­daki iliþki 
+
+
+
+0
+0 0,2 0,4 0,6 0,8 1 1,2
+
+Gerçek deðerler 
+
+
+kullanýlarak hesaplanmýþ deðerler (test deðerleri) arasýndaki iliþki ise Þekil 10'da görülmekte olup R2=1 olarak bulunmuþtur. 
+Kýzgýn buhar entalpisi için, eðitim iþlemi sürecince iterasyonla MSE’deki (Mean Square Error) azalma Þekil 11’de görülmektedir. Gerçek deðerler ile YSA metodu kullanýlarak hesaplanmýþ deðerler arasýndaki iliþki ise Þekil 12'de görülmekte olup R2=0,9992 olarak bulunmuþtur. 
+Kýzgýn buhar sýcaklýðý için, eðitim iþlemi sürecince iterasyonla MSE’deki (Mean Square Error) azalma Þekil 13’de görülmektedir. Gerçek deðerler ile YSA metodu kullanýlarak hesaplanmýþ deðerler (test deðerleri) arasýndaki iliþki ise Þekil 14'de görülmekte 
+1 olup R2=1 olarak bulunmuþtur. 
+
+
+1,2 
+
+
+Simülasyon deðerleri 
+0,8 
+0,6 
+0,4 
+0,2 
+
+
+
+Simülasyon deðerleri 
+0,98 0,96 0,94 0,92 0,9 0,88 0,86 
+
+
+4. YSA MODELÝ SONUÇLARI 
+YSA modelinin yukarýda görüldüðü gibi, oldukça iyi eðitim ve test sonuçlarý vermesi sebebiyle R410a soðu­tucu akýþkanýn termodinamik özellikleri, aðýrlýklar ve aktivasyon fonksiyonlarý yardýmýyla formüle edilebilir. 
+Aþaðýda YSA modelinden elde edilen matematiksel 
+formülasyonlar verilmiþtir. Bu formüllerde; En, aðýrlýklar ve girdi deðerlerinin toplamýný, Fn ise gizli katmana ait her bir nörondaki aktivasyon fonksiyonu­nu göstermektedir. Aktivasyon fonksiyonu, Fn fonksi­yonundan görüldüðü gibi tan-sig olarak seçilmiþtir. R410a soðutucu akýþkanýn termodinamik özelliklerini hesaplamak için aþaðýdaki formüller türetilmiþtir: 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+Doymuþ buhar entropisi için, eðitim iþlemi sürecince iterasyonla MSE’deki (Mean Square Error) azalma Þekil 9’da görülmektedir. Gerçek deðerler ile YSA metodu 
+
+
+
+1,2 
+1,05 
+R2  =  0,9992  
+
+R2 = 1  
+
+1 
+Simülasyon deðerleri 
+0,7 
+Simülasyon deðerleri 
+0,4 
+0,2 
+0 
+-0,2 
+
+-0,4 0,6 0,7 0,8 0,9 1 1,1 -0,4 -0,2 0 0,2 0,4 0,6 0,8 1 1,2 
+Gerçek deðerler Gerçek deðerler 
+Þekil 12. Kýzgýn buhar entalpisi için gerçek deðerler Þekil 14. Kýzgýn buhar sýcaklýðý için gerçek deðerler ile YSA metodu kullanýlarak hesaplanmýþ test deðer-ile YSA metodu kullanýlarak hesaplanmýþ test deðer­leri arasýndaki iliþki leri arasýndaki iliþki. 
+En=In wn +bn (4) nöron kullanýldýðýndan soðutucu akýþkanýn her birtermodinamik özelliðini hesaplamak için yukarýdakiFn = 2 -2E -1 (5) eþitlikler E1’den E8’e ve F1’den F8’e yazýlacaktýr. (4) 1+e n ve (6) eþitliðindeki katsayýlar Tablo 2’de verilmiþtir.Bu tabloda, wn, her bir girdiye ait aðýrlýk deðerlerini, 
+(4) eþitliðinde En deðeri, girdi parametreleri ve aðýr-Wn, Denklem (6)’daki katsayýlarý, b1 ve b2’de biaslýklarýn çarpýmýyla (In wn) bias (bn) teriminin toplamýn-deðerlerini göstermektedir. dan elde edilir. Bu çalýþmada tek gizli tabaka ve sekiz 
+Tablo 2. R410a soðutucu akýþkanýnýn termodinamik özellik katsayýlarý
+wn  Pd  hl  hv  sv  hkb  Tkb  
+Td  Td  Pd  Td  Pd  Td  Pd  Pd  sv  Pd  hv  
+93.392  10.3112  35.7652  4.8334  9.8811  1.0429  29.5456  3.5187  4.9463  2.5438  15.0418  
+-36.4198  -3.2084  -3.8347  -4.3669  -2.5008  -0.49618  8.5424  -1.9799  0.8577  -1.3164  -32.2171  
+13.6892  2.9279  4.5332  6.8174  9.5477  0.79458  14.2922  0.6289  5.0362  3.6526  11.3173  
+-3.399  0.031168  10.3013  -1.4164  7.1391  -0.67909  -0.69734  -2.0552  5.2024  -0.50539  2.534  
+2.6197  2.9894  5.9437  3.3032  5.8503  4.8123  0.82337  4.888  6.2425  -0.31714  11.365  
+2.8391  1.6385  4.452  2.4458  5.2158  0.69423  6.7601  3.3186  5.8207  0.53636  -2.0451  
+-3.3068  -1.2373  -5.3581  1.1501  -6.9336  -0.69923  -1.4564  -3.0267  -5.6631  -2.915  -11.8515  
+-10.1424  -0.028146  -0.15799  -1.7247  -1.4454  -1.37  -7.6679  -16.7783  -1.6351  -8.3569  -17.7013  
+16.3339  9.9996  -0.10673  -0.027226  6.7372  0.076707  
+-0.18602  -2.4066  0.41992  0.60676  -14.054  -9.5068  
+0.2554  -1.115  0.86397  -0.12969  9.7048  0.012755  
+Wn  -2.3384  -0.33556  -3.0875  -0.020455  0.96682  6.8082  
+0.23356  -0.0098137  0.82969  0.71436  1.6406  0.71771  
+0.057451  -1.0404  -2.2482  1.0155  20.3349  6.8459  
+-0.01266  -1.1884  -4.6914  3.0743  -0.3778  -0.079008  
+-0.00029997  -7.6348  -1.9588  5.0717  -23.2254  -0.18312  
+-66.5566  -44.1664  -12.6287  -7.3318  -21.1358  -16.6452  
+24.7132  5.6543  4.3774  1.4005  0.9781  35.0128  
+-9.3066  -5.713  -5.2285  0.46456  -22.1759  -12.6502  
+b1  3.0346  -9.2382  -2.2621  -2.6616  -8.8253  -2.0225  
+-0.87014  -0.30221  -0.80254  4.2864  -14.0473  -11.4897  
+0.16083  0.20365  -0.87045  2.571  6.0019  1.6081  
+-1.3067  -0.12609  1.3495  -2.8062  7.6653  7.9256  
+-6.8686  -0.5498  -1.6056  -18.4868  -4.8069  10.5662  
+b2  19.417  7.4984  -0.7075  7.0981  -10.8111  10.5353  
+
+Tablo 3. Girdi ve çýktý parametrelerinin normalizasyon katsayýlarý 
+Soðutucu Akýþkan  Parametre  Katsayý  
+R410a  Doyma sýcaklýðý, Td Doyma basýncý, Pd Doymuþ sývý entalpisi, hl Doymuþ buhar entalpisi, hv Doymuþ buhar entropisi, sv Kýzgýn buhar basýncý, Pkb Kýzgýn buhar entropisi, skb Kýzgýn buhar entalpisi, hkb Kýzgýn buhar sýcaklýðý, Tkb  100.1 4714 347.5 427.8 2.2 4000.1 2.6 625.5 215.1  
+
+Girdi ve çýktý parametreleri -1 ile 1 aralýðýnda normalize edilmiþtir. Bu amaçla her bir parametre Tablo 3’de verilen katsayýlara bölünmüþtür. Sonuç olarak Tablo 1’de verilen girdi deðerlerine baðlý olarak soðutucu akýþkanýn çýktýdeðerleri aþaðýdaki gibi hesaplanýr: 
+E9=F1 W1+F2 W2+F3 W3+F4 W4+F5 W5+F6 W6+F7 W7+F8 W8+b2 (6) 
+F9=2/(1+exp(-2E9))-1 (7) 
+
+
+5. SONUÇLAR 
+Bu çalýþmada, buhar sýkýþtýrmalý soðutma çevriminde kullanýlan ve ozon tabakasýna zararý olmayan çevre dostu R410a soðutucu akýþkanýnýn doyma basýncý, sývýve buhar entalpileri, entropileri, kýzgýn buhar entalpisi ve sýcaklýðý gibi termodinamik özellikleri Yapay Sinir Aðlarý (YSA) modeliyle belirlenmiþ ve matematiksel olarak formülize edilmiþtir. Modelden elde edilen basit formüllerle, R410a soðutucu akýþkanýnýn termo­dinamik özellikleri hýzlý bir þekilde baþarýyla hesapla­nabilmektedir. Bu yeni yaklaþým, farklý ve alternatif soðutucu akýþkanlarýn termodinamik özelliklerinin be­lirlenmesinde de oldukça yararlý olacaktýr. 
+
+
+KAYNAKLAR 
+1. 
+Çengel, A.Y., Boles, A.M, Thermodynamics: An Engineering Approach, McGraw-Hill, New York, U.S., 1994. 
+
+2. 
+Özkol, N., Uygulamalý Soðutma Tekniði, TMMOB Makine Mühendisleri Odasý Yayýn No: 115, Ankara, 1999. 
+
+3. 
+Dossat, R.J., Principles of Refrigeration, Prentice Hall, New Jersey, U.S., 1997. 
+
+
+4. 
+Dupont. 2004. DuPont de Nemours and Company Inc. http://www.dupont.com/suva 
+
+5. 
+Kalogirou, S.A.,“Artificial Neural Networks in Renewable Energy Systems Applications: A Review”, Renewable and Sustainable Energy Reviews, 5, 373–401, 2000. 
+
+6. 
+Dorvlo, S.S., Jervase, J.A., Al-Lawati, A., “Solar Radiation Estimation Using Artificial Neural Network”, Applied Energy, 71, 307–319, 2002. 
+
+7. 
+Civalek, Ö., “Dairesel Plaklarýn Nöro-Fuzzy Tekniði Ýle Analizi”, Dokuz Eylül Üniversitesi Fen ve Mühendislik Dergisi, 1(2), 13-31, 1999. 
+
+8. 
+Sözen, A., Arcaklýoðlu, E., Özalp, M., Formulation based on Artificial Neural Network of Thermodynamic Properties of Ozone Friendly Refrigerant/Absorbent Couples”, Applied Thermal Engineering, 25(11-12): 1808-1820, 2005. 
+
+9. 
+Sözen,A., Akçayol, M.A., “Modelling (Using Artificial Neural-Networks) the Performance Parameters of a Solar-Driven Ejector-Absorption Cycle”, Applied Energy, 79(3): 309-325, 2004. 
+
+10. 
+Kalogirou, S. A., “Long-Term Performance Prediction of Forced Circulation Solar Domestic Water Heating Systems Using Artificial Neural Networks”, Applied Energy, 66, 63–74, 2000. 
+
+11. 
+Kalogirou, S.A, “Applications of Artificial Neural Networks in Energy Systems: A Review”, Energy Conversion&Management, 40: 1073-1087, 1999. 
+
+12. 
+Fu, L.M., Neural Networks in Computer Intelligence, Mc Graw-Hill International Editions, 460p., 1994. 
+
+13. 
+Tsoukalas, L.H., Uhrig, R.E., Fuzzy and Neural Approaches In Engineering, John Wiley&Sons Inc., 587p., 1997. 
+
+14. 
+Efe, Ö., Kaynak, O., Yapay Sinir Aðlarý ve Uy­gulamalarý, Boðaziçi Üniversitesi, Ýstanbul, 2000. 
+
+15. 
+Þencan, A., Yakut, A.K., Dikmen, E., “A New Model for Determining the Thermodynamic Properties of LiBr-H2O Solution”, G.U. Journal of Science, 17(1):101-110, 2004. 
+
+16. 
+Sözen, A., Arcaklýoðlu, E., Özalp, M., “Formulation based on Artificial Neural Network of Thermodynamic Properties of Ozone Friendly Refrigerant/Absorbent Couples”, Applied Thermal Engineering, 25(11-12): 1808-1820, 2005. 
+
+17. 
+Sözen,A., Akçayol, M.A., “Modelling (Using Artificial Neural-Networks) the Performance Parameters of a Solar-Driven Ejector-Absorption Cycle”, Applied Energy, 79(3): 309-325, 2004. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+
+

@@ -1,0 +1,353 @@
+YAPI MALZEMELERÝNÝN AVRUPA YANGINA TEPKÝSINIFLARI, KONUNUN TÜRKÝYE - AVRUPA GENELÝNDE ÝRDELENMESÝ VE ULUSAL SINIFLARIN YENÝ AVRUPA SINIFLARINA UYARLANMASI 
+Füsun DEMÝREL ve Sedat ALTINDAÞ* 
+
+Mimarlýk Bölümü, Mühendislik Mimarlýk Fakültesi, Gazi Üniversitesi, 06570 Maltepe, Ankara 
+fusund@gazi.edu.tr, sedatdas@yahoo.com 
+
+(Geliþ/Received: 24.12.2004; Kabul/Accepted: 26.08.2005) 
+ÖZET 
+Avrupa Birliði teknik mevzuatýnda yapý malzemeleri konusunda var olan geliþmeler ve bu geliþmelerin mimarlýk disiplinine olan yansýmalarý, Avrupa Birliðine üye tüm ülkelerde olduðu gibi, bu süreci çok yakýndan takip eden ülkemizde de geniþ yankýlar uyandýrmaktadýr. Konunun güncelliði ve Avrupa Birliðine uyum süreci, ülkemizde yangýn mevzuatýnýn yeniden yapýlandýrýlmasýný zorunlu kýlmaktadýr. Bu makalede; Avrupa Birliðinin, üye ülkeler arasýndaki farklý yaklaþýmlarý ortadan kaldýrmak amacýyla yayýmladýðý ve yapý malzemelerine genel bir yaklaþým getiren Yapý Malzemeleri Direktifi (89/106/EEC), yangýndan korunum çerçevesinde incelenmiþtir. Sözü edilen direktif baðlamýnda, yapý malzemelerinin Avrupa yangýna tepki sýnýflarý (Euroclasses) ve sýnýflandýrmaya temel olan test standartlarý ile sýnýflandýrma kriterlerinin analizi yapýlmýþtýr. Ayrýca makalede, Avrupa Birliðine üye 26 ülke ve Avrupa Serbest Ticaret Birliðine (EFTA) üye 4 ülke araþtýrýlarak, bu ülkelerin ulusal yangýna tepki sýnýflarýnýn, yeni Avrupa sýnýflarýna göre düzenlemelerine yer verilmiþtir. Yapýlan bu araþtýrma sonunda, ülkemiz yangýn mevzuatýnda yer alan ulusal yangýna tepki sýnýflarýnýn, yeni Avrupa sýnýflarýna (Euroclasses) göre uyarlamasý yapýlmýþtýr. 
+
+F. Demirel ve S. Altýndaþ Yapý Malzemelerinin Avrupa Yangýna Tepki Sýnýflarý, Konunun Türkiye - Avrupa Genelinde Ýrdelenmesi ve... 
+
+1.GÝRÝÞ
+Bir çok ülke, yangýndan korunma amacýyla kabul edilebilir minimum seviyeyi oluþturmak için hükme dayalý zorunluluklar getirmiþtir. Bu zorunluluklar, binalarýn tasarýmýnda mimar ve mühendisler için rehber görevini üstlenmektedir. Ancak, tamamen hükme dayalý tasarýmlar, her zaman ihtiyaç duyulan esnekliði saðlamadýðý gibi belirlenmiþ fonksiyonel ihtiyaçlarýn karþýlanamadýðý durumlarý da doðurmaktadýr. Performansa dayalý düzenlemelerde ise, kabul edilebilir çýktýlar ve kýsýtlý olmayan sayýda çözümler üzerine odaklanma söz konusudur. Günümüzde, dünya çapýnda fonksiyona ve performansa dayalý düzenlemelerin, yönetmeliklerin oluþturulmasý yönünde bir eðilim oluþmuþtur [1]. Bazýülkeler bu yaklaþýmý yýllar önce kabul etmiþ olup, bazýülkelerde ise yeni oluþum aþamasýndadýr. Üye Ülkeler arasýndaki bu farklý yaklaþýmlarý ortadan kaldýrmak amacýyla Avrupa Birliði, Yapý Malzemeleri Direktifini (Construction Product Directive-CPD) yayýmlamýþtýr [2]. 
+Bu direktif ülkemizde de Gümrük Birliði Antlaþmasýçerçevesinde, adapte edilmesi gereken Avrupa Birliði Teknik Mevzuatýnýn, 4703 sayýlý, “Ürünlere Ýliþkin Teknik Mevzuatýn Hazýrlanmasý ve Uygulanmasýna Dair Kanun” kapsamýnda Bayýndýrlýk ve Ýskan Bakanlýðýnca uyumlaþtýrýlarak, 8 Eylül 2002 yýlýnda Yapý Malzemeleri Yönetmeliði (89/106/EEC) adýaltýnda yayýmlanmýþtýr [3]. 
+Yapý Malzemeleri Direktifi (89/106/EEC)’ne göre, yapýlarýn karþýlamalarý gereken temel gerekler mevcut olup, bunlar yapý malzemelerinin teknik özelliklerini etkilemektedir. Bu temel gereklerin en önemlilerinden biri de yangýn durumunda emniyettir. Üye ülkelerin ulusal yangýn mevzuatlarýna bakýldýðýnda, coðrafi, iklimsel ve/veya yaþam koþullarýndaki farklýlýklar nedeniyle, yapý malzemelerinin karþýlamasý gereken özelliklerinin de farklýlaþtýðý görülmüþtür. Avrupa Birliðince, bu farklýlýklarýn yapý malzemelerinin serbest dolaþýmý ve kullanýmýný engellememesi için yangýn durumunda emniyet temel gereði doðrultusunda, malzeme performans sýnýflarýoluþturulmuþtur. Bu çalýþmada; yangýndan korunum baðlamýnda, Yapý Malzemeleri Direktifi(89/106/EEC) ile yangýnla ilgili temel gerek doðrultusunda oluþturulmuþmalzeme performans sýnýflarýndan biri olan Avrupa yangýna tepki/reaksiyon sýnýflarýincelenerek, konu ile ilgili olarak ülkemizde ve Avrupa’daki durumun ortaya konulmasýamaçlanmýþtýr. 
+2. YANGINDAN KORUNUM VE YAPI MALZEMELERÝ DÝREKTÝFÝ (CPD­89/106/EEC) 
+Yapý Malzemeleri Direktifi, Avrupa Birliðinin yirminin üzerinde ürün grubu için geliþtirdiði yeni yaklaþým direktifleri kapsamýndadýr [4]. Bu direktifin iki temel amacý bulunmaktadýr; 
+• 
+Güvenlik ve kamu yararý için her ülkenin kendi açýsýndan ortaya koyduðu temel gereklerin ortak noktasýnýn saptanmasý, 
+
+• 
+Üretimin ortak yöntemi belirlenerek, standartlarýn ortak hale getirilmesi ve böylece AB ülkeleri arasýndaki ticarette teknik engellerin ortadan kaldýrýlarak, yapý malzemelerinin serbest dolaþýmýnýn saðlanmasýdýr. 
+
+
+Yapý malzemeleri direktifinin altý temel gereði bulunmaktadýr [2]. Bunlar; 
+1) Mekanik dayaným ve kararlýlýk (stabilite), 2) Yangýn durumunda emniyet,3) Hijyen, saðlýk ve çevre,4) Kullaným emniyeti, 5) Gürültüye karþý korunma, 6) Enerjiden tasarruf ve ýsý korunumudur. 
+Yukarýdaki temel gereklerden görüldüðü gibi, bugüne dek Türkiye’de üzerinde fazlaca durulmayan yangýn mevzuatý, Avrupa Birliði tarafýndan oldukça önemsenmekte olup, ikinci temel gereði oluþtur­maktadýr. Ýkinci temel gereðin alt temel gerekleri ise aþaðýda verilen þekilde oluþturulmuþtur [2]. 
+a) Ýnþa edilen yapýnýn yük taþýma kapasitesi belli bir süre azalmamalýdýr [Yangýna Dayaným–YD (Fire Resistance)]. 
+b) Yapý içinde yangýn çýkmasý, yangýnýn ve dumanýn yayýlmasý sýnýrlý olmalýdýr [Yangýna Tepki-YT (Reaction to Fire)]. 
+c) Yangýnýn çevredeki yapýlara yayýlmasý sýnýrlýolmalýdýr [YD, YT, Aktif Güvenlik Sistemleri-AGS (Active Security Systems)] 
+d) Yapý sakinleri binayý terk edebilmeli veya baþka yollarla kurtarabilmelidir [YD, YT, AGS, Algýlama Sistemleri-AS (Signalling Systems)] 
+e) Kurtarma ekiplerinin emniyeti göz önüne alýnmalýdýr (YD, YT, AGS, AS). 
+Yukarýda belirtilen temel alt gerekler içinde, özellikle mimarlýk disiplini içine giren ve pasif yangýn güvenlik önlemlerinden birini oluþturan yapý malzemelerinin yanýcýlýk özellikleri (reaction to fire) ile ilgili ortak Avrupa Sýnýflarý (Euroclasses), 2000/147/EC sayýlý [5] komisyon kararý ile ortaya konulmuþtur. Konu ile ilgili AB komisyon kararlarýna iliþkin bilgiler Tablo 1’de verilmiþtir. 
+Bir diðer alt temel gerek olan yapý elemanlarýnýn yangýna dayaným performanslarý (Fire Resistance) ile ilgili ortak Avrupa sýnýflandýrmasý ise, 2000/367/EC sayýlý [6] komisyon kararýnda belirtilerek Avrupa Birliði Resmi Gazetesinde yayýmlanmýþtýr. 
+
+KOMÝSYON KARARLARI  ADI  AMACI  KAPSAMI  
+2000/147/EC [5]  Yapý Malzemelerinin Yangýna Tepki Sýnýflarý kapsamýnda Yapý Malzemeleri Direktifini (89/106/EEC) uygulayan Komisyon Kararý 89/106/EEC kapsamýnda, YapýMalzemelerinin Yangýna Tepki Performans Sýnýflarýný ortaya koymak.  Döþemeler ve döþemeler dýþýndaki yapý malzemeleri için yangýna tepki performans sýnýflarýný ortaya koyan tablolar verilmektedir.  
+96/603/EC [7]  89/106/EEC direktifi kapsamýnda yangýna katký saðlamayan A sýnýfýna ait listeyi ortaya koyan AB Komisyonu Kararý 89/106/EEC direktifi kapsamýnda, test edilmeye gerek kalmadan yangýna katký saðlamayan ürünleri ortaya koymak.  Yangýna katký saðlamayan A1 sýnýfýmalzemeler verilmektedir.  
+2000/553/EC [8]  Çatý kaplamalarýnýn dýþ yangýn performansý kapsamýnda Yapý Mal­zemeleri Direktifini (89/106/EEC) uygulayan Komisyon Kararý 89/106/EEC direktifi kapsamýnda, test edilmeye gerek kalmadan dýþyangýn performansý gereksinim­lerini saðlayan çatý kaplama ürünlerini ortaya koymak.  “Dýþ Yangýn Performansý” karakteristik özellikleri bakýmýndan teste gerek kalmadan tüm gereksinimleri karþýlayan çatýkaplama malzemelerine ait liste verilmektedir.  
+2000/605/EC [9]  89/106/EEC direktifi kapsamýnda yangýna katký saðlamayan A sýnýfýmalzemelere ait listeyi ortaya koyan 96/603/EC Komisyonu Kararýnýn düzeltilmesi  89/106/EEC direktifi kapsamýnda, test edilmeye gerek kalmadan yangýna katký saðlamayan ürünleri ortaya koymak.  Yangýna katký saðlamayan A1 ve AFL sýnýfý malzemeler verilmektedir.  
+2001/671/EC [10]  Çatýmalzemeleri ve çatý kaplama­larýnýn dýþ yangýn performansýnýn sýnýflandýrýlmasý kapsamýnda YapýMalzemeleri Direktifini (89/106/EEC) uygulayan Komisyon Kararý Yapý Malzemeleri Direktifi (89/106/EEC) kapsamýnda çatýmalzemeleri ve çatý kaplamala­rýnýn dýþ yangýn performans sýnýflarýný ortaya koymak.  Çatýmalzemeleri ve çatý kaplama­larýnýn dýþ yangýn performanslarýna göre sýnýflandýrýlmasý verilmektedir.  
+2003/43/EC [11]  Bazý yapý malzemelerinin yangýna tepki sýnýflarýný ortaya koyan Komisyon Kararý Teste gerek kalmadan yangýna tepki performans gereksinim­lerinin tümünü karþýlayan yapýmalzemelerini otaya koymak.  Teste gerek kalmadan, ahþap bazlýpanel levhalarýnýn yangýna tepki performans sýnýflarý ortaya konul­maktadýr.  
+2003/424/EC [12]  89/106/EEC direktifi kapsamýnda yangýna katký saðlamayan A sýnýfýna ait listeyi ortaya koyan 96/603/EC Komisyonu Kararýnýn düzeltilmesi  89/106/EEC direktifi kapsamýnda, test edilmeye gerek kalmadan yangýna katký saðlamayan ürünleri ortaya koymak.  Yangýna katký saðlamayan A1 ve AFL sýnýfý malzemelere ait listede bazýmaddelerin düzeltilmesi verilmek­tedir.  
+2003/593/EC [13]  Bazý yapý malzemelerinin yangýna tepki sýnýflarýný ortaya koyan 2003/43/EC Komisyon Kararýnýn düzeltilmesi  Teste gerek kalmadan yangýna tepki performans gereksinimle­rinin tümünü karþýlayan yapýmalzemelerini ortaya koymak.  Teste gerek kalmadan, alçý panel levhalarýn, yüksek basýnçlý dekoratif laminat panel levha ve strüktürel ahþap levhalarýn yangýna tepki performans sýnýflarý ortaya konulmaktadýr.  
+2003/632/EC [14]  Yapý Malzemelerinin Yangýna Tepki Sýnýflarý kapsamýnda Yapý Malzemeleri Direktifi (89/106/EEC)’ni uygulayan 2000/147/EC Komisyon Kararýnýn düzeltilmesi  89/106/EEC kapsamýnda, yapýmalzemelerinin yangýna tepki performansý sýnýflarýný ortaya koymak  Lineer borularda kullanýlan ýsýyalýtým malzemeleri için yangýna tepki performans sýnýflarýný ortaya koyan tablolar verilmektedir.  
+
+Yapý Malzemeleri Direktifinde gözlenen baþlýca deðiþiklik alanlarý olan yapý malzemelerinin yangýna karþý tepkisi EN 13501-1[15,16]’da, yapýelemanlarýnýn yangýna dayaným performanslarý EN 13501-2, prEN 13501-3,4 [17-20]’de ve çatýlarda harici yangýn yayýlýmý (external fire spread-roofs) ise prEN 13501-5 [21]’de ele alýnmýþtýr. 
+Yapý Malzemeleri Direktifi (CPD) kapsamýnda her temel gereði açmak üzere bir “Açýklayýcý Doküman” yayýmlanmýþtýr. Açýklayýcý Dokümanlar bilgilendirme amacýný taþýmakta olup, temel gerekler, ayrýntýlý bir biçimde bu dokümanlarda açýklanmaktadýr. Yangýnla ilgili temel gerek, “Interpretative Document Number 
+2: Safety in Case of Fire” adý altýnda Avrupa Birliði Resmi Gazetesinde yayýmlanmýþtýr [22]. Benzer þekilde Ülkemizde de, Yapý Malzemeleri Yönetmeliði kapsamýnda Açýklayýcý Dokümanlar 29 Kasým 2004’de Resmi Gazetede yayýmlanmýþtýr [23]. 
+Yapý Malzemeleri Direktifi baðlamýnda, 12 adet Kýlavuz Belge (Guidance Paper A,B,C,D,E,F,G,H,I,J,K,L) yayýmlanmýþtýr [24-35] Bunlardan “Kýlavuz Belge G” 
+[30] de; Yapý malzemelerinin yangýna tepkisi ile ilgili Avrupa sýnýflandýrma sisteminin iþleyiþine dair konular ele alýnmýþ olup Kýlavuz Belge J [33]’de ise, mevcut ulusal sistemlerden yeni Avrupa sistemlerine geçiþe dair düzenlemelere yer verilmiþtir. 
+Kýlavuz Belge J [33]’ye göre; yapý malzemeleri ilgili bir teknik mevzuat ortaya çýktýktan sonra, teknik mevzuat ile çeliþen ulusal sistemlerin sürdürülmesinin AB kanunlarýna uymadýðý, dolayýsýyla, ulusal yangýn sýnýflandýrma sistemlerinin uygun bir zaman içerisinde yürürlükten kaldýrýlmasýnýn gerekeceði bildirilmektedir. Ayrýca ulusal yangýn sistemlerinin yürürlükten kaldýrýlmasýnýn, Avrupa ürün þartnamelerinin önemli bir bölümü ortaya çýktýktan ve bunlarýn eþ-varlýk (Ulusal standartlar ile AB standartlarýnýn birlikte yürürlükte olmasý) dönemi sona erdikten sonra gerçekleþmesi gereði ortaya konmaktadýr. Ýki paralel sistemin yürütülmesi ile ilgili olabilecek problemleri gidermek için de, Avrupa sýnýflandýrma sistemlerinin tek ulusal sistem olarak 
+
+F. Demirel ve S. Altýndaþ Yapý Malzemelerinin Avrupa Yangýna Tepki Sýnýflarý, Konunun Türkiye - Avrupa Genelinde Ýrdelenmesi ve... 
+erken tarihlerde aynen benimsenmesinin, üye ülkelerin çýkarlarý yönünde olduðu da bu belgede vurgulanmaktadýr. Avrupa standartlarýyla çeliþen ulusal yangýn standartlarýnýn yürürlükten kaldýrýlma tarihi, Avrupa Standardizasyon Komitesi (CEN-European Committee for Standardization) kurallarýnca belirlenmekte olup, izin verilen minimum süre, Avrupa standartlarýnýn daðýtýmýndan sonra 6 ay, maksimum süre ise 3 yýldýr [33]. 
+3. YAPI MALZEMELERÝ DÝREKTÝFÝ(89/106/EEC) BAÐLAMINDA YAPI MALZEMELERÝNÝN YANGINA TEPKÝSÝNE GÖRE SINIFLANDIRILMALARI (EUROCLASSES) 
+Belirli þartlar altýnda bir yapý malzemesi yangýna maruz kaldýðý zaman, parçalanmasý suretiyle yangýna katkýda bulunarak gösterdiði davranýþ, o yapýmalzemesinin yangýna karþý tepkisini ortaya koymaktadýr [15,16]. 
+Yapý malzemelerinin yanýcýlýk özellikleri ile ilgili ortak Avrupa Sýnýflarý (Euroclasses); 8 Þubat 2000 tarihinde 2000/147/EC sayýlý [5] komisyon kararý ile ortaya konulmuþtur. Bu sýnýflandýrma; 2002 yýlýnda Avrupa Standardizasyon Komitesi (CEN) tarafýndan da kabul edilerek EN 13501-1 standardý [15], Avrupa Birliði Resmi Gazetesinde yayýmlanmýþtýr. Buna ilave olarak CEN’e baðlý “8. Çalýþma Grubu”, bu konu üzerinde çalýþmalarýný sürdürmek üzere yapýlanmýþtýr [36]. 
+Gümrük Birliði Antlaþmasý ile, adapte edilmesi gereken Avrupa Birliði Teknik Mevzuatýnýn uyumlaþtýrýlmasý aþamalarýndan biri olarak, yapýmalzemelerinin yanýcýlýk özellikleri için ortak Avrupa Sýnýflarý, Aralýk 2003 tarihinde TSE tarafýndan TS EN 13501-1 [16] standardý ile “Ýhtiyari” olarak, 29 Temmuz 2004 tarihinde ise Bayýndýrlýk ve Ýskan Bakanlýðý Tebliði [37] ile, “Uyumlaþtýrýlmýþstandartlara tabi yapýmalzemeleri için” olmak üzere ülkemize girmiþ bulunmaktadýr. 
+Yapý malzemelerinin yangýna tepki sýnýflarý Tablo 2’de, söz konusu sýnýflarýn belirlenebilmesi için kullanýlan standartlar Tablo 3’de ve sýnýflandýrma kriterleri ise Tablo 4, 5, 6 ve 7’de verilmiþtir. 
+Tablo 2’den de görüleceði gibi, yapý malzemelerinin yangýna tepki sýnýflarýbelirlenirken malzemelerin son kullaným koþullarý dikkate alýnarak döþemeler, döþeme dýþýndaki yapýmalzemeleri, lineer borularda kullanýlan ýsý yalýtým malzemeleri, çatýlarda kullanýlan malzemeler gibi gruplara ayrýlmýþtýr. Bu gruplandýrma çalýþmasý yukarýdaki tabloda yer alan kablo malzemelerinden de anlaþýlacaðý gibi halen devam etmektedir.  
+TS EN 13501-1’de döþemeler ve döþemeler dýþýndaki yapý malzemelerinin yangýna tepki sýnýflarýverilmektedir. Söz konusu standartta, diðer malzeme gruplarý hakkýndaki incelemelerin devam etmekte olduðu ve gerektiðinde bu konularýn standarda ekleneceði bildirilmektedir [15,16]. Çatý ve çatýkaplama malzemelerinin dýþ yangýn performanslarýna göre sýnýflandýrýlmasý, 2001/671/EC sayýlý [10] komisyon kararýnýn yaný sýra, henüz hazýrlýk aþamasýnda olan prEN 13501-5 [21]’de yer almaktadýr. 
+Malzemelerin son kulaným koþullarýna göre gruplandýrýlmasý, yangýna tepki sýnýflarýný belirlemek için uygulanacak olan test metotlarýný da etkilemektedir. Örneðin, yangýnýn geliþme evresinde malzemenin yangýna katkýsýný deðerlendirmek için döþeme malzemelerinde EN 9239-1 [47,48] deney metodu, döþeme harici yapý malzemelerinde ise EN 13823 [43,44] deney metodu kullanýlmaktadýr (Tablo 3). Çatý ve çatý kaplama malzemeleri ise diðer malzemelerin aksine bir dýþ yangýn koþullarý altýnda tamamen farklý test metotlarýna maruz kalmakta ve sýnýflandýrma bu veriler yardýmýyla yapýlmaktadýr (Tablo 7). 
+Tablo 8, 9, 10 ve 11’de döþemeler, döþemeler dýþýndaki yapý malzemeleri, lineer borular, çatýlar ve çatý kaplamalarýnda kullanýlan yapý malzemelerinin yangýna tepki sýnýflarýnýn belirlenebilmesi için özet tablolar verilmiþtir. 
+
+Tablo 2. AB komisyon kararlarýna göre, yapý malzemelerinin yangýna tepki sýnýflarý (Euroclasses) 
+Döþemeler Dýþýndaki Yapý Malzemeleri için  Döþemeler için  Lineer Borularda Kullanýlan Isý Yalýtým Malzemeleri  Çatýlarda kullanýlan yapý malzemeleri  Kablolar  
+2000/147/EC [5]  2000/147/EC [5]  2003/632/EC [14]  2001/671/EC [14]  FWG 04/062 (Taslak) [38]  
+A1  A1FL  A1L  - Aca 
+A2  A2 FL  A2L  
+B  B FL  BL  Broof  B1ca  
+B2ca  
+C  C FL  CL  Croof  Cca  
+D  D FL  DL  Droof  Dca  
+E  E FL  EL  Eca  
+F  F FL  FL  Froof  Fca  
+
+TEST STANDARTLARI  AVRUPA SINIFLARI (EURO­CLASSES)  TEST METOTLARI  AÇIKLAMALAR  
+EN 13501-1 [15] TS EN 13501-1 [16]  Yapý Mamulleri ve Yapý Elemanlarý – Yangýn Sýnýflandýrmasý- Bölüm 1: Yangýn Karþýsýndaki Davranýþ Deneylerinden Elde Edilen Veriler Kullanýlarak Sýnýflandýrma  TSE tarafýndan aynen tercüme edilerek Aralýk 2003 yýlýnda yayýmlanmýþtýr.  
+EN ISO 1182 [39]  A1, A2, A1FL, A2FL  Yanmazlýk Testi (Non-combustibility test) (Þekil 1)]  Bu test, bir mamulün son kullanýmý dikkate alýnmaksýzýn bir yan­gýna katkýsýnýn önemli derecede olup olma­yacaðýnýn belirlenmesi amacýyla uygulanýr.  TS 1912 “YapýMalzemeleri için yanmazlýk deney metodu” standardý ile benzerlikler taþýmakta olup, geliþtirilmiþhalidir. TS 1912, ISO 1182 (1983)’den tercüme edilerek söz konusu standardýn ulusal karþýlýðýolmuþtur [40].  
+EN ISO 1716 [41]  A1, A2, A1FL, A2FL  Kalorofik Potansiyel Testi [(Calorific potential test - PCS and PCL) (Þekil 2)]  Bu test, bir mamulün son kullanýmý dikkate alýnmaksýzýn, tamamen yandýðýnda açýða çýkan toplam en yüksek enerji deðerinin tayini için uygulanýr. Bu deneyle hem toplam kalorifik potansiyel (TKP, PCS), hem de net kalorifik potansiyel (NKP; PCI) tayin edilir.  TS 1913:1975 “YapýMalzemeleri Isý Deðer Tayini” standardý ile benzerlikler taþýmakta olup, geliþtirilmiþ halidir. TS 1913, ISO 1716(1973)’den tercüme edilerek söz konusu standardýn ulusal karþýlýðý olmuþtur [42].  
+EN 13823 [43] - TS EN 13823 [44]  A1(*), A2, B, C ve D  Tek Alev Baþlýðýyla Test [(Single burning item test - SBI) (Þekil 3)]  Bu test, bir odanýn köþesinde tek alev baþlýðýyla yangýn ben­zeþimi þartlarý altýnda yangýnýn geliþmesinde mamulün katkýsýnýn de­ðerlendirilmesi amacýy­la uygulanýr.  Yer döþemeleri hariç yapýmalzemelerinde; B,C,D sýnýfý ürünler 30 sn. süre ile küçük bir aleve tabi tutulurlar. Bu testi geçen ürünlere (SBI) testi uygulanýr. E sýnýfý ürünlere ise 15 saniye süre ile küçük alev testi uygulanýr. Yer döþemelerinde ise; EFL sýnýfýna uygunluk için malzemelere 15 saniye süre ile küçük alev testi uygulanýr. BFL, CFL, DFL sýnýfýmalzemelerde ise 15 saniye süre ile küçük alev testi yanýnda TS EN 9239-1 testi de uygulanýr.  
+EN 11925-2 [45] – TS EN 11925-2 [46]  B, C, D, E, BFL, CFL, DFL, EFL  Tutuþabilirlik (Küçük alev) Testi [(Ignitability­small scale test)(Þekil 4)]  Bu test, bir mamulün küçük bir aleve maruz kalma þartlarýnda yana­bilirliðinin deðerlendi­rilmesi amacýyla uygu­lanýr.  
+EN 9239-1 [47] ­TS EN 9239-1[48]  BFL, CFL, DFL, EFL  Yer Döþemele­rinin Bir Rad­yant Isý Kayna­ðýyla Yanma Davranýþlarýnýn Tayini [(Radiant pannel) (Þekil 5)]  Bu test, yatay bir yüzeyde alevin daha fazla yayýlmadýðýþart­lardaki kritik radyant akýnýn deðerlendirilme­si amacýyla uygulanýr.  
+ISO 9705 [49] - TS ISO 9705 [50]  Yangýn Deneyleri- Yüzey KaplamalarýÝçin Tam Boyutlu Oda Deneyi (Fire tests-Full scale room tests for surface products) (Þekil 6)]  Bu test, çok iyi havalandýrýlmýþþartlarda bir kapýsý açýk küçük bir odanýn köþesinde baþlayan yangýnýsimule etmek amacýyla uygulanýr.  Küçük alev test sonuç­larýnda þüpheye düþüldüðü hallerde ürünler, büyük ölçekli teste (ISO 9705) tabi tutulabilir ve ürün performansý bu deneye iliþkin iþlevsel kriterlere göre deðerlendirilebilir. Böyle bir durumda, küçük ölçekli deneyin sonuçlarýile iliþkilendirilerek rapor edilir [30].  
+(*) Homojen olmayan mamullerde, TKP(PCS)>2,0Mj/kg ve TKP(PCS) . 2,0 Mj/m2 özelliklerine sahip olan ve dýþ tali bileþen olarak kullanýlan herhangi bir mamul EN 13823’e göre deneylere tabi tutulur.  
+
+F. Demirel ve S. Altýndaþ Yapý Malzemelerinin Avrupa Yangýna Tepki Sýnýflarý, Konunun Türkiye - Avrupa Genelinde Ýrdelenmesi ve...Tablo 4. Döþemeler dýþýndaki yapý malzemeleri için yangýna tepki sýnýflarý [5,15,16,37]
+Avrupa Sýnýflarý(Euroclasses)  Test Metodu/Metodlarý  Sýnýflandýrma Kriterleri  Ek sýnýflandýrmalar  
+A1  EN ISO 1182 (1)ve  .T . 30 oC ve .m . %50 ve tf = 0 (örneðin: sürmeyen alev)  - 
+EN ISO 1716  PCS . 2.0 MJ/kg (1)ve PCS . 2.0 MJ/kg (2) (2a)ve PCS . 1.4 MJ/m2 (3) ve PCS . 2.0 MJ/kg (4)  - 
+A2  EN ISO 1182 (1) yada  .T . 50 oC ve .m . %50 ve tf . 20s  - 
+EN ISO 1716 ve  PCS . 3.0 MJ/kg (1) ve PCS . 4.0 MJ/m2 (2)ve PCS . 4 MJ/m2 (3) PCS . 3.0 MJ/kg (4)  - 
+TS EN 13823 (SBI)   FIGRA . 120 W/s ve LFS < numunenin kenarý ve THR600s . 7.5 MJ  Duman oluþumu(5) ve yanma damlamalarý/tanecikleri(6)  
+B  TS EN 13823 (SBI) ve  FIGRA . 120 W/s ve LFS < numunenin kenarý ve THR600s . 7.5 MJ  Duman oluþumu(5) ve yanma damlamalarý/tanecikleri(6)  
+TS EN ISO 11925-2 (8) Maruz kalma süresi= 30s  60s süreyle Fs . 150mm  
+C  TS EN 13823 (SBI) ve  FIGRA . 250 W/s ve LFS < numunenin kenarý ve THR600s . 15 MJ  Duman oluþumu(5) ve yanma damlamalarý/tanecikleri(6)  
+TS EN ISO 11925-2 (8) Maruz kalma süresi= 30s  60s süreyle Fs . 150mm  
+D  TS EN 13823 (SBI) ve  FIGRA . 750 W/s  Duman oluþumu(5) ve yanma damlamalarý/tanecikleri(6) 
+TS EN ISO 11925-2 (8) Maruz kalma = 30s  60s süreyle Fs . 150mm  
+E  TS EN ISO 11925-2 (8) Maruz kalma süresi= 15s  20s süreyle Fs . 150mm  Yanma damlamalarý/tanecikleri(7)  
+F  Belirlenen bir performans deðeri yoktur  
+(1) Homojen malzemeler ve homojen olmayan (kompozit) malzemelerin ana bileþenleri için (2) Homojen olmayan (kompozit) malzemelerin herhangi bir dýþ tali bileþeni için (2a) Seçenek olarak, herhangi bir dýþ tali bileþeninin PCS’si . 2.0 MJ.m-2 olan bir malzeme, TS EN 13823 (SBI) kriterlerini yerine getirdiði taktirde: FIGRA . 20 W.s-1; ve LFS < numunenin kenarý, ve THR600 . 4.0 MJ ve s1 ve d0 olmalýdýr. (3) Homojen olmayan malzemelerin herhangi bir iç tali bileþeni için (4) Malzemenin tamamý için (5) s1 = SMOGRA . 30m2.s-2 ve TSP600s . 50 m2; s2 = SMOGRA . 180m2.s-2 ve TSP600s . 200 m2; s3 = s1 veya s2 olmayan (6) EN 13823 (SBI)’e göre, 600s içerisinde d0 = Yanma damlamalarý/tanecikleri yok; EN 13823 (SBI)’e göre, 600s içerisinde d1 = 10s’den daha uzun süren yanma damlamalarý/tanecikleri yok; d2 = d0 ve d1 olmayan; EN ISO 11925-2’ye göre kaðýdýn tutuþmasý d2 sýnýflamasý ile sonuçlanýr. (7) Geçti = kaðýt yanmadý (sýnýfsýz); Kaldý = kaðýt yandý (d2 sýnýfý)(8) Yüzeyden aleve maruz býrakma ve, malzemenin son kullaným uygulamasý için uygunsa, kenardan da aleve maruz býrakma þartlarýnda,  
+
+Tablo 5. Döþemeler için yangýna tepki performans sýnýflarý [5,15,16,37] Tablo 6. Lineer borularda kullanýlan ýsý yalýtým malzemeleri için yangýna tepki performans sýnýflarý [14] 
+Sýnýf  Test Metodu/Metodlarý  Sýnýflandýrma Kriteri  Ek sýnýflandýrma  
+EN ISO 1182(1) ve  .T . 30 oC ve .m . %50 ve tf = 0 (örneðin: sürmeyen alev)  - 
+A1FL  EN ISO 1716  PCS . 2.0 MJ/kg(1) ve PCS . 2.0 MJ/kg(2) ve PCS . 1.4 MJ/m2 (3) ve PCS . 2.0 MJ/kg(4)  - 
+EN ISO 1182(1) yada  .T . 50 oC ve .m . %50 ve tf = 20s  - 
+A2FL  EN ISO 1716 ve  PCS . 3.0 MJ/kg(1) ve PCS . 4.0 MJ/m2 (2) ve PCS . 4.0 MJ/m2 (3) ve PCS . 3.0 MJ/kg(4)  - 
+TS EN ISO 9239-1(5)  Kritik aký(6) . 8.0 kW/m2  Duman oluþumu(7)  
+
+Sýnýf  Test Metodu/Metodlarý  Sýnýflandýrma Kriteri  Ek sýnýflandýrma  
+BFL  TS EN ISO 9239-1(5) ve  Kritik aký(6) . 8.0 kW/m2  Duman oluþumu(7)  
+TS EN ISO 11925-2(8) Maruz kalma süresi = 15s  20s süreyle Fs . 150mm  
+CFL  TS EN ISO 9239-1(5)ve  Kritik aký(6) . 4.5 kW/m2  Duman oluþumu(7)  
+TS EN ISO 11925-2(8) Maruz kalma süresi= 15s  20s süreyle Fs . 150mm  
+DFL  TS EN ISO 9239-1(5)ve  Kritik aký(6). 3.0 kW/m2  Duman oluþumu(7)  
+TS EN ISO 11925-2(8) Maruz kalma süresi = 15s  20s süreyle Fs . 150mm  
+EFL  TS EN ISO 11925-2(8) Maruz kalma süresi= 15s  20s süreyle Fs . 150mm  
+FFL  Belirlenen bir performans deðeri yoktur  
+(1) Homojen malzemeler ve homojen olmayan malzemelerin ana bileþenleri için (2) Homojen olmayan malzemelerin herhangi bir dýþ tali bileþeni için (3) Homojen olmayan malzemelerin herhangi bir iç tali bileþeni için (4) Malzemenin tamamý için (5) Test süresi = 30 dakika (6) Kritik aký; alevin söndüðü noktada yayýlan aký veya 30 dakikalýk bir test süresi sonunda yayýlan aký arasýndan düþük olan olarak tanýmlanýr (aký, alev daðýlýmýnýn daha ileri düzeyde yayýlmasýnýn karþýlýðýdýr) (7) s1 = Duman .%750.dak; s2 = s1 olmayan (8) Yüzeyden aleve maruz býrakma ve, eðer malzemenin son kullaným uygulamasý uygunsa, kenardan da aleve maruz býrakma þartlarýnda,  
+
+Sýnýf  Test Metodu/Metotlarý  Sýnýflandýrma Kriteri  Ek sýnýflandýrma  
+A1L  EN ISO 1182 (1); ve  .T . 30 °C; ve .m . 50 %; ve tf = 0 (örneðin: sürmeyen alev)  - 
+EN ISO 1716  PCS . 2,0 MJ/kg (1); ve PCS . 2,0 MJ/kg (2); ve PCS . 1,4 MJ/m2 (3); ve PCS . 2,0 MJ/kg (4)  - 
+A2L  EN ISO 1182 (1); yada  .T . 50 °C; ve .m . 50 %; ve tf . 20s  - 
+EN ISO 1716; ve  PCS . 3,0 MJ/kg (1); ve PCS . 4,0 MJ/m2 (2); ve PCS . 4,0 MJ/m2 (3); ve  PCS . 3,0 MJ/kg (4)  - 
+TS EN 13823 (SBI)  FIGRA . 270 W/s; ve LFS < numunenin kenarý; ve THR600s . 7,5 MJ  Duman oluþumu(5) ve yanma damlamalarý/tanecikleri(6)  
+BL  TS EN 13823 (SBI); ve  FIGRA . 270 W/s; ve LFS < numunenin kenarý; ve THR600s . 7,5 MJ  Duman oluþumu(5) ve yanma damlamalarý/tanecikleri(6)  
+TS EN ISO 11925-2 (8): Maruz kalma süresi= 30s  60s süreyle Fs . 150mm  
+CL  TS EN 13823 (SBI); ve  FIGRA . 460 W/s; ve LFS < numunenin kenarý; ve THR600s . 15 MJ  Duman oluþumu(5) ve yanma damlamalarý/tanecikleri(6)  
+TS EN ISO 11925-2 (8): Maruz kalma süresi=30s  60s süreyle Fs . 150mm  
+DL  TS EN 13823 (SBI); ve  FIGRA . 2100 W/s THR600s . 100 MJ  Duman oluþumu(5) ve yanma damlamalarý/tanecikleri(6)  
+TS EN ISO 11925-2 (8): Maruz kalma süresi=30s  60s süreyle Fs . 150mm  
+EL  TS EN ISO 11925-2 (8): Maruz kalma süresi=15s  20s süreyle Fs . 150mm  Yanma damlamalarý/tanecikleri(7)  
+FL  Belirlenen bir performans deðeri yoktur  
+(1) Homojen malzemeler ve homojen olmayan (kompozit) malzemelerin ana bileþenleri için (2) Homojen olmayan (kompozit) malzemelerin herhangi bir dýþ tali bileþeni için (3) Homojen olmayan malzemelerin herhangi bir iç tali bileþeni için (4) Malzemenin tamamý için (5) s1 = SMOGRA . 105 m2.s-2 ve TSP600s . 250 m2; s2 = SMOGRA . 580m2.s-2 ve TSP600s . 1600 m2; s3 = s1 veya s2 olmayan (6) EN 13823 (SBI)’e göre, 600s içerisinde d0 = Yanma damlamalarý/tanecikleri yok; EN 13823 (SBI)’e göre, 600s içerisinde d1 = 10s’den daha uzun süren yanma damlamalarý/tanecikleri yok; d2 = d0 ve d1 olmayan; EN ISO 11925-2’ye göre kaðýdýn tutuþmasý d2 sýnýflamasýile sonuçlanýr. (7) Geçti = kaðýt yanmadý (sýnýfsýz); Kaldý = kaðýt yandý (d2 sýnýfý)(8) Yüzeyden aleve maruz býrakma ve, malzemenin son kullaným uygulamasý için uygunsa, kenardan da aleve maruz býrakma þartlarýnda,  
+
+F. Demirel ve S. Altýndaþ Yapý Malzemelerinin Avrupa Yangýna Tepki Sýnýflarý, Konunun Türkiye - Avrupa Genelinde Ýrdelenmesi ve...Tablo 7. Çatýlar/çatý kaplamalarý için dýþ yangýn performans sýnýflarý [10, 21]
+Test Metodu  Sýnýf(*)  Sýnýflandýrma Kriteri  
+CR1187:2001[51] test 1  BROOF (t1)  Aþaðýdaki tüm þartlar saðlanmalýdýr. — yukarýya doðru iç ve dýþ yangýn yayýlmasý< 0,700 m, —aþaðýya doðru iç ve dýþ yangýn yayýlmasý< 0,600 m, — iç ve dýþ maksimum ateþ boyu < 0,800 m, — yangýna maruz kalan bölgeden düþen yanan malzemeler(parçalar veya döküntüler) olmadýðýnda, — çatý strüktürüne tesir eden yanan/kýzgýn parçacýklar olmadýðýnda, —2,5 × 10–5 m2 ’den büyük çatý içinden geçen tek açýklýk olmadýðýnda, — çatý içinden geçen tüm açýklýklarýn toplamý< 4,5 × 10–3 m2 , — yanal yangýn yayýlýmý ölçüm alanýnýn kenarlarýna ulaþmadýðýnda, — içten tutuþma olmadýðýnda, — iç ve dýþ, yatayda yangýn yayýlýmýnýn maksimum çapý < 0,200 m.  
+FROOF (t1)  Belirlenen bir performans deðeri yoktur  
+CR1187:2001[51] test 2  BROOF (t2)  2 m/s ve 4 m/s rüzgar hýzýnda her iki test serisi için: — çatý ve alt katmanlarýnýn hasar boyu . 0,550 m, — çatý ve alt katmanlarýnýn maksimum hasar boyu . 0,800 m,  
+FROOF (t2)  Belirlenen bir performans deðeri yoktur  
+CR1187:2001[51] test 3  BROOF (t3)  TE . 30 dakika ve TP . 30 dakika   
+CROOF (t3)  TE . 10 dakika ve TP . 15 dakika  
+DROOF (t3)  TP > 5 dakika  
+FROOF (t3)  Belirlenen bir performans deðeri yoktur  
+(*) Sýnýf numaralarý gözden geçirilmektedir. (t1) = tek baþýna yangýn olduðu zaman (Burning brand alone), (t2) = yangýn+rüzgar olduðu zaman (Burning brand + wind), (t3) = yangýn+rüzgar+ýþýma olduðu zaman (Burning brand + wind + radiation). TE: Kritik Dýþ yangýn yayýlma zamaný (critical external fire spread time) TP: Yangýn nüfuzu için kritik zaman (critical time to fire penetration)  
+
+Tablo 8. Döþemeler dýþýndaki yapý malzemelerinin yangýna tepki sýnýflarýnýn belirlenebilmesi için özet tablo(*) 
+TEST METOTLARI  Avrupa Sýnýfý (Euroclasses)  
+E  D,C,B  A2  A1  
+EN ISO 1182 (Yanmazlýk Testi - Non-combustibility test)  Yanmazlýk Testi  Yanmazlýk Testi  
+veya  ve  
+EN ISO 1716 (Kalorofik Potansiyel Testi-Calorific potential test –  PCS and PCL)  
+PCS  PCS  
+TS EN 13823 (Tek Alev Baþlýklý Test Single burning item test - SBI)  SBI  SBI  
+TS EN ISO 11925-2 (Küçük Alev Testi Ignitability - small flame test)  Tutuþabilirlik 15 sn  Tutuþabilirlik 30 sn  
+(*) Tablo 4’te belirtilen sýnýflandýrma kriterlerini yerine getirdiði þartlarda  
+
+Tablo 9. Döþemelerde yangýna tepki sýnýflarýnýn belirlenebilmesi için özet tablo (*) 
+TEST METOTLARI  Avrupa Sýnýfý (Euroclasses)  
+EFL  BFL,CFL,DFL  A2FL  A1FL  
+EN ISO 1182 (Yanmazlýk Testi (Non-combustibility test)  Yanmazlýk Testi  Yanmazlýk Testi  
+veya  ve  
+EN ISO 1716 (Kalorofik Potansiyel Testi) Calorific potential test – PCS and PCL)  
+PCS  PCS  
+EN ISO 9239-1 (Radyant Panel Testi) (Radiant pannel)  Radyant Panel  Radyant Panel  
+TS EN ISO 11925-2 (Küçük Alev Testi) (Ignitability - small flame test)  Tutuþabilirlik 15 sn  Tutuþabilirlik 30 sn  
+(*) Tablo 5 de belirtilen sýnýflandýrma kriterlerini yerine getirdiði þartlarda  
+
+Tablo 10. Lineer borularda kullanýlan ýsý yalýtým malzemelerinin yangýna tepki sýnýflarýnýn belirlenebilmesi için özet tablo (*) 
+
+TEST METOTLARI  Avrupa Sýnýfý (Euroclasses)  
+EL  BL,CL,DL  A2L  A1L  
+EN ISO 1182 (Yanmazlýk Testi) (Non-combustibility test)  Yanmazlýk Testi  Yanmazlýk Testi  
+veya  ve  
+EN ISO 1716 (Kalorofik Potansiyel Testi) (Calorific potential test – PCS and PCL)  
+PCS  PCS  
+TS EN 13823 (Tek Alev Baþlýklý Test) (Single burning item test - SBI)  SBI  SBI  
+TS EN ISO 11925-2 (Küçük Alev Testi) (Ignitability - small flame test)  Tutuþabilirlik 15 sn  Tutuþabilirlik 30 sn  
+(*) Tablo 6’da belirtilen sýnýflandýrma kriterlerini yerine getirdiði þartlarda  
+
+Tablo 11. Çatýlar/çatý kaplamalarýnýn yangýna tepki sýnýflarýnýn (*) belirlenebilmesi için özet tablo 
+Avrupa Sýnýflarý(Euroclasses)  TEST METODLARI  
+CR1187:2001 test 1  CR1187:2001 test 2  CR1187:2001 test 3  
+BROOF        
+CROOF    
+DROOF    
+FROOF  Belirlenen bir performans deðeri yoktur  
+(*) Yukarýda yer alan sýnýflandýrma CR 1187:2001’de kapsanan standarda dayandýrýlýr. Bu standart farklý yangýn tehlikelerine karþýlýk gelen üç ayrý test metodunu kapsar. Test metotlarý arasýnda doðrudan bir iliþki yoktur. Bundan dolayý bu metotlar arasýnda genel olarak kabul edilen sýnýflandýrma hiyerarþisi bulunmaz. Çatýlar/çatý kaplamalarýnýn dýþ yangýn performanslarýnýn düzenlenmesinde, üye ülkeler kendi bölgelerindeki gerçek yangýn tehlikesi(lerine) uygun test/sýnýfý seçebilirler ve çeþitli testler/sýnýflar arasýnda bir ulusal sýnýflandýrma hiyerarþisi kurabilirler.  
+
+Avrupa Birliði Komisyonunun bünyesinde, “Construction Working Groups” bulunmaktadýr. Bu çalýþma gruplarýnda, “Yangýn Mevzuatý Grubu (Fire Regulation Group-FRG)” ve “test edilmesine gerek olmadan malzemelerin yangýna tepki sýnýflarý”nýbelirleyen bir çalýþma grubu da (Classified Without Further Test-CWFT) bulunmaktadýr. CWFT grubu, sanayi ile ortak çalýþmalar yaparak test yapýlmadan yapýmalzemelerinin yangýna tepki sýnýflarýný ortaya koyan kararlar almakta ve tüm bu kararlar komisyon kararlarý olarak Avrupa Resmi Gazetesinde yayýmlanmaktadýr. Bu þekilde 2000/605/EC [9] sayýlýAB Komisyon Kararý ile deðiþik, 96/603/EC [7] sayýlýAB komisyon kararý uyarýnca ortaya konan, test yapýlmasýna gerek olmadan Yangýna katkýsaðlamayan A1 sýnýfý malzemelere ait liste Tablo 12’de verilmiþtir. Ayrýca test yapýlmasýna gerek olmadan yangýna tepki sýnýflarý belirlenen yapýmalzemeleri ise Tablo 13, 14, 15 ve 16’da verilmektedir. 
+4. YAPI MALZEMELERÝNÝN YANGINA TEPKÝSINIFLARI ÇERÇEVESÝNDE TÜRKÝYE ­AVRUPA KARÞILAÞTIRMASI 
+Kýlavuz Belge J [33]’de Avrupa Birliðine üye ülkelerin, Avrupa sýnýflarý ile çeliþen mevcut ulusal mevzuatlarýný, Avrupa sýnýflarýnýn kullanýmýna izin verecek þekilde uyarlanmalarý gerektiðine iþaret edilmektedir. O nedenle, Avrupa yangýn sýnýflarýnýn kabulü ile üye ülkeler, ulusal mevzuatlarýný Avrupa yangýn sýnýflarýna göre düzenlemek zorunda kalmýþlardýr. Dolayýsýyla ulusal mevzuatlarýnda, kendi ulusal sýnýflarý ile Avrupa Sýnýflarýnýn denkliklerini saðlayarak, Avrupa sýnýflarýna geçiþte ortalama 21 ay olarak önerilen bir eþ-varlýk dönemini baþlatmýþlardýr 
+[33] (Tablo 17). Avrupa sýnýflarýna geçiþ, ürün bazýnda olup, uyumlaþtýrýlmýþ teknik þartnamelere sahip ürünlerin piyasaya arzý ile uygulanmaktadýr. 
+Almanya, Ýngiltere, Fransa gibi çok önceden ulusal yangýn sýnýflarýný oluþturmuþ ve yapý malzeme üretimlerini bu sýnýflara göre yapan ülkelerde, Avrupa sýnýflarýna geçiþin maliyeti oldukça yüksek olmaktadýr. Çünkü yeni sýnýflar beraberinde yeni test metotlarýný getirmekte, mevcut test laboratuarlarýnýn, malzeme üretimlerinin ve mevzuatlarýnýn deðiþtirilmesini zorunlu kýlmaktadýr. Bunun sonucunda doðal olarak ulusal sýnýflardan Avrupa sýnýflarýna geçiþ süreci uzamaktadýr. AB’ye üye ülkeler, uyumlaþtýrýlmýþ bir standarda (harmonised standarts-hEN) sahip ürünlerde Avrupa Sýnýflarýnýkullanmakta iken diðer ürünlerinde ulusal standartlarýndan vazgeçmemektedirler. 
+
+F. Demirel ve S. Altýndaþ Yapý Malzemelerinin Avrupa Yangýna Tepki Sýnýflarý, Konunun Türkiye - Avrupa Genelinde Ýrdelenmesi ve...Tablo 12. Yangýna katký saðlamayan A1 ve A1FL sýnýfý malzemeler (*) [7,9]
+
+Malzeme  Notlar  
+Genleþmiþ kil, Genleþmiþ perlit, Genleþmiþvermikulit, Mineral yün, Selüler cam  
+Beton  Hazýr karýþtýrýlmýþ beton ve prekast betonarme öngerilmeli ve ön sýkýþtýrmalýmalzemeler  
+Beton (integral ýsý izolasyonlu olan agregalar hariç yoðun ve hafif mineral agregalar)  Katkýmaddeleri ve ilaveler (örneðin: PFA), pigmetler ve diðer malzemeleri içerebilir. Prekast birimleri de kapsar.  
+Gaz (gözenekli) beton üniteler  Çimento ve/veya kireç gibi su bazlý baðlayýcýlarýn ince maddeler (silisli maddeler, PFA, uçucu fýrýn cürufu) ve gözenek üreten maddeler ile birleþmesiyle üretilen birimler. Prekast birimleri de kapsar.  
+Elyaflý(telcikli) çimento, Çimento, Kireç, Mineral agregalar  
+Demir, çelik ve paslanmaz çelik(**), Bakýr ve bakýr alaþýmlarý(**), Çinko ve çinko alaþýmlarý(**), Alüminyum ve alüminyum(**)alaþýmlarý, Kurþun(**)  Tamamen ayrý bir formda olmamak üzere (Þekilsiz)  
+Alçý ve alçý bazlý sývalar  Katký maddeleri (geciktiriciler, dolgu maddeleri, lifler, pigmentler, hidrate olmuþkireç, hava ve su tutucular ve plastikleþtiriciler), yoðun agrega (örneðin: doðal veya kýrma kum) veya hafif agregalar (örneðin: perlit veya vermikulit) içerebilir.  
+Ýnorganik baðlayýcý elemanlarý olan harçlar  Düzeltme/sývama harçlarý ve bir veya birden fazla inorganik baðlayýcýya dayanan þaplar, örneðin: çimento, kireç, duvar çimentosu ve alçý.  
+Killi malzemeler  Kilden ve kum, yakýt veya diðer katký maddeleri içeren veya içermeyen diðer killi maddelerden yapýlmýþ birimleri, tuðlalarý, karolarý, döþeme karolarý ve þömine birimlerini (örneðin: baca tuðlalarý) kapsar.  
+Kalsiyum silikat birimler  Kireç ve doðal silisli maddelerden (kum, silisli çakýl veya kaya ya da bunlardan yapýlmýþ karýþýmlar) yapýlmýþ birimler, renklendirici pigmentler içerebilir.  
+Doðaltaþ ve arduvaz birimler  Doðal taþlardan (magmatik, tortul veya metamorfýk kayalar) veya arduvazlardan elde edilmiþ iþlenmiþ ya da iþlenmemiþ elemanlar.  
+Alçý birimler  Agregalar, doldurucular, lifler ve diðer katký maddeleriyle birleþen ve pigmentlerle renklendirilebilen kalsiyum sülfat ve sudan oluþan birimleri ve bloklarý kapsar.  
+Çimento mozaik  Karo mozaikleri ve yerinde dökme yer döþemelerini kapsar.  
+Cam  Isý ile güçlendirilmiþ, kimyasal olarak katýlaþtýrýlmýþ, lamine ve telli cam.  
+Cam seramik  Billur ve artýk cam içeren cam seramikler.  
+Seramik  Toz preslenmiþ ve kalýptan çýkarýlmýþ malzemeleri kapsar, sýrlanmýþ veya sýrlanmamýþ.  
+(*)Tablodaki malzemelerden hiç birisinin, bünyesinde aðýrlýk veya hacim olarak (hangisi daha düþük deðerde ise), %1.0 dan fazla homojen daðýlýmlý organik madde içermesine izin verilmez. (**) Ýnce toz halinde öðütülmemiþ olmasý koþulu ile  
+Tablo 13. Test yapýlmasýna gerek olmadan dýþ yangýn performans gereksinimlerini saðlayan çatý örtüsü ürünleri [8] 
+
+
+Çatý Kaplama Malzemeleri/Ürünleri  Özel Durumlar  
+Arduvazlar: Doðal arduvazlar, taþ arduvazlar  96/603/EC sýnýrlamalarýna uyar  
+Kiremitler: Taþ, beton, kil, seramik, veya çelik çatý kiremitleri  96/603/EC sýnýrlamalarýna uyar. Herhangi bir dýþörtünün inorganik olmasý veya Brüt Kalori Deðeri(PCS) . 4,0 MJ/m2 veya kütlesinin . 200 g / m2 olmasý gerekir.  
+Elyaf donatýlý çimento: Düz ve profilli tabakalar, Arduvazlar  96/603/EC sýnýrlamalarýna uyar veya Brüt Kalori Deðeri (PCS) . 3,0 MJ/kg olmasý gerekir.  
+Profilli metal tabakalar: alüminyum, alüminyum alaþým, bakýr, bakýr alaþým, çinko, çinko alaþým, kaplanmamýþ çelik, paslanmaz çelik, galvanize çelik, halka sac kaplanmýþ çelik, vitrifiye emaye çelik  Kalýnlýk . 0.4 mm  Herhangi bir dýþ örtünün inorganik olmasý veya Brüt Kalori Deðeri(PCS) . 4.0 MJ/m2 veya kütlesinin . 200 g/m2 olmasý gerekir.  
+Yassýmetal tabakalar: alüminyum, alüminyum alaþým, bakýr, bakýr alaþým, çinko, çinko alaþým, kaplanmamýþ çelik, paslanmaz çelik, galvanize çelik, halka sac kaplanmýþ çelik, vitrifiye emaye çelik   Kalýnlýk . 0.4 mm Herhangi bir dýþörtünün inorganik olmasý veya Brüt Kalori Deðeri(PCS) . 4.0 MJ/m2 veya kütlesinin . 200 g/m2 olmasý gerekir.  
+Normal kullanýmda tamamen sað sütunda listelenmiþ olan inorganik örtülerle kaplanmasýamaçlanan ürünler  En az 50 mm kalýnlýðýnda veya . 80 kg/m2 kütlede gevþek serimli çakýl en az 50 mm kalýnlýðýnda veya . 80 kg/m2 kütlede (agrega büyüklüðü minimum 4 mm. Maksimum 32 mm.) En az 30 mm. kalýnlýðýnda kum/çimento þap  En az 40 mm. Kalýnlýðýnda dökme taþ veya mineral tabanlar  
+
+Tablo 14. 2003/43/EC sayýlý AB komisyon kararýna göre test yapýlmasýna gerek olmadan ahþap esaslý levha malzemelerin yangýna tepki sýnýflarý [11] 
+Ahþap esaslý levha malzemeler  Üretim Standartlarý  Minimum yoðunluk (kg/m3)  Minimum kalýnlýk (mm)  Sýnýf (Döþeme malzemeleri hariç)  Sýnýf (Döþeme malzemeleri)  
+Yonga levhalar  EN 312  600  9  D-s2, d0  DFL-s1  
+Lif levhalar (sert)  EN 622-2  900  6  D-s2, d0  DFL-s1  
+Lif levhalar (orta-sert)  EN 622-3  600  9  D-s2, d0  DFL-s1  
+400  9  E, pass  EFL  
+Lif levhalar (yumuþak)  EN 622-4  250  9  E, pass  EFL  
+Lif levhalar (MDF)  EN 622-5  600  9  D-s2, d0  DFL-s1  
+Çimentolu yonga levhalar  EN 634-2  1 000  10  B-s1, d0  BFL-s1  
+Yönlendirilmiþ lif levhalar (OSB panel)  EN 300  600  9  D-s2, d0  DFL-s1  
+Kontraplak  EN 636  400  9  D-s2, d0  DFL-s1  
+Masif ahþap levha  EN 13353  400  12  D-s2, d0  DFL-s1  
+Tablo 15. 2003/593/EC sayýlý AB komisyon kararýna göre test yapýlmasýna gerek olmadan alçýpanel levha malzemelerin yangýna tepki sýnýflarý [13] 
+
+
+Alçý panel levha  Nominal panel kalýnlýðý(mm)  Yoðunluk (kg/m3)  Yangýna tepki sýnýfý Kaðýt gramajý(g/m2)  Sýnýf (Döþeme malzemeleri dýþýnda)  
+EN 520'ye uygun  . 9,5  . 600  . 220  A2-s1, d0  
+(delikli panel levhalar hariç)  . 12,5  . 800  A1  > 220 . 300  B-s1, d0  
+Tablo 16. 2003/593/EC sayýlý AB Komisyon Kararýna göre test yapýlmasýna gerek olmadan yüksek basýnçta sýkýþtýrýlmýþ olan dekoratif lamine levhalar (HPL) ve strüktürel ahþap malzemelerin yangýna tepki sýnýflarý
+
+
+[13] 
+
+Ýç tabakalarý (non-FR) Dekoratif lamine levhalar  Ürün detayý  En az yoðunluk (kg/m3)  En az toplam kalýnlýk (mm)  Sýnýf (Döþeme malzemeleri dýþýnda)  
+Ýç tabakalarý (non-FR) Kompakt Dekoratif Lamine Levhalar  Kompakt Dekoratif Lamine Levhalar (EN 438-4 type CGS)  1 350  6  D-s2, d0  
+Ýç tabakalarý (non-FR) Kompozit Dekoratif lamine levhalar Ahþap esaslý alt tabaka ile (EN 438-7 ile uyumlu)  Ýç tabakalarý (non-FR) Kompozit Dekoratif Lamine Levhalar (EN 438-3), EN 13986 ile uyumlu ahþap esaslý çekirdeðin en az kalýnlýðý 12 mm, PVAc veya termoset yapýþtýrýcýlarýn uygulama oraný 60’dan 120 g/m2  Ahþap esaslýçekirdeðin en az yoðunluðu 600, Dekoratif Lamine Levhalarýn(HPL) en az yoðunluðu 1 350  12 mm ahþap esaslýçekirdek ile birlikte HPL . 0,5 mm her iki tarafa baðlý D-s2, d0  
+Strüktürel ahþap  Biçilerek, rendelenerek veya diðer yöntemlerle þekillendirilmiþdikdörtgen kesitli yada yuvarlak kesitli görsel ve makine ile düzeltilmiþ taþýyýcý ahþap  350  22  D-s2, d0  
+
+Ülkemizde ise, Binalarýn Yangýndan KorunmasýHakkýnda Yönetmeliðin [52] kabul edilmesi ile, daha önce yerel yönetimler ile kamu yapýlarý için çýkarýlmýþolan yönetmelikler [53,54] yürürlükten kaldýrýlmýþtýr. Yönetmeliðin, malzemelerin yanýcýlýk özellikleri ile ilgili bölümünde (Ek-1) yanýcýlýk sýnýflarý olarak TS 1263’ün [55] ekinde bulunan tablonun esas alýndýðýgörülmektedir. TS 1263 standardýnýn yangýna tepki ile ilgili bölümü ise Alman DIN 4102 [56] normlarýndan faydalanarak hazýrlanmýþtýr. Ayný düþünce paralelinde, yazarlar tarafýndan yürütülen Avrupa Birliði teknik mevzuatýnýn uyumlaþtýrýlmasýçalýþmalarý baðlamýnda, Bayýndýrlýk ve Ýskan Bakanlýðý tarafýndan yayýmlanan tebliðde [37], ulusal yangýn sýnýflarýnýn Avrupa yangýn sýnýflarýna göre yeniden düzenlenmesi çalýþmasýnda, Almanya yanýcýlýk sýnýflarý-Euroclasses denklikleri esas alýnmýþtýr (Tablo 17,18,19). Benzer bir çalýþmanýn da Ýçiþleri ile Bayýndýrlýk ve Ýskan Bakanlýklarýtarafýndan ortak yürütülen "Binalarýn Yangýndan Korunmasý Hakkýnda Yönetmelik" revizyonunda da yapýlacaðý düþünülmektedir. 
+
+F. Demirel ve S. Altýndaþ Yapý Malzemelerinin Avrupa Yangýna Tepki Sýnýflarý, Konunun Türkiye - Avrupa Genelinde Ýrdelenmesi ve... 
+Tablo 17. Yangýna tepki sýnýflarý kapsamýnda AB ülkelerinin ulusal sýnýflarý ile AB sýnýflarý (Euroclasses) arasýndaki iliþki 
+
+AB Üye Ülkeler  Mevcut Ulusal Sýnýflar  AB Sýnýflarý(Euroclasses)  Uygulama Süreçleri  Açýklama  
+Avusturya  Class A Class B1 Class B2 Class B3  A1-A2-B’nin bir bölümü B-C-D- E’nin bir bölümü C’nin bir bölümü-D-E F  Önorm 3806 (2001-04-23) (Bkz. 1)  1  
+Belçika  A0 A1 A2 A3 A4  A2-s1 B-s3 veya C-s2 C-s3 D-s3 F  Belçika Bakanlýðý tarafýndan alýnmýþ bir karar yoktur (Bkz.2).  2  
+Çek Cumhuriyeti  A B C1 C2 C3  A1 A2 B C veya D E veya F  AB Komisyon kararý Temmuz 2002’de adapte edilmiþtir.  
+Estonya  Bilgi Yok  Bilgi yok  
+Danimarka  Non-Combustible ClassA Class B Combustible (Bkz.03)  A2-s1,d0 B-s1,d0 D-S2,d2 Diðer tüm ürünler  AB Komisyon kararý 1 Mart 2002’de adapte edilmiþtir.  3  
+Finlandiya  Non-Combustible Limited Combustible Lining Class I/I Lining Class I/II ve I Lining Class 2 Lining Class -/­ A2-s1,d0 veya A1 A2-s1,do (Bkz.04) B-s1,d0 C-s2,d1 D-s2,d2 F  Yeni yönetmelik 1 Temmuz 2002’de yürürlüktedir.  4  
+Fransa  Non combustible M0M1M2M3M4 (non-gouttant) M4Sýnýflandýrýlmamýþ A1 A1 veya A2-s1,d0  A2-s1/2/3,d0/1 veya B-s1/2/3/,d0/1  C-s1/2/3,d0/1  D-s1/2/3,d0/1 D-s1/2/3,d0  E-d2&F hariç tüm sýnýflar  E-d2&F  31 Ekim 2002 Kararýnýn Ek-4, Mart 2003 tarihinde etkin hale getirilmiþtir.  
+Ýrlanda  Þimdiye kadar yayýmlanmýþresmi bir uygulama yoktur.  
+Ýtalya  Tartýþmak için iki farklý taslak vardýr, verilen bir karar yoktur.  
+Litvanya  Bilgi yok  Bilgi yok  
+Letonya  Bilgi yok  Bilgi yok  
+Portekiz  Bilgi yok  Bilgi yok  
+Kýbrýs Rum Kesimi  Bilgi yok  Bilgi yok  
+Slovakya  Bilgi yok  Bilgi yok  
+Lüksemburg  Bilgi yok  Bilgi yok  
+Yunanistan  Bilgi yok  Bilgi yok  
+Malta  Bilgi yok  Bilgi yok  
+Hollanda  Non Combustible Class 1 Class 2 Class 3 Class 4  A1 A2-s2 B-s2 C-s2 D-s2  Hollanda Resmi Gazetesinde Haziran 2003 NEN-EN 13501­1 olarak yayýmlanmýþtýr.  8  
+Nichtbrennbar  A1&A2-s1,d0  Uygulandý. Resmi DIBt Ocak 2002 de duyurmuþtur.  
+Schwerentflammbar/No smoke, no droplets   B-s1,d0&C-s1,d0  
+Schwerentflammbar/Smoke, no droplets   A2-s2/3,d0 & B + C-s2/3,d0  
+Almanya  Schwerentflammbar/Droplets, no smoke   A2-s1,d1/2 & B+C-s1,d1/2  
+Schwerentflammbar/Smoke & droplets   A2-s3,d2& B+C-s3,d2  
+Normalentflammbar/ Smoke, no droplets  D-s1/2/3,d0 ve E  
+Normalentflammbar/ Smoke & droplets  D-s1/2/3,d2 ve E-d2  
+Leichtentflammbar  F  
+
+AB Üye Ülkeler  Mevcut Ulusal Sýnýflar  AB Sýnýflarý(Euroclasses)  Uygulama Süreçleri  Açýklama  
+Polonya  Non combustible, and no droplets Non combustible Non ignitable, and  no droplets Non ignitable Hard ignitable Easy ignitable Self extinguishing  A1& A2s1/2/3,d0 A1&A2 B-s1/2/3,d0 C ve D-s1,d1/2/3 D-s2 ve E ve F E  Uygulanmasý 2003 sonu ile PN EN 13501-1 ekine göre yapýlmaktadýr  8  
+Macaristan  A1 (non combustible) A2 (quasi non combustible) B1 (hard combustible) B2 (easy combustible) B3(easy combustible) C0 (no melting) C1 (melting, no droplets) C2 (burning droplets/ignition) F0 (no smoke) F1 (moderate smoke) F2 (strongly smoke products)  07  Yeni yönetmelik geliþtirme aþamasýndadýr. Bitim tarihi Mayýs 2004 olarak belirlenmiþtir  7  
+Slovenya (Bkz. 05)  Non-combustible Class 1 Class 2 Class 3 Class 4  A1&A2 B C D E  Uygulama ile ilgili bir bilgi yoktur.  5  
+Ýspanya  M0 M1 M2 M3 M4  Kullanýlan tüm sýnýflar EC 2000/147’e göredir. Eski ve yeni sýnýflar arasýnda kurulmuþtüm gereksinimler için bir denklik tablosu yoktur.  Uygulama 2003 sonundadýr.  
+Ýsveç  Non-combustible Class I Class II Class III  A2-s1,d0 B-s1,d0 C-s2,d0 D-s2,d0  Uygulama 2002 Ekim’dedir.  
+Birleþik Krallýk (Ýngiltere+Galler)  Non-Combustible Limited Combustible Class 0 Class 1 Class 2  A1 veya teste gerek kalmadan A1 özeliklerini karþýlayan A2-s3,d2 veya daha iyisi B-s3,d2 veya daha iyisi C-s3,d2 veya daha iyisi D-s3,d0 veya daha iyisi  Bina Yönetmeliðinin 2002 Düzeltmesi ile uygulamadadýr.  
+Birleþik Krallýk (Ýskoç)  Non-Combustible Class 0 Class 1 Class 3  A1 veya A2 ve teste gerek kalmadan A1 özeliklerini karþýlayan B C D  2001’de uygulanmýþtýr.  
+
+EFTA(*) ÜyeÜlkeler  Mevcut Ulusal Sýnýflar  AB Sýnýflarý  Uygulama süreçleri  Açýklama  
+Ýzlanda  Bilgi yok  Bilgi yok  
+Lihtenþtayn  Bilgi yok  Bilgi yok  
+Norveç  Non combustible Limited Combustible Combustible  A2-s1, d0 A2-s1, d0 Diðer Tüm Ürünler  14 Mayýs 2003’de yayýmlanmýþtýr.  
+Ýsviçre  Bkz.6  6  
+
+1 ÖN 3806, Anhang B (bilgi amaçlý) göre duman oluþumu ve yanma damlamalarý/tanecikleri sýnýflandýrmasý2 Belçika’nýn “Alman Yaklaþýmý” ný takip edeceði ve çeviri yapmayacaðý görülmektedir. 3 “Yanýcý” (veya C sýnýfý) sýnýfý resmi dokümanda mevcut deðildir. 4 Sadece kaçýþ yolu için 5 Yanmazlýk için Slovenya standardý olan JUS UJI 040 ISO 1183 benzeridir ve alev yayýlýmýiçin Slovenya standardý JUS UJI BS 482, bölüm 7 ile benzerdir. 6 Uygulanabilir son çözüm yoktur. 7 Yangýnla ilgili Macar Standart Serisi MSZ 595 Ulusal Mevzuat içerisinde uygulanmaktadýr. 8 Duman oluþumu ve yanma damlamalarý/tanecikleri ile ilgili detaylar nihai formda bulunmamaktadýr.  
+(*) (EFTA-European Fair Trade Association) : Avrupa Serbest Ticaret Birliði  
+
+F. Demirel ve S. Altýndaþ Yapý Malzemelerinin Avrupa Yangýna Tepki Sýnýflarý, Konunun Türkiye - Avrupa Genelinde Ýrdelenmesi ve... 
+Tablo 18. Döþemeler dýþýndaki yapý malzemelerinin ulusal yangýna tepki performans sýnýflarýnýn Avrupa sýnýflarýna uyarlanmasý
+Malzemenin Yanýcýlýk Özelliði  Duman Oluþumu Yok  Yanma Damlamalarý/ Tanecikleri Yok  Avrupa Sýnýflarý(Euroclasses)  T.C. Binalarýn Yangýndan Korunmasý Hakkýnda Yönetmelik  
+Hiç Yanmaz  9  9  A1  A1  
+Zor Yanýcý 9  9  A2 - s1, d0  A2  
+Zor Alevlenici  9  9  B,C - s1, d0  B1  
+9  A2 - s2, d0 A2, B, C - s3, d0  
+9  A2, B,C - s1, d1 A2, B,C - s1, d2  
+(minimum)  A2, B, C - s3, d2  
+Normal Alevlenici  9  D - s1, d0 D - s2, d0 D - s3, d0 E  B2 
+D - s1, d2 D - s2, d2 D - s3, d2  
+(minimum)  E - d2  
+Kolay Alevlenici  F  B3  
+Tablo 19. Döþemelere iliþkin Yapý Malzemelerinin Ulusal Yangýna Tepki Performans Sýnýflarýnýn Avrupa Sýnýflarýna Uyarlanmasý
+
+
+Malzemenin Yanýcýlýk Özelliði  Duman Oluþumu Yok  Avrupa Sýnýflarý(Euroclasses)  T.C. Binalarýn Yangýndan Korunmasý Hakkýnda Yönetmelik  
+Hiç Yanmaz  9  A1FL  A1  
+Zor Yanýcý 9  A2FL - s1  A2  
+Zor Alevlenici  9  BFL - s1  B1 
+(minimum)  9  CFL - s1  
+Normal alevlenici  A2FL - s2 BFL - s2 CFL - s2 DFL - s1 DFL - s2  B2  
+(minimum)  EFL  
+Kolay alevlenici  FFL  B3  
+
+
+5. SONUÇ 
+Yapý Malzemeleri Direktifi (CPD-89/106/EEC), Avrupa Birliðine üye ülkeler içinde, ürünlerin serbest dolaþýmý için, tüm yapý malzemelerine yayýlan genel bir yaklaþým getirmektedir. Ulusal yangýn sýnýflarýnýn varlýðý, Avrupa Birliðine üye ülkeler arasýnda yapýmalzemelerinin serbest dolaþýmýna engel oluþturmak­tadýr. Bu direktif aracýlýðý ile Avrupa Birliðine üye ülkelerin AB teknik þartnameleri ile çeliþen ulusal yangýn mevzuatlarý yürürlükten kaldýrýlarak, yanýltýcýolan farklý sýnýflandýrmalara son verilmiþtir. 
+Yeni Avrupa sýnýflarý ile duman oluþumu ve alev damlama özelliði de ön plana çýkartýlarak, yapýmalzemelerinin yanýcýlýk ile ilgili performanslarý daha gerçekçi bir yaklaþýmla ortaya konulmuþtur. 
+Ülkemizde de AB uyumu kapsamýnda yönetmelikler, standartlar hýzla Avrupa Birliði Teknik Mevzuatýna adapte edilmektedir. Yapý malzemelerinin Avrupa Birliði pazarýnda serbest dolaþýmýný amaçlayan Direktif (89/106/EEC), Yapý Malzemeleri Yönetmeliði adý altýnda uyumlaþtýrýlarak, bir anlamda, Türkiye olarak, AB pazarýnda olduðumuz vurgulanmýþtýr. Ancak þu anda görülen temel eksiklik, yapý malzemelerinin yangýna tepkisini ortaya koyan Avrupa Sýnýflarýný belirleyebilecek bir laboratuarýn henüz ülkemizde kurulamamýþ olmasýdýr. Ývedilikle, hükümet bazýnda, makro ölçekte alýnacak kararlar ile hem üreticinin maðduriyeti, hem de kýt olan ülke kaynaklarýnýn geliþmiþ test düzeneklerine sahip Avrupa ülkelerine aktarýmý önlenmelidir. 
+Ülkemizde gerek tam donanýmlý bir yangýn laboratuarýnýn olmamasý, gerekse Binalarýn Yangýndan korunmasý Hakkýnda Yönetmeliðin 2002 gibi yakýn bir tarihte yürürlüðe girmesi nedeniyle, henüz ulusal yangýn sýnýflarý, yapý sektöründe yaygýn kullaným olanaðý bulamamýþtýr. Olumsuz gibi görünen bu durum, Ülkemizde, Ulusal Sýnýflardan Avrupa Sýnýflarýna geçiþin diðer geliþmiþ ulusal yangýn mevzuatýna sahip Avrupa Ülkelerinden daha az sancýlýolmasýný da beraberinde getirecektir. 
+
+
+SEMBOLLER LÝSTESÝ
+.T : Sýcaklýk artýþý.m : Kütle kaybý (%) Fs : Alev yayýlmasý (mm)FIGRA : Sýnýflandýrma amaçlarý açýsýndan 
+kullanýlan yangýn büyüme hýzý indisi FIGRA0,2mj: 0,2 MJ’luk THR eþik deðerinde yangýn büyüme hýzý indisi  FIGRA0,4mj: 0,4 MJ’luk THR eþik deðerinde 
+yangýn büyüme hýzý indisi  LFS : Yanal Alev Yayýlmasý (m) PCS : Toplam kalorifik potansiyel (MJ/kg 
+veya MJ/m2) PCI : Net kalorifik potansiyel (MJ/kg veya 
+MJ/m2) SMOGRA : Duman Büyüme OranýTf : Yanmanýn devam ettiði süre (s) THR600s : 600 s içinde açýða çýkan toplam ýsý
+(MJ) TSP600s : 600 s içinde toplam duman üretimi (m2) 
+
+

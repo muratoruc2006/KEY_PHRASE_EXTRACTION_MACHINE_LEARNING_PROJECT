@@ -1,0 +1,590 @@
+ÝDEAL PERFORMANS DEÐERLENDÝRME FORMU TASARIMINDA ANALÝTÝK HÝYERARÞÝ YÖNTEMÝYAKLAÞIMI 
+Bu çalýþmada, günümüz insan kaynaklarý uygulamalarýndan biri olan performans deðerlendirme sistemi için kullanýlan deðerlendirme yöntemlerinin ve etkinliklerinin çok ölçütlü bir karar problemi olmasýndan kaynaklanan sorun ve eksiklikleri gidermeye yönelik bir çalýþma yapýlmýþtýr. Çalýþmanýn ilk bölümünde performans deðerlendirme sistemi, yöntemleri ve bu yöntemlerin avantaj ve dezavantajlarý üzerinde durulmuþtur. Ýkinci bölümde, analitik hiyerarþi yönteminin yapýsý, genel kullaným alanlarý, saðladýðý avantajlar ve performans deðerlendirme yöntemlerini incelemek için oluþturulan ölçütler ve alternatifler anlatýlmýþtýr. Son bölümde ise AHP ile incelenen performans deðerlendirme yöntemlerinden ideal bir performans deðerlendirme formu tasarýmýnýn adýmlarý ve oluþturulan yeni performans deðerlendirme formu verilmiþtir. 
+
+1. GÝRÝÞPerformans deðerlendirme, bir yöneticinin önceden 
+saptanmýþ standartlarla karþýlaþtýrma ve ölçme yoluyla Performans, belirli amaçlara yönelik planlý etkinlikler personelin iþteki performansýnýn deðerlendirilmesi sonucu nicel ya da nitel olarak deðer kazanmýþsüreci yada bireyin görevindeki baþarýsý, iþteki tutumu kavramlardýr. Bir iþletmenin performansý; stratejik, ve davranýþlarý, ahlaki durumu ve özelliklerini taktiksel ve operasyonel amaçlarýnýn gerçekleþtirilme-ayrýntýlayan ve bütünleyen, kýsaca bireyin kuruluþun sinde, çalýþanlarýn iþin nitelik ve gereklerini yerine baþarýsýna olan katkýlarýný deðerlendiren planlý bir getirmek için gösterdikleri tüm çabalarýn deðerlen-araçtýr [2,4]. dirilmesi olarak tanýmlanabilir. Deðerlendirme, ölçme sonuçlarýný belirli bir ölçüt sistemine dayanarak, Bir diðer deyiþle performans deðerlendirmesi; çalýþan ölçülen nitelik hakkýnda bir deðer yargýsýna varma ile yönetici arasýnda ortak bir çalýþmaya, bilgi süreci olarak tanýmlanabilir [1-3]. alýþveriþine, hem hatalar hem de baþarýlar açýsýndan 
+E. Eraslan ve O. Algün Ýdeal Performans Deðerlendirme Formu Tasarýmýnda Analitik Hiyerarþi Yöntemi Yaklaþýmý
+sorumluluðunun paylaþýlmasýna, eðitim ve geliþmesine olanak saðlayan dinamik bir sistemdir. Performans deðerleme kiþi düzeyinde bireysel psikolojik, kurum düzeyinde motivasyona yönelik bir ihtiyaçtýr [1]. 
+1.1.  Performans Deðerlendirme Sisteminin Amaçlarý ve Kullaným Alanlarý
+
+1.1.1. Performans deðerlendirmenin amaçlarý
+Performans deðerlendirmenin ana amaçlarýný iki grupta toplayabiliriz: 
+1-Yönetsel amaçlar: 
+• 
+Ýþletmenin çeþitli birimlerinden en alt birim olan personele kadar baþarý durumlarýnýn ölçülmesine olanak saðlayacak ortamý hazýrlamak, 
+
+• 
+Ýþe yerleþtirme, adaylýk dönemindeki çalýþanlarýn görevlerini sürdürüp sürdüremeyecekleri, terfi, ücret artýþý, özendirici ücret sistemleri, ödüllendirme, cezalandýrma ve yer deðiþtirme gibi çeþitli çalýþan iþlev ve uygulamalarýna iliþkin yönetsel kararlarýn alýnmasýnda gereksinme duyulacak bilgi ve nesnel ölçüleri saðlamak, 
+
+• 
+Ýþletmenin amaç ve gereksinimleri ile çalýþanlarýn amaç ve gereksinimlerinin bütünleþtirilmesi için gerekli ortamýn hazýrlanmasýna katkýda bulunmak, 
+
+• 
+Ýþletmenin iþgücü ve yönetim potansiyeli hakkýnda güvenilir bilgiler elde etmek, 
+
+• 
+Ýþletmenin genel baþarý durumu ve sorunlarýna iliþkin bilgi toplamak ve gelecekte ortaya çýkabilecek olaylarýn önceden kestirilmesine olanak saðlamak, 
+
+• 
+Daha etkin iþgücü politika, plan ve programlarýnýn ücret sistemlerinin, eðitim ve geliþtirme programlarýnýn, iþe alma, seçme ve yerleþtirme, terfi ve ödüllendirme uygulamalarýnýn geliþtirilmesine olanak saðlamak [1,5,6]. 
+
+2-Geleceðe iliþkin personel geliþtirme amaçlarý: 
+
+• 
+Çalýþanlara baþarý düzeyleri hakkýnda bilgi vermek, üstlerinin kendileri hakkýnda ne düþündükleri ve neler beklediklerini bilmelerine olanak saðlamak, 
+
+• 
+Kiþisel amaçlarýn belirlenmesini, elde edilen baþarýlarýn tanýnmasý ve yapýlan iþin anlam kazanmasýný saðlamak ve dolayýsýyla kiþinin baþarý gereksinmesini karþýlamak, iþ tatmini ve motivasyonu arttýrmak, iþe yabancýlaþmayýazaltmak ve kiþinin amaçlarý ile iþletme amaçlarýarasýndaki çeliþkiyi ortadan kaldýrmak, 
+
+• 
+Çalýþanlara hatalý ve eksik yönlerini göstererek bunlarýn eðitim ve geliþim planlarý ile giderilmesine olanak saðlamak, 
+
+• 
+Çalýþanlarýn iþletmedeki geleceklerine iliþkin durumlarýný açýklayan kariyer planlamasýuygulamalarýna olanak saðlamak [1,5,7,8]. 
+
+
+1.1.2. Performans deðerlendirmenin kullaným alanlarý
+• 
+En yaygýn kullaným alaný olan çalýþanlarýn terfi ve kademe indirimi, görev tanýmlarýnýn yeniden yapýlandýrýlmasý uygulamalarý, 
+
+• 
+Ücret düzenlemesi, 
+
+• 
+Personeli ikaz etme ve iþten çýkarma kararlarý, 
+
+• 
+Ýþgücü gereksinimlerinin belirlenmesi, 
+
+• 
+Bireysel ve örgütsel eðitim ve geliþim ihtiyaçlarýnýn belirlenmesi, 
+
+• 
+Yöneticiler ile çalýþanlar arasýndaki hiyerarþiyi azaltýcý, koordinasyonu arttýrýcý faaliyetler, 
+
+• 
+Çalýþanlarla iletiþim kurarak çalýþanlarýn performans geliþimini destekleyici çalýþmalar, 
+
+• 
+Kariyer geliþtirme uygulamalarý [1,7,9]. 
+
+
+
+1.2. Performans Deðerlendirme Yöntemleri 
+1.2.1. Grafik deðerlendirme yöntemi 
+Bu yöntem, belirli bir iþ grubundaki çalýþanlarýn iþteki bireysel baþarýlarýný genel olarak deðerlendirmek amacýyla kullanýlýr.Bir departmanda çalýþanlarýn tümü veya az sayýda çalýþaný bulunan küçük iþletmeler için uygun bir yöntemdir. Belirli zaman periyotlarýsonunda iþgörenin baðlý olduðu yönetici tarafýndan iþgörenin kiþilik özellikleri, iþe iliþkin davranýþlarý ve iþin çýktýlarýnýn deðerlendirildiði puanlamaya dayalýsistematik bir yöntemdir. 
+Grafik deðerlendirme yönteminin avantajlarý: 
+• 
+Geliþtirilmesi ve uygulanmasý kolay bir yöntem olmasý
+
+• 
+Kýsa sürede deðerlendirilmesinden dolayý iþletmeye maliyetinin az olmasýdýr. 
+
+Grafik deðerlendirme yöntemini dezavantajlarý: 
+
+• 
+Bazý kriterler sayýsallaþtýrýlamadýðýndan iþgörenler arasý farklar kimi zaman ortaya konamaz [1,5]. 
+
+
+
+
+1.2.2. Puanlama yöntemi 
+Puanlama yöntemi her kritere önem sýrasýna göre puan atanmasýna dayalý bir yöntemdir. Yaygýn uygulamada kriterler 5 dereceye ayrýlýr ve bu ayrým puan aralýðýnda baþarýlýdan baþlayarak baþarýsýza kadar adlandýrýlýr. Bu uygulamada puan atama 3 farklýþekilde yapýlabilir: 
+1-Minimum aðýrlýklandýrma: Kritere verilecek 
+maksimum puan ilk dereceye atanarak eþit 
+aralýklarla diðer derecelere puan atamayý esas alýr. 2-Maksimum aðýrlýklandýrma: Kritere verilecek 
+maksimum puan beþinci dereceye atanarak eþit ve 
+azalan aralýklarla diðer derecelere puan atamayý
+esas alýr. 3-Geometrik dizi ile aðýrlýklandýrma: Geometrik dizi 
+çarpaný bulunarak iþçilerin motivasyonunu arttýrmaya yönelik ve daha çok baþarýya daha fazla 
+
+puan veren bir uygulamadýr. 4-Aritmetik dizi ile aðýrlýklandýrma: Kriter içi en 
+yüksek ve en düþük puan farký bulunarak atamalarýn 
+eþit aralýklarla yapýlmasýný esas alan bir 
+uygulamadýr. 
+Puanlama Yönteminin avantajý olarak sonuçlarýn deðerlendirmesinin kolaylýðý, puanlama yönteminin dezavantajlarý aþaðýdakiler sayýlabilir: 
+• 
+Geliþtirilmesi kriterlere baðlý olarak zorlaþabilir, 
+
+• 
+Her departman kendine ait kriterlerle deðerlendirilmelidir, 
+
+• 
+Faktör puaný atamak profesyonellik ister [1,5,7]. 
+
+
+
+
+1.2.3. Derecelendirme yöntemi 
+Ýþgöreni deðerlendirmek için oluþturulan kriterlere en uygun seçeneðin iþaretlenmesine dayalý bir uygulamadýr. Seçeneklerin açýklama içermesi, deðerlendiriciye kriterler ve seçenekler arasý farklarýanlamasýna yardýmcý olmaktadýr. 
+Derecelendirme yönteminin avantajlarý: 
+• 
+Diðer yöntemlere göre daha açýk ve nettir, 
+
+• 
+Tutarlý deðerlendirmeye olanak saðlamaktadýr, 
+
+• 
+Sonuçlarý elde edilmesi kolay olduðundan maliyeti düþük bir yöntemdir. 
+
+Derecelendirme yönteminin dezavantajlarý: 
+
+• 
+Seçenekler arasý farklarýn açýk biçimde ifade edilmesi gerekir, 
+
+• 
+Seçenek tanýlarýný yapmak profesyonellik ister [1,5,7]. 
+
+
+
+1.2.4. Kontrol listesi yöntemi 
+Deðerlendiricinin formda belirtilmiþ faaliyetlerden iþgörenin sahip olduðu ve gözlediði kriterleri seçmesine dayalý bir yöntemdir. Faaliyetlere puan atama iþlemi gerçekleþtirilerek formun sayýsal hale getirilmesi mümkündür. 
+ Kontrol listesi yönteminin avantajlarý: 
+• 
+Pratik ve maliyeti düþük bir yöntemdir, 
+
+• 
+Faaliyetler açýklama içerdiðinden deðerleyici açýsýndan iþaretleme iþlemi kolay yapýlmaktadýr, 
+
+• 
+Yöntem tutarlý sonuçlar verir. 
+
+Kontrol listesi yönteminin dezavantajlarý: 
+
+• 
+Halo etkisi görülebilir, 
+
+• 
+Aðýrlýklý puanlarýn iyi atanmasý gerekir, 
+
+• 
+Ayný departmanda bile bazý faaliyetler ayný aðýrlýða sahip olmayabilir [7,8]. 
+
+
+
+1.2.5. Zorunlu seçim yöntemi 
+Deðerlendiricinin gruplaþmýþ kriterler içinden her gruptan bir tanesini seçmesine dayanan bir yöntemdir. 
+Zorunlu seçim yönteminin avantajlarý: 
+• 
+Sayýsal yöntem olmasý deðerlendirmeyi kolaylaþtýrmaktadýr, 
+
+• 
+Uygulanmasý pratik ve ekonomiktir. 
+
+Zorunlu seçin yönteminin dezavantajlarý: 
+
+• 
+Ýþgörenin durumunu belirten bir seçenek yoksa bile bir seçenek iþaretlenmelidir. Bu yönteme iþgören arasý fark deðerlendirmesi için bir engel teþkil etmektedir. 
+
+
+
+1.2.6. Puan tahsis yöntemi 
+Uygulama bakýmýndan zorunlu daðýlým yöntemine benzeyen bu yöntemde iþgörenlerden en baþarýlýsýndan en baþarýsýzýna kadar yukardan aþaðýsýralanmasý ve puan atanmasý iþlemini içerir. Böylece iþgörenler arasý bir sýralama oluþturulmuþ olur. 
+Puan tahsis yönteminin avantajlarý: 
+• 
+Basit ve uygulanmasý kolay bir yöntemdir. 
+
+Puan tahsis yönteminin avantajlarý: 
+
+• 
+Deðerlendirici hatasýna açýk bir yöntemdir, 
+
+• 
+Puanlama iþgörenler arasý farký gösterme niteliðine sahip olmayabilir [5,10]. 
+
+
+
+1.2.7. Davranýþsal deðerlendirme yöntemi 
+Zorunlu seçim yöntemi ile derecelendirme yönteminin beraber kullanýlmasý ile oluþturulan bu yöntem iþgörenin durumunu belirten tek seçeneðin iþaretlenmesi esasýna dayanýr. 
+Davranýþsal deðerlendirme formunun hazýrlanmasýnda iþgörenin katýlýmýna izin verilmesi,diðer yöntemlere göre iþgörenin formu benimsemesi saðlamýþtýr [1,5]. 
+Davranýþsal deðerlendirme yönteminin avantajlarý: 
+• 
+Ýþgörenin diðer yöntemlere göre daha çok benimsediði bir uygulamadýr, 
+
+• 
+Ücretlendirme ve kariyer planlamasýna içeriði dolayýsýyla kaynaklýk eder, 
+
+• 
+Ýþgörenin yaptýðýiþ esas alýnarak puanlamaya gidilir. 
+
+Davranýþsal deðerlendirme yönteminin dezavantajlarý: 
+
+• 
+Yöntemin geliþtirilmesi uzun zaman aldýðý için zaman alýcý ve maliyeti yüksektir [3]. 
+
+
+
+
+1.2.8. Ýkili karþýlaþtýrma yöntemi 
+Belirli bir grup yada departmanda çalýþan iþgörenleri birbirleri ile kýyaslayarak sýralama elde eden bir yöntemdir. Ýþgörenler yukardan aþaðý ve soldan saða doðru matris tablosuna atanarak ve her iþgörenin diðer iþgörenlerle kýyaslanýp daha sonra diðer iþgörene göre baþarýlý görülenlere “+” iþareti atanmasýyla oluþan bir formdur. Kýyaslamanýn en sonunda “+” sayýsý toplamýfazla olandan en aza kadar iþgörenlerin sýralama sayýsýyazýlarak form tamamlanýr [5]. 
+
+E. Eraslan ve O. Algün Ýdeal Performans Deðerlendirme Formu Tasarýmýnda Analitik Hiyerarþi Yöntemi Yaklaþýmý
+Ýkili karþýlaþtýrma yönteminin avantajlarý: 
+• 
+Baþarý sýralamasý kolaylýkla elde edilir, 
+
+• 
+Her iþgören birbirleriyle kýyaslanmýþ olur. Kademesi düþürme veya iþten ayrýlma kararlarýalýnmasýný kolaylaþtýrýr. 
+
+Ýkili karþýlaþtýrma yönteminin dezavantajlarý: 
+
+• 
+Ýþgören sayýsý çok olduðu durumlarda uygulama süresi ve maliyeti çok fazla artar, 
+
+• 
+Deðerlendirici hatalarýna açýk bir yöntemdir, 
+
+• 
+Ýþgörenler birbirleriyle kýyaslandýðýndan motivasyon sorunlarý ortaya çýkabilir.[3] 
+
+
+
+2. ANALÝTÝK HÝYERARÞÝ PROSESÝ (AHP) 
+1970 yýllarýnda karar destek aracý olarak geliþtirilen Analitik Hiyerarþi Prosesi, çok ölçütlü karar problemlerinin araþtýrýlmasýnda kullanýlýr. Hem objektif hem subjektif deðerlendirme ölçütlerini kullanmasý, deðerlendirme tutarlýlýðýnýn test edilmesini saðlamasý, özellikle de çok sayýdaki ölçüte göre deðerlendirilmesi gereken alternatifler içerisinden hangisine öncelik verilmesi gerektiði gibi çok önemli bir kararýn karar verici tarafýndan uygulanmasý nedeniyle AHP önemli bir araçtýr [5,11]. 
+AHP’nin genel kullaným alanlarý: 
+• 
+Ýþ deðerlendirmesi, 
+
+• 
+Alternatif seçimi, 
+
+• 
+Kar/zarar karþýlaþtýrmalarý, 
+
+• 
+Olasý çýktýlarýn tahmini, 
+
+• 
+Karar verme sistemindeki deðiþiklikleri kontrol etme, 
+
+• 
+Grup karar vermenin kolaylaþtýrýlmasýdýr [11]. 
+
+
+AHP kullanýmýnýn temel nedenleri: 
+• 
+Performans Deðerlendirme çalýþmasýnýn çok ölçütlü bir yapýda olmasý, 
+
+• 
+Geleneksel performans deðerlendirme yöntemle­rinin nitel ölçütleri objektif olarak deðerlendireme­mesinden kaynaklanan deðerlendirme eksiklikleri ve hatalarý, 
+
+• 
+Geleneksel performans deðerlendirme yöntemle­rinin tutarlýlýðý, uygulayýcýlarýn yetenekleri ve bilgileriyle kýsýtlý kalmasý, 
+
+• 
+Geleneksel performans deðerlendirme yöntemle­rinin büyük çoðunluðunun uygulama sonunda yöneticiye beklediði bilgileri sunmaktan uzak kalmasýdýr [5,11]. 
+
+
+AHP kullanýmýnýn saðlayacaðý yararlar: 
+• 
+Performans deðerlendirme uygulamasýnýn içerdiði çok ölçütlülük analitik olarak incelenebilecektir, 
+
+• 
+Objektif ve subjektif deðerlendirme ölçütlerinin birlikte yürütülmesini mümkün kýlýnacaktýr, 
+
+• 
+Deðerlendirmelerin tutarlýlýðý ölçülebilecektir, 
+
+
+• Çok sayýdaki ölçütlere göre deðerlendirilmesi gereken altenatiflerin aðýrlýklandýrýlmasý saðla­nacaktýr [5,11]. 
+2.1. Problemin Tanýmý
+Performans deðerlendirme uygulamasýnda, deðerlen­dirici tarafýndan kullanýlacak deðerlendirme formunun seçimi çok ölçütlü ve çok alternatifli bir problem olduðu için AHP yönteminin kullanýlmasý uygun görülmüþtür. Problemin çözümünde AHP yöntemini dört ölçüt ve dört alternatif ile uygulanmýþtýr. Seçilen ölçütler, çeþitli uygulama alanlarýnda performans deðerlendirme formlarýndan beklenen özellikleri göz önünde tutarak ve Türkiye sivil savunmasý için hizmet veren iki özel þirketin orta ve üst düzey yöneticileri ile yapýlan beyin fýrtýnasý sonucu oluþturulmuþtur. Günümüz performans deðerlendirme yöntemlerinin temel yapýsýnýortaya koyan ve yapý olarak birbirinden farklý yöntemler alternatifleri oluþturmuþtur..Bu ölçüt ve alternatifler aþaðýda görülmektedir.  
+Ölçütler: 
+1-Uygulanabilirlik: Formun basitliði ve deðerlen­diricinin seçenekler arasý farklarý kolay anlayabilmesidir. 
+2-Güvenilirlik: Formun çalýþanlar arasý farklarýbelirleme yeteneðidir. 
+3-Deðerlendirme sonuçlarýnýn etkin kullanýmý: Formun yöneticinin tarafýndan deðerlendirdiðinde çalýþanlarýn eðitim-geliþim ihtiyacýný ve eksikliklerini gösterebilmesi ve ücretlendirme ve kariyer planlamasýna kaynaklýk yapabilme özelliðidir. 
+4-Ekonomiklik: Form uygulamalarýnýn yöneticiye aktarým süresi ve formun doldurulma süresidir. 
+Alternatifler: 
+1-Derecelendirme Yöntemi 2-Ýkili Karþýlaþtýrma Yöntemi 3-Kontrol Listesi Yöntemi 4-Puanlama Yöntemleri: Grafik Deðerlendirme 
+yöntemi, Puanlama yöntemi, Zorunlu Seçim yöntemi, Davranýþsal Deðerlendirme yöntemi, Puan Tahsis yöntemi 
+2.2. Hiyerarþik Yapýnýn Kurulmasý
+Bu yapý kurulurken AHP prensipleri doðrultusunda öncelikle amaç, bunu takip eden ölçütler ve bunlarýn alternatifleri gösterilmiþtir. Burada tam hiyerarþik bir yapý ile karþýlaþýlmaktadýr. 
+
+
+2.3. Ýkili Karþýlaþtýrmalarýn Yapýlmasý
+Ýkili karþýlaþtýrmalar AHP’nin en önemli aþamasýdýr. Ýkili karþýlaþtýrmalar ile AHP’de yargýlar bir matrise dönüþtürülür. aij, i özellik ile j özelliðin ikili karþýlaþtýrma deðerini verecek olursa genel olarak ikili 
+
+w1/ w1 .. w1/ wn
+.. ........
+
+karþýlaþtýrma matrisi;  W* = 
+... . ... . 
+a11a12 a1
+.......
+.
+
+a11 a12 a1 
+1/ 12 
+.
+
+.
+
+n 
+/ 1.. /
+n 
+w w w w
+..
+n n n
+....
+
+....
+
+....
+
+a
+A = 
+
+a 
+...
+
+21 
+...
+
+= 
+
+Ýkili karþýlaþtýrma matrisi tutarlý ise (tutarlýlýk konusu 
+. ...
+
+. ...
+
+sonraki bölümde açýklanacaktýr), W* matrisi ile 
+arasýnda çok büyük farklarýn olmamasý gerekir. 
+Aritmetik ortalama ile göreli önem hesaplamasýyapýlarak karþýlaþtýrmalý vektörlerin (GÖV) deðerleri bulunmuþtur. Bu vektörler, alternatifler ve ölçütler Tablo 5’te verilmiþtir [12,13]. 
+
+3. UYGULAMA 
+Bu çalýþmadaki amaç ideal performans deðerlendirme formu tasarlanmasýdýr. Bu amaç, uygulanabilirlik, güvenilirlik, deðerlendirme sonuçlarýnýn etkin kullanýmý ve ekonomiklik gibi dört farklý ölçüt altýnda daha önce anlatýlan dört farklý form üzerinden oluþturulmuþtur. 
+3.1. Hiyerarþik Yapýnýn Kurulmasý
+Hiyerarþik yapýÞekil 1’deki gibi kurulmuþtur. 
+3.2. Ýkili Karþýlaþtýrmalarýnýn Yapýlmasý
+Matris oluþturulurken simetrik eleman, aðýrlýðýn 
+çarpmaya göre tersi olarak alýnýr. Tablo 2’de ölçütlerden bir tanesinin alternatiflere göre karþýlaþtýrýlmalarý gösterilmiþtir. 
+Bütün alternatifler ölçütlere göre deðerlendirildikten sonra ölçütlerin kendi aralarýnda karþýlaþtýrma iþlemi yapýlýr. Sonuçlar Tablo 3’de verilmiþtir. 
+3.3. Tutarlýlýk Oranlarýnýn Hesaplanmasý
+Ýkili karþýlaþtýrmalar sonucu elde edilen matrislerin tutarlýlýðýnýn kontrolü yapýlabilir. Tutarlýlýk hesabýiçin özvektör yöntemi büyük kolaylýk saðlamaktadýr. Alternatif ve ölçüt sayýsýna göre (n=4) kabul edilebilir tutarsýzlýk oraný %10 alýnmýþ ve bu konudaki 1/ 
+þeklinde yazýlýr. Ýkili karþýlaþtýrma matrisinin birtakým özellikleri vardýr. Bunlar aþaðýda sýralanmýþtýr: 
+1. 
+Matrisin tüm elemanlarý pozitif sayýdýr ve kare matristir. 
+
+2. 
+Matris tam tutarlý ise aij . ajk = aik eþitliði saðlanýr. 
+
+3. 
+Matris tam tutarlýysa herhangi bir satýrýndan matrisin diðer tüm faktörleri elde edilir. 
+
+4. 
+n sayýsýnýn 2’li kombinasyonu kadar açýlým yapýlýr. 
+
+5. 
+Matrisin en büyük özdeðerine karþýlýk gelen özvektör, AHP matrisinde aðýrlýk veya göreli önem 
+
+6. 
+A matrisinin köþegenleri 1’e eþittir [12,13]. 
+
+
+Analitik Hiyerarþi sürecinde ölçütlerin ve alternatiflerin birbirlerine göre önemlerini belirleyebilmek için her bir alternatif, diðer alternatiflerle AHP Ýkili Karþýlaþtýrmalar ölçeði tablosundaki aðýrlýðýna bakýlarak puanlanýr [11]. Bu aðýrlýklar ve anlamlarýTablo 1’de gösterilmiþtir. 
+
+.	vektörü olarak tanýmlanýr. 
+Tablo 1. Saaty önem derecesi tablosu [5,12] 
+an1 a
+.
+.
+
+a1 a
+.
+
+..
+
+..
+
+nn n nn 
+Önem Derecesi  Anlamý  
+1  Eþit önem  
+3  Biri diðerine göre orta derecede  daha önemli  
+5  Kuvvetli düzeyde önem  
+7  Çok kuvvetli düzeyde önem  
+9  Aþýrý düzeyde önem  
+2,4,6,8  Uzlaþma gerektiðinde kullanýlan önem dereceleri  
+
+2.4. Göreli Önem Vektörünün Hesaplanmasý 
+Ýkili karþýlaþtýrma martisinin çözümünden elde hesaplamalarda kolaylýk saðlayan Expert Choise Trial edilecek göreli önem vektörü W = (w1, w2, ..., wn) ile 
+gösterilir. Buradaki wj deðerleri öncelik veya özvektör 
+olarak tanýmlanýr. Bu deðerlerden W* matrisi elde edilir. 
+Version yazýlýmýyla Tablo 4’deki oranlar 
+hesaplanmýþtýr. 
+Bu tablodan da görülebileceði gibi, tüm oranlar kabul edilebilir seviye içindedir ve yargýlarýmýz doðrudur. 
+
+Tablo 2. Uygulanabilirlik ölçütü için ikili karþýlaþtýrma matrisi 
+Uygulanabilirlik  Ýkili Karþýlaþtýrma  Derecelendirme  Kontrol Listesi  Puanlama yöntemleri  
+Ýkili Karþýlaþtýrma  1  1/7  1/5  1/3  
+Derecelendirme  7  1  5  3  
+Kontrol Listesi  5  1/5  1  2  
+Puanlama yöntemleri  3  1/3  1/2  1  
+
+E. Eraslan ve O. AlgünÝdeal Performans Deðerlendirme Formu Tasarýmýnda Analitik Hiyerarþi Yöntemi Yaklaþýmý
+
+AMAÇ ÖLÇÜTLER ALTERNATÝFLER 
+
+Þekil 1. AHP Hiyerarþik YapýsýTablo 3. Ölçütler ikili karþýlaþtýrma matrisi
+ÖLÇÜTLER  Uygulanabilirlik  Güvenilirlik  Deð. Son. Etkin Kul.  Ekonomiklik  
+Uygulanabilirlik  1  1/3  1/3  1  
+Güvenilirlik  3  1  1/2  3  
+Deð. Son. Etkin Kul.  3  2  1  3  
+Ekonomiklik  1  1/3  1/3  1  
+
+Tablo 4. Ýkili karþýlaþtýrma matrisleri  tutarlýlýk oranlarý
+Uygulanabilirlik  0.08  
+Güvenilirlik  0.04  
+Deðerlendirme sonuçlarýnýn etkin kullanýmý 0.09  
+Ekonomiklik  0.05  
+Ölçütler matrisi  0.02  
+
+Bundan sonraki iþlem bütünleþik göreli önem vektörlerinin hesaplanmasýdýr. 
+3.4. Bütünleþik Göreli Önemler Vektörünün Bulunmasý
+Ölçütlerin belirlenen kriterler altýnda deðerlendirilmesiyle bulunan göreli önem vektörleri, bir üst seviyedeki ölçütlerin kendi içindeki karþýlaþtýrmalarý için bulunan göreli önem vektörü ile matrissel çarpýmý sonucunda bütünleþik göreli önemlere ulaþýlýr. Tablo 5’te bu iþlemler gösterilmektedir. 
+AHP yönteminin kullanarak en yüksek bütünleþik öneme sahip iki yöntem, %60 aðýrlýkla Derecelendirme yöntemi ve %26 aðýrlýkla ise Puanlama Yöntemleri bulunmuþtur. Projenin kalan kýsýmlarýnda bu iki yöntem birleþtirilerek yeni bir performans deðerlendirme formu hazýrlanacaktýr. 
+4.	DERECELENDÝRME VE PUANLAMA YÖNTEMLERÝNÝ KULLANARAK YENÝFORMUN OLUÞTURULMASI 
+Derecelendirme ve Puanlama Yöntemleri toplam içerisinde %86 gibi bir deðer ifade etmektedir. Bu nedenle, bu yöntemlerin ortak kullanýmýyla oluþturulabilecek bir form istenen özelliklerin tamamýna yakýnýný kapsayacaktýr. Böylece yöneticiler tek bir formla birçok deðeri ölçme ve denetleme imkanýna sahip olacaklardýr. Bu formun oluþturulmasýnda gerekli olan verimlilik ve etkinlik ölçütlerinin belirlenmesi yerinde olacaktýr. Yönetim bölümü için gerekli bu göstergeler aþaðýda verilmektedir. 
+
+ Uygulanabilirlik  Güvenilirlik  Deð. Son. Et. Kull.  Ekonomiklik  Bütünleþik Göreli Önemler 
+Wi  0,122  0,312  0,440  0,122  
+Ýkili Karþýlaþtýrma  0,055  0,064  0,083  0,056  0,03  
+Derecelendirme  0,587  0,517  0,550  0,279  0,60  
+Kontrol Listesi  0,213  0,165  0,135  0,139  0,11  
+Puanlama yöntemleri  0,145  0,252  0,232  0,525  0,26  
+
+4.1. Yeni Oluþturulacak Formda Yönetim Bölümü Ýçin Verimlilik ve Etkinlik Göstergeleri  
+Verimlik ve etkinlik göstergeleri seçiminde iþletmeler tarafýndan saptanmasý kolay ve iþletmelerde performans ölçüm ve denetimi için kullanýlan en genel göstergeler kullanýlmýþtýr. Böylece formun daha objektif ve analitik olmasýný saðlanmýþtýr [6,14,15]. 
+Üst yönetim düzeyine iliþkin verimlilik ve etkinlik göstergeleri 
+1-Yýllýk SatýþÝndeksleri 2- Pazar PayýÝndeksleri 3-Gerçekleþen Genel Giderler / Bütçelenen Genel 
+Giderler 4-Toplam Üretim Maliyetleri / Standart Üretim Maliyetleri 5-Ýþten Ayrýlanlarýn Sayýsý / Ortalama Çalýþan Sayýsý
+Kalite kontrol bölümüne iliþkin verimlilik ve etkinlik göstergeleri 
+1- Alýmlarda Toplam Denetim Süresi / Alýnan Parti Sayýsý2- Reddedilen Parti Sayýsý / Toplam Alýnan Parti 
+Sayýsý3- Yeniden Ýþlem Süresi / Toplam Üretim Süresi 4-Kalite Önleme Maliyeti / Kalitesizliðin Maliyeti 
+Satýnalma bölümüne iliþkin verimlilik ve etkinlik göstergeleri 
+1-Hatalý Alýmlar / Toplam Alýmlar 2-Zamanýnda Gelen Alýmlar / Toplam Alýmlar 3-Alýmlardan Saðlanan Tasarruf / Alýnan Sipariþlerin 
+Maliyeti 4-Ortalama Temin Süresi 
+Üretim bölümüne iliþkin verimlilik ve etkinlik göstergeleri 
+1-Kabul Edilen Projeler / Önerilen Projeler 2-Hedef Ürün Maliyeti / Gerçekleþen Ürün Maliyeti 3-Belirli bir dönemde gerçekleþen üretim / Belirli bir 
+dönemde planlanan üretim 
+Pazarlama bölümüne iliþkin verimlilik ve etkinlik göstergeleri 
+1-Gerçekleþen Satýþlar / Planlanan Satýþlar 2-Net Kar / Net Satýþlar 3-Satýlan Ürün Miktarý / Toplam Üretim Miktarý
+Ar-Ge bölümüne iliþkin verimlilik ve etkinlik göstergeleri 
+1-Yeni Ürün Geliþtirmede Saðlanan Tasarruf / Planlanan Maliyet 2-Uygulanan Öneriler / Geliþtirilen Toplam Öneri Sayýsý3-Tamamlanan Projeler / Planlanan Projeler 
+Ýnsan kaynaklarý bölümüne iliþkin verimlilik ve etkinlik göstergeleri 
+1-Bir yýldýr çalýþanlarýn sayýsý / Bir yýl önceki çalýþanlarýn sayýsý2-Bir yýldan fazla çalýþanlarýn sayýsý / Toplam çalýþan 
+sayýsý3-Eðitim Maliyetleri / Eðitim Süresi 4-Toplam Ýþe Devamsýzlýk / Çalýþýlan Süre 5-Toplam Ücret ve Maaþlar / Toplam Ýþletme 
+Maliyeti 6-Sosyal Ödeme ve Tazminatlar / Toplam Ücretler 7-Kaza Sayýsý / Ýþçi Sayýsý
+Stok bölümüne iliþkin verimlilik ve etkinlik göstergeleri 
+1-Stoklarýn kullanýlan sermayeye oraný2-Günlük Karþýlanan Stok Talepleri / Günlük Toplam Stok Talepleri 3-Stok eksikliði nedeniyle gecikmeli olarak tamamlanan iþler / Toplam tamamlanan iþler 
+Bakým ve onarým bölümüne iliþkin verimlilik ve etkinlik göstergeleri 
+1-Makine arýzasý nedeniyle hatalý üretim miktarý / 
+Toplam üretim miktarý2-Üretimi durduran arýza sayýsý / Çalýþýlan Süre 3-Bakým maliyetleri / Bütçelenen bakým maliyetleri 4-Planlanan bakým iþleri süresi / Gerçekleþen bakým 
+iþleri süresi 
+Sevkiyat ve taþýma bölümüne iliþkin verimlilik ve etkinlik göstergeleri 
+1-Kullanýlan Stok Alaný / Mevcut Stok Alaný2-Taþýma Giderleri / Üretim Giderleri 3-Hasar gören yük sayýsý / Toplam yük sayýsý4-Taþýma iþçilik süresi / Toplam iþçilik süresi 
+4.2. Büro ve Atölye Ýçin Seçenek Tanýmlarýnýn Yapýlmasý
+Büro ve atölye kýsýmlarýnda puanlama için yöneticiye yardýmcý olacak tanýmlarýn yapýlmasý gereklidir. Bu 
+
+E. Eraslan ve O. Algün Ýdeal Performans Deðerlendirme Formu Tasarýmýnda Analitik Hiyerarþi Yöntemi Yaklaþýmý
+amaçla atölye için 23 adet ve yönetim için 24 adet kriter belirlenmiþtir. Bu kriterler 5 seçenek üzerinden yöneticiye sunulmakta, yönetici de çalýþan hangi tanýma uygunsa o oranda puanlama yapmaktadýr. Atölye için “Emirleri Yerine Getirme” ve “Bilgi ve Beceri Düzeyi” kriterlerinin yapýlmýþ tanýmlarý Tablo 6’da görülmektedir. Büro için örnek kriter tanýmlarý“Liderlik” ve “Sosyal Ýliþkiler” olarak belirlenmiþtir ve Tablo 7’de verilmiþtir. 
+4.3. Performans Deðerlendirme Sistemi 
+Performans deðerlendirme formlarý iki farklýþekilde hazýrlanmýþtýr. Bu sayede atölye ve büro çalýþanlarýiçin birbirinden farklý aðýrlýklara sahip olan kriterler belirgin bir þekilde vurgulanmýþ, sonuçlarýn tutarlýlýðýve objektif gözlem saðlamak kolaylaþtýrýlmýþtýr. 
+Atölye çalýþanlarý için verimlilik ve etkinlik ölçütü olarak iþçinin altý aylýk dönemdeki verimliliði deðerlendirici tarafýndan tespit edilecektir.Büro çalýþanlarý için hazýrlanan formda ise her departmanda çalýþan personel için ayrý ayrý verimlilik ve etkinlik ölçütleri kullanýlmýþtýr. Böylece her departman kendi departmanýyla ilgili kriterlerden toplam puan olan 400 üzerinden 120 puan alacak ve kriterlerin belirlenmesi deðerlendiriciye býrakýlacaktýr. Çünkü kimi kriterler yýl sonlarýnda tespit edilebilir (Örneðin Gerçekleþen Genel Giderler/Bütçelenen Genel Giderler). 
+Büro çalýþanlarý için kriter sayýsý altý ile sýnýrlandýrýlmýþtýr. Bu sýnýrlamanýn sebebi deðerlendiricinin bu bilgilere hýzlý ulaþmasýnýsaðlamak ve formun 6 aylýk periyotlarla uygulanabilmesine olanak vermektir. Atölye çalýþanlarý için verimlilik ve etkinlik kriterlerin aðýrlýklarý yönetimin politikasýna baðlý olarak deðerlendirici tarafýndan belirlenecektir. 
+Atölye ve büro yardýmcý formu içerdiði seçenek açýklamalarýyla, deðerlendiricinin seçenekler arasýndaki farklarý açýk biçimde anlayarak çalýþanlar arasý puan farklarýnýn daha objektif olmasýsaðlanmýþtýr. 
+Bu makalede anlatýlan yöntem, Türkiye sivil savunmasýnda önemli rol oynayan özel bir þirkette 1 yýl boyunca uygulanmýþtýr. Ýnsan kaynaklarýnýn etkin kullanýmý konusunda önemli geliþmeler kaydedilmiþ; iþ istasyonlarýna iþgören atama, personel eðitim ihtiyaçlarýnýn tespiti kolaylaþmýþ ve iþgören verimliliklerinin deðerlendirilmesi analitik ve objektiflik kazanýlmýþtýr. 
+
+Tablo 6. Atölye için örnek kriter tanýmlarý
+ATÖLYE ÝÇÝN KRÝTERLER  MAKS. PUAN  SEÇENEK 1  SEÇENEK 2  SEÇENEK 3  SEÇENEK 4  SEÇENEK 5  
+Emirleri Yerine Getirme  10  Verilen görev ve emirleri yerine getirmemektedir.  Verilen emir ve görevleri aksatmaktadýr.  Verilen emir ve görevleri zamanýnda yerine getirmektedir.  Verilen emir ve görevleri beklenenden erken yerine getirmektedir.  Emir ve görev beklemeden iþi ilgili her türlü çalýþmayýyapmaktadýr.  
+Bilgi ve Beceri Düzeyi  65  Ýþ ile ilgili bilgi ve beceriden yoksundur.  Ýþ ile ilgili temel bilgi ve beceriye sahiptir.  Ýþ ile ilgili bilgi ve becerilerini geliþtirmeye çalýþmaktadýr.  Ýþ ile ilgili bilgi ve becerilerin tümüne sahiptir.  Ýþi ile ilgili tüm bilgi,becerilere sahiptir. Bilgi ve deneyimini astlarýnýgeliþtirmek için kullanmaktadýr.  
+
+Tablo 7. Büro için örnek kriter tanýmlarý
+BÜRO ÝÇÝN KRÝTERLER  MAKS. PUAN  SEÇENEK 1  SEÇENEK 2  SEÇENEK 3  SEÇENEK 4  SEÇENEK 5  
+Liderlik  8  Liderlik vasýflarýndan yoksundur. Kurallarýkesin ve katýdýr.  Otoriter liderlik tarzýnýbenimsemiþtir. Ödül ve ceza ile yönetir.  Çalýþanlarýiþleri konusunda ikna eder ve yönlendirir.  Çalýþanlarýetkiler, motive eder ve yönlendirir.  Ekibine güven verir. Ekip ruhunu iþletme hedeflerine göre yönlendirir.  
+Sosyal Ýliþkiler  5  Ýþiliþkilerinde saygýkurallarýdýþýna çýkmaktadýr.  Baþkalarýnýdinlemez, kendini dinlettirir.  Kapalý ve çekingen bir yapýya sahiptir.  Kendini dinlettirmekten çok baþkalarýnýdinler.  Kendini ifadede zorluk çekmez. Ýþ ile ilgili sorunlarý saygýlýbir biçimde çözer.  
+
+
+5. SONUÇ VE ÖNERÝLER 
+Performans deðerlendirme günümüzde karmaþýk bir yapýya sahiptir. Bunun asýl nedeni üretim sistemlerinin teknolojiye ayak uydurarak karmaþýk bir hal almasýdýr. Bu karmaþýk yapýlar içerisinde yöneticilerin bir performans deðerlendirme ve ölçme sistemi kurmalarýoldukça zor olmaktadýr. Birçok mevcut performans ölçüm sistemi bulunmakla birlikte bunlarýn büyük bir çoðunluðu belli özel sistemler için uygulanabilmektedir. Sistemdeki birtakým deðiþmeler sonucunda mevcut formlar yetersiz kalmýþ ve istenen kriterlerin bir kýsmýný kapsayamamýþlardýr. Bu durum performans ölçümünde isteneni vermekten uzaktýr. 
+Büro ve atölye iþlerinin birbirinden farklýlýklar göstermesi, performans ölçümünün her iki kýsým için farklý yapýlmasýný gerektirmiþ ve ölçüm formlarýbirbirinden ayrýlmýþtýr. 
+Bu çalýþmada öncelikle mevcut performans ölçüm yöntemleri incelenerek birbirlerine göre eksik yönleri belirlenmiþtir. Ancak bu sistemlerin bir karmasýyla ideal performans ölçümüne daha yaklaþýlabileceði belirlenmiþtir. Mevcut formlar içinden en iyileri seçilerek bunlarýn bileþkesinden ideal bir tasarýma ulaþýlmaya çalýþýlmýþtýr. Bu amaçla, performans ölçümünde soyut kavramlarý sayýsal ifadelere çevirebilen ve yöneticilerin verdiði deðer yargýlarýnýn kontrolünü yapabilen AHP yöntemi kullanýlmaktadýr. AHP yöntemiyle genel içeriðin önemli bölümünü temsil edebilen iki form seçilip bunlarýn birleþtirilmesiyle ideal bir form elde edilmiþtir. Formlarýn içerdiði kriter ve seçenekler ayrý ayrýdeðerlendirilerek atölye ve büro personeli için iki farklý form oluþturulmuþtur. 
+Formlarýn içerdiði bilgilerle performans deðerlendir­mesi yapýlmasý sonraki bölümde aþaðýdaki uygulamalarý mümkün kýlmaktadýr: 
+1-Ücretlendirme: Ýþ deðerlendirme çalýþmasý ile birlikte yürütülecek uygulama ile iþçiler aldýklarýpuanlara bakýlarak ücret braketleri içindeki hareketlerine göre ücretlendirilebilir. 
+2-Çalýþanlarýn terfi ve kademe indirimi uygulamalarý: Çalýþanlar deðerlendirici tarafýndan atanan puanlar deðerlendirilerek terfi ve kademe indirimi uygulamalarý yapýlabilir.  
+3-Personeli ikaz etme ve iþten çýkarma kararlarý: Çalýþanlarýn davranýþsal, kiþisel, teknik, genel kriterlere ve verimlilik ve etkinlik kriterlerine göre deðerlendiren formlar sayesinde puanýdepartmandaki diðer çalýþanlara göre düþük olan çalýþan kolayca belirlenebilir ve kiþinin sonraki puanlarýna bakýlarak iþten çýkarma kararý verilebilir. 
+4-Bireysel ve örgütsel eðitim ve geliþim ihtiyaçlarýnýn belirlenmesi: Form içerdiði kriterler ve açýklamalar sayesinde eðitim ve geliþim ihtiyacýolan çalýþanýn belirlenmesinde kullanýlabilir.  
+5-Çalýþanlarla iletiþim kurarak çalýþanlarýn performans geliþimini destekleyici çalýþmalar: Deðerlendirici yaptýðý performans deðerlendirme çalýþmasýný sonuçlarýna göre belirlediði çalýþanlarla performans görüþmesi yaparak,çalýþanýn motivasyonunu arttýrýcý uygulamalar ile motivasyonunu ve iþe olan ilgisini arttýrabilir. 
+6-Ýþgücü gereksinimlerinin belirlenmesi: 
+Performans deðerlendirme verileri sonucu gözetim gereksinimi, bilgi ve beceri düzeyi, iþ tecrübesi, verimlilik ve etkinlik kriterleri göz önüne alýnarak iþgücü gereksinimi belirlenebilir. 
+Tasarlanan formlar performans ölçümünde gerçekleþtirilmesi istenen birçok konuyu sunmakta ve belli periyotlar dahilinde tekrarlanmasýnýkolaylaþtýrmaktadýr. Böylece yönetim kademesi daha rahat bir deðerlendirme yapabilecektir. 
+Atölye ve büro personeli sayýsýnýn fazla olmasýuygulamada birtakým zorluklar getirebilir ve zaman alýcý olabilir. Bu nedenle gelecek çalýþmalar içerisinde, formlarýn günümüz karmaþýk yapýsýndaki deðiþimlere çok çabuk adapte edilebildiði ve bu konuda veri tabaný oluþturan bir Karar Destek Sistemi yazýlýmý üzerinde çalýþmak yerinde olacaktýr. Bu yazýlým sayesinde her bir personelin zaman içerisindeki geliþimi görsel bir þekilde yöneticilere sunulabilecektir. 
+KAYNAKLAR 
+1.	
+Barutçugil, Prof.Dr. Ý., “Performans Yönetimi“, Kariyeryayýnlarý, 2.basým, Ýstanbul, 2002. 
+
+2.	
+Sabuncuoðlu, Z., “Ýnsan KaynaklarýYönetimi”, 1.Basým, Ezgi Kitabevi Yayýnlarý, Bursa, 2000. 
+
+3.	
+Canýtez, B., ”Performans Deðerlendirme”, Türk Psikoloji Bülteni, Sayý 16, 2000. 
+
+4.	
+Eren, E., “Yönetim Psikolojisi”, Beta Yayýnlarý, Ýstanbul, 1993. 
+
+5.	
+Kahya, Doç.Dr.E.,”Performans Deðerlemesi”, Osman Gazi Üniversitesi, Ders Notlarý, Eskiþehir. 
+
+6.	
+William, J. S., ”Production Operations Management”, Sixth Edition, Irwin, McGraw-Hill, USA, 1999, pp.320. 
+
+7.	
+Bingöl, D., “Ýnsan Kaynaklarý Yönetimi”, Beta Yayýnlarý, 4.basým, Ýstanbul, 1998. 
+
+8.	
+Fýndýkçý, Ý.,”Ýnsan Kaynaklarý Yönetimi”, Alfa Yayýnlarý, Ýstanbul, Kasým 1999. 
+
+9.	
+Ýzgören, A.Þ., ”Ýþ Yaþamýnda 100 Kanguru”, Academyplus yayýnlarý, Ankara, 2000. 
+
+
+
+E. Eraslan ve O. AlgünÝdeal Performans Deðerlendirme Formu Tasarýmýnda Analitik Hiyerarþi Yöntemi Yaklaþýmý
+10.	
+Kaynak, T., “Ýnsan Kaynaklarý Planlamasý”, Alfa Yayýnlarý, Ýstanbul, 1996. 
+
+11.	
+Gasimov, R.,”Karar Analizi”, Baþkent Üniversitesi, Ders Notlarý, Ankara, 2003. 
+
+12.	
+Saaty, T.L., ”The Analytic Hierarchy and Analytic Network Processes”, The Conference notes, Kore, Japan, 1999. 
+
+
+13.	
+Saaty T.L., ”The Analytic Hierarchy Process”, Mc Graw-Hill International Book Company, USA, 1980. 
+
+14.	
+Akal, Z., “Ýþletmelerde Performans Ölçüm ve Denetimi”, Mpm yayýnlarý, 4.basým, Ankara, 2000. 
+
+15.	
+Randle, W., Monroe W. H., “Better Ways to Measure Executive Performance”, Management Methods, Vol.19, No.4, 1998. 
+
+
+
+EK –1 
+
+BÜRO PERSONELÝÝÇÝN PERFORMANS DEÐERLENDÝRME FORMU 
+
+E. Eraslan ve O. Algün Ýdeal Performans Deðerlendirme Formu Tasarýmýnda Analitik Hiyerarþi Yöntemi Yaklaþýmý
+EK-2 
+
+ATÖLYE PERSONELÝÝÇÝN PERFORMANS DEÐERLENDÝRME FORMU 
+
+
+
+
+
+
+
+
+

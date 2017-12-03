@@ -1,0 +1,146 @@
+TORNALAMADA HAVA PÜSKÜRTME ÝLE SOÐUTMANIN KESME KUVVETLERÝ VE TAKIM ÖMRÜNE ETKÝLERÝNÝN ARAÞTIRILMASI 
+Yusuf ÖZÇATALBAÞ ve Ali BAÞ
+
+Metal Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, 06500, Beþevler, Ankara 
+yusufoz@gazi.edu.tr 
+
+(Geliþ/Received: 19.04.2005; Kabul/Accepted: 01.08.2005) 
+
+ÖZET 
+Bu çalýþmada, özel tasarlanmýþ bir nozul vasýtasýyla takým/talaþ arayüzeyine püskürtülen basýnçlý havanýn talaþkaldýrma mekaniðine etkileri araþtýrýlmýþtýr. Normalizasyon ýsýl iþlemi uygulanmýþ SAE 1050 çeliðinin tornalanmasý sýrasýnda uygulanan basýnçlý havanýn kesme kuvvetlerine, takým ömrüne ve takým/talaþ arayüzey sýcaklýðýna etkileri kuru iþleme ortamý ile kýyaslanarak incelenmiþtir. Uygulanan yöntem kesme kuvvetlerini, takým/talaþ arayüzey sýcaklýðýný ve takým aþýnmasýný önemli ölçüde azaltmýþtýr. 
+
+1. GÝRÝÞ
+araþtýrma konularý, daha az kimyasal içeren alternatif 
+soðutma ortamlarý oluþturmaktýr [4-6]. Özellikle de Talaþlý imalatta kesici uç iþ parçasý yüzeyinden talaþtakým ömrünü artýrmak amacýyla ilk uygulamalarda kaldýrýrken iç ve dýþ sürtünmelerden dolayý oluþan ýsý, soðutma sývýsý olarak CO2 kullanýlýrken, bu gazýn talaþ kaldýrma mekaniðini ve takým ömrünü etkileyen kullanýmýnda büyük hacimli tanklarýn bulunma önemli faktörlerden biridir [1,2]. Talaþlý kaldýrma zorunluluðu ve soðutucu elemanýn kontrolünün sýrasýnda sarf edilen enerjinin tamamýna yakýnýýsýya problemli oluþu gibi sebeplerden dolayý N2 kullanýmýdönüþür. Bu sebeple, kesme bölgesinde oluþan ýsýartmýþtýr [1]. Yapýlan çalýþmalarda takým/talaþ ara takým ömrü, kesme kuvvetleri, talaþ biçimi ve iþyüzeyinin ve talaþýn sýcaklýðýnýn düþürülmesinde, parçasý yüzey kalitesi bakýmýndan önemlidir [2,3]. püskürterek soðutma yönteminin ýsý taþýma Talaþlý imalat sýrasýnda ýsý sebepli olumsuzluklarýkapasitesinin sývý soðutma yönteminden daha üstün ortadan kaldýrmak ve imalatý kolaylaþtýrmak için son olduðu gözlenmiþtir. Hava ile birlikte bir miktar yýllarda kullanýlan teknoloji ise sentetik kimyasal bitkisel yaðýn yüksek basýnçlarda arayüzeye katkýlar içeren çözülebilir soðutucu sývýlardýr [4]. püskürtülmesiyle talaþ kaldýrmada önemli avantajlar Ancak, doðada yok edilmesi bakýmýndan son derece saðlanmýþtýr [4]. Çevre kirliliðine yol açmamasý, kararlý olan bu sývýlarýn çevreye ve insan saðlýðýna saðlýk açýsýndan tehlike arz etmemesi gibi avantajlarý, önemli zararlarý mevcuttur. Atýklarýn yok edilmesi isesanayicilerin çevre koruma kanunlarýna uyma büyük maliyetler getirmektedir. Önemli çevre ve mali zorunluluðu ve mesleki güvenlik kurallarýnýn yerine kaynak problemleri sebebiyle, son yýllarýn en önemli getirilmesi bakýmýndan, soðutmada natürel yöntem­
+Y. Özçatalbaþ ve A. BaþTornalamada Hava Püskürtme Ýle Soðutmanýn Kesme Kuvvetleri ve Takým Ömrüne Etkilerinin Araþtýrýlmasý
+lerin geliþtirilmesi günümüzün önemli araþtýrma konularýndandýr. 
+Bu çalýþmanýn amacý, talaþlý imalatta ekonomik kazançlar saðlayacak, çevreye ve insan saðlýðýna zararsýz natürel bir soðutma ortamýnýn geliþ­tirilmesidir. Bu amaçla, SAE 1050 sýcak hadde çeliðinin tornalanmasý sýrasýnda özel bir nozulla takým/talaþ arayüzeyine püskürtülen basýnçlý havanýn kesme kuvvetlerine, takým ömrüne ve takým/talaþarayüzey sýcaklýðýna etkileri kuru iþleme ortamý ile kýyaslanarak incelenmiþtir. 
+
+2. DENEYSEL ÇALIÞMA 
+2.1. Malzeme 
+Talaþ kaldýrarak iþleme deneylerinde deney malzemesi olarak sýcak haddelenmiþØ90mm’lik SAE 1050 makine imalat çeliði kullanýlmýþtýr. Bu malze­meye, 870 ºC’de 20 dakika süreyle normalizasyon ýsýl iþlemi uygulanmýþ ve ýsýl iþlem sonucu elde edilen mekanik özellikler Çizelge 1’de verilmiþtir. 
+Çizelge 1. Deney malzemesi mekanik özellikleri 
+Akma Dayanýmý(MPa)  Çekme Dayanýmý(MPa)  Kopma Uzamasý(%A)  Kopma Kesit Daralmasý (%Z)  Sertlik (VSD)  
+452  620  22.5  47.6  207  
+
+
+2.2. Tornalama Þartlarý
+Kuru tornalama ortamý (KTO) ve basýnçlý hava ile tornalama ortamlarýnýn (BHTO) her ikisinde de tornalama parametreleri ve takým geometrisi sabit tutulmuþtur. Talaþ kaldýrma deneyleri için 7 kW gücünde bir torna tezgahý kullanýlmýþtýr. Kesici uç mekanik sýkmalý tip kaplamasýz P10 kalite ve SPGN 120308 boyut ve toleransýndadýr. Tornalama þartlarýna ait diðer parametreler Çizelge 2’de verilmiþtir. 
+Numunelerin Çizelge 2’de belirtilen iþleme þartlarýnda tornalanmasý esnasýnda her 5s süre ile strain-gauge’li bir dinamometre [7] ile kesme ve ilerleme kuvvetleri bilgisayar ortamýnda ölçülmüþtür. Takým ömrü deneyleri TS 10329 (ISO 3685)’a göre yapýlmýþtýr. 
+Tornalama sýrasýnda oluþan ýsý, takým/iþ parçasýýsýl çift yöntemiyle ölçülmüþtür. Takým/talaþ ara yüzeyinde oluþan ýsýyý ölçmek için kullanýlan bu yöntemde [8], iþleme þartlarýna baðlý oluþan ýsýsebepli üretilen elektro motor kuvvetin (emk), 
+0.01 mV hassasiyetli, “Fluke 45 Dual Display Multimeter” marka dijital mili voltmetre ile ölçülmesiyle gerçekleþtirilmiþtir. 
+
+
+2.3. Basýnçlý Hava Ýle Soðutma Düzeneði 
+Basýnçlý hava ile soðutma düzeneði ve tornalama iþleminin þematik gösterimi Þekil 1’de verilmiþtir. 
+200 litre kapasiteli, maksimum 14 bar basýnçlý hava kompresöründe sýkýþtýrýlan hava, su alma odasýndan geçirildikten sonra regülatöre baðlanmýþtýr. Regülatör hava çýkýþ basýncý 6 bar’a ayarlanmýþ ve bu basýnçtaki hava, hortumu vasýtasýyla nozula iletilmiþtir. Nozul ucunun kesici uç kesme kenarýna uzaklýðý 7.2 mm olarak sabit tutulmuþtur. Bu mesafe, basýnçlý hava kullanmaksýzýn yapýlan tornalamada dahi çýkan talaþýn nozul ucuyla temasýný önleyecek uzaklýktýr. Basýnçlýhava, bakýr borudan hazýrlanmýþ ve Þekil 1’de aðýz ölçüleri gösterilen nozul vasýtasýyla, bu mesafeden takým/talaþ arayüzeyine püskürtülmüþtür. Altý bar basýnçta sýkýþtýrýlmýþ olan ve nozuldan püskürtülen 
+
+Çizelge 2. Tornalama parametreleri ve takým geometrisi 
+Tornalama Parametreleri  Takým Geometrileri  
+Talaþ Derinliði (a)  1.6 mm  Talaþ Açýsý  6º  Eðim Açýsý  0º  
+Ýlerleme (f)  0.24 mm/dev  Yan boþluk açýsý  5º  Uç açýsý  90º  
+Kesme hýzý (V)  43-237 m/dak  Yanaþma açýsý  75º  Uç yarýçapý  0.8 mm  
+
+
+
+Þekil 1. Soðutma düzeneðinin fotoðrafý ve þematik gösterimi Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+Tornalamada Hava Püskürtme Ýle Soðutmanýn Kesme Kuvvetleri ve Takým Ömrüne Etkilerinin Araþtýrýlmasý Y. Özçatalbaþ ve A. Baþ
+havanýn nem oraný ve sýcaklýðý, nozul ucundan 25 mm uzaða yerleþtirilen ALMEMO MT8736-AG4 rutubet/sýcaklýk sensörü ve ALMEMO 3290-8 masa üstü data logger kullanýlarak ölçülmüþtür. Bu mesafede ölçülen havanýn nem oraný % 25.6 ve sýcaklýðý ise 1.2 °C dir. 
+
+
+
+3. DENEYSEL BULGULAR VE TARTIÞMA 
+3.1. Tornalama Kuvvetleri 
+Kuru tornalama ortamý ve basýnçlý hava ile tornalama ortamlarýnýn tornalama kuvvetlerine (Kesme kuvveti-Fc ve ilerleme kuvveti-Ff) etkisi Þekil 2 ve 3’deki grafiklerde verilmiþtir. 
+1000 
+Basýnçlý hava ile tornalama ortamýnda oluþan kesme ve ilerleme kuvvetleri, özellikle orta kesme hýzlarýnda, normal talaþ kaldýrma ortamýndakinden daha belirgin bir düþüþ göstermiþtir. Basýnçlý havanýn talaþ kýrýcýgörevi yaparak takým-talaþ temas alanýný azaltmasý ve talaþýn hava üzerinde kaymasýný saðlayarak ikincil deformasyon bölgesindeki sürtünme kuvvetlerini düþürme etkisi, kesme ve ilerleme kuvvetlerinin de düþmesine sebep olmuþtur. BHTO’nun yüksek kesme hýzlarýnda hafif artma eðilimi göstermesi, basýnçlýhavanýn bu kesme hýzlarýnda daha fazla soðutma etkisine baðlanabilir. Zira daha fazla soðutma etkisiyle iþlenen malzemenin artan akma mukavemeti, kesme kuvvetlerinde de bir miktar artýþ eðilimi göstermiþtir. Ancak, takým/talaþ arayüzeyine püskürtülen basýnçlý havanýn, takým/talaþ temas uzunluðunu kýsaltarak saðladýðý sürtünme kuvvet­lerindeki avantajýn, soðutma etkisiyle saðlanan akma 
+900 850 800 750 700 
+
+Þekil 2. Tornalama ortamýnýn Fc’ye etkisi 
+500 950 
+
+mukavemetindeki artýþ dezavantajýndan daha fazla 
+olduðu ve dolayýsýyla tornalama kuvvetlerinde 
+azalmanýn saðlandýðý söylenebilir. 
+
+
+3.2. Talaþ Kaldýrma Sýcaklýðý (emk) 
+Talaþ kaldýrma sýrasýnda birincil deformasyon bölgesindeki iç sürtünmeler, ikincil deformasyon bölgesindeki iç ve dýþ (takým ile talaþ arasýndaki) sürtünmeler ve kesici kenar altýnda kalan iþlenmiþyüzeyle takým arasýndaki sürtünme ve deformasyon etkisiyle ýsýmeydana gelir [8]. Kesme hýzý ile birlikte artan talaþ kaldýrma ýsýsý ne kadar yüksekse, emk’da o kadar yüksektir ve doðrusal bir iliþki sergilerler. Farklý tornalama ortamlarýndaki iþleme sýrasýnda oluþan ýsý miktarýna baðlý üretilen emk deðerlerine göre elde edilen grafik Þekil 4’de verilmiþtir. Burada verilen emk sonuçlarý dolaylý olarak, talaþ kaldýrma 
+Ýlerleme Kuvveti - Ff (N) Kesme Kuvveti - Fc (N) 
+
+
+Elektromotor Kuvvet - emk (mV)
+tanýmlamaktadýr. 
+400 
+12 
+sýrasýnda meydana gelen ýsý sebepli sýcaklýðý
+450 
+
+350 
+11 10 9 
+300 
+250 
+8
+200 
+50 100 150 200 
+7 
+6 
+Kesme H ýzý - V (m/dak) 
+Þekil 3. Tornalama ortamýnýn Ff’ye etkisi 
+Artan kesme hýzýyla beraber her iki tornalama ortamýnda da kesme ve ilerleme kuvvetleri azalmýþtýr. Kesme hýzýnýn kesme kuvvetlerine olan bu etkisi, 
+
+
+Kesme Hýzý - V (m/dak) 
+Þekil 4.Talaþ kaldýrma ortamýnýn emk/kesme hýzý
+artan kesme hýzýyla birlikte yükselen talaþ kaldýrma sýcaklýklarýna baðlanýr. Birincil ve ikincil deformas­yon bölgelerinde kesme hýzýyla birlikte artan sýcaklýk, iþlenen malzemenin akma mukavemetini düþürerek kesme kuvvetlerinde azalmaya sebep olur [9-11]. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+iliþkisine etkisi 
+BHTO ve KTO’da ayný kesme hýzlarýnda yapýlan tornalama iþlemleri için, basýnçlý hava püskürtülerek yapýlan tornalama iþlemlerinde daha düþük emk 
+
+Y. Özçatalbaþ ve A. BaþTornalamada Hava Püskürtme Ýle Soðutmanýn Kesme Kuvvetleri ve Takým Ömrüne Etkilerinin Araþtýrýlmasý
+deðerleri belirlenmiþtir. Özellikle kesme hýzýndaki artýþla, iki yöntemle tornalama sýrasýndaki emk deðerleri arasýndaki fark da artmaktadýr. Bu durum, basýnçlý hava püskürtme iþleminin, özellikle yüksek kesme hýzlarýnda daha fazla soðutma etkisi meydana getirdiðini göstermektedir. 
+Kesme bölgesine ve takým/talaþ ara yüzeyine püskürtülen basýnçlý havanýn soðutucu etkisiyle talaþkaldýrma sýcaklýðýný düþürdüðü grafikten açýkça görülmektedir. Bununla birlikte, püskürtülen yüksek basýnçlý havanýn sayesinde talaþýn takýmla temas alanýnýn azaltýlmasý ve böylece ýsý oluþumunda büyük etkisi olan sürtünme alanýnýn önemli ölçüde azaltýlmýþolmasý da emk’nýn düþürülmesinde önemli etkiye sahiptir. Hava püskürtme iþleminin önemli bir diðer etkisi de kesici takým üzerindeki sýcak talaþlarýn hýzla uzaklaþtýrýlarak ýsýnmanýn minimize edilmesidir.  
+3.3. Takým Ömrü 
+BHTO ve KTO’da yapýlan takým ömrü deneylerinde krater aþýnma miktarýna göre elde edilen kesme hýzý­takým ömrü iliþkisi Þekil 5’de verilmiþtir. 
+
+Tornalama sýrasýnda basýnçlý havanýn kullanýlmasý, kuru tornalamaya göre takým ömründe belirgin bir artýþ saðlamýþve krater aþýnmasýný azaltmýþtýr. Örneðin, 179 m/dak kesme hýzýnda yapýlan kuru tornalamada KT=0.02 mm krater aþýnma kriterine 5.75 dakikada ulaþýlmasýna raðmen, basýnçlý hava ile tornalama iþlemi için bu deðer 8.18 dakikadýr. Krater aþýnmasýna göre takým ömrü dikkate alýndýðýnda basýnçlý hava kullanýmýyla % 42.3 oranýnda takým ömründe kazanç saðlanmýþtýr. Saðlanan bu kazanç oraný kesme hýzýna baðlý olarak deðiþmektedir. Artan kesme hýzýyla birlikte takým ömründen kazanç artmakta ve azalan kesme hýzýyla birlikte azalmaktadýr. Bu etki büyük oranda, artan kesme hýzýyla birlikte basýnçlý havanýn talaþ kaldýrma sýcaklýðýný daha fazla düþürme etkisine baðlýdýr. 
+Kesici takýmlarda meydana gelen krater aþýnmasý için etkin aþýnma mekanizmasýnýn difüzyon ve abrasiv etkili aþýnma olduðu bilinmektedir [12]. Takým/talaþarayüzeyine püskürtülen havanýn kesme kuvvetlerinde ve ýsý oluþumunda saðladýðý avantajlar takýmýn krater aþýnma miktarýný da düþürmüþtür. 
+VBb=0.20 mm’lik yan yüzey aþýnma kriterine göre takým ömrü-kesme hýzý iliþkisi Þekil 6’da verilmiþtir. Görüldüðü gibi BHTO’da yapýlan iþlemede takýmýn yan yüzey aþýnma miktarý belirgin miktarda azalmýþve KTO’ya göre takým ömründe önemli artýþsaðlanmýþtýr. Örneðin, V = 179 m/dak kesme hýzýnda yapýlan kuru tornalama iþleminde VBb= 0.20 mm yan yüzey aþýnma kriterine T = 8.83 dakikada ulaþýlýrken, basýnçlý hava püskürtülerek yapýlan tornalama iþlemi için bu deðer T = 11.68 dakikadýr. 
+
+Yan yüzey aþýnmasýna göre takým ömrü dikkate alýndýðýnda basýnçlý hava kullanýmýyla % 32.3 oranýnda takým ömründe kazanç saðlanmýþtýr. Bu kazanç oraný kesme hýzýna baðýmlýdýr ve artan kesme hýzýyla takým ömründeki kazanç oraný artmaktadýr. 
+Krater ve yan yüzey aþýnma kriterlerine göre takým ömründe saðlanan kazanç kýyaslandýðýnda, tornalama iþleminde basýnçlý hava kullanýmýnýn krater aþýnma miktarýný düþürme etkisi daha fazladýr. Takým/talaþarayüzeyine püskürtülen havanýn öncelikle etkilediði bölgenin ikincil deformasyon bölgesi olmasý ve soðuma etkisinin bu bölgede daha yoðun olmasý, krater aþýnma miktarýnýçok daha fazla azaltmýþtýr. 
+
+
+
+
+4. SONUÇLAR 
+1.	Kesme bölgesine ve takým/talaþ arayüzeyine püskürtülen havanýn soðutma etkisi, yüksek kesme hýzlarýnda daha belirgindir. Ulaþýlabilinen en yüksek kesme hýzýnda kuru iþlemeye göre emk’da saðlanan düþüþ oraný % 10 dur. Bu oran, artan kesme hýzýyla birlikte artma eðilimindedir. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+Tornalamada Hava Püskürtme Ýle Soðutmanýn Kesme Kuvvetleri ve Takým Ömrüne Etkilerinin Araþtýrýlmasý Y. Özçatalbaþ ve A. Baþ
+2.	
+Takým ile talaþýn arayüzeyine püskürtülen 3. Yamane, Y., Nautili, N., Hayashi, K., havanýn takým/talaþ temas uzunluðunu kýsaltmasý“Suppression of Tool Wear by Using An Inert ve dolayýsýyla temas alanýný küçültmesi sayesinde Gas in Face Milling”, Journal of Materials sürtünme kuvvetlerindeki düþüþ, tornalama Processing Technology, 62, 380-383, 1996. kuvvetlerinde de düþüþe sebep olmuþtur. Kuru 4. Nguyen, T., Zhang, L. C., “An Assessment of the tornalamaya göre, kesme kuvvetinde % 5, Applicability of Cold Air and Oil Mist in Surface ilerleme kuvvetinde ise % 10’a kadar düþüþler Grinding”, Journal of Materials Processing saðlanmýþtýr. Technology 140, 224-230, 2003. 
+
+3.	
+Havanýn soðutucu etkisiyle talaþ kaldýrma 5. Choi, Z., H., Lee, S., W., “The Cooling Effects of sýcaklýklarýnýn düþürülmesi ve kesme Compressed Cold Air in Cylindrical Grinding kuvvetlerinde saðlanan düþüþ sebebiyle kesici with Alumina and CBN wheels”, Journal of takýmýn maruz kaldýðýýsýl ve mekanik Materials Processing Technology, 127, 155­zorlamalarýn azalmasý takým ömründe artýþa 158, 2002. sebep olmuþtur. Kuru tornalamaya göre takým 6. Sreejith, P. S., Ngoi, B. K. A., “Dry Machining: ömründe saðlanan artýþ oraný krater aþýnma Machining of the Future”, Journal of Materials kriterine göre % 42, yan yüzey aþýnma kriterine Processing Technology,101, 287-291, 2000. göre ise % 32 civarýndadýr. 7. Özçatalbaþ, Y., Ercan, F., “Ýki Bileþenli Gerinim 
+
+4.	
+Soðutma ortamý olarak kullanýlan çeþitli kimyasal Ölçerli Torna Dinamometresi Tasarýmý, Ýmalatýsývýlarýn ve gazlarýn gerek çevreye ve gerekse Ve Bilgisayara Entegrasyonu”, Gazi Üniversitesi çalýþanýn saðlýðýna vermiþ olduðu zararlar ortadan Mühendislik-Mimarlýk Fakültesi Dergisi, 12:1­kalkmýþtýr. Son derece doðal olan bu soðutma 12, 1997. ortamý ile hem çevreci ve hem de ekonomik 8. Özçatalbaþ, Y., “Takým-Ýþ Parçasý Isýl Çift talaþlý iþleme yapýlabilecektir. Yöntemiyle Takým/Talaþ Ara Yüzey Sýcaklýðýnýn 
+
+
+Ölçülebilirliði”, Gazi Üniversitesi Fen Bilimleri TEÞEKKÜR Enstitüsü Dergisi, 14, 955-967, 2001. 
+9. Trent, E. M., Metal Cutting, Tanner Ltd., Yazarlar, 07/2004-20 bilimsel araþtýrma proje kodu ile London, 1984. bu çalýþmaya maddi destek saðlayan Gazi Üniversitesi 10. Williams, J. E., Smart, E. F., Milner, D. R., “The Rektörlüðüne teþekkürlerini sunar. Metallurgy of Machining-Part 2”, Metalurgia, 
+February, pp 51-60, 1970. KAYNAKLAR 11. Williams, J. E., Smart, E.F., Milner, D. R., “The Metallurgy of Machining-Part 1”, Metalurgia, 
+1.	
+Çakýr, O., Kýlýçkap, E., “Metallerin Soðuk TalaþlýJanuary, pp. 3-10, 1970. Ýþlenmesi”, Makine Tasarým ve Ýmalat 12. Ozcatalbas, Y., Ercan, F., “The Effects of Heat Teknolojileri Kongresi, Konya, 279-283, 2001. Treatment on The Machinability of Mild Steels”, 
+
+2.	
+Çakýr, O., Kýyak, M., Atlan, E., “Comprasion of Journal of Materials Processing Technology, Gases Applications to Wet and Dry Cuttings in 136/1-3, 227-238, 2003. Turning”, Journal of Materials Processing Technology, 153, 35-42, 2004. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+
+
+
+

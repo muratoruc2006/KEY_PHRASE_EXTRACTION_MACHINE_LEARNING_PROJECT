@@ -1,0 +1,201 @@
+MEKANÝK ÖZELLÝK VE KESME GEOMETRÝSÝNÝN AA2014 ALAÞIMININ ÝÞLENEBÝLME ÖZELLÝKLERÝNE ETKÝLERÝ
+Yusuf ÖZÇATALBAÞ ve Bayram AYDIN 
+
+Metal Eðitimi Böl., Teknik Eðitim Fakültesi, Gazi Üniversitesi, 06500, Beþevler, Ankara 
+yusufoz@gazi.edu.tr 
+
+(Geliþ/Received: 01.10.2004; Kabul/Accepted: 30.12.2005) 
+
+ÖZET 
+Bu çalýþmada, AA2014 alaþýmýna 160 °C sýcaklýkta 4, 12, ve 24 saat süreli yaþlandýrma ýsýl iþlemleri uygulanmýþtýr. Isýl iþlemler sonucu, sertlikleri 120-150 BSD ve çekme dayanýmlarý 505-541 N/mm2 arasýnda deðiþen numuneler elde edilmiþtir. Bu numuneler, farklý kesme hýzlarýnda ve deðiþik geometriye sahip iki ayrýkesici uçla iþlenerek talaþ kökü morfolojisi, yüzey pürüzlülüðü ve talaþ kaldýrma kuvvetleri incelenmiþtir. Yüksek sertlik ve çekme dayanýmýna sahip numunenin yüksek kesme hýzlarýnda, büyük talaþ açýlý kesici uçla iþlenmesinin yýðýntý talaþ (YT) oluþumunu önlediði, yüzey pürüzlülüðü ve talaþ kaldýrma kuvvetlerini düþürdüðü görülmüþtür. 
+
+1. GÝRÝÞAl-Cu alaþýmlarýndan biri olan AA2014 alaþýmý, 
+genellikle talaþlý imalat yöntemleriyle þekillendiril-Al-Cu alaþýmlarý, diðer bir çok metal alaþýmýna göre mektedir. Tornalama iþlemleri talaþlý imalatýn büyük üstün özellikleri sebebiyle günümüz endüstrisinin bir kýsmýný içermektedir. Ýdeal talaþlý iþleme vazgeçilmez malzemelerinden birisidir. Endüstride özelliklerinin saðlanmasýnda, malzemenin mekanik yaygýn olarak kullanýlmasýnýn önemli sebeplerinden özelliklerinin yanýnda kesme hýzý ve kesici uç birisi, yaþlandýrma (T6) ýsýl iþlemi uygulanabilmesidir geometrisi gibi iþleme parametreleri etkili olmaktadýr [1-5]. [6-8]. AA2014 alaþýmýnýn iþlenmesinde düþük kesme 
+hýzlarýnda oluþan yýðýntý talaþ (YT) yüzey Yaþlandýrma ýsýl iþleminin Al-Cu alaþýmýnýn mekanik pürüzlülüðünün artmasýna sebep olmaktadýr [9,10]. özelliklerini geliþtirmesinin yanýnda iþlenebilirliðine Artan kesme hýzýyla birlikte YT oluþma eðilimi de olumlu etkisi mevcuttur. T6 ýsýl iþlemi, bu alaþýmýn azalmakta ve iþlenmiþyüzey kalitesi artmaktadýr [11]. sertliðini ve çekme dayanýmýný arttýrmakla birlikte Ayný zamanda, düþük kesme hýzlarýnda oluþan YT’nin yüzey pürüzlülüðünün azalmasýnda önemli bir etkiye etkin talaþ açýsýný artýrmasý sebebiyle talaþ kaldýrma sahiptir [6]. kuvvetlerinde azalma görülmektedir [12-16]. 
+Y. Özçatalbaþ ve B. Aydýn Mekanik Özellik ve Kesme Geometrisinin AA2014 Alaþýmýnýn Ýþlenebilme Özelliklerine Etkileri 
+Kesici ucun geometrisi ise talaþ oluþumu, yüzey pürüzlülüðü ve talaþ kaldýrma kuvvetleri üzerinde etkili olmaktadýr. Kesici ucun pozitif talaþ açýsýnýn artmasý takým/talaþ temas alanýný daraltmaktadýr. Bu durum, takým/talaþ ara yüzeyindeki sürtünme kuvvetini azalttýðýndan talaþ kaldýrma kuvvetleri de düþmektedir. Ayný zamanda, artan talaþ açýsýyla düþük kesme hýzlarýnda oluþan YT boyutlarý azalmakta ve yüzey pürüzlülüðü düþmektedir [12]. Belirtilen literatür özetine raðmen, ýsýl iþlemle deðiþtirilen mekanik özellikler ve kesici takým geometrisinin bu alaþýmýn talaþlý iþleme özelliklerine etkileri konusunda ayrýntýlý bir çalýþmaya rastlanmamýþtýr. 
+Sunulan çalýþmada, yaþlandýrma ýsýl iþlemi ve takým geometrisinin, talaþlý imalat endüstrisinde yaygýn kullaným alanýna sahip AA2014 alaþýmýnýn talaþlýiþleme özelliklerine etkilerinin araþtýrýlmasýamaçlanmýþtýr. 
+
+2. MALZEME VE METOT 
+
+2.1. Malzeme 
+Çizelge 1’de kimyasal bileþimi verilen 50 mm çapýndaki deney malzemesi, ETÝAL 21 ingot malzemeden 450°C’de yatay direkt ekstrüzyon yoluyla üretilen, T6 ýsýl iþlemine (çözündürme, su verme ve yapay yaþlandýrma) [4] tabi tutulmuþAA2014 alaþýmýdýr. 
+Çizelge 1. Deney malzemesi kimyasal 
+bileþimi (aðýrlýkça %) 
+Si  Fe  Cu  Mn  Mg  Zn  Al  
+0,693  0,521  4,21  0,574  0,379  0,184  Kalan  
+
+Numuneler, maksimum 1400°C sýcaklýk kapasiteli, ± 3°C ölçüm hassasiyetindeki düþey tüp fýrýnda, 505°C sýcaklýkta 2,5 saat çözelti ýsýl iþlemine tabi tutulmuþ ve akabinde ~ 16°C sýcaklýðýndaki su verme ortamýna düþürülerek ani soðutulmuþtur. Su verilen numuneler daha sonra Çizelge 2’de belirtilen þartlarda 160°C sýcaklýkta 4, 12 ve 24 saat süreli yaþlandýrma iþlemine tabi tutulmuþtur. Farklýýsýl iþlem þartlarý için ikiþer numune hazýrlanarak bu numunelerden birisi mekanik özelliklerin belirlenmesinde, diðeri ise talaþkökü morfolojisi, yüzey pürüzlülüðü ve talaþ kaldýrma kuvvetleri deneylerinde kullanýlmýþtýr. 
+Sertlik deneyi, yüzeyleri hassas iþlenmiþ 10 mm kalýnlýðýndaki numuneler üzerinde Brinell sertlik 
+Çizelge 2. Isýl iþlem parametreleri 
+
+Numune kodu  Çözündürme süresi (Saat)  Yaþlandýrma sýcaklýðý(°C)  Yaþlandýrma süresi (Saat)  
+4SY  4  
+12SY  2,5   160  12  
+24SY  24  
+
+ölçüm cihazýyla yapýlmýþtýr. Sertlik ölçüm deneyinde 2,5 mm çapýnda bilye uç ve 187,5 kg yük kullanýlmýþtýr. 
+Sertlik deðeri, numune üzerinde dýþ yüzeyden merkeze doðru yapýlan 10 ölçümün ortalamasýalýnarak belirlenmiþtir. Çekme deney numuneleri TSE 138 EN 10002-1 EK-C’ ye [17] göre ilk kesit alaný100 mm2 ölçüsünde hazýrlanmýþtýr. Her bir ýsýl iþlem durumu için dört adet çekme numunesi, 10 ton kapasiteli çekme cihazýnda 15 µm/s çene hýzýnda deneye tabi tutulmuþtur. 
+
+
+2.2. Ýþlenebilirlik 
+Ýþlenebilirlik deneylerinde, K10 kalitesinde iki farklýgeometriye sahip mekanik sýkmalý tip sert metal kesici uç kullanýlmýþtýr. SEGN ve CCGT kesici uç geometrilerinin her ikisi içinde yanaþma açýlarý (75°), uç yarýçaplarý (0,8 mm) ve kesici uç malzemeleri aynýolmakla birlikte yan boþluk açýsý, uç açýsý ve esas olarak talaþ açýlarýnda belirgin bir farklýlýk mevcuttur. Bu sebeple, deney sonuçlarýnýn tartýþýlmasýnda kesici uçlarýn talaþ açýlarýndaki farklýlýk göz önüne alýnmýþtýr. Ýþlenebilirlik deneylerinde kullanýlan kesme þartlarýve kesici uç geometrisi Çizelge 3’de verilmiþtir. Talaþ kaldýrma deneyleri 7 kW gücündeki bir torna tezgahýnda ilerleme hýzý(f) 0,24 mm/dev ve talaþ derinliði (a) 1,6 mm seçilerek yapýlmýþtýr. 
+Çizelge 3. Kesme geometrisi 
+Kesici geometrisi  SEGN  CCGT  
+Talaþ açýsý (.)  6°  30°  
+Uç açýsý 90°  100°  
+Yan boþluk açýsý 14°  7°  
+Geriye talaþ açýsý - 20°  
+Ayar açýsý (Kr)  75°  75°  
+Uç yarý çapý 0,8 mm  0,8 mm  
+Kesici ISO kodu  SEGN 120308  CCGT 120408  
+Kater ISO kodu  CSBPR 25x25 L12  SCRCR 25x25 L12  
+
+Ýki farklý geometrideki kesici uçla iþlenen yüzeylerin pürüzlülüðü, yüzey profilometresi ile ilerleme yönünde ölçülmüþtür. Profilometre iðnesinin uç yarýçapý 5 µm ve ölçme kuvveti 0,4 gf, ilerleme hýzý 0,5 mm/s, örnekleme uzunluðu ise 0,8 mm dir. Belirtilen kesme parametreleri ve yedi farklý kesme hýzýnda tornalama yapýlýrken kesme (Fc) ve ilerleme (Ff) kuvvetleri uzama ölçerli (strain-gauge) bir dinamometre ile ölçülmüþtür. Kesici uç geometrisi ve ýsýl iþlemlerin talaþ oluþum mekanizmasýna etkisini inceleyebilmek için iki farklý kesme hýzýnda iþleme sýrasýnda ani durdurma cihazý kullanýlarak talaþkökleri hazýrlanmýþtýr. Talaþ kökleri metalografik muayene için epoksi reçineye gömülmüþ ve 2,5 ml HNO3, 1 ml HCl, 1,5 ml HF ve 95 ml su içeren modife edilmiþ Keller reaktifi ile 60 - 90 s daðlanarak optik mikroskopta incelenmiþtir. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+
+3. DENEY SONUÇLARI VE TARTIÞMA 
+3.1. Mekanik Özellikler 
+Mekanik özelliklerle ilgili deney sonuçlarý Çizelge 4’de verilmiþtir. En yüksek sertlik ve çekme dayanýmýdeðerleri, 160°C sýcaklýkta 12 saat yaþlandýrýlan 12SY numunesinde elde edilmiþtir. 
+Çizelge 4. Deney numunelerinin mekanik özellikleri 
+Numune  kodu  Sertlik (BSD)  Çekme  mukavemeti (N/mm2)  Kopma  uzamasý (%)  
+4SY  120  508  20  
+12SY  150  541  12  
+24SY  131  505  11  
+
+Bu yaþlandýrma süresinde elde edilen çökeltinin boyutlarý ve daðýlýmýyla, en yüksek mekanik özellik için ideal çökelti morfolojisine ulaþýldýðýdüþünülmektedir [1-3]. 4SY numunesinde çökelti sertleþmesi için gerekli yaþlandýrma süresinin kýsa olmasý sebebiyle (4 saat) sertlik ve çekme dayanýmýndaki artýþýn yeterli miktarda olmadýðýsöylenebilir [3,13]. 24 saat süreyle yaþlandýrýlan 24SY numunesinde ise yaþlandýrma süresinin fazla olmasýsebebiyle aþýrý yaþlanma sürecine girildiði ve bu sebeple sertlik ve çekme dayanýmýnýn 12SY numunesine göre daha düþük olduðu söylenebilir. 4SY numunesinde % uzama miktarýnýn diðer numunelere göre büyük olmasý, çökelmenin henüz gerçekleþmemiþ olmasýna ve dolayýsýyla Al matris içerisindeki Cu’nun çoðunlukla katý çözelti halinde bulunmasýna baðlanabilir [1-3]. 
+
+
+3.2. Talaþ Kökü Morfolojisi 
+SEGN ve CCGT kesici uçla 15 m/dak kesme hýzýnda yapýlan iþlemede oluþan talaþ kökünün morfolojisini gösteren mikrograflar Þekil 1 ve Þekil 2’de verilmiþtir. Þekil 1’de 4SY ve 12SY numunelerinin talaþ kökü incelemelerinde sýrasýyla yaklaþýk 333 µm ve 250 µm yüksekliklerinde (Þekil 1a’da “h” ile gösterilmiþtir) YT oluþumu görülmektedir. 24SY numunesindeki talaþ kökü incelemesinde ise daha küçük boyutta ve kararsýz YT oluþumu görülmüþtür (Þekil 1c). Yaklaþýk 80 µm’ye kadar büyüyen ve sonra takýmýn talaþ yüzeyinden koparak talaþýn akýþýna katýlan karasýz YT oluþumu, diðer numunelere göre deforme olmuþ talaþ kalýnlýðýnýn artmasýna sebep olmuþtur. 
+4SY numunesine göre sertlik ve çekme dayanýmýnda artýþ saðlanan 12SY numunesinin YT boyutlarýnda 4SY numunesine göre belirgin miktarda küçülme meydana gelmiþtir. Ayrýca, 4SY numunesinde meydana gelen aþýrý sünekliðin YT boyutlarýnýarttýrdýðý düþünülebilir. 
+CCGT kesici uçla iþlemede oluþan YT boyutlarý, SEGN’de oluþan YT boyutlarýndan çok daha küçüktür (Þekil 2). CCGT uçla iþlemede daha küçük boyutlarda YT oluþmasý, bu ucun talaþ açýsýnýn büyüklüðü 
+
+
+Þekil 1. 15 m/dak kesme hýzýnda SEGN kesici uçla iþlemede oluþan talaþ kökü, a) 4SY, b) 12SY, c) 24SY 
+
+Þekil 2. 15 m/dak kesme hýzýnda CCGT kesici uçla iþlemede oluþan talaþ kökü, a) 4SY, b) 12SY, c) 24SY 
+Y. Özçatalbaþ ve B. Aydýn Mekanik Özellik ve Kesme Geometrisinin AA2014 Alaþýmýnýn Ýþlenebilme Özelliklerine Etkileri 
+nedeniyle ikincil deformasyon bölgesinde takým/talaþtemas alanýnýn daralmasýna baðlanabilir. Düþük kesme hýzlarýnda büyük boyutlarda YT’nin oluþmasýise, kesme düzlemi açýsýný (.) ve etkin talaþ açýsýný (.) arttýrmýþtýr (Þekil 1) [11,12]. Ancak, YT’nin kesici takýmý kesme bölgesinden uzaklaþtýrarak kesici kenar gibi davranmasý, iþlenmiþ yüzeyin deformasyon miktarýný ve yüzey hatalarýný arttýrmýþtýr [15] (Þekil 1a ve b’de okla gösterildi). SEGN ve CCGT kesici uçla 171 m/dak kesme hýzýnda yapýlan tornalama iþleminde elde edilen talaþ kökü morfolojilerine ait mikrograflar Þekil 3 ve Þekil 4’de verilmiþtir. Bu kesme hýzýnda her iki kesici uçla yapýlan iþlemede de YT oluþumu görülmemektedir. Ancak, CCGT kesici ucun talaþ açýsýnýn büyüklüðü nedeniyle deforme edilmiþ talaþ kalýnlýðýnda küçülme olmuþtur. Bu durum, büyük talaþ açýlý uçla iþleme sýrasýndaki talaþ yýðýlma faktörünün artmasýna baðlanabilir.  
+
+
+3.3. Yüzey Pürüzlülüðü 
+Farklý sürelerde yaþlandýrma ýsýl iþlemi uygulanan numunelerin kesici uç geometrisine ve kesme hýzýna baðlý yüzey pürüzlülüklerindeki deðiþim Þekil 5’de verilmiþtir. En büyük yüzey pürüzlülüðü, 4SY numunesinin SEGN kesici uçla düþük kesme hýzlarýnda iþlenmesi sýrasýnda elde edilmiþtir (Þekil 5a). 4SY numunesinin diðer numunelere göre sertlik ve çekme mukavemetinin düþük, sünekliðinin ise yüksek olmasý bu duruma sebep olarak gösterilebilir. Zira bu malzemede, düþük kesme hýzlarýnda ana malzemeden daha sert ve büyük boyutlarda oluþan YT’nin, kesici kenar gibi davranmasý ve kesici kenarýn alt kýsmýna doðru büyüyerek iþlenmiþ yüzeyi düzensiz deforme etmesi yüzey pürüzlülüðünün artmasýna sebep olmuþtur [15,16]. Kesme hýzýnýn artmasýyla birlikte YT oluþumu önlenmiþ ve yüzey pürüzlülüðü Ra ~ 2,7 µm’ye kadar düþmüþtür. 24SY numunesinde ise düþük kesme hýzlarýnda küçük boyutlarda oluþan kararsýz YT’nin ilerleyen kesme hýzlarýnda ortamdan kalkmasý yüzey pürüzlülüðünün bir miktar azalmasýna sebep olmuþtur. SEGN kesici uçla en düþük yüzey pürüzlülüðü (Ra ~ 2,4 µm) en yüksek sertlik ve çekme dayanýmýndaki 12SY numunesinde elde edilmiþtir. 
+
+
+Düþük kesme hýzlarýnda büyük boyutta YT oluþmasýyüzey pürüzlülüðünün artmasýna sebep olmakla birlikte, artan kesme hýzý ve SEGN uç ile minimum yüzey pürüzlülüðü elde edilmiþtir. CCGT kesici uçla yapýlan iþlemede de numunelerin pürüzlülük sýralamasýnda belirgin deðiþiklik olmamýþtýr. Ancak, CCGT kesici uçla farklý kesme hýzlarýnda iþleme sýrasýnda oluþan pürüzlülük deðerleri arasýndaki fark büyümüþtür. Bu uçla iþlemede en düþük yüzey pürüzlülüðü 12SY numunesinde Ra . 1,8 µm olarak elde edilmiþtir. Bu durumda, 12SY numunesinin üstün mekanik özelliklerinin yanýnda CCGT kesici ucun talaþ açýsýnýn büyüklüðü nedeniyle takým/talaþtemas alanýnýn dar olmasý ve talaþ yýðýlma faktöründeki artýþýn yüzey pürüzlülüðünü olumlu etkilediði görülmektedir. 
+
+
+Þekil 3. 171 m/dak kesme hýzýnda SEGN kesici uçla iþlemede oluþan talaþ kökü, a) 4SY, b) 12SY, c) 24SY 
+
+Þekil 4. 171 m/dak kesme hýzýnda CCGT kesici uçla iþlemede oluþan talaþ kökü, a) 4SY, b) 12SY, c) 24SY 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+a)     b)Þekil 5. Numunelerin yüzey pürüzlülüðüne kesici uç geometrisi ve kesme hýzýnýn etkisi 
+
+3.4. Talaþ Kaldýrma Kuvvetleri 
+Farklý sürelerde yaþlandýrýlan numunelerin iþlenmesi sýrasýnda, kesici uç geometrisine ve kesme hýzýna baðlý oluþan tornalama kuvvetlerindeki deðiþim Þekil 6 ve Þekil 7’de verilmiþtir. Þekil 6a’da SEGN kesici uçla yapýlan talaþ kaldýrma iþlemleri sonucunda oluþan kesme kuvvetlerinin kesme hýzýna göre deðiþimleri görülmektedir. Yaklaþýk 90 m/dak kesme hýzýna kadar her üç numunenin kesme kuvvetlerinde belirgin düþüþmevcuttur. Bu kesme hýzýna kadar oluþan YT, kesme kuvvetinde azalmaya sebep olmuþtur.  
+Takým/talaþ ara yüzeyinde kararlý YT’nin varlýðý, kesici takýmýn etkin talaþ açýsýný arttýrýr. Artan talaþaçýsý ise kesme düzlemi açýsýný (.) arttýrarak kesme düzlemi alaný ve dolayýsýyla talaþ kaldýrma kuvvetlerini düþürür [6,13,16]. Ayrýca, takýmýn talaþyüzeyinde YT’nin varlýðý takým/talaþ temas alanýný da kýsaltmaktadýr. Bu sebeple, azalan sürtünme kuvvetleri de kesme ve ilerleme kuvvetlerinin azalmasýna sebep olur [6,13]. 
+SEGN uçla 240 m/dak kesme hýzýnda iþleme sýrasýnda oluþan Fc’nin deðeri yaklaþýk 355 N’dur ve bu hýzda numunelerin mekanik özelliklerine baðlý Fc’de belirgin deðiþiklik görülmemiþtir. Kesme hýzýyla birlikte malzemenin talaþ kaldýrma bölgesinde artan sýcaklýk [7], talaþ kaldýrma anýnda malzemenin akma dayanýmýný düþürür [7]. Bu sebeple yaklaþýk 120 m/dak kesme hýzýndan sonra Fc’de hýzlý bir düþüþbelirlenmiþtir. 
+
+
+(a)    (b) 
+Þekil 6. Numunelerin kesme kuvvetine kesici uç geometrisi ve mekanik özelliklerin etkisi 
+Y. Özçatalbaþ ve B. Aydýn Mekanik Özellik ve Kesme Geometrisinin AA2014 Alaþýmýnýn Ýþlenebilme Özelliklerine Etkileri 
+CCGT kesici uca ait kesme kuvvetlerinde ise YT etkisi belirgin deðildir (Þekil 6b). Ancak, bu kesici uçla daha düþük kesme kuvvetleri elde edilmiþtir. Nihai kesme hýzýnda düþük sertlik ve yüksek süneklikdeki malzemede yüksek Fc kuvvetleri oluþmasýna raðmen, malzemenin mekanik özelliklerinden daha çok kesici uç geometrisinin Fc’yi önemli derecede etkilediði görülmektedir. 
+Farklý sürelerde yaþlandýrýlmýþ numunelerin deðiþik kesici uçlarla iþlenmesi sýrasýnda elde edilen ilerleme kuvveti-kesme hýzý iliþkisi (Þekil 7), kesme kuvvetleri-kesme hýzý iliþkileri ile yakýn benzerlik göstermektedir. Özellikle SEGN kesici uçla iþleme sýrasýnda 120 m/dak kesme hýzýna kadar 24SY numunesinde oluþan YT’nin, ilerleme kuvvetine etkisi açýkça görülmektedir (Þekil 7a). Bu hýza kadar bütün numuneler için varlýðýný sürdüren YT’nin her iki tornalama kuvvetine de (Fc, Ff) etkisinin benzer olduðu söylenebilir. CCGT kesici uçla iþleme sýrasýnda ise (Þekil 7b), SEGN uca göre ilerleme kuvvetlerinde belirgin avantalar saðlanmýþtýr. Ancak en büyük sertlik ve çekme dayanýmýna sahip 12SY numunesinde kesme hýzýna baðlý ilerleme kuvvetindeki azalma eðilimi daha yavaþtýr. Bu durum, orta kesme hýzý aralýðýnda 12SY numunesi ile diðer numunelerin ilerleme kuvvetleri arasýndaki farkýarttýrmýþtýr. Fc kuvvetine etkisinde olduðu gibi, kesici takým geometrisinin Ff kuvvetine de etkisi büyük olmuþtur. Numunelerin mekanik özelliklerinden daha çok kesme geometrisi ilerleme kuvvetini etkilemiþtir. Malzemenin artan sertliði ve çekme dayanýmýyla birlikte kýsalan takým/talaþ temas uzunluðu talaþkaldýrma kuvvetlerini düþürmüþtür [7]. Ancak, aynýzamanda bu mekanik özelliklerdeki artýþ özgül kesme kuvvetini arttýrdýðýndan talaþ kaldýrma kuvvetlerinin de artmasýna sebep olur [7]. Bu durum ise, malzeme mekanik özellikleri ile talaþ kaldýrma kuvvetleri arasýndaki iliþkiyi karmaþýk hale getirmektedir [18]. 
+
+
+
+4. SONUÇ 
+Bu çalýþmanýn amacý gereði elde edilen sonuçlar aþaðýdaki gibi özetlenebilir: 
+1.	
+AA2014 alaþýmýnýn 160°C sýcaklýkta 12 saat yaþlandýrýlmasý ile en yüksek sertlik (150 BSD) ve çekme dayanýmý (541 N/mm2) elde edilmiþtir. 
+
+2.	
+Talaþ kökü morfolojisi incelemelerinde her iki kesici uçla (büyük ve küçük talaþ açýlý) 171 m/dak kesme hýzýnda yapýlan iþlemede YT oluþmadýðýgörülmüþtür. Ancak düþük kesme hýzlarýnda, yüksek talaþ açýlý kesici uç geometrisinin YT oluþumunu engellediði ve küçük talaþ açýlý takýma göre daha küçük boyutlu YT oluþumunu saðladýðýbelirlenmiþtir. 
+
+3.	
+Minimum yüzey pürüzlülüðü, 12 saat yaþlandýrma ýsýl iþlemi uygulanmýþ numunenin büyük talaþ açýlýkesici uçla iþlenmesi sýrasýnda oluþmuþtur. Büyük talaþ açýsýnýn, numunelerin yüzey pürüzlülüðü üzerinde mekanik özelliklerden daha etkili olduðu görülmüþtür. 
+
+4.	
+Nihai kesme hýzlarýnda, genellikle en yüksek sertlik ve çekme mukavemetindeki numunede minimum tornalama kuvvetleri elde edilirken, düþük sertlik ve aþýrý sünekliðe sahip malzemede en yüksek talaþ kaldýrma kuvvetleri meydana gelmiþtir. Ancak tornalama kuvvetlerinin düþürülmesinde talaþ açýsýnýn, malzemenin mekanik özelliklerinden çok daha etkili olduðu ve büyük talaþ açýlý kesici uçla iþlemede minimum tornalama kuvvetlerinin oluþtuðu görülmüþtür. 
+
+
+
+
+TEÞEKKÜR 
+Makalenin yazarlarýndan Arþ.Gör. Bayram 
+
+
+(a)	    (b) 
+Þekil 7. Numunelerin ilerleme kuvvetine kesici uç geometrisi ve mekanik özelliklerin etkisi 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+AYDIN’ý sevgi ve rahmetle anýyor bu makaleyi kendisine atfediyorum. Yazar, 07/2001-04 proje kodu ile maddi destekte bulunan Gazi Üniversitesi Rektörlüðüne teþekkür eder.  
+
+
+KAYNAKLAR 
+1.	
+Doðan, M., Alüminyum Alaþýmlarýnýn Isýl Ýþlemi, Y.Lisans Tezi, Marmara Üniversitesi, Ýstanbul 1989. 
+
+2.	
+Yüksel, E.E., 7075 Alüminyum Alaþýmlarýnda Basamaklý Yaþlandýrma ile Özellikleri Kontrol Ýmkanlarý, Y.Lisans Tezi, Ýstanbul Teknik Üniversitesi, Ýstanbul 1991. 
+
+3.	
+Su, Þ., 2XXX Gurubu Alaþýmlarda KatýEriyiðe Alma Sýcaklýk ve Süresinin Yaþlanma Sonrasý Özelliklere Etkileri, Y.Lisans Tezi,Selçuk Üniversitesi, Konya 1988. 
+
+4.	
+Boyer, H.E., Practical Heat Treating, American Society for Metals, pp.213-217, 1989. 
+
+5.	
+ASM Handbook, Heat Treating, Volume 4, ASTM, 1991. 
+
+6.	
+Aydýn, B. ve Özçatalbaþ, Y., AA2014 Alaþýmýnýn Ýþlenebilirliðine Yaþlanma Süresinin Etkisi, 11. Uluslararasý Metalurji ve Malzeme Kongresi, syf. 405-412, Ýstanbul 2002. 
+
+7.	
+Trent, E.M., Metal Cutting, Tanner Ltd, London 1998. 
+
+8.	
+Aluminum, Fabrication and Finishing, American Society for Metals, Metals Park, Volume III, Ohio 1967. 
+
+9.	
+Dae, E.K. ve Dong, H.H., Experimental Investigation of the Contact Sliding Behavior Of Metals, Journal of Manufacturing Science and Engineering, Volume 120, pp. 395- 400, 1998. 
+
+10. 
+Jeelani, S. ve Musial, M., Dependence of Fatigue Life on the Surface Integrity in the Machining of 224-T 351 Aluminum Alloy Unlubricated 
+
+
+Conditions, Journal of Materials Science, 21, pp. 155-160, 1986. 
+11. 
+Oishi, K., Mirror Cutting of Aluminum with Sapphire Tool, Journal of Materials Processing Technology, 62, pp. 331-334, Japan 1996. 
+
+12. 
+Aydýn, B. ve Özçatalbaþ, Y., AA2014Alaþýmýnýn Ýþlenebilirlik Özelliklerine Kesici Takým Geometrisinin Etkisi, Makine Tasarým ve Ýmalat Dergisi, Cilt 5, Sayý 2, 2003  
+
+13. 
+Liew, W.Y.H, Hutchingsand, I.M. and Williams, J.A., The Interaction Between Tool Material Environment and Process Conditions in the Machining of Aluminum Alloys, Machining Technology, 3 (2), pp. 286-373 UK, 1999. 
+
+14. 
+Özçatalbaþ, Y., Investigation of Machinability Behavior of Al4C3, Reinforced Al Based Composite produced by Mechanical Alloying Technique, Composites Science and Technology, Vol. 63, pp. 53-61, (2003). 
+
+15. 
+Carrilero, M.S., Marcos, M., A SEM and EDS insight into the BUL and BUE differences in the turning processes of AA2024 Al-Cu alloy, International Journal of Machine Tools &Manufacture, 42 (2002) 215-220. 
+
+16. 
+Aydýn, B., AA2014 Alaþýmýnda Yaþlandýrma Isýl Ýþleminin Ýþlenebilirlik Özellikleri Üzerindeki Etkilerinin Ýncelenmesi, Yüksek Lisans Tezi. G.Ü. Fen Bilimleri Enstitüsü, Haziran 2002. 
+
+17. 
+Türk Standartlarý, Çekme Deneyleri, TS 138 EN10002-1, TSE, Ocak 1996. 
+
+18.	
+Araki T., Fukunaga H., Sata T., “ Some Results of Cooperative Research on The Effect of Heat Treated Structure on The Machinability of A Low Alloy”, Influence of Metallurgy on Machinability of Materials, (Prod. Conf.), pp. 381, ASM, 1975. 
+
+
+
+
+

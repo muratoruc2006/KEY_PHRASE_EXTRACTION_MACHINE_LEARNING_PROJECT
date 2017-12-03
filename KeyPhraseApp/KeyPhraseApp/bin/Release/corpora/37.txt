@@ -1,0 +1,977 @@
+KONTROL SÝSTEMLERÝNDE BELÝRSÝZLÝKLE BAÞ ETME YÖNTEMLERÝ: LYAPUNOV TARZI YAKLAÞIMLAR1
+
+Erkan ZERGEROÐLU, Ýlyas KANDEMÝR, Murat ÞEKER ve Emre EROÐLU 
+Bilgisayar Mühendisliði Bölümü, Gebze Yüksek Teknoloji Enstitüsü, 41400, Gebze/Kocaeli, 
+ezerger@bilmuh.gyte.edu.tr 
+
+(Geliþ/Received: 21.06.2005; Kabul/Accepted: 02.06.2006) 
+ÖZET 
+Endüstriyel denetim sistemlerinde genel olarak sistem modeli ve içerebileceði belirsizlikler gözardý edilerek, kapalý çevrim yapýsý sadece çýkýþ hatasýna dayalý olan, Orantý tipi (P-tipi), Ýntegral tipi (I-Tipi), Orantý artýÝntegral etkili (PI-Tip), Orantý artý Türev etkili (PD-Tip), ve son olarak Orantý artýÝntegral artý Türev etkili (PID-Tip) denetim algoritmalarý kullanýlýr. Kontrol kazançlarý, sistem performansý tatminkâr bulununcaya kadar ayarlanan bu basit denetim algoritmalarý çoðu zaman üretim kayýplarýna yol açmakta ve çok deðerli olan hammadde sarfiyatýný arttýrmaktadýr. Bir diðer yanýlgý ise sistem belirsizlikleri ile baþa çýkabilen akýllýdenetleyicilerin yüksek iþlemci gücüne gerek duyduðu ve bu sebeple yüksek maliyet gerektirdiði kanýsýdýr. Günümüz mikro-iþlemcileri çok karmaþýk algoritmalarýbile gerçek zamanlý denetim gerektiren sistemlerde baþarý ile uygulayabilmektedir. Geriye kalan sorun; geliþkin kontrol algoritmalarýnýn hangisinin denetimini yapmak istediðimiz, çoðunlukla da doðrusal olmayan parametreler içeren sistemler için daha uygun olduðunu belirlemek, ki bu genellikle zaman ve ekonomi açýsýndan önemli bir bilgidir, ve kullanýlacak algoritmadan ne tür sonuç beklenmesi gerektiðinin bilinmesidir. Bu bilginin deðerlendirilmesinde, algoritmanýn sistemimizin kararlýlýðýný saðlayýp saðlamayacaðýnýn bilinmesi öncelik taþýmaktadýr. Bu çalýþmamýzda, sistem denklemi bilinmesine karþýn parametrik belirsizlikler de içerebilen genel bir denetim sistemi için tasarlanmýþ akýllý denetim algoritmalarýnýn derlemesi olacak bir kýlavuz sunulmuþtur. Çalýþmamýzda sistem kararlýlýk analizleri Lyapunov tarzý yaklaþýmlar ýþýðýnda ele alýnmýþ, hangi kontrol yönteminin hangi problemde daha uygun olabileceðini içeren bir tartýþma da sonuç bölümünde sunulmuþtur 
+
+1. GÝRÝÞ
+Gerçek hayatta karþýmýza çýkan pek çok dinamik sistem, (mekanik, elektrik-elektronik, ýsýl, akýþkan, ekonomik, vb.) sistem model denklemi olarak adlandýrýlan diferansiyel denklemler yoluyla karakterize edilirler. Bir dinamik sistemin bir giriþfonksiyonuna karþý göstereceði tepki bu diferansiyel denklemin çözümünden elde edilir. Ancak sistem model denklemlerinin çözümüne ulaþmak her zaman mümkün olmaz. Çözümün olduðu þartlarda dahi gerek modellemede yapýlabilecek hatalar, gerekse model denkleminde bulunan belirsizlikler ve bu belirsizliklerle baþ etme yöntemlerinin yeterince bilinmemesi, sistemin istediðimiz tepkiyi vermesi için tasarlanan denetim yapýlarýnýn arzu edilir performanstan uzak kalmasýna yol açabilmektedir. Denetim sisteminde olmasý gereken kararlýlýk özellikleri, güvenlik ve baþarým anlamýnda önemli noktalardýr. Özellikle uygulamaya yönelik çalýþmalarda hassas izleme, çevresel bozucu etkenlere duyarsýzlýk ve yapýsal belirsizlikler ile baþedilebilmesini gerektirdiði için yapýlacak tasarým bütün bu etmenleri dikkate almalýdýr. Oysa geleneksel tasarým yöntemlerinin bu etkenlerin modellenmesi için önerdiði aþamalar hem matematiksel olarak karmaþýk iþlemlerin yapýlmasýný hem de fiziksel gerçekleme aþamasýnda yüksek maliyetli komponentlerin kullanýmýný zorunlu kýlabilmektedir. Dolayýsýyla alternatif tasarým yöntemlerinin kullanýmýnýn zorunluluða dönüþtüðü durumlarda, kullanýlacak bu iþlemsel akýl içeren algoritmalarýn denetim sisteminin genel kararlýlýk özelliklerinin bilinmesi istenir. Bu bilgi ýþýðýnda denetim problemlerinin çözümündeki önemli güçlükler aþýlabilecektir. 
+Çeþitli sistemlere ait matematiksel modellerin kararlýlýklarý üzerine yapýlan çalýþmalar yýllar öncesine dayanmaktadýr. Bu çalýþmalarýn baþlangýcýdiferansiyel denklemler üzerine yapýlan çalýþmalarýn baþarýsýyla birlikte bunlarýn denetim sistemlerine bir model oluþturmasý ile eþzamanlýdýr. Bir denetim sistemine iliþkin ilk kuramsal çözümlerden biri Watt regülatörünün diferansiyel denklem modelini 1868 yýlýnda geliþtirerek gerçekleyen J. C. Maxwell tarafýndan sunulmuþtur [1]. Bu çalýþmayý sistem karakteristik denklemlerini durum diferansiyel denklemlerinin lineerleþtirilmesi metoduyla yapan Maxwell, sistem parametrelerinin kararlýlýktaki etkilerini ve sistem karakteristik denklemlerinin köklerinin negatif düzlemde yer alýp almadýðýnýgösterdi. Söz konusu çalýþma kontrol teorisindeki en önemli çalýþmalardan biri olarak kabul gördü ve denetim kuramýnýn geliþmesinde diðer bilim adamlarýnýn çalýþmalarýna temel oluþturdu. Routh, karakteristik denklemin köklerinin kararlýlýðýn tespitini saðladýðýna dair varsayýmýný, sayýsal teknikler kullanarak yaptýðý çalýþmalarýnda 1877 yýlýnda kanýtladý [2]. Rus bilim adamý II. Vishnegradsky 1877’de; Maxwell’in çalýþmalarýndan haberdar olmadan baðýmsýz olarak diferansiyel denklemleri kullanarak regülasyon kararlýlýðýný analiz etti [3]. A.B. Stodala ise 1893’te; II. Vishnegradsky’nin bulmuþ olduðu yöntemleri kullanarak bir su türbininin regülasyon kararlýlýðýanalizini yaptý. Bu çalýþmada sistemin eyleyici mekanizmalarýný, röleleri içeren eyleyici dinamiklerini modelledi ve ilk defa sistem zaman sabitinden bahsetti [4]. Hurtwitz 1895 yýlýnda karakteristik denklemin sistem kararlýlýðýnýn belirlenmesi problemini çözdü [5]. O yýllarda kontrol teorisinde çalýþmalar yapan Lyapunov bu sahada ufuklar açan çalýþmalarýný, 1892’de potansiyel enerji fonksiyonlarýný kullanarak diferansiyel denklemlerin kararlýlýk analizlerini yaptý [6]. Ancak onun bu çalýþmalarý 1900’lü yýllarýn ortalarýna kadar batýda fark edilmedi. Daha sonraki yýllarda kararlýlýk analizi çalýþmalarýnda 1964 yýlýnda I.W. Sandberg [7], 1966’da G. Zames [8], C.A. Desoer [9] ve Popov [10]; Lyapunov`un doðrusal olmayan sistemlerin kararlýlýk analizi çalýþmalarýný sürdürmüþlerdir. 
+Bu çalýþmamýzda, denetim sistemleri kontrol sinyalinin tasarlanmasý sýrasýnda, sistem model denkleminin çözümünü gerektirmeyen, buna karþýn çevresel bozucu etken ve yapýsal belirsizliklerle kararlý bir þekilde baþa çýkabilen kontrollerin tasarým yöntemlerini inceleyeceðiz. Çalýþmamýzda ilk olarak belirsizlikler içeren genel bir sistem modeli için kullanacaðýmýz diferansiyel denklem tanýtýlmakta ve bu belirsizlik modeli tam olarak bilindiðinde uygulanabilecek kontrol sinyal tasarýmý sunulmakta, daha sonra sýrasý ile genel adaptif denetleyici tasarýmý, tekrarlanan iþlevler için kullanýlan öðrenme bazlý(learning) denetleyici tasarýmý, yapay sinir aðlarýnýn öðrenebilme yeteneklerini kullanýlarak tasarlanan denetleyici tasarýmý, son olarak da standart ve PI denetleyiciler þeklinde tasarlanabilen gürbüz (robust) denetleyiciler incelenmektedir. Sonuç bölümünde ise incelenen denetleyicilerin güçlü ve zayýf yanlarý dile getirilip denetleyici seçiminde mühendis ve bilim adamlarýna yardýmcý olabilmesi amacýile hangi tip denetleyicilerin hangi sistemlerde kullanýlabileceði konusunda bir tartýþma sunulmuþtur. Ýncelenen bütün denetleyicilerin Lyapunov tarzý analizler ýþýðýnda kararlýlýk durumlarý da detaylý olarak verilmektedir. 
+
+Sunum içinde kullanýlan analizlerde yer alan L. ve 
+L. kümeleri sýra ile 
+· 
+L	= sup 
+· 
+.M <.. t .0
+· 
+
+L2 =
+.0 ()()dt .
+.· T ·M <.
+olarak tanýmlanmýþ olup bu ifadelerde M reel sayýlar kümesine ait pozitif, büyük bir sayý olarak tanmlanmþtýr. Bunlara ek olarak bu çalýþmada kullanýlan bir diðer taným ise 
+2 T 2
+A 
+F =tr A( A) =.Aij ,
+ij 
+biçiminde tanýmlanan Frobenius Normu’dur. 
+Yukarýdaki denklemde verilen tr()· fonksiyonu, matrisin izi olarak adlandýrýlýp, kare matrisin esas köþegenindeki elemanlarýn toplamýdýr. 
+2.	GENEL MODEL VE TAM BÝLÝNEN MODEL BAZLI DENETÝM 
+Gerek endüstriyel ortamlarda gerekse doðal çevremizde en yoðun karþýlaþtýðýmýz sistemler ikinci dereceden dinamik sistemlerdir. Sunumumuzda da bu tip sistemlere genel bir yaklaþým sunabilmek amacý ile 
+
+ 
+x +(,,.)=ut()
+fxx	(1) 
+biçiminde verilen skaler2 ikinci mertebeden bir dinamik model denklemini seçtik. Denklem (1)’de verilen ,,\ ifadeleri sýrasý ile, sistemin pozisyon,
+xx.
+hýz ve ivme deðiþkenleri olarak tanýmlanmýþ olup, (,,)\ sistemin karakteristiklerini içeren,
+fxx ..
+çoðunlukla nonlineer, belirsizlikler içeren bir fonksiyon olmakta, denetim amaçlý kontrol giriþsinyali de u(t) olarak tanýmlanmaktadýr. Tanýmýndan da anlaþýlacaðý üzere f (xx,,.), fonksiyonunu hem 
+sistem parametrelerini hem de sistem durumlarý ile türevlerini içermektedir. Tasarým aþamalarýmýza baþlamadan önce, sisteme uygulayacaðýmýz denetimin performansýnýn deðerlendirilmesi amacýyla, pozisyon hata deðerini 
+=	(2)
+exd -x 
+biçiminde tanýmlýyoruz. Pozisyon hata deðeri (2)’de gözlemlenen xd .\ hedeflenen deðeri (diðer tanýmýile referans sinyali) olup en az ikinci mertebeden türevlenebilir ve türevleri ile birlikte sýnýrlý bir fonksiyon olarak tanýmlanmýþtýr (, ..).
+dd, L
+xxxd
+Denetim sistemimizin çýkýþý için istenen referans 
+2Sunumumuzda verilecek kontrol formulasyonlarnn vektörel yapda olan sistemlere entegrasyonu mümkündür ancak anlatým kolaylýðýaçýsýndan skaler bir sistem seçilmiþtir. 
+sinyali sabit bir deðer seçildiðinde (set-point problem) dahi yukarýda kullandýðýmýz taným geçerliliðini korumaktadýr; ancak genel bir yaklaþým saðlayabilmek amacýmýzý pekiþtirmek için bu çalýþmamýzda izleyici denetim sistemimizde çýkýþýn zamanla deðiþen bir giriþi en az hata ile önceden tanýmlanan bir yörüngeyi izlemesi esas alýnmýþtýr. (2)’de tanýmlanan hatayý (1) ‘de verilen ikinci mertebe sistemlere taþýmak amacý ile "filtrelenmiþ" hata sinyalini 
+re .e	(3)
+= +
+þeklinde tanýmlýyoruz. Burada kullanýlan skaler..\katsayýsý denetim sistemimizde yer alan pozitif bir kazanç katsayýsýdýr. 
+Açýklama 1: Filtrelendirilmiþ hata deðerini tanýmladýðýmýz (3) ten yararlanarak hata ile filtrelenmiþ hata deðeri arasýndaki iliþkiyi sunan transfer fonksiyonu 
+es = rs
+() 1 ()	(4) 
+s +. 
+biçiminde elde edilir. Denklem (3)’ten de anlaþýlabileceði üzere filtrelenmiþ hata sinyali rt()’yi 
+sýfýra yakýn deðerlere sürebilirsek asýl performans ölçümünde kullandýðýmýz et()‘yi de istediðimiz deðere yönlendirmiþoluruz [12]. 
+Analizimize denklem (3)’te elde ettiðimiz filtrelenmiþhata sinyalinin zaman içinde deðiþimini, (1)’de verilen sistem model denklemi ýþýðýnda inceleyerek baþlayalým. Bunun için, (3) ‘ün zamana göre türevini alýp (2)’deki hata deðerini bu denklemde yerine koyarak 
+r=(xd -x)+.e (5) 
+ifadesine ulaþýrýz. (5) denklemindeki sistem durumunun ikinci türevi ifadesini (1) ‘de verilen sistem denklemi ile ifade ederek oluþan denklemi düzenleyerek 
+r=(xd +.e)-u +f (x, x,.)(6) 
+elde edilir. Bu aþamada, ileriki bölümlerde tasarlanacak deðiþik kontrol algoritmalarýna taban oluþturabilmek amacý ile denetim giriþ sinyalimizi 
+u =uf +uo(7) 
+biçiminde, ileri besleme bölümü uf ve geri besleme bölümü uo olarak iki parçaya ayýrarak yazacaðýz. (7)’de belirtilen ileri besleme ifadesi 
+
+uf	=( 
+xd +.e)(8) 
+E. Zergeroðlu vd. Kontrol Sistemlerinde Belirsizlikle Baþ Etme Yöntemleri: Lyapunov Tarzý Yaklaþýmlar 
+biçiminde tanýmlanmýþ olup denetim sinyali içerisinde sisteme dolaysýz olarak uygulanacak, bilinen kýsýmlarýiçermektedir. Sonraki bölümlerde sunulacak diðer tasarýmlara taban oluþturabilmek için önce sistem belirsizliklerini içeren f ( ,, ) fonksiyonunun
+xx .
+tamamen bilindiðini ve bu durumda denetim sinyalimizin geri besleme kýsmýný içeren uo ‘ýsunulacak kararlýlýk analizi ýþýðýnda 
+uo =f (xx,,.)+kr (9) 
+þeklinde düþünelim. Bu ifadede yer alan k .\pozitif bir kontrol kazanç katsayýsý (geri besleme kazancý) olarak tanýmlanmýþtýr. Denklem (8) ve (9) ifadelerinden yararlanarak denetim sinyali genel olarak 
+
+u =( 
+xd +.e)+f (,,.)+kr (10)
+xx 
+biçiminde bulunur. Bu aþamada aþaðýda belirtilen Teoremi sunmaya hazýrýz. 
+Teorem-1: 
+Sistem denklemi (1) biçiminde ifade edilebilen sistemler için; (10) ile tasarladýðýmýz kontrol denetim sinyali, (3)’te belirtilen pozisyon hatasýnýn üstel olarak sönümlenmesi için yeterli koþullarý saðlar [14]. Yani her t .0 deðeri için pozisyon hata sinyali 
+et() .
+e(0) exp(-kt) 
+eþitsizliðini saðlayarak, üstel olarak azalan bir zarf içinde sýfýra yakýnsar. 
+Ýspat: 
+Teorem-1’de verilen yargýyý ispatlamak için daha basit yaklaþýmlar kullanýlabilse de, ileriki bölümler için de temel oluþturabilmek gayesiyle burada farklýbir yaklaþým kullanacaðýz. Bu amaçla pozitif tanýmlý, skaler Vt().\ fonksiyonunu 
+V =1 r2 (11)2 
+biçimde tanýmlayalým. (11)’den de görüldüðü üzere Vt(), sadece rt() =0 deðerinde sýfýra eþit olur ve 
+rt()‘nin diðer bütün deðerlerinde pozitif deðerlere sahiptir (pozitif deðerli bir fonksiyondur). (11) ile tanýmladýðýmýz fonksiyonun zaman profilinde sistem deðerlerine göre deðiþimi 
+Vr = (12) 
+
+þeklinde elde edilir. Vt() denkleminde (6) ile elde 
+ettiðimiz r deðerini yerleþtirip bulunan yeni denklemde, (10)’da tasarladýðýmýz denetim sinyalini yerine yazarsak, V ile tanýmladýðýmýz pozitif deðerli fonksiyonun türevini 
+V =-k2 (13) 
+olarak buluruz. Vt()‘nin (11) ile verilen tanýmýndan elde edilen 2()
+rt ‘nin karþýlýðýný (13)’e yerleþtirirsek Vt() fonksiyonunun türevini 
+V =-2kV(14) 
+biçiminde bulmuþ oluruz. (14) ile bulduðumuz bu diferansiyel denklemin çözümü 
+Vt() =V (0)e-2kt (15) 
+þeklindedir. (15)’den direkt olarak görülebildiði gibiVt() fonksiyonu, t .0 için V (0)deðerinden baþlayarak üstel bir þekilde azalmaktadýr ve Vt() 
+=V (0) deðeri de sýnýrlanabilir bir deðer olduðu 
+t=0 için, V .L. ifadesi doðrudur. Dolayýsýyla (11)’de pozitif olarak tanýmlanan Vt() fonksiyonu içinde tanýmlanan filtrelenmiþ hata rt() sinyali de üstel 
+olarak azalmak zorundadýr ve ayný zamanda r .L. olmaktadýr. Ayrýca (3) ve (4) ile verilen tanýmlardan yola çýkarak ee,.L. olduðunu ve her iki sinyalin de üstel olarak azalmak zorunda olduðunu söyleyebiliriz3. et() ile xd ifadelerinin sýnýrlanabilir olmalarýndan dolayý, denklem (2)’den de yararlanarak x .L. ve aynýþekilde x.L. olduðunu söyleyebiliriz. f (xx, ,.) sinyalinin, x ve x sinyalleri 
+sýnýrlý iken sýnýrlandýrýlabilir olmasý varsayýmýndan dolayý (10) ile tasarladýðýmýz denetim sinyalimiz de sýnýrlýdýr; yani u .L. olmaktadýr. Kýsacasý, (1)’de 
+belirtilen sistemler (10) ile tasarlanan denetim sinyali ile kumanda edildiðinde oluþan kapalý döngü sisteminde bulunan bütün sinyaller sýnýrlý kalýrlar; ayný zamanda (2) ile tanýmladýðýmýz pozisyon hata sinyali de Teorem-1’de iddia edildiði gibi üstel olarak azalan bir zarf içinde sýfýra yakýnsamýþ olur. Þu halde kapalý döngü sistemi kararlýdýr ve denetim hedefine de ulaþýlmýþtýr. 
+
+
+3. BELÝRSÝZLÝKLE BAÞETME YÖNTEMLERÝ
+Bir önceki bölümde sistem belirsizliklerinin tamamen bilindiðini veya ölçümle elde edilebileceðini varsayarak denetim kontrol sinyalimizi tasarlamýþtýk. Bu bölümde ise belirsizlikler tam olarak veya neredeyse hiç bilinmediði zaman kullanabileceðimiz denetim sinyalleri üzerinde yoðunlaþacaðýz. 
+3Analizimizin bu bölümünde Teorem-1'de önerilen sonuça ulaþmýþbulunuyoruz ancak halen denetim sinyalinin baðýmlý olduðunu gösteremediðimiz için henüz sonuca tam ulaþmýþ sayýlmayýz. 
+
+3.1. Uyarlamalý Denetim 
+Uyarlamalý denetim, sistem belirsizlikleri içeren f ( ,, )  fonksiyonunun doðrusal biçimde 
+xx .
+parametrelerine ayrýlabildiði durumlarda sýklýkla kullanýlýr. Özellikle nonlineer f ( ,, )
+xx . 
+fonksiyonunun p adet bilinmeyen parametre içerdiðini, ayný zamanda bilinen veya ölçülebilen parametrelerin oluþturduðu (,) .1×p  matrisi ile 
+Wxx \
+bilinmeyen parametrelerin oluþturduðu bir vektörün çarpýmýþeklinde 
+f ( ,,.)=  (16) 
+xxW.
+ile ifade edilebilir olduðunu varsayalým. Bu durumda f ( ,, )  fonksiyonu tam olarak bilinmediði
+xx .
+için kontrol formülasyonumuzda direkt olarak kullanýlamaz, bu sebepten dolayýf ( ,, )
+xx.fonksiyonunun tahmini deðeri olarak fˆ (xx .ˆ)
+,, 
+fonksiyonunun tanýmlanmasýna ihtiyaç duyarýz. Tahmin fonksiyonumuzun f (xx .)  fonksiyonuna 
+,, 
+yaklaþabilme performansýný ise gerçek deðeri ile tahmini deðeri arasýndaki fark olarak 
+ ( ,,.) xx ˆ ( ,ˆ)  (17) 
+fxx  =f (,,.)-fxx ,.
+þeklinde tanýmlayalým. (17)’de verilen f(,xx,.) ifadesini (16) referans alýnarak 
+ (,,.)=W   (18) 
+fxx .
+=W.-W.ˆ 
+þeklinde yeniden tanýmlayabiliriz. Bir önceki bölümde verilen analizimiz ile elde edilen denetim sinyal denklemi (10)’da f (xx .)  fonksiyonu
+,,  yerine 
+fˆ ( ,,ˆ)  tahmini deðer ifadesi yazýlýrsa geri besleme 
+xx .
+ifademiz 
+uo =fˆ (xx ,,.ˆ)+kr  (19) 
+biçiminde elde edilir. (19)’da sunulan fˆ ( ,,ˆ)
+xx . 
+deðerini kararlýlýk analizimiz yardýmý ile tasarlayacaðýz. Denklem (6)’da ifade edilen filtrelendirilmiþ hata türevi ifadesindeki kontrol giriþi ut()‘nin yerine (19) ile elde ettiðimiz dengini yazýp 
+(17), (7) ve (8) de kullanýlarak yeniden düzenlenirse, adaptif kontroller için kullanacaðýmýz filtrelendirilmiþhata ifadesinin zaman içindeki deðiþimini 
+r=-kr +f(,xx ,.)  (20) 
+biçiminde elde ederiz. Elde ettiðimiz bilgiler ýþýðýnda aþaðýda verilen ikinci teoremimizi sunalým. 
+Teorem-2: 
+Sistem denklemi (1)’de belirtilen sistem için f ( ,, )
+xx . 
+fonksiyonu, (18)’de belirtildiði üzere lineer biçimde ayrýlabiliyor ise geri besleme ifademiz; uo =fˆ ( ,,.)+biçiminde tasarlanýp tahmini olan 
+xx kr 
+. 
+ˆˆ T
+fˆ =W.içinde yer alan .ifadesi, .=.Wr 
+ifadesinin integralinden elde edildiðinde; (2)’de hata, t sonsuza ýraksadýðýnda sýfýra yakýnsar [14]; yani, pozisyon hata sinyali için 
+lim et() =0 
+t›.
+yargýsý geçerli olur. 
+Ýspat : 
+Teorem-2’nin ispatý için pozitif tanýmlý skaler, a ()
+Vt .\ fonksiyonunu þu biçimde tanýmlayalým: 
+Va=1 r2 +1 . T .-1.  .(21) 
+22 
+Tanýmlanan bu fonksiyon içerisinde yer alan ..\p×p pozitif tanýmlý simetrik, diagonal adaptasyon katsayýlarý içeren kazanç matrisidir. (21) ile tanýmlanan Va fonksiyonunun türevi alýndýðýnda 
+1
+V a=rr +.T .- . .  (22) 
+ifadesi elde edilir. Bu ifadede r (filtrelendirilmiþhatanýn türevi) terimi yerine (20)’deki eþiti yazýlýp yeniden düzenlendiðinde 
+Vr( kr +W. ) T -1 . .ˆ 
+a=--.. (23) 
+elde edilir. Bu ifadede fonksiyonun tahmin hatasý olan 
+. 
+.ˆ terimi, Teorem-2’de ifade edilen karþýlýklarý ile yazýlýr ise potansiyel Va fonksiyonunun türevi için 
+Va=-kr 2  (24) 
+elde edilmiþolur. (21) ve (24) ifadelerinden Vateriminin sýnýrlandýrýlabilir bir fonksiyon olduðu görülebilir:Va .L.. Va’nýn sýnýrlý olmasýndan dolayýr,. fonksiyonlarý dolayýsý ile r de sýnýrlandýrýlabilir (kýsaca rt() muntazam olarak 
+sürekli bir fonksiyondur). Filtrelendirilmiþ hata fonksiyonunun sýnýrlý olmasýndan dolayý, pozisyon hatasýe ve pozisyon hatasý türevi e ifadeleri de sýnýrlýdýrlar. Ayrýca (24) ifadesinden r .L2  olduðu görülebilir. Standart sinyal izleme metodolojisi takip 
+
+E. Zergeroðlu vd. Kontrol Sistemlerinde Belirsizlikle Baþ Etme Yöntemleri: Lyapunov Tarzý Yaklaþýmlar 
+edilerek kapalý döngü sistemimizde bulunan bütün sinyaller sýnýrlandýrýlabilir (.L. olduðu ispatlanýr). Böylece Barbalat Lemma [13]’nýn direkt uygulamasýndan filtrelendirilmiþ hata deðerinin sýfýra gideceði ispatlanmýþ olur: lim t›.r =0  (3) ve (4) 
+ifadelerinden de pozisyon hatasýet() ile türevi 
+et()ifadelerinin de t sonsuza ýraksadýkça sýfýra yakýnsayacaklarý ispatlanmýþ olur. 
+
+
+3.2. Öðrenme Bazlý Denetim 
+Yukarýda da formülasyonunu sunduðumuz adaptif denetleyici sistem belirsizlikleri ile baþ etme yetilerini, (1) sistemi bilinmeyenlerini içeren f (xx,,.)  fonksiyonu, doðrusal olarak paramet­
+relerine ayrýlamadýðý durumlarda, verimli olarak gösteremez. Bu durumda sistemlerde f (xx.)
+,, 
+fonksiyonunu bölümlere ayýrmak yerine, bir bütün olarak "öðrenmeye" çalýþmak daha iyi sonuçlar verebilir. Öðrenme tabanlý denetleyiciler bu tarz bir yaklaþým baz alýnarak ortaya atýlmýþlardýr [15]. Ancak bu tip denetleyiciler sadece periyodik olarak ayný iþi tekrar etmesi gereken sistemler için kullanýlabilir. 
+Öðrenme bazlý kontrolör tasarýmýmýza, (6) ile ifade edilen filtrelendirilmiþ hatanýn türevi r ifadesinde (7) ve (8) ile verilen f (), denetleyici ileri besleme 
+ut 
+sinyalini yerine yazýp düzenleyerek elde edilen 
+r=f (,, )o  (25) 
+xx .-u 
+yeni r ifadesi ile baþlayalým. Bilinmeyen sistem bileþenlerini içeren f (xx.)  fonksiyonunun kapalý
+,, 
+döngü sistemi üzerindeki etkisini azaltabilmek amacý ile fd (t) fonksiyonunu 
+. 
+ (26) 
+()=f (,,
+ft xx .)
+d xxd ,
+= 
+
+xxd
+= 
+þeklinde tasarlayalým. Bu çalýþmada üzerinde durulan öðrenme bazlý kontrolörler için fd ()t fonksiyonunun 
+içinde yer alan xd ve xd  parametrelerinin bilinen 
+bir T periyoduna sahip periyodik fonksiyonlar olduklar varsayýlmaktadýr. Ýkinci varsayýmýmýz ise fd (t)  fonksiyonunun xd ve xd  parametreleri ile 
+aynýþekilde periyodik olduðudur. Kýsaca fd (t )=fd (t -T )  olduðu varsayýlmýþtýr4. Bilinmeyen 
+f (xx.)  fonksiyonundan t fonksiyonunu 
+,, fd ()
+fd ()t ’nin bilinen bir T periyodunu saðladýðýný varsaymak, ilk 
+bakýþta tasarlanacak kontrolör için bir zayýflýk olarak yorumlanabilse de, manyetik disk okuyucular, video ve audio cihazlarý, uydu verici cýhazlarý ve sürekli olarak ayný iþi tekrarlayan robot kollarý gibi bir çok mekanizma bu varsayýmý saðlamaktadýr. 
+çýkararak yaklaþým performans kriteri 
+f = f  - df   (27)  
+ile  tanýmlansýn.  Bu  tanýmdan  yararlanarak  (25)  
+denklemi yeniden düzenlenirse  
+r = f  +  df  ou-  (28)  
+
+ifadesi elde edilir. (28) ifadesinde belirtilen performans kriteri, genel birçok sistem için filtrelendirilmiþ hata parametreli bir fonksiyon olarak 
+ (29) 
+f 
+..()
+r 
+r 
+þeklinde üstten sýnýrlanabilir. (29) eþitsizliðinde tanýmlanan ()  fonksiyonu bilinen sýnýrlayýcý bir
+.r
+fonksiyon olarak tanýmlanmýþ olup (29) ile verilen eþitsizlik birçok mekanik, elektrik-elektronik sistemler için geçerlidir [16]. (28) ile (29) ifadeleri ve kararlýlýk analizinden yararlanarak, öðrenme tabanlýgeri besleme denetim ifadesini 
+ufˆ  (30) 
+o =kr ++.R 
+þeklinde tasarlayabiliriz. Yukarýdaki ifade de .R ; kararlýlýk analizi sýrasýnda ortaya çýkabilecek istenmeyen sinyallerin bastýrýlmasýnda kullanýlacak yardýmcý kontrol sinyalidir, f ()· fonksiyonumuzun 
+tahmini için kullanacaðýmýz öðrenme fonksiyonu 
+ˆˆ
+ft +Lf =sat(( -T )) Kr  (31) 
+biçiminde tasarlanmýþ olup KL öðrenme kazanç katsayýsý olarak tanýmlanabilir. 
+Açýklama 2: Denklem (31)’de kullanmýþ olduðumuz sat()· fonksiyonu (Þekil 1) sýnýrlayýcý bir fonksiyon 
+olarak tanýmlanmýþ olup, fˆ öðrenme fonksiyonun alacaðý deðerleri sýnýrlý kýlmak amacý ile kullanýlmaktadýr. 
+
+Þekil 1. sat(.) fonksiyonu 
+
+(25) denklemi ile verilen sistemimiz, filtrelendirilmiþhata ifadesi (27) ve (30) ile tasarlanan geri besleme ifadesi kullanýlarak yeniden düzenlenince, kapalýçevrim formülasyonumuz 
+ fˆ
+r =-kr +f +fd --.R  (32) 
+	
+
+. 
+þeklinde elde edilir. 
+(32) ila tanýmlanan . terimini ileriki bölümlerde sunacaðýmýz terimini ileriki bölümlerde sunacaðýmýz kararlýlýk analizine yardýmcý olmak amacý ile öðrenme tabanlý kontrolör için yaptýðýmýz varsayýmlarý da 
+kullanarak inceleyelim: Bunun için ilk olarak (31) tanýmýný. teriminde yerine koyarak 
+.=fd -fˆ  (33) ˆ
+-sat (( -T )) -L=fdft Kr 
+ifadesini elde ederek baþlýyoruz. (33) ifadesinde hem fd fonksiyonunun da T periyotlu periyodik fonksiyon olduðu hem de sat ()· fonksiyonu üst 
+sýnýrlayýcýsýný oluþturan . deðerinin sýnýrlý olarak tanýmlanmýþ olan fd fonksiyonunun alabileceði en yüksek deðerden daha büyük bir sabit olduðu 
+varsayýmlarýný da kullanarak 
+ˆ
+.=sat( fd (t -T )) -sat (( L
+ft -T )) -Kr  (34) 
+eþitliði elde edilebilir. Bu aþamada öðrenme bazlýkontrolörümüzün kararlýlýk analizi için aþaðýda verilen Teoremi sunabiliriz. 
+Teorem-3: 
+Sistem modeli (1) ile belirlenebilen sistem için (30) ile belirtilen geri besleme ifademizi, fˆ ifadesini de (31) denklemlerinde belirtildiði biçimde tasarlayýp, (30) ifadesinde yer alan .R ‘yi de, .R =Kn .rr , ki bu
+2 () 
+ifadede verilen Kn .\pozitif bir bastýrýcý kazanç katsayýsýdýr, þeklinde tasarladýðýmýzda; (3)’te tanýmlanan sistem hata sinyali zaman parametresi t sonsuza ýraksadýðýnda sýfýra yakýnsar. Yani sistem hatasý
+lim et() =0  (35) 
+t›.
+ifadesini saðlar. 
+Ýspat: 
+Teorem-3’ü ispatlayabilmek için pozitif tanýmlý skaler l ()
+Vt .\ fonksiyonunu 
+Vl =12 r2 + 2K 1 LtT-.t ..sat( f ( )) -sat fˆ . .. 2  (36) 
+d .( ()) d.
+þeklinde tanýmlayalým. Bu fonksiyonunun türevi alýnýp, (32)’de verilen filtrelenmiþ hata ifadesi ve Teorem 3’te tanýmlanan .R ifadeleri yerlerine 
+konularak 
+
+Vl =-kr 2 +rf t() +r.-Kn .2 (r )r2 1 2  (37) ˆ 
+2K .sat( fd ( )) -sat f t ..
++. t ( ()) 
+L 
+1 .ˆ .2 
+2KL . ((t -T )) -sat ft -T )) .
+-sat fd (( 
+ifadesi elde edilir. (37) ifadesi son satýrýnda yer alan bölüm için (34) ifadesini kullanarak kare alma iþlemini yapýp ortaya çýkan denklemi sadeleþtirerek 
+V=-kr 2 -1 Kr 2 +rf t() -K .2 rr2 . ˆ .2  (38) 
+l 2 Ln ()
+2K 1 L . t ( ()) .
++ sat( fd ( )) -sat f t 
+- 1 .ft()-fˆ ()t .2 
+2KL . d . 
+ifadesi elde edilebilir. Yukarýdaki eþitlikte f ()t ifadesi yerine (29)’da verilen üst sýnýrýný yerleþtirip denklemde yer alan diðer elemanlarla karelerini tamamlayacak þekilde birleþtirerek ve ayný zamanda 
+(38) ifadesinin ikinci satýrýnýn her zaman negatif olmasýndan da [17] yararlanarak Vl ifadesi için 
+2 
+ (39) 24Kn 
+Vl .-(k +KL - 1) 
+r 
+ile verilen üstel sýnýrý elde edebiliriz. Denklem (39) ile verilen eþitsizlikte bastýrýcý kontrol kazancý olarak seçilen Kn deðiþkeni yeterince büyük seçildiðinde, Vl 
+ifadesinin türevi için elde ettiðimiz üstel sýnýrý
+2 
+ (40) Vl.-ßr
+þeklinde daha da perçinleyebiliriz. Burada ß.\sýfýrdan büyük gerçel bir katsayýdýr. (36) ve (40) ifadelerinden l ().L. (sýnýrlandýrýlabilir 
+Vt bir fonksiyon) olduðundan Vl fonksiyonu içerisinde yer alan rt() de sýnýrlý olmak zorundadýr. Ayný zamanda 
+(40) ifadesinden rt()’nin karesinin integralinin de 
+sýnýrlandýrýlabilir bir fonksiyon olduðu gözlenebilir ( rt( ).L2 .L.). Denklem (36) ve rt() fonksiyo­
+nunun sýnýrlý olmasýndan dolayý belirsizliklerin tahminini içeren fˆ (t) ve .R ifadeleri de 
+sýnýrlandýrýlabilen birer fonksiyondurlar. Geri dönülüp (30)’a bakýldýðýnda kontrol denetim sinyalinin de sýnýrlý kaldýðý gözlenebilir. Son olarak (28), (29) ve 
+(30) ifadelerinden, rt()’nin türev ifadesi rt()’nin de 
+sýnýrlý olduðu, dolayýsý ile rt()’nin sürekli bir 
+fonksiyon olmasý gerektiði görülebilir. Bu bilgiler 
+
+E. Zergeroðlu vd. Kontrol Sistemlerinde Belirsizlikle Baþ Etme Yöntemleri: Lyapunov Tarzý Yaklaþýmlar 
+ýþýðýnda Barbalat Lemma [13]’nýn direkt uygulamasýndan, filtrelendirilmiþ hata deðerinin, dolayýsý ile et(), pozisyon hata sinyali ve türevi 
+ifadelerinin sýfýra yakýnsayacaðý ispatlanmýþ olur. Analizde dikkat çekici bir diðer nokta ise yine (36) ifadesinin sýnýrlý olmasýndan dolayý içerdiði integralin sonucunun zaman sonsuza ýraksarken sýfýra yakýnsamak zorunluluðunun oluþudur. Bu, tahmin fonksiyonumuz fˆ(t), zaman içinde, bilinmeyen 
+parametrelerden oluþan f(t) fonksiyonuna yakýnsýyor 
+demektir. Kýsacasý, öðrenme bazlý kontrolörün, hem hata sinyalinin kapalýdöngü sisteminde bulunan bütün sinyaller sýnýrlýlýklarýný korurken sýfýra yakýnsamasýhem de tahmin sinyalimizin sistem bilinmeyenlerini öðrenmesini saðladýðý sonucuna ulaþýlmýþ olur. 
+3.3. Yapay Sinir Aðlar ile Denetim 
+Yapay Sinir Aðlarý (YSA) ile gerçekleþtirilen uygulamalar, daha çok belirsizlik içermelerine karþýn, bu belirsizlikleri `yeterince’ öðrenmesine olanak saðlanýncaya kadar denetim altýnda tutulabilen sistemlerde kullanýlmaktadýr. Sunumumuzun bu bölümünde, Lyapunov türü yaklaþýmlar açýsýndan kavranmasý daha kolay olan, basit bir YSA uygulamasý seçilmiþtir [11]. Genel sistem denklemi 
+(1) biçiminde verilen sistem için Þekil 2’de genel hatlarý özetlenen, giriþ, gizli ve çýkýþ katmanlarý olmak üç katmanlý yapay bir sinir aðý kullanýlmasýnýn öngörüldüðünü varsayalým. 
+
+Þekil 2. YSA Modeli 
+Bu tip aðlarda giriþ deðerlerimiz xk.\, k={1,2,.., N1} 
+olmak üzere çýkýþ ifadesi 
+N2 N1 
+y=. w.. vx +..+..  (41) 
+..j ..jkk vj.w.j=1 ..k=1 ..
+þeklinde verilir. Burada, .()· ile aktivasyon fonksiyonu, vjk ile wj ifadeleriyle sýrasý ile giriþ-gizli katmalarý ile gizli-çýkýþ katmalarý arasýndaki aðýrlýklar elemanlarý, .vj ve .w terimleri ise besleme sinyallerini temsil edilmektedir. Bunlar, doðal sinir aðlarýnda yer alan sinaps baðlantýlarý vasýtasýyla gelen giriþ sinyallerinden farklý olarak hücreyi besleyen harici sinyallerin karþýlýðý olarak tanýmlanmýþtýr. Aðgiriþ deðerlerimiz x=[x xx ... x ]T þeklinde 
+012 N1 
+vektörel formda ifade edilip (giriþ vektöründe birinci terim x0 deðeri besleme sinyalinin, giriþ deðeri +1 sabit deðerinde olan, yeni bir sinaps olarak da yorumlanabilir) katmanlar arasýndaki aðýrlýk matrisleri de WT =..wj.. ve VT=..vjk.. þeklinde 
+formüle edilebilir. Bu vektörel formülasyon ýþýðýnda oluþturduðumuz yapay sinir aðýnýn çýkýþ ifadesini 
+y= WT., .=.(VTx)  (42) 
+þeklinde düzenleyebiliriz. Burada aktivasyon fonksiyonu ()  vektörel olarak 
+.·.\n 
+.() =1 nT n
+z [.(z) ... .(z)], z.\
+biçiminde düþünülmüþtür. Benzer olarak, anlatým bütünlüðü saðlayabilmemize yardýmcý olmak için, 
+(42) ile belirlenen aðýrlýk matrislerini birleþtirerek Z=..WT VT.. T þeklinde bir geniþletilmiþ matris ifade 
+edilebilir. (1) ile verilen ve sistem bilinmeyenlerini belirli bir zaman boyunca eðitilmiþ olan YSA’mýz çýkýþ sinyali vasýtasý ile modellemek için (42)’ü kullanýrsak f()x’i 
+() =WT.+.()  (43) 
+fx x 
+þeklinde tanýmlayabiliriz. (43)’te yer alan ()
+. x 
+fonksiyonu YSA’nýn güncellemeleri sonucu oluþan hatalar içeren hata fonksiyonu olarak tanýmlanmýþtýr. .()x fonksiyonunun deðeri YSA’daki aðýrlýklarýn ideal olmasý durumunda sýfýr olacaktýr. Bu durumda f()x fonksiyonunu YSA’nýn yaklaþým fonksiyonu olarak adlandýrabiliriz. YSA’na giriþ deðeri 
+. . .. .T  parametrelerine sýnýrlý olarak 
+eex xd
+x=. d xd .
+..seçilmiþlerdir. Bu bölümdeki amacýmýz geri yayýlým algoritmalarý kullanýlarak katmanlar arasýndaki aðýrlýklar matrisinin deðiþkenlerini ayarlayarak sistemimizin YSA denetimi altýnda kararlýlýðýnýsaðlamaktýr. YSA kararlýlýk analizinde daha önceki alt bölümlerde verildiði gibi takip edilmesi istenen sinyal 
+..
+ile ilk iki türevinin .Xd þeklinde bilinen 
+, 
+,
+xd 
+xd xd 
+pozitif bir Xd.\ eðeri ile sýnýrlandýrýlmýþ olduðunu varsayýyoruz. Bu varsayýma ek olarak bütün zaman aralýðýnda YSA’ya giriþ sinyali olarak verilen parametresinin 
+þeklinde sýnýrlý olmasý
+x.cX c 
+r
+1 d+2 
+da gereklidir; verilen cc.\ hesaplanabilir pozitif 
+1,2 sabit katsayýlar olup r.\ denklem (3)’te tanýmlanmýþtý. YSA’nýn eðitim aþamasýnda oluþan aðýrlýklar matrisini Uyarlamalý Denetim bölümünde verildiði gibi fˆ() =Wˆ T.(ˆ T
+
+x Vx)  (44) 
+þeklinde tanýmlayalým. (<44) tanýmýnda yer alan aðýlýk matrislerinin tahmin deðerleri kullanýlarak, ideal aðbaðlantý aðýrlýklarýna ait yaklaþým hatalarý, =Vˆ,
+VV -=Wˆ Z =-ˆ
+WW - ve ZZ  biçiminde oluþturulabilir. YSA modelimiz gizli katman çýkýþ yaklaþým hatasýný
+da giriþ deðeri x parametresine sýnýrlý olmak suretiyle aktivasyon fonksiyonunun gerçek deðeri .()· ile yakýnsamasý istenilen .ˆ()· arasýndaki hata deðeri olarak 
+=-=ˆ T ˆ T  (45) ....(V x) -.(V x) 
+tanýmlayabiliriz. Aktivasyon fonksiyonu .(VTx) 
+z
+üzerinde yoðunlaþýp, .?()ˆd. dz () tanýmlanana
+z 
+ 
+z=z 
+fonksiyonun Z deðiþkenine göre Taylor serisi açýlýmý
+.(VTx) =.(Vˆ Tx) +.?(Vˆ Tx)V x +O(VTx)2  (46) 
+biçiminde yazýlabilir. (46)’da yer alan ()2 terimi
+Oz
+yüksek katsayýlýtürevleri içermektedir. Bu ifadede 
+.(Vˆ Tx)  terimini (45) denklemini kullanarak 
+ 
+..=?(Vˆ Tx)V TxO(V Tx)2 =.ˆ?V Tx +O(VTx)2  (47) 
++ 
+biçiminde yeniden düzenleyelim. (47)’de yer alan O(VTx)2  ifadesi (46) ifadesi kullanýlarak 
+O(V Tx)2 =...(VTx) -.(Vˆ Tx)..-.?(Vˆ Tx)VTx  (48) 
+þeklinde yazýlabilir [11]. Bu bölümde ifade etmemiz gereken bir diðer nokta da, YSA’larda kullanýlan aktivasyon fonksiyonlarýnýn tanh, sigmoid, radial tabanlý fonksiyon içermekte olup sýnýrlandýrýlabil­meleridir. Bu sebeple Taylor serisi açýlýmýsonucundan ortaya çýkan ()2  ifadesini 
+Oz
+ (49) 
+O(V Tx)2 
+.+c34
+c X d 
+V 
++c5 
+V
+r 
+F F 
+þeklinde sýnýrlandýrýlabiliriz. (49) ifadede yer alan 3,,4 \ deðerlerini hesaplanabilen pozitif 
+ccc5 .
+sabit katsayýlar olarak tanýmlanmýþlardýr. Bu aþamada, kararlýlýk analizinden de faydalanarak, YSA bazlýdenetim ifademizi 
+o kr Wˆ T.(Vˆ Tx)
+u =++.
+Zˆ
+.()t =Kz (
++ZM )r  (50) 
+F 
+olarak tasarlayabiliriz. (50) ifadesinde kullanýlan .()t terimi, analizimiz sýrasýnda boy gösterecek istenmeyen terimleri bastýrabilmek amacý ile tasarlanmýþ olup Kz .\ pozitif bir kazanç terimi ve ZM .\ ise 
+.ZM eþitsizliðini saðlayan bir F 
+Zˆ 
+sýnýrlandýrma sabiti olarak tanýmlanmýþlardýr. (50) ifadeleri kullanýlarak filtrelendirilmiþ hata kapalýçevrim dinamiði 
+r =-+kr WT.(VTx) -Wˆ T.(Vˆ Tx) .. (51) 
++-
+biçiminde elde edilir. (51) ifadesinde WT.ˆ terimini ekleyip/çýkarýr, elde edilen ifadede Wˆ T. terimini de ekleyip/çýkarýr ve .(·) yerine (47) ifadesini 
+kullanarak, (52) ifadesini yeniden düzenleyerek 
+r=-+ T ˆ ˆ?ˆ T ˆ T ˆ?  T ..  (52) 
+kr W (.-.V x)+W .V x +-
+eþitliðini elde edebiliriz. Bu eþitlikte kullanýlan .()t terimi bozucu terimleri içeren bir fonksiyon olarak 
+.()t =W T.ˆ?VTx +WTO(VTx)2 +.  (53) 
+biçiminde tanýmlanmýþtýr. Bu terim  (54) 
+.()t 
+.+ 
+Z 
++d2 
+Zrd0 d1 
+F 
+F 
+ifadesiyle sýnýrlandýrýlabilir. (56)’da yer alan dd,,d .\olup pozitif hesaplanabilen katsayýlardýr.
+012 Yukarýda verilen bilgiler ýþýðýnda artýk Teorem-4’ü sunalým: 
+Teorem-4: 
+(1) 
+ile belirlenebilen sistem için denetim sinyali ut(), 
+
+(50)
+ ifadesinde belirtildiði biçiminde tasarlanýp, yapay sinir aðýmýz katman aðýrlýklarýnýn deðiþimleri ( .g ve .terimleri sýrasýyla .=Tg 0 ve
+
+
+ç g .>T
+.=.>0 olmak üzere pozitif tanýmlý tasarým
+çç matrisleri, .terimi ise .>0 pozitif bir kazanç katsayýsý olacak þekilde) 
+ˆ. =.g (ˆ -ˆ Vˆ x -.Wˆ )r  (55) 
+W ..? T 
+?TT
+Vˆ. =.ç (x(.ˆ Wˆ) -.Vˆ )r  (56) 
+olarak tasarlandýðýnda, sistemimiz filtrelendirilmiþhata deðeri rt()ve yapay sinir aðýnýn güncelleme 
+aðýrlýklarýWˆve Vˆdüzenli olarak boyu önceden belirtilebilen mutlak bir sýnýra yakýnsar. 
+Ýspat: 
+Teorem-4’ü ispatlayabilmek için pozitif tanýmlý skaler n ()\ fonksiyonunu 
+Vt .
+Vn =1 r2 +1 tr{W T .- g 1W }+1 tr{V T .ç -1V}  (57) 
+22 2 
+
+E. Zergeroðlu vd. Kontrol Sistemlerinde Belirsizlikle Baþ Etme Yöntemleri: Lyapunov Tarzý Yaklaþýmlar 
+biçiminde seçip, zamana karþý deðiþimini incelemek için (57) türetilip (55) ve (56) ifadelerini yerleþtirerek yeniden yazýlýrsa 
+Vn r {WW  }.  (58) 
+ =-k2 +tr  T( -W) r 
+trVV( -V) .r+(..-)r
++{ T } 
+ifadesi elde edilmiþ olur. Yukarýdaki ifadeyi .r terimi parantezine alarak matrisin izi ifadelerindeki parametreleri daha önceden tanýmladýðýmýz Z parametresine göre düzenlersek (58) denklemini 
+2 T
+ nkr +t{ ( - )}.rr..)  (59) V =-rZ ZZ +( -
+þeklinde sadeleþtirerek elde ederiz. Bu ifadede .()t terimi yerine (50)’i yerleþtirir ayný zamanda 
+2  özelliði kullanarak 
+{T( - )}trZ Z Z . ZZ 
+- 
+Z
+M FF 
+2
+V n.-kr 
++. 
+r Z 
+(ZM-
+Z
+F 
+F)  (60) -z(ˆ
+KZ 
++ZM)r2 +
+r
+. 
+F 
+fonksiyonu elde edilmiþ olur. (60) de geçen .()t terimini (54) da belirtilen üst sýnýrý kullanýlarak da 
+2
+V n.-kr 
++. 
+r Z 
+(Z - 
+Z
+M 
+)
+F F 
+2  (61) 
+Zˆ
+-Kz( +ZM)
+r 
+F 
+.
+rd. 0 +d1 Z 
+Z
+r
++ +d2
+F F
+. . 
+eþitsizliði elde edilecektir. Son olarak Kz>d2 eþitsizliðinden yararlanýlarak (61) ifadesi düzenlendiðinde 
+ (62) 
+V n.-ßr
+ifadesi elde edilecektir. (62)’de bulunan ß.\ terimi 
+ (63) 
+ß=kr
++. 
+Z Z 
+-ZM)-d0 -d1 
+Z
+(
+F F F 
+olarak tanýmlanmýþtýr. Böylece Vn terimi (62) ifadesinde bulunan ß terimi pozitif olduðu müddetçe daima negatif olacaktýr. Ayný zamanda ß ifadesini sadeleþtirebilmek amacý ile c3 =ZM+d . 1 olacak þekilde 
+yeni bir c3.\ kazanç katsayýsý tanýmlayýp düzenlersek 
+ß=kr
++. 
+Z Z 
+-c3 )-d0  (64) 
+F( F 
+c3 .2 c32 
+=kr
++... 
+Z
+- .-.-d0.
+F 2 .4 eþitliði elde edilir. (62)’nin ikinci satýrýna geçilirken bir üst satýrda yer alan ( 
+-c3 )  eriminin karesine 
+Z
+F tamamlanmýþtýr. (64) ifadesinden de görülebileceði gibi ß’nýn daima pozitif olmasý için 
+c3 
+>.(2 )2 +d0  (65) r 
+k 
+Veya 
+
+>c3 + 
+c32 +d0  (66) 
+Z
+F 24 . 
+gereklidir. Yani (65) veya (66) eþitsizliklerinin herhangi biri saðlandýðýmüddetçe (57) ile tanýmladýðýmýz Vn fonksiyonu azalacaktýr. Bu azalma 
+yukarýda belirtilen eþitsizlikler ihlal edilinceye kadar, yani 
+
+c3
+2
+.( )2 +d0 
+c3 c3 d0r
+. 2  veya 
+Z 
+.+ + 
+k 
+F 24 .
+mutlak sýnýrlarýna gelininceye kadar devam edecektir. Bu yüzden de sýnýrlý bir fonksiyon olup içerdiði rt(), W ve V.L.  standart sinyal izleme metodolojisi 
+takip edilerek kapalýdöngü sistemimizdeki bütün sinyallerin sýnýrlandýrýlabilir (.L.) olduðu ispatlanýr. Ayrýca (52), (55) ve (56) ifadelerinde belirtilen 
+.. 
+rt(), Wˆ ve Vˆ terimlerinin de sýnýrlandýrýlabilir 
+olduklarý görülür. Türevleri sýnýrlandýrabildiði için de rt(), Wˆ ve Vˆ terimleri düzenli süreklidir. Böylece 
+yapay sinir aðý katman aðýrlýklarýný barýndýran  ile 
+Z
+F 
+ve izleme hatasýný içeren rt() terimlerinin düzenli 
+sürekli olarak boyutlarý ZM.\ sýnýrlandýrma katsayýsý ve k.\ denetim kazancý kullanýlarak ayarlanabilen mutlak bir sýnýra yakýnsadýðý ispat edilmiþ olur5. 
+
+
+3.4. Gürbüz Denetleyici 
+Önceki bölümlerde sunulan denetleyiciler, sistemde bulunan belirsizliklerle baþ etmek için genel olarak bu belirsizliklerin zaman içinde etkilerini yok edecek þekilde ileri besleme terimlerini ayarlama esasýna dayanýrken, gürbüz (robust) denetleyicilerin belirsizlikle baþ etme yöntemleri farklýlýk gösterir. Gürbüz denetleyicilerde belirsizlikler için kullanýlan tahmin deðerleri sabit olup, tam olarak bilinemeyen sistem parametreleri için en makul olduðu düþünülen 
+5Her ne kadar analizimiz sonucunda rt() ve Zˆ sinyallerinin mutlak bir sýnýra yakýnsayacaðý ispatlanmýþolsada bu sýnýra sokulmalarýiçin geçen zaman üzerinde teorik olarak bir denetime sahip olabileceðimizi ispatlanamadý. 
+
+bir deðer seçilip denetleyicinin ileri besleme terimi düzenlenir. Daha sonra denetleyicinin geri besleme bölümü, tahmin ile gerçek deðer arasýnda oluþacak farký, sisteme dýþarýdan etki eden gürültüymüþçesine davranýp ve bu bozucu etmene karþý gürbüz olacak þekilde tasarlanýr. Bu sebeple sistem belirsizliklerinin sabit tahmin deðerleri, fˆ ( ,,ˆ)  ile gerçek deðerleri 
+xx .
+f ( ,, ) arasýndaki fark olarak tanýmlanan 
+xx .
+f (xx,,.)’nin 
+fxx ,,.
+<.( ,, )  (67) 
+xx .
+ () 
+ifadesindeki eþitsizliði saðlamasý gürbüz denetleyicilerin en önemli öngörüsüdür. (67) ifadesinde tanýmlanan .()· fonksiyonu daha önceki 
+tanýmlarýnda olduðu gibi, belirlenebilen bir sýnýrlama fonksiyonu olarak tanýmlanmýþtýr. 
+Çalýþmamýzda öncelikle sýklýkla kullanýlan yüksek frekans ve yüksek kazanç teknikli gürbüz denetleyicileri daha sonra ise tanýtýmý yeni sayýlabilecek [18] yumuþak bir gürbüz denetleyiciyi inceleyeceðiz. 
+
+3.4.1. Yüksek frekans 
+Yüksek frekanslý gürbüz denetleyici için (7)’de tanýmlanan denetimin geri besleme bölümünü 
+uo =kr +fˆ (xx ,,.ˆ)+vR  (68) 
+biçiminde tasarlayarak baþlayalým. (68) ifadesinde de yer alan fˆ ( ,,ˆ)  sistem parametrelerinin en uygun 
+xx .
+ancak sabit deðerli tahminlerin, vR .\ fonksiyonu ise 
+.2r  (69) 
+vR =
+. 
+r 
++. 
+þeklinde tanýmlanmýþ olup içerdiði .>0  kabul edilebilir kabul edilebilir hata performansý ile sýfýr arasýnda yer alan küçük bir deðer olarak kullanýlýr. (6), (7) ve (8) ifadesinde ile oluþturulan filtrelenmiþhata dinamiðini (68) ve (69)’da tanýmlanan gürbüz denetleyiciyi yerleþtirerek, filtrelenmiþ hata dinamiðini 
+r=-kr -
+.2rf (xx .)  (70) 
++ ,,
+. 
+r 
++. 
+biçiminde düzenleyebiliriz. Bu ifadeyi yapacaðýmýz kararlýk analizinde temel olarak kullanacaðýz. 
+Teorem-5: 
+Sistem denklemi (1) ile verilen dentim sistemi için, geri besleme ifademiz (68) ve (69)’da belirtildiði biçimde gürbüz denetleyici olarak tasarlanýrsa (3) ile tanýmlanan filtrelendirilmiþ hata deðeri (dolayýsýsistem ile takip etme hatasý) 
+rt() . 
+A +Be -2kt t [0, .)
+
+.. 
+eþitsizliðini saðlayarak, A =.ve Br(0) 2 -. olacak 
+= 
+k 
+k þekilde üstel bir zarf eþliðinde düzenli olarak boyu ayarlanabilen mutlak bir sýnýra yakýnsar. 
+Ýspat: 
+Teorem 5’i ispatlamak için pozitif tanýmlý skaler bir r ()
+Vt .\ fonksiyonunu, 
+Vr=1 r2  (71) 2 
+þeklinde tanýmlayalým. Bu Vr zaman içindeki deðiþimini fonksiyonunun türevini alarak 
+V r =rr  (72) 
+biçiminde elde ederiz. (72) ifadesinde (70) ile verilen filtrelendirilmiþ hatanýn türev deðerini yerine yazar ve (67)’de tanýmlanan sýnýrlayýcý fonksiyonu da kullanarak Vr ifadesini 
+22
+r .  (73) 
+Vr .-kr 2 +r 
+.- 
+r 
+.+. 
+þeklinde üstten sýnýrlayabiliriz. Bu ifadede yer alan son iki terimi yeniden düzenleyerek 
+r 
+.. 
+.  (74) . 
+Vr .-kr 2 +... 
+r 
+.+.... 
+biçimindeki ifadeyi de elde edebiliriz. ..\ teriminin küçük ama pozitif bir deðer olduðu göz önüne alýnýnca (74) ifadesi 
+Vr.-kr 2 +.  (75) 
+þeklinde yeniden düzenlenebilir. (71) ve (74) ifadelerinden yaralanýlarak Vr fonksiyonu 
+Vr .-2kV +. (76) 
+biçiminde elde edilmiþolur. (76)’da verilen diferansiyel denklemin direkt çözümü 
+Vt() .V (0) e-.t +...1 e-.t .., .2k  (77) 
+rr .- 
+olarak elde edilir. (71) ifadesinde verilen Lypunov 
+
+E. Zergeroðlu vd. Kontrol Sistemlerinde Belirsizlikle Baþ Etme Yöntemleri: Lyapunov Tarzý Yaklaþýmlar 
+aday fonksiyonumuzdan V (0) =1 r2(0)  yargýsý oradan 
+2 
+da (77) ifadesi kullanýlarak 
+rt() .r (0)exp -.t +.1-exp -.t .12 12 { }.. { }. (78) 
+22 . 
+elde edilebilir. (78) denklemi ile Teorem-5 ifadesinde vermiþ olduðumuz 
+
+. 
+A +Be-2kt üst sýnýrýn
+rt() 
+
+geçerli olduðu, filtrelenmiþ hata formülasyonunun herhangi bir baþlangýç deðeri için üstel (ekponansiyel) bir zarf eþliðinde düzenli olarak boyu 
+A olarak belirlenebilen ve . ve k deðerleri kullanýlarak ayarlanabilen mutlak bir sýnýrýn içine yakýnsayacaðýgösterilmiþ olur. 
+3.4.2. Yüksek kazanç 
+Yüksek kazanç yöntemi kullanan gürbüz denetleyicilerde (68) ile tanýmlanan geri besleme deðeri kullanýlýr, ancak (69) ile tanýmlanan vR yüksek 
+kazançlý gürbüz denetleyiciler için 
+r.2  (79) 
+vR =
+. 
+þeklinde tasarlanýr. vR terimi bu biçimde tanýmlandýðýnda (70)’de elde edilen filtrelendirilmiþhata fonksiyonunun türev ifadesi 
+r=-kr -.2r + f (,,.) (80) 
+xx 
+. 
+þeklini alýr. Bu durumda Teorem-5’ten de yararlanarak karalýlýk analizimizi aþaðýda verildiði biçimde yapabiliriz. 
+Teorem-6: 
+Teorem 5’te verilen sonuç, gürbüz denetleyici geri besleme teriminde yer alan vR fonksiyonu (79) biçiminde seçildiði zamanda geçerlidir. 
+Ýspat: 
+Teorem-6’nýn ispatý için pozitif tanýmlý skaler, r ()1
+Vt .\, fonksiyonunu, 
+Vr=1 r2  (81) 2 
+þeklinde tanýmlayýp, türevini (80) ýþýðýnda incelediðimizde 
+22 Vr .-kr 2 + 
+.-r .  (82) .
+r 
+ifadesini elde edebiliriz. Daha önceki analizimize benzer þekilde (82)’i 
+. 
+r 
+.. 
+.  (83) . .. 
+Vr .-kr 2 + r 
+..1- 
+biçiminde sadeleþtirmek de mümkündür. Þimdi (83)’te yer alan köþeli parantezin içindeki ifadeler göz önüne alýp bu ifade için geçerli iki ayrý koþulu ayrýayrý inceleyelim: 
+Durum-1: 
+>. ise (3) ifadesi direkt olarak 
+. r 
+Vr.-kr 2  (84) 
+halinde yazýlabilir. (81) ve (84) ifadelerinde de r ()
+Vt 
+teriminin, dolayýsý ile filtrelenmiþ hata deðerinin üstel olarak sýfýra yakýnsayacaðý görülebilir. 
+Durum-2: 
+.. ise bu direkt 0(1 .r ) .1
+. r 
+<-. 
+ifadesinin doðru olmasý gerektiðini gösterir. Bundan yararlanarak da (83)’ü 
+V.-kr 2 +.  (85) 
+biçiminde sadeleþtirebiliriz. (84)’de ulaþýlan ifade ile 
+(75) ifadesi birbirlerinin ayný olduðu için Teorem­5’de kullanýlan ispat burada da geçerlidir. Yani rt() 
+üstel olarak boyu ayarlanabilen bir mutlak sýnýra düzenli olarak yakýnsar. Durum-1 ve Durum-2’nin ortak kümeleri Teorem-5’de verilen ifade ile birebir örtüþmektedir. Böylece Teorem-6’nýn ispatý da saðlanmýþtýr. 
+3.4.3. Yumuþak gürbüz denetleyici 
+Yukarýda verilen iki örnekten de (yüksek frekans ve kazançlý gürbüz denetleyiciler) görülebileceði üzere gürbüz denetleyiciler her türlü sistem belirsizlikleri ile baþ edebilme yetisine sahiptirler, ancak ulaþýlmak istenen performans arttýrýldýkça (. deðeri küçültüldükçe) sisteme uygulanan denetim sinyali yüksek salýnýmlar içermeye baþlar. Bu yüksek salýnýmlar sonucu çatýrtý olarak adlandýrýlan durumla da karþýlaþýlabilir. Hatta denetim altýndaki sistemin hareketlendiricilerine zarar verme ihtimali ile bile karþýlaþabiliriz. Bu hususlarla uygulama sýrasýnda baþa çýkma yöntemleri literatürde sunulmuþ olmakla birlikte birçoðu kararlýlýk analizi dýþýna, mühendislik tecrübeleri sonucu elde edilmiþtir. Çalýþmamýzýn bu bölümünde diðerlerine göre ‘yumuþak’ sayýlabilen gürbüz bir denetleyiciyi inceleyeceðiz. Analizimize 
+(3) ile tanýmlanmýþ olan filtrelenmiþ hata performansýsinyalini kullanarak geliþtirilmiþ olan filtrelenmiþ yeni bir hata endeksi olan s .\ terimini 
+s =rr (86) 
++
+þeklinde tanýmlayarak baþlýyoruz. (86) ifadesi, hata ve hatanýn türevi ifadeleri kullanýlarak ayný zamanda 
+
+.. 
+s =+++e (.1) e.e (87) 
+biçiminde de düzenlenebilir. Yeni tanýttýðýmýz s ()t ’nin denetim sistemi dinamiði altýnda zamana 
+göre deðiþimi de 
+...	.. 
+s=-+·xud f() (.1) e .e (88) 
++++ 
+ifadesi ile elde edilir. (88) denklemine filtrelendirilmiþhata deðeri toplanýp çýkartýlarak 
+.. 
+(, ,,.) --ru (89) 
+s=Nxxx 
+ifadesini elde ederiz. (89)’da kullanýlan yardýmcý
+.. 
+N (xxx,,,. sinyali 
+) 
+.. ... .. 
+	 (90) 
+(,,,.) xd f() ++++.1) e .
+Nxxx +·( er 
+biçiminde tanýmlanmýþ olup, sinyalinde yer alan sistem durumlarýnýn yerlerine istenilen sistem durumlarý yerleþtirilerek oluþturulan Nd sinyali de 
+(89)’a eklenip çýkartýlarak 
+s=--+-ruN Nd +Nd (91) 
+denklemi elde edilebilir. (91)’de kullanýlan Nd fonksiyonunu 
+.... .fx(, x,.)
+Nd =+xdddxd  (92) .xd 
+olarak da ifade edebiliriz. Bilinmesi gerekli bir husus da xd .C4 olacak þekilde düzenlendiðinde Nd 
+fonksiyonu ile türevi için d , ..  olduðudur. 
+NNd L
+Sistem durumlarýný ihtiva eden N (·) ile istenilen 
+durumlar ihtiva eden Nd fonksiyonlar arasýnda fark da 
+. 
+o
+NN=-Nd (93) 
+olarak tanýmlanmýþtýr. Burada gürbüz denetimimizin 
+öngörüsü No fonksiyonunu, =. sT  olmak üzere 
+zr
+[]
+ (94) No ..()
+z z 
+þeklinde üstten sýnýrlanabilir olmasýdýr ki bu öngörü bilinen bir çok sistem için geçerlidir. (91) ifadesini (93)’ü kullanarak yeniden düzenleyelim: 
+s=--+Nd o	 (95) 
+ru+N 
+(95)’da yer alan denetleyici sinyalinin türev deðerini u=(ks 1) s ßsgn( )  (96) 
+++ r 
+ß>0  bir kazanç katsayýsý olacak þekilde tasarlarsak yeni tanýmladýðýmýz filtrelendirilmiþ hata deðerinin kapalý çevrim dinamik modelini 
+s =(ks 1) s ßsgn( ) +Nd -+No-+-rr  (97) 
+þeklinde elde ederiz. Bu hesaplamalar ýþýðýnda Teorem-7’yi sunalým. 
+Teorem-7: 
+Sistem modeli (1) ile belirlenebilen sistem için denetim sinyalinin türevi, (96) biçiminde tanýmlanýr ve bu ifadede yer alan ßkazanç katsayýsý
+ß> 
+olacak þekilde seçilirse; (86)’da tanýmlanan sistemin filtrelendirilmiþ hata endeksi ve 
+Nd ()t 
++
+Nd ()t 
+(3) ile tanýmlanan filtrelenmiþ hata deðerleri zaman t sonsuza ýraksadýðýnda sýfýra yakýnsar. Yani sistem hatasý
+lim {st(), rt () }=0 (98) 
+t›.
+ifadesini saðlamýþ olur. 
+Ýspat: 
+Teorem-7’yi ispatlayabilmek için pozitif tanýmlýskaler PI ()\ fonksiyonunu 
+Vt .
+VPI =1 r2 +1 s2 +P	 (99) 
+22 
+þeklinde tanýmlayalým. Bu fonksiyonda P .. .tL() ve P ’nin içinde yer alan
+=-0 ..dt0
+L =. ( -ßsgn( ))  biçiminde tanýmlanmýþ olup 
+sNd r 
+aþaðýdaki açýklama ile detaylandýrýldýðý üzere P .0’dýr. 
+Açýklama: Yukarda verilen P .0 yargýsýnýkanýtlamak için öncelikle 
+t 
+.L() d .
+.. ß
+rt () -rt () -N ()
+00 dt0
+	
+
+
+t0	. 
+ifadesinin doðruluðunu ispatlayalým. Verilen ifadenin bilinen deðerleri yerlerine yazýlarak integral t0 -t sýnýr deðerlerinde hesaplanýrsa 
+
+E. Zergeroðlu vd. Kontrol Sistemlerinde Belirsizlikle Baþ Etme Yöntemleri: Lyapunov Tarzý Yaklaþýmlar 
+tt 
+.L() d =.( d -ßsgn( )) d
+.. rN r . 
+t0 t0 
+. t .rd .-. t .r ßsgn( ) 
++ Nd rd . 
+.. ..
+t0 t0 
+eþitliði elde edilir. Bu ifadenin sondan bir önceki integral teriminde görüleceði üzere kýsmi integral iþlemi uygulanmýþtýr. Bu ifadede Nd terimi yerine 
+(92)’de tanýmlanan eþiti yazýlýr ve düzenlenirse 
+tt 
+.L()d =.( d -ßsgn( )) d
+.. rN r . 
+t0 t0 
+t 
+tt .Nd
+-ß 
+r()
+. 
++r() .N ()
+d . 
+t0 -.r .. d. 
+t0 t0 
+eþitliði elde edilir. Bu eþitlikte integrali alýnabilen terimlerin integrali alýnýp sýnýr deðerleri yazýldýðýnda 
+. tL()d =. t ( d -.N . d . (). -ßsgn( )) d
+.. rN r . 
+t0 t0 
+-
+() d ()t -r(0) Nd (0) -ß(
++rtN rt() rt0
+() ) 
+ifadesi elde edilir. Bir basamak daha ilerlenip 
+t 
+.L() eriminin üstel sýnýrý hesaplandýðýnda
+. d. 
+t0 
+tt 
+.Nd ().-ß)
+.L().d...
+r()
+. 
+.( Nd ()
+. 
++ 
+d. 
+..
+t0 t0 
++
+rt() 
+( 
+Nd () t 
+-ß) 
++ß 
+rt() 
+-r(0). Nd (0) 
+0 
+ifadesine ulaþýlýr. Burada ßterimi Teorem-7’de seçildiði üzere 
+ß. 
+Nd ()t 
++ 
+Nd ()t 
+biçiminde tanýmlandýðýnda 
+t 
+.L()d .ß
+..
+rt () -rt () -N () t
+0 0 d
+
+
+	
+t0 .
+0 
+ifadesini elde ederiz. Bu ifadeden de P .0 yargýsýnýn doðru olduðu direkt olarak görülmektedir. 
+Bu açýklamadan sonra Teoremimizin ispatýna devam edebiliriz. (99) ile tanýmlanan fonksiyonun zaman içinde deðiþimi zamana göre türevi alýnarak 
+( -r) +s -ks +1)  (100) VPI =rs (( s -r 
+o
+NNd -ßsgn( )) r
+++-L 
+þeklinde bulunur. (100) ifadesinde, Teorem-7’de tanýmlanan L deðeri yazýlarak yeniden düzenleme yapýlýrsa 
+VPI =-rs r2 -(ks +1) s2 -rs +sN o  (101) 
++sN( d -ßsgn( )) r -L 
+eþitliði elde edilir. (101), birbirini yok eden terimler ortadan kaldýrýlarak yeniden düzenlendiðinde VPI =-r2 -(ks +1) s2 +sN o  (102) þeklinde sadeleþtirilebilir. No teriminin yerine (94)’de 
+tanýmlanan üstel sýnýrý kullanýlarak (102) VPI .-r2 -(ks +1) s2 + 
+ (103) biçimde sýnýrlanabilir. Sýnýrlama iþleminin devamýnda 
+s 
+.( 
+z 
+) 
+z 
+2 . 2 
+.  (104) 
+z s 
+.()
+z 
+z 
+s
++
+VPI .-
+-ks
+. . 
+eþitliði elde edilir. ks terimi ks >14 .2() þeklinde 
+z 
+tasarlandýðýnda (101)’de verilen üstel sýnýr .2())
+z 
+2 
+ (105) 4ks 
+þeklinde yeniden ifade edilebilir ve bu ifade 
+VPI .--(1 
+z 
+z
+VPI .-.
+z 
+2, .=1-.2(), ..\+  (106) 
+4ks 
+olarak da yazýlabilir. (99) ile (106)’dan görülebileceði üzere ,L2 .L.  olmaktadýr. r ve s’nin sýnýrlanabilir 
+rs .olmasý ve (86)’da verilen s’nin tanýmýndan r.L.olduðu gözlenebilir; yani rt() düzenli olarak sürekli 
+bir fonksiyondur. Barbalat Lemma’nýn direkt uygulamasýndan lim t›.rt() =0  yargýsýnýn doðruluðu ispatlanmýþ olur. Filtrelendirilmiþ hatanýn sýfýra yakýnsamasý hatanýn (3) ifadesi ve ayný zamanda da hata deðerinin türevinin de sýfýra yakýnsayacaðýnýgösterir. Standart sinyal izleme yöntemleri ile s.L.
+olduðu ve dolayýsý ile lim t›.st() =0  de ispatlanýr. Böylece teoremimizde vermiþ olduðumuz savýispatlamýþ olduk. Geri dönüp denetim sinyali ifadesinin türevi (96)’nýn integral ifadesini alýp sisteme uygulanacak gerçek denetimi hesaplarsak 
+t 
+u srt sr . rd
+=(k +1) () -(k +1) (0) +((ks +1) r +ßsgn( ) ).
+0 
+ifadesi elde ederiz. Dikkatinizi bu ifadeye çekip analizimizi filtrelenmiþ hata olan rt() yerine izleme hatasý olan et() üzerine kurulduðunda ilk terim 
+
+denetleyicimizin orantýlý terimi, integral içinde yer alan ikinci terim ise integral kazancýný temsil edebileceði görülebilir. Kýsaca bu yeni gürbüz denetleyici model bazlý bir çeþit PI denetleyici olarak da yorumlanabilir. 
+4.	SONUÇLARIN ÝRDELENMESÝ
+Çalýþmamýzda incelediðimiz denetleyicilerin performanslarýný ve zayýflýklarýný gösteren Tablo 1 aþaðýda verilmiþtir. 
+Tablo 1. Denetleyicilerin performanslarýve zayýflýklarý
+Baþedebildiði Belirsizlik Tipleri  KararlýlýkTipi  
+Tam Bilinen M odel Bazlý  - EK  
+Uyarlamalý  Doðrusal Parametrelerine Ayrýlabilir  AK  
+Öðrenme Tabanlý Referans Sinyali Periyodik  AK  
+Yapay Sinir Aðý KýsmýDenetim Altýndaki  MSY  
+Gürbüz Yüksek Frekanslý  Her Tür  MSY  
+Gürbüz Yüksek kazançlý  Her Tür  MSY  
+Gürbüz Yumuþak  Türevlenebilir  AK  
+
+EK: Ekponansiyel Olarak Kararlý, AK: Asimtotik Olarak Kararlý, MYS: Mutlak Sýnýra Yakýnsar 
+Yukarýdaki tabloda özetlendiði gibi, eðer sistem modelini tam olarak biliyorsak ve bu modelde belirsizlikler yok ise, en iyi yaklaþým tam bilinen denetleyici kullanmaktýr. Bu denetleyici Bölüm 2’de gösterildiði üzere hatayý üstel bir zarf içinde sýfýra götürür. Uyarlamalý denetim ise belirsizlikler içeren sistem modelinin parametrelerinin lineer olarak ayrýlabilir olduðu durumlarda kullanýlýr. Uyarlamalýdenetim sistemi rahatsýz edici etkileri bulundurmamaktadýr; bundan dolayý hata performansýiyi sonuç verir. Ancak analiz sonucunda sistem parametrelerini tam olarak tanýyabildiðini gösteremeyiz. Buna raðmen hata ve türevini asimptotik olarak sýfýra götürdüðü Bölüm 3.1’de ispatlanmýþtýr. Öðrenme tabanlý denetleyicide ise belirsizlikleri içeren modelimiz lineer olarak parametrelerine ayrýlamýyor ancak referans sinyalimiz periyodik olarak seçilmiþse kullanýlýr ve takip etme hatasýný uygulama denetleyici gibi asimptotik olarak sýfýra götürür. Uygulamalý denetleyiciye göre üstünlüðü sistem belirsizliklerini bir bütün olarak öðrenebilmesidir. Yapay sinir aðlarý ile denetimde ise daha çok belirsizlik içermelerine karþýn öngörülen YSA’nýn bu belirsizlikleri ‘yeterince’ öðrenmesine olanak saðlayýncaya kadar denetim altýnda tutulabilen sistemlerde kullanýlmaktadýr. Bu denetim kullanýldýðýnda denetim sonucunda takip etme hatasýdaha önceden belirlenebilen, mutlak bir sýnýr içine götürür. Özellikle kontrol altýnda tutulabilen ve performans artýrmasý gerekli olan sistemlerde kullanýlmasý salýk verilir. Gürbüz denetleyiciler parametreleri zaman içinde deðiþenler dahil her türlü belirsizlikle baþa çýkabilirler. Gürbüz denetleyicilerde belirsizlikler için kullanýlan tahmin deðerleri sabit olup, tam olarak bilinemeyen sistem parametreleri için en akýlcýl deðerler seçilip denetleyicinin ileri besleme terimi düzenlenir. Daha sonra denetleyicinin geri besleme bölümü, tahmin ile gerçek deðer arasýnda oluþacak farký, sisteme dýþarýdan etki eden gürültüymüþçesine davranýp ve bu bozucu etmene karþý gürbüz olacak þekilde tasarlanýr. Gürbüz yüksek frekans ve yüksek kazanç modelleri sistem takip etme hatasýnýüstel bir zarf içerisinde mutlak bir sýnýr içine götürür. Ancak seçilebilen bu mutlak sýnýr çok küçük ise sisteme uygulanan gürbüz denetim sinyali yüksek salýnýmlar içerip çatýrtýya yol açabilir. Bu durumlarda ise Bölüm 3.4.3’te tanýtýlan yumuþak gürbüz denetleyicilerin kullanýlmasý daha uygun olabilir. 
+KAYNAKLAR 
+1.	Maxwell, J. C., “On Governors”, Proc. Royal Soc. London, Vol. 16, 270-283, 1868. 
+2.	Routh, E. J., A Treatise on the Stability of a Given State of Motion, London: Macmillan & Co., 1877. 
+3.	
+Vishnegradsky, I. A., On Controllers of Direct Action, Izv. SPB Technology Inst., 1877. 
+
+4.	
+Lewis, F. L., Applied Optimal Control and Estimation, Prentice-Hall, 1992. 
+
+5.	
+Hurtwitz, A., “On the Conditions under Which an Equation Has Only Roots with Negative Real Parts”, Mathematics Annalen, Vol. 46, 273-284, 1895. 
+
+6.	
+Lyapunov, M. A. “Problémé général de la stabibilité du movement”, Ann. Fac. Sci. Toulouse, Vol. 9, 2003-474, 1907. (Orijinal yayýn Rusça olarak 1892’de Comm.Soc. Math. Kharkow da ve daha sonra Ann.Math. Studies, Vol. 17, Princeton University Press, Princeton, N.J. 1949’da basýlmýþtýr.) 
+
+7.	
+Sandberg, I. W., “A Frequency-Domain Condition for the Stability of Feedback Systems Containing a Single Time-Varying Nonlinear Element”, Bell Syst. Tech. J., Vol. 43, No.4, 1601-1608, 1964. 
+
+8.	
+Zames, G., “On the Input-Output Stability of Time-Varying Nonlinear Feedback Systems, Part II: Conditions Involving Circles in the Frequency Plane and Sector Nonlineraties”, IEEE Trans. Automatic Control, Vol.AC-11, No.3, 465-476, 1966. 
+
+9.	
+Desoer, C.A., “A Generalization of the Poopov Criterion”, IEEE Trans. Autom. Control, Vol. AC-10, No.2, 182-185, 1965. 
+
+10. 
+Popov, V. M., “Absolute Stability of Nonlinear Systems of Automatic Control”, Automat. Remote Control, Vol. 22, No.8, 857-875, 1961. 
+
+11. 
+Yesildirek, A., Lewis, F. L., “Feedback Linearization Using Neural Network”, Automatica, Vol. 31, No.11, 1659-1664, 1995. 
+
+12. 
+de Queiroz, M. S., Dawson, D. M., Nagarkatti, S. ve Zhang, F., Lyapunov-Based Control of 
+
+
+
+E. Zergeroðlu vd. Kontrol Sistemlerinde Belirsizlikle Baþ Etme Yöntemleri: Lyapunov Tarzý Yaklaþýmlar 
+Mechanical Systems, ISBN 0-8176-4086-X, Boston Birkhäuser, 2000. 
+13.Krstic, M., Kanellakopoulos, I., ve Kokotovic, P. , Nonlinear and Adaptive Control Design, New York, NY: Willey Interscience, 1995. 
+14. 
+Slotine, J. J. and Li, W.Applied Nonlinear Control, Englewood Cliff, NJ: Prentice Hall, 1991. 
+
+15. 
+Arimoto, S., Kawamura, S. and Miyazaki, F., “Bettering Operation of Robots by Learning”, J. Robot. Syst., Vol. 1, No.2, 123-140, 1984. 
+
+16. 
+Lewis, F., Abdallah,C., ve Dawson, D. M. ,Control of Robot Manipulators, Newyork: MacMillan Publishing Co., 1993. 
+
+
+17. Dixon, W. E., Zergeroðlu, E., Dawson, D. M. ve Costic, B., “Repetitive Learning Control: A Lyapunov-Based Approach”, IEEE Trans. on Systems, Man, and Cybernetics-Part B: Cybernetics, Vol. 32, No.4, 2002. 
+18. Xian, B., Queiroz, M. S. ve Dawson, D. M., A Continuous Control Mechanism for Uncertain Nonlinear Systems, Optimal Control, Stabilization and Nonsmooth Analysis, Lecture Notes in Control and Information Sciences, Heidelberg, Almanya: Springer-Verlag, Basým Aþamasýnda, 2004. 
+
+
+
+
+
+

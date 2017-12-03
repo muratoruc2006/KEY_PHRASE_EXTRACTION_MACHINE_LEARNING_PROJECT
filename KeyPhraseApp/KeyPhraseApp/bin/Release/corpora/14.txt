@@ -1,0 +1,196 @@
+ANKARA’DA HIZLI VE HAFÝF RAYLI ULAÞIM SÝSTEMLERÝNÝN NEDEN OLDUÐU ÇEVRESEL GÜRÜLTÜNÜN MODELLENMESÝ
+Remzi TOPRAK ve Nizami AKTÜRK*
+Ankara Metrosu Ýþletme ve Bakým Merkezi, 16. Cadde, Macunköy, Ankara, remzitoprak@engineer.com
+
+* Makina Mühendisliði Bölümü, Mühendislik Mimarlýk Fakültesi, Gazi Üniversitesi, Maltepe, Ankara, 
+nakturk@gazi.edu.tr 
+
+(Geliþ/Received: 18.01.2005; Kabul/Accepted: 08.02.2006) 
+
+ÖZET 
+Ankara’daki raylý ulaþým sistemlerinin neden olduðu çevresel gürültü modellemesi, Hýzlý Raylý Ulaþým Sistemi ve Hafif Raylý Ulaþým Sistemi için ticari bir yazýlým olan RNM (Railway Noise Model–Demiryolu Gürültü Modeli) yardýmýyla yapýlmýþtýr. Modellemede bu sistemlere ait veriler gerçeðe yakýn olarak kullanýlmýþtýr. HýzlýRaylý Ulaþým Sisteminin üç ayrý hat bölümü için, Hafif Raylý Ulaþým Sisteminin ise hattýn bir bölümü için gündüz-gece gürültü düzeyleri tespit edilmiþtir. Modelleme sonucunda elde edilen sonuçlar ile bu iki sistem için çevresel gürültünün tespiti için yapýlan ölçümlerden elde edilen sonuçlarýn birbirlerine yakýn deðerlerde olduklarý ve bu uyuþmanýn Hýzlý Raylý Ulaþým Sistemi için % 96,6 ve Hafif Raylý Ulaþým Sistemi için % 91,8 oranýnda olduðu belirlenmiþtir. Ülkemizdeki gürültü ile ilgili mevcut yönetmelikte raylý ulaþým sistemlerinde çevre için gürültü üst sýnýr deðerinin 65 dBA’dan yüksek olmamasý gerekliliði göz önüne alýndýðýnda, hem hýzlýhem de hafif raylý ulaþým sistemlerinde modellemesi yapýlan ölçüm noktalarýnýn hiçbirinin sýnýr deðerleri aþmadýðý görülmektedir. 
+
+1. GÝRÝÞ (INTRODUCTION) aðýnýn oluþturulmasýdýr. Özellikle büyük þehirlerde 
+son zamanlarda yaygýnlaþmaya baþlayan raylý ulaþým Günümüzde hýzla artan nüfus, iþgücü ve trafikteki sistemleri ise bazý sorunlarý da beraberinde getirmiþtir araç sayýsýna paralel olarak ulaþým sorunlarý hýzla [1]. Raylý ulaþým sistemlerinin ve diðer ulaþým büyüyen þehirlerimizde, ekonomik ve verimli bir sistemlerinin çevre ve canlý üzerindeki olumsuz ulaþým sistemi oluþturmanýn en temel koþulu, diðer etkileri hava kirliliði, gürültü, alan kullanýmý, kazalar, taþýma sistemleri ile entegre olmuþ bir raylý sistem trafik týkanýklýðý, zemin ve suyun zarar görmesi, 
+R. Toprak ve N. Aktürk Ankara’da Hýzlý ve Hafif Raylý Ulaþým Sistemlerinin Neden Olduðu Çevresel Gürültünün Modellenmesi 
+arazinin bölünmesi, titreþim ve diðer çevresel etkilerdir. Raylý ulaþým sistemlerinin en önemli problemlerinden biri olan çevresel gürültü gün geçtikçe daha rahatsýz edici bir hal almaktadýr [2, 3]. Geliþmiþ ülkelerde ulaþým sistemlerinin çevresel etkileri, bu etkilerin maliyetleri ve bu çevresel etkilerin olumsuzluklarýnýn azaltýlmasý için alýnacak önlemlerin belirlenmesi üzerinde önemle durulmaktadýr [4, 5]. Ýnsanlar, hayat standartlarýnýn yükselmesi nedeniyle gürültüye daha fazla duyarlýhale gelmektedirler. Bu nedenle günümüzde çevresel gürültü tasarým aþamasýndan itibaren dikkate alýnmasýkaçýnýlmaz parametrelerden birisidir [2]. 
+Ulaþým araçlarýndan kaynaklanan gürültünün belirlenmesi için analitik yöntemler 1968’li yýllardan beri kullanýlmaktadýr. Önceleri analitik yöntemler ile demiryollarýçizgi kaynak kabul edilerek etkileri hesaplanýrken, daha sonra bilgisayar teknolojilerindeki geliþmeler noktasal kaynaklarýn zaman içinde hareket ettirilmesine dayanan simülasyon teknikleri geliþtirilmiþtir [6]. Ülkemizde yapýlan çalýþmalarda genelde trafik gürültüsünün ölçümü ve zararlý sonuçlarý üzerinde durulmuþ, fakat çevresel ulaþým gürültüsünün modellenmesine yeterince yönlenilmemiþtir. Bu konuda, geliþmiþsimülasyon programlarý ile yapýlmýþ çalýþmalar sýnýrlýsayýda da olsa mevcuttur (7, 8, 9). Uluslararasýplatformda 1970lerden beri yerini almýþ bulunan bu tür çalýþmalara bir öncülük yapmasýiçin bir dizi çalýþma baþlatýlmýþtýr [10, 11]. 
+Raylý ulaþým sistemlerinin modellenmesi ile faaliyette olan raylý ulaþým sistemlerinde çevresel gürültü probleminin olup olmadýðý tespit edilerek, elde edilecek eþdeðer gürültü seviyelerinin 1 Temmuz 2005 tarihli ve 25862 sayýlý Resmi Gazete’de yayýnlanarak yürürlüðe giren “Çevresel Gürültünün Deðerlendirilmesi ve Yönetimi Yönetmeliði”nde belirtilen sýnýr deðerleri aþýp aþmadýðý belirlene­bilecektir. Ayrýca, mevcut hatlarýn ileride tam kapasite kullanýlmasý, sefer sayýlarýnýn artmasý ve sefer aralýklarýnýn sýklaþmasý durumunda ne gibi deðiþikliklerin olacaðý da bu tür bir yazýlým ile tespit edilebileceði de ortadadýr. Herhangi bir raylý ulaþým sisteminde deðiþiklik yapýlmadan ve/veya yeni hatlarýn planlanmasýndan önce bunun neden olacaðýgürültünün de dikkate alýnarak incelenmesi gerektiði bu çalýþma ile ortaya konulmuþtur. 
+
+
+
+2. RAYLI ULAÞIM SÝSTEMLERÝNÝN NEDEN 
+OLDUÐU GÜRÜLTÜ (NOISE CAUSED BY RAILWAY TRANSIT SYSTEMS) 
+Gürültü; hoþa gitmeyen, istenmeyen, rahatsýz edici ses olarak tanýmlanmaktadýr. Birçok gürültü tipinin kuþkuya yer vermeksizin herkes tarafýndan gürültü olarak kabul edileceði açýktýr [10, 12]. Çok yüksek sesin, hoþa gitse bile, iþitme kaybýndan birçok fizyolojik ve psikolojik rahatsýzlýklara yol açan zararlýetkisi nedeniyle kontrol edilmesi gerekmektedir [2, 3, 5]. Raylý ulaþým sistemlerini kullanan ülkelerde çevre sorunlarýndan biri de bu sistemlerin neden olduðu gürültüdür. Bu gürültü, araçlarýn ve yardýmcýekipmanlarýnýn çalýþmasýndan dolayý oluþan gürültü ile araç tekerlerinin ray ile temasýndan dolayý ortaya çýkan gürültü gibi bileþenlerden oluþmaktadýr. Raylýulaþým sistemlerinde oluþan çevresel gürültü düzeyine etki eden faktörler ise; yola olan uzaklýk, servis aralýðý, yol seviyesi, yolun eðim derecesi, aracýn boyu ve cinsi, yol kenarýndaki yapýlaþma ve bitki örtüsü þeklinde sýralanabilir.  
+Ulaþtýrma sistemlerinde konforlu bir seyahat için üst gürültü düzeyi 65 dBA, tahammül bölgesi 65–75 dBA ve rahatsýzlýk bölgesi de 75–120 dBA olarak kabul edilmektedir [13]. Ülkemizde demiryolu gürültüsü için bu deðer gündüz saatleri için (07.00–19.00) 65 dBA, akþam saatleri için (19.00–23.00) 60 dBA ve gece saatleri için (23.00–07.00) ise 55 dBA olarak kabul edilmiþtir [14].  
+Raylý ulaþým sistemlerinden kaynaklanan gürültünün üç ana unsuru bulunmaktadýr. Bunlar, araç özelliklerinden kaynaklanan gürültü, araçlarýn yol ve çevre ile etkileþimi sonucu oluþan gürültü ve sistemin ve/veya araçlarýn yanlýþ kullanýmý sonucunda oluþan gürültülerdir. Raylý ulaþým sistemlerinin neden olduðu gürültünün, sonucunun bir bütün olduðu göz ardýedilmeden, oluþ nedenlerine baðlý olarak araç özellikleri ve yapýsal nedenlerle oluþan gürültü olmak üzere iki baþlýk altýnda ele alýnmasý yararlý olacaktýr [1, 2, 3]. 
+Raylý ulaþým sistemlerinde araç özelliklerinin oluþturduðu gürültü dikkate alýndýðýnda; þehir içi raylýulaþým sistemlerinde çekici araçlarýn gürültüsü trenin hýzýna göre deðiþmekte, gürültü hýz arttýkça artmaktadýr. Ayný zamanda trenin geçiþ süresi ne kadar uzun olursa gürültüye maruz kalýnma süresi de 
+o kadar uzun olacaktýr [6, 15, 16]. Bunun dýþýnda araçlarýn doðrudan hareketi ile ilgili olmayýp yardýmcýekipmanlarýn çalýþmasýyla ortaya çýkan gürültüler de mevcuttur. Bir raylý ulaþým sisteminde araç özellikleri nedeniyle oluþan gürültü hakkýnda daha detaylý bilgi Toprak ve Aktürk’ün daha önceki çalýþmalarýnda [1, 2, 3], Aktürk vd. yaptýðý bir çalýþmada [17] ve Toprak’ýn yaptýðý çalýþmada [18] verilmiþtir. 
+Teknik özelliklere, ilgili standartlara ve teknik þartnamelere uygun olsalar dâhi araçlarýn sistemde çalýþýr olarak bulunmalarý ve/veya sistemin çalýþmasýnedeni ile oluþan her türlü gürültü raylý ulaþým sistemlerinde yapýsal nedenlerle oluþan gürültünün kaynak ve nedenlerindendir. Bu tanýmda da belirtildiði üzere, hatasýz araç da dâhil olmak üzere, sistemin çalýþmasýnda ortaya çýkan her türlü gürültü bu gruba girmektedir [2, 3]. Hat boyunda oluþan gürültü, iki ayrý yapýnýn hareket halindeyken temas ettikleri noktalardan açýða çýkan gürültüdür. Gürültü daha çok tekerlek–ray temasýyla açýða çýkmaktadýr [19]. Lokomotif gürültüsü de etken gürültü kaynaklarýndan biridir. Aracýn hava ile temasýyla açýða çýkan gürültü de mevcuttur. Bir raylý ulaþým sisteminde yapýsal nedenlerle oluþan gürültü hakkýnda bilgi Toprak ve Aktürk’ün daha önceki çalýþmalarýnda [1, 2, 3], Aktürk vd. yaptýðý bir çalýþmada [17] ve Toprak’ýn yaptýðý çalýþmada [18] daha detaylý olarak verilmiþtir. 
+
+
+3. RAYLI ULAÞIM SÝSTEMLERÝNÝN NEDEN OLDUÐU GÜRÜLTÜNÜN MODELLENMESÝ
+(SIMULATION OF NOISE CAUSED BY RAILWAY TRANSIT SYSTEMS) 
+Bütün modelleme yöntemleri, temelde ölçülmek istenilen kaynaðýn veya kaynaklarýn yaydýklarýgürültünün, gerçek bir ölçümde oluþabilecek çeþitli doðal faktörlerden (rüzgâr gürültüsü, insan gürültüsü, vb.) baðýmsýz, yaklaþýk bir deðerini elde etmek için bilgisayar ortamýnda oluþturulmasýna dayanmaktadýr. Model oluþturulup, gerçeðe uygunluðu test edildikten sonra, sisteme yönelik olarak, yalnýzca bugünkü deðil gelecekteki sanal senaryolara göre de tahminleri hesaplanabilmektedir.  
+Bu modelleme çalýþmalarýna yönelik olarak Amerikan Federal OtoyollarýDairesi (FHWA) Ulaþým Daire Baþkanlýðý’nýn geliþtirdiði üç çeþit serbest akan trafik gürültüsü tahmin prosedürü mevcuttur. Bu prosedürlerin ilk ikisi grafiksel yöntemler, üçüncü ise sayýsal bilgisayar yazýlýmýgerektiren bir yöntemdir [20, 21]. 
+Bu sonuncu metoda göre geliþtirilmiþ olan RNM (Railway Noise Model), alýcýlarýn algýladýðý ses düzeylerini önceden bildiren bir nokta kaynaðýsimülasyonudur. Her taþýt hareketli bir nokta kaynaktýr. Trafikte her taþýt diðerlerinden baðýmsýz çalýþan ayrý ayrý nesnelerdir. RNM, sabit hýzlý raylýulaþým akýþýnýn olduðu sistemlerin modellemesini yapabilmekte ve ayný zamanda ayrýntýlý hýzlanma, yavaþlama algoritmalarýný ve REMEL eðrilerini kapsamaktadýr. 
+REMELs (Reference Energy Mean Emission Levels); taþýtlardan yayýlan ve belirli bir uzaklýktan ölçülen ses düzeyinin ortalama deðeridir. Bu belirli uzaklýða “Referans Uzaklýðý” denmektedir. Farklý hýzda ilerleyen, farklý tipteki taþýtlarýn ölçümü, taþýtlarýn hýzýna (km/saat) karþýlýk ses düzeyleri (dBA) ile gösterilen REMEL eðrilerinde deðiþimin oluþmasýna sebep olmaktadýr. FHWA standartlarý; binek araçlarý, kamyonet ve kamyon gibi taþýtlar için REMEL eðrilerini belirlemiþtir. Bu taþýt tipleri “Vehicle Characteristics” mönüsünden tanýmlanýr. 
+RNM; gerçek raylý sistem ortamýný, bizim yarattýðýmýz raylý sistem hatlarý, alýcý ve bariyerlerden oluþan simülasyon ortamýna taþýmaktadýr. Her adýmda alýcýlarla taþýtlarýn ses enerjisi katýlýmlarý (REMEL eðrilerinden, ortalama hýz, hýzlanma, yavaþlama için) belirlenir. Simülasyonda tüm araçlarýn her alýcýdaki enerjilerini toplamakta ve alýcýlar için ses düzeyleri olarak hesaplamaktadýr. Simülasyondan çýkan ses enerjisi parçalarýný saklamakta ve bu bilgiyi bütün simülasyon için Leq ses düzeyini hesaplamada kullanmaktadýr. RNM yazýlýmý çizgi kaynaðý ve sonsuz uzunlukta bariyerler yaklaþýmlarýnýkullanmamaktadýr. Kullanýlan nokta kaynaðý ve trafik simülasyonu, birçok modelden daha gerçekçi bir modelleme yapýlmasýna olanak tanýmaktadýr. 
+Modelleme yazýlýmýnda lokomotif çekici araçlarý için dokuz ayrý tip araç mevcuttur, çekilen araç için ise iki ayrý araç tipi bulunmaktadýr. Fakat kullanýcý üç tip araç daha ekleyebilmektedir. Araç tiplerinin geçerli olmasýiçin eklenecek araçlarýn ölçülerinin ve hýz deðerlerine karþýlýk ses düzeylerinin bilinmesi gerekmektedir. Genel olarak lokomotif çekici araçlarýolarak, yük taþýma (dizel ve elektrikli), dizel elektrikli, elektrikli lokomotif, þehir içi raylý sistemi, çelik tekerlikli tramvay, treyleybüs, monoray ve maglev sistemi için deðerler mevcuttur. Çekilen araçlar için ise bölgesel demiryolu araçlarý ve yolcu taþýma araçlarý seçenekleri verilmiþtir. 
+Modelleme yapýldýktan sonra gürültüden etkilenme durumu belirlenmek istenen alýcýlarýn konumlarýbilgisayar yazýlýmýna girilmektedir. Alýcýlar; konum, zemin yüzeyi tipi ve korunmasýna göre tanýmlanmaktadýr. Alýcýlar, hatlarla aynýx, y, z, koordinatlarý kullanýlarak konumlandýrýlmaktadýr ve on taneye kadar farklý tipte alýcý tanýmlanmaktadýr. Modelleme yapýlýrken alýcýlar ile birlikte hat kenarýnda bulunan diðer gürültü kaynaklarý da on taneye kadar yazýlým sayesinde yerleþtirile­bilmektedir.  
+Yazýlýmda, trenlerin hýzýolarak maksimum 75 km/saat girilebilmekte, ayrýca gündüz ve gece seferleri için oluþturulan hatlardan geçen tren sayýsýda maksimum 150 olarak belirlenebilmektedir. Ayrýca hat yakýnýnda gürültü perdeleri ve/veya diðer bariyerler (yürüme yollarý vb.) modellemede yerleþtirilebilmektedir. Yazýlýmda uzunluk ölçüsü olarak foot (1 ft = 30,48 cm) kullanýlmaktadýr. RNM yazýlýmý raylý ulaþým sistemlerinin modellenmesinde farklý gürültü kaynaklarýnýn da kullanýlmasýna imkân tanýmaktadýr. Kullanýlan gürültü kaynaklarýna ait gürültü düzeyi deðerlerinin alt sýnýrý yazýlým tarafýndan belirlenmekte ve bu gürültü kaynaklarýnýn raylý ulaþým sistemi hattýna olan yakýnlýklarýölçüsünde gürültü düzeyleri artmaktadýr. Modellemede kullanýlabilinen gürültü kaynaklarý ve bunlarýn yazýlým tarafýndan oluþturulan en düþük gürültü düzeyi deðerleri Tablo 1’de verilmiþtir. 
+Gürültü ölçümleri yapýlan [18] Ankara’daki iki önemli raylý ulaþým sisteminin neden olduðu gürültünün modellenmesi yapýlmýþtýr. Bu sistemlerden biri Hýzlý Raylý Ulaþým ve diðeri Hafif Raylý Ulaþým 
+
+R. Toprak ve N. Aktürk Ankara’da Hýzlý ve Hafif Raylý Ulaþým Sistemlerinin Neden Olduðu Çevresel Gürültünün Modellenmesi 
+Tablo 1. Modellemede kullanýlan gürültü kaynaklarý ve bunlarýn yazýlým tarafýndan belirlenen gürültü düzeyi deðerleri (Table 1. Noise 
+sources used in simulation and their noise level) 
+Gürültü Kaynaðý Gürültü Düzeyi Deðerleri [dBA]  
+Raylý Sistem Depo Bölgesi  69,0  
+Raylý Sistem Bekleme Hattý 86,0  
+Otobüs Duraðý  60,0  
+Otobüs Depo Alaný  61,0  
+Karayolu Trafiði  59,0  
+Otopark  34,0  
+Park ve Sosyal Alan  41,0  
+
+Sistemidir. Modellemede bu sistemlere ait hat uzunluðu, istasyon yerleri, gürültü bariyeri özelliði gösteren yürüme yollarý, günlük sefer sayýlarý, tren hýzlarý, modellemesi yapýlan raylý ulaþým sistemlerinde hat yakýnýnda bulunan diðer gürültü kaynaklarývb. gibi RNM modellemesinde kullanýlan veriler için, yazýlýmýn elverdiði ölçüde, gerçeðe yakýn deðerler kullanýlmýþtýr. Verilen tüm modelleme þekillerinde (Þekil 1–Þekil 8) þeklin alt tarafta görülen hat gidiþ hattý, üst tarafta kalan hat ise dönüþ hattýdýr. Ayrýca, yanlarýnda dBA yazýlýolan gürültü düzeyleri hat yakýnýnda bulunan diðer gürültü kaynaklarýnýn oluþturduðu gürültü düzeylerini (otobüs duraðý, karayolu trafiði, otopark veya diðer park alanlarý vb.) göstermektedir. Yanlarýnda dBA yazýlý olmayan gürültü düzeyleri ise hatta yerleþtirilen alýcýlarda yazýlým tarafýndan elde edilen deðerleri ifade etmektedir. Çevresel gürültünün belirlenmesi için ölçüm yapýlan hat bölgelerinde bulunan gürültü kaynaklarýmodellemede de aynýþekilde yerleþtirilmiþtir. 
+3.1. Hýzlý Raylý Ulaþým Sisteminin Neden Olduðu 
+Gürültünün Modellenmesi (Simulation of Noise Caused by Rapid Rail Transit System) 
+Hýzlý Raylý Ulaþým Sistemine ait veriler bilgisayara girilmiþ ve Simulations ve Passby Calculations metodu ile hesaplama yapýlmýþtýr. Þekil 1, Þekil 3 ve Þekil 5 Hýzlý Raylý Ulaþým Sisteminin ölçüm yapýlan üç ayrý hat bölümünün þekli verilmektedir [18]. Þekillerde görülen kalýn çizgiler ise hat yakýnýnda bulunan ve gürültü perdesi etkisi gösteren yürüme yollarýdýr. Þekil 2, Þekil 4 ve Þekil 6’da ise ölçüm yapýlan bu üç ayrý hat bölümünün RNM modelleri verilmiþtir. 
+Þekil hesaplamanýn tamamlanmasýndan sonra alýndýðýiçin alýcýda görülen deðer bir günlük Ldn (Gündüz– Gece Düzeyi) deðerini ifade etmektedir. Þekil 2, Þekil 4 ve Þekil 6’da bir günlük bir hesaplama sonucunda Hýzlý Raylý Ulaþým Sisteminin oluþan RNM modelleri verilmektedir. Þekil 2, Þekil 4 ve Þekil 6’da HýzlýRaylý Ulaþým Sisteminin üç ayrý bölümü için ölçüm noktalarýnda bulunan alýcýlarda tespit edilen Ldn deðerleri sýrasýyla 61,7 dBA, 62,0 dBA ve 60,4 dBA olarak tespit edilmiþtir. Ayný ölçüm noktalarý için tespit edilen Lmax (En Yüksek Ses Düzeyi) deðerleri ise sýrasýyla 84,0 dBA, 84,4 dBA ve 73,4 dBA olarak belirlenmiþtir (EK 1). 
+
+
+3.2. Hafif Raylý Ulaþým Sisteminin Neden Olduðu 
+Gürültünün Modellenmesi (Simulation of Noise Caused by Light Rail Transit System) 
+Hafif Raylý Ulaþým Sistemi için de gerçek sisteme uygun deðerler kullanýlarak, Hýzlý Raylý Ulaþým Sistemine benzer þekilde, hattýn uygun olan bir 
+
+
+
+
+Þekil 1. Hýzlý raylý ulaþým sistemi için ölçüm noktasý1 (Figure 1. Measurement Point 1 for rapid rail transit system) 
+
+Þekil 2. Hýzlý raylý ulaþým sisteminde 1’nci ölçüm bölgesi için RNM ile simülasyonu (Figure 2. Simulation of 
+Measurement Area 1 with RNM for rapid rail transit system) 
+
+bölümünde ölçüm yapýlmýþ ve ölçüm noktasýÞekil sonucunda Þekil 7’de görülen hattaki alýcýda bir 7’de verilmiþtir. Ölçüm yapýlan bu nokta için günlük hesaplama sonucunda Ldn deðeri 62,2 dBA modelleme yapýlmýþ ve RNM modeli Þekil 8’de olarak tespit edilmiþtir. Ölçüm yapýlan ayný nokta için verilmiþtir. Þekil hesaplamanýn tamamlanmasýndan bir günlük hesaplama sonucunda tespit edilen Lmax sonra alýndýðý için alýcýda görülen deðer bir günlük Ldn deðeri ise 69,7 dBA olarak belirlenmiþtir (EK 2). deðerini ifade etmektedir. Bir günlük bir hesaplama 
+
+
+Karayolu Trafiði Otobüs Duraðý
+
+
+
+Ölçüm Noktasý 2 
+
+Karayolu Trafiði 
+
+Þekil 3. Hýzlý raylý ulaþým sistemi için ölçüm noktasý 2 (Figure 3. Measurement Point 2 for rapid rail transit system) R. Toprak ve N. Aktürk Ankara’da Hýzlý ve Hafif Raylý Ulaþým Sistemlerinin Neden Olduðu Çevresel Gürültünün Modellenmesi 
+
+Þekil 4. Hýzlý raylý ulaþým sisteminde 2’nci ölçüm bölgesi için RNM modellemesi (Figure 4. Simulation of Measurement Area 2 with RNM for rapid rail transit system) 
+
+Þekil 5. Hýzlý raylý ulaþým sistemi için ölçüm noktasý 3 (Figure 5. Measurement Point 3 for rapid rail transit system) 
+
+3.3. Modellemeden Elde Edilen Bulgularýn 
+Kullanýmý(Investigation of Results Obtained from the Model) 
+Uluslararasý standartlarda bir çevre için gürültü üst sýnýr deðerinin 65 dBA’dan yüksek olmamasýgerektiði belirtilmiþtir [22]. Ýleriki yýllarda, kurulmuþolan raylý ulaþým sistemlerinin tam kapasite kullanýlmasýdurumunda ve gün boyu yapýlacak hesaplamalarla gelecekte maruz kalýnabilecek gürültü düzeyleri ortaya çýkacaktýr. Bu nedenle gürültü planlamalarý yapýlýrken mevcut raylý ulaþým sistemlerinin neden olacaðý çevresel gürültü detaylýolarak ölçülmeli ve bu ölçüm sonuçlarý ile uyumlu 
+
+
+Þekil 6. Hýzlý raylý ulaþým sisteminde 3’üncü ölçüm bölgesi için RNM modellemesi (Figure 6. Simulation of Measurement Area 3 with RNM for rapid rail transit system) 
+modellemeler yapýlarak hem günümüzdeki, hem de kaldýðý belirlenmiþtir [18]. Benzer sonuçlara, ölçüm gelecekteki sistemlerin neden olacaðý gürültünün yoluyla tespit edilen anlýk deðerlerden ve sefer haritalarý oluþturulmalýdýr [7, 8, 20]. Yapýlan sayýlarýndan yola çýkýlarak yapýlan hesaplamalarla da çalýþmalarda günümüz çalýþma þartlarýnda eþdeðer ulaþýlmýþtýr [18]. gürültü düzeyinin hat boyunca 65 dBA’nýn altýnda 
+
+Þekil 7. Hafif raylý ulaþým sistemi için ölçüm noktasý 1 (Figure 7. Measurement Point 1 for light rail transit system) R. Toprak ve N. Aktürk Ankara’da Hýzlý ve Hafif Raylý Ulaþým Sistemlerinin Neden Olduðu Çevresel Gürültünün Modellenmesi 
+
+Þekil 8. Hafif raylý ulaþým sisteminde 1’nci ölçüm bölgesi için RNM modellemesi (Figure 8. Simulation of Measurement Area 1 with RNM for light rail transit system) 
+Burada verilen modelleme yöntemi ile bir raylý ulaþým sisteminin belirlenen bazý sembolik noktalarýnda meydana gelen gürültü düzeyleri ortaya çýkmýþtýr. Herhangi bir sistemde deðiþiklik yapýlmadan önce bunun neden olacaðý gürültü de dikkate alýnarak incelenmelidir. 
+Raylý ulaþým sistemlerinin gürültüsünün günümüzde insan saðlýðýný tehdit eden boyutlara ulaþmasýnedeniyle, özellikle yerleþim merkezlerinde ve trafik yoðunluðunun olduðu yerlerde gürültü deðerlerinin, hem ölçümlerle hem de modellerle tespit edilmesinin ve gürültü haritalarý çýkarýlarak, bunlarýn trafik planlamasýnda kullanýlmasýnýn önemi bir kez daha vurgulanmalýdýr. 
+
+4. BULGULAR VE TARTIÞMA (RESULTS AND DISCUSSION) 
+Bu çalýþma kapsamýnda yukarýda belirtilen ölçümlerin yapýldýðý her iki raylý ulaþým sisteminin neden olduðu çevresel gürültünün modellenmesi RNM yazýlýmýyardýmýyla yapýlmýþtýr. Modellemede bu sistemlere ait gerçek veriler kullanýlmýþtýr. Bu modellemede, günümüz için var olan hatlardan geçen tren sayýsý, her iki raylý ulaþým sistemi için de, gündüz zaman dilimi için 150, gece zaman dilimi için ise Hýzlý RaylýUlaþým Sisteminde 20 ve Hafif Raylý Ulaþým Sisteminde ise 10 sefer olarak alýnmýþtýr. 
+Modellemede trenlerin hýzý, yazýlýmda belirlenen en yüksek deðer olan 75 km/saat olarak girilmiþ ve her iki raylý ulaþým sisteminde ölçüm yapýlan hat kesimleri için gerçek sistemlere uygun olarak, birer gürültü perdesi özelliði göstermeleri açýsýndan, yürüme yollarý yerleþtirilmiþtir. Ayrýca, hat kenarýnda yine gerçek verilere uygun olarak diðer gürültü kaynaklarý da belirlenmiþtir. 
+Yapýlan modellemede Hýzlý Raylý Ulaþým Sisteminin çevresel gürültü ölçümlerinin yapýldýðý üç ayrýbölümü için hattaki alýcýlarda Ldn deðeri 1’inci ölçüm bölgesi için 61,7 dBA, 2’nci ölçüm bölgesi için, 62,0 dBA ve 3’üncü ölçüm bölgesi için 60,4 dBA olarak tespit edilmiþtir. Hafif Raylý Ulaþým Sistemi için de gerçek sisteme uygun deðerler kullanýlarak çevresel gürültü ölçümünün yapýldýðý hattýn bir bölümü için modelleme yapýlmýþtýr. Modelleme sonucunda hattaki alýcýlarda Ldn deðeri 1’inci ölçüm bölgesi için 62,2 dBA deðerinde tespit edilmiþtir.  
+Hem Hýzlý Raylý hem de Hafif Raylý Ulaþým Sistemleri için ayný ölçüm noktalarýnda ölçüm yoluyla elde edilen eþdeðer gürültü düzeyleri ve modelleme sonucunda elde edilen eþdeðer gürültü düzeyleri Tablo 2’de karþýlaþtýrmalý olarak verilmektedir. 
+Tablo 2’de görüldüðü gibi hem Hýzlý Raylý Ulaþým Sistemi hem de Hafif Raylý Ulaþým Sistemi için ölçüm yoluyla elde edilen çevresel gürültü düzeyleri 
+
+Tablo 2. Ölçüm ve modelleme yoluyla elde edilen çevresel gürültü düzeylerinin karþýlaþtýrýlmasý(Table 2. Comparison of environmental noise level obtained by measurement and simulation) 
+Ölçüm Noktasý  Ölçüm Yoluyla Elde Edilen Deðerler [dBA]  Modelleme Ýle Elde Edilen Deðerler [dBA]  
+Hýzlý Raylý Ulaþým Sistemi Ölçüm Noktasý 1  64,2  61,7  
+Hýzlý Raylý Ulaþým Sistemi Ölçüm Noktasý 2  63,1  62,0  
+Hýzlý Raylý Ulaþým Sistemi Ölçüm Noktasý 3  57,6  60,4  
+Hafif Raylý Ulaþým Sistemi Ölçüm Noktasý 1  57,1  62,2  
+
+ile RNM yazýlýmý yardýmýyla yapýlan modelleme ile elde edilen deðerlerin birbirine oldukça yakýn deðerlerde olduðu görülmektedir. Ölçüm yoluyla elde edilen sonuçlar ile RNM modellemesi sonuçlarýnýn birbirleri ile uyuþma oranlarý Hýzlý Raylý Ulaþým Sistemi ölçüm noktalarý için sýrasýyla % 96,1, % 98,3 ve % 95,4 olurken, Hafif Raylý Ulaþým Sistemi için ise % 91,8 olarak belirlenmiþtir. 
+
+
+5. SONUÇLAR (CONCLUSIONS) 
+Yapýlan modellemeler ile her iki raylý ulaþým sisteminde de çevresel gürültü probleminin olmadýðýve elde edilen gürültü düzeylerinin sýnýr deðerlerin altýnda kaldýðý tespit edilmiþtir. Buna raðmen hatlarýn ileride tam kapasite kullanýlmasý, sefer sayýlarýnýn artmasý ve sefer aralýklarýnýn sýklaþmasý durumunda ne gibi deðiþikliklerin olacaðýnýn bu tür bir yazýlým ile tespit edilebileceði ortaya çýkmýþtýr. Bu çalýþmada kullanýlan RNM modelleme yazýlýmý ile bir raylýsistemin belirlenen bazý sembolik noktalarda neden olduðu gürültü miktarlarý ortaya çýkmaktadýr. Herhangi bir raylý ulaþým sisteminde deðiþiklik yapýlmadan ve/veya yeni hatlarýn planlanmasýndan önce bunun neden olacaðý gürültünün de dikkate alýnarak incelenmesi gerektiði bu çalýþma ile ortaya konmaktadýr. 
+Bu sonuçlar, RNM yazýlýmý yardýmýyla yapýlacak olan raylý ulaþým sistemleri modellemesinin hem günümüzdeki hem de gelecekteki sistemler için kullanýlabileceðini göstermektedir. Yine de RNM yazýlýmýnýn etkin bir þekilde kullanýlabilmesi için raylýulaþým sistemlerinin neden olacaðý çevresel gürültünün detaylý olarak ölçülmesi ve bu ölçüm sonuçlarý ile uyumlu modellemeler yapýlmasýgerekmektedir. Ayrýca, hatlarýn ileride tam kapasite kullanýlmasý ve/veya yeni hatlarýn açýlmasýdurumunda oluþacak yeni koþullar için gürültü haritalarý oluþturulmalý ve hem ölçüm yoluyla hem de modelleme yoluyla gürültü deðerleri tespit edilmelidir. Elde edilecek bu deðerlerin raylý ulaþým sistemlerinin planlamasýnda kullanýlmasýnýn önemi açýkça görülmektedir. 
+KAYNAKLAR (REFERENCES) 
+1.	Toprak, R. ve Aktürk, N., “Raylý Ulaþým Sistemlerinin Çevresel Etkileri ve Gürültü”, IV. Ulaþým ve Trafik Kongresi, TMMOB Makina Mühendisleri Odasý, Ankara, 189–200, 26–27 Eylül 2003. 
+2.Toprak, R. ve Aktürk, N., “Raylý Ulaþým Sistemlerinin Neden Olduðu Çevresel Gürültü”, TMMOB Makine Mühendisleri OdasýÝstanbul’da Kent Ýçi Ulaþým Sempozyumu, Ýstanbul, 219–230, 28–30 Haziran 2001. 
+3.	
+Toprak, R. ve Aktürk, N., “Raylý Ulaþým Sistemlerinin Neden Olduðu Gürültü ve Çevresel Etkileri”, Türkiye Mühendislik Haberleri, Sayý417, 33–38, 2002. 
+
+4.	
+Toprak, R., “Raylý Ulaþým Sistemlerinin Çevresel Etkileri”, Trafik: Gazi Üniversitesi Fen Bilimleri Enstitüsü Trafik Planlamasý Ve Uygulamasý Anabilim Dalý Aylýk Bülteni, Sayý15, 21–25, 2000. 
+
+5.	
+Aktürk, N. ve Ünal, Y., “Gürültü, Gürültüyle Mücadele ve Trafik Gürültüsü”, Gazi Üniversitesi Fen Bilimleri Enstitüsü Bülteni, Sayý3, 21–32, 1998. 
+
+6.	
+Magrab, E.B., Environmental Noise Control, John Wiley & Sons Inc., New York, USA, 1975. 
+
+7.	
+Kurra, S., “Köprüler, Yollar ve Çevre Kirliliði”, 
+
+5. Ulusal Akustik Kongresi, Ýstanbul, 95–103, 2000. 
+
+8.	
+Akdað, N.Y., “Kent Planlamada Gürültü Haritalarýnýn Önemi: Barbaros Bulvarý Çevresi Örneði”, TMOB Mimarlýk Dergisi, Sayý 311, 56–60, Temmuz–Aðustos 2003. 
+
+9.	
+Ýþler, E. ve Akdað, N.Y., “Gürültü Denetlenmesinde Engel Etkinliði: Baðdat Caddesi Örneði”, 7. Ulusal Akustik Kongresi, Kapadokya, 72–80, 16–17 Kasým 2004. 
+
+10.	
+Aktürk, N. ve Gürpýnar, M., “Çevresel Ulaþým Gürültüsünün Trafik Planlamasý Yönünden Ýncelenmesi”, Trafik ve Yol Güvenliði Kongresi, Gazi Üniversitesi, Ankara, 346–359, 25–27 Nisan 2001. 
+
+11.	
+Akdemir, O., Üzkurt, Ý. ve Aktürk, N., “Trafik Iþýk Sürelerinin ve Trafik Hacminin Neden Olduðu Çevresel Taþýt Gürültüsü”, VI. Ulusal 
+
+
+
+R. Toprak ve N. Aktürk Ankara’da Hýzlý ve Hafif Raylý Ulaþým Sistemlerinin Neden Olduðu Çevresel Gürültünün Modellenmesi 
+Akustik Kongresi, Antalya/Kaþ, 346–361, 26– Gazi Üniversitesi Mühendislik ve Mimarlýk 28 Ekim 2001. Fakültesi Dergisi, Cilt 18, Sayý3, 15–25, 2003. 
+12.	
+Aktürk, N., “Havalimanlarýnýn Neden Olduðu 18. Toprak, R., Raylý Ulaþým Sistemlerinde Oluþan Çevresel Gürültünün Kara Kullanýmýnda Dikkate Gürültünün Ölçülmesi ve Modellemesi, Alýnmasý”, TMMOB Makina Mühendisleri Doktora Tezi, Gazi Üniversitesi Fen Bilimleri Odasý Ankara’da Kentleþme ve Yerel Enstitüsü, Ankara, 2003. Yönetimler Sempozyumu, Ankara, 108–123, 19. Asiloðullarý, E., Toprak, R. ve Aktürk, N., “Raylý22–23 Haziran 2001. Ulaþým Sistemlerindeki Gürültü Ýle Ray-Teker 
+
+13.	
+Öztürk, Z., “Demiryolu ve Çevre”, 2. Ulusal Etkileþiminin Ýliþkileri”, Akustik, Türk Akustik Demiryolu Kongresi, Ýstanbul, 91–100, 15–17 Derneði Yayýný, Yýl 2, Sayý 1, 13–23, 2002. Aralýk 1997. 20. Aktürk, N., Akdemir, O. ve Üzkurt, Ý., “Trafik 
+
+14.	
+ÇGDYY, Çevresel Gürültünün Deðerlen-Iþýk Sürelerinin Neden Olduðu Çevresel Taþýt dirilmesi ve Yönetimi Yönetmeliði, 01 Temmuz Gürültüsü”, Gazi Üniversitesi Mühendislik 2005 tarih ve 25862 sayýlý Resmi Gazete, 2005. Mimarlýk Fakültesi Dergisi, Cilt 18, Sayý 1, 71– 
+
+15.	
+Cunniff, P.F., “Transportation Noise”, 87, 2003. Environmental Noise Pollution, John – Wiley 21. Akdemir, O., Üzkurt, Ý. ve Aktürk, N., “Trafik & Sons Inc., Canada, 151–175, 1997. Iþýk Sürelerinin ve Trafik Hacminin Neden 
+
+16.	
+Ratering, E.G., “Hihgway and Rail Traffic Olduðu Çevresel Taþýt Gürültüsü”, 6. Ulusal Noise”, Noise Control Handbook of Principles Akustik Kongresi, Kaþ/Antalya, 346–361, 26– and Practices, edited by Lipscomb, D. M. and 28 Ekim 2002. Taylor, A. C., Van Nostrand Reinhold Company, 22. Canter, L.W., Environmental Impact 270–277, 1978. Assessment, Second Edition, McGraw–Hill Inc., 
+
+17.	
+Aktürk, N., Toprak, R. ve Asiloðullarý, E., “HýzlýNew York, USA, 1996. Raylý Ulaþým Sistem Kaynaklý Çevresel Gürültü”, 
+
+
+EK – 1: Hýzlý Raylý Ulaþým Sistemi Ýçin Modelleme Sonucunda Elde Edilen Deðerler 
+(Appendix – 1: Values Obtained from the Simulation for Rapid Rail Transit System) 
+Ldn and OTHER METRICS 
+Receiver Name Ldn dB(A) SEL dB(A) Lmax dB(A) 
+Ölçüm Noktasý1 61,7 111,0 84,0 
+Ölçüm Noktasý2 62,0 111,4 84,4 
+Ölçüm Noktasý3 60,4 109,8 73,0 
+EK – 2: Hafif Raylý Ulaþým Sistemi Ýçin Modelleme Sonucunda Elde Edilen Deðerler 
+(Appendix – 2: Values Obtained from the Simulation for Light Rail Transit System) 
+Ldn and OTHER METRICS 
+Receiver Name Ldn dB(A) SEL dB(A) Lmax dB(A) 
+Ölçüm Noktasý1 62,2 111,6 69,7 
+
+
+
+

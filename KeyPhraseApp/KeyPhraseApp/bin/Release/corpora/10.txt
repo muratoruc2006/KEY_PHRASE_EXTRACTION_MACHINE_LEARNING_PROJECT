@@ -1,0 +1,728 @@
+TÜRK SÝLAHLI KUVVETLERÝ ARAMA KURTARMA TÝMLERÝNÝN YERLEÞÝMÝNÝN YENÝDEN DÜZENLENMESÝ
+Cevriye GENCER ve Akif AÇIKGÖZ*
+Gazi Üni., Müh-Mim. Fak., End. Müh. Böl., 06570 Maltepe /Ankara, ctemel@gazi.edu.tr
+
+* Piyade Okulu Öðc. ve Krs. A. Sb. Astsb. Kurs Tb. Tuzla /Ýstanbul, akifacikgoz@hotmail.com 
+(Geliþ/Received: 24.09.2004; Kabul/Accepted: 04.01.2006) 
+ÖZET 
+Bu çalýþmada, Türk Silahlý Kuvvetleri (TSK) Arama Kurtarma (AK) Ýstasyonlarýnýn, Arama Kurtarma Bölgesi (AKB) içerisinde konuþ yerlerinin belirlenmesine yönelik bir problem analiz edilmektedir. AK istasyonlarýnýn yerleþtirilmesindeki amaç, meydana gelebilecek AK operasyonu gerektiren olaylara en hýzlýþekilde müdahale edilmesini saðlamaktýr. AK Ýstasyonlarýnýn konuþ yerlerinin belirlenmesi problemi Maksimal Kaplama Problemi ile modellenmiþtir. Bu modelin kullanýlmasýnýn nedeni eldeki mevcut helikopter sayýsý ile en etkin kullanýmýn saðlanmak istenmesidir. Problemin çözümü için dört ana senaryo ile iki özel durum (toplam 16 adet senaryo) oluþturulmuþtur. Optimal sonuçlar LINGO 4.0 paket programý kullanýlarak elde edilmiþtir. Sonuçlar mevcut durum ile karþýlaþtýrýlmýþ ve parametrik analiz yapýlmýþtýr. 
+ 
+1.GÝRÝÞTSK AK teþkilatý, 8.272 km kýyý uzunluðu ve 814.578 
+km2 yüzölçümü ile Türk Uçuþ Malumat Bölgesini de Arama kurtarma, arama kurtarma bölgesi içinde (FIR-Flight Information Region) kapsayan oldukça kazaya uðrayan dost/müttefik personelin, yerinin geniþbir sorumluluk sahasýna sahiptir. AKB karada tespit edilmesi ile yeri tespit edilen kazazede devlet sýnýrý kýyýlarda ise FIR hattý boyunca çizilen dost/müttefik personelin kurtarýlmasý için icra edilen bölgeyi kapsamaktadýr. AK harekatýnýn asli gayesi operasyona verilen genel addýr. Bu operasyon için, hayat kurtarmaktýr. Bu nedenle diðer görevlere özel teçhiz edilmiþ araçlar ve özel yetiþtirilmiþkýyasla öncelik taþýr. Hayatta kalanlarýn en iyi personel kullanýlmaktadýr. Kaza yerine en hýzlýdurumda ve mümkün olduðu kadar çabuk þekilde ulaþýlýr ve kazazedelere ilk müdahalelerinin kurtarýlmalarý için, mevcut imkanlarýn en kýsa yapýlmasýndan sonra en yakýn saðlýk birimine zamanda harekete geçirilmesi gerekmektedir. Sadece ulaþtýrýlmasý ile arama kurtarma son bulur [1]. askeri arama kurtarma faaliyetleri yürütmeyen TSK 
+C. Gencer ve A. Açýkgöz Türk Silahlý Kuvvetleri Arama Kurtarma Timlerinin Yerleþiminin Yeniden Düzenlenmesi 
+AK Teþkilatý, sivil arama kurtarma faaliyetlerinde de bulunmaktadýr. 
+TSK AK teþkilatý çalýþmalarýný, Arama Kurtarma Koordinasyon Merkezi (AKKM) komuta, kontrol ve koordinasyonu altýnda, Türk AKB içerisinde, uluslararasý hava sahalarýnda, açýk denizlerde ve yabancý ülkelerin talepleri/izin vermeleri halinde o ülkelerin karasularý ve hava sahalarýnda yürütmektedir [2]. 
+AKB içerisinde AK istasyonlarýnýn yerlerinin belirlenmesi çalýþmasý, yer seçimi problemlerinden maksimum kaplama problemi ile modellenmiþtir. 
+Kaplama ve konuþlandýrma problemleri genel olarak tesis yeri seçimi problemleri olarak bilinmektedir [3­7]. Amaç, hizmet noktalarýný minimum maliyet ile belirlenmesi veya maksimum talep noktalarýnýn ihtiyaçlarýna cevap vermesi þeklinde belirtilebilir. Yer seçimi problem tiplerinden birisi olan Maksimal Kaplama Problemi, belirli hizmet mesafesi veya zaman içinde en fazla sayýda isteðin bir að üzerindeki p sayýda hizmet merkezi tarafýndan kaplanmasýproblemidir [8-10]. Maksimum kaplama problemleri, belirli sayýda hizmet merkezini kabul edilebilir hizmet mesafesi içerisinde yerleþtirerek kaplanan talep miktarýný en fazla yapmayý araþtýrýr [11-14]. Bütün talep noktalarýnýn kaplanmasýna gerek yoktur. Yer seçimi problemi literatüründe maksimal kaplama problemi önemli yer tutar. Maksimal kaplama problemini ilk kez ReVelle [10] ortaya atmýþtýr. Kurduðu modelde kaynaklarýn sýnýrlý olduðu dikkate alýnmýþ ve bu sýnýrlýlýk yerleþtirilecek hizmet merkezi sayýsý olarak kýsýtlarda ifade edilmiþtir. 
+.i himax Z Zi=  (1)  
+XZ j Ni ji ... i,.   (2)  
+PX j j..  (3)  
+{}0,1X j . j,.  (4)  
+{}0,1Zi . ,.i   (5)  
+Burada ;  
+
+.1, eðer i düðümü kaplandýise,
+Zi =. 
+.0, deðilse. 
+P = Mevcut Ýstasyon Sayýsýhi = i düðümündeki talep. Amaç fonksiyonu (1), kaplanan yani karþýlanan talep 
+miktarýnýmaksimize etmektedir. (2) numaralý kýsýt, hangi talep düðümlerinin kabul edilebilir hizmet mesafesi içinde kaplandýðýný belirtir. Eðer tesis, i (eðer j.Ni için Xj =1 ise) düðümünün S kaplama alanýiçindeki herhangi bir j noktasýnda yerleþtirilmiþse (Zi =1 ile) i düðümü kaplandý denilmektedir. Eðer tesis yerleþtirilmedi ise, (2) numaralý kýsýtýn sað taraf deðeri sýfýr olacaðýndan, Zi sýfýr olur. (3) numaralý kýsýt ise yerleþtirilecek tesis sayýsýný sýnýrlar. (4) ve (5) numaralý kýsýtlar karar deðiþkenleri için tamamlayýcýkýsýtlardýr. 
+Çalýþmada maksimum kaplama probleminin kullanýlmasýndaki neden; yeni istasyon açma maliyetinin yüksek olmasýndan dolayý belirlenen istasyon sayýsýyla en fazla talep noktasýnýn kaplanmasýnýn saðlanmasýdýr. 
+2.MATEMATÝKSEL MODEL VE VARSAYIMLAR 
+AKB içerisinde aday noktalarýn belirlenmesinde mevcut kurulu istasyonlara ilave olarak yeni aday noktalar belirlenmiþtir. Bu aday noktalarýn belirlenmesi uzman görüþü alýnarak yapýlmýþtýr. Talep noktalarýnýn belirlenmesinde ise 1970-2002 yýllarýarasýnda meydana gelen hava araçlarý kaza istatistiklerinden yararlanýlmýþtýr [15,16]. Çalýþmadaki matematiksel model, belirli bir kaplama mesafesi içersinde kaplanan talep sayýsýný en fazla yapmayýamaçlamaktadýr. Modelin çözümü, kaplama mesafesine göre ne kadar talep noktasýnýn kaplanacaðýný ve hangi aday noktalarýnýn seçileceðini göstermektedir. 
+
+2.1. Aday Noktalarý 
+TSK AK istasyonlarýnýn yerleþtirilmesi için belirlenecek aday noktalarýnýn seçiminde izlenen yol, aday noktanýn istasyon açmaya elveriþli olup olmadýðýçeþitli faktörler altýnda incelenmiþtir. Aday noktasýseçimi bölgesel özelliklere göre farklýlýklar gösterir. Bu özellikler o noktanýn iklim þartlarý, ikmal noktasýna olan uzaklýðý ve bölgenin uçuþ yoðunluðu olarak belirlenmiþ ve bu faktörler ýþýðýnda aday noktalarý tespit edilmiþtir [17]. 
+Coðrafi açýdan istasyon konuþlandýrmaya yeterli büyüklükte bir alana sahip olmasý, karayolu þebekesi ile baðlantýsý olmasý, AK personelinin hayatýný uygun þartlarda o bölgeden ayrýlmadan devam ettirebilmesi ve emniyet açýsýndan ilave tedbirlere ihtiyaç duymadan kendi kendine yeterli olmasý gibi hususlarda aday noktalarýnýn belirlenmesinde göz önüne alýnmýþtýr. 
+AKB için potansiyel AK istasyonlarýnýn yerlerini temsil eden 145 adet aday noktasý tespit edilmiþtir. Tespit edilen aday noktalarýÞekil 1’de gösteril­mektedir. Þekil 1 incelendiðinde bazý bölgelerde aday 
+
+
+Þekil 1. Aday noktalarýnýn bölgesel gösterimi 
+noktalarýnda yoðunlaþma görülmektedir. Bunun nedeni; uçuþ yoðunluðunun ve kaza riskinin bu bölgelerde fazla olmasýdýr.. 
+
+2.2. Talep Noktalarý 
+Talep noktalarýný belirlerken dikkat edilen en önemli nokta taleplerin bütün AKB’ni temsil etmesidir. Talep noktalarý, istasyonlarýn kaplama alanlarýnýbelirleyecektir. Bu yüzden talep noktalarýnýn daðýlýmýbütün bölgeyi kaplayacak þekilde düzenlenmelidir. Bir diðer nokta da AKB içerisindeki kazalarýn bölgedeki daðýlýmýdýr. Aynýbölgede meydana gelen kazalar kabul edilebilir bir müdahale süresi içerisinde birleþtirilip tek bir talep noktasý olarak belirlenmiþtir. Çalýþmada, helikopter ile 10 dakikalýk mesafe süresi içerisinde olanlar birleþtirilmiþ ve tek bir talep noktasýolarak gösterilmiþtir. 
+Her talep noktasý potansiyel aday noktasýnýn kaplama alanýný belirler. Bu çalýþmada, talep noktalarý tespit edilirken, 1970 yýlýndan 2002 yýlýna kadar olan sürede meydana gelen kazalar dikkate alýnmýþ ve 128 adet talep noktasý belirlenmiþtir (15 adet talep noktasýdeniz AK bölgesindeki kazalarý temsil eden AKB dýþsýnýrlarýna yakýn noktalarda olacak þekilde sonradan ilave edilmiþtir). Tespit edilen talep noktalarýnýn yerleri Þekil 2’de gösterilmiþtir. 
+
+2.3. AK Araçlarý 
+AK operasyonlarý olaylara hýzlý ve etkin müdahaleyi gerektirir. Çok çeþitli araçlar arama kurtarma amaçlýdizayn edilip kullanýlabilir. Kullaným alaný en fazla olan hava araçlarýdýr. Sabit kanatlý hava araçlarý, denizde ve karada arama için en uygun vasýtalardýr. Sahip olduklarý hýz, teknik ve donaným sayesinde arama faaliyetlerini en etkin þekilde yerine getirebilirler. Kurtarma için ise iniþ için mutlaka bir piste ihtiyaç duymasý nedeniyle uygun deðildir. Bu nedenle arama ve kurtarmada helikopter kullanýlmasýoperasyon etkinliðini artýracaktýr. Bu çalýþmada kaplama alanlarýnýn belirlenmesi için seçilen helikopter, Sikorsky helikopteridir. 
+
+2.4. Kaplama Mesafesinin Belirlenmesi 
+Kaplama mesafesi helikopterlerin teknik özelliklerine baðlý olarak belirlenmektedir ve belirlenirken en önemli kriter helikopterlerin havada kalýþ süreleridir. Hava þartlarý, taþýnan yük miktarý, hýzýn fazla olmasýgibi nedenlerle helikopterlerin havada kalýþ süreleri deðiþmektedir. Bu etkinin modele yansýtýlabilmesi için kaplama mesafeleri normal ve olumsuz þartlar altýnda olmak üzere iki senaryo halinde incelenmiþtir. Ayrýca helikoptere teknik olarak ilave edilecek yakýt tanklarý ile alabileceði mesafeler de ayrý iki senaryo 
+
+
+Þekil 2. Talep noktalarýnýn bölgesel gösterimi 
+C. Gencer ve A. Açýkgöz Türk Silahlý Kuvvetleri Arama Kurtarma Timlerinin Yerleþiminin Yeniden Düzenlenmesi 
+halinde incelenmiþtir. Senaryolar oluþturulurken helikopterlerin istasyonlardan kalkýþ yaptýklarý, kaza bölgesine intikal ettikleri, arama kurtarma operasyonunu tamamlamayýmüteakiben tekrar AK istasyonuna dönüþ yaptýklarý varsayýmý ile hazýrlanmýþtýr. 
+Modelin çözümünde dört ana senaryo ve 2 özel durum göz önüne alýnmýþ ve her biri için çözümler elde edilmeye çalýþýlmýþtýr. 2 özel durum içinde de dört ana senaryo ayrýca incelenmiþtir. 
+AKB sýnýrlarý içerisinde, hava þartlarýna baðlý olarak ve helikopterin teknik özelliklerinden faydalanýlarak dört farklý senaryo üretilmiþtir: 
+• 
+Olumsuz þartlar altýnda 180 km kaplama mesafesi, 
+
+• 
+Normal þartlar altýnda 250 km kaplama mesafesi, 
+
+• 
+Ýlave yakýt tanklý olumsuz þartlar altýnda 350 km kaplama mesafesi, 
+
+• 
+Ýlave yakýt tanklý normal þartlar altýnda 380 km kaplama mesafesi. 
+
+
+Ýlk senaryoda; alýnan yük, taþýnan personel miktarý ve hava þartlarýndaki olumsuzluklar düþünülerek kaplama mesafesi 180 km olarak alýnmýþtýr. 
+Normal uçuþ koþullarý altýnda oluþturulan ikinci senaryoda ise; teknik talimnamelerin belirttiði þartlar altýnda yük ve personel taþýdýðý, hava þartlarýnýn da uçuþiçin uygun olduðu kabul edilerek kaplama mesafesi 250 km olarak alýnmýþtýr. 
+Üçüncü ve dördüncü senaryolarda ise ilave yakýt tanklarýnýn kullanýldýðý varsayýlmýþtýr. Ýlave yakýt tanklarý, helikopterlerin havada kalýþ süresini artýrmakta fakat taþýnacak yük ve personel sayýsýnda ise kýsýtlamaya gidilmesini zorunlu kýlmaktadýr. 
+Özel durumlar baþlýðý altýnda ise 2 özel durum deðerlendirilmektedir. Bunlardan birinde deniz AKB içerisindeki kazalarý temsil eden talepler eklenerek, bu taleplere göre ana senaryo tekrar çözülmüþtür. Diðer özel durum da ise, arama kurtarma istasyonlarýnýn bölgeler arasýndaki daðýlýmýnýn düzenlenmesi amaçlanmaktadýr. Her coðrafi bölgede en az bir AK istasyonunun olmasýný saðlayacak kýsýtlar ilave edilmiþ ve dört ana senaryo için model yeniden çözülmüþtür. 
+
+2.5. Bölgesel Özellikler 
+Bölgeler arasýndaki farklýlýklarýn modele yansýtýlabilmesi için bölgesel karakteristik deðerler kullanýlmýþtýr. Her bölgenin kendine özgü bölgesel özellikleri mevcuttur. Bütün aday noktalarýnýn aynýkabul edilmesi modelin gerçekçiliðini ortadan kaldýracaktýr. Aday noktalara ait bu deðerler bu noktalar hakkýnda daha saðlýklý deðerlendirme yapmaya imkan vermekte ve bunlar ile ilgili beklentileri modelin kýsýtlarýnda belirtmek suretiyle karar vericinin daha iyi aday noktalarýný seçmesine imkan saðlayacaktýr. Bunun için belirlenen kriterler konunun uzmanlarý ile görüþülüp teknik talimnamelerden faydalanýlarak belirlenmiþtir. Bu kriterler; aday noktasýnýn iklim þartlarý, ikmal noktasýna olan uzaklýðý ve uçuþ yoðunluðu olarak belirlenmiþtir. Her bölgesel karakteristiðin eþit öneme sahip olduðu varsayýlmýþ ve aday noktalarýna her bölgesel karakteristik için 1 ile 10 arasýnda deðerler verilmiþtir. 
+Ýklim þartlarý deðerlendirmesi yapýlýrken, aday noktalarýnýn bulunduðu il veya ilçenin, AK istasyonu tesis etmeye uygunluk derecesi tespit edilmeye çalýþýlmýþtýr. Ýklim þartlarý deðerlendirilmesi içerisinde; bölgenin coðrafi yapýsý ile mevsimsel ýsýfarklýlýklarý dikkate alýnmýþtýr. Ayrýca; yýlýn kaç günü hava þartlarýnýn uçuþa elveriþli olduðu da tespit edilerek buna göre de derecelendirme yapýlmýþtýr. Ýklim þartlarýnýn diðer aday noktalara nispeten daha iyi olduðu deðerlendirilen noktalara 10; en iyi olan aday noktaya nispeten daha kötü olan aday noktalara ise 1 ile 9 arasýnda deðerler verilmiþtir. Bu derecelendirme uzmanlar tarafýndan yapýlmýþtýr. 
+Ýkmal noktasýna yakýnlýk kriterinde, aday noktanýn belirlendiði yere ana karayolu ile en yakýn lojistik destek saðlayabilecek olan ana üslere yakýnlýðýdikkate alýnmýþtýr. Herhangi bir ikmal noktasýna belirlenen mesafe içerisinde en uzak olan aday nokta 1; en yakýn olan aday nokta ise 10 ile derecelendirilmiþtir. Derecelendirmeler Tablo 1’de verilmektedir. 
+Tablo 1. Ýkmal noktasýna yakýnlýk kriteri 
+Mesafe (km)  Puan  
+0-40  10  
+41-80  9  
+81-120  8  
+121-160  7  
+161-200  6  
+201-240  5  
+241-280  4  
+281-320  3  
+321-360  2  
+361 ve yukarýsý  1  
+
+Uçuþ yoðunluðu kriteri; Devlet Hava MeydanlarýÝþletmesi’nin (DHMÝ) 2000-2002 yýllarý arsýndaki il bazýnda uçuþlarý ve askeri uçuþlar ile ilgili bilgilerin birleþtirilmesinden ortaya çýkarýlmýþtýr. Uçuþyoðunluðu fazla olan bölgelerde, kaza riskinin daha fazla olduðu deðerlendirilmiþtir. Buna göre uçuþyoðunluðu açýsýndan en yoðun olan aday nokta 10; en düþük olan aday nokta ise 1 ile derecelendirilmiþtir. Derecelendirmeler Tablo 2’de verilmektedir. Bölgesel karakteristiklere ait deðerler Ek’te verilmektedir. 
+
+Tablo 2. Uçuþ yoðunluðu kriteri 
+Uçuþ Sayýsý (yýllýk)  Puan  
+1451 ve yukarýsý  10  
+1301-1450  9  
+1151-1300  8  
+1001-1150  7  
+851-1000  6  
+701-850  5  
+551-700  4  
+401-550  3  
+251-400  2  
+200 ve daha az  1  
+
+
+2.6. Modelin Varsayýmlarý
+Modelin varsayýmlarý aþaðýdadýr: 
+• 
+Bütün arama kurtarma istasyonlarý ayný imkan ve kabiliyetlere sahiptir, 
+
+• 
+Mevcut AK istasyonlarý problemin çözümünde modele dahil edilmiþtir, 
+
+• 
+AK istasyonlarý AKB içerisinde herhangi bir bölgeye yerleþtirilebilir, 
+
+• 
+Sonlu sayýda aday nokta mevcuttur, 
+
+• 
+Her talep noktasýnýn en az bir aday noktasýtarafýndan kaplanmasý saðlanmýþtýr, 
+
+• 
+Maliyet hesabý modele dahil edilmemiþtir. 
+
+
+
+2.7. Modelin Matematiksel Ýfadesi 
+Genel matematiksel model aþaðýdadýr: max Z =.zi  (1) 
+i.I 
+.xj zi .0 .i.I  (2) 
+j.Ni 
+.xj =p .j.J  (3) j.J 
+.Ijxj -Ai .xj .0j.J  (4) 
+.Ujx j -Au .xj .0j.J  (5) 
+.Yjx j -Ay .xj .0j.J  (6) 
+k.xj .1j.J  (7) j=1 
+m.xj .1j.J  (8) 
+j=k+1 
+n
+.xj .1j.J  (9) 
+j=m+1 
+r
+.xj .1j.J  (10) 
+j=n+1 
+s.xj .1j.J  (11) j=r+1 
+t.xj .1j.J  (12) j=s+1 
+xj ,zi .{0,1}.i.I, j.J  (13) 
+Burada; 
+
+i = Talep noktalarý, j = Muhtemel hizmet merkezi noktalarý, 
+hi = i düðümündeki kaplanan talep noktasýnýn aðýrlýðý
+(önem derecesi), 
+dij = i talep noktasý ile j aday noktasý arasýndaki
+mesafe,p = Kurulacak hizmet merkezi sayýsý, 
+Ni = {dij .Dc }= i talep noktasýna D mesafesinden 
+c
+daha yakýn I aday noktalar kümesi, k = 1 nci bölge toplam aday noktalarý sayýsý, m = 2 nci bölge toplam aday noktalarý sayýsý, n = 3 ncü bölge toplam aday noktalarý sayýsý, r = 4 ncü bölge toplam aday noktalarý sayýsý, s = 5 nci bölge toplam aday noktalarý sayýsý, t = 6 nci bölge toplam aday noktalarý sayýsý, 
+Ai = Ýklim þartlarýný uygunluk standardýný saðlamak için maksimum ortalama deðer, 
+Au = Uçuþ yoðunluðu standardýný saðlamak için minimum ortalama deðer,
+Ay = Ýkmal noktasýn a yakýnlýk standardýný saðlamak 
+için minimum ortalama deðer, Ij = j aday noktasýnýn iklim þartlarýna uygunluk
+deðeri,Uj = j aday noktasýnýn uçuþ yoðunluðuna uygunluk
+deðeri,Yj = j aday noktasýnýn ikmal noktasýna yakýnlýk 
+deðeri.
+Karar deðiþkenleri: 
+.1, eger i talep noktasýkaplandýise, 
+zi =. 
+.0, degil ise 
+Xj = ..1, eðer hizmet merkezi j açýlacak  ise, 
+.0, degil ise 
+Amaç fonksiyonu (1), belirlenen kaplama mesafesi içerisinde kaplanan toplam talep miktarýný en fazla yapmaya çalýþmaktadýr. 
+Kýsýt (2), hangi talep noktasýnýn hangi hizmet merkezi tarafýndan kabul edilebilir hizmet mesafesi içerisinde kaplanacaðýný belirler. Yani i noktasýnýn S kaplama alaný içindeki herhangi bir j noktasýnda arama kurtarma istasyonu yerleþtirilir ise i noktasýkaplanmýþ; zi =1; eðer kaplama alaný içerisindeki 
+hiçbir noktaya arama kurtarma istasyonu yerleþtirilemez ise, i noktasý kaplanmamýþzi =0 deðerini alacaktýr. 
+
+C. Gencer ve A. Açýkgöz Türk Silahlý Kuvvetleri Arama Kurtarma Timlerinin Yerleþiminin Yeniden Düzenlenmesi 
+Kýsýt (3) ile yerleþtirilecek arama kurtarma istasyonu sayýsý helikopter sayýsý ile sýnýrlanmýþtýr. Yani tam p tane helikopter için çözüm aranmaktadýr. 
+(4), (5) ve (6)’ncý kýsýtlar ise aday noktalarý ile ilgili bölgesel karakteristik deðerler (iklim þartlarý, ikmal noktasýna yakýnlýk ve uçuþ yoðunluðu) ile ilgili kýsýtlardýr. Ýkmal noktasýna yakýnlýk ve uçuþyoðunluðu ile ilgili kýsýtlarda belirlenen sýnýr deðerden büyük olan aday noktalarýnýn seçimi; iklim þartlarý ile ilgili kýsýtta ise belirlenen sýnýr deðerden küçük olan aday noktalarýnýn seçimi amaçlanmýþtýr. 
+(5)
+ ve (6) kýsýtlarda aday noktalarýnýn seçilebilmesi için en yüksek puaný olan noktalar tercih edilirken kýsýt (4) de ise en düþük olan noktalar tercih edilmektedir. Bunun nedeni ise iklim þartlarýnýn kötü olduðu deðerlendirilen noktalarda kaza olma riski fazladýr. Bu yüzden bu noktalarda istasyon açýlmasýuygun olacaktýr. Aý, Au ve Ay deðerleri, uzmanlar tarafýndan yapýlan deðerlendirmelerin aritmetik ortalamasý alýnarak elde edilmiþtir. Uzmanlar tarafýndan verilen deðerler Ek’te verilmektedir. 
+
+Özel durum 2’de incelenen, her bölgede mutlaka bir istasyon olmasýný saðlayacak olan (7), (.8), (9), (10), 
+
+(11) 
+ve (12)’nci kýsýtlardýr. Bu kýsýtýn modele ilave edilmesindeki neden ise kaplama mesafesi büyüdükçe bölgeler arasý açýlan istasyonlarýn daðýlýmýnýn düzenlenmek istenmesidir. 380 km’lik senaryolarda açýlan istasyon sayýsý 2’ye kadar düþebilmektedir. Bu ise olay yerine intikal edecek birliðin intikal zamanýnýartýrmaktadýr. Açýlacak istasyon sayýsýný her bölgede en az bir tane olacak þekilde düzenlenmiþtir. 
+
+(13) 
+kýsýt karar deðiþkenleri ile ilgili kýsýttýr. Kaplanan talep noktalarý (z) için i deðeri 1 ve açýlan istasyon (x) için j deðeri 1 olmaktadýr. 
+
+
+Çalýþmadaki matematiksel model, belirli bir kaplama mesafesi içersinde kaplanan talep sayýsýný en fazla yapmayý amaçlamaktadýr ve modelin çözümü, kaplama mesafesine göre ne kadar talep noktasýnýn kaplanacaðýný ve hangi aday noktalarýnýn seçileceðini göstermektedir. 
+
+3. ÇÖZÜM AÞAMALARI 
+Modelin çözümünde ilk önce, AKB sýnýrlarýiçerisinde, helikopterin teknik özelliklerinden faydalanýlarak dört farklý senaryo üretilmiþtir: 
+• 
+Olumsuz þartlar altýnda 180 km kaplama mesafesi, 
+
+• 
+Normal þartlar altýnda 250 km kaplama mesafesi, 
+
+• 
+Ýlave yakýt tanklý olumsuz þartlar altýnda 350 km kaplama mesafesi, 
+
+• 
+Ýlave yakýt tanklý normal þartlar altýnda 380 km kaplama mesafesi. 
+
+
+Özel durumlar baþlýðý altýnda ise 2 özel durum deðerlendirilmektedir. Bunlardan birinde deniz AKB içerisindeki kazalarý temsil eden talepler eklenerek, bu taleplere göre ana senaryo tekrar çözülmüþtür. Diðer özel durum da ise, arama kurtarma istasyonlarýnýn bölgeler arasýndaki daðýlýmýnýn düzenlenmesi amaçlanmaktadýr. Her coðrafi bölgede en az bir AK istasyonunun olmasýný saðlayacak kýsýtlar ilave edilmiþ ve dört ana senaryo için model yeniden çözülmüþtür. 
+Oluþturulan her senaryonun çözümüne AKB içerisine konuþlandýrýlabilecek en az bir adet AK istasyonu ile baþlanmýþ, bu sayý % 100 kaplama saðlanýncaya kadar birer artýrýlmýþtýr. Böylece her senaryoda tüm talep noktalarýnýn kaplanmasý (% 100 kaplama) için olmasýgereken helikopter sayýsý da belirlenmiþ olmaktadýr. Modellerin çözümünde LINGO 4.0 paket programýkullanýlarak her senaryo için sonuçlar elde edilmiþtir. Senaryolara iliþkin çözümler Tablo 3-6’da verilmektedir. 
+AKB incelendiðinde sýnýrlarý içerisinde deniz AKB’de olduðu dikkat çekmektedir. Ancak kaza istatistikleri içerisinde deniz kazalarý yer almadýðýndan ilk dört 
+
+Tablo 3. Olumsuz þartlar altýnda 180 km kaplama mesafesi çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+6  581  92  24, 55, 84, 95, 111, 137  81.41  
+7  713  98  24, 48, 84, 94, 106, 111, 137  86.72  
+8  888  104  24, 53, 70, 84, 108, 110, 131, 139  92.03  
+9  861  109  24, 53, 83, 94, 103, 108, 110, 131, 39  96.46  
+10  711  112  24, 42, 83, 94, 103, 108, 110, 125, 131, 141  99.11  
+11  1433  113  24, 49, 54, 83, 94, 103, 108, 110, 125, 131, 141  100.00  
+
+Tablo 4. Normal þartlar altýnda 250 km kaplama mesafesi çözüm sonuçlarýTablo 6. Ýlave yakýt tanklý normal þartlarda 380 km kaplama mesafesi çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+4  641  99  29, 65, 89, 114  87.61  
+5  475  109  26, 70, 106, 110, 125  96.46  
+6  899  112  24, 45, 89, 97, 114, 125  99.11  
+7  708  113  30, 54, 59, 90, 108, 114, 125  100.00  
+
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+1  261  65  61  57.52  
+2  204  107  61, 116  94.69  
+3  644  113  56, 88, 116  100.00  
+
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+1  234  72  84  74.33  
+2  388  113  71, 116  100.00  
+
+senaryoda sadece kara talep noktalarý için çözüm noktasý sayýsý 15 tanedir. Bu noktalarýn yerleri aranmýþtýr. Gelecekte deniz içerisinde de kazalarýn AKB’nin tamamýný kaplamaya yönelik olarak olabileceði düþünülerek hayali, AKB sýnýrlarýna yakýn belirlenmiþtir. Ýlave edilen talepler ile birlikte talep noktalarý belirlenerek Özel Durum 1 kaplanmasý istenilen talep sayýsý (113 kara + 15 deniz) oluþturulmuþtur. Deniz içinde ilave edilen talep 128 olmuþtur. Bu özel durum dört ana senaryoya ayrý
+Tablo 7. Özel durum 1- Olumsuz þartlarda 180 km kaplama mesafesi için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+10  1802  118  13, 17, 52, 85, 94, 99, 104, 112, 125, 131  92.18  
+11  13624  121  24, 35, 62, 70, 84, 98, 106, 114, 119, 126, 133  94.53  
+12  13878  123  14, 19, 35, 64, 72, 90, 98, 106, 114, 119, 126, 133  96.09  
+13  3734  126  14, 20, 35, 62, 72, 90, 97, 98, 106, 114, 118, 126, 133  98.84  
+14  2190  127  13, 16, 36, 62, 74, 78, 97, 100, 101, 105, 117, 120, 126, 133  99.21  
+15  438  128  16, 23, 35, 59, 62, 78, 95, 97, 100, 101, 106, 117, 120, 126, 133  100.00  
+
+Tablo 8. Özel durum 1- Normal þartlarda 250 km kaplama mesafesi için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý  Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+4  736  105  14, 66, 84, 144  82.03  
+5  687  116  14, 66, 83, 111, 125  90.62  
+6  2065  122  14, 66, 78, 98, 114, 125  95.31  
+7  1139  127  14, 52, 81, 97, 103, 114, 125  99.21  
+8  676  128  14, 66, 81, 89, 99, 114, 118, 125  100.00  
+
+Tablo 9. Özel durum 1- Olumsuz þartlarda 350 km kaplama mesafesi için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný(%)  
+1  289  66  61  51.56  
+2  366  111  59, 114  86.71  
+3  490  125  55, 85, 116  97.65  
+4  1301  128  21, 53, 97, 139  100.00  
+
+Tablo 10. Özel durum 1- Normal þartlarda 380 km kaplama mesafesi için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný(%)  
+1  328  77  61  60.15  
+2  437  124  71, 116  96.87  
+3  670  128  22, 69, 116  100.00  
+
+C. Gencer ve A. Açýkgöz Türk Silahlý Kuvvetleri Arama Kurtarma Timlerinin Yerleþiminin Yeniden Düzenlenmesi 
+ayrý ilave edilmiþtir. Özel durum 1’in çözümleri Tablo 7-10’da verilmektedir. Ana senaryonun çözümü incelendiðinde açýlan Tablo 7-10’daki çözüm sonuçlarýnýn incelendiðinde, istasyonlarýn coðrafi bölgelerde daðýnýk olduðu talep noktalarý sayýsýnýn 113 den 128’e çýkarýlmasýnýn görülmektedir. Bazý bölgelerde daha fazla bazýistasyon sayýsýnda deðiþiklik yaptýðý gözlemlen-bölgelerde ise daha az istasyon açýlmýþtýr. Açýlan mektedir. Bu deðiþimin grafiksel karþýlaþtýrýlmalarýistasyonlarýn talep noktalarýna müdahalelerinin Þekil 3-6’da verilmektedir. mesafe olarak incelendiðinde bazýlarýnýn uzak olduðu 
+
+Kaplanan Talep Sayýsý
+120 100 80 60 40 20 0 
+
+
+
+
+5 6 7 8 9 10 11 12 13 14 15 
+Ýstasyon Sayýsý(P) 
+Þekil 3. Özel durum 1-180 km kaplama mesafesi için kaplanan talep sayýsýnýn istasyon sayýsý ile grafiksel karþýlaþtýrýlmasý
+120 100 80 60 40 20 0 
+
+Þekil 4. Özel durum 1-250 km kaplama mesafesi için kaplanan talep sayýsýnýn istasyon 
+
+sayýsý ile grafiksel karþýlaþtýrýlmasý
+113-Amaç Fnks 
+128-Amaç Fnks 
+
+
+140 
+120 100 80 60 40 20 0 
+
+Þekil 5. Özel durum 1-350 km kaplama mesafesi için kaplanan talep sayýsýnýn istasyon 
+
+Kaplanan Talep Sayýsý
+sayýsý ile grafiksel karþýlaþtýrýlmasý
+
+120 100 80 60 40 20 
+0 
+
+
+Þekil 6. Özel durum 1-380 km kaplama mesafesi için kaplanan talep sayýsýnýn istasyon sayýsý ile grafiksel karþýlaþtýrýlmasý
+30
+deðerlendirilebilir. Bu nedenle kazalara daha hýzlý ve 
+j1 
+.=59 
+xj .1  (1’inci bölge kýsýdý)kýsa zamanda müdahale edebilmek için belirlenen her 
+coðrafi bölgede en az bir istasyonun kurulmasýistenebilir. Bu amaçla Özel Durum 2 düþünülmüþtür.
+
+.=
+Bu özel durumu saðlayabilmek için; AKB, Marmara j8731 xj .1  (2’nci bölge kýsýdý) 
+Bölgesi, Ege Bölgesi, Akdeniz Bölgesi’nin batýsý -Ýç
+
+
+
+
+
+
+
+
+
+
+
+
+.= .= 
+
+j 60 109 
+j 88 127 
+xj .1 (3’üncü bölge kýsýdý)Anadolu Bölgesi’nin batý ve orta kesimi - Batý
+
+Karadeniz Bölgesi, Orta Karadeniz Bölgesi - Ýç 
+Anadolu Bölgesi’nin doðusu - Akdeniz Bölgesi, 
+Güneydoðu Anadolu Bölgesi ve Doðu Anadolu j .1 (4’üncü bölge kýsýdý)
+x 
+
+Bölgesi olmak üzere altý bölgeye ayrýlmýþtýr. 
+Özel durum 
+2 için dört ana senaryo ayrý ayrý
+
+çözülmüþtür. Ayrýca dört ana senaryoya özel durum 1 de ilave edilmiþtir. Özel durum 2 için, özel durum 
+. =. =
+
+j 109 145 
+xj .1  (6’ncý bölge kýsýdý) xj .1  (5’inci bölge kýsýdý) 
+
+1’in matematiksel modeline ilave edilen kýsýtlar j 128 
+aþaðýdadýr: 113 ve 128 talep noktalýmodellerin çözümünden elde Tablo 11. Özel durum 2- 250 km kaplama mesafesi 113 talep noktasý için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+5  Çözümsüz  
+6  1072  111  30, 54, 85, 99, 126, 141  86.71  
+7  680  113  23, 54, 61, 99, 106, 126, 141  100.00  
+
+Tablo 12. Özel durum 2- 250 km kaplama mesafesi 128 talep noktasý için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+5  Çözümsüz  
+6  658  121  14, 46, 82, 97, 114, 140  94.53  
+7  8890  125  18, 35, 66, 90, 98, 125, 141  97.65  
+8  1063  128  14, 52, 79, 97, 106, 114, 128, 140  100.00  
+
+Tablo 13. Özel durum 2- 180 km kaplama mesafesi 113 talep noktasý için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+5  Çözümsüz  
+6  683  92  24, 52, 83, 108, 110, 137  81.41  
+7  442  98  24, 48, 84, 95, 106, 111, 137  86.72  
+8  1208  104  24, 42, 70, 84, 108, 110, 131, 139  92.03  
+9  1080  109  24, 53, 65, 83, 103, 108, 110,131, 139  96.64  
+10  584  112  24, 42, 84, 95, 103, 108, 110, 125, 131 141  99.11  
+11  1577  113  24, 44, 54, 83, 95, 103, 108, 110, 125, 131, 141  100.00  
+
+C. Gencer ve A. Açýkgöz Türk Silahlý Kuvvetleri Arama Kurtarma Timlerinin Yerleþiminin Yeniden Düzenlenmesi Tablo 14. Özel durum 2- 180 km kaplama mesafesi 128 talep noktasý için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+5  Çözümsüz  
+6  664  94  15, 37, 85, 94, 111, 137  73.43  
+7  780  101  26, 35, 67, 85, 108, 110, 137  78.90  
+8  567  108  6, 41, 70, 85, 108, 110, 118, 137  84.37  
+9  1819  113  16, 35, 62, 70, 85, 108, 110, 119, 137  88.28  
+10  1685  118  13, 18, 52, 85, 95, 99, 104, 125, 131, 145  92.18  
+11  14031  121  24, 35, 62, 70, 84, 98, 106, 114, 119, 120 133  94.53  
+12  14430  123  14, 20, 35, 64, 72, 90, 98, 106, 114, 118, 126, 133  96.09  
+13  4518  126  14, 20, 35, 62, 72, 90, 97, 98, 106, 114, 118, 126, 133  98.43  
+14  2453  127  13, 16, 36, 62, 72, 78, 97, 100, 101, 105, 117, 120, 126, 133  99.21  
+15  724  128  13, 17, 42, 62, 73, 78, 90, 97, 98, 106, 114, 118, 123, 128, 133  100.00  
+
+Tablo 15. Özel durum 2- 350 km kaplama mesafesi 113 talep noktasý için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+5  Çözümsüz  
+6  248  113  12, 59, 61, 107, 115, 136  100.00  
+
+Tablo 16. Özel durum 2- 350 km kaplama mesafesi 128 talep noktasý için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+5  Çözümsüz  
+6  354  128  15, 53, 82, 108, 116, 139  100.00  
+
+Tablo 17. Özel durum 2- 380 km kaplama mesafesi 113 talep noktasý için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+5  Çözümsüz  
+6  182  113  16, 56, 74, 89, 115, 140  100.00  
+
+Tablo 18. Özel durum 2- 380 km kaplama mesafesi 128 talep noktasý için çözüm sonuçlarý
+Ýstasyon Sayýsý (P)  Ýterasyon Sayýsý Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+5  Çözümsüz  
+6  372  128  20, 53, 76, 95, 119, 133  100.00  
+
+edilen sonuçlar Tablo 11-18’de görülmektedir. Ýstasyonlarýn sayýsý ile kaplama yüzdesinin nasýl Özel durum 2 için talep noktalarý sayýsýnýn 113 den deðiþtiðinin analizlerinin, grafik üzerinde gösterimi 128’e çýkarýlmasýnýn istasyon sayýsýndaki deðiþimin Þekil 7-14’de verilmektedir. grafiksel karþýlaþtýrýlmalarýÞekil 3-6’da verilmektedir. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+Kaplanan Talep Sayýsý
+
+120  
+100  
+80  
+60  
+40  
+20  
+0  
+5  6  7  8  9  10  11  12  13  14  15  
+Ýstasyon Sayýsý (P)  
+
+Þekil 7. 180 km kaplama mesafeli; özel durum 1’li ve özel durum 2’li talep noktalarýyla açýlan istasyon sayýlarýnýn grafiksel karþýlaþtýrmasý
+113-Amaç Fnks 128-Amaç Fnks 113-Amaç Fnks 128-Amaç Fnks 
+140 
+
+
+120 100 80 60 40 20 0 
+
+45 678 
+Ýstasyon Sayýsý(P) 
+Þekil 8. 250 km kaplama mesafeli; özel durum 1’li ve özel durum 2’li talep noktalarýyla açýlan istasyon sayýlarýnýn grafiksel karþýlaþtýrmasý
+
+113-Amaç Fnks 128-Amaç Fnks 113-Amaç Fnks 128-Amaç Fnks 
+140 
+Kaplanan Talep Sayýsý
+120 100 80 60 40 20 0 
+
+
+Þekil 9. 350 km kaplama mesafeli; özel durum 1’li ve özel durum 2’li talep noktalarýyla açýlan istasyon sayýlarýnýn grafiksel karþýlaþtýrmasý
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+C. Gencer ve A. Açýkgöz Türk Silahlý Kuvvetleri Arama Kurtarma Timlerinin Yerleþiminin Yeniden Düzenlenmesi 
+140 120 100 80 60 40 20 0 
+
+
+
+Kaplanan Talep Sayýsý
+
+
+4 5 6 7 8 9 101112 1314 151617 181920 Ýstasyon Sayýsý (P) 
+
+
+Þekil 12. 250- kaplama alaný için bölgesel karakteristik deðerlerin deðiþiminin grafiksel gösterimi 
+140 
+Kaplanan Talep Sayýsý
+120 100 80 60 40 20 
+
+0 12345678 
+
+
+Ýstasyon Saysý (P) 
+
+Þekil 13. 350- kaplama alaný için bölgesel karakteristik deðerlerin deðiþiminin grafiksel gösterimi 
+140 
+Kaplanan Talep Sayýsý
+120 100 80 60 40 20 
+
+0 123456 78 
+
+
+Ýstasyon Saysý (P) 
+
+Þekil 14. 380- kaplama alaný için bölgesel karakteristik deðerlerin deðiþiminin grafiksel gösterimi 
+% 100 kaplama için senaryolarýn tamamýna iliþkin çözüm sonuçlarý ise Tablo 19’da görülmektedir. 
+Tablo 19. incelendiðinde, konuþlandýrýlmasý gerekli bulunan bazý aday noktalarda farklý kuvvetler tarafýndan ayrý ayrý istasyon açýldýðý görülmektedir. Örneðin 15, 16 ve 17’nci aday noktalarý ayný il sýnýrlarý içerisinde olan aday noktalardýr. Bu noktalar mevcut durumda hem Kara Kuvvetleri Komutanlýðýhem de Hava kuvvetleri Komutanlýðý tarafýndan ayrýayrý istasyon teþkil edilen noktalardýr. Bunun yerine tek bir kuvvetin istasyon açmasýnýn yeterli olacaðýdeðerlendirilmektedir. Konuþlandýrýlan her yeni istasyon maliyetleri artýrmaktadýr. Buradan yapýlacak tasarruf ile baþka noktalarda yeni istasyonlar teþkil edilebilir. 
+Bu modelin gerçek durumu yansýtabilmesi kýsýtlarýn oluþturulmasýnda yararlanýlan verilerin doðruluðu ile yakýndan ilgilidir. Senaryolarýn çözümleri incelendiðinde sonuçlarýn tatmin edici bir seviyede olduðu görülmektedir. Elde edilen sonuçlardan bazýlarýmevcut duruma uygun olmakla birlikte, %100 kaplama için bazý istasyonlarýnýn yerlerinin deðiþtirilmesi ve bazý istasyonlarýnda kapatýlmasýgerektiði görülmektedir. 
+4. PARAMETRÝK ANALÝZ 
+TSK AK istasyonlarýnýn yerleþtirilmesi modelinin optimal çözümü elde edildikten sonra, modelin saðtaraf deðerlerinden olan; AK istasyon sayýsý ile bölgesel karakteristik deðerlerinin deðiþimi analiz edilmiþtir. Parametrik analiz, 4 ana senaryo ve özel durum 1’i içerdiðinden sadece özel durum 2 için yapýlmýþtýr. 
+C. Gencer ve A. Açýkgöz Türk Silahlý Kuvvetleri Arama Kurtarma Timlerinin Yerleþiminin Yeniden Düzenlenmesi Tablo 19. Tüm senaryolarýn çözümleri 
+Senaryo  Ýstasyon Sayýsý (P)  Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+Ana Senaryolar  180 km  11  113  24, 49, 54, 83, 94, 103, 110, 125, 131, 141  100.00  
+250 km  7  113  30, 54, 59, 90, 108, 114, 125  100.00  
+350 km  3  113  56, 116  100.00  
+380 km  2  113  71, 116  100.00  
+Özel Durum 1  180 km  15  128  16, 23, 35, 59, 62, 78, 95, 97, 100, 101, 106, 117, 120, 126, 133  100.00  
+250 km  8  128  14, 66, 81, 89, 99, 114, 118, 125  100.00  
+350 km  4  128  21, 53, 97, 139  100.00  
+380 km  3  128  22, 69, 116  100.00  
+Özel Durum 2  180 km  11  113  24, 44, 54, 83, 95, 103, 108, 110, 125, 131, 141  100.00  
+180 km  15  128  13, 17, 42, 62, 73, 78, 90, 97, 98, 106, 114, 118, 123, 128, 133  100.00  
+250 km  7  113  23, 54, 61, 99, 106, 126, 141  100.00  
+250 km  8  128  15, 33, 48, 79, 84, 97, 104, 115, 121, 130  100.00  
+350 km  6  113  12, 59, 61, 107, 115, 136  100.00  
+350 km  6  128  15, 53, 82, 108, 116, 139  100.00  
+380 km  6  113  16, 56, 74, 89, 115, 140  100.00  
+380 km  6  128  20, 53, 76, 95, 119, 133  100.00  
+
+4.1. Tam Kaplama Saðlandýktan Sonra AK Ýstasyon Sayýsý Analizi 
+Tam kaplama saðlandýktan sonra, dört ana senaryo için talep sayýsýnýn 113 ve 128 olduðu durumlarda tesis edilmesi istenilen AK istasyon sayýsý birer artýrýlmýþtýr. Konuþlandýrýlan istasyonlarýn deðiþimini Tablo 20’de görülmektedir. 
+Tablo 20. incelendiðinde, tam kaplama saðlandýktan sonra bütün senaryolar için tesis edilmesi istenilen AK istasyon sayýsý birer artýrýlmasýnýn, kaplanan talep sayýsý açýsýndan bir deðiþiklik yaratmadýðý ve kaplama oranýn deðiþtirmediði görülmektedir. Tablodaki tek deðiþiklik konuþlandýrýlan istasyonlarýn farklýlýðýnda görülmektedir. Konuþlandýrýlan her yeni istasyon, bir önceki tam kaplamada konuþlandýrýlan AK istasyonlarýnýn yerlerini deðiþtirdiði gözlemlenmiþtir.  
+Bölgesel karakteristik deðerlere ait kýsýtlar (4, 5, 6 kýsýtlarý) modelden çýkartýlarak farklý istasyon sayýlarýiçin problem tekrar analiz edilmiþtir. Elde edilen sonuçlar Tablo 21’de görülmektedir. 
+Tablo 21’de, ayný senaryo ve ayný istasyon sayýsýnda, ilk satýr modeldeki 4_5_6 kýsýtlarý varken elde edilen çözümleri; ikinci satýr, kýsýtlar çýkarýldýðýnda elde edilen sonuçlarý göstermektedir. Tablo 21. 
+incelendiðinde kýsýtlarýn olduðu ve olmadýðýdurumlarda kaplanan talep sayýsýnýn ve kaplama oranýnýn deðiþmediði, sadece açýlan istasyonlarýn yerlerinin deðiþtiði; yani, tam kaplamadan sonra açýlan istasyonlarýn ayný olmadýðý görülmektedir. 
+4.2. Bölgesel Karakteristik Deðerlerinin Analizi 
+Çalýþmada uzman görüþleri ile seçilen aday noktalarýnýn; ikmal noktasýna yakýnlýk ve uçuþyoðunluðu kriterleri için her bölgesel karakteristik deðer ortalamasýnýn, belirlenen aday noktalarýnýn bölgesel karakteristik deðerleri ortalamasýndan büyük; iklim þartlarý için ise küçük olmasý istenmiþtir. 
+Ýklim þartlarý ile ilgili kriterin deðeri (7.04’den) 4’e kadar düþürülmüþ, ikmal noktasýna yakýnlýk (7.2’den) ve uçuþ yoðunluðu ile ilgili kriterler (6.013’den) ise en yüksek deðer olan 10’a kadar yükseltilmiþtir. Bölgesel karakteristik deðerlerin analizi Þekil 11­14’de grafiklerle verilmektedir. Grafikte görülen 6_8_8, 5_9_9, ve 4_10_10 ise orijinal deðerlerin artýrýlmasý veya azaltýlmasý ile elde edilen deðerlerdir. Örneðin, 6_8_8 ‘de 6 iklim þartlarýnýn 6’ya düþürülmesini; 8_8’de ikmal noktasýna yakýnlýk ve uçuþ yoðunluðu deðerlerinin 8’e yükseltilmelerini ifade etmektedir. 
+Senaryo  Ýstasyon Sayýsý (P)  Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+180 km  11  113  24, 44, 54, 83, 95, 103, 108, 110, 125, 131, 141  100.00  
+180 km  12  113  24, 43, 54, 61, 94, 101, 107, 108, 110, 117, 125, 131  100.00  
+180 km  13  113  15, 36, 61, 69, 84, 95, 108, 109, 110, 111, 117, 125, 131  100.00  
+180 km  15  128  13, 17, 42, 62, 73, 78, 90, 97, 98, 106, 114, 118, 123, 128, 133  100.00  
+180 km  16  128  13, 17, 38, 59, 62, 78, 90, 91, 94, 97, 99, 104, 120, 126, 133, 145  100.00  
+180 km  17  128  12, 16, 33, 53, 62, 78, 85, 91, 97, 98 103, 106, 112, 114, 118, 125, 131  100.00  
+250 km  7  113  23, 54, 61, 99, 106, 126, 141  100.00  
+250 km  8  113  30, 59, 68, 106, 108, 114, 125, 133  100.00  
+250 km  9  113  2, 56, 59, 74, 106, 108, 115, 125, 133  100.00  
+250 km  8  128  14, 52, 79, 97, 106, 114, 128, 140  100.00  
+250 km  9  128  14, 50, 70, 81, 88, 99, 118, 125, 141  100.00  
+250 km  10  128  15, 33, 48, 79, 84, 97, 104, 115, 121, 130  100.00  
+350 km  6  113  12, 59, 61, 107, 115, 136  100.00  
+350 km  7  113  23, 56, 61, 83, 89, 115, 134  100.00  
+350 km  8  113  13, 47, 61, 83, 109, 114, 115, 140  100.00  
+350 km  6  128  15, 53, 82, 108, 116, 139  100.00  
+350 km  7  128  30, 56, 65, 83, 89, 116, 145  100.00  
+350 km  8  128  29, 56, 66, 83, 89, 108, 116, 137  100.00  
+380 km  6  113  16, 56, 74, 89, 115, 140  100.00  
+380 km  7  113  23, 56, 60, 61, 89, 115, 132  100.00  
+380 km  8  113  53, 85, 93, 101, 115, 122, 126,133  100.00  
+380 km  6  128  20, 53, 76, 95, 119, 133  100.00  
+380 km  7  128  15, 56, 74, 89, 109, 115, 133  100.00  
+380 km  8  128  15, 61, 72, 83, 84, 115, 122, 123  100.00  
+
+Tablo 21. 4, 5, 6 Kýsýtlarý dahil ve çýkarýlarak elde edilen sonuçlar 
+Senaryo  Ýstasyon Sayýsý (P)  Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+180 km  11  113  24, 44, 54, 83, 95, 103, 108, 110, 125, 131, 141  100.00  
+180km  11  113  7, 41, 61, 70, 98, 101, 104, 107, 125, 131, 145  100.00  
+180 km  12  113  24, 43, 54, 61, 94, 101, 107, 108, 110, 117, 125, 131  100.00  
+180 km  12  113  7, 36, 67, 73, 79, 98, 103, 104, 106, 125, 131, 145  100.00  
+180 km  13  113  15, 36, 61, 69, 84, 95, 108, 109, 110, 111, 117, 125, 131  100.00  
+180km  13  113  24, 43, 67, 73, 79, 85, 95, 103, 108, 110, 117, 125, 131  100.00  
+180 km  15  128  13, 17, 42, 62, 73, 78, 90, 97, 98, 106, 114, 118, 123, 128, 133  100.00  
+180 km  15  128  5, 17, 35, 62, 72, 78, 90, 97, 98, 106, 110, 118, 126, 133, 140  100.00  
+180 km  16  128  13, 17, 38, 59, 62, 78, 90, 91, 94, 97, 99, 104, 120, 126, 133, 145  100.00  
+180 km  16  128  5, 16, 35, 62, 68, 78, 85, 97, 98, 103, 108, 110, 120, 126, 131, 141  
+180 km  17  128  12, 16, 33, 53, 62, 78, 85, 91, 97, 98, 103 106, 112, 114, 118, 125, 131  100.00  
+180 km  17  128  12, 19, 33, 40, 62, 68, 78, 90, 97, 98, 103, 108, 110, 117, 118, 125, 131  
+
+C. Gencer ve A. Açýkgöz Türk Silahlý Kuvvetleri Arama Kurtarma Timlerinin Yerleþiminin Yeniden Düzenlenmesi Tablo 21. (devam ediyor)
+Senaryo  Ýstasyon Sayýsý (P)  Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+250 km  7  113  23, 54, 61, 99, 106, 126, 141  100.00  
+250 km  7  113  25,31,71,99,106,125,133  100.00  
+250 km  8  113  30, 59, 68, 106, 108, 114, 125, 133  100.00  
+250 km  8  113  25, 37, 65, 79, 106, 110, 124, 137  100.00  
+250 km  9  113  2, 56, 59, 74, 106, 108, 115, 125, 133  100.00  
+250 km  9  113  25, 37, 61, 91, 96, 103, 111, 121, 131  100.00  
+250 km  8  128  14, 52, 79, 97, 106, 114, 128, 140  100.00  
+250 km  8  128  14, 51, 79, 97, 107, 118, 125, 144  100.00  
+250 km  9  128  14, 50, 70, 81, 88, 99, 118, 125, 141  100.00  
+250 km  9  128  5, 47, 58, 79, 97, 104, 120, 131, 145  100.00  
+250 km  10  128  15, 33, 48, 79, 84, 97, 104, 115, 121, 130  100.00  
+250 km  10  128  26, 33, 61, 68, 79, 96, 106, 110, 131, 140  100.00  
+350 km  6  113  12, 59, 61, 107, 115, 136  100.00  
+350 km  6  113  25, 31, 61, 91, 115, 140  100.00  
+350 km  7  113  23, 56, 61, 83, 89, 115, 134  100.00  
+350 km  7  113  19, 25, 31, 61, 91, 115, 139  100.00  
+350 km  8  113  13, 47, 61, 83, 109, 114, 115, 140  100.00  
+350 km  8  113  19, 25, 31, 37, 61, 91, 115, 139  100.00  
+350 km  6  128  15, 53, 82, 108, 116, 139  100.00  
+350 km  6  128  26, 33, 82, 96, 124, 141  100.00  
+350 km  7  128  30, 56, 65, 83, 89, 116, 145  100.00  
+350 km  7  128  26,40,61,65,103,110,131  100.00  
+350 km  8  128  29, 56, 66, 83, 89, 108, 116, 137  100.00  
+350 km  8  128  26, 33, 40, 47, 65, 103, 110, 131  100.00  
+380 km  6  113  16, 56, 74, 89, 115, 140  100.00  
+380 km  6  113  13, 19, 25, 95, 119, 129  100.00  
+380 km  7  113  23, 56, 60, 61, 89, 115, 132  100.00  
+380 km  7  113  7, 13, 19, 25, 31, 108, 121  100.00  
+380 km  8  113  53, 85, 93, 101, 115, 122, 126,133  100.00  
+380 km  8  113  7, 13, 19, 25, 31, 37, 108, 121  100.00  
+380 km  6  128  20, 53, 76, 95, 119, 133  100.00  
+380 km  6  128  19, 26, 33, 96, 120, 129  100.00  
+380 km  7  128  15, 56, 74, 89, 109, 115, 133  100.00  
+380 km  7  128  12, 19, 26, 33, 40, 68, 116  100.00  
+380 km  8  128  15, 61, 72, 83, 84, 115, 122, 123  100.00  
+380 km  8  128  19, 26, 33, 40, 47, 62, 114, 124  100.00  
+
+Þekil 11-14 incelendiðinde, 180 km ve 250 km kaplama mesafeli senaryolar da, açýlan istasyon sayýlarý ayný olduðu durumlarda, kaplanan talep sayýsýdeðerlerinin belirgin bir þekilde azaldýðýgözlemlenmiþtir. 350 km ve 380 km kaplama mesafeli senaryolarda ise, kaplanan talep sayýsýndaki azalma daha az olmaktadýr. Deðerler sýnýr olarak belirlenen noktalara kadar ulaþtýrýldýðýnda ise tam kaplamanýn saðlanamadýðý veya çözümün bulunamadýðýgörülmüþtür. Bu durum modelin seçebileceði yüksek deðere (10) sahip aday noktasý sayýsýnýn azalmasýnýn bir sonucudur. 
+Her belirlenen yeni deðer ile birlikte seçilen aday noktalarýnýn da deðiþtiði görülmektedir. Noktalarýn deðiþmesi ile birlikte kaplama alanlarý da azalmaktadýr. Bu ise daha fazla AK istasyonu tesis edilmesini gerektirmektedir. Analiz sonuçlarýna göre, bölgesel karakteristik deðerlerin modelin çözümünü önemli ölçüde etkilediði gözlemlenmiþtir. 
+
+
+5. SONUÇ 
+Mevcut durum da K.K.K.lýðýnýn 4 adet, Hv.K.K.lýðýnýn 11 adet olmak üzere toplam 15 adet AK istasyonu bulunmaktadýr. Bu istasyonlarýn yerleþimleri incelendiðinde Hv.K.K.lýðýnýn ve K.K.K.lýðýnýn bazý istasyonlarýnýn, ayný bölge içerisinde konuþlandýrýldýðý görülmektedir. AKB içerisinde konuþlandýrýlacak istasyonlarýn tek bir kuvvetin teþkil etmesinin yeterli olacaðýgörülmektedir. Açýlacak istasyon sayýsýnýn azalmasýile maliyetlerde düþecektir.  
+Mevcut durumda konuþlandýrýlmýþ olan; Ankara, Ýstanbul, Ýzmir ve Malatya’da konuþlandýrýlan AK istasyonlarý, oluþturulan senaryolarýn bazýlarýnýn çözümlerinde de açýlmýþtýr. Bu noktalar, hem K.K.K.lýðý hem de Hv.K.K.lýðý tarafýndan ayrý ayrýistasyon teþkil edilen noktalardýr. Bunun yerine tek istasyon açýlmasýnýn yeterli olacaðýdeðerlendirilmektedir. 
+Çalýþmada sunulan senaryolarýn çözümlerine göre bütün AKB dikkate alýndýðýnda en fazla 15 istasyonla kaplama saðlanmaktadýr. Ýstasyon sayýsý istenen duruma göre daha da azaltýlabilmektedir. 
+AK istasyonlarýnýn yerleri incelendiðinde, belirlenen talep noktalarýndan bazýlarýna cevap verilemediði görülmektedir. Konuþlandýrýlmýþ durumda olan K.K.K.lýðý ve Hv.K.K.lýðý AK istasyonlarý (15) ile AKB’nin ne kadarýnýn kaplanabildiði incelendiðinde Tablo 22’deki sonuçlar elde edilmiþtir. 
+Tablo 22. incelendiðinde mevcut durumda 180 km, 250 km ve 350 km kaplama mesafeleri için 15 AK istasyonu ile % 100 kaplama saðlanamadýðýgörülmektedir. Çalýþmada önerilen modellerin çözümünden ise en az 2, en fazla 15 AK istasyonu ile tam kaplama saðlanabilmektedir. Karar verici tarafýndan uygulanmasý en fazla tercih edilebilecek olan 180 km kaplama mesafeli senaryonun, mevcut yapýya uygulanmasýndan elde edilen sonuç incelendiðinde Türk AKB’nin ancak % 75’nin kaplanabildiði görülmektedir. Önerilen model ile ise %100 kaplama 15 istasyon ile saðlanmaktadýr. 
+Sadece K.K.K.lýðý AK istasyonlarý ile kaplanabilen talep sayýlarý incelendiðinde 180 km, 250 km ve 350 km senaryolar için çözüm bulunamamýþtýr. 380 km kaplama mesafeli senaryo için ise % 95’lik bir kaplama saðladýðý görülmüþtür. Sadece Hv.K.K.lýðýAK istasyonlarýnýn konuþlandýrýlmasý halinde de aynýsonuçlar elde edilmiþtir. Uygulamaya göre 180 km kaplama mesafeli senaryo için %100 kaplama 15 istasyon ile saðlanabilmektedir. 
+KAYNAKLAR 
+1.	
+Shimanski, C., “Helicopter Evacuation of the Injured Patient”, Wilderness Medicine Letter, vol: 17(3), 2000. 
+
+2.	
+Türk Arama Kurtarma Yönetmeliði, Resmi Gazete, No: 23107, 11.9.1997. <http://www.yargitay.gov.tr/bilgi/kanun_liste/PC 3979916.HM5.frameset.html> 
+
+3.	
+Batta, R. and Dolan, J., “The Maximal Expected Covering Location Problem”, Transportation Science, vol: 23(4), 1989. 
+
+4.	
+Chung, C., “Recent Applications Of The Maximal Covering Location Planning Model”, Journal of Operational Research Society, vol: 37(8), 735-746, 1986. 
+
+5.	
+Brandeau, M. and Chýu, S. “An Overview of Representative Problems in Location Research”, Management Science, vol: 35, 645-674, 1989. 
+
+6.	
+Mehrez, A. and Stulman, A., “The Maximal Covering Location Problem with Facility Placement on the Entire Plane”, Journal of Regional Science, vol: 22(3), 1982. 
+
+7.	
+Owen, S. H. and Daskin, M. S. “Strategic Facility Location: A Review”, European Journal of Operational Research, vol.111, 423-447, 1998. 
+
+8.	
+Daskin, M. and Owen, S., Partial Covering P-Center and Partial Covering Set Covering Models, North-Western University, Evanston, 1999. 
+
+9.	
+Church, R., “The Planar Maximal Covering Location Problem”, Journal of Regional Science, vol: 24(2), 1984. 
+
+10.	
+ReVELLE, C., “The Maximal Covering Location Problem”, Papers of the Regional Science Association, Vol.32, 101 - 118, 1974. 
+
+11.	
+Richard, D., Beguin, H., Peeters, D., “The Location of Fire Stations in a Rural Environment: a Case Study”, Environment and Planning, vol.22, 39-52, 1990. 
+
+12.	
+Sarýkaya, A., Turizim Bölgelerindeki Jandarma Karakollarýnýn Konuþ Yerlerinin Belirlenmesi, Master Tezi, Kara Harp Okulu, Savunma Bilimleri Enstitüsü, Ankara, 2003. 
+
+13.	
+Lorena, A. N., Pereraia M. A. “A Lagrangean / Surrogate Heuristic For The Maximal Covering Problem Using Hillsman’s Edition”, Journal of Operations Research, 2001. 
+
+
+Tablo 22. Mevcut istasyonlar ile kaplanan talep miktarý
+Senaryo  Ýstasyon Sayýsý (P)  Kaplanan Talep Sayýsý (Z)  Açýlan Ýstasyonlar (x)  Kaplama Oraný (%)  
+180 km  15  95  16, 17, 24, 29, 36, 38, 50, 61, 83, 84, 94, 103, 114, 115, 133,  74.21  
+250 km  15  111  16, 17, 24, 29, 36, 38, 50, 61, 83, 84, 94, 103, 114, 115, 133  86.21  
+350 km  15  126  16, 17, 24, 29, 36, 38, 50, 61, 83, 84, 94, 103, 114, 115, 133  98.43  
+380 km  15  128  16, 17, 24, 29, 36, 38, 50, 61, 83, 84, 94, 103, 114, 115, 133  100.00  
+
+C. Gencer ve A. Açýkgöz Türk Silahlý Kuvvetleri Arama Kurtarma Timlerinin Yerleþiminin Yeniden Düzenlenmesi 
+14.Berman, O. and Kruss, D., “The Generalized 16. Hava Araçlarý Kaza Ýstatistikleri, Sivil Havacýlýk Maximal Covering Location Problem”, Genel Müdürlüðü, Ankara, 2003. Computers and Operational Research, vol: 17. Türkiye Ýklim Verileri, 01.08.2003 147, 2003. <http:www.meto.gov.tr/Ýklim-Türkiye Ýklim 
+15.Cavcar, M., “Türkiye Hava Sahasý Ticari Hava Verileri.htm>. Taþýmacýlýðý Kazalarýna Genel Bakýþ”, Mühendis ve Makine, sayý: 518, 2003. 
+EK Aday Noktalarýnýn Bölgesel Karakteristik Katsayýlarý
+Aday (Xi)  Ýklim Þartlari  Ýkmal Noktasýna Yakýnlýk  UçuþYoðunluðu  Aday (Xi)  Ýklim Þartlarý Ýkmal Noktasýna Yakýnlýk  UçuþYoðunluðu  
+1  6  8  7  74  7  8  3  
+2  5  9  5  75  8  7  6  
+3  8  9  6  76  7  5  8  
+4  7  7  3  77  7  6  8  
+5  7  6  4  78  6  8  6  
+6  6  9  8  79  7  5  6  
+7  6  9  9  80  8  5  5  
+8  8  3  2  81  6  7  4  
+9  6  4  3  82  7  9  7  
+10  7  4  3  83  6  10  10  
+11  7  5  5  84  5  10  10  
+12  8  3  2  85  5  10  10  
+13  7  7  3  86  7  9  7  
+14  6  8  5  87  8  9  7  
+15  4  10  10  88  7  9  5  
+16  5  10  10  89  6  8  3  
+17  4  10  10  90  8  5  6  
+18  4  10  10  91  7  8  3  
+19  9  9  6  92  8  7  4  
+20  8  9  8  93  7  6  4  
+21  8  8  8  94  7  8  6  
+22  7  9  8  95  9  8  7  
+23  6  3  6  96  9  7  7  
+24  5  7  7  97  8  7  7  
+25  5  8  9  98  9  5  8  
+26  5  9  9  99  8  7  10  
+27  8  8  7  100  7  7  9  
+28  8  8  6  101  8  4  8  
+29  7  7  7  102  7  4  8  
+30  8  7  5  103  6  5  8  
+31  7  8  4  104  8  5  7  
+32  8  8  4  105  8  7  9  
+33  9  9  6  106  6  7  6  
+34  6  9  7  107  9  7  8  
+35  7  10  8  108  7  5  5  
+36  6  10  10  109  5  3  4  
+37  7  10  7  110  7  7  9  
+38  5  10  10  111  8  7  7  
+39  7  9  8  112  9  8  5  
+40  8  9  7  113  8  7  7  
+41  7  9  6  114  4  10  10  
+42  9  9  7  115  3  10  10  
+
+43  10  8  5  116  6  9  8  
+44  9  7  7  117  7  8  6  
+45  7  6  3  118  7  5  6  
+46  8  7  4  119  6  4  5  
+47  8  5  3  120  7  6  8  
+48  7  5  4  121  7  5  4  
+49  9  7  3  122  7  3  3  
+50  4  8  8  123  8  3  2  
+51  8  8  6  124  8  3  5  
+52  7  8  5  125  5  6  7  
+53  7  10  4  126  7  6  2  
+54  5  10  7  127  8  5  2  
+55  6  8  5  128  7  10  7  
+56  7  5  7  129  7  7  4  
+57  8  8  6  130  8  6  4  
+58  8  8  5  131  9  7  4  
+59  8  9  4  132  7  8  3  
+60  5  10  8  133  5  10  10  
+61  5  10  10  134  8  9  6  
+62  9  5  6  135  8  7  4  
+63  8  5  5  136  7  6  3  
+64  10  6  6  137  9  7  5  
+65  8  8  10  138  8  6  5  
+66  7  7  4  139  5  6  7  
+67  6  6  6  140  8  4  4  
+68  5  7  6  141  8  8  4  
+69  7  6  3  142  7  8  6  
+70  7  7  6  143  7  6  3  
+71  8  7  6  144  9  6  1  
+72  7  7  3  145  8  7  3  
+73  8  7  4  
+
+
+
+
+

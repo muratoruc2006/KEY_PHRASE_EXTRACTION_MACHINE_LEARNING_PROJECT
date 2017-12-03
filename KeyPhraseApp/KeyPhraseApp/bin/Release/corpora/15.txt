@@ -1,0 +1,191 @@
+DAR VE GENÝÞ KUYULU YARI-ÝLETKEN GaAs LAZERLERÝN ÇÝZGÝ GENÝÞLEME FAKTÖRLERÝNÝN MODELLENMESÝ
+Fatih V. Çelebi Mühendislik Fakültesi, Baþkent Üniversitesi, Baðlýca Kampusu, 06530, Ankara, fatih@baskent.edu.tr 
+(Geliþ/Received: 17.01.2005; Kabul/Accepted: 17.05.2005) 
+ÖZET 
+Dar ve geniþ GaAs kuantum-kuyu (KK) yarý-iletken lazerlerin çizgi geniþleme faktörleri (ÇGF) farklý bir metotla ve tek bir modelde birleþtirilerek, modal tepe kazancý ve akým yoðunluðuna baðlý olarak verilmiþtir. Yapay sinir aðlarý (YSA) modelleme yaklaþýmýna baðlý olarak, farklý öðrenme algoritmalarý kullanýlýp eðitilmiþ ve test edilmiþtir. Analizde kullanýlan algoritmalardan en iyi sonuçlar yakýnsama hýzý ikinci dereceden olan Levenberg– Marquardt (LM) algoritmasý ile elde edilmiþtir. Eðitim ve test sonuçlarýliteratürde verilen deneysel sonuçlarla çok iyi derecede uyumludur. 
+
+1. GÝRÝÞbirçok yaklaþýmlar, varsayýmlar, ve bazý
+parametrelerin kabaca tahminini içerir [2]. Bu Lazer diyotlar optik haberleþme sistemlerinin ve diðer çalýþmada farklý yapýlardaki ayný tip (InGaAsP) iki bir çok ilgili alanlarýn vazgeçilmez bir elemanýdýr. lazerin ÇGF’leri birleþtirilerek radyal tabanlýYüksek güçteki lazer diyotlarýn uzaysal eþevreliliði fonksiyon aðlarý kullanýlmýþ ve geniþletilmiþ delta­(spatial coherence) ve filamentasyon (filamentation) bar-delta algoritmasý ile eðitilerek modellenmiþtir. eðilimleri ÇGF den kuvvetli olarak etkilenir [1]. ÇGF ÇGF diferansiyel kýrýným indisinin (dn/ dN) tüm sistemin performansýný hem sürekli dalga (CW) diferansiyel kazanca (dg/ dN)  oraný olarak iþleminde hem de yüksek frekans modülasyonunda 
+etkiler. Oldukça düþük deðerli bir ÇGF sinyal tanýmlanýr ve yaklaþýk olarak deðeri aþaðýdaki þekilde 
+zayýflamasý, modülasyon hýzý, ve iletim uzaklýðýifade edilir [3]: açýsýndan frekans kaymasýolmayan bir iþlem için gereklidir. Ýletim kapasitesinin artýrýlmasý ve optik .=- 4. dn .. dg ..-1  (1) sistemlerde doðru ölçümün elde edilmesi için çizgi . dN . dN .geniþliðinin minimum dolayýsýyla bu faktöründe 
+minimum ve doðru olarak elde edilmesi ile Yapýlan bu çalýþmada, insan beynindeki biyolojik 
+mümkündür. Bilindiði üzere ÇGF’nin hesaplanmasýsinir hücrelerinin çalýþma prensiplerinin 
+F.V. Çelebi Dar ve Geniþ Kuyulu Yari-Ýletken GaAs Lazerlerin Çizgi Geniþleme Faktörlerinin Modellenmesi 
+basitleþtirilerek modellenmesine dayanmakta olan YSA yaklaþýmý kullanýlarak dar ve geniþ KK’lu GaAs yarý-iletken lazerlerin ÇGF’leri tek bir model kullanýlarak elde edilmiþtir. YSA’larýn iþlem detaylarýinsan beyninden tamamen farklý olmalarýna raðmen üç konuda benzerlik görülmektedir. Her ikisinde de çok sayýda iþlem elemaný olan nöronlar mevcuttur. Ayrýca her nöronun çok sayýda diðer nöronlara baðlantýsý olup son olarak ta tüm sistemin görevi öðrenme (eðitim) aþamasýnda ara baðlantýlarýn aðýrlýklarý deðiþtirilerek belirlenir [4]. Öðrenme yeteneði, uyarlanabilir olmasý, genelleme yapabilmesi, daha az bilgiye ihtiyaç duymasý, hýzlýgerçek zamanlý iþlem yapabilmesi, paralel yapýsýnýn olmasý, ve kolay bir þekilde uygulanabilmesi gibi pek çok avantajýndan dolayý YSA mühendisliðin bir çok alanýnda farklý problemlerin çözümünde kullanýlmaktadýr. Herhangi bir problem için girdiler ve çýktýlar arasýndaki iliþkiyi (doðrusal olsun veya olmasýn), elde bulunan örneklerden genelleme yaparak daha önce hiç görülmemiþ olan veya uygulanmamýþ olan problemlere kabul edilebilir çözümler üretirler. 
+Bu çalýþmada ÇGF’nin epitaksiyel (epitaxial) yapýbaðýmlýlýðýný inceleyip KK geniþliði deðiþtirilerek elde edilen dar ve geniþ kuyulu GaAs lazerlerin deneysel sonuçlarý [5] temel alýnýp tek bir model elde edilmiþtir. Elde edilen YSA modeli (Þekil 1) dar ve geniþ kuyulu GaAs KK’larýn modal tepe kazancý ve akým yoðunluklarý verildiðinde ÇGF’lerini nümerik olarak normal hesaplamadan çok daha kýsa bir sürede ve doðru olarak hesaplayabilmektedir. Bu çalýþmada YSA modelinin tercih edilmesi de bu nedenden dolayýolmuþtur. 
+2. ÇÝZGÝ GENÝÞLEME FAKTÖRÜNÜN HESAPLANMASINDA KULLANILAN YAPAY SÝNÝR AÐLARI MODELÝ
+YSA mühendislik hesaplamalarýnda ve özellikle aralarýndaki iliþki doðrusal olmayan veri kümelerinde güvenilir bir modelleme tekniði olarak karþýmýza 
+Ç1Ç2 Çn 
+
+
+Çýkýþ
+Gizli 
+Giriþ 
+Þekil 2. Çok katlý perseptronlarýn temel yapýsý
+
+çýkar. Literatür tabanlý ve deneysel verileri birleþtirip içine alarak problem çözümlerinde kullanýr. YSA’lar problem çeþitlerine göre bir çok yapýda oluþturulabilir. Bunlardan biri olan çok katlýperseptronlar (ÇKP) [6] oldukça basit olup yaygýn bir þekilde kullanýlan ve farklý öðrenme algoritmalarý ile eðitilebilen YSA’lar olduðundan bu çalýþmada kullanýlmak üzere seçilmiþtir. ÇKP’ler Þekil 2’de görüldüðü üzere giriþ, çýkýþ, ve bir veya birden fazla gizli katman olmak üzere üç ana katmandan oluþur. Her katmandaki nöron sayýsý önceden tanýmlanarak oluþturulmuþtur. Giriþ katmanýndaki iþlem elemanlarýveya nöronlar, sadece giriþ sinyali xi’nin gizli katmandaki nöronlara daðýtýlmasýný saðlayan tamponlardýr. Gizli katmanlarda bulunan her biri jindisli iþlem elemaný, xi giriþ sinyalini, giriþkatmanýndan wji aðýrlýklarý ile toplar ve toplamýn bir 
+f fonksiyonu olarak yj çýkýþýný aþaðýdaki gibi 
+
+hesaplar: 
+yj=f(.wjixi)  (2) 
+
+Buradaki f YSA yapýlarýnda kullanýlan herhangi bir eþik (aktivasyon) fonksiyonu olabilir. 
+Bu çalýþmada ÇGF’nin belirlenmesinde kullanýlan ÇKP’ler aþaðýda kýsaca açýklanan algoritmalarla eðitilmiþlerdir. Bu algoritmalardan Levenberg-
+Modal Tepe Kazancý(Dar+Geniþ GaAs lazeri) 
+ÇGF 
+Akým Yoðunluðu (Dar+Geniþ GaAs lazeri)
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+Dar ve Geniþ Kuyulu Yari-Ýletken GaAs Lazerlerin Çizgi Geniþleme Faktörlerinin Modellenmesi F.V. Çelebi 
+Marquardt (LM), Broydon-Fletcher-Goldfarb-Shanno (BFGS), ve Fletcher-Reeves (CGF) yýllardan beri kullanýlan ve bir çok alana uygulanmýþalgoritmalardýr. Resilient Backpropagation (RP) ise türev genliðini dikkate almadýðý için seçilmiþtir: 
+Levenberg-Marquardt (LM): Newton algoritma­sýnýn deðiþik bir uyarlamasýdýr. Yakýnsama hýzý ikinci dereceden olup sonuca ulaþým daha yavaþ olmaktadýr. En büyük dezavantajý fazla hafýza gerektirmesidir [7]. 
+Broydon-Fletcher-Goldfarb-Shanno (BFGS): Bu öðrenme algoritmasý hedefe iyi ulaþan bir Quasi-Newton metodudur. Hessian matrisinin her iterasyonda yaklaþýk deðerinin hesaplanmasý esasýna dayanýr [8]. Hesaplanma iþlemi gradyentin bir fonksiyonu yapýlarak algoritma güncellenir. 
+Fletcher-Reeves (CGF): Eþleþtirmeli gradyent öðrenme algoritmalarýndan biridir. Hýzlý gradyent düþüþ doðrultusundan genellikle daha çabuk sonuca yakýnsayan eþleþtirme doðrultusunda bir arama iþlemi uygulanýr. Adým boyutu her bir iterasyonda yeniden düzenlenir [9]. 
+Resilient Backpropagation (RP): RP öðrenme algoritmasýnýn amacý kýsmi türevlerin genliklerinin zararlý etkilerini ortadan kaldýrmaktýr. Aðýrlýklarýn güncelleþtirilmesinde türev genliðinin herhangi bir etkisi olmayýp sadece türevin iþareti kullanýlýr [10]. 
+Kullanýlan bu algoritmalardan elde edilen sonuçlar zaman, hafýza, ve hesaplama karmaþýklýðý açýsýndan iliþikte bulunan web adresindeki sonuçlarla uyumluluk göstermiþtir [11]. LM öðrenme algoritmasýen hýzlý ve en doðru öðrenen algoritma olup kullanýlan giriþ parametrelerinin az olmasý da bu sonucun hýzlýelde edilmesine katký saðlamýþtýr. Normal þartlarda LM çok hafýza gerektiren bir algoritma olmasýna raðmen hafýza azaltma parametresinin yardýmýyla iþlem süresi fazla uzamadan problem hýzlý bir þekilde çözülmüþtür. 
+Bu çalýþmada önerilen konfigürasyon dar ve geniþGaAs kuyularýn modal tepe kazancý ve akým yoðunluðu giriþ olarak verildiðinde ÇGF’lerini hesaplayabilmektedir. Yukarýda belirtilen öðrenme algoritmalarý YSA’nýn eðitiminde ÇGF’leri hesaplamak için farklý giriþkümeleri ve ona karþýlýk gelen ölçülmüþ deðerler ( ÇGFME) kullanýlmýþtýr. Hedef çýkýþ ile ( ÇGFME) YSA’nýn gerçek çýkýþý( ÇGFYSA) arasýndaki farklar öðrenme algoritmalarýtarafýndan deðerlendirilip denklem (2) kullanýlarak 
+aðýrlýklar ayarlanýr. Eðitim (öðrenme) sýrasýnda nöronlar arasýndaki aðýrlýklar, bütün eðitim kümeleri için hedef çýkýþ ile ölçülen deðer arasýndaki ortalama karesel hatanýn (mean square error) daha önceden belirlenmiþ bir eþik deðerinin altýna düþmesi veya maksimum eriþilebilir adým sayýsýna (epoch) ulaþýlmasýgibi bazý kriterlere göre ayarlanýr. Burada kullanýlan deneysel verilerin alýndýðý çalýþma [5] GaAs aktif bölgeleri AlGaAs bariyerleri arasýna sýkýþtýrýlmýþ tek KK lazeri ile gerçekleþtirilmiþtir. Yükseltilmiþkendiliðinden ýþýma (Amplified spontaneous emission) ölçümleri eþik altýnda enjeksiyon akýmýndaki küçük deðiþikliklere baðlý olarak kazanç ve dalga boyundaki kaymalarýn belirlenmesiyle Hakki-Paoli [12] metodu kullanýlarak gerçekleþtirilmiþtir. ÇGF üzerindeki yanal dalga kýlavuzlama (lateral wave-guiding) ve taþýyýcýsýkýþtýrma yapýsý (carrier confinement structure) etkileri de bertaraf edilmiþtir. Deneysel çalýþmanýn detaylarý [5] ten elde edilebilir. 
+Tablo 1 birleþik yapýdaki geniþkuyu GaAs lazerlerin 
+Tablo 1. Birleþik yapýdan çýkan geniþ kuyu GaAs lazerlerin eðitim, deneysel ve teorik ÇGF sonuçlarý
+Akým Yoðunluðu (A/cm2)  Modal Tepe Kazancý(cm-1)  ÇGF  
+Deneysel Ölçüm  Teorik Hesap  LM  CGF  BFG  RP  
+280  -8  5.70  5.40  5.57  5.24  5.62  5.49  
+300  -4  5.30  5.50  5.30  5.51  5.64  5.60  
+320  0  5.90  5.57  5.90  5.70  5.68  5.76  
+360  8  6.25  5.70  6.25  5.79  5.93  5.99  
+380  11  5.95  5.77  5.97  5.81  5.99  6.21  
+400  14  5.75  5.80  5.75  5.72  5.94  5.92  
+420  18  6.00  5.85  6.00  5.51  5.96  5.90  
+480  27  4.75  6.00  4.76  5.19  4.76  5.83  
+520  34  4.90  6.08  4.90  4.92  4.87  4.97  
+600  45  4.75  5.60  4.74  4.49  4.76  4.89  
+680  57  4.45  4.75  4.45  3.55  4.46  4.49  
+720  61  4.25  4.45  4.26  3.36  4.25  3.87  
+800  70  4.15  4.05  4.16  3.41  4.15  3.71  
+840  74  3.90  3.95  3.89  3.65  3.89  3.89  
+880  78  3.70  3.80  3.71  3.67  3.71  3.79  
+960  83  3.55  3.55  3.55  3.52  3.55  3.61  
+1000  85  3.60  3.40  3.60  3.22  3.60  3.45  
+1040  86  2.65  3.30  2.65  2.79  2.65  2.94  
+1120  89  2.00  3.20  2.01  2.43  2.02  1.95  
+1160  90  2.10  3.10  2.09  2.38  2.02  2.09  
+
+F.V. Çelebi Dar ve Geniþ Kuyulu Yari-Ýletken GaAs Lazerlerin Çizgi Geniþleme Faktörlerinin Modellenmesi 
+her öðrenme algoritmasý için eðitim sonuçlarýnýdeneysel verilerle (akým yoðunluðu, modal tepe kazancý, ve ÇGF) ve teorik hesaplanan ÇGF deðerleriyle birlikte göstermektedir. Tablo 2 ise aynýsonuçlarý dar kuyu GaAs lazerler için göstermektedir. Aynýþekilde Tablo 3 ise her iki KK (dar ve geniþ) GaAs lazerinin bütün deneysel sonuçlardan eðitim (öðrenme) aþamasýnda kullanýlmayarak rasgele seçilmiþ verilerin test sonuçlarýný vermektedir. Tablolarda verilen ÇGF’nin teorik deðerleri deneysel verilerin alýndýðý makalede [5] k.p metoduna [13] göre ve zorlandýrýlmýþýþýmanýn (stimulated emission) etkileri dahil edilerek bulunmuþtur. 
+Bir çok denemeden sonra uygun devre þekli ise 2 X 24 X 24 X 1 YSA yapýsýyla en düþük eðitim ve test hatalarýný veren LM öðrenme algoritmasý ile elde edilmiþtir. Buna göre 2 giriþli (akým yoðunluðu ve modal tepe kazancý), her biri 24 nörondan oluþan 2 ara katman, ve birleþik yapýdaki YSA modelinden çýkan tek ÇGF çýkýþý ile YSA yapýsý belirlenmiþtir. Giriþ ve çýkýþ katmanlarý doðrusal, saklý katmanlar arasýnda ise hiperbolik tanjant sigmoid eþik fonksiyonlarý kullanýlmýþtýr. Ayrýca eðitim için kullanýlan adým sayýsý (epoch= iterasyon x örnek sayýsý) ise 200’dür. 
+
+3. SONUÇLAR VE DEÐERLENDÝRMELER 
+Her öðrenme algoritmasý için elde edilen eðitim ve test ortalama mutlak hatalarý yukarýda belirtilen aynýYSA yapýsýna göre ve ÇGF’nin teorik 
+Tablo 2. Birleþik yapýdan çýkan dar kuyu GaAs lazerlerin eðitim, deneysel ve teorik ÇGF sonuçlarý
+Akým Yoðunluðu (A/cm2)  Modal Tepe Kazancý(cm-1)  ÇGF  
+Deneysel Ölçüm  Teorik Hesap  LM  CGF  BFG  RP  
+120  -12.5  2.60  2.25  2.60  2.57  2.58  2.58  
+130  -9.5  2.35  2.37  2.35  2.58  2.40  2.39  
+140  -7.5  2.45  2.40  2.45  2.59  2.37  2.45  
+150  -4  2.5  2.47  2.50  2.56  2.37  2.47  
+160  -2.5  2.45  2.55  2.45  2.59  2.37  2.61  
+170  2  2.45  2.60  2.44  2.56  2.37  2.21  
+180  3  2.35  2.77  2.36  2.60  2.37  2.41  
+200  7.5  2.05  2.85  2.04  2.66  2.37  2.13  
+240  22  1.80  3.10  1.80  1.93  1.80  1.86  
+280  29.5  2.85  3.30  2.84  2.48  2.59  2.39  
+320  33  2.50  3.50  2.50  2.52  2.59  2.41  
+360  37  2.50  3.65  2.50  2.44  2.59  2.42  
+440  43.5  2.60  3.95  2.59  2.52  2.59  2.47  
+480  47  2.50  4.10  2.51  2.56  2.58  2.61  
+520  50  2.55  4.20  2.55  2.54  2.56  2.74  
+600  54.5  2.40  4.50  2.41  2.73  2.41  2.71  
+640  56.5  2.55  4.60  2.54  3.09  2.55  3.05  
+720  60  2.80  4.80  2.80  3.38  2.80  3.29  
+760  62.5  2.3  4.90  2.32  2.94  2.30  2.47  
+800  65  2.45  5.00  2.45  2.72  2.41  2.34  
+880  67.5  2.1  5.20  2.10  2.39  2.13  2.03  
+920  67.5  2  5.30  2.01  2.23  2.01  2.03  
+
+Tablo 3. Birleþik yapýdaki dar ve geniþkuyulu GaAs lazerlerin test sonuçlarý
+Giriþler  Çýkýþ 
+Akým Yoðunluðu (A/cm2)  Modal Tepe Kazancý(cm-1)  ÇGF  
+Deneysel Ölçüm  Teorik Hesap  LM  CGF  BFG  RP  
+190  6  2.30  2.80  2.33  2.61  2.37  2.25  
+400  40.5  2.40  3.80  2.45  2.41  2.59  2.44  
+560  52  2.55  4.35  2.58  2.61  2.51  2.61  
+840  66.5  2.35  5.10  2.33  2.57  2.26  2.18  
+340  5  5.95  5.60  5.91  5.72  5.88  4.69  
+560  40  4.85  6.10  4.85  4.70  4.36  3.47  
+920  80  3.60  3.70  3.66  3.60  3.57  3.67  
+1080  88  2.35  3.25  2.30  2.57  2.03  2.60  
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+Dar ve Geniþ Kuyulu Yari-Ýletken GaAs Lazerlerin Çizgi Geniþleme Faktörlerinin Modellenmesi F.V. Çelebi 
+hesaplamasýndan elde edilen ortalama mutlak hata oraný ile birlikte Tablo 4’te verilmiþtir. Birleþik yapýdaki elde edilen sonuçlarýn geçerliliðini göstermek için, her öðrenme algoritmasý için YSA modelinden elde edilen sonuçlar teorik ve deneysel sonuçlarla karþýlaþtýrýlmýþtýr. Eðitim ve test ortalama mutlak hatasý olarak en düþük hata LM öðrenme algoritmasýile elde edilmiþolup literatürdeki dar ve geniþkuyu GaAs lazerlerin ÇGF üne ait deneysel sonuçlarla oldukça uyumluluk göstermiþtir [5]. Bu algoritmada elde edilen eðitim ve test ortalama mutlak hatalarý sýrasýyla 0.005 ve 0.036 olarak bulunmuþtur. Ona en yakýn çözüm ise BFGS öðrenme algoritmasýile elde edilmiþ olup ayný YSA yapýsýnda eðitim ve test ortalama mutlak hatalarý0.063 ve 0.1628 olarak bulunmuþtur. ÇGF üne ait deneysel sonuçlarla teorik olarak hesaplanan deðerler arasýndaki teorik ortalama mutlak hata ise 0.6858 olarak bulunmuþ olup, analizde kullanýlan bütün öðrenme algoritmalarýndan elde edilen sonuçlardan oldukça fazla çýkmýþtýr. 
+Bu sonuç elde edilen ÇGF ye ait YSA modelinin ÇGF nin teorik hesaplamasýna göre [5] oldukça doðru olduðunu göstermektedir. Eðitim ve/veya test zamanýuygun YSA yapýsýný, parametrelerini, ve öðrenme algoritmasýný bulduktan sonra birkaç saniye sürmektedir. Gerçek zamanlýhesaplama ise mikro saniyeler mertebesindedir. Dolayýsýyla elde edilen YSA modeli oldukça hýzlý olup ÇGF’nin matematiksel hesaplanmasýndaki gibi karmaþýk fonksiyonlarý içermemektedir. 
+Literatürde ÇGF’nin YSA ile modellenmesine yönelik ilk yaklaþým radyal tabanlý fonksiyon aðlarýyla gerçekleþtirilmiþ ve baþarýlý sonuçlar vermiþtir [2]. Böylece optik ve ilgili sistemlerin YSA yaklaþýmýyla hýzlý ve doðru sonuçlar vereceði düþüncesinin önü açýlmýþtýr.Yapýlan çalýþmada veri azlýðýndan dolayýsonuçlar test edilmemekle birlikte bu çalýþmanýn yapýlmasýna temel teþkil etmiþtir. ÇGF’nin modellenmesine yönelik diðer bir yaklaþým ise eðri uydurma yöntemidir. Bu yöntem ile dar ve geniþkuyulu GaAs ÇGF eðrilerini ortalayacak parametrik bir polinom, matematiksel bir çözüm olarak gündeme getirilebilir. Fakat elde edilen hata oraný optik haberleþme sistemlerinde kullanýlacak bir model olarak çizgi geniþleme faktörlerinde büyük yanýlmalar meydana getireceðinden kullanýþsýz olacaktýr. Her iki eðri için ayrý birer eðri uydurma yolu GaAs dar ve geniþkuantum kuyulu lazerler için uygun olabilir. Buda ayrý bir yöntem olarak baþka bir makalede tartýþýlabilir. 
+Sonuç olarak, dar ve geniþ KK lu GaAs lazerlerin ÇGF lerini hesaplamak için geliþtirilmiþ olan birleþik YSA modeli bu lazerlerin ÇGF lerini farklý modal tepe kazançlarý ve akým yoðunluklarý için doðru olarak ve çok kýsa bir zamanda hesaplayabilmektedir. Bu tip modeller geliþmekte ve karmaþýklaþmakta olan optik haberleþme sistemlerinin bilgisayar destekli tasarým aþamasýnda kullanýlabilir. 
+KAYNAKLAR 
+1.	
+Henry, C. H., “Theory of the linewidth of semiconductor lasers”, IEEE J. Quantum Electron., Cilt 18, 259-264, 1982. 
+
+2.	
+Saðýroðlu, S., Çelebi, F.V., Danýþman, K., 
+
+
+“Modelling of the linewidth enhancement 
+factor with the use of radial basis function network”, Int. J. Electron. Commun.. (AEU), Cilt 56, No.1, 51-54, 2002 
+
+3.	
+Newell, T.C., Bossert, D.J., Stintz, A., Fuchs, B., Malloy, K.J. ve Lester, L.F., “Gain and linewidth enhancement factor in InAs quantum-dot laser diodes”, IEEE Photon. Technol. Lett., Cilt 11, 1527-1529, 1999. 
+
+4.	
+Maren, A., Handbook of neural computing applications, Academic press, London, 1990. 
+
+5.	
+Stohs, J., Bossert, D.J., Gallant, D., Brueck, J., 
+
+
+“Gain, Refractive Index Change, and Linewidth Enhancement Factor in Broad ­Area GaAs and InGaAs Quantum-Well lasers”, IEEE J.of Quantum Electronics, Cilt 37, No.11, 1449-1459, 2001. 
+
+6.	
+Rumelhart, D.E., McClelland J.L., Paralel Distributed Processing, MIT Press, Cambridge, 1986 
+
+7.	
+Ham, F.M., Kostanic, I., Principles of Neurocomputing for Science and Engineering, 
+
+
+Mc- Graw Hill, 2002. 
+
+8.	
+Dennis, J. E., Schnabel, R. B., Numerical Methods for Unconstrained Optimization and Nonlinear Equations. Englewood Cliffs, Prentice-Hall, 1983. 
+
+9.	
+Hagan M.T., Demuth H.B., Beale M.H., Neural Network Design, Boston MA, PWS Publishing, 1996. 
+
+10.	
+Riedmiller, M., ve Braun H., “A Direct Adaptive Method for Faster Backpropagation Learning: The RPROP Algorithm”, 
+
+
+Proceedings Of The IEEE International 
+
+Tablo 4. Birleþik yapýdaki sonuçlar 
+Öðrenme Algoritmalarý  Devre yapýsý Ortalama Mutlak Hata (Eðitim)  Ortalama Mutlak Hata (Test)  
+BFGS  2X24X24X1  0.0630  0.1628  
+CGF  2X24X24X1  0.2354  0.1502  
+LM  2X24X24X1  0.0050  0.0360  
+RP  2X24X24X1  0.1559  0.4107  
+Teorik ortalama mutlak hata  0.6858  
+
+F.V. Çelebi Dar ve Geniþ Kuyulu Yari-Ýletken GaAs Lazerlerin Çizgi Geniþleme Faktörlerinin Modellenmesi 
+Conference On Neural Networks, San Francisco, J. of Appl. Phys., Cilt 46, No. 3, 1299-1306, CA, Cilt.1, 586-591, Mart 1993. 1975. 
+11.	
+http://www.mathworks.com/access/helpdesk/help 13. Kane, E. 0., “Band structure of indium /toolbox/nnet/backpr14.html antimonide”, J. Phys. Chem. Solids, Cilt 1, 249­
+
+12.	
+Hakki, B.W., Paoli, T.L., “Gain spectra in 261, 1957. GaAs double-heterostructure injection lasers”, 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+

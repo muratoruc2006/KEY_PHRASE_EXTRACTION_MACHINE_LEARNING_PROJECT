@@ -1,0 +1,290 @@
+BUHAR SIKIÞTIRMALI SOÐUTMA SÝSTEMLERÝNDE AÞIRI SOÐUTMA VE AÞIRI KIZDIRMA ETKÝSÝNÝN ISIL EKONOMÝK AÇIDAN ÝNCELENMESÝ
+Önder KIZILKAN, Reþat SELBAÞ ve Arzu ÞENCAN 
+Makine Eðitimi Bölümü, Teknik Eðitim Fakültesi, Süleyman Demirel Üniversitesi, 32260, Isparta kizilkan@tef.sdu.edu.tr, selbas@tef.sdu.edu.tr, sencan@tef.sdu.edu.tr 
+(Geliþ/Received: 08.03.2005; Kabul/Accepted: 23.01.2006) 
+ÖZET 
+Bu çalýþmada, teorik bir buhar sýkýþtýrmalý soðutma sisteminin aþýrý kýzdýrma ve aþýrý soðutma ýsýdeðiþtiricilerinin, farklý iki soðutucu akýþkan için ýsýl ekonomik yönden analizi yapýlmýþ ve sistemin en iyi çalýþma þartlarý belirlenmiþtir. Isýl ekonomik en iyileme metodu olarak, yapýsal bað katsayýlarý metodu kullanýlmýþtýr. Analizler, R22 soðutucu akýþkaný ve buna alternatif olarak R407c soðutucu akýþkaný için yapýlmýþtýr. Sonuç olarak, aþýrý kýzdýrma ve aþýrý soðutma ýsý deðiþtiricilerinin ekonomik ve çalýþma performansýaçýsýndan en iyi alanlarý tespit edilmiþtir. Bir soðutma sistemi tasarýmýnda, ýsý deðiþtiricisi alanýnýn azalmasý, sistem maliyetini düþürür. Fakat ýsý deðiþtiricisi alanýnýn düþürülmesi sistem verimini de düþürmektedir. Yapýlan çalýþmada, ýsý deðiþtiricisi alanýnýn, ve sistem veriminin en iyi olduðu þartlar belirlenmiþtir. 
+
+1. GÝRÝÞolur. Bunun sonucu performans katsayýsý deðeri artar. 
+Ayrýca, soðutucu akýþkanýn yoðuþturucudan çýktýktan Kompresörlü soðutma sistemleri, düþük sýcaklýktaki sonra buhar kabarcýklarý halinde genleþme valfine bir ortamdan ýsýyý çekerek yüksek sýcaklýktaki ortama girmesi, genleþme valfinin kapasitesini düþürür ve atan ve böylece bulunduðu ortamý soðutan buharlaþtýrýcýya giren soðutucu akýþkan miktarý azalýr. sistemledir. Bu iþlemler soðutucu akýþkanlar Aþýrý soðutma iþlemi bu sakýncayý ortadan kaldýrýr [2]. yardýmýyla ve dýþarýdan enerji harcanarak yapýlýr [1]. 
+Buharlaþtýrýcý çýkýþýnda yapýlan aþýrý kýzdýrma iþlemi Kompresörlü soðutma sistemlerinde, soðutucu ise soðutulmak istenen ortamdan daha fazla ýsýakýþkanýn yoðuþturucu çýkýþýnda aþýrý soðutulmasý, çekilmesini ve böylece sistem performansýnýn buharlaþtýrýcýya düþük ýsýl kalitede girmesine ve artmasýný saðlar. Bunun yanýnda aþýrý kýzdýrma böylece akýþkanýn daha fazla ýsý çekmesine neden iþlemiyle kompresöre sývý soðutucu akýþkan girmesi de önlenmiþ olur. Aþýrý kýzdýrma sýcaklýðýnýn istenen deðerlerden yüksek seçilmesi ise kompresörün daha fazla buhar hacmini sýkýþtýrmasý yani daha fazla güç harcamasý anlamýna gelir. Bu nedenle aþýrý kýzdýrma sýcaklýðýnýn deneysel verilerle saptanmýþ ve tavsiye edilen deðerlerde alýnmasý gereklidir. Bütün bunlardan dolayý aþýrý kýzdýrma ve aþýrý soðutma sýcaklýk miktarlarý sistem performansýný direk olarak etkilemektedir [3]. 
+Aþýrý soðutmalý ve aþýrý kýzdýrmalý teorik bir soðutma çevriminin tesisat þemasýÞekil 1’de, çevrimin P-h ve T-s diyagramlarý ise Þekil 2’de gösterilmiþtir. Bu çalýþmada, yoðuþturucu, üç ayrý bölgeye bölünerek, buharlaþtýrýcý ise iki bölgeye bölünerek incelenmiþtir. 
+
+Soðutma Soðutma
+suyu giriþ
+
+suyu çýkýþ
+
+
+5 2
+Aþýrý Soðutma Yoðuþturucu I. Bölge Isý Deðiþtiricisi (kýzgýnlýðýn alýndýðýbölge) 
+Genleþme Kompresör WC
+Valfi Aþýrý Kýzdýrma Isý Deðiþtiricisi 1 
+Isýtma suyu çýkýþsuyu giriþ
+Þekil 1. Aþýrý soðutmalý ve aþýrýkýzdýrmalýsoðutma çevrimi tesisat þemasý
+2
+
+
+
+
+soðutma çevrimi P-h ve T-s diyagramý
+Bu çalýþmada buhar sýkýþtýrmalý bir soðutma çevriminin ýsýl ekonomik en iyilemesi yapýlarak aþýrýkýzdýrma ve aþýrý soðutma ýsý deðiþtiricilerinin ekonomiklik ve çalýþma performansý açýsýndan en iyi boyutlarý tespit edilmiþtir. Analizler, ozon tabakasýna zararý nispeten az olup kýsa vadede kullanýlmasýna devamý öngörülen R22 ve tamamen çevre dostu olan R407c soðutucu akýþkanlarý için yapýlmýþtýr. 
+2. SÝSTEM ELEMANLARININ EKSERJÝANALÝZÝ
+Ekserji genellikle termomekaniksel ve kimyasal ekserjilerin toplamý olarak deðerlendirilir. Termomekaniksel ekserji, herhangi bir durum (T, P) ile sadece çevrenin sýcaklýðý (T0) ve basýncý (P0) ile dengede olan bir durum arasýndaki ekserjidir. T0 ve P0 çevre þartlarýndaki bir durumun, çevreyle kimyasal olarak dengede olduðu durum arasýndaki ekserjiye kimyasal ekserji adý verilmektedir. Termomekaniksel ekserji, kimyasal ekserji terimleri ihmal edilerek aþaðýdaki þekilde belirlenir [5]: 
+.=(h-T0 s)+1 V 2 +gZ-(h0 -T0 s0 ) (1) 
+2 
+(1) denklemindeki potansiyel ve kinetik enerji terimleri ihmal edilirse aþaðýdaki denklem elde edilir: 
+.=(h-T0 s)-(h0 -T0 s0 ) (2) 
+Kompresörlü teorik soðutma sisteminin tüm elemanlarýnýn tersinmezliklerinin hesaplanabilmesi için, her bir eleman için giren ve çýkan ekserji miktarlarýnýn hesaplanmasý gerekir. Bunun için sistemin ekserji dengesi aþaðýdaki gibi yazýlýr: 
+W=.EQ+.m.-.m.-I (3) 
+girençýkan
+Isýl ekonomik en iyilemenin ilk adýmýný oluþturan ekserji analizinde yukarýdaki denklem, soðutma çevriminin her bir elemanýna uygulanmasýyla tersinmezlik eþitlikleri Tablo 1’deki gibi elde edilmiþtir. 
+Tablo 1. Sistem elemanlarýnýn tersinmezlik eþitlikleri Sistemin toplam tersinmezliði, sistem elemanlarýnýn tersinmezliklerinin toplamýna eþittir: 
+
+Sistem Elemaný  Tersinmezlik Eþitliði  
+Kompresör  (1 )20 ssTmIRC-=• 
+Genleþme valfi  (5 )60 ssTmIREV-=• 
+Yoðuþturucu I. Bölge  ()()......---=••32120 ssmssmTIRkkkKI 
+Yoðuþturucu II. Bölge  ()()......---=••43230 ssmssmTIRkkkKII 
+AþýrýSoðutma IsýDeðiþtiricisi  ()()......---=••54340 ssmssmTIRkkkAS 
+Buharlaþtýrýcý ()()......---=••76120 ssmssmTIReeeE 
+AþýrýKýzdýrma Isýdeðiþtiricisi  ()()......---=••17230 ssmssmTIReekAK 
+
+IT=IC+IEV+IKI+IKII+IAS+IE+IAK (4) 
+Sistem elemanlarýnýn tersinmezlikleri Denklem (4)’de yerine konursa ve gerekli düzenlemeler yapýlýrsa soðutma çevriminin toplam tersinmezlik formülü aþaðýdaki gibi elde edilir: 
+TIT 0 = KKI(TkA 2 KI -. TTkm 1 ) ,KIln TTkk12 + KKII(TAk3 KII -. TTk 2 m ) ,KIIln TTkk32 
+.. 
+• 
++mk cp ln.1 + KASAAS.Tm,AS.+ KEAE.Tm,Eln Te2 
+k ... m • k cpkTk3 ... (Te1 -Te2 )Te1 
+.. 
++m • ecpeln..1 -K AK • AAK .Tm,AK..  (5) ..
+.mecpeTe2 .
+
+3. ISIL EKONOMÝK EN ÝYÝLEME 
+Isýl ekonomi, ekserji metodu ile ekonomik analiz kavramlarýný birleþtiren bir disiplindir. Isýl ekonomik en iyilemenin amacý, verilen bir sistem yapýsý içinde, sermaye maliyeti giderleri ile ekserji giderleri arasýnda sistem ürününün maliyetini minimum yapan bir bað kurmaktýr. 
+Ekserji metodunu kullanan ýsýl ekonomik en iyileme yöntemleri temel olarak ikiye ayrýlýr. Yapýsal yöntem olarak bilinen ve Beyer tarafýndan ortaya atýlan ilk yöntem, yapýsal katsayýlarýn kullanýmýna ve yerel birim tersinmezlik maliyetlerinin hesaplanmasýna dayanýr [5]. Tribus vd.’nin ortaya attýðý diðer yöntem, üzerinde çalýþýlan sistem elemanlarýna giren ve çýkan ekserji yerel birim maliyetini kullanarak, sistem elamanlarýnýn özerk olarak ýsýl ekonomik en iyilemeye olanak saðlar. Bu metoda Autonomous yöntem denir [6]. Isýl ekonomik en iyileme konusu ile ilgili literatürde farklý yöntemlerin kullanýldýðýgörülmüþtür [7-18]. Bu çalýþmada yapýsal baðkatsayýlarý (Coefficient of Structural Bonds) olarak da bilinen yapýsal yöntem kullanýlmýþtýr. 
+Sürekli rejimde çalýþan bir sistem ve onu oluþturan elemanlarý göz önüne alýnacak olursa, sistemin herhangi bir k elemanýnýn tersinmezliði Ik’nýn ve toplam tersinmezlik IT’nin sistem parametresi xi’ye baðlý olarak oransal deðiþimi: 
+
+
+..I .
+. k .  (6) 
+.k,i=... .. IxTi ... ..xi.
+olarak ifade edilir ve k elemanýnýn xi deðiþkeni açýsýndan yapýsal bað katsayýsý olarak tanýmlanýr. 
+Sistemin ekserji balansý dikkate alýndýðýnda, sistemin tersinmezliðinin deðiþiminin, giriþteki ekserji deðiþimine eþit olduðu tespit edilir [5]: 
+Ein=Eout+IT, Eout=sbt (7) 
+En iyileme için amaç fonksiyonu, yýllýk toplam iþletme maliyetini içeren denklemdir ve aþaðýdaki gibi yazýlabilir [5]: 
+x op in xi . nl ()b  (8) 
+CT()i=tCinE()+aC CCxi +C l=1
+(7) ve (8) denkleminin, xi sistem parametresine göre türevleri alýnýrsa; 
+.Ein=.IT  (9) 
+.xi.xi
+n
+.CT.EinC .ClC 
+=topCin+a. (10) 
+.xi.xil=1.xi
+elde edilir. Denklem (9), Denklem (10)’de yerine konursa; 
+.CT =topCin.IT +aC . n .ClC  (11) .xi.xil=1.xi
+Denklem (11)’in sað tarafýndaki ikinci terim tekrar düzenlenirse; 
+n.CC n.CC '.CC aC . l =aC . l +aC k  (12) l=1 .xil ' =1 .xi.xi
+denklemi elde edilir. Bu denklemde l ’ .k’dýr. Yani l ’ altsimgesi, en iyilemenin uygulandýðý eleman hariç, sistemin herhangi bir elemanýný temsil etmektedir. Bu denklemin sað tarafýndaki ilk terim tekrar düzenlenirse; 
+n.ClC .Ik n.ClC 
+'' 
+. =.  (13) 
+l ' =1 .xi.xil ' =1 .Ik
+denklemi meydana gelir. Denklemin en saðtarafýndaki terim sermaye maliyet katsayýsýdýr ve .k,i ile tanýmlanýr (Kotas, 1985); 
+n.CC 
+' 
+.k,i=.l  (14) l ' =1 .Ik 
+Denklemler (11), (12), (13) ve (14) tekrar düzenlenirse aþaðýdaki denklem elde edilir: 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+.CT =topCin.IT + aC .Ik .k,i+aC .CkC  (15) .xi.xi.xi.xi
+Denklem (6)’dan; 
+.. IxTi =.k,i.. Ixki	 (16) 
+yazýlabilir. Bu eþitlik, Denklem (15)’de yerine konursa; 
+.CT.IkC .IkC.CkC 
+=topCin.k,i+a.k,i+a (17) 
+.xi.xi.xi.xi
+denklemi elde edilir. Denklemin sað tarafýndaki ilk terim, tersinmezliðin toplam maliyetinin xi parametresi ile deðiþimini göstermektedir. Ýkinci terim, optimize edilen elemanýn tersinmezliðinin deðiþimiyle diðer elemanlarýn maliyetindeki deðiþimi göstermektedir. Üçüncü terim ise optimize edilen elemanýn maliyetinin xi parametresi ile deðiþimini temsil etmektedir. Denklem (17) tekrar düzenlenirse; 
+.CT =topCkI ,i .Ik + aC .CkC  (18) .xi.xi.xi
+yazýlabilir. Burada, CIk,i terimi; 
+C CkI ,i =Cin.k,i+a .k,i (19) top
+þeklinde tanýmlanmýþtýr ve lokal tersinmezlik birim maliyetidir [5]. Toplam maliyet CT’yi optimize etmek için Denklem (18) sýfýra eþitlenirse; 
+..Ik. aC .CkC 
+. .=- I  (20) ..xi.opt topCk,i.xi
+denklemi elde edilir. Bu denklem, sistemin k’ýncýelemanýnýn xi parametresine göre ýsýl ekonomik en iyileme denklemidir. 
+4. SÝSTEM ELEMANLARININ ISIL EKONOMÝK EN ÝYÝLEMESÝ
+Genel en iyileme eþitliklerini elde etmek için soðutma sisteminin tüm elemanlarýna Denklem (20)’deki en iyileme ifadesi uygulanmýþtýr. Buna göre her bir sistem elemaný için elde edilen eþitlikler aþaðýda verilmiþtir. Bu eþitliklerde dikkat edileceði üzere, denklemin sol tarafý, en iyilemenin yapýldýðý bölgenin tersinmezliðinin türevinin alanýn türevine oranýdýr. Sað tarafýndaki eþitlikte ise parantez içerisindeki deðerler, en iyileme yapýlan kýsým dýþýnda kalan bölgeleri içermektedir. Bu da en iyileme iþleminin, sadece ilgili kýsmý deðil ayný zamanda sistemin diðer 
+elemanlarýný da içermesi anlamýna gelmektedir. Yoðuþturucu I. Bölge: 
+..I .
+. KI .= ..AKI.OptC
+1.CKI
+-..CC .CASC .CC .CC ..AKI
+. KII EAK .
+topC . ..AKII.AAS.AE.AAK..
+
+a in KI +.. .IT +.IT +.IT +.IT .. KI
+C..AKII.AAS.AE.AAK.
+.	. 
+ (21) Yoðuþturucu II. Bölge: 
+..IKII .=.. .. ..AKII .Opt 
+C1.CKII
+- 
+.CCCC..AKII
+..CKI .CAS .CE .CAK .
+top Cin.KII+.. .AKI +.AAS +.AE +.AAK ... KII
+
+aC	..IT.IT.IT.IT.
+..AKI.AAS.AE.AAK.
+.	. 
+ (22) Aþýrý Soðutma Isý deðiþtiricisi: 
+..I AS .
+..=..AAS.Opt
+1.CCAS
+- 
+.CCCC..AAS
+..CKI .CKII .CE .CAK .
+top Cin. AS +. .AKI+.AKII+.AE+.AAK.. AS
+aC .. .IT.IT.IT.IT..
+..AKI.AKII.AE.AAK.
+.	. 
+ (23) Buharlaþtýrýcý: 
+..IE.
+..=..AE.Opt
+1.CC 
+- E..CC .CC .CC .CC ..AE
+.KIKIIASAK.top Cin.E+.. .AKI +.AKII +.AAS +.AAK ... E
+
+aC	..IT.IT.IT.IT.
+..AKI.AKII.AAS.AAK.
+.	. 
+(24) Aþýrý Kýzdýrma Isý deðiþtiricisi: 
+
+..I AK .
+. .= ..AAK.Opt
+1	.CC 
+- AK
+. CC CC ..A
+
+..CKI .CKII .CAS .CE . AK 
+top Cin.AK+.. .AKI +.AKII +.AAS +.AE ... AK 
+a
+C	..IT.IT.IT.IT.
+..AKI.AKII.AAS.AE.
+.	. 
+ (25) 
+Bu denklemler, denklem (20)’nin her bir sistem elemaný için uygulanmasý ile elde edilmiþtir. Ayrýca, ara iþlemlerin uzunluðu sebebiyle burada yer verilmiþtir. 
+5. BULGULAR ve TARTIÞMA 
+Kompresörlü soðutma çevriminin ýsýl ekonomik en iyilemesi için soðutma kapasitesi 2 kW olarak alýnmýþtýr. Analizler farklý yoðuþturucu, buharlaþtýrýcý, aþýrý soðutma ve aþýrýýsýtma sýcaklýklarý için yapýlmýþtýr. Sistemdeki tüm ýsý deðiþtiricileri iç içe borulu ve ters akýþlýýsý deðiþtiricileridir. Ýç boru çapý
+13.5 mm olarak alýnmýþtýr. Ayrýca analizlerde sistemin çalýþma süresi 1000 saat/yýl, faiz oraný % 3.5, ekserji birim maliyeti 0.0912 $/kWh ve sistemin ömrü 10 yýl olarak alýnmýþtýr. Yoðuþturucu ve buharlaþtýrýcýmaliyetleri Bayýndýrlýk Bakanlýðýnýn 2005 yýlý birim fiyatlarýndan elde edilerek dolar kuruna çevrilmiþtir [16]. Isý deðiþtiricisi alanlarý ve bunlara karþýlýk gelen ýsý deðiþtirici maliyetleri, grafik haline getirilerek aþaðýdaki denklemler çýkartýlmýþtýr. 
+CC C
+CKI = CKII = CAS =516.621AK +268.45  (26) 
+CC
+CE = CAK =309.143AE +231.915  (27) 
+Teorik soðutma sistemi yukarýda verilen paramet­relere göre, deðiþik buharlaþtýrýcý, yoðuþturucu, aþýrýsoðutma ve aþýrý kýzdýrma sýcaklýklarý için ýsýl ekonomik en iyilemeye tabi tutulmuþtur. En iyileme neticesinde, en iyi ýsý deðiþtirici alanlarý ve bunlara karþýlýk gelen en iyi sýcaklýklar belirlenerek sistemin her bir bölgesi için Tablo 2, 3, 4 ve 5’te verilmiþtir. Tespit edilen bu deðerlerde sistem, en iyi yatýrým ve iþletme maliyetine sahiptir. Örneðin, R22 soðutucu akýþkaný için yoðuþturucu sýcaklýðý 35 °C, buharlaþtýrýcý sýcaklýðý 11 °C alýnarak yapýlan ýsýl ekonomik en iyileme sonucunda aþýrý soðutma sýcaklýðý.Ts = 5.6 °C, aþýrý kýzdýrma sýcaklýðý.Tk = 5.594 °C olarak bulunmuþtur. Verilen bu örnek için sistem elemanlarýnýn ve tüm sistemin en iyi alanlarý hesaplanarak Tablo 6’da ayrýca verilmiþtir. Ayný zamanda en iyi COP deðerinin 4.7503 ve en iyi tersinmezliðin de 0.38796 kW olduðu tespit edilmiþtir. 
+
+Tablo 2. Çeþitli yoðuþturucu sýcaklýklarý için en iyileme sonuçlarý (R22) 
+TE, °C .Ts, °C .Tk, °C AK, m2 AAS, m2 AE, m2 AAK, m2  TK = 35 °C 7 9 11 5.4 5.2 4.2 9.64 7.651 5.633 0.245 0.239 0.235 0.038 0.036 0.027 0.263 0.321 0.411 0.056 0.066 0.048  TK = 45 °C 7 9 11 4.8 5 5.6 9.651 7.639 5.594 0.169 0.164 0.159 0.018 0.019 0.021 0.263 0.321 0.411 0.074 0.0578 0.041  TK = 55 °C 7 9 6.65 5.4 9.648 7.628 0.142 0.14 0.021 0.017 0.263 0.321 0.073 0.057  11 5.8 5.561 0.136 0.018 0.411 0.041  
+
+Tablo 3. Çeþitli buharlaþtýrýcý sýcaklýklarý için en iyileme sonuçlarý (R22) 
+TE, °C .Ts, °C .Tk, °C AK, m2 AAS, m2 AE, m2 AAK, m2  TE = 8 °C 35 45 55 4 6.5 4.4 8.653 8.647 8.641 0.244 0.164 0.143 0.026 0.025 0.013 0.289 0.289 0.289 0.075 0.065 0.066  TE = 10 °C 35 45 55 5.7 5 5 6.647 6.624 6.605 0.235 0.162 0.139 0.040 0.019 0.015 0.360 0.360 0.360 0.057 0.049 0.049  TE = 12.5 °C 35 45 55 5.3 4.5 5 4.084 3.98 3.91 0.228 0.157 0.134 0.036 0.017 0.015 0.523 0.523 0.523 0.034 0.029 0.028  
+
+Tablo 4. Çeþitli yoðuþturucu sýcaklýklarý için en iyileme sonuçlarý (R407c)
+TE, °C .Ts, °C .Tk, °C AK, m2 AAS, m2 AE, m2 AAK, m2  TK= 35 °C 8 10 12 5.2 5 5 8.654 6.653 4.647 0.211 0.206 0.200 0.051 0.048 0.047 0.289 0.360 0.479 0.080 0.060 0.040  TK= 45 °C 8 10 12 5.5 5 3.5 8.654 6.651 4.630 0.142 0.139 0.136 0.025 0.022 0.015 0.289 0.360 0.479 0.074 0.055 0.037  TK= 55 °C 8 10 5 4.9 8.653 6.649 0.121 0.118 0.012 0.012 0.289 0.360 0.079 0.059  12 5.5 4.619 0.113 0.013 0.479 0.039  
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+TE, °C .Ts, °C .Tk, °C AK, m2 AAS, m2 AE, m2 AAK, m2  TE = 9 °C 35 45 55 6.1 4 3.1 7.654 7.653 7.652 0.206 0.142 0.122 0.063 0.017 0.007 0.321 0.321 0.321 0.071 0.065 0.070  TE = 11 °C 35 45 55 5 5.6 5 5.652 5.646 5.641 0.204 0.135 0.116 0.047 0.025 0.012 0.411 0.411 0.411 0.050 0.046 0.049  TE = 13 °C 35 45 55 5.7 5.6 5.4 3.631 3.591 3.565 0.195 0.130 0.111 0.056 0.024 0.013 0.575 0.575 0.575 0.031 0.028 0.029  
+
+Tablo 6. R22 soðutucu akýþkaný için en iyi ýsý deðiþtirici alanlarý ile en iyi COP ve tersinmelik deðeri 
+(TK =45 °C, TE = 11°C, .Ts= 5.6°C, .Tk= 5.594 °C) 
+AK, m2  0.159483  
+AAS, m2  0.021768  
+AE, m2  0.41169  
+AAK, m2  0.041785  
+AT  0.634726  
+COP  4.7503  
+IT, kW  0.38796  
+
+Yoðuþturucu sýcaklýðý 45 °C, buharlaþtýrýcý sýcaklýðý11 °C alýnarak R22 soðutucu akýþkaný için yapýlan ýsýl ekonomik analiz sonucu en iyi toplam alanýn 0.634726 m2 olduðu görülmektedir. En iyi alanýn tespiti için yapýlan iterasyon sonucu Þekil 3’te görülmektedir.  
+
+
+6. SONUÇLAR 
+Kompresörlü soðutma sistemleri, soðutma uygulamalarýnda en çok kullanýlan sistemlerdir. Soðutma sistemlerinde aþýrý soðutma ve aþýrý kýzdýrma iþlemleri, sistem performansýný arttýrmaktadýr. Ancak aþýrý kýzdýrma iþleminin istenen deðerlerin üzerinde yapýlmasý, sistemin olumsuz yönde etkilenmesine neden olmaktadýr. Yapýlan çalýþmada, kompresörlü teorik bir soðutma sisteminin termodinamik ve ýsýl ekonomik analizleri yapýlmýþtýr. Teorik bir soðutma sistemi için aþýrý kýzdýrma ve aþýrý soðutma ýsý
+.Ik- .Ak
+aC .CkC 
+topCkI ,i .Ak 
+deðiþtiricilerinin ekonomiklik ve sistem performansýaçýsýndan en iyi aþýrý kýzdýrma ve aþýrý soðutma sýcaklýklarý ile bunlara karþýlýk gelen en iyi ýsýdeðiþtirici alanlarý tespit edilmiþtir. Isýl ekonomik en iyileme metodunda, Kotas’ýn (1985) en iyileme prosedürü kullanýlmýþtýr. Analizler, günümüzde halen kullanýlmasýna devam edilen fakat önümüzdeki yýllarda tamamen durdurulacak olan R22 soðutkaný ile ozon tabakasýna zarar vermeyen ve çevre dostu, yeni bir soðutucu akýþkan olan R407c için yapýlmýþtýr. Yapýlan analiz sonuçlarý grafikler ve tablolar halinde verilmiþtir. 
+Buhar sýkýþtýrmalý kompresörlü bir soðutma sistemi tasarýmýnda, sistemin performansýný direkt olarak etkileyen çalýþma sýcaklýklarý ve parametrelerinin en iyi deðerlerinin tespit edilmesi büyük önem taþýmaktadýr. Artan enerji fiyatlarý ve yatýrým maliyetleriyle beraber bir ýsýl sistemin verilen çalýþma þartlarý dahilinde en iyi boyutlandýrýlmasýnda ýsýl ekonomik analizler büyük kolaylýklar saðlamaktadýr. Bu çalýþmadaki analizler, kompresörlü soðutma sistemlerinin tasarýmý ve en iyi çalýþma þartlarýnýn belirlenmesi konusunda yeni soðutucu akýþkanlar için ileride yapýlacak olan uygulamalara önemli ölçüde katký saðlayacaktýr. 
+SEMBOLLER 
+A Alan, m2 aC Sermaye iyileþtirme faktörü, birimsiz bC En iyilemeden etkilenmemiþ yýllýk maliyet, 
+birimsiz 
+
+
+Þekil 3. Isýl ekonomik en iyilemede en iyi alan (R22) AT 
+C Maliyet, $ Cin Ekserji giriþ birim fiyatý, $/yýl CI Tersinmezlik birim maliyeti, $/kW CC Yatýrým maliyeti, $/kW cp Özgül ýsý, kj/kgK E Ekserji, kW .Özgül ekserji, kJ/kg g Yerçekimi ivmesi, m/s2 h Özgül entalpi, kJ/kg I Tersinmezlik, kW K Toplam ýsý transfer katsayýsý, W/m2K .Tm Ortalama logaritmik sýcaklýk farký, ºC 
+• 
+m Akýþkan debisi, kg/s Q Isý akýsý, kW s Özgül entropi, kJ/kgK T Sýcaklýk, ºC top Çalýþma süresi, yýl W Ýþ, kW V Akýþ hýzý, m/s Z Referans seviyeden yükseklik, m .Ts Aþýrý soðutma sýcaklýðý, ºC .Tk Aþýrý kýzdýrma sýcaklýðý, ºC .Yapýsal bað katsayýsý, birimsiz .Sermaye maliyet katsayýsý, birimsiz 
+Alt Ýndisler 
+AK Aþýrý kýzdýrma AS Aþýrý soðutma C Kompresör E BuharlaþtýrýcýEV Genleþme valfi e Buharlaþtýrýcýýsýtma suyu in GiriþK Yoðuþturucu KI Yoðuþturucu I. bölge KII Yoðuþturucu II. bölge k Yoðuþturucu soðutma suyu R Soðutucu akýþkan T Toplam out Çýkýþ0 Çevre þartlarý
+KAYNAKLAR 
+1.	Çengel, A.Y., Boles, A.M, Thermodynamics: An Engineering Approach, McGraw-Hill, New York, A.B.D., 1994. 
+2.	Ashrae, Fundamentals, American Society of Heating Refrigerating and Air Conditioning Engineers Inc., Atlanta, A.B.D., 1993. 
+3.	
+Dossat, R.J., Principles of Refrigeration, Prentice Hall, New Jersey, A.B.D., 1997. 
+
+4.	
+Bejan, A., Advanced Engineering Thermodynamics, John Wiley and Sons, New York, A.B.D., 1997. 
+
+5.	
+Kotas, T.J., The Exergy Method of Thermal Plant Analysis, Butter-Worths, London, England, 1985. 
+
+
+6.	Koçoðlu, A., Thermo-economic Optimization of a Single State Heat Pump, Master Thesis, 
+M.E.T.U. The Graduate School of Natural and Applied Sciences, 1993. 
+7.	
+Chen, J., “Thermodynamic and Thermoeconomic Analysis of an Irreversible Combined Carnot Heat Engine System”, International Journal of Energy Research, Cilt 25, 413-426, 2001. 
+
+8.	
+Dingeç, H., Thermoeconomic Optimization of Simple Refrigerators, Master Thesis, M.E.T.U. The Graduate School of Natural and Applied Sciences, 1996. 
+
+9.	
+Sciubba, E., “Beyond Thermoeconomics? The Concept of Extended Exergy Accounting and Its Application to the Analysis and Design of Thermal Systems”, Exergy, An International Journal, Cilt 1, No 2, 68-84, 2001. 
+
+10.	
+Wall, G., “Thermoeconomic Optimization of a Heat Pump System”, Physical Resource Theory Group, Report No: 85-5, Göteborg. Sweden, 1986. 
+
+11.	
+Zhang, G.Q., Wang, L., Liu, L., Wang, Z., “Thermoeconomic Optimization of Small Size Central Air Conditioner”, Applied Thermal Engineering, Cilt 24, No 4, 471-485, 2004. 
+
+12.	
+Al-Otaibi, A.D., Dincer, I., Kalyon, M., “Thermoeconomic Optimization of Vapor-Compression Refrigeration Systems”, Int. Comm. Heat Mass Transfer, Cilt 31, No 1, 95­107, 2004. 
+
+13.	
+D’Accadia, M.D., Fichera, A., Sasso, M., Vidiri, M., “Determining the Optimal Configuration of a Heat Exchanger (With a Two Phase Refrigerant) Using Exergoeconomics”, Applied Energy, Cilt 71, No 3, 191-203, 2002. 
+
+14.	
+D’accadia, M.D., Sasso M., “Exergetic Cost and Exergoeconomic Evaluation of Vapour-Compression Heat Pumps”, Energy, Cilt 23, No 11, 937-942, 1998. 
+
+15.	
+D’Accadia, M.D., Rossi, F., “Thermoeconomic Optimization of a Refrigeration Plant”, Int. J. Refrig., Cilt 21, No 1, 42-54, 1998. 
+
+16.	
+Chen, Q., Prasad, R.C. “Simulation of a Vapour-Compression Refrigeration Cycle using HFC 134a and CFC12”, Int. Comm. Heat Mass Transfer, 26(4), 513-521, 1999. 
+
+17.	
+Yumrutaþ, R., Kunduz, M., Kanoðlu, M. “Exergy Analysis of Vapor Compression Refrigeration Systems”, Exergy, an International Journal, 2(4), 266-274, 2002. 
+
+18.	
+Kizilkan, Ö. “Examination of Superheating and Subcooling Effects in Refrigeration Systems with Compressor in Terms of Thermoeconomics for Different Refrigerants”, S.D.Ü., The Graduate School of Natural and Applied Sciences, Master Thesis, 117 p, Isparta, 2004. 
+
+19.	
+Birimfiyat, Oska Yazýlým, http://www.birimfiyat.com. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006 
+
+
+
+

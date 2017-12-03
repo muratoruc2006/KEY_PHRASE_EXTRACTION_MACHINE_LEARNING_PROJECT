@@ -1,0 +1,364 @@
+PAMUK GABARDÝN KUMAÞLARDA DÝKÝÞ RANDIMANI VE KAYMASI 
+Önder YÜCEL 
+Tekstil Programý, Bayýndýr Meslek Yüksekokulu, Ege Üniversitesi, 35840 Bayýndýr, Ýzmir 
+onder.yucel@ege.edu.tr 
+(Geliþ/Received: 01.06.2005 ; Kabul/Accepted: 18.10.2005) 
+
+ÖZET 
+Giysi kalitesi çeþitli faktörlerin bir bileþimidir. Bu faktörler içersinde dikim prosesi önemli bir yer tutmaktadýr. Ýstenilen dikim kalitesinin elde edilmesinde dikiþ randýmaný ve kaymasý temel kalite belirleyicileri olarak rol oynamaktadýrlar. Bu çalýþmada gabardin kumaþlarda çeþitli kumaþ ve dikiþ ipliði özelliklerine baðlý olarak dikiþrandýmaný ve kaymasý analizi yapýlmýþtýr. Bu amaçla 10 ayrý pamuk gabardin kumaþ ve 14 ayrý incelikte dikiþipliði kullanýlmýþtýr. Dikiþ randýmaný hafif gramajlý kumaþlarda kullanýlan dikiþ ipliðinin inceliðine baðlý olarak artarken orta ve aðýr gramajlý kumaþlarda ise azalmaktadýr. Kalýn dikiþ iplikleri orta ve aðýr gramajlý kumaþlarda daha yüksek dikiþ randýmaný vermiþtir. Pamuk/polyester dikiþ iplikleriyle dikilen kumaþlarda en yüksek, merserize pamuk dikiþ iplikleriyle dikilen kumaþlarda ise en düþük dikiþ kaymasý deðerleri elde edilmiþtir.  
+
+1. GÝRÝÞ(INTRODUCTION) ipliðinin seçimi, dikiþ parametrelerinin optimizas­
+yonu, kumaþa giysi formu verilebilmesindeki Bir giysinin temel fonksiyonu, insan vücudunu sýcak kolaylýklar ve giysinin kullanýmý esnasýndaki veya soðuk çevresel etkilerden korumak ve dýþperformansý gibi birtakým faktörlerle de iliþkilidir. materyallerden kaynaklanan yaralanmalarý önlemek Kumaþ için dikiþ ipliðinin seçimi çeþitli faktörlere olarak ifade edilebilir [1]. Bir giysi bu temel baðlýdýr. Bunlar; fonksiyonunun yaný sýra gerek estetik gerekse kullaným açýlarýndan da çeþitli kalite gerekliliklerini •Kumaþ ve dikiþ ipliðinin boyutsal ve mekaniksel yerine getirmelidir. özellikleri 
+• Bu özelliklerin uyumu, 
+Kumaþ kalitesi tek baþýna yüksek kalitedeki giysiüretimi için yeterli deðildir. Ýki boyutlu kumaþýn üç • Dikim Prosesi,
+boyutlu giysiye dönüþtürebilmesi, uygun dikiþ•Giysinin kullanýlacaðý yer.
+Benzer þekilde giysi kalitesi ve performansý, dikim mukavemeti, dikiþ kaymasý, dikiþ büzülmesi, görünüm ve kumaþ ipliklerinin ayrýlmasý gibi çeþitli faktörlere baðlýdýr ve bu faktörler konfeksiyon bilimi­nin en önemli konularýndan biri olarak deðerlendirilen kumaþýn dikilebilirliðine etki ederler [2]. Bir dikim prosesinde kumaþ ve dikiþ ipliði temel unsurlardýr. Ýstenilen dikim kalitesinin elde edilebilmesi kumaþ ve dikiþ ipliðinin mekanik ve boyutsal özellikleriyle iliþkilidir. Bu özellikler ayný zamanda kumaþýn dikile­bilirlik özelliklerinin analizi için de gerekli temel verileri oluþturmaktadýrlar. Giysi üretimde kullanýla­cak olan kumaþýn dikilebilirliðine etki eden faktör­lerden ikisi dikim randýmaný ve dikiþ kaymasýdýr. 
+Dikim randýmaný, dikilmiþ kumaþlarda dikiþ kopma dayanýmýnýn kumaþ kopma dayanýmýna oraný olarak ifade edilmektedir. Dikim randýmaný, kumaþ ve dikiþipliðinin gerilme özellikleri, kombinasyonu, dikiþmakinesi ve dikim parametrelerine (dikiþ türü, dikiþsýklýðý, dikiþ payý, dikiþ iðnesi) baðlý olarak deðiþmektedir. Ýstenilen dikim kalitesinin eldesi için bu deðerin %80 ve üzeri olmasý gerekmektedir [3]. 
+Bilindiði gibi bir giysiye vücudun gerek dinamik gerekse statik hareketlerinden kaynaklanan çeþitli gerilimler uygulanmaktadýr. Bu gerilim kuvvetleri özellikle dikim bölgelerinde kopmalara ve yýrtýlmalara neden olabilmektedir. Yüksek dikim randýmanýna sahip giysiler bu kuvvetlere direnç gösterebilmektedirler.  
+Herhangi bir gerilim etkisi altýnda dikiþ hattýnda görülen kopmalar dikiþ adýmlarýnda veya kumaþipliklerinde görülmektedir. Kumaþ ipliklerinde meydana gelen kopmalar genellikle düþük mukavemetli kumaþlarýn yüksek kopma mukave­metine sahip dikiþ iplikleriyle dikilmesi sonucunda oluþmaktadýrlar. Dikiþ çizgisinde görülen kopmalar ise dikiþlerin ilmek mukavemetlerinin düþüklüðünden kaynaklanmaktadýr. Ýlmek kuvvetleri, dikiþ iplik­lerinin fiziksel özellikleri, sýklýk deðerleri ve dikiþtürlerine göre deðiþim göstermektedirler. Giysilere uygulanan herhangi bir gerilim kuvveti sonucunda bir kopma meydana gelecekse kopmanýn öncelikle dikiþadýmlarýnda gerçekleþmesi tercih edilmektedir. Bunun nedeni, kumaþ ipliklerinde oluþacak bir yýrtýlmanýn giderilebilmesinde karþýlaþýlacak zorluklardýr [4, 5]. 
+Giysilerde gerek kumaþlarýn gerekse dikiþin vücut hareketlerine uyum saðlayacak þekilde bir esnekliðe sahip olmasýgerekmektedir. Ancak dikiþten bekleni­len esneklik, kumaþýn esnekliðinden fazla olmamalý­dýr. Dikiþ esnekliðinin yüksek olduðu durumda, dikiþin esneklik sýnýrýna ulaþýlmadan kumaþipliklerinde kopmalar meydana gelerek büyük hasarlara neden olacaktýr [6]. 
+Dikiþ kaymasý, dikilmiþ kumaþlarda dikiþ bütünlüðü­nün dikiþ çizgisinde veya dikiþe paralel þekilde iplik 
+Pamuk Gabardin Kumaþlarda Dikiþ Randýmaný ve Kaymasý
+
+kaymasý nedeniyle kýsmen veya tamamen bozul­masýdýr. Belli bir fiziksel etki ile atký ipliklerinin çözgü ya da çözgü ipliklerinin atký üzerinde kaymasýsonucu oluþur. Ýplik kaymasý sonucu kumaþýn yüzey görüntüsü bozulur ve giysinin kullaným süresi azalýr. Bu nedenle dokuma kumaþlarda ipliklerin kaymaya karþý mukavemeti oldukça önemlidir [7]. 
+Dikiþ kaymasýnýn belirlenmesinde dikiþli ve dikiþsiz kumaþlarýn uzama oranlarý arasýndaki farklýlýk esas alýnmaktadýr ve gevþek örgü yapýsýna sahip, iplik yüzme oraný yüksek kumaþlarda dikiþ kaymalarý daha yoðun görülmektedir [2, 5]. 
+Bu çalýþmada, giysi üretiminde yoðun olarak kullanýlan pamuk gabardin kumaþlarda gerek kumaþgerekse dikiþ ipliðinin çeþitli boyutsal ve gerilimsel özelliklerine baðlý olarak dikim randýmaný ve dikiþkaymasýnýn analizi yapýlmýþ ve öneriler sunulmuþtur.  
+2. MATERYAL ve METOD (MATERIALS and METHODS) 
+Araþtýrmada farklý birim aðýrlýklarda on ayrý gabardin kumaþ kullanýlmýþtýr. Bu kumaþlarýn birim aðýrlýklarýsýrasýyla 180, 205, 220, 245, 255, 280, 310, 340, 360 ve 385 gr/m2 dir. Çalýþmada kullanýlan dikiþ iplikleri ve etiket numaralarý ise Tablo 1’de verilmiþtir.  
+Tablo 1. Dikiþ ipliði türleri (Sewing thread types) 
+Ýplik Türü  Ýplik Kodu  Etiket Numarasý  
+Merserize Pamuk  MC  24  
+Merserize Pamuk  MC  40  
+Merserize Pamuk  MC  60  
+Pamuk/Polyester  CP  20  
+Pamuk/Polyester  CP  40  
+Pamuk/Polyester  CP  50  
+Kesikli Polyester  SP  36  
+Kesikli Polyester  SP  50  
+Kesikli Polyester  SP  120  
+Poly/Poly  PP  60  
+Poly/Poly  PP  100  
+Poly/Poly  PP  140  
+Tekstüre Polyester  TP  90  
+Tekstüre Polyester  TP  180  
+
+Dikiþipliklerinin kopma mukavemetleri ve uzama deðerleri ASTM D–204, kumaþlarýn kopma muka­vemeti ve uzama yüzdeleri ise ASTM D–1682 standartlarýna göre belirlenmiþtir. Dikim randýmaný ve dikiþ kaymasý deðerlerinin tespitinde ASTM D–1683 standardlarý kullanýlmýþtýr. Dikim randýmaný deðerleri aþaðýdaki formül yardýmýyla bulunmuþtur: 
+Dikilmiþ kumaþmukavemeti Dikim randýmaný = x 100 Kumaþ mukavemeti 
+
+Tüm mukavemet ve uzama ölçümleri Lloyd LR5K mukavemet ölçüm cihazýnda (CRE) gerçekleþtiril­miþtir. 
+Araþtýrmada test örnekleri için uygulanan dikim koþullarý aþaðýda verilmiþtir: 
+• 
+Makine Türü: Brother DB2-B737 
+
+• 
+Makine Hýzý: 4000 dikiþ/dak 
+
+• 
+Dikiþ Türü: Düz Dikiþ (301) 
+
+• 
+Dikiþ Yoðunluðu: 4 dikiþ/cm 
+
+• 
+Dikiþ Payý: 1.5 cm 
+
+• 
+Ýðne Numarasý: Hafif (180, 205 ve 220 gr/m2) ve orta aðýrlýktaki (245, 265, 280 ve 310 gr/m2) kumaþlar için 14, aðýr kumaþlar için (340, 360, 385 gr/m2) 16 numara iðne kullanýlmýþtýr. 
+
+• 
+Dikiþ makinesinde alt ve üst ipliklerin gerginliði dengeli bir dikiþ oluþturacak þekilde ayarlanmýþtýr. 
+
+• 
+Dikiþbüzülmesini önlemek amacýyla besleme diþlisinin üst noktasý ile iðne plakasý arasýndaki uzaklýk, hafif ve orta aðýrlýk grubundaki kumaþlar için 
+
+
+0.8 mm, aðýr kumaþlar için 1.1 mm olacak þekilde ayarlanmýþtýr. 
+Test edilecek örnekler, standart atmosfer koþullarýnda (20 0C, % 65 relatif nem) 24 saat bekletilmiþlerdir. 
+Ö. Yücel 
+
+
+
+3. ARAÞTIRMA BULGULARI ve TARTIÞMA (FINDINGS and DISCUSSION) 
+Bir dikim iþlemi kumaþ ve dikiþ ipliðinin etkileþimi sonucunda oluþmaktadýr. Bu iþlem bir giysinin meydana gelebilmesi için temel bir koþul olmakla birlikte, ayný zamanda giysi kalitesinin temel belirleyicileri arasýnda da yer almaktadýr. Giysi üretimi sýrasýnda gerek kumaþa gerekse dikiþ ipliðine çeþitli gerilim kuvvetleri etki etmektedir. Bu kuvvetlerin etki derecesi kumaþ ve dikiþ ipliðinin sahip olduðu mukavemet ve boyutsal özelliklere baðlýolarak deðiþmektedir. 
+Araþtýrma kapsamýndaki kumaþlara ait boyutsal özellikler ile mukavemet deðerleri Tablo 2 ve Tablo 3’de verilmiþtir. 
+Tablo 2’de görüldüðü gibi 180 ve 200 gr/m2 aðýr­lýðýndaki kumaþlar 2/1 dimi, diðer kumaþlar ise 3/1 dimi örgü yapýsýna sahiptirler. Kumaþ kalýnlýk deðer­leri ise kumaþ aðýrlýðýna baðlý olarak artmaktadýr. Aynýþekilde kumaþ aðýrlýklarý da iplik numaralarýveya sýklýk deðiþimlerine göre farklýlaþmaktadýr. Tablo 3’de kumaþ kopma mukavemetlerinin kumaþaðýrlýðýna baðlý olarak arttýðý görülmektedir. 
+Bu deðiþimde sýklýk ve iplik numara deðiþimleri de rol oynamaktadýr. Kumaþlarýn kopma anýndaki uzama yüzdeleri ise genel olarak düzensiz deðerler almakla 
+Tablo 2. Gabardin kumaþlarýn boyutsal özellikleri (Dimensional properties of gabardine fabrics) 
+KumaþAðýrlýðý(g/m2)  Ýplik Numarasý(Ne)  Sýklýk Deðerleri  KumaþKalýnlýðý (mm)  Örgü Türü  
+Çözgü  Atký  Çözgü/cm  Atký/cm  
+180  30/1  30/1  44.5  38  0.32  2/1Dimi  
+205  30/1  24/1  43  36.5  0.34  2/1Dimi  
+220  24/1  24/1  43.5  37  0.36  3/1Dimi  
+245  24/1  16/1  42  36  0.39  3/1Dimi  
+265  20/1  16/1  41.5  33  0.41  3/1Dimi  
+280  36/2  16/1  41  33.5  0.47  3/1Dimi  
+310  36/2  12/1  41  31  0.59  3/1Dimi  
+340  36/2  12/1  42  33.5  0.68  3/1Dimi  
+360  30/2  20/2  40  31  0.72  3/1Dimi  
+385  30/2  10  44  32  0.79  3/1Dimi  
+
+Tablo 3. Gabardin kumaþlarýn kopma mukavemetleri (Breaking strengths of gabardine fabrics) 
+Kumaþ Aðýrlýklarý(g/m2)  Kopma Mukavemeti (Newton)  Kopma Uzamasý (%)  
+Çözgü  Atký  Çözgü  Atký  
+180  271.9  188.5  9.8  7.5  
+205  275.5  179.0  9.3  7.2  
+220  299.5  297.9  9.1  8.2  
+245  296.8  288.2  9.3  9.9  
+265  311.4  309.8  9.8  10.0  
+280  319.3  306.6  11.1  11.9  
+310  331.4  319.5  11.0  10.3  
+340  348.2  331.2  11.9  12.1  
+360  379.5  370.2  13.7  12.6  
+385  411.2  400.2  14.8  12.9  
+
+birlikte en yüksek yüzdelere 360 ve 385 gr/m2 aðýrlýðýndaki kumaþlarda ulaþýlmýþtýr. 
+Araþtýrmada kullanýlan dikiþ ipliklerinin boyutsal özellikleri Tablo 4’te, mukavemet deðerleri ise Tablo 5’te gösterilmektedir. En yüksek çap deðerleri genel olarak pamuk/polyester dikiþ ipliklerinde belirlenmiþtir. Bu farklýlýk, filament üzerine pamuk liflerinin bir kýlýf þeklinde sarýlmasýndan kaynaklanmaktadýr. Bu iplikler ayný zamanda en yüksek kopma mukavemeti ve kopma uzamasý deðerlerine sahiptirler. En düþük kopma muka­vemeti deðerleri 30 tex merserize pamuk, 27 tex kesikli polyester, 33 ve 17 tex tekstüre polyester dikiþ iplikle­rinde belirlenmiþtir. Ýplik inceldikçe kopma mukavemeti deðerleri düþmektedir. Bu durum ilmek mukavemeti deðerleri için de geçerlidir. Tablo 6 ve 7’de çözgü ve atkýyönlerindeki dikiþ randýmanýdeðerleri verilmiþtir. 
+Pamuk Gabardin Kumaþlarda Dikiþ Randýmaný ve Kaymasý
+
+Deneme þartlarýnda sabit tutulan deðerler esas alýndýðýnda; 
+• 
+Hafif aðýrlýktaki gabardin kumaþlar (180, 205 ve 220 gr/m2), 45 tex merserize pamuk veya 48 tex poly/poly. 
+
+• 
+Orta aðýrlýktaki gabardin kumaþlar (245, 265, 280 ve 310 gr/m2), 79.5 tex pamuk/polyester veya 48 tex poly/poly. 
+
+• 
+Aðýr gramajdaki gabardin kumaþlar (340, 360 ve 385 gr/m2), 69 tex merserize pamuk veya 120 tex pamuk/polyester dikiþ iplikleriyle dikildiklerinde en yüksek dikiþ randýmaný deðerlerini vermektedirler. 
+
+
+Tablo 8’de gabardin kumaþlarda dikiþ kaymasý deðer­leri görülmektedir. Genel olarak düþük aðýrlýktaki kumaþlar, kalýn dikiþ iplikleriyle dikildiklerinde dikiþ
+Tablo 4. Dikiþ ipliklerinin boyutsal özellikleri (Dimensional properties of sewing threads) 
+Ýplik Türü  Ýplik Kodu  Etiket Numarasý  Ýplik Numarasý(Tex)  Metredeki Büküm  Kat Sayýsý Ýplik Çapý (mm)  
+Merserize Pamuk  MC  24  69  570  3  0.28  
+Merserize Pamuk  MC  40  45  710  3  0.23  
+Merserize Pamuk  MC  60  30  865  3  0.19  
+Pamuk/Polyester  CP  20  120  420  3  0.34  
+Pamuk/Polyester  CP  40  79.5  580  3  0.31  
+Pamuk/Polyester  CP  50  55  600  2  0.29  
+Kesikli Polyester  SP  36  90  515  3  0.29  
+Kesikli Polyester  SP  50  60  600  2  0.28  
+Kesikli Polyester  SP  120  27  850  2  0.19  
+Poly/Poly  PP  60  48  710  3  0.23  
+Poly/Poly  PP  100  31  870  2  0.21  
+Poly/Poly  PP  140  23  1050  2  0.18  
+Tekstüre Polyester  TP  90  33  80  3  0.17  
+Tekstüre Polyester  TP  180  17  - 3  0.15  
+
+Tablo 5. Dikiþ ipliklerinin mukavemet deðerleri (Breaking strengths of  sewing threads) Tablo 7. Atký yönünde dikiþ randýmaný deðerleri (%) (Seam efficiency values in weft direction %) 
+Ýplik Kodu  Numara (Tex)  Kopma Mukavemeti  Kopma Uzamasý  Ýlmek Kopma Mukavemeti (Newton)  Ýlmek Kopma Uzamasý Tenasite (cN/Tex)  
+MC  69  23.3  11.3  33.3  8.1  33.7  
+MC  45  18.4  12.4  25.3  6.8  40  
+MC  30  9.3  9.9  17.2  5.1  31  
+CP  120  41.4  20.4  63.3  16.4  34.5  
+CP  79.5  35.7  21.7  44.4  17.2  44.9  
+CP  55  25.8  20.8  51.3  16.2  46.9  
+SP  90  30.4  18.9  44.6  14.3  33.7  
+SP  60  21.4  18.2  46.6  15.5  35.6  
+SP  27  12.2  16.4  27.4  13.8  54.9  
+PP  48  21.3  16.6  38.9  16.9  44.3  
+PP  31  18.2  18.0  29.4  16.7  58.7  
+PP  23  15.6  18.1  22.2  10.7  67.8  
+TP  33  9.5  15.3  16.6  12.7  28.7  
+TP  17  6.8  14.2  15.6  10.3  40  
+
+Kumaþ  DikiþÝpliði Numaralarý (tex)  
+Aðýrlýðý(gr/m2)  MC 69  MC 45  MC 30  CP 120  CP 79.5  CP 55  SP 90  SP 60  SP 27  PP 48  PP 31  PP 23  TP 33  TP 17  
+180  44.3  84.6  70.3  55.5  58.4  67.6  44.6  82.7  79.8  79.1  61  57.0  55.1  51.0  
+205  49.9  86.6  62.1  56.2  61.6  68.9  44.1  81.9  78.7  78.7  58.4  53.5  53.9  53.4  
+220  56.8  86.9  60.1  56.9  70.4  65.6  51.0  78.7  71.1  76.2  59.6  49.7  53.7  51.1  
+245  69.6  51.3  57.6  66.1  74.1  64.5  68.6  77.3  54.6  80.1  60.1  48.4  53.5  47.4  
+265  73.1  57.6  58.4  65.6  78.6  64.8  71.3  70.0  55.8  78.5  53.6  49.3  49.0  40.3  
+280  70.6  58.1  49.5  69.7  79.4  59.6  72.2  71.2  50.1  78.7  54.4  39.6  49.1  42.4  
+310  74.6  63.0  50.6  79.7  81.4  61.1  72.6  68.6  47.7  76.4  47.6  38.4  44.4  38.0  
+340  81.9  51.6  40.7  81.8  79.0  78.6  77.4  74.6  48.2  70.1  45.5  31.1  45.0  33.1  
+360  83.6  45.1  28.0  94.4  82.2  78.0  85.9  81.1  46.6  60.3  45.3  30.3  39.1  29.5  
+385  86.8  42.2  26.2  96.7  84.0  73.4  83.4  81.0  35.5  53.9  40.1  27.1  38.8  19.2  
+
+Kumaþ  DikiþÝpliði Numaralarý (tex)  
+Aðýrlýðý(gr/m2)  MC 69  MC 45  MC 30  CP 120  CP 79.5  CP 55  SP 90  SP 60  SP 27  PP 48  PP 31  PP 23  TP 33  TP 17  
+180  31.1  73.1  68.1  54.1  57.8  65.2  33.1  80.1  75.6  82.3  60.1  54.2  57.0  56.1  
+205  40.6  74.7  60.2  55.6  56.7  66.3  39.1  81.1  77.2  82.8  56.6  50.1  56.1  50.0  
+220  51.1  74.5  59.9  57.2  68.1  64.7  45.5  77.7  69.8  80.0  50.3  45.6  49.2  50.7  
+245  70.1  44.1  55.1  60.6  71.3  60.1  66.6  75.6  50.3  78.8  57.0  44.1  50.6  48.2  
+265  70.0  43.2  57.4  64.3  72.4  63.2  66.9  68.8  50.6  75.0  49.2  39.6  45.8  38.4  
+280  68.2  48.6  50.2  67.6  76.6  55.8  55.6  70.1  49.8  74.2  50.4  37.7  45.4  38.8  
+310  74.1  51.1  47.6  77.2  79.1  60.3  70.8  65.6  45.5  73.3  45.5  35.5  39.8  30.6  
+340  78.2  50.3  45.5  81.8  76.6  72.1  74.2  70.2  48.8  69.9  47.8  29.6  39.7  32.1  
+360  84.0  40.4  29.6  88.6  77.1  76.5  80.1  80.7  34.6  58.6  40.8  28.2  35.0  23.4  
+385  89.9  40.5  21.1  88.5  74.2  73.2  79.9  78.7  35.8  50.7  37.7  26.6  34.6  17.6  
+
+kayma deðerleri artarken ince dikiþ iplikleriyle dikildiklerinde kayma deðerleri azalmaktadýr. Orta ve aðýr gramajdaki gabardin kumaþlarda ise kalýn dikiþiplikleri daha az kayma deðerleri vermektedir. En az kayma deðerleri, merserize dikiþ iplikleriyle dikilen gabardin kumaþlarda elde edilmiþtir. 
+Bunun nedeni, kumaþ ile merserize pamuk dikiþipliðinin uzama deðerleri arasýndaki uyum olarak düþünülebilir. Yüksek kopma uzamasý deðerlerine sahip pamuk/polyester dikiþ ipliklerin en yüksek kayma deðerlerini vermeleri bu düþünceyi doðrular niteliktedir. Bu durum, pamuk/polyester dikiþiplikleriyle gabardin kumaþlarýn uzama yüzdeleri arasýndaki farklýlýðýn bir sonucudur. 
+Tablo 8’deki deðerler esas alýndýðýnda hafif aðýrlýktaki gabardin kumaþlar 30 tex merserize pamuk veya 27 tex kesikli polyester dikiþ iplikleriyle dikilmesi önerilebilir. Orta ve aðýr gramajlýkumaþlarda ise 69 tex merserize pamuk veya 90 tex kesikli polyester dikiþ iplikleri daha az kayma deðerleri vermektedirler. Gerek dikiþ randýmanýgerekse kayma deðerlerinin grafiksel gösterimleri sýrasýyla Þekil 1, 2 ve 3’de verilmiþtir. 
+Kumaþ/dikiþ ipliði özellikleri ile dikiþ randýmaný/dikiþkaymasý arasýndaki korelasyon deðerleri Tablo 9’da verilmiþtir. 
+Tablo 8. Dikiþ kaymasý deðerleri (mm) (Seam slippage values) 
+Kumaþ  DikiþÝpliði Numaralarý (tex)  
+Aðýrlýðý(gr/m2)  MC 69  MC 45  MC 30  CP 120  CP 79.5  CP 55  SP 90  SP 60  SP 27  PP 48  PP 31  PP 23  TP 33  TP 17  
+180  3.5  2.6  0.5  9.6  7.6  6.0  8.1  2.3  1.4  2.7  1.9  1.6  2.4  2.0  
+205  3.2  2.7  1.2  8.8  7.7  5.8  9.3  2.5  1.1  2.9  2.6  2.5  2.5  2.9  
+220  3.1  2.8  2.1  8.9  6.9  6.7  9.6  2.6  2.0  3.4  2.8  2.6  2.2  2.6  
+245  2.9  2.9  2.7  3.2  7.0  6.1  2.4  3.5  3.2  2.8  2.3  3.9  3.7  3.8  
+265  2.2  3.2  2.6  3.1  5.1  5.9  2.3  3.1  3.9  3.5  3.1  2.2  3.2  3.9  
+280  2.0  2.3  2.7  3.4  4.7  5.1  1.9  4.9  3.6  3.6  3.4  4.4  3.9  5.2  
+310  2.1  2.7  3.0  2.9  4.0  5.0  2.0  4.8  4.1  4.3  4.6  5.6  4.6  6.5  
+340  1.5  2.0  2.4  2.7  4.1  4.9  2.1  2.8  5.2  5.6  4.9  5.5  4.8  9.5  
+360  1.4  1.7  3.5  2.4  3.8  5.3  1.8  2.4  5.0  4.5  5.6  6.3  6.9  9.6  
+385  0.7  1.4  3.8  1.5  2.6  6.2  1.6  4.4  6.9  4.8  6.6  8.1  6.6  12.1  
+
+
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+180 205 
+MC 69 MC 45 MC 30 CS 120 CS 79,5 CS 55 SP 90 SP 60 SP 27 PP 48 PP 31 PP 23 TP 33 TP 17 
+
+220 245 265 280 310 340 360 385 
+Randýman (%) Randýman (%) 
+Kumaþ Aðýrlýðý (gr/m2) Þekil 1.  Çözgü yönündeki dikiþ randýmaný deðerlerinin grafiði (Graphic of seam efficiency values in warp direction) 
+100  
+90  
+80  
+70  
+ 
+ 
+ 
+ 
+ 
+ 
+ MC 69  
+
+ 
+ 
+ 
+ 
+ MC 45  
+60  
+ 
+ 
+ 
+ 
+ 
+ MC 30  
+
+ 
+ 
+ 
+ 
+ CS 120  
+50  
+ 
+ 
+ 
+ CS 79,5  
+
+ 
+ 
+ 
+ CS 55  
+40  
+ 
+ 
+ 
+ 
+ 
+ SP 90 SP 60  
+
+ 
+ 
+ 
+ SP 27  
+30  
+ 
+ 
+ 
+ PP 48  
+
+ 
+ PP 31  
+20  
+ 
+ PP 23  
+
+ TP 33  
+10  
+ TP 17  
+0  
+ 
+ 
+180  205  220  245  265  280  310  340  360  385  
+Kumaþ Aðýrlýðý (gr/m2)  
+
+Þekil 2. Atký yönündeki dikiþ randýmaný deðerlerinin grafiði (Graphic of seam efficiency values in warp direction) 
+Dikiþ randýmaný, kumaþýn kopma uzamasý (r=0.96) ve mukavemeti (r=0.94) ile yüksek bir korelasyona sahiptir. En düþük korelasyon dikiþ randýmaný ile dikiþ ipliði kopma uzamasý (r=0.72) arasýndadýr. Dikiþkaymasý ile kumaþ kopma uzamasý arasýnda negatif bir korelasyon (r= - 0.93) belirlenmiþtir. Ayrýca dikiþkaymasý ve kumaþ mukavemeti arasýnda oldukça yüksek bir korelâsyona vardýr (r=0.97). 
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+
+
+
+180 205 220 245 265 280 310 340 360 385 Kumaþ Aðýrlýðý (gr/m2) Þekil 3. Dikiþ kaymasý deðerlerinin grafiði (Graphic of seam slippage values) 
+Tablo 9. Korelasyon deðerleri (Correlation coefficients) 
+Kayma Deðeri (mm) 
+Özellikler  Korelasyon Katsayýlarý (r)  
+Dikiþ Randýmaný/DikiþÝpliði Mukavemeti  0.91  
+Dikiþ Randýmaný/DikiþÝpliði Kopma Uzamasý  0.72  
+Dikiþ Randýmaný/Ýlmek DikiþÝpliði Mukavemeti  0.77  
+Dikiþ Randýmaný/Ýlmek DikiþÝpliði Kopma uzamasý  0.84  
+Dikiþ Randýmaný/Kumaþ Mukavemeti  0.94  
+Dikiþ Randýmaný/Kumaþ Kopma Uzamasý  0.96  
+Dikiþ Kaymasý/ DikiþÝpliði Mukavemeti  0.78  
+Dikiþ Kaymasý/ DikiþÝpliði Kopma Uzamasý  0.58  
+Dikiþ Kaymasý/ Ýlmek DikiþÝpliði Mukavemeti  0.57  
+Dikiþ Kaymasý/ Ýlmek DikiþÝpliði Kopma uzamasý  0.69  
+Dikiþ Kaymasý/ Kumaþ Mukavemeti  0.97  
+Dikiþ Kaymasý/ Kumaþ Kopma Uzamasý  - 0.93  
+
+4. SONUÇ (RESULT) 
+Bir kumaþýn dikilebilirlik özellikleri bu kumaþtan üretilecek olan giysinin kalitesine önemli ölçülerde etki etmektedir. Dikiþ randýmaný ve kaymasý kumaþýn dikilebilirliðine etki eden temel faktörler arasýnda yer almaktadýr. Bu çalýþmada pamuk gabardin kumaþlarda  dikiþ ipliði ve kumaþ özelliklerine baðlý olarak dikiþrandýmaný ve kaymasý analizi yapýlmýþtýr. Buna göre, ince dikiþ iplikleriyle dikilen düþük aðýrlýktaki gabar­din kumaþlarda dikiþ randýmaný artarken orta ve aðýr gramajdaki gabardin kumaþlarda ise azalmaktadýr. Orta ve aðýr gramajdaki gabardin kumaþlar kalýn dikiþiplikleriyle daha yüksek dikiþ randýmaný deðerleri ver­mektedirler. Dikiþ randýmaný, kumaþýn kopma uzamasý ve mukavemetiyle yüksek korelâsyona sahiptir. 
+Ayrýca dikiþ ipliði mukavemeti de dikiþ randýmanýnýarttýrmaktadýr. Kalýn dikiþ iplikleri düþük aðýrlýktaki gabardin kumaþlarda yüksek dikiþ kaymasý deðerleri verirken orta ve aðýr gramajlarda ise daha az kayma deðerleri elde edilmektedir. Genel olarak merserize pamuk dikiþ iplikleriyle dikilen gabardin kumaþlarda daha az kayma görülmektedir. Bu durum, dikiþ ipliði ve kumaþ arasýndaki kopma uzama deðerleri farkýnýn az olmasýndan kaynaklanmaktadýr. Pamuk/polyester dikiþ iplikleri tüm gabardin kumaþlarda yüksek deðerde dikiþ kaymasý etkisi yaratmaktadýr. Ayrýca dikiþ kaymasý, kumaþmukavemeti ile yüksek bir korelasyona sahipken, kumaþ kopma uzamasýyla negatif bir korelasyon deðeri vermiþtir. 
+KAYNAKLAR (REFERENCES) 
+1. Kawabata, S., Niwa, M., “Fabric Performance in Clothing and Clothing Manufacture” Journal of Textile Institue, Vol. 80, No 1, 19-50, 1989. 
+2. Behera, B.K., Chand, S., Singh, T.G., Rathee, P., Singh,T.G., Rathee, P., “Sewability of Denim”, International Journal of Clothing Science and Technology, Vol. 9, No2, 128-140, 1997. 
+3.
+ Salhotra, K.R., Hari, P.K., Sundaresan, G., Sewing Thread Properties, Textile Asia, September, 46­49, 1994 
+
+4.
+ Carr, H. , Latham, ., The Technology of Clothing Manufacture, Oxford, London, 274-275, 1988. 
+
+5.
+ SantralDikiþ A.Þ. “Ýplik Teknolojileri Teknik Bülteni” Bölüm 5-16, Bursa, 1999. 
+
+
+Pamuk Gabardin Kumaþlarda Dikiþ Randýmaný ve Kaymasý
+
+6.
+ Meriç, B., Yenginer, V., Astarlýk Kumaþlarda Yapýsal Parametrelerin Dikiþ Performansýna Etkileri, E.Ü. Tekstil ve Konfeksiyon Araþtýrma ve Uygulama Merkezi, Tekstil ve Konfeksiyon Der­gisi, Kasým-Aralýk, yýl 10 Sayý 6, 257-265, 2000. 
+
+7.
+ Özdil, N., Kumaþlarda Fiziksel Kalite Kontrol Yöntemleri, E. Ü. Tekstil ve Konfeksiyon Araþtýrma ve Uygulama Merkezi Yayýný, No: 21, Bornova, 73, 2003. 
+
+
+
+
+
+

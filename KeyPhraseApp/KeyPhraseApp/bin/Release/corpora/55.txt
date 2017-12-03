@@ -1,0 +1,114 @@
+ÖSTENÝTÝK PASLANMAZ ÇELÝKLERÝN ÝÞLENMESÝNDE  KESÝCÝ TAKIM KAPLAMASININ VE KESME HIZININ KESME KUVVETLERÝ VE YÜZEY PÜRÜZLÜLÜÐÜNE ETKÝSÝ
+Bu çalýþmada, iki farklýkalitede östenitik paslanmaz çeliðin (AISI 304 ve AISI 316) iþlenmesinde, kesici takým kaplamasýnýn, kesme hýzýnýn ve iþ parçasý malzemesinin, kesme kuvvetleri ve yüzey pürüzlülüðü üzerindeki etkilerini incelemek amacýyla soðutma sývýsý kullanýlmadan tornalama metoduyla iþlenebilirlik deneyleri yapýlmýþtýr. TiC/TiCN/TiN ve TiCN/TiC/Al2O3 katmanlarýyla çok katlý kaplanmýþ sementit karbür kesici takýmlar kullanýlmýþtýr. Deneyler dört farklý kesme hýzýnda (120, 150, 180 ve 210 m/dak) ilerleme hýzý ve talaþderinliði sabit tutularak yapýlmýþtýr. Ýlerleme hýzý 0,16 mm/dev ve talaþ derinliði de 1,6 mm olarak alýnmýþtýr. Deney sonuçlarý, TiC/TiCN/TiN kaplanmýþ kesici takýmýn TiCN/TiC/Al2O3 kaplanmýþ kesici takýmdan daha düþük kesme kuvvetlerine sebep olduðunu ortaya çýkarmýþtýr. Kesme hýzýnýn kesme kuvvetlerinde önemli derecede bir deðiþikliðe neden olmadýðý ancak iþlenmiþ yüzey pürüzlülüðünü önemli derecede etkilediði görülmüþtür. Artan kesme hýzý ile yüzey pürüzlülük deðerleri belirli bir kesme hýzý deðerine kadar azalmýþ ancak bu deðerden sonra artan kesme hýzý ile artýþ eðilimi göstermiþtir. 
+
+1. GÝRÝÞkaplanmýþ sementit karbür kesici takýmlar 
+geliþtirilmiþtir. Kesici takýmlarýn kaplanmasý kesici Sementit karbür kesici takýmlarýn yüzeyleri aþýnmaya takým teknolojisinde önemli bir geliþme olarak kabul dirençli, sert ve iþleme esnasýnda iþ parçasý ve kesici edilmiþtir. Kaplanmýþ sementit karbür kesici takýmlar, takýmýn etkileþimini engellemek için kimyasal olarak esas olarak sementit karbür bir kesici takýmýn bir veya kararlý olmalýdýr. Bu amaçla 1970’li yýllarda daha fazla, aþýnmaya dirençli ince katmanla kaplanmasýile elde edilen kesici takýmlardýr. Titanyum karbür (TiC), titanyum nitrür (TiN) ve/veya alüminyum oksit (Al2O3) yaygýn olarak kullanýlan kaplama malzemeleridir [1-3]. Ýnce ve sert kaplama tabakasýnýn/tabakalarýnýn takým aþýnmasýný azalttýðý ve verimliliði arttýrdýðýbilinmektedir [4-8]. Bu nedenle, kaplama iþlemi ilave bir maliyet getirse de, talaþlýimalat sektöründe kullanýlan sementit karbür kesici takýmlarýn çoðunluðu kaplanmýþ sementit karbürlerdir [9]. 
+Günümüzde, talaþlý imalat sektöründe farklýmalzemeler ve farklý amaçlar için çeþitli kaplamalarla kaplanmýþ sementit karbür kesici takýmlar kullanýlýr. Örneðin, alüminyum oksitin (Al2O3) yüksek sýcaklýklarda kimyasal olarak dengeli ve aþýnmaya dirençli olduðu ispatlanmýþtýr. Bunun yanýnda titanyum nitrür (TiN), kesici takýmda sürtünme katsayýsýný azaltýr ve bu nedenle kesici takým talaþyüzeyinde yapýþma eðilimi azalýr [3]. 
+Bu araþtýrmanýn amacý, kimya ve gýda endüstrisinde ve korozyon direnci gerektiren makina parçalarýnýn imalatýnda kullanýlan [10] ve deformasyon sertleþme hýzý ve tokluðu yüksek ve ýsýl iletkenliði düþük olan 
+[11] iki farklýkalitede östenitik paslanmaz çelik (AISI 304 and AISI 316) üzerinde tornalama metoduyla iþlenebilirlik deneyleri yaparak iki önemli iþlenebilirlik kriteri olan kesme kuvvetleri ve iþ
+parçasý yüzey pürüzlülüðüne kesici takýmmalzemesinin, kesme hýzýnýn ve iþmalzemesinin etkilerini incelemektir.   kaplama  parçasý  
+2. DENEYSEL ÇALIÞMALAR  
+
+Ýþlenebilirlik deneyleri, AISI 304 and AISI 316 kalite östenitik paslanmaz çeliklerin tornalanmasý metodu ile yapýlmýþtýr. Bu malzemelerin kimyasal bileþimleri Tablo 1’de verilmiþtir. Her iki malzemenin de oda sýcaklýðý sertliði 88 RB’dir. Silindirik iþ parçasýmalzemeleri üzerindeki iþlenebilirlik deneyleri TC35 CNC torna tezgahý kullanýlarak yapýlmýþtýr. Kullanýlan torna tezgahýnýn iþ mili, deðiþken kademesiz hýza sahip olup 4000 dev/dak’ya kadar çýkabilmektedir ve gücü de 10 kW’týr. Ýþ parçasýmalzemeleri 250 mm uzunluðunda ve 40 mm çapýndadýr. Deneyler esnasýnda soðutma sývýsýkullanýlmamýþtýr. Ýki farklýkalitede sementit karbür kesici takým kullanýlmýþtýr. Kullanýlan kesici takýmlar, ticari kalite CVD yöntemiyle çoklu kaplanmýþ kesici takýmlar olup Kennametal firmasý tarafýndan CNMG120408 formunda imal edilmiþtir. Bu iki kesici takým kalitesi Kennametal firmasý tarafýndan paslanmaz çeliklerin iþlenmesi için tavsiye edilmiþolup KC 810 ve KC 935 þeklinde üretici firma tarafýndan kodlanmýþtýr. KC 810’da en üst kaplama TiN ve onun altýndakiler sýrasýyla TiCN ve TiC’dür. Benzer þekilde KC 935’te de en üst kaplama Al2O3 ve onun altýndakiler de sýrasýyla TiC ve TiCN’dür. Bu kesici takýmlar uygun bir takým tutucuya yanaþma 
+Tablo 1. Ýþ parçasýmalzemelerinin kimyasal bileþimleri
+ AISI 304  AISI 316  
+C  0.06  0.02  
+Si  0.35  0.45  
+S  0.024  0.025  
+P  0.021  0.029  
+Mn  1.76  1.77  
+Ni  8.24  10.43  
+Cr  18.26  16.54  
+Mo  0.07  1.89  
+Cu  0.23  0.39  
+
+açýsý 75° olacak þekilde rijit olarak baðlanmýþtýr. Kullanýlan kesme hýzlarý 120, 150, 180 ve 210 m/dak olarak seçilmiþtir. Ýlerleme hýzý0,16 mm/dev ve talaþderinliði de 1,6 mm olarak seçilmiþtir. Deney parametreleri, ISO 3685 standardýna uygun olarak belirlenmiþtir. 
+Mitutoyo Surftest 211 model bir yüzey pürüzlülük cihazý ile iþlenmiþyüzeyler üzerinde yüzey pürüzlü­lüðü ölçümleri gerçekleþtirilmiþtir. Her bir yüzey üzerinde üç ölçüm yapýlmýþtýr. Kesme kuvvetlerinin ölçümünde Kistler 9257A tipi üç kuvvet bileþenini de ölçebilen bir piezoelektrik dinamometre kullanýlmýþ­týr. Bu dinamometreye 5019 B130 tipi bir sinyal yük­seltici (charge amplifier) baðlanmýþ ve kesme kuvvetle­rinin bilgisayara aktarýlmasý için gerekli donaným ve Kistler Dynoware kuvvet ölçme programý kullanýlmýþ­týr. Kuvvet ölçümleri, 40 mm’lik çapta 25 mm’lik uzunluðun iþlenmesi esnasýnda gerçekleþtirilmiþtir. 
+
+3. DENEY SONUÇLARI VE TARTIÞMA 
+
+3.1. Kesici Takým Üst Kaplama Katmaný
+Þekil 1a ve b, sýrasýyla AISI 304 ve AISI 316 paslanmaz çeliklerin iþlenmesi esnasýnda oluþan kesme kuvvetlerinin kesme hýzý ile deðiþimini göstermektedir. Her iki paslanmaz çeliðin iþlenmesinde TiC/TiCN/TiN kaplanmýþ kesici takým, TiCN/TiC/Al2O3 kaplanmýþ kesici takýmdan daha düþük kesme kuvvetine neden olmuþtur. TiC/TiCN/TiN kaplanmýþ kesici takýmýn daha düþük kesme kuvvetlerine neden olmasý kesici takým talaþyüzeyindeki düþük sürtünme katsayýsýna atfedilebilir. En üstteki TiN kaplama diðer kesici takýmýn en üst kaplama tabakasý Al2O3’den daha düþük sürtünme katsayýsýna sahiptir [3]. Bu nedenle, TiN ile kaplanmýþ kesici takýmlarda kesici takým talaþyüzeyinde iþ parçasý malzemesi daha az yapýþma eðilimi sergiler. Bu daha az yapýþma eðilimi nedeni ile de, kesici takým talaþ yüzeyinde takým-talaþ temas uzunluðu kýsalýr ve bu da kesme kuvvetlerini azaltýr. 
+Þekil 1’de kesme hýzýnýn 120 m/dak’dan 150 m/dak’ya çýkarýlmasý ile her iki paslanmaz çelik için kesme kuvvetlerinde bir düþme görülmektedir. Ancak kesme hýzýnýn daha fazla artmasýyla kesme kuvvetleri tekrar artma eðilimi göstermektedir. Kesme hýzýnýn 120 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 2, 2005 
+
+
+m/dak’dan 150 m/dak’ya çýkarýlmasýyla kesme kuvvetlerinin düþüþü kýsmen kesici takým talaþyüzeyinde takým-talaþ temas uzunluðunun azalmasý ve kýsmen de artan kesme hýzý sonucu sýcaklýðýn artmasýyla takým talaþ yüzeyindeki akma bölgesinde yapýþan malzemenin kayma dayanýmýnýn azalmasýyla açýklanabilir [12]. Kesme hýzýnýn daha fazla arttýrýlmasýyla kesme kuvvetlerindeki artýþ ise yüksek kesme hýzlarýnda takým aþýnmasýnýn muhtemel artýþýile açýklanabilir. 
+AISI 304 paslanmaz çelikte kesme hýzýnýn 120 m/dak’dan 150 m/dak’ya çýkarýlmasýyla kesme kuvvet­lerinde 44 N’luk bir azalma görülmektedir. Bu deðer, Þekil 1a ve b’de görülen en yüksek deðiþim olup yal­nýzca yaklaþýk olarak % 7’lik bir deðiþime tekabül eder. 
+
+
+3.2. Ýþ Parçasý Malzemesi 
+Normalde, östenitik paslanmaz çelikler düþük karbonlu ve düþük alaþýmlý çeliklerden daha zor iþlenirler. Düþük karbonlu ve düþük alaþýmlý çeliklere göre dayanýmlarýnýn ve sünekliklerinin yüksek olmasý, yüksek deformasyon sertleþme eðilimleri ve düþükýsýl iletkenlikleri östenitik paslanmaz çeliklerin zor iþlenmelerinin nedenleri olarak kabul edilir [12,13]. Ýlave olarak, farklý kalitelerdeki östenitik paslanmaz çeliklerin kimyasal bileþimlerindeki farklýlýk bu malzemelerin özelliklerinde de deðiþimlere neden olur. Dolayýsýyla, bu farklýlýklar malzemelerin iþlenebilirliklerini de etkiler. Þekil 2’den görüldüðü gibi AISI 316 östenitik paslanmaz çeliðin iþlenmesinde elde edilen kesme kuvvetleri deney yapýlan bütün kesme hýzlarýnda daha yüksektir. AISI 304 ve AISI 316 paslanmaz çeliklerin kimyasal bileþimlerindeki farklýlýk (Tablo 1) kesme kuvvetlerindeki deðiþimin nedeni olarak deðerlendirilmiþtir. Çünkü, her iki paslanmaz çeliðin oda sýcaklýðý sertlikleri, çekme dayanýmlarý ve süneklikleri aynýdýr [2]. Tablo 1’den AISI 316 paslanmaz çeliðin kimyasal bileþiminde AISI 304 paslanmaz çeliðinkinden farklý olarak yaklaþýk % 2 oranýnda molibden (Mo) olduðu görülmektedir. Mo elementi çeliklerde yüksek sýcaklýk dayanýmýný artýrýcýetki yapar [14,15]. Talaþlý imalat iþleminde yüksek plastik deformasyon sonucu oluþan ýsý kesme bölgesinde sýcaklýðý artýrýr. Bu sýcaklýk artýþýnýn doðal sonucu olarak da kesme bölgesinde iþlenen malzemelerin dayanýmlarý azalýr ve dolayýsýyla talaþýoluþturmak için daha az kuvvet gerekir. Bu azalma yüksek Mo içeriði nedeniyle AISI 316 paslanmaz çelikde daha az olacaðý için bu malzemenin iþlenmesinde talaþý oluþturmak amacýyla AISI 304 için gerekli olandan daha yüksek kuvvet gerekir. 
+
+
+3.3. Ýþ Parçasý Yüzey Pürüzlülüðü 
+Þekil 3a ve b, sýrasýyla AISI 304 ve AISI 316 paslanmaz çelikler için iþ parçasý ortalama yüzey pürüzlülük deðerlerini (Ra) göstermektedir. Bu deðerler her bir iþ parçasý ve her bir kesme hýzý için yapýlan üç ölçmenin ortalamalarýdýr. Her iki þekilde de yüksek yüzey pürüzlülük deðerleri elde edilmiþtir. Bu yüksek deðerler östenitik paslanmaz çeliklerin yüksek süneklikleri ile açýklanabilir, çünkü yüksek süneklik büyük ve kararsýz yýðýntý talaþ (BUE) oluþma eðilimini artýrýr [16]. Yýðýntý talaþ normalde yüzey pürüzlülüðünü artýrýr ve dolayýsýyla yýðýntý talaþýn büyük ve kararsýz olmasý durumunda yüzey pürüz­lülük deðeri daha da artar ve kötü bir yüzey oluþur. 
+Kesme kuvvetlerinin aksine, elde edilen yüzey pürüzlülük deðerlerinin kesme hýzýndan önemli derecede etkilendiði Þekil 3a ve b’den görülmektedir. Ýþ parçasý yüzey pürüzlülüðü grafikleri incelendiðinde en yüksek yüzey pürüzlülük deðerinin her iki iþ
+
+Þekil 2. TiCN/TiC/Al2O3 kaplanmýþ kesici takýmla AISI 304 ve AISI 316 östenitik paslanmaz çeliklerin 0,16 mm/dev ilerleme hýzýve 1,6 mm talaþ derinliðin­de iþlenmesi sonucu kesme kuvvetlerinin deðiþimi 
+
+
+
+parçasýmalzemesi ve her iki kesici takýmda da 120 m/dak’da gerçekleþtiði görülür. Genelde, kesme hýzýnýn artmasý ile yüzey pürüzlülük deðerleri 180 m/dak kesme hýzýna kadar azalmýþtýr ancak bu deðerden sonra kesme hýzýnýn artmasýyla yüzey pürzülülük deðerleri artýþ eðilimi sergilemiþtir. 180 m/dak kesme hýzýna kadar artan kesme hýzýyla yüzey pürüzlülüðü deðerlerinin azalmasý yýðýntý talaþ oluþma eðiliminin azalmasýyla açýklanabilir. Çünkü, artan kesme hýzýyla sýcaklýk artar ve sýcaklýðýn artmasý ile de kesici uçtaki yýðýntý talaþ sertliðini ve dayanýmýný kaybederek devam eden kesme sürecinde üzerine gelen gerilmelere dayanamayarak kesici uçtan uzaklaþýtýrýlýr ve dolayýsýyla yüksek kesme hýzlarýnda oluþma eðilimi azalýr. Ancak, kesme hýzýndaki 180 m/dak’dan sonraki artýþla yüzey pürüzlülüðünün artmasý, yüksek kesme hýzlarýnda kesici takým ucundaki muhtemel küçük kýrýlmalarla (chipping) açýklanabilir. 
+Þekil 3a ve 3b’den TiCN/TiC/Al2O3 kaplanmýþ kesici takýmýn genellikle daha düþük yüzey pürüzlülük deðerlerine neden olduðu da görülmektedir. Bu durumun þu andaki mevcut verilerle açýklanmasý güçtür ve dolayýsýyla kullanýlan kesici takýmlarýn tarama elek­tron mikroskobu (SEM) ile incelenmesi gerekmektedir. 
+
+
+
+4. SONUÇLAR 
+Üst kaplama tabakalarý farklý olan (TiC/TiCN/TiN ve TiCN/TiC/Al2O3) sementit karbür kesici takýmlar kullanýlarak AISI 304 ve AISI 316 östenitik paslanmaz çelikler üzerinde tornalama ile yapýlan iþlenebilirlik deneylerinden elde edilen sonuçlar aþaðýda özetlenmiþtir: 
+-TiC/TiCN/TiN kaplanmýþ kesici takýmla elde edilen kesme kuvvetleri TiCN/TiC/Al2O3 kaplanmýþ kesici takýmla elde edilenlerden daha düþük olmakla birlikte kesme kuvvetleri arasýndaki farklýlýk çok fazla deðildir. 
+-AISI 316 paslanmaz çeliðin tornalanmasýesnasýnda oluþan kesme kuvvetleri, AISI 304 paslanmaz çeliðin tornalanmasý esnasýnda oluþan kesme kuvvetlerinden daha yüksektir. 
+-Kesme hýzý, kesme kuvvetleri üzerinde çok fazla bir etki oluþturmamasýna raðmen tornalanmýþyüzeylerin pürüzlülük deðerlerini önemli derecede etkilemiþtir. Artan kesme hýzýile yüzey pürüzlülük deðerleri belirli bir kesme hýzý deðerine kadar azalmýþ ancak kesme hýzýnýn bu deðerden sonraki artýþlarýyla artmýþtýr. 
+
+
+KAYNAKLAR 
+1.	
+Sarwar, M., Zhang, X., ve Gillibrand, D., “Performance of Titanium Nitride-Coated Carbide Tipped Circular Saws when Cutting Stainless Steel and Mild Steel”, Surface and Coatings Technology, Cilt 94-95, 617-621, 1997. 
+
+2.	
+Groover, M.P., Fundamentals of Modern Manufacturing – Materials, Processes and Systems, Prentice-Hall Inc., New Jersey, A.B.D., 1996. 
+
+3.	
+DeGarmo, E.P., Black, J.T. ve Kohser, R.A., 
+
+
+Materials and Processes in Manufacturing, 
+Prentice-Hall Inc., New Jersey, A.B.D., 1997. 
+4.	
+Lim, C.Y.H., Lim, S.C. ve Lee, K.S., “The Performance of TiN-coated High Speed Steel Tool Inserts in Turning”, Tribology International, Cilt 32, 393-398, 1999. 
+
+5.	
+Ezugwu, E.O.ve Okeke, C.I., “Tool Life and Wear Mechanisms of TiN Coated Tools in an Intermittent Cutting Operation”, Journal of Materials Processing Technology, Cilt 116, 10­15, 2001. 
+
+6.	
+Nouari, M., List, G., Girot, F. ve Coupard, D., “Experimental Analysis and Optimisation of Tool Wear in Dry Machining of Aluminium Alloys”, Wear, Cilt 255, 1359-1368, 2003. 
+
+7.	
+Prengel, H.G., Santhanam, A.T., Penich, R.M., Jindal, P.C. ve Wendt, K.H., “Advanced PVD-TiAlN Coatings on Carbide and Cermet Cutting Tools”, Surface and Coatings Technology, Cilt 94-95, 597-602, 1995. 
+
+8.	
+Ducros, C., Benevent, V. ve Sanchete, F., “Deposition, Characterization and Machining Performnace of Multilayer PVD Coatings on Cemented Carbide Tools”, Surface and Coatings Technology, Cilt 163-164, 681-688, 2003. 
+
+9.	
+Sharman, A., Dewes, R.C. ve Aspinwall, D.K., “Tool Life when High Speed Ball Nose End Milling Inconel 718TM”, Journal of Materials Processing Technology, Cilt 118, 29-35, 2001. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 2, 2005 
+
+10.	
+Korkut, I., Kasap, M., Ciftci, I. ve Seker, U., 14. Kalpakjian, S., Manufacturing Process for “Determination of Optimum Cutting Parameters Engineering Materials, Addison-Wesley, New during Machining of AISI 304 Austenitic York, A.B.D., 1991. Stainless Steel”, Materials & Design, Cilt 25, 15. Shaw, M.C., Metal Cutting Principles, Oxford No 4, 303-305, 2004. University Press, Oxford, 1989. 
+
+11.	
+Sandvik-Coromant Co. Inc., Modern Metal 16. Ezugwu, E.O. ve Kim, S.K., “The Performance Cutting – A Practical Handbook, Ýsveç, 1997. of Cermet Cutting Tools when Machining an Ni­
+
+12.	
+Trent E.M., Metal Cutting, Butterworths Pres, Cr-Mo (En 24) Steel”, Lubrication London, 1989. Engineering, Cilt 51, No 2, 139-145, 1995. 
+
+13.	
+Paro, J., Hanninen, H. ve Kauppinen, V., “Tool Wear and Machinability of X5 CrMnN 18 18 Stainless Steels”, Journal of Materials Processing Technology, Cilt 119, No 1–3, 14– 20, 2001. 
+
+
+
+
+
+

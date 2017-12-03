@@ -1,0 +1,201 @@
+SAKARYA NEHRÝNDE BARAJLARIN MANSAP ETKÝSÝNÝN ARAÞTIRILMASI 
+Sabahattin IÞIK, Mustafa ÞAÞAL ve Emrah DOÐAN 
+Ýnþaat Mühendisliði Bölümü, Mühendislik Fakültesi, Sakarya Üniversitesi, Sakarya 
+sisik@sakarya.edu.tr, sasal@sakarya.edu.tr, emrahd@sakarya.edu.tr 
+(Geliþ/Received: 06.04.2005; Kabul/Accepted: 22.11.2005) 
+ÖZET 
+Barajlarýn inþaalarýndan sonra, nehrin akým ve katý madde taþýným karakteristikleri önemli ölçüde deðiþir. Nehirdeki akým ve katý madde taþýnýmýndaki bu deðiþimler nehrin mansap kesiminde oyulmalara neden olur. Bu çalýþmada Orta Sakarya Havzasýnda Gökçekaya barajýnýn yapýlmasýndan sonra Aþaðý Sakarya Nehrinde meydana gelen hidrolojik, hidrolik ve morfolojik deðiþimler araþtýrýlmýþtýr. Barajýn inþasýndan önce ve sonraki durumlar için nehirdeki akýmlarýn ve aský maddesi miktarýnýn deðiþimi incelenmiþtir. AþaðýSakarya Nehri üzerindeki Doðançay ve Botbaþý istasyonlarýna ait deðerler kullanýlarak baraj öncesi ve sonrasý akým deðiþimleri grafikler halinde gösterilmiþtir. Yine her iki istasyona ait maksimum anlýk taþkýn akýmlarý kullanýlarak gelmesi muhtemel taþkýnlardaki deðiþimler bulunmuþtur. Nehirde taþkýn pik debileri düþerken, nehir rejiminin düzenlendiði görülmüþtür. Ölçülen aský maddesi miktarý kullanýlarak baraj öncesi ve sonrasý için sediment anahtar eðrileri elde edilerek birbirileriyle karþýlaþtýrýlmýþtýr. Gökçekaya barajýnýn yapýlmasýyla beraber katý madde taþýnma miktarýnýn % 40-65 oranýnda azaldýðý gözlemlenmiþtir. 1965 ve 2003 yýllarýnda yapýlan nehir en kesiti ölçümleri karþýlaþtýrýldýðýnda, nehir yataðýnda  geniþleme ve 7 m’ye kadar oyulma olduðu belirlenmiþtir. 
+
+1. GÝRÝÞ(INTRODUCTION) bir baþka deyiþle nehrin konumu ve kesitlerinde 
+deðiþimler meydana gelir. Bu deðiþimler doðal olarak Bazý hidrolik faktörlerin deðiþmesi sonucunda, veya insani etkilerle; ani, yavaþ ve uzun vadede alüvyal nehirlerin tabanýnda ve yan þevlerinde veya olabilir. Nehrin herhangi bir noktasýnda yapýlan yersel 
+S. Iþýk vd. 
+bir müdahale o noktanýn hem memba hem de mansabýnda etkiler meydana getirecektir [1,2]. 
+Barajlarýn yapýmýndan sonra, nehrin mansabýndaki kesimde morfolojik, hidrolojik ve katý madde taþýným miktarý özelliklerinde bazý deðiþimlere neden olduðu bilinmektedir. Bundan dolayý herhangi bir su kaynaklarýplanlama ve geliþtirme projesi veya nehir ýslah ve düzenleme projelerinin uygulamasýesnasýnda; bölgenin iklim þartlarý, jeolojik etkenler (zemin, toprak sýnýfý gibi), hidrolojik etkenler, geometrik karakteristikler, hidrolik karakteristikler, ekolojik ve biyolojik yapý, politik ve ekonomik kýsýtlar gibi faktörlerin olasý etkilerinin anlaþýlýp iyice deðerlendirilmesi gerekir [1,3]. 
+Barajlardan sonra nehirdeki debinin pik deðerleri düþer, minimum deðerleri artar ve böylece nehrin rejimi düzenlenir. Bunun yanýnda, barajlar gelen katýmaddeyi tutarlar ve mansaba temiz su býrakýrlar. Böylece katý madde taþýma kapasitesi artan nehir, yakýn ve uzak mansaptaki nehir yataðýnda oyulmalara neden olur. Baþka bir deðiþle, gelen katý madde rezervuarda tutulmakta ve baraj mansabýna ulaþamamakta ve böylece mansap kesiminde taþýnan katý madde gelen katýmaddeden büyük (Qst>Qsg) olduðu için nehir mansabýnda oyulmalar meydana gelmektedir [4-6]. 
+Aþaðý Sakarya Nehrinin son 50 yýlda morfolojik, hidrolojik ve hidrolik karakteristiklerinde deðiþimler meydana gelmiþtir. Bunlarýn nedenleri; havzada yapýlan barajlar, regülatörler, seddeler ve kum alýmýgibi faaliyetlerdir [8]. 
+Sakarya Nehri üzerinde Sarýyar, Gökçekaya ve Yenice Barajlarý sýrasýyla 1956, 1972 ve 1999 yýllarýnda iþletmeye açýlmýþlardýr. Yenice Barajý diðer ikisine göre iþletmeye daha yeni açýldýðýndan ve Sarýyar Barajý da Gökçekaya barajýnýn membaýnda kaldýðýndan, bu çalýþma sonuçlarý aðýrlýklý olarak Gökçekaya barajýnýn mansap etkilerini yansýtmaktadýr. 
+Bu çalýþmanýn amacý, Gökçekaya Barajýnýn AþaðýSakarya Nehrinde meydana getirdiði mansap etkilerini veya morfolojik, hidrolojik ve hidrolik deðiþimleri araþtýrmaktýr. Barajýn inþasýndan önce ve sonraki durumlar için aský maddesi miktarý ve nehirdeki akýmlarýn deðiþimi ayrý ayrý incelenmiþtir. Aþaðý Sakarya Nehri üzerindeki Doðançay ve BotbaþýAkým Gözlem Ýstasyonlarýndaki (AGÝ) deðerler kullanýlarak baraj öncesi ve sonrasý akým deðiþimleri 
+Sakarya Nehrinde Barajlarýn Mansap Etkisinin Araþtýrýlmasý
+grafikler halinde gösterilmiþtir. Yine her iki istasyona ait maksimum anlýk taþkýn akýmlarý kullanýlarak Gumbel yöntemiyle gelmesi muhtemel taþkýnlardaki deðiþimler araþtýrýlmýþtýr. Ayný zamanda, AþaðýSakarya Nehrinde Botbaþý’nda ölçülen sediment verileri kullanýlarak 1975 öncesi, sonrasý ve 1964­1999 arasý için, aský maddesi miktarýnýn su debisiyle deðiþimi irdelenmiþtir. Sediment anahtar eðrisiyle elde edilen baðýntýlarla 1975 öncesi, sonrasý ve 1964­1999 arasý için aský maddesi deðerleri bulunarak, bu deðerlerin 1964-1999 arasý eðilimi incelenmiþtir. Ayrýca baraj mansabýnda nehir yataðýndaki oyulmalar araþtýrýlmýþtýr. 1965 yýlýnda bir planlama çalýþmasý ve 2003 yýlýnda bir araþtýrma projesi kapsamýnda yapýlan ölçümlerin enkesitleri karþýlýklý olarak þekillerde verilerek karþýlaþtýrýlmýþtýr [7,8]. 
+2. SAKARYA NEHRÝNÝN ÖZELLÝKLERÝ(CHARACTERISTICS OF SAKARYA RIVER) 
+
+2.1. Genel Özellikler (General Characteristics) 
+Eskiþehir’in Çifteler ilçe merkezinin 3 km güneydoðusundan doðan ve daha sonra birçok küçük derelerle beslenen Sakarya Nehri ülkemizin önemli akarsularýndandýr. Uzunluðu 810 km, geniþliði 60-150 m arasýndadýr. Sakarya Nehrinin tüm drenaj alaný 56 bin km2 olup Türkiye’nin toplam alanýnýn yaklaþýk 1/13’tür. Önceleri taþkýnlarla etrafýna zarar veren nehrin, son kýrk yýlda üzerinde yapýlan barajlarla bu zararlarý ortadan kaldýrýlmýþtýr. Sakarya Nehri Havzasý, Yukarý, Orta ve Aþaðý olarak üç kýsma ayrýlmýþtýr. 
+Nehrin Karadeniz’e döküldüðü yer olan Yenimahalle (nehir aðzý) ile akým gözlem istasyonunun bulunduðu Doðançay’a kadar olan kýsmý Aþaðý Sakarya Nehri olarak adlandýrýlmaktadýr. Aþaðý Sakarya Nehrinde debi ölçümleri Karadeniz’den itibaren 42. km’de Botbaþý ve 110. km’de Doðançay AGÝ’de yapýlmaktadýr. Aþaðý Sakarya’da katý madde ölçümleri ise sadece Botbaþý’nda yapýlmaktadýr. Nehirdeki akým deðiþimlerini incelemek için Doðançay ve Botbaþý Akým Gözlem Ýstasyonlarýndan alýnan veriler kullanýlmýþtýr [9,10]. Sakarya Nehri üzerine inþa edilen barajlarýn özellikleri Tablo 1’de verilmiþtir. Sakarya Nehri üzerinde inþa edilen barajlar Þekil 1 ve 2’de verilen boykesit ve planda þematik olarak gösterilmiþtir. Sarýyar, Gökçekaya ve Yenice barajlarýn rezervuar alanlarý ve rezervuar hacimleri sýrasýyla 83.83 km2, 20 km2 ve 3.64 km2, 1900 hm3, 910 hm3 ve 57.60 hm3’tür. 
+
+Tablo 1. Sakarya Nehri üzerindeki barajlarýn genel özellikleri (General characteristics of  dams on Sakarya River) 
+Baraj kotu Su kotu Kret kotu Rezervuar alanýRezervuar hacmi 
+
+Barajlar Baraj tipi (m) (m) (m) (m2) (m3) 
+Sarýyar Beton aðýrlýklý 108 475 480 90.20x106 1900x106 Gökçekaya Beton kemer 158 388 392 20x106 910 x106 Yenice Toprak dolgu 41.10 273.10 276.10 3.64x103 57.60 x106 
+
+Þekil 1. Sakarya Nehri Boykesiti (ölçeksiz) (Sakarya River Profile (non-scale)) 
+
+Þekil 2. Sakarya Nehri Havzasý [11] (Sakarya River Basin [11]) 
+2.2. Akým Deðiþimlerinin Analizi  (Analysis of Flow Changes) 
+Gökçekaya Barajýnýn tam kapasite ile 1975 yýlýnda devreye girdiði esas alýnarak, AGÝ’lerde ölçülen veriler 1975 yýlý öncesi, sonrasý ve tamamý ayrý ayrý ele alýnarak deðerlendirilmiþtir. Doðançay AGÝ’de 1953-1975 ve 1975-1999 yýllarý arasýnda aylýk ortalama akým deðerleri Þekil 3’te gösterilmiþtir. 1975’ten önce Doðançay’da en düþük ortalama Aðustos ayýnda 61.9 m3/s ve en yüksek 
+
+S. Iþýk vd. Sakarya Nehrinde Barajlarýn Mansap Etkisinin Araþtýrýlmasý
+300,0 
+250,0 
+
+
+DEBÝ (m3/s)
+200,0 
+150,0 
+100,0 
+50,0 
+0,0 
+
+Eki. Kas. Ara. Oca. Þub. Mar. Nis. May. Haz. Tem. Aðu. Eyl. 
+ZAMAN (Ay) 
+Þekil 3. Doðançay AGÝ’de aylýk ortalama akýmlarýn deðiþimi (Changes of monthly mean flows in Dogancay) 
+ortalama Nisan ayýnda 247.1 m3/s’dir. 1975’ten sonra ise en düþük ortalama Aðustos’ta 67.3 m3/s ve en yüksek ortalama Nisan’da 175.2 m3/s olmuþtur. Yýllýk genel ortalama akýmlar barajdan önce 136.9 m3/s iken barajdan sonra 113.4 m3/s’ye düþmüþtür. 
+Botbaþý’nda 1975’ten önce en düþük ortalama Aðustos ayýnda 80.6 m3/s ve en yüksek ortalama Mart ayýnda 333.7 m3/s, 1975’ten sonra ise en düþük ortalama Aðustos’ta 84.8 m3/s ve en yüksek ortalama Nisan’da 254.8 m3/s’dir (Þekil 4). Botbaþý’nda yýllýk genel ortalama 1975’ten önce ve sonra sýrasýyla 195.7 ve 158.1 m3/s olup barajlardan sonra % 19.2 oranýnda azalma meydana geldiði görülmektedir. 
+
+
+
+2.3. Taþkýn Debileri (Flood Discharges) 
+Doðançay ve Botbaþý AGÝ’de gözlenen Maksimum Anlýk Feyezan (taþkýn) Akýmlarý (MAFA) kullanýla­rak gelmesi muhtemel 25, 50, 100 ve 500 yýllýk taþkýnlarý hesap edilmiþtir [7,12,13].  
+400,0 
+300,0 
+Doðançay ve Botbaþý için, 1975 öncesi ve sonrasý ve tüm MAFA deðerleri ayrý ayrý deðerlendirilerek gelme­si muhtemel 25, 50, 100 ve 500 yýllýk taþkýnlar Gumbel metoduna göre hesaplanarak Þekil 5’te verilmiþtir.  
+Doðançay’da 50 yýlda gelmesi muhtemel taþkýnlar, baraj öncesi, sonrasý ve tüm gözlem süresi olmak üzere sýrasýyla 1293, 680 ve 1074 m3/s olarak elde edilmiþtir.Bu da barajýn inþasýndan sonra olasýtaþkýnlarda % 47’lik bir azalma olduðu anlamýna gelmektedir. 100 yýlda gelmesi muhtemel taþkýnda ise 1975 öncesi ve sonrasý deðerler 1447 m3/s’den 741 m3/s’ye inerek % 49’luk bir düþüþ göstermiþtir. 
+Botbaþý’nda 50 yýlda gelmesi muhtemel taþkýn, 1975 öncesi, sonrasý ve tüm gözlem süresi için sýrasýyla 1187, 798 ve 996 m3/s olarak elde edilmiþtir. Barajdan sonra muhtemel taþkýnlarda % 33’lük bir azalma görülmüþtür. 100 yýlda gelmesi muhtemel taþkýnda ise 1975 öncesi ve sonrasý deðerler 1308 m3/s’den 861 m3/s’ye inerek % 34’lük bir düþüþ göstermiþtir. Baraj yapýldýktan sonra olasý taþkýnlarda Doðançay’da % 
+DEBÝ (m3/s) 
+200,0 
+100,0 
+0,0 
+
+
+Þekil 4. Botbaþý AGÝ’de ortalama akým deðerlerinin deðiþimi (Changes of monthly mean flows in Botbaþý) 
+DEBÝ(m3/s) 
+2000.0 1500.0 1000.0 500.0 
+0.0 
+
+
+
+75 ÖNCESÝ 
+
+
+75 SONRASI 
+
+
+TAMAMI Þekil 5. Doðançay ve Botbaþý’nda muhtelif dönüþ aralýklarý için beklenen taþkýnlar (Expected floods in Dogancay ve 
+Botbasi AGI for various return period) 
+45-51 ve Botbaþý’nda ise % 31-37 arasýnda bir azalma görülmüþtür. 
+Her iki istasyonda görüldüðü üzere Gökçekaya Barajý’ndan sonra ortalama akým deðerleri düzenlen­miþtir. Genel olarak pik deðerler düþmüþ ve minimum deðerler yükselmiþtir. 
+Botbaþý mansapta olmasýna karþýn 25, 50, 100 ve 500 yýl tekerrürlü pik deðerlerin tümünün Doðançay’da büyük olmasý beklenirken küçük olduðu görülmüþtür. Bunun nedeni Sakarya Nehri Doðançay’dan sonra alüvyal ve ova bir alandan geçerek Karadeniz’e dökülmektedir. Hem nehir yataðýnýn daha geniþolmasý hem de gelen taþkýn debilerinin bir kýsmýnýn etrafa (ovaya) yayýlmasý, Botbaþýna kadar pik debilerin sönümlenmesine neden olmaktadýr. 
+3. KATI MADDE TAÞINIMININ ANALÝZÝ(ANALYSIS OF SEDIMENT TRANSPORT) 
+
+
+
+3.1. Katý Madde Taþýnýmý(Sediment Transport) 
+Akarsularda katý madde taþýnýmý sonucu, akarsu üzerine yapýlan tesislerin ekonomik ömrü azaldýðýgibi tarýmsal alanlara da zarar vermekte, topraðýn en verimli kýsmý olan üst tabakasýnýn yok olmasýnýn yanýnda tarýmsal ekonominin de zarar görmesine neden olmaktadýr. Ayrýca akarsu taþýmacýlýðý, taþkýn kontrolü için akarsu düzenlemelerinde, su kuvveti tesislerinin tip ve yerlerinin seçiminde, viyadük, köprü gibi diðer yapýlarýn akarsu içerisinde kalan ayaklarýnda meydana gelebilecek oyulma ya da yýðýlma miktarlarýnýn belirlenmesi ve gerekli önlemlerin alýnmasý bakýmýndan katý madde taþýným miktarý tahminleri önemli bir yer tutmaktadýr. 
+3.2. Katý Madde Deðiþimlerinin Analizi (Analysis of Sediment Changes) 
+Sakarya Nehrinin uzunluðu ve havza özelliklerinden dolayý katýmadde debisi oldukça fazladýr. Fakat barajlarýn inþaalarýndan sonra nehrin mansabýndaki katý madde taþýným miktarýnda azalma meydana gelmiþtir, çünkü baraj rezervuarý katý maddeyi tutmuþtur. Katýmaddenin baraj tarafýndan tutulma­sýyla, mansap kýsmýnda enerjisi artan temiz su oyulmalar meydana getirmektedir [1,14].  
+Bu çalýþmada Botbaþý istasyonunda ölçülen 1964­1999 yýllarý arasý aský maddesi ölçümleri kullanýlmýþ­týr. Akým deðiþimleri analizinde olduðu gibi burada da 1975 öncesi, sonrasý ve tamamý için aský maddesi ölçümleri analiz edilmiþtir. 1975 öncesinde 85 adet 1975 sonrasýnda ise 295 adet veri kullanýlmýþtýr. 
+Burada, ilk önce ölçülen deðerler kullanýlarak askýmaddesi miktarýnýn zaman içindeki eðilimi incelen­miþtir. Daha sonra aský maddesi ile su debisi arasýndaki iliþkiyi veren sediment anahtar eðrileri elde edilerek birbirleriyle karþýlaþtýrýlmýþtýr. 
+1975 öncesi ve sonrasý için aský maddesi miktarýnýn eðilimi incelendiðinde, azalan bir eðilim içinde olduðu ve daha sonraki yýllar içinde de azalarak devam edeceði anlaþýlmaktadýr. 1964-1974 arasýortalama akým 197.32 m3/s olup yaklaþýk günlük askýmaddesi taþýnýmý 21490 tondur. 1975-1999 yýllarýarasýnda ise ortalama akým 157.4 m3/s olup yaklaþýk günlük aský maddesi taþýnýmý 9500 tondur (Þekil 6).  
+
+S. Iþýk vd. Sakarya Nehrinde Barajlarýn Mansap Etkisinin Araþtýrýlmasý
+
+Þekil 6. 1964-1999 arasý ölçülen aský maddesi miktarlarýnýn daðýlýmý(Distribution of measured suspended sediment loads for 1964-1999) 
+Aský madde debisi ile su debisi arasýndaki iliþkiye dayalý olan sediment anahtar eðrisi denklemi; 
+Qs = aQ b (1) olarak tanýmlanýr. Eþitlikteki Qs ve Q sýrasýyla askýmaddesi ve su debisini göstermektedir, a ve b akým özelliklerine göre deðiþen katsayýlardýr. Botbaþýsediment gözlem istasyonuna ait 1964-1974 yýllarýarasýnda aylýk su debisi ve aský maddesi deðerleri arasýndaki iliþkiyi veren sediment anahtar eðrisi, 
+Qs = 2.5866Q 1.6247 (2) 
+þeklinde, 1975-1999 yýllarý arasýndaki sediment anahtar eðrisi, Qs = 0.5309Q 1.7882 (3)þeklinde, 
+1964-1999 yýllarý arasýndaki sediment anahtar eðrisi, 
+sQ  1.8094 =0.5674Q  (4)  
+þeklinde elde edilmiþtir.  
+Burada Qs  ton/gün, Q  m3/s  sýrasýyla aský maddesi  
+miktarý ve su debisidir.  
+
+1975 öncesi, sonrasý ve 1964-1999 arasý için (2), (3) ve (4) denklemleri kullanýlarak aský maddesi miktarlarý debiye göre hesaplanmýþtýr. Su debisi ile aský maddesi arasýndaki iliþkiyi gösteren sediment anahtar eðrileri Þekil 7’de verilmiþtir. Gökçekaya barajýnýn yapýlmasýyla beraber katý madde taþýnma miktarýnýn yaklaþýk % 40-65 oranýnda azaldýðýþekilden görülmektedir. 
+
+
+4. AÞAÐI SAKARYA NEHRÝNDE ENKESÝT 
+DEÐÝÞÝMLERÝ (CROSS SECTION CHANGES IN THE LOWER SAKARYA RIVER) 
+Bu çalýþmada, baraj mansabýnda nehir yataðýndaki deðiþimler araþtýrýlmýþtýr. 1965 yýlýnda bir planlama çalýþmasý ve 2003 yýlýnda bir araþtýrma projesi kapsa­mýnda yapýlan enkesit ölçümleri kullanýlmýþtýr [7,8]. 
+
+Kot (m) Kot (m) 
+6 
+4 
+2 
+0 
+-2 
+-4 
+-6 
+34 32 30 28 26 24 22 20 2003 Enkesit 2003 Su Seviyesi 
+
+
+
+1965 Enkesit 
+1965 Su Seviyesi Þekil 8a-b. Aþaðý Sakarya Nehrinin 8. ve 84. km’de 1965 ve 2003 yýllarýna ait enkesitleri (Cross sections of 1965 and 
+2003 at 8th and 84th km of  Lower Sakarya River) 
+1965 ve 2003 yýllarýnda nehrin 8. ve 84. km’lerinden alýnan enkesitler sýrasýyla Þekil 8a ve b’de verilmiþtir. Nehir aðýz kýsmýnda yýðýlmalar meydana gelirken, mansaba doðru oyulmalar artarak devam etmektedir. Nehir aðzýndan itibaren 8. km’de talveg kotunda 1 m artýþ (yýðýlma), 84. km’de ise talveg kotunun 7 m’lik oyulma meydana gelmiþtir. Nehir yataðý 1965’den bu yana geniþlemiþ, aðýzdan itibaren ilk 10 km’lik kýsým hariç nehirdeki su seviyesi ve derinlik azalmýþtýr [7,8]. Bu deðiþimlerin ana nedeni; gelen katý madde rezervuarda tutulmakta ve baraj mansabýna ulaþamamakta ve böylece mansap kesiminde taþýnan katý madde gelen katýmaddeden büyük (Qst>Qsg) olduðu için nehir mansabýnda oyulmalar meydana gelmektedir [4-7]. Bir baþka ifade ile de barajdan býrakýlan taþýma kapasitesi yüksek temiz su mansapta oyulmalara neden olmaktadýr. Barajlardan sonra nehrin taþýdýðý aský maddesi miktarýnýn bir kýsmýnýnehir yataðýndan oyulmalar beslemiþtir. Yukarýda bahsedilen baraj etkisinin yanýnda, Aþaðý Sakarya Nehrinde son 30 yýlda yoðun bir kum alým faaliyetleri mevcuttur. Kum alýmlarýhem nehir yataðýný oymakta hem de tabandaki malzemeyi nehir akýþý ile oyulmaya elveriþli hale getirmektedir. Ancak Kum alýmlarý çok kontrolsüz yapýldýðýndan, bunun etkisini belirlemek mümkün olmamaktadýr. 
+
+
+5. SONUÇ (RESULT) 
+Bu çalýþmada Orta Sakarya Havzasý’nda Gökçekaya Barajý’nýn yapýlmasýndan sonra Aþaðý Sakarya Nehri’nde meydana gelen hidrolojik, hidrolik ve morfolojik deðiþimler ortaya konmuþtur. AþaðýSakarya Nehri üzerindeki Doðançay ve Botbaþýistasyonlarýna ait deðerler kullanýlarak baraj öncesi ve sonrasý akým deðiþimleri grafikler halinde gös­terilmiþtir. Yine her iki istasyona ait maksimum anlýk taþkýn akýmlarý kullanýlarak gelmesi muhtemel taþkýnlardaki deðiþimler bulunmuþtur. Barajdan sonra Doðançay’da yýllýk ortalama akým 136.9 m3/s’den 
+113.4 m3/s’ye, Botbaþý’nda ise yýllýk ortalama akým 
+195.7 m3/s’den 158.1 m3/s’ye düþmüþtür. Gökçekaya Barajý yapýldýktan sonra olasý taþkýnlarda Doðan­çay’da % 45-51 ve Botbaþý’nda ise % 31-37 arasýnda bir azalma görülmüþtür. Aþaðý Sakarya Nehri’nde 1975 yýlýndan sonra akýmlar düzenlenmiþ, genel olarak pik debiler düþmüþ, ortalama ve minimum debiler artmýþtýr. 
+Barajýn inþasýndan önce ve sonraki durumlar için nehirdeki akýmlarýn ve aský maddesi miktarýnýn deði­þimleri araþtýrýlmýþtýr. Baraj öncesi ve sonrasý için askýmaddesi miktarýnýn eðilimi belirlenmiþ ve sediment anahtar eðrileri elde edilerek birbirileriyle karþýlaþtý­rýlmýþtýr. 1975 öncesi ve sonrasý için aský maddesi miktarý azalan bir eðilim içinde olduðu ve daha son-raki yýllar içinde de azalarak devam edeceði görül­müþtür. Sediment anahtar eðrileri karþýlaþtýrýldýðýnda, aský maddesi taþýnma miktarýnýn barajdan sonra % 40­65 oranýnda azaldýðý belirlenmiþtir. 
+1965 ve 2003 yýllarýnda yapýlan nehir en kesiti ölçüm­leri karþýlaþtýrýldýðýnda, nehir yataðýnda geniþleme ve 7m’ye kadar oyulma olduðu belirlenmiþtir. Nehir aðýz kýsmýnda yýðýlmalar meydana gelirken, mansaba doð­ru oyulmalar artarak devam ettiði belirlenmiþtir. 
+S. Iþýk vd. 
+SEMBOLLER (SYMBOLS) 
+a, b : Akým özelliklerine göre deðiþen katsayýlar Q (m3/sn) : Su debisi Qs (ton/gün) : Aský maddesi debisi Qsg (ton/gün) : Nehir mansabýna gelen katý madde 
+Qst (ton/gün) : Nehir mansabýnda taþýnan katý madde 
+KAYNAKLAR (REFERENCES) 
+1.	
+Simons, D. B. and Þentürk, F., Sediment Transport Technology, Water Resources Publications, Littleton, Colorado, 1992. 
+
+2.	
+Schumn, A. S., and Winkley, R. B., The Variability of Large Alluvial Rivers, ASCE, New York, 1994. 
+
+3.	
+Kondolf, G. M., Hungry Water: Effects of Dams and Gravel Mining on River Channels, Environmental Management, Springer-Verlag New York Inc., vol.21, no.4, 533-551, 1997. 
+
+4.	
+Komura, S. and Simons, D. B., “River-Bed Degrada­tion below Dams”, Journal of the Hydraulics Division, ASCE, 93(4), 1-14, 1967. 
+
+5.	
+Stevens, M. A., Simons, D. B., and Schumm, S. A., “Man-Induced Changes of Middle Mississippi 
+
+
+Sakarya Nehrinde Barajlarýn Mansap Etkisinin Araþtýrýlmasý
+River”, J. of the Waterways Harbors and Coastal Engineering, ASCE, 101(2), 119-133, 1975. 
+6.	
+Özbek, T., ve Özcan, Ç., Akarsularda Katý Madde, TMMOB Ýnþaat Mühendisleri Odasý, Ankara, 2001. 
+
+7.	
+Iþýk, S., Þaþal, M., ve Doðan, E., Sakarya Nehrinde Katý Madde ve Akým Deðiþimlerinin Ýncelenmesi Raporu, Sakarya Üniversitesi, 2003. 
+
+8.	
+DSÝ, Feasibility Report for Lower Sakarya Project, DSÝ Matbaasý, Ankara, December, 1965. 
+
+9.	
+EÝE, Aylýk Ortalama Akýmlar (1935-2000), 2003. 
+
+10. 
+EÝE, Türkiye Akarsularýnda Sediment Gözlemleri ve Sediment Taþýným Miktarlarý, 1993. 
+
+11. 
+www.eie.gov.tr 
+
+12. 
+DSÝ, Türkiye Akarsu Havzalarý Maksimum Akýmlar Frekans Analizi, Ankara, 1994. 
+
+13. 
+Doðan, E., Aþaðý Sakarya Nehrinde Nehir TabanýDeðiþimlerinin Ýncelenmesi, SAÜ Fen Bilimleri Enst., Yüksek Lisans Tezi, Sakarya, 2003. 
+
+14. 
+Yanmaz, A., M., Köprü Açýlýklarýnda Yerel Oyulmalar, Köprü Hidroliði, 1.Baský, ODTÜ Geliþtirme Vakfý Yayýncýlýk ve Ýletiþim A.Þ. Yayýnlarý, Ankara, 148-149, 2002. 
+
+
+
+
+
+
+
+

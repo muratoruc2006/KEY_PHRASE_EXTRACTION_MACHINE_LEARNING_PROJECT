@@ -1,0 +1,278 @@
+KARINCA KOLONÝLERÝ METASEZGÝSELÝ VE GEZGÝN SATICI PROBLEMLERÝ ÜZERÝNDE BÝR UYGULAMASI
+Karýnca kolonileri meta sezgiseli, popülasyon tabanlý rastsal arama prensibine dayanan bir arama yöntemidir. Doðal süreçlerin gözlemlenmesinden ortaya çýkan, karýnca kolonilerinin yiyecek toplama prensibini dikkate alan biyoloji biliminden esinlenerek geliþtirilmiþ bir meta sezgisel yöntemdir. Bu çalýþmada Karýnca Sisteminin (KS), algoritmasý, formülasyonu ve iþleyiþi belirlenerek son dönemlerde ortaya çýkartýlan max-min, mertebe temelli karýnca sistemleri hakkýnda bilgi verilmektedir. Karýnca sistemi ile ilgili olarak 1992 yýlýndan günümüze kadar yapýlan uygulamalar hakkýnda bir yayýn taramasý yapýlmýþtýr. Ayrýca literatürde önerilen gezgin satýcýproblemleri, Karýnca Kolonileri meta sezgiseli için Visual Basic programlama dilinde hazýrlanan Karýnca Programý yardýmý ile uygun parametreler kullanýlarak çözülmüþ ve elde edilen sonuçlar optimum deðerleri ile kýyaslanmýþtýr. 
+
+1. GÝRÝÞkombinatoriyel optimizasyon probleminde kullanýla­
+bileceði ilk kez 1992 yýlýnda Marco Dorigo [1] Endüstriyel problemlerin çözümünde kullanýlan tarafýndan ortaya atýlmýþtýr. Karýnca Kolonileri Meta sezgisel yöntemlerin belirlenmesinde doðal süreçlerin sezgiselinden türetilmiþ ve çeþitli problemlerin kullanýmý giderek yaygýnlaþmaktadýr. Çünkü çok çözümünde kullanýlan çok sayýda algoritma vardýr. Bu sayýda basit bireyden oluþan bu sistemler, bir bütün algoritmalar ile birçok kombinatoriyel optimizasyon olarak çok karmaþýk bir yapý sergilemektedirler. problemleri çözülmüþtür. Karýnca kolonileri de bu tarz sistemlere bir örnektir. Doðada neredeyse kör olan bu hayvanlar, yuvalarý ile Kombinatoriyel optimizasyon problemlerinin besin kaynaklarý arasýndaki en kýsa yolu bulabilmek-çözümünde kullanýlan sezgisel yöntemlerin tedirler. Karýncalarýn bu davranýþ kalýplarýnýn, belirlenmesinde yeni metot, doðal süreçleri özellikle en kýsa yol problemleri olmak üzere, pek çok gözlemlemek ve optimizasyon problemlerinde 
+K. Alaykýran ve O. Engin Karýnca Kolonileri Metasezgiseli ve Gezgin Satýcý Problemleri Üzerinde Bir Uygulamasý
+kullanýlabilecek bir model elde etmektir. Örneðin Metropolis algoritmasý, genetik algoritmalar ve yapay sinir aðlarý bu þekilde bulunmuþ yöntemlerdir [2]. Hayvanlar dünyasýnda da basit yeteneklere sahip bireylerin oluþturduðu karmaþýk ve üstün yeteneklere sahip pek çok sosyal sistem örneði vardýr. Bunlara bir örnek karýnca kolonileridir. 
+Çalýþmada, Visual Basic programlama dilinde hazýrlanan bir bilgisayar programý yardýmý ile literatürde yer alan Berlin52, Eil51, Eil76, Eil101, A280, KroA100, KroC100, Pr76, Lin105, Pr1002, D1291, D1655 problemleri [3] uygun parametre kümeleri ile çözülmüþtür. Elde edilen tur uzunluklarý, optimalleri ile karþýlaþtýrýlmýþtýr. Bu çalýþma ile, Kombinatoriyel optimizasyon problemlerinin çözümlerinde henüz istenilen baþarý performansýnýgösteremeyen Karýnca kolonileri algoritmasýnýn çözüm performansýnýn, seçilen parametrelerin optimize edilmesi ile artýrýlabileceði ve Karýnca kolonileri algoritmasýnýn birçok kombinatoriyel optimizasyon problemlerinin çözümünde kullanýlabi­leceði detaylý bir literatür çalýþmasý ile sunulmuþtur. 
+
+2. KARINCA SÝSTEMÝ (KS) 
+Karýnca kolonileri meta sezgiseli, doðal karýncalarýn yuvalarýile besin kaynaklarý arasýnda izledikleri yollarýn izlenmesi sonucu ortaya çýkan bilimsel gerçekler üzerine doðmuþtur. Gerçek karýncalar ile ilgili deneyler Goss ve arkadaþlarý [4] tarafýndan 1989 yýlýnda laboratuar ortamýnda yetiþtirilmiþ karýnca kolonileri üzerinde yapýlmýþtýr. Bu çalýþmalarda elde edilen sonuçlar; Pek çok karýnca türü neredeyse kördür, karýncalar yuvalarýndan yiyecek kaynaðýna veya tersi yönde hareket ederlerken geçtikleri yollara feromen adý verilen bir tür kimyasal madde býrakmaktadýrlar, karýncalar bir yol seçmeleri gerektiði zaman bu seçimi alternatif yollar üzerine býrakýlmýþ olan feromen madde yoðunluðuna göre belirlemektedirler ve karýncalarýn bu hareketleri merkezi bir kontrol ile saðlanmamaktadýr þeklinde özetlenmiþtir. Karýncalarýn yuvalarý ile yiyecek kaynaðý arasýndaki hareketleri Þekil 1’de gösterilmiþtir [5]. Þekil 1’de görüldüðü gibi, karýncalar yuvalarýnýn etrafýndaki alanda yiyecek kaynaklarýný rassal bir þekilde ararlar. Bir karýnca bir yiyecek kaynaðý bulduðu zaman kaynaðýn kalitesini veya miktarýný deðerlendirir ve bir miktar yiyecek alarak yuvasýna geri döner. Bu geri dönüþ sýrasýnda, bulduðu yiyecek kaynaðýnýn kalitesi veya miktarýyla doðru orantýlý olacak þekilde kullandýðý yola feromen maddesi koyar. Böylece diðer karýncalar bu yolun sonundaki yiyecek kaynaðýnýn kalitesi veya miktarýkonusunda bilgi sahibi olurlar. Yuvaya yakýn kaynaklara ulaþmak daha kolay olacaðý için bu bölgelerde feromen maddesinin yoðunluðu daha fazla olacaktýr. Karýncalarýn bu hareketlerinin sayýsal bir örneði Þekil 2’de verilmiþtir [6]. Karýncalarýn bu önemli özellikleri Hewlett-Packard ve British Telecom’daki araþtýrmacýlar tarafýndan iletiþim aðlarýnýn dengelenmesi ve mesaj rotalamasýproblemlerinde kullanýlmýþtýr [7]. Burada að üzerinde yapay karýncalarýn feromen býrakma ve bu bilgiyi kullanma özellikleri simule edilmiþ ve elde edilen sonuçlara göre rotalama yapýlmýþtýr. 
+Doðal karýncalarýn bu davranýþ kalýplarýnýn, özellikle en kýsa yol problemleri olmak üzere, pek çok kombinatoriyel optimizasyon probleminde kullanýlabileceði ilk kez 1992 yýlýnda Marco Dorigo ve arkadaþlarý tarafýndan ortaya atýlmýþtýr [8]. Karýncalarýn doðal hareketleri ile kombinatoriyel optimizasyon problemlerinin uyuþan karakteristik 
+
+
+Þekil 1. a) Karýncalar A-E arasýndaki yolu izlemektedirler. b)Yolun bir yerine bir engel konulmuþtur ve karýncalar hangi yönü seçeceklerine rasgele karar verirler. c)Kýsa olan yolda daha fazla feromen birikir. 
+
+Þekil 2. A) Karýncalar bir karar noktasýna gelirler. B) Bir kýsým karýnca yukarýdaki yolu bir kýsmý ise aþaðýdakini seçer. Seçim tümüyle rassaldýr. C) Karýncalar neredeyse sabit bir hýzda yürüdükleri için aþaðýdaki ve kýsa olan yolu seçen karýncalar turlarýný daha çabuk bitirirler ve bir sonraki karar noktasýna daha çabuk ulaþýrlar. D) Kýsa 
+olan yolda feromen birikmesi daha fazla olur. 
+özellikleri; Gerçek karýncalarýn arama alaný ile kombinatoriyel problemlerin mümkün sonuçlar kümesi, bir kaynaktaki yiyecek miktarý ile amaç fonksiyonu, feromen madde ile hafýza’dýr [9]. 
+Karýnca Kolonileri Meta sezgiselinden türetilmiþ ve çeþitli problemlerin çözümünde kullanýlan çok sayýda algoritma vardýr. Bu algoritmalar formülasyon olarak birbirinden ayrýlmakta fakat hepsi karýnca kolonileri meta sezgiselinin ortak özelliklerini kullanmaktadýr. 
+
+2.1. Karýnca Sistemi Formülasyonu 
+Karýnca sistemi ile ele alýnan bir problemin sonucunun, o problemi meydana getiren n adet varlýðýn (entity) permutasyonu olduðu varsayýlýr (gezgin satýcý problemindeki þehirler ya da atölye tipi çizelgeleme problemindeki operasyonlar gibi). Problemin baþlangýcýnda her karýnca farklý veya aynýköþelere yerleþtirilir. Bu karýncalar (t) anýnda hangi komþu düðüm noktasýnda olacaklarýný (1) numaralýbaðýntýya (olasýlýk baðýntýsý) göre belirlenir [10]. 
+[]ij() .[]n ß k izin verilen ..
+. tt . ij .
+t . nik
+Pijk (t) =....[]ik(t) .[ ] ß... bir seçimse ......  (1) .k.Ak . 
+.0 (aksi halde).
+.. 
+tij(t) : t anýnda (i,j) köþelerindeki feromen iz miktarý. 
+nij : (i,j) köþeleri arasýndaki görünülürlük (visibility) 
+deðeridir. Bu deðer problem çözümünde ele alýnan kritere göre deðiþmektedir. 
+.:  Problemde feromen ize verilen baðýl önemigösteren bir parametredir. ß:  Problemde görünülürlük (visibility) deðerine 
+verilen önemi gösteren bir parametredir. 
+Ak: Henüz seçilmemiþ olan düðüm noktalarýkümesidir. 
+Karýncalar bu olasýlýk baðýntýsýna göre bir sonraki seçimlerini yaparlar. Problemdeki tüm düðümnoktalarý gezildikten sonra bir tur veya iterasyon tamamlanmýþtýr. Bu noktada (2) numaralý baðýntýya göre feromen iz miktarý güncellenir [10]. 
+tij (t +n) =p.tij (t) +.tij  (2) 
+p : t ile t+n süreleri arasýnda buharlaþan feromen iz oraný (0 < p <1) 
+.tij : Karýncanýn bir turu boyunca (i,j) köþesini 
+seçmelerinden dolayý bu köþedeki feromen iz miktarýný gösterir. Bu miktar (3) numaralý baðlantýya göre hesaplanýr. 
+(3) numaralý baðýntý ise: 
+m .tij =..tijk  (3) k =1
+m : Toplam karýnca sayýsý
+.tijk : k. karýncanýn (i,j) köþesine býraktýðý feromen iz 
+miktarý 
+(4) numaralý baðýntý ise her bir (k) karýncasýnýn herhangi bir (i,j) köþesindeki feromen iz miktarýna ne kadarlýk katký yapacaðýný gösterir [10]. 
+
+K. Alaykýran ve O. Engin Karýnca Kolonileri Metasezgiseli ve Gezgin Satýcý Problemleri Üzerinde Bir Uygulamasý
+.
+t
+k 
+ij
+= ... 
+Q 
+Lk 
+...
+ (4) 
+
+Q : Sabit bir deðerdir. Lk : k. karýncanýn tur uzunluðu. 
+Eðer karýnca tur boyunca (i,j) köþesini kullandý ise (4) ifadeye göre býraktýðý iz miktarý hesaplanýr. Aksi halde iz miktarý sýfýr olur. 
+
+
+2.2. Karýnca Sisteminin Ýþleyiþi 
+Karýnca sisteminin iþleyiþi, tüm mümkün komþu düðüm noktalarýnýn gösterildiði bir grafik üzerinde gösterilecektir. Bu grafikte, t=0 anýnda tüm karýncalar baþlangýç noktasýndadýrlar. Sistemin baþlangýç konumu Þekil 3’de gösterilmiþtir [2]. Þekil 3’de gösterilen sistem, 3 iþ ve 4 adet makineden oluþan bir atölye sistemi olarak düþünülebilir. 
+
+Þekil 3’de, Düðüm noktalarý arasýnda çizilen oklar ise mümkün seçimleri göstermektedir. Karýncalar bir sonraki zaman biriminde hangi düðüm noktasýna gideceklerine rassal olarak karar verirler. Þekil 4’de karýnca ilk seçimini yapmýþ ve u11 düðümüne gitmiþtir. 
+
+Þekil 4’de karýnca ayný düðüm noktasýný bir kez daha seçememe kýsýtý altýnda, tüm düðüm noktalarýný seçer ve bir tur böylece bitmiþ olur. Karýncanýn seçtiði tüm düðümler Þekil 5’de gösterilmiþtir. 
+Karýnca bir tam turu bitirdikten sonra o turda kullandýðý düðüm noktalarýna feromen iz býrakacaktýr. Sonraki turlarda ise bu feromen iz miktarý karýncanýn seçeceði düðümleri etkileyecektir. 
+
+2.3. Geliþtirilmiþ Karýnca Sistemleri 
+Max-Min Karýnca Sistemi: Max-Min karýnca sistemi, karýnca sistemiyle ayný olasýlýk fonksiyonunu kullanmaktadýr. Ýki algoritma arasýndaki farklýlýk feromen güncelleþtirmesindedir [11]. Max-Min karýnca sisteminde, bulunan iyi sonuçlardan daha fazla faydalanabilmek için, her tur sonunda sadece bir ve en iyi sonucu bulan karýncanýn feromen eklemesine izin verilir. Ayrýca karýncalarýn sürekli ayný sonucu bulmasýný önlemek için max-min karýnca sistemi algoritmasýnda feromen güncelleþtirmesine dair bir üst limit ve alt limit belirlenir. Son olarak, bu algoritmada problemin baþlangýcýnda tüm feromen miktarlarý belirlenen üst limite eþitlenir [12]. 
+Mertebe Temelli Karýnca Sistemi: Bu algoritma da karýnca sistemi formülasyonunu kullanmaktadýr fakat farký feromen madde güncelleþtirmesinde olmaktadýr [13]. Bu algoritmada yalnýzca en iyi çözümü bulan karýnca ve o tur içerisinde iyi çözümler bulan belli sayýda karýncanýn feromen eklemesine izin verilmektedir. 
+3.	KOMBÝNATORÝYEL PROBLEMLERDE KARINCA SÝSTEMÝ
+Karýnca kolonileri meta sezgiseli, birçok kombinatoriyel optimizasyon problemlerinin çözümünde kullanýlmýþtýr. Dorigo [13] tarafýndan yapýlan ilk çalýþmada karýnca sistemi algoritmasýtanýtýlmýþ ve deneysel sonuçlar verilmiþtir. Literatürde en fazla yayýna gezgin satýcý probleminin farklýkarýnca algoritmalarý ile çözümü þeklinde karþýlaþýlmaktadýr. 1995 yýlýnda Gambardella ve Dorigo [8] “Ant-Q” adýnda bir öðrenme algoritmasýile, 1997 yýlýnda Dorigo ve Gambardella [6] karýnca koloni sistemi ile, 1997 yýlýnda Stützle ve Hoos [11] max-min karýnca sistemi ile ve yine 1997 yýlýnda Bullnheimer ve arkadaþlarý [13] mertebe temelli karýnca sistemi ile bu probleme çözüm getirmiþlerdir. Karýnca algoritmalarý ile yapýlan deneylerde en iyi sonuçlar max-min karýnca sistemi ile elde edilmiþtir. 
+Gezgin satýcý probleminden sonra en fazla çalýþma karesel atama probleminde yapýlmýþtýr. Karasel atama problemine çözüm getiren tüm bu çalýþmalarda karýnca sistemi, karesel atama probleminin kýsýtlarýna ve þartlarýna uydurularak yeni algoritmalar türetilmiþtir. Maniezzo ve arkadaþlarý [14] 1994 yýlýnda AS-QAP adýný verdikleri bir algoritma ile bu probleme çözüm getirmiþlerdir. Sonra sýrasýyla Gambardella ve arkadaþlarý 1997’de, Stützle ve Hoos 
+
+[15] 1998’de, Maniezzo ve Colorni 1998’de bu probleme çözüm getirmiþlerdir. 
+Karýnca kolonileri meta sezgiseli ile çözülmeye çalýþýlan bir diðer problem de að rotalama problemleridir. Bu konuda literatürde, White ve arkadaþlarýnýn [16] çalýþmalarý dikkat çekmektedir. 
+Bu problemler dýþýnda literatürde, araç rotalama problemi, grafik boyama, atölye tipi çizelgeleme problemi, maksimal kýsýt saðlama problemi, klavye düzenleme problemi, tek makine çizelgeleme problemleri, genel kesikli optimizasyon problemleri ile ilgili yayýnlarla karþýlaþýlmaktadýr. 
+Diðer algoritmalardan farklý olarak, Kawamura ve arkadaþlarý[17] çok sayýda koloni içeren bir karýnca algoritmasý tanýtmýþlardýr. Bu çalýþmada ayný anda çok sayýda karýnca kolonisi gezgin satýcý probleminin çözümünde kullanýlmýþtýr. Karýnca sistemi ile yapýlan karþýlaþtýrýlmalý testlerde %2 ile %4 arasýnda daha iyi sonuçlar elde edilmiþtir. White ve arkadaþlarý[16], 2000 yýlýnda karýnca sistemi ile genetik algoritmalarý birleþtirerek hibrid bir uygulama yapmýþlardýr. Yapýlan deneyler sonucunda hibrid algoritmanýn daha baþarýlý sonuçlar verdiði görülmüþtür. 
+Literatürde, gerçek bir endüstriyel problemin çözümüne karýnca algoritmalarý ile yaklaþan tek çalýþma Gagne ve arkadaþlarý [18] tarafýndan 2001 yýlýnda yapýlmýþtýr. Bu çalýþmada arýza zamanlarýnýn ve tamir sürelerinin dikkate alýndýðý çok amaçlý bir çizelgeleme problemi ele alýnmýþtýr. 
+Karýnca algoritmalarý ile çözülen problemlere iliþkin literatürde karþýlaþýlan yayýnlar Tablo 1’de özetlenmiþtir. 
+3.1. Gezgin Satýcý Problemlerinin Çözümünde Kullanýlan Karýnca Sistemleri Algoritmasý
+Literatürde kullanýlan ve temel problemlerden biri olan Gezgin Satýcý Problemi (GSP) nin KS ile çözümünde kullanýlan Visual Basic programlama dili için geliþtirilen algoritma aþaðýda sunulmuþtur. 
+Baþlangýç Tur sayýsýný belirle, Karýnca sayýsýný belirle, . parametresini belirle, ß parametresini belirle, . parametresini belirle, Her karýnca için rassal bir baþlangýç þehri belirle, 
+
+Tablo 1. Literatürde karýnca algoritmalarý ile ilgili yayýnlarProblem Yazar Yýl Algoritma
+Dorigo, Maniezzo & Colorni 1992 AS Gambardella & Dorigo [8] 1995 Ant-Q 
+Gezgin Satýcý ProblemiDorigo & Gambardella 1996 ACS & 3 opt Stützle & Hoos [21] 1999 MMAS Bullnheimer, Hartl &Strauss[25] 1996 ASrank 
+Dorigo, Maniezzo & Colorni  1994 AS-QAP  
+Gambardella, Taillard &Dorigo[22]  1997 HAS-QAP  
+Karesel Atama Stützle & Hoos [15]  1998 MMAS-QAP  
+Maniezzo & Colorni [23]  1998 AS-QAP  
+Maniezzo [24]  1998 ANTS-QAP  
+Bullnheimer, Hartl & Strauss [13]  1996 AS-VRP 
+Araç Rotalama Gambardella, Taillard &Agazzi[26]  1999 HAS-VRP  
+White, Pagurek & Oppacher [16]  1998 ASGA  
+Baðlantý Temelli Network Di Caro & Dorigo [7]  1998 AntNet-FS  
+Rotalama Bonabeau, Henaux, Guerin   1998 ABC-smart ants  
+Snyers, Kuntz & Theraulaz [29]  
+Di Caro & Dorigo [30]  1997 Ant Net  
+Baðlantýsýz Network Subramanian, Druschel & Chen[31]  1997 ACS  
+Rotalama Heusse, Guerin, Snyers & Kauntz  1998 CAF  
+Van der Put & Rothkrantz [32]  1998 ABC-backward  
+Grafik Boyama Costa & Hertz [34]  1997 ANTCOL  
+Sequential Ordering Gambardella & Dorigo [35]  1997 HAS-SOP  
+Dorigo & Maniezzo  1994 Tüm  
+Kesikli Optimizasyon Dorigo & Gambardella  1996 Ant-Q  
+Dorigo & Stützle  2001 Simple AC  
+Middendorf, Reichle & Schmeck  2000 Multi-Colony  
+Atölye Tipi Çizelgeleme Colorni, Dorigo, Maniezzo & Trubian [2]  1994 AS-JSP  
+Tek Makine Çizelgeleme Den Besten, Stützle, Dorigo  1999 ACO  
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 1, 2005  73  
+
+K. Alaykýran ve O. Engin Karýnca Kolonileri Metasezgiseli ve Gezgin Satýcý Problemleri Üzerinde Bir Uygulamasý
+Her tur için; 
+  Her karýnca için; 
+Bir sonraki düðüm noktasýný (1) 
+numaralý baðýntýyý kullanarak 
+belirle; 
+Tur uzunluðunu belirle 
+(2) ve (3) numaralý baðýntýlarý kullanarak 
+feromen güncelleþtirmesi yap Dur. 
+Yukarýda verilen algoritma ile literatürdeki, Berlin52, Eil51, Eil76, Eil101, A280, KroA100, KroC100, Pr76, Lin105, Pr1002, D1291 ve D1655 gezgin satýcýproblemleri, Intel Celeron 1.5 Ghz mikro iþlemcili ve 128 Mb Ram’li bir bilgisayarda çözülmüþtür. Problemlerin çözümünde kullanýlan parametre seti, optimizasyon çalýþmasý sonucu bulunmuþtur. Parametre optimizasyonunda; .,ß,. parametreleri için faktoriyel denemeler yapýlmýþtýr. Bu denemelerde, .,ß,. parametreleri için Tablo 2’deki parametre seçim aralýklarý belirlenmiþtir. 
+Tablo 2. Deney parametreleri aralýðýFAKTÖRLER Aralýklarý
+. 1-5 
+ß 1-5 
+. 0-1 
+
+Tablo 2’deki parametre aralýklarý için Þekil 6’daki gibi orta noktalar bulunarak L 16 ortogonal düzene göre deneyler yapýlmýþtýr [19]. 
+.0 0,5    1 ., ß0 2,5    5 
+
+0 0,25 0,5 0,5 0,75 1 
+0 1,25 2,5 2,5 3,75 5 
+Þekil 6. Parametre aralýklarý daraltma þemasý
+Þekil 6’da görüldüðü gibi her bir faktör aldýðý deðer aralýðýna göre dört eþit parçaya bölünmüþ ve bu parçalardan orta deðerler seçilmiþtir. Örneðin .parametresi [1-5] aralýðýnda deðiþmektedir. Bu aralýk öncelikle (0; 2,5 ve 5) olarak bölümlendirilmiþ, ardýndan [0-2,5] aralýðý ikiye bölünmüþ ve [2,5-5] aralýðýda ikiye bölünerek toplam [0; 1,25; 2,50; 3,75; 5] deðerlerine ulaþýlmýþtýr. Bunlardan, 1,25 ve 3,75 deðerleri .parametresi için birinci ve ikinci faktor seviyeleri olarak belirlenmiþtir. Bu seviyeler Tablo 3’de sunulmuþtur. Bu seviyelere göre gezgin satýcýproblemleri çözülmüþ ve en iyi tur uzunluðunu veren parametreler tekrar eþit oranlarda bölünerek Tablo 4’deki optimum deney paramtreleri elde edilmiþtir. 
+Tablo 3. Deney parametreleri aralýðý
+FAKTÖRLER 1. SEVÝYE 2. SEVÝYE .1,25 3,75 ß1,25 3,75 .0,25 0,75 
+Tablo 4. Optimizasyon sonucu elde edilen parametre seti 
+Parametre Deðer 
+. 0.625 ß 4.375 . 0.875 
+Karýnca Sayýsý 5 Tur Sayýsý 2000 
+Parametre optimizasyonun ilk aþamasýnda Tablo 3’de verilen parametreler ve sonucunda Tablo 4’de gösterilen parametre seti elde edilmiþtir. Problemler bu parametre seti ile çözülmüþ ve elde edilen tur uzunluklarýile optimal tur uzunluklarýnýn kýyaslanmasý Tablo 5’de verilmiþtir. 
+Tablo 5. Karýnca algoritmasý ile bulunan sonuçlar ve optimal ile karþýlaþtýrýlmasý
+Problem Þehir Karýnca ile Optimum HataBulunan Tur TurAdýSayýsýUzunluðu Uzunluðu (%) 
+Berlin52a280eil51 eil76 kroA100 pr76kroC100eil101 lin105 pr1002d1291 d1655 
+ 52  280 51 76 100  76  100 101 105  1002 1291 1655 7596 2608 435 559 21677 109544 21028 667 14893 307761 57713 71024 7542 2579 426 538 21282 108159 20749 629 14379 259045 50801 62128 
+0.71 
+1.12 
+2.11 
+3.90 
+1.85 
+1.28 
+1.34 
+6.04 
+3.57 
+18.8 
+13.6 
+14.3 
+Tablo 4’deki deney parametrelerinden Karýnca ve Tur sayýlarý, programýn performansýna göre sezgisel olarak belirlenmiþtir. 
+Tablo 5’de belirtilen hata deðeri, (5) ifadesi ile elde edilmiþtir. 
+A - B
+%HATA=×100  (5) 
+B 
+A: Karýnca ile bulunan tur uzunluðu 
+B: Optimum tur uzunluðu 
+Tablo 5’deki Gezgin satýcý problemlerinin optimal çözümleri, TSPLIB95 [3] Ýnternet sitesinden elde edilmiþtir. Tablo 5’de karýnca sistemi ile bulunan çözümlerin, 101 þehirli eil101 problemine kadar olan büyüklükleri için optimal deðerden sapmalarýn %0.71 ile %6.04 arasýnda deðiþtiði; problem boyutu büyüdüðü zaman pr1002, d1291 ve d1655 problemleri için ise bu sapmanýn ortalama %16’ya ulaþtýðýgözlemlenmiþtir. Çözülen tüm problemler için en düþük sapma oraný Berlin52 probleminde ve en yüksek sapma oraný da pr1002 probleminde elde edilmiþtir. 
+
+Tablo 5’de görüleceði gibi þehir sayýsý büyüdükçe hata yüzdesi artmaktadýr. Elde edilen çözümlerde yalnýzca a280 problemi bu ifadeyle çeliþmektedir; çünkü 280 þehirli olan bu probleme bulunan sonuç daha az þehirli pek çok probleme bulunan sonuçtan daha iyidir. Dolayýsýyla herhangi bir gezgin satýcýproblemi için karýnca algoritmalarý ile bulunan sonucun o problemin þehir sayýsý ile doðrudan orantýlýolmadýðý söylenebilir. Fakat þehir sayýsýnýn belirgin ölçüde arttýðýpr1002, d1291 ve d1655 problemleri için karýnca sistemleri optimum tur uzunluðuna yakýn sonuçlara ulaþamamaktadýr. 
+
+
+
+4. SONUÇLAR 
+Doðal karýnca kolonilerinin davranýþlarýndan etkilenilerek ortaya çýkmýþ olan karýnca algoritmalarý, pek çok problemin çözümünde baþarýyla kullanýl­mýþtýr. Bu çalýþmalarda elde edilen sonuçlar, karýnca algoritmalarýnýn bu problemlere çözüm getirmede etkili olduðunu ortaya koymuþtur. Çalýþmada, karýnca kolonileri meta sezgiselinde kullanýlan ., ß, .parametreleri için uygun deðerler belirlenerek literatürdeki gezgin satýcý problemlerinden, Berlin52, Eil51, Eil76, Eil101, A280, KroA100, KroC100,Pr76, Lin105, Pr1002, D1291, D1655 çözülmüþtür. Bu problemlerden Eil51, Eil76 ve Berlin52 problemleri daha önceden, Court [20] tarafýndan Karýnca Sistemi ile çözüldüðü ve sýrasý ile %3.22, %6.91 ve %4.49 sapma deðerleri elde edildiði belirlenmiþtir. Bu çalýþmada önerilen parametreler ile ayný problem çözüldüðünde ise sýrasýyla, %2.11, %3.90, %0.7 sapmalý çözümler elde edilmiþtir. Karýnca sistemi parametreleri optimizasyonu yapýldýðýndan elde edilen bu çözümlerin Court [20] tarafýndan bulunan sonuçlardan daha iyi olduðu görülmektedir. Diðer problemlerin daha önceden karýnca sistemi ile çözüldüðü tespit edilememiþtir, dolayýsýyla bir karþýlaþtýrma yapýlamamaktadýr. Karýnca kolonileri meta sezgiselinde parametre optimizasyonu yapýlarak optimuma yakýn sonuçlarýn elde edilebileceði görülmüþtür. Karýnca sistemi parametrelerinin seçim aralýklarý, KS algoritmasýnýn optimuma ulaþmasýüzerinde önemli bir faktördür. Ýleriki çalýþmalarda, karýnca sistemi parametrelerin etkileþimine bakýlarak uygun parametre seçiminin çözüm performansýnýartýracaðý tahmin edilmektedir. Ayrýca karýnca algoritmalarý ile diðer sezgisel metotlarýn birlikte kullanýldýðý melez sistemler oluþturmak, karþýlaþýlan problemlere daha iyi sonuçlar bulmak açýsýndan faydalý olabilir. 
+REFERANSLAR 
+1.	Dorigo M, Optimization, Learning and Natural Algorithms, PhD tesis, Dipartimento di 
+Elettronica, Politecnico di Milano, Italy, 1992. 
+2.	
+Colorni A., M. Dorigo, Maniezzo and M. Trubian., Ant system for Job-shop Scheduling, Belgian Journal of Operations Research, Statistics and Computer Science, 1994. 
+
+3.	
+http://www.iwr.uni-heidelberg.de/groups/ comopt/software/TSPLIB95/ 
+
+4.	
+Goss S., Aron S., Deneubourg J. L., and Pasteels 
+
+J. M., Self-organized Shortcuts in the Argentine Ant, Naturwissenschaften, 76:579-581, 1989. 
+
+5.	
+Dorigo M., Maniezzo V., Colorni A., The ant system: optimization by a colony of cooperating agents, IEEE Transactions on Systems, Man, and Cybernetics–Part, 1996. 
+
+6.	
+Dorigo M.,Gambardella L.M.., Ant Colony System: A Cooperative Learning Approach to the Traveling Salesman Problem. IEEE Transactionson Evolutionary Computation, 1(1): 53-66, 1997. 
+
+
+7.Di Caro G., Dorigo M., Extending AntNet for best-effort Quality-of-Service routing, From Ant Colonies to Artificial Ants: First International Workshop on Ant Colony Optimization http://iridia.ulb.ac.be/ants98/ants98.html, 15­16 1998. 
+8.	
+Gambardella L.M., Dorigo M., Ant-Q: A Reinforcement Learning Approach to the Traveling Salesman Problem., In Proceedings of the Eleventh International Conference on Machine Learning, 252-260. Morgan Kaufmann, 1995. 
+
+9.	
+Taillard D., Gambardella M., Gendreau M, Potvin J., Adaptive Memory Programming: A unified view of MetaHeuristics, European Journal of Operational Research, 135(2001), 1-16, 2000. 
+
+
+10.Colorni A., M. Dorigo & V. Maniezzo, Distributed Optimization by Ant Colonies. Proceedings of the First European Conference on Artificial Life, Paris, France, Elsevier Publishing. 1992. 
+11.	
+Stützle T., Hoos H., The MAX-MIN Ant System and Local Search for the Traveling Salesman Problem, Proceedings of the IEEE International Conference on Evolutionary Computation (ICEC'97), 1997. 
+
+12.	
+Stützle T., Local Search Algorithms for Combinatorial Problems |Analysis, Improvements, and New Applications, PhD Tesis, Darmstadt University of Technology, Department of Computer Science, 1998. 
+
+13.	
+Bullnheimer B., Hartl R.F., Strauss C., A New Rank Based Version of the Ant System: A Computational Study, Central European Journal for Operations Research and Economics, 1997. 
+
+14.	
+V. Maniezzo, A. Colorni, and M. Dorigo., The ant system applied to the quadratic assignment problem. Technical Report IRIDIA/94-28, 
+
+
+
+K. Alaykýran ve O. Engin Karýnca Kolonileri Metasezgiseli ve Gezgin Satýcý Problemleri Üzerinde Bir Uygulamasý
+IRIDIA, Universite Libre de Bruxelles, Belgium, 1994. 
+15.	
+Stützle T., Hoos H., Improvements on the Ant System: Introducing the MAX-MIN Ant System., Artificial Neural Networks and Genetic Algorithms, Springer Verlag, Wien New York, 1998. 
+
+16.	
+White T., Pagurek B., Oppacher F., ASGA: Improving the Ant System by Integration with Genetic Algorithms, Systems and Computer Engineering, Carleton University Pres, 2000. 
+
+17.	
+Kawamura H., Yamamoto M., Multiple Ant Colonies Algorithm Based on Colony Level Interactions, IEICE Trans. Fundamentals, 2000. 
+
+18.	
+Gagne C., Gravel M., Price W., A Look-Ahead Edition to the Ant Colony Optimization MetaHeuristic and Its Application to an Industrial Scheduling Problem, 4th Metaheuristics International Conference, 2001. 
+
+
+19.Fýðlalý, A., Engin, O., Fýðlalý, N., A Systematic Procedure For Setting Ant System Parameters, International Conferance On Fuzzy Systems Soft Computational Intelligence In Management And Industrial Engineering, 114-121, 2002. 
+20.	Court J.M., Algorithms and Heuristics for the Travelling Salesman Problem: Implementation, Analysis and Comparison, Technical report, 2003. 
+21.	Stützle T.,Hoos H., MAX-MIN Ant System and Local Search for Combinatorial Optimization Problems, Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization, Kluwer, Boston, 1999. 
+22.	
+Gambardella L.M., Taillard E. D., and Dorigo M., Ant colonies for the QAP. Technical Report IDSIA-4-97, IDSIA, Lugano, Switzerland, 1997. 
+
+23.	
+Maniezzo V., Colorni A.. The ant system applied to the quadratic assignment problem. IEEE Trans. Knowledge and Data Engineering, 1998. 
+
+24.	
+Maniezzo V, Exact and approximate nondeterministic tree-search procedures for the quadratic assignment problem. Technical Report CSR 98-1, C. L. In Scienze dell'Informazione, Universite di Bologna, sede di Cesena, Italy, 1998. 
+
+
+25.	Bullnheimer B., Strauss C., Tourenplanung mit dem Ant System. Technical Report 6, Institut fƒur Betriebwirtschaftslehre, University of Vienna, Austria, 1996. 
+26.	
+Gambardella L.M., Taillard E., Agazzi G.. Ant colonies for vehicle routing problems. New Ideas in Optimization, McGraw-Hill, 1999. 
+
+27.	
+Schoonderwoerd R., Holland O., Bruten J., Rothkrantz L., Ant-based load balancing in telecommunications networks. Adaptive Behavior, 5(2):169-207, 1996. 
+
+
+28.White T., Pagurek B., Oppacher F.. Connection management using adaptive mobile agents. Proceedings of the International Conference on Parallel and Distributed Processing Techniques and Applications (PDPTA'98), 802-809. CSREA Press, 1998. 
+29.	
+Bonabeau E., Henaux F., Guerin S., Snyers D., Kuntz P., Theraulaz G., Routing in telecommunication networks with "Smart" ant-like agents. In Proceedings of IATA'98, Second Int. Workshop on Intelligent Agents for Telecommunication Applications, Lectures Notes in AI vol. 1437, Springer Verlag, 1998. 
+
+30.	
+Di Caro G., Dorigo M., AntNet: A mobile agents approach to adaptive routing. Technical Report IRIDIA/97-12, IRIDIA, Universite Libre de Bruxelles, Belgium, 1997. 
+
+31.	
+Subramanian D., Druschel P., Chen J.. Ants and reinforcement learning: A case study in routing in dynamic networks. In Proceedings of IJCAI-97, International Joint Conference on Artificial Intelligence, 832-838. Morgan Kaufmann, 1997. 
+
+32.	
+Van der Put R., Routing in the faxfactory using mobile agents. Technical Report R&D-SV-98­276, KPN Research, The Netherlands, 1998. 
+
+33.	
+Van der Put R., Rothkrantz L.. Routing in packet switched networks using agents. Simulation Practice and Theory, 1998. 
+
+
+34.Costa D. Hertz A.. Ants can colour graphs. Journal of the Operational Research Society, 48:295-305, 1997. 
+35.	Gambardella L.M., Dorigo M., HAS-SOP: An hybrid ant system for the sequential ordering problem, Technical Report IDSIA-11-97, IDSIA, Lugano, Switzerland, 1997. 
+
+
+
+

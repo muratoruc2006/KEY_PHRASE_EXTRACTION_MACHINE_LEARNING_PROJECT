@@ -1,0 +1,227 @@
+BRA ISDN ARAYÜZÜNDE SÝNYALLEÞME KANALININ ÝZLENMESÝ
+
+Günümüzde, þirketler geniþ coðrafi alanlara daðýlmýþ olup bu þirketler arasýndaki iliþkiler artmýþtýr. Sayýsal iletiþimin ses ve veri servislerinde artan ihtiyaçlar, yüksek hýzlý sayýsal iletiþime geçiþi zorunlu kýlmaktadýr. Ses, metin, görüntü ve verinin bir terminalden diðerine, tek bir standart iþaretleþme kanalý kullanýlarak iletilebilmesi için ISDN (Tümleþik Hizmetler Sayýsal Þebekesi) geliþtirilmiþtir. ISDN’in akademik ve ticari alanda birçok uygulamasý bulunmaktadýr. Akademik çalýþmalarda ve müþteri teknik servis desteklerinde, sayýsal þebeke üzerinde gidip-gelen bilgilerin izlenmesi ve mesaj akýþlarýnýn kaydedilmesi gerekmektedir. Bu çalýþmanýn amacý, BRA (Temel Hýzda Eriþim) ISDN arayüzünde sinyalleþme kanalýnda mesaj akýþýnýn izlenmesi ve mesaj akýþlarýnýn elektronik ortamda kaydedilmesidir. Bu çalýþmada, izleme cihazý donaným tasarýmý ve gerekli yazýlým kodlamalarý gerçekleþtirilmiþtir. Ayrýca, bilgisayar üzerinde hazýrlanan kullanýcý arayüzlü program aracýlýðýyla, kaydedilen mesajlarýn standartlar dahilinde analizi saðlanmýþtýr. 
+
+1. GÝRÝÞTümleþik Sayýsal Að (IDN, Integrated Digital 
+Network) ile ilgili çalýþmalar 1970’li yýllarda ISDN (Integrated Services Digital Network-Tümleþik hýzlanmýþtýr. 1980’li yýllarda, IDN içerisindeki Hizmetler Sayýsal Þebekesi), ses, metin görüntü ya da servisler, standart bir yordam dahilinde çaðrýlabilir ve verinin bir terminalden diðerine standart ve uyumlu kullanabilir olmuþtur. Bu arada, ITU-T, ardýndan sayýsal bir iþarete dönüþtürülerek iletilmesini saðlayan CCITT, ISDN ile ilgili standartlar yayýnlamýþtýr. sayýsal bir þebekedir. ISDN’in uluslararasý standartlarýBöylece, geniþ bir yelpazedeki ses ve ses-dýþýbulunduðundan, ISDN cihazlarýný dünyanýn herhangi uygulamalarý aynýhat üzerinde destekleyen ISDN bir yerindeki ISDN þebekede kullanmak mümkündür hizmeti verilmeye baþlanmýþtýr [1-10]. Ayrýca, [1-3]. piyasada yaþanan çeþitlilik, rekabet yarattýðýndan 
+ürünler ucuzlamýþ; servis kalitesi ve yüksek hýzýn etkisiyle kullanýcý sayýsý artmýþtýr. Avrupa Topluluðu ülkelerinin kurduðu ve Türkiye’nin de üye olduðu, merkezi Fransa’da olan Avrupa Telekominikasyon Standartlarý Enstitüsü (European Telecommunications Standards Institute, ETSI) tarafýndan, üye ülkelerin ortak kullanýmýný saðlamak amacýyla hazýrlanan standartara ve kullanýlan þebekeye Euro-ISDN denir [2,6]. 
+Bu çalýþmanýn ikinci bölümünde; ISDN’nin, kullanýcýya saðladýðý kolaylýklara, ISDN arayüzlerine ve hat baðlantý özelliklerine deðinildi.  
+Üçüncü bölümde, BRA (Temel Hýzda Eriþim, Basic Rate Access) ISDN arayüzünde sinyalleþme kanalýüzerindeki mesaj akýþýný izlemek üzere, BRA ISDN izleme cihazýnýn donaným tasarýmýna ve gerçekleþ­tirilmesine yer verildi. BRAMON adý verilen BRA ISDN izleme cihazýnýn donanýmýnda; BRAMON donanýmýný çalýþtýracak olan yazýlým programý ve bilgisayarda çalýþacak olan analiz programý açýklandý. Gerçekleþtirilen BRAMON izleme cihazýnýn kurulumu ve çalýþtýrýlmasý ile ilgili basamaklar özetlendi. Hazýrlanan bilgisayar programlarý ile sinyalleþme kanalýndaki mesaj akýþý izlendi. 
+Dördüncü bölümde, sonuçlar sunuldu. 
+2. TÜMLEÞÝK SERVÝSLER SAYISAL ÞEBEKESÝ (ISDN) 
+2.1. ISDN Hat Baðlantýsý
+ISDN uygulamalarý, dosya transferi; LAN baðlantýlarý; görüntülü haberleþme, video konferans; maðaza zincirlerinin idaresi; tele-pazarlama ve satýþsonrasýhizmetleri; tele ölçüm; PC haberleþmesi; yayýncýlýk ve elektronik kataloglar; internet olarak sýralanabilir [1-3]. 
+BRA ISDN Arayüzünde Sinyalleþme Kanalýnýn Ýzlenmesi 
+
+Þekil 1’de görüldüðü gibi, ISDN þebeke, kullanýcýdaki çeþitli cihazlarý ayný hat üzerinde birleþtirebilecek yapýya sahiptir [1]. Cihazlar, ortak protokol sayesinde kendi kullanacaklarý servisleri, ISDN þebeke üzerinden isteyebilmektedirler. 
+ISDN’nin getirdiði yenilikler aþaðýda sýralanmýþtýr: 
+•	
+Hata oraný düþük, yüksek kalitede iletiþim saðlamaktadýr. 
+
+•	
+Farklý cihazlar için uluslararasý standartlarýbelirlenmiþtir. 
+
+•	
+Tek noktadan çok noktaya (Point to Multipoint, PMP) baðlantý yapýlabilmektedir. 
+
+•	
+Kullanýmý kolaylaþtýran birçok servis: MSN (multiple subscriber number), DDI (direct dialing in), CLIP (calling line identification prensentation), CLIR (calling line identification restriction), AOC (advice of charge), CCBS (copmletion of calls to busy subscribers) bulunmaktadýr [1]. 
+
+
+
+2.2. ISDN Hat Referans Noktalarý 
+BRA ISDN fiziksel baðlantýsý, birtakým fonksiyonel gruplara ayrýlmýþtýr. Bu gruplar arasýnda referans noktalarý(R, S, T ve U) belirlenmiþtir (Þekil 2). Cihazlar çalýþacaklarý referans noktasýnýn standartlarýna uymak zorundadýr. R referans noktasýna, ISDN olmayan cihazlarýn (analog telefon) baðlanabilmesi için bir Teminal Adaptörü (TA) gerekmektedir. S referans noktasýna, ISDN arayüz standartlarýna uygun cihazlar baðlanabilmektedir. T referans noktasý, ISDN servis saðlayýcý ile kullanýcýyýayýrmaktadýr. S ve T referans noktalarý arasýnda NT2 (Network Termination type2) cihazý, T ve U referans noktalarý arasýnda da NT1 (Network Termination type1) cihazý bulunmaktadýr. NT2 birden fazla terminali kontrol etmekte, NT1 ise servis saðlayýcý ile olan fiziksel baðlantýyý kontrol etmektedir [1-4]. 
+
+Diðer ISDN aboneler için sayýsal hatlar 
+Abone ISDN hat baðlantýsýKiþisel Bilgisayar
+
+
+ MüþteriISDN arayüzü
+
+Diðer ISDN aboneler 
+için sayýsal hatlar 
+LAN 
+
+
+Þekil 1. ISDN þebekenin genel baðlantý yapýsýÞekil 2. ISDN baðlantý referans noktalarý
+
+Euro-ISDN için Seviye1 standartlarý, S ve T referans noktalarýnda tanýmlanmýþtýr. Buna karþýlýk, U referans noktasýnda herhangi bir standart tanýmlý deðildir. Bu noktanýn kullanýmýþebeke sonlandýrýcýsýna býrakýlmýþtýr. U referans noktasý, sadece Amerika’da, American National Standard Institute (ANSI) tarafýndan standart olarak sunulmaktadýr. 
+BRA ISDN arayüzü Seviye1 ile ilgili standartlar, I430 standartlarýnda yer almaktadýr. Seviye 2 standartlarý, Q921 standartlarý ile; seviye 3 ise Q931 ve Q932 standartlarý ile belirlenmiþtir[1,2,6,9]. 
+
+2.3. ISDN’e Eriþimin Saðlanmasý
+
+
+ISDN kanallarý 
+ISDN hatlarda iletiþim iki yönlüdür. ISDN hat üzerinde farklý hýzlarda kanallar mevcuttur. Bunlar B, D ve H kanallarýdýr. 
+•	
+B-kanalýnýn hýzý 64 kbit/s olup taþýdýðý bilgiler, ses, audio, video, sayýsal veri þeklindedir. 
+
+•	
+D-kanalý, kullanýcýya ait düþük hýzlý veri paketlerini taþýr ve hýzý 16 kbit/s veya 64 kbit/s olabilir.  
+
+•	
+H-kanalý, B-kanalýn fonksiyonuna benzer, ancak daha hýzlýdýr. H-kanalý, yüksek hýzda veri, yüksek kalitede audio, telekonferans, video servisler ve LAN baðlantýlarý gibi uygulamalarda kullanýlýr. 384 kbit/s (H0), 1536 kbit/s (H11) veya 1920 kbit/s (H12) hýzlarýnda iletiþim yapabilir. Kullanýcý, kendisi için uygun hýzdaki kanalý seçebileceði gibi mevcut hazýr arayüzleri kullanabilir[1,2]. 
+
+
+
+ISDN arayüzleri 
+ISDN þebekesine eriþim üç farklý konfigürasyonla saðlanmaktadýr. Bunlar: 
+•	
+Temel Hýzda Eriþim (BRA, Basic Rate Access), 
+
+•	
+Primer Hýzda Eriþim (PRA, Primary Rate Access), 
+
+•	
+Geniþband-ISDN (B-ISDN, Broadband ISDN). 
+
+
+Primer Hýzda Eriþim ( PRA ), 23B+D kanal yapýsý ile Amerika, Japonya ve Kanada’da; 30B+D kanal yapýsýile Avrupa’da; yerel að ve/veya sayýsal PBX kullanýcýlarý için uygundur[1]. 1990’a kadar ençok kullanýlan ve ilgi duyulan ISDN konfigürasyonlarýBRA ve PRA iken 1990 yýlýnýn baþlarýndan itibaren geliþmeler daha çok B-ISDN iletiþiminde ve servislerinde olmuþtur. B-ISDN’de, 25 Mbit/s ile 2,4 Gbit/s arasýndaki hýzlarda iletiþim yapýlmaktadýr. B­ISDN yüksek kalitede video, yüksek hýzlarda veri iletiþimi yapma imkaný saðlamaktadýr [1,3]. 
+3. BRAMON ÝZLEME CÝHAZI 
+Bu çalýþmada gerçekleþtirilen BRAMON (BRA ISDN D-Channel MONitoring) izleme cihazý[1], BRA ISDN arayüzünde sinyalleþme kanalýný heriki yönde izleyerek, gelen bilgileri direkt olarak bilgisayara aktarmaktadýr. Ayrýca, mesaj akýþý ile ilgili detaylýbilgilerin, bilgisayar ekranýndan canlý olarak takip edilebilmesine ve bilgisayar ortamýnda kaydedilerek daha sonra da farklý seçeneklerde ayrýntýlý olarak incelenmesine olanak saðlamaktadýr. 
+3.1. BRAMON Ýzleme Cihazýnýn Tasarýmý ve Gerçekleþtirilmesi 
+Gercekleþtirilen BRAMON izleme cihazý, mikroiþlemci birimi, HDLC kontrol birimi, DC-DC güç kaynaðý (SMPS) birimi, seri haberleþme RS232 arayüz birimi, ISDN hat ve seri haberleþme hattýbaðlantý birimlerinden ve yardýmcý bir birim olarak da bilgisayardan oluþmaktadýr (Þekil 3). Aþaðýda, BRAMON izleme cihazýný oluþturan temel birimlerin kýsa analizi yeralmaktadýr. 
+Mikroiþlemci birimi 
+Bu birim, BRAMON donanýmý üzerinde yazýlýmýn çalýþtýrýlmasýve çevre birimlerinin kontrol edilmesi iþlevlerini gerçekleþtirmektedir. Bu birimin içerisinde 80C51 tabanlý mikroiþlemci [11-15], RAM, EPROM 
+
+-
+
+Þekil 3. BRA ISDN D-Kanalý izleme cihazý donaným yapýsý [1] 
+ve iki adet LED bulunmaktadýr. LED’ler donaným ve yazýlým durumunu iþaret etmek amacýyla kullanýlmýþtýr. Mikroiþlemcinin yapacaðý iþler, 64 KByte büyüklüðündeki EPROM içine depolanan yazýlým ile belirlenmiþtir. 32 KByte büyüklüðündeki RAM veri hafýza bölgesi, mikroiþlemcinin çalýþmasýsýrasýnda, gerekli verilerin saklanmasý için kullanýlmýþtýr. 
+80C32 mikroiþlemci (80C51 tabanlý) 
+BRAMON cihazýnda, PC’ye gönderilecek bilgiler için bir seri iletiþim kanalýna ve çevre birimlerinde yer alan kesmelerin algýlanmasýiçin bir donanýma ihtiyaç vardýr. Yazýlýmýn çalýþtýrýlmasý ve bilgilerin depolanmasý için de hafýza birimleri gerekmektedir. Bu deðerlendirmeler ýþýðýnda mikroiþlemci seçimi 80C32 olarak sonuçlandýrýlmýþtýr. Ayrýca, dýþ veri ve program hafýzasý için, mikroiþlemci dýþýnda hafýza modülleri kullanýlmýþtýr. 
+Mikroiþlemcinin çalýþma hýzý 12 MHz’tir. Saat gereksinimi dýþardan 12 MHz kristal ile saðlanmýþtýr. 
+80C32 mikroiþlemcisi, iki yönlü haberleþebilen, asenkron modunda çalýþan bir seri kanal bulundurmaktadýr. BRAMON donanýmýnýn bilgisayar ile haberleþmesinde bu kanaldan yararlanýlmýþtýr. Mikroiþlemcinin seri kanala gönderdiði bilgiler TxD, seri kanaldan mikroiþlemciye gelen bilgiler RxD bacaklarý üzerinden taþýnmaktadýr. TxD ve RxD bacak baðlantýlarý, voltaj seviyeleri nedeniyle doðrudan bilgisayara baðlanamadýðý için, tasarýmda RS232 arayüz birimi kullanýlmýþtýr. 
+HDLC kontrol birimi 
+HDLC kontrol birimi, mikroiþlemci kontrolünde, ISDN hat üzerinden mesaj akýþýnýn izlenmesini saðlamaktadýr. Birim içerisinde iki adet HDLC entegresi ve bir ISDN trafosu yer almaktadýr. 
+HDLC kontrol entegresi (MT8930 isimli entegre), ISDN S/T referans noktasý uygulamalarýnda, ETSI ETS 300-012 standartlarýna tümüyle uyumluluk saðlayan bir entegredir. Hat üzerinde, her iki yöndeki bilgileri toplayabilmek için tasarýmda iki adet HDLC kontrol entegresi kullanýlmýþtýr. Ayrýca, ISDN hat üzerinde gerekli olan senkronizasyon ve zamanlama iþaretleri ile ilgili fonksiyonlar da bu entegre üzerinden saðlanmaktadýr. 
+HDLC kontrol entegresi içerisinde üç ayrý arayüz bulunmaktadýr. ISDN hat üzerindeki bilgiler S arayüzü aracýlýðýyla taþýnýr. Gerek mikroiþlemci arayüzü, gerekse ST-Bus arayüzü, buradan gelip giden bilgilere (B1, B2 ve D kanallarýna), yüksek hýzlýbir veri yolu üzerinden eriþebilmektedir. Hat senkronizasyonlarýnýn ve zamanlama bilgilerinin elde edilebilmesi için, entegre içerisinde bir adet PLL ve PLL’den gelen zamanlama bilgilerini deðerlendiren bir kontrol birimi bulunmaktadýr. 
+HDLC iletiþim birimi, D-kanal yapýsýný, seviye 2 derecesinde bit bazýnda düzenlemektedir. Hat üzerinde, gidip/gelen mesaj paketlerinin kontrol edilip bilgi kýsmýnýn ayrýlmasý, bu birimde gerçekleþtirilmektedir. Gönderilen paketlere sýfýr ekleme, alýnan paketlerden sýfýr silme iþlemleri uygulanarak, paketin hatasýz bir þekilde iletimi veya pakette oluþan hatanýn farkedilmesi saðlanmaktadýr. 
+PLL ve zamanlama kontrol birimi, ST-Bus üzerindeki kanallarýn baþlangýç ve bitiþ zamanlarýný gösteren iþaretleri üretir. 
+Mikroiþlemci ve HDLC entegreleri arasýndaki baðlantý, adres ve veri yolu vasýtasýyla gerçekleþtirilmektedir. HDLC kontrol entegrelerinin sýfýrlama iþlemi, sisteme güç verildiðinde doðrudan kendi sýfýrlama devresi ile saðlanmaktadýr. HDLC kontrol entegreleri, gelen bir mesaj olduðunda mikroiþlemciyi kesme yoluyla uyarmaktadýr. 19 Byte’tan daha uzun mesajlarda veya ardý ardýna gelen mesajlarda herhangi bir kayýp olmamasý için tampon durumunun kontrolü önemlidir. 
+BRAMON donaným tasarýmý, HDLC kontrol entegrelerinin sadece alma tamponlarýnýkullanmaktadýr. Tampon kontrolleri ile ilgili iþlemler, BRAMON donaným yazýlýmý tarafýndan gerçekleþtirilmektedir.  
+ISDN trafosu 
+ISDN trafosu, ISDN hat üzerindeki sinyalleþmeleri etkilemeyecek ve çevreye yayýn yapmayacak özelliklerde bir trafo olmasý gerekmektedir. Bu nedenle, ISDN trafosu, MT8930 HDLC kontrol entegresinin uyumlu olduðu trafo listesinden seçilmiþtir[1]. 
++40V/+5V DC-DC dönüþtürücü güç kaynaðý(SMPS) birimi 
+BRAMON D-kanalý izleme cihazý, ISDN hat üzerinden beslenen bir cihazdýr. ISDN hat üzerinde yer alan 40V DC besleme voltajý, köprü doðrultucudan geçirilerek DC-DC dönüþtürücü [15­18] devresinin giriþine baðlanmýþtýr. Gücü 1W deðerinde olan DC-DC dönüþtürücü, çýkýþta +5V üretecek þekilde tasarlanmýþtýr. Bu çalýþmada, düþük güçlerde yüksek verim saðlamalarý nedeniyle, flyback dönüþtürücü modeli kullanýlmýþtýr [1]. 
+Seri kanal haberleþme birimi 
+Seri kanal haberleþme birimi RS232 arayüz entegresinden oluþmaktadýr. Mikroiþlemcinin seri kanal gönderme (TxD) ve alma (RxD) bacaklarý bu entegreye baðlanmýþtýr. 
+Seri kanal haberleþme hýzý, ISDN hat üzerinden gelen mesajlarý, birikmeden gönderebilecek þekilde 19200 bit/s olarak seçilmiþtir. Yapýlan testler sonucu, bu hýzýn yeterli olduðu görülmüþtür. Yeterli olamadýðýdurumlarda yazýlým deðiþikliði ile bu hýzýn arttýrýlmasýmümkündür.  
+Ö. Uzunoðlu ve M. Sarýtaþ
+
+Seri haberleþme ve ISDN hat baðlantýlarý için BRAMON donanýmý üzerinde ikiþer adet konnektör bulunmaktadýr. Biri standart erkek DB9 seri port konnektörüdür, diðeri ise telefon hatlarýnda da kullanýlan standart 6’lý modüler jack’týr. Telefon hatlarý bu konnektörlerin ortadaki 3 ve 4 nolu bacaklarýný kullanýrlar. Farklý bir hat kullanýldýðýnda donaným üzerinde herhangi bir problem olmamasý için baðlantýlar farklý noktalardan yapýlmýþtýr.ISDN hattýn izlenebilmesi için, konnektrölerin baðlantý sýralamasýstandart ISDN baðlantýsýna göre yapýlmýþtýr. 
+Bilgisayar 
+ISDN hattýn izlenebilmesi ve elde edilen bilgilerin kaydedilmesi için bir bilgisayar gerekmektedir. Bunun için, üzerinde enaz bir adet seri port donanýmýolan ve iþletim sistemi, Win95 ve sonrasý olan bir bilgisayar gerekmektedir. 
+3.2. BRAMON Yazýlýmlarý
+BRAMON izleme cihazý için iki farklý yazýlým hazýrlanmýþtýr. Birinci yazýlým, BRAMON donaným yazýlýmý olup 8052 tabanlý mikroiþlemci tarafýndan donanýmýn çalýþtýrýlmasýný saðlayan bir yazýlýmdýr ve EPROM içerisinde bulunmaktadýr Ýkinci yazýlým bilgisayar üzerinde çalýþmaktadýr. Temel iþlevi, BRAMON donaným yazýlýmýnýn seri kanaldan gönderdiði bilgileri toplamak ve içerdiði çözümleme tekniðini kullanarak ekran üzerinde mesaj analizini gerçekleþtirmektir. Bu yazýlým “BRAMON BRhbA ISDN D-CHANNEL WATCHER” olarak adlandýrýlmýþtýr. Program çalýþtýrýldýðý anda, belirli bir süre bu yazý ekrana yansýmaktadýr. 
+3.2.1. BRAMON Donaným Yazýlýmý
+BRAMON donaným yazýlýmý, donaným üzerinde mikroiþlemci tarafýndan çalýþtýrýlan yazýlýmdýr. Yazýlým kodlamasý C kodunda yapýlmýþtýr. Yazýlýmýn derlenme iþlemi, tasarýmda kullanýlan mikroiþlemci ailesine özgü olan C51 derleyicisinde yapýlmýþtýr. Derlenen birden fazla kod parçasý L51 aracý ile birleþtirildikten sonra, OHS51 aracý ile EPROM içerisine programlanacak HEX formatýnda yazýlým oluþturulmuþtur.BRAMON yazýlým yapýsýný oluþturan temel fonksiyonlar, yazýlýmýn çalýþtýðý ana döngü ve BRAMON yazýlým kodlamasýnýn akýþþemasýÞekil 4’de verilmiþtir. 
+BRAMON yazýlýmý baþlangýç deðer atama fonksiyonlarý ile baþlamaktadýr. Öncelikle mikroiþlemcinin tasarýma uygun þekilde ayarlanmasýile ilgili fonksiyon çaðrýlmaktadýr (init8052). Kesmeler kapalý durumdayken SFR içerisindeki kayýtlarda gerekli ayarlamalar yapýlýr. Ardýndan tampon hafýzalarýn oluþturulmasý ve sýfýrlanmasýiþlemleri (initBuffers ve initTxRx); HDLC kontrol entegrelerinin kullanýma hazýrlanmasý iþlemleri 
+
+Þekil 4. BRAMON yazýlým kodlamasý akýþþemasý [1] 
+(init8930) gelmektedir. Baþlangýç deðer atama ve sýfýrlama kýsýmlarýndan sonra program sonsuz döngü içerisine girmeye hazýr hale gelir. Bu döngü içerisine girmeden hemen önce kesmeler ile ilgili ayarlar yapýlýr ve gerekli olanlar çalýþtýrýlýr. Sonsuz döngü içerisine girildiðinde mesaj varlýðý sürekli olarak kontrol edilir. ISDN hat üzerinden mesaj alýmý ve alýnan mesajýn seri kanal üzerinden gönderimi, kesme fonksiyonlarý içerisinde gerçekleþtirilir. Ana döngü içerisinde tampon hafýzalar arasýndaki geçiþgerçekleþtirilir ve varsa gerekli önekler mesaj önlerine yerleþtirilir. Örneðin, mesajýn zaman bilgisinin eklenmesi ve mesajýn ISDN hattýn hangi yönünden geldiði bilgisi, bu geçiþler esnasýnda gerçekleþtirilir. 
+3.2.2. BRAMON izleme ve analiz yazýlýmý
+Kullanýcý arayüzlü BRAMON izleme ve analiz programýnýn çalýþmasýile ilgili akýþþemasýÞekil 5’de verilmiþtir. BRAMON izleme ve analiz yazýlýmý(BRAMON BRA ISDN D-Channel Watcher); programdýr. Yazýlýmýn hazýrlanmasý için “C++ bilgisayar üzerinde çalýþan, donaným yazýlýmýBuilder” programlama dili ve derleyicisi tarafýndan seri kanaldan gönderilen ISDN mesajlarýnýkullanýlmýþtýr [1,19-21]. Kullanýcý arayüzlü izlemeye, standartlar dahilinde analiz etmeye ve BRAMON izleme ve analiz programý çalýþtýrýldýðýnda kaydetmeye yarayan kullanýcý arayüzlü bir altý seçenekli bir menü yapýsý ekrana gelmektedir. 
+
+
+Þekil 5. (devam ediyor) 
+Bunlar: “File” menüsü, “Edit” menüsü, “Run” menüsü: “Settings” menüsü “Window” menüsü, “Help” menüsüdür. 
+Menüler; seri hat ayarlarý, dosya açma, kaydetme ve kapatma, veri analiz iþlemleri, metin içi arama yapýlabilecek þekilde tasarlanmýþtýr. 
+BRAMON izleme yazýlýmý, seri kanal gerektiren BRAMON dýþýndaki diðer uygulamalar için analiz yapmadan sadece hat mesajlarýný gösterecek þekilde hazýrlanmýþtýr. Bu nedenle, donaným üzerinde sabit olarak ayarlanmýþ seri kanal hýzý, izleme ve analiz yazýlýmýnda deðiþtirilebilir yapýlmýþtýr. Farklýuygulamalarda dikkat edilmesi gereken tek husus; mesajlar önünde yeralan zaman ve yön öneklerini, o uygulama üzerinden gönderilecek mesajlarýn baþýna ilave etmektir. 
+
+3.3. BRAMON Cihazýnýn Kurulumu, Çalýþtýrýlmasýve ISDN Hattan Örnek Alýmý
+BRAMON izleme ve analiz yazýlýmý, kullanýcýarayüzü için kullanýlan birçok bileþenden oluþmaktadýr. Bu nedenle çalýþmasý için birtakým “dll” dosyalarýna ihtiyaç duymaktadýr. Bu dosyalar bilgisayarda sistemin altýnda yer almaktadýr. Sistem altýnda programýn çalýþmasýiçin gerekli tüm “dll” 
+Ö. Uzunoðlu ve M. Sarýtaþ
+
+dosyalarýnýn bulunmamasý durumunda, BRAMON izleme ve analiz yazýlýmý çalýþmamaktadýr. Bu tür problemlerle karþýlaþýlmamasý için, BRAMON izleme ve analiz yazýlýmý için bir kurulum yazýlýmýhazýrlanmýþtýr. KurBRAMON olarak adlandýrýlan bu kurulum yazýlýmý, “InstalShiled Express” programýaracýlýðýyla hazýrlanmýþtýr. Böylece BRAMON izleme ve analiz yazýlýmýiçin gerekli tüm dosyalar kurulum ile birlikte ilgili dizinlere kopyalanmaktadýr. Ayrýca istenildiðinde, BRAMON izleme ve analiz yazýlýmýnýn tüm bileþenleri ile birlikte otomatik olarak kaldýrýlmasý da mümkündür. 
+BRAMON izleme cihazýnýn kurulumu ve çalýþtýrýlmasý ile ilgili temel basamaklar Þekil 6’da özetlenmiþtir. BRAMON izleme cihazýnýn kurulumu esnasýnda genelde hat baðlantýlarý ile ilgili problemler yaþanmaktadýr. Bu nedenle kurulum esnasýnda hat baðlantýlarýnýn dikkatle yapýlmasý gerekmektedir. Ayrýca program içerisinde “Help” menüsünün “BraMon Help...” seçeneði ile de yardým dosyasýna ulaþmak mümkündür. Yardým dosyasý(helpBRAMON.txt) içerisinde menüler ve iþlevleri anlatýlmaktadýr. Bu dosya BRAMON izleme ve analiz yazýlýmýnýn bulunduðu dizinde yer almaktadýr. 
+BRAMON izleme yazýlýmýna ve ISDN hat üzerinden alýnan örnek bir kaydýn ekran görüntüsüne Þekil 7 ve Þekil 8’de yer verilmiþtir. Bu iki þekilde tekbir kayda 
+
+Þekil 6. BRAMON izleme cihazýnýn kurulum akýþþemasý [1] Þekil 7. ISDN hattan alýnan bir kaydýn HEX formatýnda örnek analizi 
+
+
+Þekil 8. ISDN hattan alýnan bir kaydýn TEXT formatýnda örnek analizi 
+ait bilgiler yer almasýna karþýlýk, iki þeklin görünümleri birbirinden farklýdýr. Þekil 7, gelen bilgilerin çözümleme yapýlmadan, olduðu gibi ekrana yansýtýlmasý neticesinde elde edilen ekran görüntüsüdür. Þekil 8 ise, ISDN hattan gelen bilgilerin, “Filter...” seçeneðinde belirtilen gösterim kurallarý kullanýlarak çözümlenmesi neticesinde elde edilen ekran görüntüsüdür. 
+4. SONUÇLAR 
+Bu çalýþmada, BRA ISDN D-kanalýnýn izlenmesi için BRAMON cihazýnýn yapýmý ve yazýlým uygulamalarýbaþarý ile gerçekleþtirilmiþtir. 
+BRAMON yazýlýmý; hem donaným üzerinde sinyalleþmeyi toplayýp seri kanal üzerinden gönderecek bir yazýlýmý, hem de bilgisayar üzerinde çalýþarak donaným üzerinden gönderilen bilgileri alýp kaydedebilecek ve analiz edebilecek bir yazýlým olmak üzere iki farklý yazýlýmý içermektedir. Yazýlým ile ilgili bilgiler bir önceki bölümde detaylý olarak verilmiþtir. 
+BRAMON izleme cihazýnýn testleri, farklý BRA ISDN hatlar üzerinde denenmiþtir. Bu hatlar üzerinde gerek güç, gerekse iþleyiþ açýsýndan bir problem ile karþýlaþýlmamýþtýr. Standartlarý destekleyen uygulamalarda, BRA ISDN hat üzerinde NT1 tarafýndan saðlanan güç beslemesi bulunmaktadýr. Hat beslemesinin bulunmadýðý uygulamalarda, BRAMON izleme cihazýnýn kullanýmýsý için donaným deðiþikliði gerekmektedir. BRAMON donanýmý üzerinde giriþvoltajýnýn baðlandýðý doðrultucu devresinin çýkarýlýp, güç kaynaðý giriþine +40V DC güç kaynaðýnýn baðlanmasý gerekmektedir. Ayrýca, direkt olarak +5V giriþine de +5V DC güç kaynaðý baðlamak mümkündür. Ancak, +40V üzerinden baðlantýyapýlmasý tavsiye edilmektedir. 
+Bilgisayar üzerinde çalýþan, kullanýcý arayüzlü BRAMON izleme ve analiz yazýlýmý, mesaj akýþlarýnýn takibinde büyük kolaylýklar saðlamýþtýr. ISDN hattaki mesajlarýn, hem geldikleri gibi HEX formatýnda örnek analizi (Þekil 7), hem de TEXT formatýnda örnek analizi (Þekil 8), bilgisayar ekranýnda görüntülenebilmiþtir. Mesajlar ile ilgili farklý seçeneklerdeki filtreleme özelliði kullanýlarak, mesaj yýðýnlarý içerisinden istenilen bilgileri elde etme olanaðý saðlanmýþtýr (Þekil 8). Piyasada, benzer seviyedeki ürünlerde, bu tür bir kolaylýk bulunmamaktadýr. Ayrýca; farklý uygulamalarda çözümleme iþlemi yapmadan, bu yazýlýmýn kullanýlabilmesi, saðlanan diðer bir kolaylýktýr. Böylece bilgisayar yazýlýmýnýn kullanýmý BRAMON izleme cihazý ile sýnýrlandýrýlmamýþtýr. BRAMON izleme ve analiz yazýlýmý, geliþtirilmeye ve ilave fonksiyonlar eklemeye açýktýr. 
+KAYNAKLAR 
+1.	
+Uzunoðlu, Ö., BRA ISDN Arayüzünde Sinyalleþme Kanalýnýn Ýzlenmesi, Yüksek Lisans Tezi, Gazi Üniversitesi, Fen Bilimleri Enstitüsü, 2004. 
+
+2.	
+Kessler, C. K. ve Southwick, P. V., ISDN Concepts, Facilities, and Services, Signature, 
+
+
+(4th) ed., McGraw Hill, USA, 1998. 
+Ö. Uzunoðlu ve M. Sarýtaþ
+
+3.	
+Stallings, W., ISDN and Broadband ISDN with Frame Relay and ATM, 4th ed., Prentice-Hall, USA, 1998. 
+
+4.	
+Dicenet, G., Design and Prospects for The ISDN, Translated by Oliver, D., Masson, Paris, 1987. 
+
+5.	
+Goldstein, F. R., ISDN in Perspective, Addison-Wesley, USA, 1992. 
+
+6.	
+Verma, P. K., ISDN Systems Architecture, Technology, and Applications, Prentice-Hall, USA, 1990. 
+
+7.	
+Griffiths, J. M., ISDN Eplained, John Wiley & Sons, England, 73-77, 1990. 
+
+8.	
+ISDN History, 
+
+
+http://isdn.totalaccess.net/history.html, 
+12.09.2003. 
+
+9.	
+ISDN, http://www.protocols.com/pbook/isdn.htm 12.09.2003. 
+
+10.	
+ISDN ile ilgili Sýkça Sorulan Sorular, http://www.telekom.gov.tr/isdn/isdn-sss.html, 12.09.2003. 
+
+11.	
+80C51-Based 8-Bit Microcontroller, Philips Semiconductor, USA, 1994. 
+
+12.	
+8 Bit Microcontroller, Matra MHS SA, France, 1993. 
+
+13.	
+C51 Compiler Optimizing 8051 C Compiler and Library Reference, 2nd ed., Keil Elektronik, Munchen, 1-5, 1995. 
+
+14.	
+A51 Assembler A251 Assembler Macro Assemblerrs for The 8051 and MCS 251 Microcontroller, 2nd ed., Keil Elektronik, Munchen, 1-5, 1995. 
+
+15.	
+Motorola Inc., Practical Switching Power Supply Design, Academic Press Inc., California, 1990. 
+
+16.	
+Billings K. H., Handbook of Switchmode Power Supplies, McGraw-Hill, USA, 1989. 
+
+17.	
+Rashid, M. H., Power Electronics Circuits, Devices, and Applications, 2nd ed., Prentice-Hall, USA, 1993. 
+
+
+18.Mohan, N., Undeland, T. M. ve Robbins, W. P., Power Electronics Converters, Applications, and Design, 2nd ed., John Wiley & Sons, USA, 1995. 
+19.	
+Yaroshenko, O., The Beginner’s Guide to C++, Wrox Press, UK, 1994. 
+
+20.	
+Borland C++ Builder 4 Developer’s Guide, Inprise Corporation, Canada, 1999. 
+
+21.	
+Yanýk, M., Borland C++ Builder ile Görsel Programlama, 1. baský, Beta Basým, Ýstanbul, 1997. 
+
+
+
+
+
+
+
+

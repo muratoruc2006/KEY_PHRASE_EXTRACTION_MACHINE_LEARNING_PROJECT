@@ -1,0 +1,234 @@
+TOLERANS ANALÝZ YÖNTEMLERÝ VEMAK-TOL TOLERANS ANALÝZ SÝSTEMÝ
+Birbiriyle çalýþan parçalarýn montajý yapýldýktan sonra sorunsuz çalýþabilmesi için ölçü toleranslarý uygun verilmelidir. Tolerans yýðýlmasýný engellemek, ideal toleranslarý belirlemek için tolerans analizi gerekmektedir. Tolerans analizlerinde kullanýlan yöntemlerin bir kýsmý hareketli montajlarda kullanýlan ve montajda vektör döngüleri ile momentlerin etkilerini göz önüne alarak hesaplamalar yapýlabilen yöntemlerdir. Bu yöntemlerde montajda elde edilen fonksiyonlardan hareket edilerek tahmini varyasyonlar oluþturulur ve elde edilen tahmini deðerlerden sonuca ulaþýlmaya çalýþýlýr. Bu çalýþmada, kullanýcýya kolay analiz ortamý saðlayan ve her türlü montaj parçalarýnýn analizlerini rahatlýkla yapabilen yeni bir 2B’lu tolerans analiz yöntemi olan MAK-TOL tolerans analiz sistemi geliþtirilmiþtir. Bu yeni yöntem ile tasarým aþamasýnda bir geri besleme mekanizmasýoluþturulmuþtur. Bu sayede montajda riskli görülen ölçülerin alabileceði varsayým tolerans deðerleri yeniden hesaplanarak tasarýmcýya sunulmaktadýr. Ýmalat aþamasýna geçmeden tolerans analizlerinin sonucu deðerlendirilip, bilinmeyen toleranslar hakkýnda yorum yapýlabilmekte ve hurdaya ayrýlacak parça sayýsýazaltýlabilmektedir.  
+
+1. GÝRÝÞ
+resimlerin anlaþýlýr ve tam doðru olmasý konusunda 
+hemfikirdirler. Yetersiz bir çizim parçalarýn Günümüzde firmalarýn en önemli amaçlarý, en kýsa fonksiyonellik, üretilebilirlik ve kolay muayene sürede en ucuz üretim yapmanýn yaný sýra en az hatalýedilebilme özelliklerinde deðiþiklikler yapýlmasýna ürünleri üretmektir. Kaliteli ürünler üretebilmek için neden olacaðýndan, hem üretim hem de muayene öncelikle tasarýmlarýn uygun yapýlmasý gerekmek-maliyetlerini arttýrýr [1]. Tasarýmcý, çizimleri yanlýþtedir. Bu nedenle imalat ve kalite mühendisleri teknik anlamaya neden olmayacak þekilde yapmalýdýr. Bu da 
+G. Samtaþ ve M. Gülesin 
+ancak anlaþýlýr geometrik elemanlarýn çizimi, geometrik ölçülendirme ve tolerans ile saðlanabilir. Parça tasarýmý ve imalatý açýsýndan tolerans vermenin önemi; tolerans yýðýlmasýnýn olmamasý, kontrol iþleminin açýkça tanýmlanmýþ olmasý ve hem montajda hem de parçalar birlikte çalýþýrken ortaya çýkabilecek sorunlarý minimuma indirgemesidir. Tolerans ile teknik resimlerde belirtilmesi gereken bir çok ek bilgi anlaþýlmasýzor olan notlarla açýklamaya gerek duyulmadan kolayca verilebilmektedir. Tolerans verme tekniði kullanýlarak; geometrik biçimlere olan doðrusallýk, düzlemsellik, dairesellik, silindiriklik gibi þekil; diklik, paralellik, eðiklik gibi yönelme ve eþmerkezlik, eþ eksenlik; simetriklik, konum gibi yerleþtirme; dairesel ve toplam salgý gibi hareket özellikleri simgelenerek kabul edilebilir toleranslarýn basitçe gösterilmesi saðlanýr. Teknik resimlerde klasik ölçülendirmenin kullanýlmasý nedeni ile referans düzlemlerinin belirsizliði, ürünün kontrol iþlemlerinde de sorunlara neden olmaktadýr. Tolerans verme ile ölçülendirilen resimlerde, parçanýn ölçülerinin kontrolünde hangi düzlemin referans alýnacaðýbelirtildiði için yanlýþ anlaþýlmalar önlenir. Ayrýca muayene iþlemi kolaylaþýp daha az süre aldýðý için ürün maliyetleri de azalmýþ olur. Seri imalat yapan bazý firmalar zamandan tasarruf için Tam Zamanýnda (Just in Time) Üretim tekniðini uygulamaktadýrlar [2]. Bu yöntemde, tasarýmdan üretime geçerek imalat ve kontrolün daha ekonomik olmasý saðlanabilir. Tolerans verme ile tasarým, imalat ve kontrol mühendislerinin ayný dili konuþmalarý saðlanarak, yanlýþ anlamalar ve bu nedenle oluþabilecek zaman kaybý önlenmiþ olur. 
+MAK-TOL tolerans analiz sistemi, bilinen küresel koordinat yönteminden faydalanýlarak geliþtirilmiþtir. Küresel koordinat yönteminde montaj modeli üzerinde kritik görülen toleranslý boyutlar vektör halkalarý ile birleþtirilerek bu vektörlerin vektörel uzunluklarý ve baðlý olduklarý boyutlarýn tolerans deðerleri iþleme katýlarak sonuca ulaþýlmaktadýr. Bu deðerler 3×3, 4×4 ve bunun gibi kare matris dizeleri halinde hesaplanmaktadýr. Bu da karmaþýk bir hesaplamanýn çözülmesi demektir. Diðer yöntemlerde de yine bu tip formülleþtirilmiþ hesaplamalar kullanýlmaktadýr. MAK-TOL tolerans analiz sisteminde veriler, montaj parçalarýnýn analiz edilecek toleranslý ölçülerin koordinatlarýný kullanýr. Bu koordinatlara tolerans deðerleri dahil edilerek küresel koordinat yönteminde olduðu gibi matris dizelerine dönüþtürür. Program bu dizeleri otomatik olarak hesaplar ve sonuca ulaþýr. Diðer bilinen yöntemlerde de farklý formüllerin kullanýlmasý ile uzun süren hesaplamalar sonucunda analiz yapýlmaktadýr. 
+2. TOLERANSLARA UYGULANAN TEKNÝKLER 
+Bilgisayar teknolojisindeki geliþmeler, tasarým ve üretim aþamalarýnda bir bütünü oluþturan mekanik 
+Tolerans Analiz Yöntemleri ve Mak-Tol Tolerans Analiz Sistemi 
+parçalara uygulanacak toleranslarýn daha etkili bir biçimde deðerlendirilmesini mümkün kýlmýþtýr. Özellikle son yirmi yýllýk dönemde toleranslandýrma, tolerans analizi, tolerans sentezi ve toleranslarýn doðrulanmasý konusunda yapýlan çalýþmalar, hem bilimsel platformda hem de uygulama alanlarýnda büyük bir ivme kazanmýþ durumdadýr [3]. Genel olarak toleranslara uygulanan teknikler þu þekilde sýralanabilir; 
+• 
+Tolerans atama, 
+
+• 
+Tolerans analizi, 
+
+• 
+Tolerans sentezi, 
+
+• 
+Toleranslarýn doðrulanmasý. 
+
+
+2.1. Tolerans Atama 
+Ürün boyutlarý için sýkýtolerans özellikleri, nihai ürün maliyetlerini arttýrýrken, geniþ toleranslar ise atýk parça maliyetlerinde bir artýþa veya montaj problemlerinin yaþanmasýna sebep olmaktadýr. Bu nedenle; toleranslarýn atanmasýnda en iyi kararlarýn verilmesi büyük önem arz etmektedir [3].  
+
+2.2. Tolerans Analizi  
+Tolerans analizi ve toleranslarýn üst üste gruplandýrýlmasý, tolerans belirleme ve atama iþleminin genelde parçadan parçaya esasýna dayanmasýndan dolayýönemlidir. Bu sebeple tolerans analizi, tüm tasarým sýnýrlamalarýný karþýlamayýdoðrulamak için “Toleranslarýn Kontrol Prensibi” olarak tanýmlanabilir [4]. Bir baþka deyiþle tolerans analizi; üretimde düþük maliyette yüksek kalite elde etmek amacýyla toleranslý ölçülerden hareket ederek tolerans verilmeyen kritik ölçülerdeki deðiþikliklerin belirlenmesi ve bu sayede ideal olan tolerans tespitinin yapýlmasýdýr [5]. 
+Tolerans analizinin amacý ürün boyutlarýnýn bir fonksiyonu olan herhangi bir büyüklük deðiþimini belirlemektir [6]. Genelde ölçüleri içeren bu büyüklükler, tasarým fonksiyonlarý olarak isimlendirilirler. Tolerans analiz iþlemleri, üretim esnasýnda unsur ölçü ve özelliklerini bir araya toplayarak deðerlendirme yapar ve deðerlendirme sonuçlarýný mevcut deðerlerle karþýlaþtýrýr [7]. 
+2.2.1. Tolerans analiz yöntemleri 
+Tolerans analizinde kullanýlan yöntemlerin bir kýsmýsonuçlara ulaþmak için, bir kýsmý da elde edilen sonuçlar üzerinde tahmini deðer üreterek en ideal sonucu elde etmek için kullanýlýr. Tolerans analizinde yaygýn olarak kullanýlan yöntemler; 
+• 
+Aritmetiksel en kötü durum, 
+
+• 
+Ýstatistiksel en kötü durum, 
+
+• 
+Doðrusallaþtýrma, 
+
+• 
+Sistem momentleri, 
+
+
+• 
+Karelere bölme, 
+
+• 
+Güvenilirlik indeksi, 
+
+• 
+Monte Carlo Simülasyon yöntemidir. 
+
+
+Yöntemler içerisinde yapýlan varyasyon deðerlendirmesi sonucunda elde edilen temel verilerin sonuçlarýnýn tespiti için iki temel þart gerekmektedir. Bunlar, analiz yapýlacak olan unsur montaj parçasýolmalý ve parçalar arasýnda vektörel bir baðbulunmalýdýr [8]. Analizde elde edilen hassasiyetler bilinen toleranslar ile birleþtirilerek istenilen tolerans deðerlerinin tespitinde bu yöntemler kullanýlmaktadýr. Bu yöntemler arasýnda yer alan “Aritmetiksel En Kötü Durum” ve “Ýstatistiksel En Kötü Durum” yöntemleri kendi baþýna kullanýldýðý gibi her bir yöntemin sonunda yardýmcý deðerlendirme aracý olarak da kullanýlabilir [9]. 
+
+
+
+
+
+Aritmetiksel en kötü durum yöntemi 
+Aritmetiksel en kötü durum yöntemi, ölçü sýnýrlarýnýtolerans analizine dahil ederek farklý bir yaklaþým sunar. Bu yaklaþýmda elde edilen hassasiyet deðerleri mutlak deðer içine alýnarak, bu hassasiyetin ait olduðu tolerans deðeri ile çarpýlýr ve ortalama tolerans deðeri hesaplanýr [10]. 
+
+Ýstatistiksel en kötü durum yöntemi 
+Bu metot, aritmetik metot gibi, analizleri deðerlendirmek için ölçü sýnýrlarýný kullanýr. Bununla beraber, aritmetik metodun aksine bir montajdaki parça ölçülerinin olasýlýk daðýlým eðrisiyle izlenme durumunu da dikkate alýr [11]. Son montaj ölçülerinin frekans daðýlým eðrisi, bir olasýlýk daðýlým eðrisiyle izlenir ve oluþturulan hassasiyet matrislerinin her bir satýrýna uygulanýr. Elde edilecek tolerans deðerlerine istatistiksel bir yaklaþým sunar. 
+
+Doðrusallaþtýrma yöntemi 
+Doðrusallaþtýrma metodu Taylor Serilerinde montaj fonksiyonlarýnýn tanýmlanmasý açýsýndan kullanýlmaktadýr. Tanýmlanan bu montaj fonksiyonu çerçevesinde varyasyon kötü durum yada istatistiksel model olarak tolerans birikimi için deðerlendirilir [12]. Kullaným açýsýndan istatistiksel ve en kötü durum metodunu içine alan bu metot, montaj parçalarýnda bulunan ve doðrusal olmayan uzunluklarýdoðru gibi kabul ederek analize yardýmcý olur [13]. 
+
+Sistem momentleri yöntemi 
+Sistem momentleri, montaj unsurlarýnýn istatistiksel daðýlýmlarýnýn moment þartlarýndaki durumlarýnýmontaj varyasyonunu içerisine dahil ederek analiz eden istatistiksel bir metottur. Bu yöntemde ilk dört momentin varyasyonu, doðrusal ve eðrisel daðýlýmda güvenilirlik yönünden anlamý ifade etmektedir [14]. Bu yöntemde ortak prosedür, montaj deðiþkeninin ilk 
+G. Samtaþ ve M. Gülesin 
+dört momentinin kararlaþtýrýlmasý ve bu eþleþtirilen daðýlýmlarýn sistem performansýnýn tanýmlanmasýnda kullanýlabilir olmasýdýr. Sistem momentleri sayesinde analiz esnasýnda kuvvetlerin de etkisi göz önüne alýnýr [15]. 
+
+Karelere Bölme Yöntemi 
+Kareleþtirmenin ana fikri, montaj fonksiyonunda olasýdeðiþim gösterecek momentlerin deðerlendirilmesi olarak tanýmlanýr. Bu metoda moment fonksiyonunun oluþumu nümeriksel bir kaynaþým ile gerçekleþmektedir [16]. Tasarýmlarda kullanýlan mühendislik limitleri, montaj daðýlýmýnýn sonuç deðerlerine uygulanýp sistemin istatistiksel performansýný tahmin etmede kullanýlýr. Limitlerin dahil edilmesiyle kullanýlan bu yöntem, oldukça karýþýk montajlarýn analizlerinde tercih edilir. 
+
+Güvenilirlik indeksi 
+Güvenilirlik indeksi ilk olarak yapýsal mühendislik uygulamalarýnda kullanýlmýþ, orijinal yapýsýgeliþtirilerek ikinci dereceden momentlerin dahil edilmesiyle güvenilirlik indeksi olarak tanýmlanmýþtýr. Bu karmaþýk metot bugünlerde mekanik tolerans analizine uygulanmaktadýr [17]. Güvenilirlik indeksi, montajda ölçüsel açýdan ret edilecek parçalarýn yüzde olarak oranýnýn tahminini yaparak her tip mühendislik limitlerin tolerans yaklaþýmlarýnda kullanýlabilmek­tedir. Çok kullanýlan bir yöntem olmamakla birlikte tahmini deðerlere dayanan bir yapýsý vardýr. 
+
+
+Monte Carlo Simülasyon Yöntemi 
+Bir tasarým fonksiyonunun davranýþýný kontrol eden ürün boyut ve deðiþkenleri “Tasarým Fonksiyon Deðiþkenleri” olarak adlandýrýlýr [18]. Kesin bir tasarým fonksiyonu gerektirmeden geometrik toleranslarý kullanarak tolerans analizi yapabilmek için uygun yöntemlerden birisi de “Monte Carlo Simülasyonu Yöntemi” olarak görülmektedir [19]. Monte Carlo Yöntemi, parça üretim zamanýný ve maliyeti arttýrmada uygun sonuçlar (yöntemin güve­nilirlik sýnýrlarý içerisinde) vermektedir. MCSY’nde ise tasarým deðiþkenleri lineer olsa da, olmasa da uygulanabilir. Yöntem, analiz edilecek montaj modelinin, uygun örneklenmesini üreterek çalýþýr. Her montaj örneði, her anma boyutu için varsayýlan istatistiksel daðýlýmlarý rasgele kullanarak üretilen bir dizi ölçüye karþýlýk gelen parça örneklerinden ibarettir [20]. Üretilen her montaj örneðinin, belirlenen tasarým sýnýrlamalarýný karþýlayýp karþýlamadýðý kontrol edilir. Böylece, her tasarým sýnýrlamasý için istatistiksel daðýlým oluþturulabilir. Bu sebeple, montajýn kabul veya ret olasýlýklarý tahmin edilebilir.  
+
+2.3. Tolerans Sentezi  
+Tolerans analizinde, ölçü toleranslarýbilinir ve nihai 
+G. Samtaþ ve M. Gülesin 
+bir ölçü üzerindeki tolerans belirlenir. Bir tasarým fonksiyonuyla ilgili olarak, fonksiyonun deðiþkenliði elde edilir. Tolerans sentezi bunun tersi bir problemdir. Bir ölçü üzerindeki tasarým fonksiyonunun müsaade edilebilir toleranslarý veya müsaade edilebilir deðiþimler bilinir ve ölçü toleranslarý belirlenir. Tolerans analizi kavramýnda olduðu gibi, tolerans sentezi için de matematiksel programlamaya dayalý bazý yöntemler kullanýlmak­tadýr. “Taguchi” adý verilen yöntem tecrübeye dayalýtasarým prensiplerini ele alýr. 
+
+2.3.1. Taguchi yöntemi 
+Taguchi yönteminin genel fikri, küçük faktoriyel ya da ortogonal düzenlemeleri deneysel yönden hesaplanan unsurlarýn varyasyonlarýný montaj varyasyonlarýna uyarlayýp tahmini olarak hesaplamalar yapar. Bu yöntem açýk ya da kapalýfonksiyonlarýn hepsine uygulanabilmektedir. Taguchi’nin ürün ya da süreç optimizasyonu içinde; sistem tasarýmý, parametre tasarýmý ve ayný zamanda tolerans tasarýmý vardýr. Sistem tasarýmý yenilik, bilimsel bilgi, mühendislik bilgisi, malzeme ve parçalarýn seçimi ile bazý süreç parametrelerinin geçici olarak belirlenmesini gerektirir. Geçici deðerler parametre tasarýmý sýrasýnda, belirlenen dönem içinde test edilirler ve en iyi düzeyler saptanýr [21]. Böylece çevresel þartlara karþý en duyarsýz ürün parametre deðerleri belirlenmiþ olur ve maliyette herhangi bir artýþ olmaksýzýn kalitede ilerleme saðlanýr. Taguchi Yöntemi, Taylor Serileri Yöntemi ve Kareselleþtirme Yöntemi istatistiksel yöntemler olup, birbirleriyle beraber kullanýlmaktadýr [22].  
+
+3. MAK-TOL TOLERANS ANALÝZ SÝSTEMÝ
+Tolerans analizinin hedefi; en az maliyetli üretimlere müsaade etmek, atýlan parça sayýsýný azaltmak ve üretimde yer alan parçalarýn imalat maliyetlerini en aza indirmek için ideal olan geometriden mümkün olduðu kadar çok az sapmaya izin vermektir. 
+Tolerans Analiz Yöntemleri ve Mak-Tol Tolerans Analiz Sistemi 
+Bu aþamada imalatta kullanýlan yöntemlerde tolerans verme iþlemleri sistematik olmadýðý için tecrübelerle tespit edilmekte ve defalarca deðiþiklik yapmak suretiyle sonuca gidilmeye çalýþýlmaktadýr. 
+Analiz sistemi, tolerans analizinde kullanýlan Küresel koordinat yönteminden faydalanýlarak yeni bir teknik geliþtirilerek hazýrlanmýþtýr. Küresel koordinat yönteminde, bir montaj grubunda kritik olarak görülen boyutlar vektör halkalarý ile birleþtirilerek alýnan deðerler matris dizelerine yerleþtirilir ve bir dizi hesaplamayla sonuca ulaþýlýr. Geliþtirilen MAK­TOL tolerans analiz sisteminde ise bu deðerler iki boyutlu olarak hazýrlanmýþ ve AutoCAD ortamýnda çizilmiþ montaj resminin koordinatlardýr. Bu koordinatlarý alan MAK-TOL tolerans analiz programý küresel koordinat yöntemine benzer hesaplamalarla sonuca ulaþýr. Alýnan koordinat deðerleri kullanýcý tarafýndan riskli görülen ölçülerden oluþmaktadýr. Kullanýcý bu ölçüleri gerektiði gibi renklendirerek “DXF” formatýnda kayýt eder. Kayýt edilen analiz dosyasý geliþtirilen bu programda açýlarak analize tabi tutulur. Analiz iþlemleri çok kýsa bir sürede gerçekleþmektedir. Bu diðer analiz yöntemlerine göre büyük bir avantajdýr. 
+MAK- TOL tolerans analiz sisteminde sorunsuz üretim yapýlabilmesi ve limitler dýþýnda tolerans yýðýlmasýnýn en aza indirilebilmesi için tasarýmdan üretime kadar her aþamada oluþabilecek olumsuz þartlar göz önünde tutulmuþtur. Bu olumsuz þartlar: 
+•	
+Tasarýmdan kaynaklanan ölçü farklýlýklarý, 
+
+•	
+Parçanýn modelinden çýkarýlan ilk ölçülerdeki yanlýþlýklar, 
+
+•	
+Tasarýmdaki ölçü farklýlýklarý, 
+
+•	
+Toleransýz kritik ölçülerde oluþabilecek deðiþmeler. 
+
+
+Kurulan tolerans analiz sisteminin iþlem basamaklarýÞekil 1’de gösterilmiþtir. 
+
+
+Þekil 1. Geliþtirilen tolerans analiz sisteminin iþlem basamaklarý
+Þekil 1’de görüldüðü gibi tasarýmcý üretimi yapýlacak olan montaj parçasýnýn tasarýmýný CAD ortamýnda hazýrlayarak gerekli ölçülendirme ve toleranslarýn verilmesini geçekleþtirir. Tasarýmý gerçekleþtirilen montaj parçasý MAK-TOL tolerans analiz programýtarafýndan alýnarak çizim verileri okunur. Bilinen tolerans deðerlerin yorumlanmasý yapýlarak riskli ölçüler belirlenir ve üretim için uygun tolerans deðerleri hesaplanarak sonuçlar alýnýr. Ýmalat sýrasýnda karþýlaþýlan ölçü kayýplarý seri üretimde istenmeyen bir durumdur. Özellikle toleranslý ölçülere sahip parçalar dýþ etkenlerle, tezgah hatalarýyla ya da operatörün dikkatsizliðiyle istenilen ölçülerde iþlenemeyebilir. 
+Bu durum ise, seri üretime giren parçalarda hurda parça sayýsýný arttýrmakta buna paralel olarak da maliyeti yükseltmektedir. Geliþtirilen tolerans analiz yöntemi kullanarak tolerans analizi ile bu tip sorunlar önceden tahmin edilip engellenebilmesi amaçlanmýþtýr. 
+Þekil 2’de örnek bir montaj resmi gösterilmiþtir. Delme kalýbýolarak tasarlanan bu montaj parçasýnýn tolerans analizini gerçekleþtirmek için tasarýmcýbilinen ölçü ve toleranslar ile bilinmeyen ölçüleri seçerek montajý analize hazýrlar ve montaj programda analiz edilir. 
+Kullaným açýsýndan sadeleþtirilmiþ bir menü tasarýmýbulunan programda, kullanýcýdan herhangi bir veri girilmesi istenmez. Ýþlemler komut butonlarýyla 
+G. Samtaþ ve M. Gülesin 
+kolaylýkla yapýlmaktadýr. Programýn baþlangýç ekranýnda okunan deðerlerin gösterildiði bir giriþmenüsü bulunmaktadýr (Þekil 3). 
+Þekil 3’de analizi yapýlan bir montaj resminden alýnan analiz deðerleri görülmektedir. bilinen ölçülerle ifade edilen bölümde toleranslý ölçülerin ölçü ve koordinat deðerleri yer almaktadýr. Bilinmeyen ölçüler bölümünde ise toleransý hesaplanacak kritik ölçülerin ölçü ve koordinat deðerleri yer almaktadýr. Toleranslarýn hesaplandýðý tolerans analiz ekranýnda tolerans deðerleri farklý kombinasyonlarda hesaplanabilmektedir. Farklý modüllerin yerleþtirildiði programda, tolerans deðerlerindeki deðiþmeler hesaplanarak ekrana yazdýrýlmaktadýr (Þekil 4). 
+Programda, bilinen toleranslar tümü üst limitte olursa, tümü alt limitte olursa, yarý yarýya olursa (%50, %50) ve serbest seçenekler yardýmý ile bilinmeyen toleranslarýn nasýl etkilendiði gözlemlenebilmektedir. Þekil 5’de üst limit modülüne göre hesaplanan tolerans deðerleri ve bu deðerlerin ait olduðu ölçüler görülmektedir. Farklý modüller ile desteklenen bu bölümde analiz bilinen tolerans deðerleri üzerinden farklý kombinasyonlarla hesaplama yapmaya olanak vermektedir. Her bir modül için hesaplanan tolerans deðerleri sonuçlar menüsünde nominal ölçülere eklenerek analize giren kritik ölçülerle beraber gösterilebilmektedir (Þekil 4 - 5). Ýstenildiði taktirde ölçülere uyarlanmýþ tolerans deðerleri grafiksel olarak da programýn grafik bölümünde gösterilebilmektedir. 
+
+
+Þekil 2. Delme kalýbý montajýnda belirlenen bilinen ve bilinmeyen ölçüler A bilinen ölçüler ve toleranslar, B bilinmeyen ölçüler (toleransý hesaplanacak ölçüler)
+G. Samtaþ ve M. Gülesin Tolerans Analiz Yöntemleri ve Mak-Tol Tolerans Analiz Sistemi 
+
+Þekil 3. MAK-TOL tolerans analiz programý baþlangýç menüsü 
+
+Þekil 4. Tolerans hesaplama menüsü Þekil 5. Sonuçlar menüsü 
+
+Ýki boyutlu montaj parçalarýnýn analizinin yapýlmasýiçin tasarlanmýþ olan program, 25-30 parçalýmontajlarda da rahatlýkla kullanýlabilmektedir. MAK­TOL tolerans analiz sisteminde en önemli nokta analizi yapýlacak olan montaj parçasýndaki ölçülerin tam ve anlaþýlýr biçimde belirlenmesi gerekmektedir. Tasarým aþamasýnda montajýn analize hazýrlanmasýiçin iki önemli hususa dikkat edilmelidir. Toleranslýölçüler bilinen ölçü olarak kabul edilir, kritik olarak düþünülen ve tolerans deðerleri ya da diðer bir deyiþle sapma miktarlarý hesaplanacak ölçüler ise bilinmeyen ölçü olarak ifade edilir. Montaj grubunda bir bütün olarak düþünüldüðünde üretim esnasýnda toleranslýbilinen ölçülerdeki olasý ölçü farklýlýklarý ile ortaya çýkabilecek kritik ölçülerdeki deðiþmeler ve bu ölçülere ait olan toleranslarýn hesaplamasý bu þekilde yapýlmaktadýr. Bu sistemdeki amaç, montajýn üretimine geçilmeden önce karþýlaþýlabilecek ölçü farklýlýklarýný ve sapmalarýn önceden hesaplanarak bir simülasyon modülünün oluþturulmasýdýr. Böylece önceden hesaplanacak olan tolerans deðerleri ve sapmalar sayesinde üretim esnasýndaki ölçü yanlýþlýklarýnýn ve buna paralel olarak hurdaya atýlacak parça sayýsý en aza indirgenecektir. 
+
+
+4. SONUÇ 
+Tolerans analizinde kullanýlan genel yöntemler bir dizi hesaplamalar gerektirmektedir. Aritmetiksel en kötü durum ve istatistiksel en kötü durum yöntemi hemen hemen bütün yöntemlerde net sonuçlara ulaþmak için kullanýlýr. Bu iki yöntemde, hesaplanan deðerler bilinen tolerans deðerleriyle iþleme konularak sonuçlar hesaplanýr. Analiz yapýlacak montaj parçasýnda iki boyutlu ya da üç boyutlu olarak döngü halkalarý ile oluþturulan analiz modelleri ile elde edilen deðerler ile bu yöntemler kullanýlabilmektedir. Doðrusallaþtýrma metodunda montaj modelleri üzerinde uygulanan bir dizi vektör halkalarýn izdüþümlerini X, Y ve Z koordinat düzlemleri üzerinde düþünülerek elde edilen izdüþüm ve açý deðerleri bu yöntem içerisine uygulanarak sonuçlara ulaþýlýr. Bu yöntemde montaj parçasýnýn hareketli kritik görülen belli bir bölümünde ya da montajýn kullanýlacaðý yere göre parçalarýn iþleyiþsýrasýna göre yerleþtirilen vektör halkalarýn deðerleri iþleme konulmaktadýr. Sistem momentleri yönteminde montaj parçasýnda oluþabilecek kritik bölgedeki kuvvetlerin moment deðerleri ile hesaplama yapýlmaktadýr. Kareselleþtirme yönteminde montaj 
+G. Samtaþ ve M. Gülesin 
+sistemine etki eden momentlerin hesaplanmasýyla ortak bir yoðunluk fonksiyonu çýkartýlýr. Bu çýkartýlan fonksiyon ile hesaplamalar yapýlmaktadýr. Çýkan sonuçlarýn istatistiksel olarak incelenmesi iþlemlerde karýþýk bir dizi hesaplamalarý da beraberinde getirmektedir. Bu yöntem genellikle karýþýk montaj sistemlerinde kullanýlmaktadýr. 
+Bahsedilen bu ilk beþ yöntem ile analiz edilecek montaj parçalarýnda mutlaka vektör halkalarýyla bir döngü oluþturulmasý zorunludur. Bu yöntemlerin tek eksik yönleri bütün montaj parçalarýnda uygulanama­malarýdýr. Yapýlan hesaplamalarda istatistiksel bir yaklaþým sunulmasý, hesaplamalarýn fazla olmasý ve belirli montaj modellerinde uygulanabilir olmalarýyönünden kullanýlabilir alanlarýný da kýsýtlamaktadýr. 
+Güvenilirlik indeksi, Taguchi yöntemi ve Monte Carlo simülasyon yöntemleri tolerans analizinde elde edilen verilerden en ideal sonuçlara ulaþýlmak için kullanýlmaktadýr. Taguchi yönteminde baþlangýç verileri ile oluþturulan montaj fonksiyonlarýndan elde edilen deðerlerin tahmini olarak oluþturulan bir varyasyonda uygulanmasý ile elde edilen verilerin deðerlendirilmesinde kullanýlýr. Bir nevi Monte Carlo’ya benzeyen bu yöntemin tek farký toleranslarýsentezlemesidir. Monte Carlo yönteminde ise elde edilen deðerler ya da baþlangýç verileri destekleyici programlar vasýtasýyla tahmini deðerlerin yorumlanmasýndan ibarettir. Monte Carlo da analiz modeli farklý verilerde adetli olarak düþünülerek yaklaþýk 10.000 adede kadar farklý kombinasyon oluþturularak sonuçlar elde ederek tolerans sentezi deðil analizini yapar. Elde edilen sonuçlarýn kabul edilebilir olmasý için çýkan sonuçlarýn tekrar etme durumunun sýk olmasý gerekmektedir. Sonuçta elde edilen deðerler ihtiyacý karþýlýyorsa montaj modeli kabul edilebilir demektir.  
+Tolerans analizinde kullanýlan yöntemlerde sonuca ulaþmak için uzun bir hesaplama gerektirmesi ve bu hesaplamalarýnda istatistiksel bir yaklaþýmla sunulmasý yönünden tasarýmcýnýn anlayabileceði bir ortam sunmamaktadýr. Yöntemlerin belirli ve aynýmontaj parçalarýnda kullanýlmasý analiz edilebilecek montaj parçalarýný da kýsýtlamaktadýr. 
+Geliþtirilen MAK-TOL sisteminde ise, imalat sürecinin ilk adýmý olan tolerans verme sürecinde üretim aþamasýndan önce tolerans karþýlaþtýrma iþlemleri yapýlarak, toleranssýz ölçülerdeki sapma miktarlarýhesaplanabilmektedir. Ancak bu süreç içerisinde kullanýcý etkisi göz ardý edilmeyecek kadar büyüktür. Verilerin doðru olarak tanýmlanmasý, doðru sonuçlarýn elde edilmesi açýsýndan önemlidir. Sonuçlarýn elde edilmesinden sonra sonuçlarýn karþýlaþtýrýlmasý tasarýmcýnýn kontrolü ile saðlanacaktýr. Yine programýn sonuç olarak verdiði deðerlerin uygulanabilirliðinin onaylanmasý açýsýndan son kararý tasarýmcý verecektir. Tasarýmcý, uygun 
+Tolerans Analiz Yöntemleri ve Mak-Tol Tolerans Analiz Sistemi 
+bulmadýðý deðerleri deðiþtirerek ideal deðerlere ulaþa­cak ve mümkün olduðu kadar esnek ve geri dönüþlere izin verecek bir üretim süreci oluþturacaktýr. 
+KAYNAKLAR 
+
+1.	
+Chiabert, P., Lombardi, F. and Orlando, M., “Benefits of Geometric Dimensioning And Tolerancing”, Journal of Materials Processing Technology, 78, 29-35 (1998). 
+
+2.	
+Parker, M.A. and Dennis, L.J., Mechanical Engineering Design, 1th ed., Hutchinson, London, 102-115 (1988). 
+
+3.	
+Þeker, U.,Yýldýz, A. ve Göloðlu, C., “Tolerans Teknikleri ve Tolerans Analizi: Yapýlan Çalýþmalarýn Deðerlendirilmesi”, Politeknik Dergisi, 4 (4): 81-94, (2001). 
+
+4.	
+Chase, K. W. and Parkinson A. R.. “A Survey of Research in the Application of Tolerance Analysis to the Design of Mechanical Assemblies”, Research in Engineering Design, 3: 23-37 (1991). 
+
+5.	
+Gerth, R. J. and Ziaul I., “Towards A Designed Experiments Approach to Tolerance Design”, 
+
+
+Proceeding of the 5th CIRP Seminar on Computer-Aided Tolerancing, Toronto, Canada, 243–251. (1997). 
+
+6.	
+Larsen, G. C., A Generalized Approach To Kinematic Modeling For Tolerance Analysis Of Mechanical Assemblies, M.Sc., Thesis, Brigham Young University Department of Mechanical Engineering, August (1991). 
+
+7.	
+Bihlmaier, B. F., Tolerance Analysis Of Flexible Assemblies Using Finite Element And Spectral Analysis, M.Sc. Thesis, Brigham Young University Department of Mechanical Engineering, 37-68 (1999). 
+
+8.	
+Merkly, K. “An Introduction to Tolerance Analysis of Flexible Assemblies”, MSC World Users’ Conference, Newport Beach, California. (1996). 
+
+9.	
+Shan, A., Roth, R.N. and Wilson, R.J., “A New Approach to Statical Geometrical Tolerance Analysis”, International Journal of Advanced Manufacturing Technology, (15)3: 222 – 230, (1999). 
+
+10.	
+Robison, R. H., A Practical Method For Three-Dimensional Tolerance Analysis Using A Solid Modeler, M.Sc. Thesis, Mechanical Engineering Department, Brigham Young University, 35-60 (1989). 
+
+11.	
+Gao, J., Chase, K. W. and Magleby, S. P., “Generalized 3-D Tolerance Analysis Of Mechanical Assemblies With Small Kinematic Adjustments,” IIE Trans, v 30, 367-377 (1998). 
+
+12.	
+Chase, K. W. and Greenwood, W. H., Design Issues in Mechanical Tolerance Analysis, 1st ed, ASME, 50 - 59 (1998). 
+
+13.	
+Marler, J. D., Nonlinear Tolerance Analysis Using The Direct Linearization Method, M.Sc. 
+
+
+
+Thesis, Mechanical Engineering Department, Brigham Young University, 20-25 (1988). 
+
+14.	
+Cox, N. D., “How To Perform Statistical Tolerance Analysis,” American Society for Statistical Quality Control, Volume 11: 22-26 (1986). 
+
+15.	
+Evans, D. H., “Statistical Tolerancing: State of the Art, Part 3. Shift and Drifts,” Journal of Quality Technology, v 7, n 2, p 71-76 (1975). 
+
+16.	
+Gilbert, O. L., Representation Of Geometric Variations Using Matrix Transforms For Statistical Tolerance Analysis Ýn Assemblies, M.Sc. Thesis, Massachusetts Institute of Technology, Department of Mechanical Engineering, Cambridge, June, (1992). 
+
+17.	
+DeDoncker, D. and Spencer, A., “Assembly Tolerance Analysis with Simulation And Optimization Techniques,” SAE Technical Paper Series, 12-14 (1999). 
+
+
+G. Samtaþ ve M. Gülesin 
+
+18.	
+Gültekin, A., Börklü, H. R., “Tolerans Analiz Yaklaþýmlarý – I: Genel Metodlar, Tolerans Diyagramý ve Graf Teori,” Politeknik Dergisi, 4 (4): 11-24, (2001). 
+
+
+19.	
+Gültekin, A., Börklü, H. R., “Tolerans Analiz Yaklaþýmlarý– II: Monte Carlo Similasyonu Metodu, Diðer Yöntemler ve Endüstriyel Uygulamalar”, Politeknik Dergisi, 4 (4): 33-45, (2001). 
+
+20.	
+Sitko, A. G., “Applying Variation Simulation Analysis To 2-D Problems,” SAE Technical Paper Series, No. 910210, (1991). 
+
+21.	
+Taguchi, G. “Taguchi Methods, Design of Experiments” Dearborn, Michigan: ASI Press, 32-60 (1993). 
+
+22.	
+Taguchi, G. “Introduction To Quality Engineering, Designing Quality Ýnto Products And Processes”, New York Kraus International Publications, (1986). 
+
+
+
+
+
+
+
+

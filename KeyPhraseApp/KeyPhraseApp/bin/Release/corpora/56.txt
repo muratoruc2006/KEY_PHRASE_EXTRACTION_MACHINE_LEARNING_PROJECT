@@ -1,0 +1,167 @@
+BÝLGÝSAYAR DESTEKLÝ ARDIÞIK DELME-KESME KALIBI TASARIMI 
+Bu çalýþmada, ardýþýk delme-kesme kalýplarý için bir Bilgisayar Destekli Tasarým Sistemi geliþtirilmiþtir. Geliþtirilen sistemde, AutoCAD 2002 paket programýnýn yanýnda Visual LISP ve Visual BASIC programlama dilleri kullanýlmýþtýr. CAD ortamýnda katý model olarak tasarlanmýþ bir sac-metal ürünün þerit yerleþim planý, kalýbýn katýmodel olarak tasarýmý ve tasarlanan kalýpla ilgili hesaplamalar otomatik olarak oluþturulmuþtur. Bu çalýþma ile tek istasyonlu ve ardýþýk delme-kesme kalýplarýnýn tasarýmýnda hýz, esneklik ve hassasiyet elde edilmiþtir. 
+
+1. GÝRÝÞindirebilmek amacýyla farklý yöntemler kullanýlarak 
+bazý çalýþmalar yapýlmýþtýr. Choi ve arkadaþlarý, düzenli Kalýp elemanlarýnýn hesabý, tasarýmý ve imalatýve düzensiz þekilli ürünlerde delme, kesme ve bükme kalýpçýlýk teknolojisinin en önemli alanlarýndan birini iþlemlerini belirleyebilmek amacýyla çalýþmalar oluþturmaktadýr. Özellikle seri üretime olan yatkýnlýðýyapmýþlardýr. Yapýlan çalýþmalarda, sac-metal ürünlerin sayesinde sac metal kalýpçýlýðý, imalat endüstrisinde þerit yerleþimleri oluþturulmuþ ve kalýp tasarýmý için çok büyük önem kazanmýþtýr. Parçalarýn düþük iþlem planlamasý gerçekleþtirilmiþtir [1-3]. Singh ve maliyetle üretimi, iþçiliðin en aza indirilmesi ve Sekhon, dairesel ve dairesel olmayan parçalarýn minimum malzeme sarfiyatýyla maksimum üretim üretilmesinde maliyetleri düþürebilmek amacýyla kapasitesi imalatta tercih edilen þartlardýr. ekonomik þerit yerleþim planýný oluþturmak için Dolayýsýyla, sac metal kalýplarýnýn tasarým aþamasýçalýþmalar yapmýþlardýr [4-5]. Choi ve Kim sac metal son derece önemlidir. Klasik yöntemlerle yapýlan ürünler üzerine düzenli ve dönel þekilde boþluklar kalýp hesaplarýnýn zaman alýcý, zahmetli ve açýlmasýna yönelik bir çalýþma yapmýþlardýr. Yapýlan tasarýmcýlarýn hata yapma olasýlýðý sebebiyle çalýþmada, üretilecek olan parçalar için kalýp bilgisayar programlarýna yüklenmesi vazgeçilmez bir elemanlarýnýn imalatý otomatik olarak yaptýrýlmýþtýr [6]. zorunluluk olmuþtur. Son yýllarda bilgisayar destekli Lee ve arkadaþlarý, çok adýmlý delme iþlemlerinde þerit sistemler, imalatýn, özellikle tasarým aþamasýnda yerleþim planýnýn optimizasyonunu yapabilmek büyük zorluklarý azaltmak amacýyla kullanýlmaktadýr. amacýyla bir sistem geliþtirmiþlerdir [7]. Nye, düzensiz 
+þekilli sac metal ürünler için þerit yerleþim planýnýKalýplarýn tasarýmý aþamasýnda harcanan zaman yapmak ve þerit malzeme kullanýmýný maksimum kaybýnýönlemek ve tasarýmcý hatalarýný en aza seviyeye çýkarabilmek için bir çalýþma 
+H. Gürün ve M. Nalbant 
+gerçekleþtirmiþtir [8]. Cheok ve Nee, kalýplarýn planlama ve tasarým aþamalarýnda karþýlaþýlan problemleri çözmek amacýyla, yapay zeka yöntemlerini kullanarak bir çalýþma yapmýþlardýr [9]. Tang, kalýplarýn tasarým ve imalat aþamalarýnýn belirlenmesi, tasarýmýn ve imalatýn bölümlere daðýtýlmasý, bölümlerarasý iþbirliðinin saðlanabilmesi ve kalýp imalatçýlarýnýn iþlerinin kolaylaþtýrýlmasýamacýyla bir iletiþim sistemi geliþtirmiþtir [10]. Park, elektron silahý parçalarýnýn kalýplarýnýn bilgisayar destekli tasarýmýný gerçekleþtirebilmek için bir uzman sistem geliþtirmiþtir [11]. 
+Bu çalýþmada, þerit yerleþim planýnýn oluþturulmasý ve ardýþýk delme-kesme kalýplarýnýn tasarýmýna yönelik daha önceki çalýþmalar da dikkate alýnarak ekonomik ve hýzlý bir tasarým sistemi sunulmuþtur. Yapýlan çalýþmada, daha önce yapýlan çalýþmalardan özellikle þerit yerleþim planýnýn oluþturulmasý ve kalýp tasarým aþamalarýnýn belirlenmesi konularýnda yararlanýlmýþtýr. Yapýlan çalýþmada, hazýrlanan bilgisayar programý ile ardýþýk delme-kesme kalýplarýnýn þerit yerleþim planý, katýmodel olarak kalýp setinin tasarýmý ve hesaplamalar parça geometrisinin karmaþýklýðýna baðlý olarak 30 saniye ile 1 dakika arasýnda tamamlanmaktadýr. 
+
+2. SAC METAL KALIPÇILIÐI 
+Kesme iþlemlerinin bütününe yakýný geleneksel zýmba-diþi kalýp sistemi ile yapýlmaktadýr. Üretilecek parça için özel olarak tasarlanan bu sistemin bütününe kalýp denilmektedir. Kesme, bir makas veya kesici takým ile, talaþ kaldýrmadan malzemenin bir hat boyunca (açýk veya kapalý kesme çizgisi) ayrýlmasýolarak tanýmlanýr. Delme ve kesme iþlemleri kalýp içerisindeki çeþitli istasyonlarda, þerit malzemenin ilerlemesiyle oluþturulur ve kalýbýn bir ucundan giren sac metal plaka, kalýbýn diðer ucundan bitmiþ parça olarak çýkar. Bir kesme kalýbýnda bulunan temel elemanlar Þekil 1 ‘de gösterilmiþtir. 
+
+
+Üst Tabla 
+Zýmba Baský PlakasýZýmba Plakasý
+Sýyýrýcý Plaka 
+Diþi Kalýp 
+Alt Tabla 
+Þekil 1. Bir kesme kalýbýnýn temel elemanlarý
+
+
+3. KALIP TASARIMI PROGRAMI 
+Hazýrlanan program, tasarýmcýdan alýnan bilgiler, programda yaptýrýlan hesaplamalar ve okutulan tablo deðerlerine göre, önce þerit yerleþim planýný
+Bilgisayar Destekli Ardýþýk Delme-Kesme Kalýbý Tasarýmý
+oluþturmakta daha sonra ise katý modelleme tekniði ile diþi plaka, sýyýrýcý (kýlavuz) plaka, zýmbalar, zýmba tutucu plaka, destek plakasý, sap plakasý ve kalýp sapýtasarýmýný gerçekleþtirmektedir. Hazýrlanan programýn çalýþtýrýlmasý sýrasýnda, önce þerit yerleþim planýnýyaptýrmak bir zorunluluktur. Bunun nedeni ise, hazýrlanan programýn kalýbýn katý model olarak tasarýmýnýþerit yerleþimine göre yapmasýdýr. 
+Kalýp tasarýmý programýnýn hazýrlýk aþamasýnda ve programýn oluþturulmasý sýrasýnda kullanýlan bilgiler, fomülasyonlar ve tablo deðerleri sac metal kalýpçýlýðýyla ilgili kitaplardan faydalanýlarak hazýrlanmýþ ve program içerisinde kullanýlmýþtýr [12­13]. Hazýrlanan programda AutoCAD 2002 paket programýnda, Visual LISP programlama dili kullanýlarak tasarýmcý tarafýndan katý modelleme tekniði ile çizilen parçanýn bilgileri okutulmuþ, parçanýn kalýnlýðý, alaný, hacmi, koordinatlarý ve diðer özellikleri buradan program içerisindeki deðiþkenlere aktarýlmýþtýr. Yardýmcý diyalog kutularý ve formlar AutoCAD altýnda çalýþan VBA (VisualBASIC for Application) programlama dilinde hazýrlanmýþtýr. Hazýrlanan diyalog kutularý ve formlar yardýmýyla tasarýmcýya programýn kullanýlmasý sýrasýnda kolaylýk saðlanmakla birlikte, tasarýmcýnýn verdiði bilgilerinde Visual LISP’teki programa aktarýlmasýgerçekleþtirilmiþtir. Hazýrlanan programýn çalýþmasýsýrasýnda gerekli olan tablo deðerleri ise text modunda “DAT” uzantýlý olarak yazýlmýþ ve kaydedilmiþtir. Visual LISP’te yapýlan programda gerekli tablo deðerleri bu dosyalardan okutularak, elde edilen deðerlere göre hesaplamalar, yine Visual LISP’te yaptýrýlmýþtýr. Kalýp tasarýmý programýnýn akýþþemasýÞekil 2’de gösterilmiþtir. 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 2, 2005 
+Bilgisayar Destekli Ardýþýk Delme-Kesme Kalýbý Tasarýmý
+AutoCAD içerisinde hazýrlanan programa KALTAS adý verilmiþtir. Hazýrlanan program, þerit yerleþim planý, kalýp tasarýmý ve hesaplamalar olmak üzere üç kýsýmdan oluþmaktadýr. Programýn çalýþtýrýlabilmesi için, kalýbý hazýrlanacak olan sac metal ürünün herhangi bir Bilgisayar Destekli Tasarým / Bilgisayar Destekli Ýmalat (BDT/BDÝ) paket programýnda katýmodelleme tekniði ile çizilip kaydedilmesi yeterli olmaktadýr. Program çalýþtýrýldýðýnda kullanýcýdan kalýbýtasarlanacak olan ürünün katý model olarak tasarýmýný girmesini istemektedir. Ürünün katý model olarak tasarýmý kullanýcý tarafýndan seçildikten sonra, ürün program tarafýndan parçalara ayrýlarak üzerindeki unsurlar (parça geometrisi ve delikler) belirlenmektedir. Belirlenen unsurlara göre, parça bilgileri AutoCAD komutlarý kullanýlarak çýkartýp, program içerisinde oluþturulan bir veri dosyasýna yazdýrýlmaktadýr. Program içerisinde önceden oluþturulmuþ olan veri tabanýndan tasarýmcýnýn malzeme seçmesi saðlanmaktadýr. Seçilen malzemeye göre kesme payý miktarlarý, kalýp boþluðu deðerleri ve kalýp tasarýmý için gerekli diðer hesaplamalar program içerisinde hesaplatýlarak þerit yerleþim planýoluþturulmaktadýr. Kalýbýn katýmodel olarak tasarýmýda, oluþturulan þerit yerleþim planý temel alýnarak, tasarýmcýnýn seçtiði baðlantý elemanlarýna göre (cývata ve pimler) yapýlmaktadýr. 
+3.1. Programýn Yapýsý
+Kalýp tasarýmý için hazýrlanan bilgisayar programý, tablo deðerlerinin yazdýrýldýðý beþ adet “DAT” uzantýlý, çizimlerin ve hesaplamalarýn yaptýrýldýðý üç adet “LSP” uzantýlý, diyalog kutularýnýn oluþturulduðu üç adet “DVB” uzantýlý ve çizim ekranýna yeni menü eklenmesi amacýyla  bir adet ”MNU” uzantýlý olarak hazýrlanan programlarýn ve veri dosyalarýnýn AutoCAD ortamýnda birbirleriyle etkileþimli bir þekilde çalýþmasý ile elde edilmiþtir. 
+
+3.2. Parça Geometrisinin Girilmesi 
+Kalýp tasarýmýnýn yapýlabilmesi için parçanýn doðru ve hatasýz biçimde çizilmiþ olmasý büyük önem taþýmaktadýr. Yapýlacak kalýplama þekli ve konumu dikkate alýnarak parça katý modelleme tekniði kullanýlarak çizilmelidir. Kullanýcý kesme ve delme kalýplarýnda yapýlabilecek her türlü þekli girebilir. 
+Program, parçanýn þekli, kalýnlýðý, hacmi v.b. verileri çizim ortamýnda parça üzerinden çýkarmaktadýr. Bu sýrada, çizim ekranýnda bulunan bütün nesneler seçilerek iþleme dahil edilir. Bunun için kalýplanacak parça çizildikten sonra programý çalýþtýrmadan önce ekranda parça haricinde baþka hiçbir çizimin olmamasý ve yapýlan çizimin kaydedilmiþ olmasýgerekmektedir. Program çalýþtýrýldýðýnda bir uyarýmesajý vererek bu konuda tasarýmcýyý ikaz eder. Yapýlan çizimin kaydedilmesi daha sonradan tasarým üzerinde yapýlacak deðiþiklikler için kolaylýk saðlayacaktýr. 
+H. Gürün ve M. Nalbant 
+
+3.3. Þerit Malzeme Yerleþim Planý
+Þerit malzeme yerleþim planýnýn tasarlanmasý esnasýnda program tarafýndan kullanýcýya pim dayamalýþerit yerleþimi, tek yan çakýlýþerit yerleþimi, çift yan çakýlýþerit yerleþimi, çift sýralýþerit yerleþimi ve tersyüz þerit yerleþimi olmak üzere beþ farklý seçenek sunulmuþtur. Þerit tasarýmýnda program, parçayý kullanýcýnýn girmiþolduðu haliyle alýr ve kesme paylarýný da hesaba katarak parça geometrisini yan yana yerleþtirmek suretiyle þerit yerleþim planýný oluþturur. Kesme payýmiktarý, önceden hazýrlanmýþ olan veri dosyasýndan okutularak program içerisinde kullanýlmaktadýr. Þerit yerleþiminin oluþturulmasý sýrasýnda program, parçalarýsoldan saða doðru sýralamaktadýr. 
+
+3.4. Ýstasyonlarýn Seçimi 
+Kalýplanacak parça üzerindeki deðiþik iþlemler için deðiþik istasyonlara ihtiyaç vardýr. Özellikle parça üzerindeki birbirine çok yakýn olan delme iþlemlerinin farklý istasyonlarda yapýlmasý gerekmektedir. Programda, parçanýn kaç istasyonda üretileceði kullanýcýnýn seçimine býrakýlmýþtýr. Tasarýmcýnýn belirlediði istasyon sayýsýna baðlý olarak hangi istasyonlarda hangi iþlemlerin yapýlacaðý da yine tasarýmcýya sorulmakta ve operasyonlarýn sýrasýbelirlenmektedir. Tasarýmcýnýn herhangi bir seçim yapmamasý durumunda program parça üzerindeki unsurlarý eþit aralýklarla istasyonlara daðýtmaktadýr. Hazýrlanan programda, istasyon sayýsý en fazla beþolarak sýnýrlandýrýlmýþtýr. Ýstasyon sayýsýnýn beþ olarak sýnýrlandýrýlmasýnýn nedeni, delme kesme iþlemlerinde genellikle beþ istasyonun yeterli olmasý ve istasyon sayýsý arttýkça tasarýmcýnýn da hata yapma olasýlýðýnýn artmasýdýr. Seçilen bu istasyonlar diþi plakanýn, sýyýrýcý plakanýn, zýmba tutucu plakanýn tasarlanmasýnda ve kalýp sapýnýn tasarýmýnda ve yerleþtirilmesinde temel teþkil etmektedir. 
+
+3.5. Kesme Boþluðunun Belirlenmesi 
+Kesme payý miktarlarý ve kesme boþluðunun doðru seçilmesi kalýpta ekonomiklik açýsýndan önem arz etmektedir. Tek taraflý kesme boþluðu deðerleri seçilen malzemeye ve sac kalýnlýðýna baðlý olarak, daha önceden text modunda hazýrlanarak kaydedilmiþolan veri dosyasýndan okutularak program içerisinde kullanýlmaktadýr. Programda farklý özelliklere sahip 214 adet sac malzeme çeþidi kullanýlmýþtýr [14]. 
+
+3.6. Diþi Plakanýn Tasarýmý
+Diþi plaka boyutlarý kalýplanacak parçanýn þekline göre hesaplanýr. Diþi plaka yüksekliði ise, kalýplama iþlemi için gerekli olan pres kuvvetine baðlý olarak program içerisinde hesaplattýrýlarak tasarýma aktarýlýr. Diþi plakanýn tasarlanmasý sýrasýnda kesme düzlüðü 3mm’den ince saclar için 3mm, 3mm’den kalýn saclar içinse sac malzeme kalýnlýðý kadar hesaplatýlmýþ ve kesme düzlüðünün bittiði yerden itibaren diþi plaka tabanýna doðru 1° lik bir boþluk açýsý verilerek diþi plakanýn çizimi yaptýrýlmýþtýr. 
+H. Gürün ve M. Nalbant 
+
+3.7. Sýyýrýcý Plakanýn Tasarýmý
+Sýyýrýcý plaka boyutlarýný program, diþi kalýp boyutlarýna göre tayin etmektedir. Kenar mesafeleri, sýyýrýcý plakanýn yüksekliði ve þerit malzeme kanalýnýn boyutlarý yine parçanýn þekline göre program tarafýndan hesaplanmaktadýr. Program bu hesaplamalarý dikkate alarak sýyýrýcý plakanýn çizimini gerçekleþtirmektedir. 
+
+3.8. Zýmbalarýn Tasarlanmasý
+Programda kalýp için gerekli zýmbalar kesme boþluklarý, zýmba flambaj boylarý ve istasyonlar da hesaba katýlarak çizdirilmiþtir. Zýmbalarýn ve yan çakýlarýn üst kýsýmlarýna zýmba tutucu plakaya sabitlenmelerini saðlamak amacýyla, zýmba tutucu plaka kalýnlýðýnýn dörtte biri kadar ve 45° açýyla pah kýrýlmýþtýr. 
+
+3.9. Zýmba Tutucu Plakanýn Tasarýmý
+Kalýpta kullanýlan zýmbalarýn þekli ve istasyonlar dikkate alýnarak zýmba tutucu plakanýn tasarýmýyapýlmýþtýr. Zýmbalarýn ve yan çakýlarýn sabitlenmelerini saðlamak amacýyla plakanýn üst kýsmýna, zýmba tutucu plaka kalýnlýðýnýn dörtte biri kadar ve 45° açýyla pah kýrýlmýþtýr. 
+
+3.10. Zýmba Baský Plakasýnýn Tasarýmý
+Tasarýmda en küçük zýmba çapý sac malzeme kalýnlýðýnýn beþ katýndan daha küçük ise kalýbýn çalýþmasý esnasýnda zýmbalarýn arka ucunun üst plakaya batmasýna mani olmak için kalýp üst plakasý ile zýmba tutucu plaka arasýna 4–8 mm kalýnlýðýnda bir plaka konulmaktadýr. Programda bu plakanýn kalýnlýðý 5 mm olarak alýnmýþtýr. Tasarýmcý isterse program içerisinde zýmba baský plakasýnýn kalýnlýðýný deðiþtirebilmektedir. 
+
+3.11. Baðlantý Elemanlarýnýn Seçimi 
+Bu bölümde, Baðlantý Elemanlarý adý altýnda bir menü oluþturularak sac metal kalýpçýlýðýnda kullanýlan, standart cývata ve pim çaplarý verilmiþtir. Tasarýmcýnýn seçimine baðlý olarak cývata ve pimler, kalýp kenarýna olan en küçük uzaklýklarý dikkate alýnarak kalýp üzerine yerleþtirilmiþtir. Tasarýmda gömme baþlý cývata kullanýldýðý varsayýlarak, cývatalarýn yerleþimi ve kalýp kenarýna olan uzaklýklarýbuna göre hesaplanmýþtýr. 
+
+3.12. Kalýp Sapýnýn Tasarýmý
+Bu bölümde, Kalýp Sapý adý altýnda bir menü oluþturularak sac metal kalýpçýlýðýnda kullanýlan standart kalýp sapý çaplarý verilmiþ ve tasarýmcýdan birini seçmesi istenmiþtir. Tasarýmcýnýn seçtiði çapa göre sap plakasýndaki delikler kalýp sapýnýn preste çakýlýp, perçinlendiði varsayýlarak belirlenmiþtir. Kalýp sapý koordinatlarý, zýmbalarýn aðýrlýk merkezine göre belirlenmiþtir. 
+Bilgisayar Destekli Ardýþýk Delme-Kesme Kalýbý Tasarýmý
+
+3.13. Tasarlanan Kalýbýn Görüntülenmesi 
+Görüntüleme menüsü yardýmýyla tasarýmcý oluþturulan komple kalýp setini veya tek tek kalýp elemanlarýnýçizim ekranýnda görüntüleyebilir. Tasarýmcý menü üzerindeki Patlat butonunu seçerek komple kalýp setini, kalýp elemanlarýnýn birbirinden belirli bir miktar ayrýlmýþ olarak görüntüleyebilir. Patlat butonu seçildiðinde, program bu ayrýlma (patlatma) aralýðýnýtasarýmcýdan istemektedir. Programda oluþturulan bütün kalýp elemanlarý farklý katmanlara atýlmýþtýr. Tasarýmcý arzu ettiði halde Çýk butonu ile görüntüleme menüsünden çýkarak, oluþturulan bu katmanlarý açýp kapatmak suretiyle de kalýp elemanlarýný ve komple kalýp setini görüntüleyebilir. 
+
+3.14. Hesaplamalar 
+Tasarýmcýnýn seçimine baðlý olarak program tarafýndan hesaplanan parçanýn alaný, kesilen toplam çevre uzunluðu, koordinatlarý, kalýnlýðý, kesme dayanýmý, çekme dayanýmý, tek taraflý kesme boþluðu, pres kuvveti, adýmý, atýk malzeme oraný, þerit malzeme geniþliði, kesme paylarý, sýyýrýcý plaka kalýnlýðý ve diþi plaka kalýnlýðý, en küçük kesitli zýmbanýn alaný ve çevre uzunluðu, X ve Y eksenlerindeki atalet momentleri, zýmba flambaj boyu ve kalýp sapýnýn koordinatlarý gibi deðerler programda bir dosya içerisine kaydedilmiþtir. Ayrýca, komple kalýp setinin aðýrlýðý ve aðýrlýk merkezi AutoCAD içerisinde massprop komutu ile hesaplatýlarak kaydedilmiþtir. Kalýp setinin aðýrlýðýnýn ve aðýrlýk merkezinin bilinmesi, kalýp setinin taþýnmasý sýrasýnda büyük kolaylýk saðlamaktadýr. Komple kalýp setinin aðýrlýðý bütün kalýp elemanlarýnýn demir (Fe) olduðu varsayýlarak hesaplanmýþtýr. 
+Kullanýcý kalýp tasarýmýný tamamladýktan sonra menü çubuðundaki Kalip menüsünden Hesaplamalar kýsmýnýseçerek yaptýðý tasarýmla ilgili hesaplamalara ulaþabilir ve kalýbýn imalatýsýrasýnda bu verilerden faydalanabilir. 
+
+
+
+4. ÖRNEK TASARIM 
+Þekil 3’te gösterilen ürün için oluþturulan tek sýralýþerit yerleþim planýÞekil 4’te ve oluþturulan kalýbýn patlatýlmýþ görüntüsü de Þekil 5’te gösterilmiþtir. Þerit malzeme olarak, Erdemir Kalite Numarasý 6112, Standart Numarasý DIN EN 10130-99 olan malzeme seçilmiþtir. Örnek sac metal ürünün, program tarafýndan oluþturulan ve Þekil 5’te gösterilen tasarýmýna göre program tarafýndan hesaplanan kalýp verileri Þekil 6’da verilmiþtir. 
+
+
+
+
+
+
+
+
+
+
+
+
+Þekil 3. Parça geometrisinin oluþturulmasýGazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 2, 2005 
+
+Bilgisayar Destekli Ardýþýk Delme-Kesme Kalýbý TasarýmýH. Gürün ve M. Nalbant 
+
+Þekil 4. Þerit yerleþim planýnýn oluþturulmasý
+
+Þekil 5. Oluþturulan kalýbýn patlatýlmýþ görüntüsü 
+
+Ayrýca, Þekil 7’de gösterilen karmaþýk ürünlerin þerit yerleþim planýnýn ve kalýp tasarýmlarýnýn oluþturulmasý için de hazýrlanan program kullanýlmýþve baþarýlý sonuçlar elde edilmiþtir. 
+
+
+ab 
+
+cd 
+Þekil 7. KALTAS programýnda kalýplarý tasarlanan ürünler 
+
+
+5. SONUÇ VE TARTIÞMA 
+Yapýlan çalýþmada, katýmodel olarak tasarlanan bir sac metal parçanýn, þerit yerleþim planý, kalýbýn katýmodel olarak tasarýmý ve kalýpla ilgili hesaplamalar mümkün olduðunca kullanýcý etkileþiminden baðýmsýz olarak üretilmiþtir. Literatürdeki çalýþmalara oranla kullanýcý etkileþimi önemli ölçüde azaltýlmýþtýr. Kalýbýtasarlanacak parçanýn, katý model olarak herhangi bir BDT/BDÝ programýnda çizilebilmesi çalýþmanýn olumlu yönleri arasýndadýr. Hazýrlanan program AutoCAD paket programý altýnda çalýþtýðýndan dolayý, diðer paket programlarda oluþturulan parçalarýn AutoCAD’te açýlabilecek bir formatta (dwg, dxf, igs, sat) kaydedilmesi, programýn çalýþtýrýlabilmesi için yeterli olacaktýr. Hazýrlanan programla, çizilen ürünler için kalýp tasarýmýnýn katý model olarak yapýlmasý programýn üstünlükleri arasýndadýr. Ayrýca program, þerit yerleþim planý, kalýp tasarýmý ve hesaplamalar için gerekli olan zamaný en aza indirmek, tasarýmcýya kolaylýk saðlamak ve hata yapma ihtimalini en aza düþürmek amacýyla düzenlenmiþtir. Hazýrlanan programý kalýp ile sac metal ürünlerin tasarlanmasý konusunda çok az deneyimi olan tasarýmcýlarýn bile rahatlýkla kullanabilmesi mümkündür. Hazýrlanan program, 
+H. Gürün ve M. Nalbant 
+ardýþýk delme-kesme kalýplarýnýn tasarýmýna yönelik­tir. Çekme, kabartma, bükme, dilme gibi sac metal iþlemleri bu çalýþmada kullanýlmamýþtýr. Bu iþlemler yapýlan çalýþmanýn devamý olarak gerçekleþtirilebilir. Katý model olarak oluþturulan kalýba ait imalat resimlerinin çýkarýlamamasý çalýþmanýn eksik yönleri arasýndadýr. 
+Þerit yerleþim planýnýn oluþturulmasý sýrasýnda istasyonlarýn seçimi tasarýmcýya býrakýlmýþtýr. Þerit malzeme seçimi, oluþturulan malzeme kütüphane­sinden yaptýrýlmakta ve programa aktarýlmaktadýr. Hazýrlanan program ile þekli çok karmaþýk olan ürünlerin dahi þerit yerleþimi, kalýp tasarýmý ve hesaplamalarý kolaylýkla yapýlabilmektedir.  
+
+
+KAYNAKLAR 
+1.	
+Choi, J.C., Kim, B.M., Cho, H.Y., Kim C., Kim, J.H., “An integrated CAD system for the blanking of irregular-shapedsheet metal products”, Journal of Materials Processing Technology, Vol. 83, 84-97, 1998. 
+
+2.	
+Choi, J.C., Kim, B.M., Kim, C., Kim, H.Y., “A compact and practical CAD system for blanking or piercing of irregular-shaped sheet metal products stator and rotor parts”, International Journal of Machine Tools and Manufacture, Vol. 38, 931-963, 1998. 
+
+3.	
+Kim, C., Park, Y.S., Kim, J.H., Choi, J.C., “A study on the development of computer-aided process planning system for electric product with bending and piercing operations”, Journal of Materials Processing Technology, Vol. 130­131, 626-631, 2002. 
+
+4.	
+Sing, R., Sekhon, G.S., “A computerized diagraph and matrix approach for evoluation of metal stamping layouts”, Journal of Materials Processing Technology, Vol. 59, 285-292, 1996. 
+
+
+Bilgisayar Destekli Ardýþýk Delme-Kesme Kalýbý Tasarýmý
+5.	
+Sing, R., Sekhon, G.S., “A low-cost modeller for two-dimensional metal stamping layouts”, Journal of Materials Processing Technology, Vol. 84, 79-89, 1998. 
+
+6.	
+Choi, J.C., Kim, C., “A compact and practical CAD/CAM system for the blanking or piercing of irregular shaped sheet metal products for progressive working”, Journal of Materials Processing Technology, Vol. 110, 36-46, 2001. 
+
+7.	
+Lee, S.B., Kim, D.H., Kim, B.M., “Development of optimal layout system in multihole blanking process”, Journal of Materials Processing Technology, Vol. 130-131, 2-8, 2002. 
+
+
+8.Nye, T.J., “Optimal nesting of irregular convex blanks in strips via an exact algorithm”, International Journal of Machine Tools and Manufacture, Vol. 41, 991-1002, 2001. 
+9.	
+Cheok, B.T., Nee, A.Y.C., “Trends and developments in the automation of design and manufacture of tools for metal stampings”, Journal of Materials Processing Technology, Vol. 75, 240-252, 1998. 
+
+10.	
+Tang, D., “An agent-based collaborative design system to facilitate active die-maker involvement in stamping part design, Computer in Industry, Vol. 54, 253-271, 2004. 
+
+11.	
+Park, S.B., “An expert system of progressive die design for electron gun grid parts” Journal of Materials Processing Technology, Vol. 88, 216­221, 1999. 
+
+12.	
+Eriþkin, Y., Uygulamalý Sac Metal Kalýp Kontrüksiyonu, G.Ü. Basýn-Yayýn Yüksekokul Matbaasý, Ankara, 1986. 
+
+13.	
+Smith, A.D., Die Design Handbook, Society of Manufacturing Engineers, Michigan, A.B.D., 1990. 
+
+14.	
+Erdemir Ürün Kataloðu, Erdemir, Ýstanbul, 2001. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 2, 2005 
+
+
+

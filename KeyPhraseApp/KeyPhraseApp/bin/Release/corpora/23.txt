@@ -1,0 +1,203 @@
+ULUSAL VE ULUSLARARASI MEVZUATLAR
+
+ÇERÇEVESÝNDE OTELLERDE KAÇIÞ YOLLARININ ANALÝZÝVE BÝR ÖRNEKLEM 
+Füsun DEMÝREL* ve Zeynep (GÜNAYDIN) KONUR 
+* Mimarlýk Bölümü, Mühendislik Mimarlýk Fakültesi, Gazi Üniversitesi, 06570 Maltepe, Ankara 
+fusund@gazi.edu.tr 
+
+(Geliþ/Received: 16.02.2005; Kabul/Accepted: 14.09.2005) 
+
+ÖZET 
+Otellerde yangýn güvenliði, insan sayýsýnýn fazlalýðý ve uyku sýrasýnda meydana gelen yangýnlarda binanýn kýsa süre içinde boþaltýlmasýnýn güçlüðü nedeni ile önemli bir sorun olarak karþýmýza çýkmaktadýr. O nedenle bu çalýþmada; otellerde pasif yangýn güvenlik önlemleri çerçevesinde, kaçýþ yollarýna iliþkin ulusal ve uluslararasýmevzuatlar irdelenmiþtir. Makalede; Türkiye, Amerika, Ýngiltere’ye ait yangýn yönetmelikleri incelenmiþ ve bu ülkelere ait mevzuatlarýn karþýlaþtýrmalý analizleri yapýlmýþtýr. Ayrýca, bu makalede araþtýrmasý yapýlan mevzuatlar ýþýðýnda, seçilen bir otelin kaçýþ yollarýnýn deðerlendirilmesi yapýlmýþtýr. 
+
+1. GÝRÝÞolabilmeleri için, doðrudan caddelere veya yeterli Topluma açýk ve ayný anda pek çok insaný içinde büyüklükte bir alana rahatlýkla ulaþabilecekleri tahliye barýndýrmasý nedeni ile otellerde yangýn riski oldukça yollarý düzenlenmelidir [2]. yüksektir. Ýnsanlarýn otelde bulunduklarý sürenin üçte birini uykuda geçirmesi sebebi ile yangýn sýrasýnda Otel yangýnlarýnýn baþlýca nedenleri arasýnda müþteri tahliye en önemli sorun olarak karþýmýza çýkmaktadýr. ve personel hatalarý, mutfak, kazan dairesi, Binanýn boþaltýlma süresinin, can kaybýný direkt havalandýrma ve elektrik sistemleri, bakým, onarým olarak etkilemesinden ötürü, kaçýþ yollarýnýn* nitelik sýrasýndaki hatalar ve sabotajlar yer almaktadýr [3]. ve nicelik özellikleri büyük önem taþýmaktadýr [1]. 
+Çizelge 1’de otellerde çýkan yangýnlarýn nedenlerinin Ýnsanlarýn binadan hýzlý ve güvenli bir þekilde tahliye istatistiksel bir özeti verilmektedir. Veriler NFPA tarafýndan yapýlan bir yýllýk araþtýrmadan elde 
+*	
+Kaçýþ Yolu: Binanýn herhangi bir noktasýndan yer seviyesindeki edilmiþtir. Çizelge 2’de ise, otellerde yangýnýn en çok cadde ve sokaða kadar olan ve hiçbir þekilde engellenmemiþhangi mekânlarda çýktýðý gösterilmektedir. bulunan yolun tamamýdýr. Oda ve diðer müstakil hacimlerden çýkýþlar, katlardaki koridor ve benzeri geçiþler, kat çýkýþlarý, Otellerde yangýnýn yayýlýmýnýn önemli nedenlerinin zemin kata ulaþan merdivenler ve bina çýkýþýna giden yollar bu baþýnda, kullanýlan malzemelerin yanýcý olmasýkapsamdadýr [6]. 
+
+F. 
+Demirel ve Z. Konur Ulusal ve Uluslararasý Mevzuatlar Çerçevesinde Otellerde Kaçýþ Yollarýnýn Analizi ve Bir Örneklem 
+
+
+Çizelge 1. Otellerde çýkan yangýn nedenleri [5] 
+YANGIN ÇIKIÞ NEDENÝ OTEL YANGINLARININ YÜZDESÝ  
+Yýl Boyunca Açýk (360 Otel)  Sezonluk Açýk (127 Otel)  
+Sigara; Yatakta Diðer yerlerde Elektrik; Tesisat Motor ve ev aletleri Isýtma ve piþirme cihazlarýKundaklama Isýtma sistemi; Arýzalý Yaðlý IsýtýcýBaca Arýzalý GazlýýsýtýcýArýzalý kömürlü ýsýtýcýlar Çeþitli piþirme cihazlarý, davlumbazlarda biriken artýk maddeler Diðer nedenler Kývýlcým, ani patlama  %13 %22 %15 %4 %8 %13 %3 %3 %2 %1 %1 %7 %8  %8 %21 %16 %5 %9 %13 %4 %2 %1 %2 %5 %1  
+
+Çizelge 2. Oteller de çýkan yangýnlarýn mekânlara göre daðýlýmý [5] 
+MEKAN  OTEL YANGINLARININ YÜZDESÝ  
+Yýl Boyunca Açýk  (360 otel)  Sezonluk Açýk  (127 otel)  
+SERVÝS ALANLARI  
+Mutfaklar Isýtma santralleri Depolama alanlarýKoridorlar, merdivenler Personel mahalleri Ütü ve çamaþýr odalarýTeknik odalar Asansör þaftlarýOfisler  %10 %9 %10 %6 %2 %3 %3 %1 %4  %13 %7 %5 %3 %8 %2 %2 %2  
+MÝSAFÝR ALANLARI  
+Misafir odalarýBarlar Lobiler Tuvaletler Restaurantlar Oturma ve toplantý yerleri Çeþitli alanlar  %23 %4 %3 %3 %2 %2 %17  %10 %6 %7 %2 %2 %3 %28  
+
+gelmektedir. Ayrýca, merdiven boþluklarý, havalandýrma ve tesisat kanallarý, koridorlar, çatýboþluklarý da yangýnýn yayýlýmýna neden olmaktadýr. 
+Oteller, farklý kültürlerde ve deðiþik fiziksel özellik­lerdeki kiþileri barýndýrabileceðinden, otel yangýnlarýgenellikle çok ölümlü sonuçlanmaktadýr. Avrupa konseyi de otellerde yangýn güvenliðini saðlamak için önemli kararlar almýþ ve 27 Haziran 2001 tarihli rapor ile 86/666/EC [4] sayýlý komisyon kararlarýnýn uygulanmasýný üye ülkelerinden istemiþtir [2]. 
+Konunun önemi ve güncelliði nedeni ile bu çalýþmada; yangýn riskinin yüksek olduðu otellerde; kýsa süreli konaklamalardan ötürü mekânlarýn yeterince tanýnmamasý ve uyku sýrasýnda meydana gelen yangýnlarda tahliyenin güçlüðü nedeni ile otellerde kaçýþ yollarýnýn önemine dikkatlerin çekilmesi amaçlanmýþtýr. 
+2. OTELLERDE PASÝF YANGIN GÜVENLÝK ÖNLEMLERÝNE ÝLÝÞKÝN ULUSAL VE ULUSLARARASI MEVZUATIN ÝNCELENMESÝ
+Tüm geliþmiþ ülkelerde devletler, yurttaþlarýnýn yangýna karþý can güvenliðini saðlama sorumluðunu üstlenmiþlerdir. Bunun için gerekli düzenlemeler mevzuatlar aracýlýðý ile yapýlmakta ve bu tür yönetmelikler o ülkelerin uygarlýk düzeylerinin birer göstergesi olmaktadýr. Ülkemizde de bu konudaki eksikliði, 26 Temmuz 2002 yýlýnda Bakanlar Kurulunda kabul edilen “Binalarýn Yangýndan Korunmasý Hakkýnda Yönetmelik (BYKHY)” gidermiþtir [6]. Bu yönetmelikle, Türkiye’de ilk defa bütün ülke genelinde kamu, özel kurum, kuruluþlar ve kiþilerce kullanýlan her türlü yapý, bina tesis ve iþletmeler kapsama alýnmýþtýr. 
+Bu makalede; otellere iliþkin hükümler çerçevesinde Amerika’dan; NFPA, Avrupa’dan; Ýngiltere Bina Yönetmeliði ve Ülkemizden; Binalarýn Yangýndan Korunmasý Hakkýnda Yönetmelik irdelenmiþtir. 
+Binalarýn Yangýndan Korunmasý Hakkýnda Yönetmelik, dördüncü bölümde “Özel Durumlar” baþlýðý altýnda oteller, moteller ve yatakhaneler ile ilgili hükümler, madde 50’de açýklanmýþtýr [6]. 
+Çizelge 3’de Binalarýn Yangýndan KorunmasýHakkýnda Yönetmelik [6], NFPA [5,7] ve Ýngiltere Bina Yönetmeliðinin [8] karþýlaþtýrmalý analizi verilmiþtir. 
+
+
+3. MEVZUATIN BÝR ÖRNEKLEM ARACILIÐI ÝLE ÝRDELENMESÝ
+Örneklem için seçilen ve 1990 yýlýnda hizmete açýlmýþolan 400 yataklýotel, 7’si yatak katý olmak üzere toplam 10 kattan oluþmaktadýr (Resim 1). 
+
+Resim 1. Örneklem için seçilen otel 
+
+DEÐERLENDÝRME KRÝTERLERÝ BYKHY [6]  NFPA 101 [5] NFPA 5000 [7]  ÝNGÝLTERE BÝNA YÖNETMELÝÐÝ [8]  
+1  KULLANICI YÜKÜ Kullanýcý Yükü  Konferans salonu, lokanta, bar ve benzeri birimleri içinde bulunduran yerlerde 1.0 m²/ kiþi olarak alýnmalýdýr. Otel yatak odalarýna iliþkin bir bilgi yoktur.  Kullanýcýyükü için kiþi sayýsý toplam kat alanýnda 18.6 m²’ye bir kiþi düþecek þekilde belirlenmelidir  Yemek odasý, okuma odasý, restaurant ve bar gibi birimleri içinde bulunduran yerlerde 1.0m²/kiþi alýnmalýdýr Resim galerisi, yurtlar, müzeler gibi mekanlarda 5.0 m ²/kiþi olarak alýnacaktýr.  
+2  ÇIKIÞLARIN DÜZENLENMESÝ Çýkýþlarýn sayýsý En az 2 çýkýþ, kiþi sayýsý500’ü aþarsa en az 3 çýkýþ En az 2 çýkýþ (4 kattan yüksek) En az 1 çýkýþ 4 kattan az ise ve her katta 4 odadan fazla yoksa aþaðýdaki þartlara göre tek çýkýþ izni verilebilir. – Merdiven tamamen kapalýve yangýn dayanýmý 60 dakika oda kapýlarý ve merdiven kapýlarý min. 60 dakika yangýna dayanýklýysa, – Tüm koridorlar çýkýþ için kullanýlýyorsa ve min. 60 dakika yangýna dayanýklýysa, – Giriþ kapýsýndan herhangi bir konuk odasýna mesafe 10.7 m fazla deðilse, – Konuk odalarý arasýnda yatay ve dikey ayrýmlar 1/2 saat yangýna dayanýklýysa, Max. 30 m Sprinklerli max. 45 m  Kiþi sayýsý 60 ise minimum çýkýþ sayýsý 1 Kiþi sayýsý 600 ise minimum çýkýþ sayýsý 2 Kiþi sayýsý 600’den fazla ise minimum çýkýþ sayýsý3  
+3  KAÇIÞ UZAKLIÐI  Konuk odasý veya süitin içinde kaçýþmesafesi  Sprinklerli max. 20 m  Sprinklersiz max. 23 m, sprinklerli max. 38 m.  Bu konuda bir bilgiye rastlanmamýþtýr  
+Koridor kapýsýndan herhangi bir konuk odasýna veya süite en yakýn çýkýþmesafesi  Tek yönde en çok uzaklýk sprinklerli 20 m, sprinklersiz 15 m,  iki yönden en çok uzaklýk sprinklerli 45 m, sprinklersiz 30 m  Ýki yönden en çok uzaklýk sprinklerli 60 m, ölü noktadan [dead end) 15 m  sprinklersiz max. 30 m. ölü noktadan [dead end) 10.7 m.  Tek yönde en çok uzaklýk 30 m, ölü noktadan [dead end) 7.5 m.  
+4  KORÝDORLAR  a) Çýkýþa açýlan koridor duvarýnýn yangýn dayanýmý Min. 60 dakika  Min. 60 dakika  Bu konuda bir bilgiye rastlanmamýþtýr  
+b) Korunumlu iç koridor duvarý ve geçitlerin yangýn dayanýmý 15.50 m’den yüksek yapýlarda 120 dakika olmalýdýr  Min. 60 dakika  Bu konuda bir bilgiye rastlanmamýþtýr  
+c) Koridor Geniþliði  Md. 32 ye göre hesaplanacaktýr  Min. 122 cm  Bu konuda bir bilgiye rastlanmamýþtýr  
+5  RAMPALAR Min. veya max. eðimi  Max. % 10  Max. 1/12  Max. 35o  
+Kaçýþ rampa yüzeyleri  Kaymaz yüzey  Yanmaz veya az yanan malzemeden olmalýdýr.  Kaymaz yüzey  
+Rampa geniþliði  Md. 32 ye göre hesaplanacaktýr  Min. 150 cm  Bu konuda bir bilgiye rastlanmamýþtýr  
+
+F. Demirel ve Z. Konur Ulusal ve Uluslararasý Mevzuatlar Çerçevesinde Otellerde Kaçýþ Yollarýnýn Analizi ve Bir Örneklem Çizelge 3. (devam ediyor) 
+DEÐERLENDÝRME KRÝTERLERÝ BYKHY [6]  NFPA 101 [5] NFPA 5000 [7]  ÝNGÝLTERE BÝNA YÖNETMELÝÐÝ [8]  
+6  YANGINGÜVENLÝK HOLÜ Yangýn güvenlik holü þartý Yangýn güvenlik holü minimum 3 m2’den az olmamalýdýr.  Bu konuda bir bilgiye rastlanmamýþtýr  Yangýn güvenlik holü min. 5 m2 olmalýdýr. 4 katta servis yapan holler içinde 20 m2’yi geçmemelidir.  
+7  KAPILAR  Yatak odalarýn iç koridora açýlan kapýlarýnýn yangýn dayanýmý Min. 30 dakika  Min. 20 dakika  Min. 20 dakika  
+Dýþ koridora açýlan kapýlarýn yangýn dayanýmý Yangýna dayanýklý olma koþulu yoktur  Min. 20 dakika  Min. 20 dakika  
+Yangýn kapýsýpencereleri  Cam panel  Telli cam  Telli cam  
+Çýkýþ kapýsý geniþliði  Min. 80 cm  Min. 81 cm  Bu konuda bir bilgiye rastlanmamýþtýr  
+Çýkýþ kapýsý yangýn dayanýmý Min. 90 dakika, duman sýzdýrmaz olmalýdýr  Min. 90 dakika, duman sýzdýrmaz  olmalýdýr  Bu konuda bir bilgiye rastlanmamýþtýr  
+Otel yatak odasý ya da süit odalarda konumlandýrýlmýþçýkýþ kapýsý sayýsý En uzak nokta ile çýkýþkapýsýna olan uzaklýk 15 m. aþarsa en az 2 çýkýþkapýsý olmalýdýr  185 m2’den büyükse birbirinden uzak en az 2 çýkýþkapýsý olmalýdýr  Bu konuda bir bilgiye rastlanmamýþtýr  
+8  KAÇIÞ MERDÝVENÝ Kaçýþ merdiveni geniþliði  Max. 200 cm, 50 kiþiden fazla olan binalarda min. 100 cm olmalýdýr  Min. 112 cm, 50 kiþiden fazla olan binalarda min. 100 cm olmalýdýr  Min. 110 cm.  
+Kaçýþ merdiveni rýht yüksekliði ve basýþgeniþliði  Rýht yüksekliði max. 17.5 cm, basýþ geniþliði min. 25 cm olmalýdýr  Rýht yüksekliði max. 17.8 cm, rýht yüks. min. 10.2 cm, basýþ geniþ min. 27.9 cm olmalýdýr  Rýht yüksekliði max. 18 cm, basýþ geniþliði min. 28 cm olmalýdýr  
+Kaçýþ merdiveninin indiði nokta ile dýþaçýk alan arasýndaki uzaklýk  Sprinklerli 15 m Sprinklersiz 10 m  Bu konuda bir bilgiye rastlanmamýþtýr  Bu konuda bir bilgiye rastlanmamýþtýr  
+Kaçýþmerdivenlerinin yangýna dayaným süresi  120 dakika  120 dakika  BS 5588’de [9] süre verilmemekle birlikte yangýna dayanýklý olmasýistenmektedir  
+9  DAÝRESEL MERDÝVEN  Dairesel merdiven geniþliði  Min. 80 cm  Min. 81 cm  Bu konuda bir bilgiye rastlanmamýþtýr  
+Dairesel merdiven basamak geniþliði ve rýht yüksekliði  En dar basýþ geniþliði 15 cm’den, kova hattýnda 50 cm uzaktaki basýþ geniþliði 25 cm’den az, basamak yüksekliði max. 17.5 cm olmalýdýr.  En dar basýþ geniþliði 27.9 cm, basamak yüksekliði 17.8 cm’den fazla olmamalýdýr.  BS 5395-2’de [10] çevre geniþliðine göre ölçülendirilmiþtir  
+10  KAÇIÞ YOLLARININ AYDINLATMASI  Kaçýþ yollarýnda ve döþeme yüzeyinde ölçülen aydýnlatma seviyesi  Min. 10 lüks  Min. 10 lüks  BS 5266’ya [11] atýfta bulunulmuþtur.  
+Herhangi bir arma­türün çalýþmaz hale gelmesi durumunda kaçýþ yollarýaydýnlatma seviyesi  Min. 2 lüks  Min. 2 lüks  BS 5266’ya [11] atýfta bulunulmuþtur.  
+Acil aydýnlanmanýn diðer bir enerji kaynaðýndan aktarma süresi  3 saniye  10 saniye  BS 5266ya [11] atýfta bulunulmuþtur.  
+Acil aydýnlatma olma þartý Tüm otel, motel ve yatakhanelerde acil aydýnlatma þartý aranýr  25 odadan fazla olan otel­lerde aranýr eðer her odasýveya süiti direk çýkýþa açýlýyorsa acil durum aydýnlatma þartý aranmaz.  Tüm kaçýþ yollarýnda acil aydýnlatma þartý aranýr.  
+
+DEÐERLENDÝRME KRÝTERLERÝ BYKHY [6]  NFPA 101 [5] NFPA 5000 [7]  ÝNGÝLTERE BÝNA YÖNETMELÝÐÝ [8]  
+11  ASANSÖRLER Asansör kulesi ve makine dairesi yangýn dayaným süresi  Min. 60 dakika  Bu konuda bir bilgiye rastlanmamýþtýr  Bu konuda bir bilgiye rastlanmamýþtýr  
+Asansör kapýlarýyangýn dayanýmý Min. 60 dakika ve duman sýzdýrmaz olmalýdýr (yüksek binalarda)  Min. 60 dakika ve duman sýzdýrmaz olmalýdýr  Min. 30 dakika ve duman sýzdýrmaz olmalýdýr  
+
+Yatak katlarý doðu, batýve güney olmak üzere üç kola ayrýlmýþ olarak planlanmýþtýr (Þekil 1). Her bir kolda iç yangýn merdiveni ve dýþ terastan toplanma alanýna ulaþan dýþ yangýn merdiveni olmak üzere her katta toplam 6 adet yangýn merdiveni bulunmaktadýr (Resim 2,3,4). 
+Yatak katlarý üçüncü kattan itibaren son kata kadar geriye çekilerek planlanmýþ, bunun sonucu olarak da iç koridor boyu üçüncü kattan itibaren daha da kýsalarak son kata kadar devam etmiþtir [1]. 
+
+Tüm yatak odalarýnda duman dedektörü ve sesli alarm sistemi, koridorlarda duman dedektörleri, yangýn Resim 2. Yangýn merdiveninin içten görünümü 
+
+
+
+Þekil 1. Ýncelenen Otelin Birinci Yatak Kat Planý
+F. Demirel ve Z. Konur Ulusal ve Uluslararasý Mevzuatlar Çerçevesinde Otellerde Kaçýþ Yollarýnýn Analizi ve Bir Örneklem 
+
+
+
+Seçilen otelin kaçýþ yollarýnýn mevzuatlar ile imdat telefonlarý bulunmakta ve alarmlar düzenli karþýlaþtýrýlmalý analizi Çizelge 4’de, deðerlendiril­olarak kaydedilmektedir. mesi ise Çizelge 5’de verilmiþtir. 
+Çizelge 4. Seçilen otel örneðinin kaçýþ yollarýnýn mevzuatlarla karþýlaþtýrýlmalarýÇizelge 4. (devam ediyor) 
+DEÐERLENDÝRME KRÝTERLERÝ SEÇÝLEN OTEL  BYKHY [6]  NFPA 101 [5] NFPA 5000 [7]  ÝNGÝLTERE BÝNA YÖNETMELÝÐÝ[8]  
+1  KAÇIÞUZAKLIÐI  Kaçýþ uzaklýðý Ýki yönde max. uzaklýk sprinklerli 48.60 m’dir.  Tek yönde max. uzaklýk sprinklerli 20 m, sprinklersiz 15 m, iki yönden max. uzaklýk sprinklerli 45 m, sprinklersiz 30 m  Sprinklerli max. 60 m, sprinklersiz max. 38 m.  Tek yönde max.uzaklýk 30 m, ölü noktadan (dead end) max. uzaklýk 7.5 m.  
+2  KORÝDORLAR  Çýkýþa açýlan koridor duvarýyangýn dayanýmý 30 dakika  Min. 60 dakika  Sprinklersiz min. 60 dakika, sprinklerli min. 30 dakika   Bu konuda bir bilgiye rastlanmamýþtýr  
+Koridor geniþliði  Ýç koridor geniþliði 210 cm, dýþ koridor geniþliði 150 cm  Md. 32 ye göre hesaplanacaktýr  Min. 122 cm  Bu konuda bir bilgiye rastlanmamýþtýr  
+Kaçýþ merdiveni geniþliði  Ýç yangýn merdi­venleri 150 cm, dýþyangýn merdivenleri 110 cm.  Max. 200 cm, 50 kiþiden fazla olan binalarda min. 100 cm  Min. 112 cm, 50 kiþiden fazla olan binalarda min. 100 cm  Min. 110 cm  
+Kaçýþ merdiveni rýht yüksekliði ve basýþ geniþliði  Rýht yüksekliði 17.5 cm, basýþ geniþliði 25 cm  Rýht yüksekliði max. 17.5 cm, basýþgeniþliði min. 25 cm  Rýht yüksekliði max. 17.8 cm, rýht yüks. min. 10.2 cm, basýþ geniþ min. 27.9 cm  Rýht yüksekliði max. 18 cm, basýþgeniþ min. 28 cm  
+Kaçýþ merdiveni duvarlarýnýn yangýna dayaným süresi  120 dakika  120 dakika  120 dakika  Bu konuda bir bilgiye rastlanmamýþtýr  
+
+DEÐERLENDÝRME KRÝTERLERÝ SEÇÝLEN OTEL  BYKHY [6]  NFPA 101 [5] NFPA 5000 [7]  ÝNGÝLTERE BÝNA YÖNETMELÝÐÝ[8]  
+3  YANGINGÜVENLÝK HOLÜ Yangýn güvenlik holü þartý 3.3 m2  Yangýn güvenlik holü minimum 3 m2’den az olmamalýdýr.  Bu konuda bir bilgiye rastlanmamýþtýr  Yangýn güvenlik holü minimum 5 m2 olmalýdýr. 4 katta servis yapan holler içinde 20 m2’yi geçmemelidir.  
+4  KAPILAR  Otel odasý ya da suit odalarda konumlandýrýlmýþçýkýþ kapýsý sayýsý 1 çýkýþ kapýsý (En uzak nokta ile çýkýþkapýsýna olan uzak­lýk 8.6 m - standart oda büyüklüðü: 24.5 m2)  En uzak nokta ile çýkýþ kapýsýna olan uzaklýk 15 m aþarsa min. 2 çýkýþ kapýsýolmalýdýr  185 m2’den büyükse birbirinden uzak en az 2 çýkýþ kapýsýolmalýdýr  Bu konuda bir bilgiye rastlanmamýþtýr  
+Çýkýþ kapýsýgeniþliði  100 cm  Min. 80 cm  Min. 81 cm  Bu konuda bir bilgiye rastlanmamýþtýr  
+Yangýn kapýsýpencereleri  Cam panel  Cam panel  Telli cam  Telli cam  
+5  KAÇIÞ YOLLARININ AYDINLATILMASI  Kaçýþ yollarýnda ve döþeme yüzeyinde ölçülen aydýnlatma seviyesi  13 lüks  Min. 10 lüks  Min. 10 lüks  BS 5266’ya [11] atýfta bulunulmuþtur.  
+Herhangi bir arma­türün çalýþmaz hale gelmesi durumun­da kaçýþ yollarýnýn en az aydýnlatma seviyesi  2 lüks  Min. 2 lüks  Min. 2 lüks  BS 5266’ya [11] atýfta bulunulmuþtur.  
+Acil aydýnlatmanýn diðer bir enerji kaynaðýna aktarýlma süresi  10 saniye  3 saniye  10 saniye  BS 5266’ya [11] atýfta bulunulmuþtur.  
+6  ASANSÖRLER Yangýn anýnda asansörlerin durumu  Yangýn anýnda zemin kata inip, kapýlarý açýk olarak beklemektedir.  Yangýn anýnda zemin kata inip, kapýlarý açýk olarak beklemelidir.  Yangýn anýnda zemin kata inip, kapýlarý açýk olarak beklemelidir.  Yangýn anýnda zemin kata inip, kapýlarý açýk olarak beklemelidir.  
+
+
+4. SONUÇ 
+Örneklem için seçilen otelin pasif yangýn güvenlik önlemlerinin BYKHY, NFPA ve Ýngiltere Bina Yönetmeliðine göre deðerlendirilmesi ýþýðýnda aþaðýdaki sonuçlara ulaþýlmýþtýr. 
+• 
+Ýncelenen otelin BYKHY ile karþýlaþtýrýlmasýamacýyla oluþturulan 14 adet deðerlendirme kriterinden; kaçýþ uzaklýðýndaki 3.6 m’lik fazla mesafe, “Acil aydýnlatmanýn diðer bir enerji kaynaðýna aktarýlma süresi”ndeki 7 saniyelik gecikme dýþýnda, 12 kritere de uyduðu görülmüþtür. 
+
+• 
+Örneklem için seçilen otelin NFPA ile karþýlaþtýrýlmasý amacýyla oluþturulan 13 adet deðerlendirme kriterinden; kaçýþ merdiveninin basýþ
+
+
+geniþliðindeki 2.9 cm’lik darlýk ve yangýn kapýsýpencerelerinin telli cam olmamasý dýþýnda, 11 kritere de uyduðu gözlenmiþtir. 
+• 
+Araþtýrma için seçilen otelin Ýngiltere Bina Yönetmeliði ile karþýlaþtýrýlmasý amacýyla oluþturulan 5 adet deðerlendirme kriterinden; kaçýþmerdiveninin basýþ geniþliðindeki 3 cm’lik darlýk, yangýn güvenlik holündeki 1.7 m2’lik azlýk ve yangýn kapýsý pencerelerinin telli cam olmamasýdýþýnda, 2 kritere uyduðu görülmüþtür. 
+
+• 
+Üç ülke yönetmeliðinin otellerde pasif yangýn güvenlik önlemleri açýsýndan birbirleri ile karþýlaþtýrýlmasý sonucunda ise; Ýngiltere Bina Yönetmeliðinin aksine, Ülkemizin ilk yangýn yönetmeliði olan BYKHY ile son derece detaylý ele 
+
+
+
+F. Demirel ve Z. Konur Ulusal ve Uluslararasý Mevzuatlar Çerçevesinde Otellerde Kaçýþ Yollarýnýn Analizi ve Bir Örneklem Çizelge 5. Örneklem için seçilen otelin kaçýþ yollarýnýn mevzuatlara uygunluðunun deðerlendirilmesi 
+DEÐERLENDÝRME KRÝTERLERÝ  SEÇÝLEN OTEL  BYKHY [6]  NFPA 101 [5] NFPA 5000 [7]  ÝNGÝLTERE BÝNA YÖNETMELÝÐÝ (8)  
+1  KAÇIÞUZAKLIÐI  Kaçýþ uzaklýðý Ýki yönde max. uzaklýk sprinklerli 48.60 m’dir.      Otele iliþkin veri ile deðerlendirme kriteri karþýlaþtýrýlamamaktadýr  
+2  KORÝDORLAR  Çýkýþa açýlan koridor duvarýyangýn dayanýmý 30 dakika      Bu konuda bir bilgiye rastlanmamýþtýr  
+Koridor geniþliði  Ýç koridor geniþliði 210 cm, dýþ koridor geniþliði 150 cm      Bu konuda bir bilgiye rastlanmamýþtýr  
+Kaçýþ merdiveni geniþliði  Ýç yangýn merdi­venleri 150 cm, dýþyangýn merdivenleri 110 cm.        
+Kaçýþ merdiveni rýht yüksekliði ve basýþ geniþliði  Rýht yüksekliði 17.5 cm, basýþ geniþliði 25 cm        
+Kaçýþ merdiveni duvarlarýnýn yangýna dayaným süresi  120 dakika      Bu konuda bir bilgiye rastlanmamýþtýr  
+3  YANGINGÜVENLÝK HOLÜ Yangýn güvenlik holü þartý  3.3 m2    Bu konuda bir bilgiye rastlanmamýþtýr    
+4  KAPILAR  Otel odasý ya da suit odalarda konumlandýrýlmýþ çýkýþkapýsý sayýsý 1 çýkýþ kapýsý (En uzak nokta ile çýkýþkapýsýna olan uzak­lýk 8.6 m -standart oda büyüklüðü: 24.5 m2)      Bu konuda bir bilgiye rastlanmamýþtýr  
+Çýkýþ kapýsý geniþliði  100 cm      Bu konuda bir bilgiye rastlanmamýþtýr  
+Yangýn kapýsý pencereleri  Cam panel        
+5  KAÇIÞ YOLLARININ AYDINLATILMASI  Kaçýþ yollarýnda ve döþeme yüzeyinde ölçülen aydýnlatma seviyesi  13 lüks      Otele iliþkin veri ile deðerlendirme kriteri karþýlaþtýrýlamamaktadýr  
+Herhangi bir armatürün çalýþmaz hale gelmesi durumunda kaçýþ yollarýnýn en az aydýnlatma seviyesi  2 lüks      Otele iliþkin veri ile deðerlendirme kriteri karþýlaþtýrýlamamaktadýr  
+Acil aydýnlatmanýn diðer bir enerji kaynaðýna aktarýlma süresi  10 saniye      Otele iliþkin veri ile deðerlendirme kriteri karþýlaþtýrýlamamaktadýr  
+6  ASANSÖRLER Yangýn anýnda asansörlerin durumu  Yangýn anýnda zemin kata inip, kapýlarý açýk olarak beklemektedir.        
+
+: Uygun : Uygun deðil 
+alýndýðýbilinen NFPA’nin birbirleri ile daha fazla paralellik taþýdýðý görülmüþtür. Analizde; 3 deðerlendirme kriterinde BYKHY’in NFPA’ye göre daha sert koþullar içerdiði, 3 deðerlendirme kriterinde ise NFPA’nin daha sert koþullar içerdiði, kalan kriterlerde de benzer koþullarýn yer aldýðýgözlemlenmiþtir. 
+Yapýlan bu analiz çalýþmasýna göre; BYKHY’in yürürlüðe girmesinden 12 yýl önce inþa edilen otelin pasif yangýn güvenlik önlemleri açýsýndan BYKHY ’ne % 85.7 oranýnda uyumlu olduðu görülmüþtür. Dolayýsýyla örneklem için seçilen otelin genelde pasif yangýn güvenlik önlemleri göz önüne alýnarak planlandýðý açýktýr. Ancak, BYKHY madde 140, geçici madde 1’e göre yönetmelikte istenen eksik tedbirlerin, ivedilikle yerine getirilmesi gerekmektedir. 
+Otel yangýnlarý, kullanýcýlarýn çoðunun uykuda olmasýnedeni ile genellikle ölümle sonuçlanmaktadýr. Dolayýsýyla, mimarýn tasarým aþamasýnda alacaðýpasif yangýn güvenliðine iliþkin önlemler son derece önem kazanmaktadýr. Bina içerisindeki kaçýþyollarýnýn tasarlanmasý, duman kontrolünün 
+
+saðlanmasý, yangýn kompartýmanlarýnýn oluþturulmasý, mimarý doðrudan ilgilendiren pasif yangýn güvenlik önlemlerinden bazýlarýdýr. Mimar bu konuda bilinçli olmalý, özellikle otel gibi çok sayýda insaný barýndýran binalarýn tasarýmýnda pasif yangýn güvenlik önlemlerini titizlikle uygulamalýdýr. Kaçýþ yollarýözenle tasarlanmalý, iþaretleme ve aydýnlatmalar yönetmeliklere uygun yapýlmalýdýr. Ayrýca, yangýnýn yayýlým hýzýnýn yavaþlatýlmasý için de yangýna dirençli malzemeler kullanýlmalý, þaftlar yalýtýlmalý, duman tahliye sistemleri yapýlmalýdýr. Pasif yangýn güvenlik önlemleri yeterli ise yangýnýn geniþlemesi daha yavaþolacak, insanlarýn tahliyesi kolaylaþacak ve dolayýsýyla yangýnýn vereceði zarar daha az olacaktýr. 
+Yangýnýn daha az zararla kontrol altýna alýnabilmesi için, yangýnýn erken haber alýnmasý ve söndürülmesine iliþkin aktif sistemlerin kullanýlmasý, otellerde son derece önemlidir. Pasif önlemlerin yeterli olmasýhalinde, aktif önlemlerin etkinliðinin de artacaðý bilinen bir gerçektir. 
+Otellerde þehir planlamasý açýsýndan da yangýn riski göz ardý edilmeyerek, itfaiyenin otellere rahat yaklaþýmýiçin sokak ve caddeler de uygun þekilde projelendirilmelidir. 
+
+
+TEÞEKKÜR 
+Ýncelenen otelin personeline ve yangýn merdivenlerinin aydýnlatma ölçümlerinin yapýlmasýndaki katkýlarýndan ötürü Y.Doç.Dr. Cüneyt Kurtay’a teþekkür ederiz. 
+
+KAYNAKLAR 
+1.	
+GÜNAYDIN Z., Otellerde Pasif Yangýn Güvenlik Önlemleri, Yayýnlanmamýþ Yüksek Lisans Tezi, Gazi Üniversitesi, Fen Bilimleri Enstitüsü, Ankara, 2005. 
+
+2.	
+KILIÇ, A., “Avrupa Konseyi Otel Yangýn Güvenliði Kararlarý” Yangýn ve Güvenlik, Sayý: 87, Sayfa:54-61, 2005. 
+
+
+3.TENKER, S., Yüksek Otellerde Yangýndan Korunma Kaçýþ Yollarýnýn Ýncelenmesi, Yayýnlanmamýþ Yüksek Lisans Tezi, Yýldýz Teknik Üniversitesi, Ýstanbul, 1995. 
+4.	
+Commission Decision 86/666/EC, Offical Journal of the European Union, 22.12.1986. 
+
+5.	
+“NFPA 101 Life Safety Code”, National Fire Protection Association, New Orleans, USA, 2000. 
+
+6.	
+“Binalarýn Yangýndan Korunmasý Hakkýnda Yönetmelik”, Resmi Gazete, Sayý: 4390, 12.06.2002. 
+
+7.	
+“NFPA, 5000 Building Construction and Safety Code”, National Fire Protection Association, Minneapolis, USA, 2003. 
+
+
+8.“The Building Regulations 2000 - Fire Safety B”, Office of the Deputy Prime Minister of England, Norwich, 2002. 
+9.	
+“BS 5588 “Fire precautions in the design, construction and use of buildings”, British Standard, England, 1990. 
+
+10.	
+“BS 5395 Bölüm: 2, “Stairs, Ladders and Walkways-Code of practice for the design of helical and spiral stairs”, British Standart, England, 1984. 
+
+11.	
+BS 5266 Bölüm: 1, “Emergency lighting. Code of practice for the emergency lighting of premises other than cinemas and certain other specified premises used for entertainment” British Standart, England, 1999. 
+
+
+
+
+
+

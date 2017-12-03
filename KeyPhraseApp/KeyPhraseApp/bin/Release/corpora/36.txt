@@ -1,0 +1,187 @@
+Gazi Üniv. Müh. Mim. Fak. Der. J. Fac. Eng. Arch. Gazi Univ. Cilt 21, No 3, 581-586, 2006 Vol 21, No 3, 581-586, 2006 
+ÝÞLEME PARAMETRELERÝNDEN KESME HIZININ INCONEL 718 SÜPER ALAÞIMIN ÝÞLENEBÝLÝRLÝÐÝNE ETKÝSÝ
+Abdullah ALTIN*, Hasan GÖKKAYA* ve Muammer NALBANT** 
+Makine Bölümü, Van Meslek Yüksekokulu, Yüzüncü Yýl Üniversitesi, 65080 Van, 
+* Safranbolu Meslek Yüksekokulu, Zonguldak Karaelmas Üniversitesi, 78600 Karabük, hgokkaya@hotmail.com ** Makine Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, 06500 Ankara, nalbant@gazi.edu.tr 
+(Geliþ/Received: 15.06.2005; Kabul/Accepted: 28.11.2005) 
+ÖZET 
+Bu çalýþmada, nikel esaslý Inconel 718 süper alaþýmý; yuvarlak formlu kaplamasýz sementit karbür takýmla bilgisayarlý sayýsal denetimli (BSD) JOHNFORD T35 torna tezgahýnda, soðutma sývýsý kullanýlmadan iþlenmiþtir. Beþ farklý kesme hýzý (15, 30, 45, 60, 75 m/min) ile sabit kesme derinliði (2 mm) ve ilerleme hýzý
+(0.20 mm/rev) deðerlerinde talaþ kaldýrma iþlemleri gerçekleþtirilerek, bu kesme hýzlarýnýn asýl kesme kuvveti (Fc) ve yüzey pürüzlülüðü üzerindeki etkileri araþtýrýlmýþtýr. Yapýlan deneylerde kesme hýzýna baðlý olarak ortalama en düþük asýl kesme kuvveti 75 m/min kesme hýzýnda 629 N, en yüksek asýl kesme kuvveti ise 15 m/min kesme hýzýnda 1150 N elde edilmiþtir. En düþük ortalama yüzey pürüzlülüðü 45 m/min kesme hýzýnda 
+0.45 µm, en yüksek ortalama yüzey pürüzlülüðü ise 75 m/min kesme hýzýnda 0.88 µm elde edilmiþtir. Elde edilen talaþbiçimi ise sürekli dar ve geniþ adýmlýdýr. 
+
+1. GÝRÝÞ(INTRODUCTION) hýzlý aþýnmasý ve kýrýlmasý gibi kayýplarýn yaný sýra, iþ
+parçasýnýn bozulmasý veya yüzey kalitesinin düþüklüðü Süper alaþýmlar, diðer alaþýmlardan farklý olarak gibi ekonomik kayýplara da neden olmaktadýr [4]. yüksek sýcaklýklarda yüksek mekanik gerilmelere ve Kesme hýzý ve kesici takým geometrisi, iþlenebilirlik yüzey yapýsý deðiþimlerine karþý üretilmiþýsýl direnci özelliklerine etki bakýmýndan en önemli parametre­yüksek, demir-nikel, nikel ya da kobalt esaslý alaþým-lerdir [5,6]. Inconel 718, düþük kesme hýzlarýnda lardýr. Isýya dayanýklý nikel esaslý süper alaþýmlarýn sementit karbür takýmlar ile iþlenebilirken daha talaþlý imalatta iþlenebilirliði bilindiði kadarýyla en yüksek kesme hýzlarýnda ise seramik kesici takýmlarla düþük malzemelerdir [1-3]. Talaþlý imalatta iyi iþlenebilmektedir [1,7]. seçilmeyen iþleme parametreleri, kesici takýmlarýn 
+A. Altýn vd.Ýþleme Parametrelerinden Kesme Hýzýnýn Inconel 718 Süper Alaþýmýn Ýþlenebilirliðine Etkisi 
+Richards ve Aspinwall, Inconel 718 süper alaþýmýnýkaplamasýz tungsten karbür takýmla (10-30 m/min)’lik kesme hýzlarýnda iþleyerek talaþ oluþumunu ve kesici takým üzerinde meydana gelen aþýnmalarý incelemiþ­lerdir. Çalýþmalarýnda, elde edilen talaþ formunun sürekli ve testere diþli olduðunu belirtmektedirler. Yüksek sertliðe sahip nikel esaslýInconel 718 süper alaþýmýn iþlenmesi esnasýnda takým-talaþ ara yüzeyinde oluþan yüksek sýcaklýða baðlý olarak kesici takým üzerinde çentik aþýnmasý oluþtuðunu tespit etmiþlerdir [8]. Nikel esaslý süper alaþýmlarýn iþlenmesi esnasýnda takým ömrünü kýsaltan en önemli aþýnma çentik aþýnmasýdýr [9]. 
+Choudhury ve El-Baradie, kaplamalý ve kaplamasýz sementit karbür takýmlarla Inconel 718’i iþleyerek iþleme parametrelerinden kesme hýzý, ilerleme ve kesme derinliðinin kesme kuvveti ve takým üzerindeki etkilerini araþtýrmýþlardýr. Kullanmýþ olduklarý sementit karbür takýmlar yuvarlak þekilli olup talaþ kýrýcýsýzdýr. Yapmýþ olduklarý deneysel çalýþma sonucunda kapla­masýz sementit karbür kesici takýma göre daha düþük tokluða sahip kaplamalý sementit karbür takýmlarýn ömür olarak kaplamasýz sementit karbür takýmlara göre daha düþük olduðu ve kaplamalý kesici takým üzerinde aþýrý yan kenar aþýnmasý oluþtuðunu belirt­mektedirler. Takým ömrü üzerinde etkili olan para­metreleri önem sýrasýna göre kesme hýzý, kesme derin­liði ve ilerleme olarak tespit etmiþlerdir [10]. Benzer çalýþmalar yine Choudhury ve El-Baradie tarafýndan yapýlmýþ ve benzer sonuçlar elde etmiþlerdir [11,12]. 
+Bu çalýþmada, kaplamasýz sementit karbür kesici takýmla, iþleme parametresi olarak beþ farklý kesme hýzý kullanýlarak, Inconel 718 süper alaþým malzemesi üzerinde sabit kesme derinliðinde ve ilerleme hýzýnda talaþ kaldýrýlmýþtýr. Kesme hýzýnýn talaþ kaldýrma sýrasýnda asýl kesme kuvveti ve ortalama yüzey pürüzlülüðü üzerindeki etkileri araþtýrýlmýþtýr. 
+2. 	MATERYAL VE METOT (MATERIALS AND METHODS) 
+2.1. Deney Numuneleri (Experimental Specimens) 
+Deneysel çalýþmalar için, endüstride özel kullaným alanýolan, Inconel 718 süper alaþým (0.040% C, 0.08% Mn, 0.08% Si, 0.98% Ti, 0.50% Al, 0.23% Co, 3.04% Mo, 5.43% Nb+Ta, 17.80% Fe 19.00% Cr ve 52.82% Ni) malzemeden Ø50x500 mm boyutlarýnda hazýrlanmýþdeney numuneleri kullanýlmýþtýr. Inconel 718 süper alaþýmýn mekanik özellikleri Çizelge 1’de verilmiþtir. 
+
+
+2.2. Kesme Parametreleri, Kesici Takým ve Takým Tutucu (Machining Parameters, Cutting Tools and  Tool Holder) 
+ISO 3685’de önerildiði gibi imalatçý firmalarýn kesici takým kaliteleri için önerdiði kesme hýzý aralýklarýdikkate alýnarak 15, 30, 45, 60 ve 75 m/min olacak þekilde beþ farklý kesme hýzý belirlenmiþtir. ISO 3685’de tavsiye edilen aralýkta 0.20 mm/rev ilerleme hýzý ve 2 mm kesme derinliði seçilmiþtir. 
+Çizelge 1. Deney numunelerinin mekanik özellikleri (Mechanical properties of experimental specimens) 
+Sertlik  Akma sýnýrý Çekme dayanýmý Kopma uzamasý  
+(HB)  (MPa)  (MPa)  % (5do)  
+388  1375  1170  23.3  
+
+Kaplamasýz sementit karbür kesici takýmýn kesme hýzýna baðlý olarak, asýl kesme kuvveti ve ortalama yüzey pürüzlülüðüne etkisini deðerlendirmeyi hedef­leyen bu çalýþmada, Inconel 718 süper alaþým malze­mesi, SECO firmasýna ait SECO 883 kodlu RCMM 120400 geometrisine ve M15 kalitesine sahip deðiþti­rilebilir sementit karbür kesici takýmlar kullanýlmýþtýr. Kesici takýmlarýn ön boþluk açýsý 7°, talaþ açýsý 0° dir. 
+Takým tutucusu olarak ISO 5608’e göre RCMM 120400 formundaki kesici takým için CSRN R 2525 M12-MX7 tipi tutucu kullanýlmýþtýr. Takým tutucunun yanaþma açýsý 90°’dir.  
+
+
+
+
+2.3. Tezgah, Kesme Kuvveti ve Yüzey Pürüzlülüðü 
+Ölçme Aleti (Machine Tool, Cutting Force and Device of Surface Roughness) 
+Talaþ kaldýrma iþlemleri için 10 KW güce sahip 50 ve 3500 arasýnda devir yapabilen JOHNFORD T35 BSD sanayi tipi torna tezgahý kullanýlmýþtýr. 
+Talaþ kaldýrma esnasýnda 3 ortogonal kesme (Fc, Ff, Fp) kuvvetlerinin ölçümünde, gerinim ölçme esasýna dayalý, Kistler 9257B marka dinamometre kullanýl­mýþtýr. Dinamometre ile ilgili teknik özellikler Çizelge 2’de deney düzeneðinin þematik gösterimi ise Þekil 1’de verilmiþtir. 
+Þekil 1’de x elemaný Fp pasif kuvveti ölçen kuvvet elemanýný, y elemaný Ff ilerleme kuvvetini ölçen kuvvet elemanýnýve z elemaný ise Fc asýl kesme kuvvetini ölçen kuvvet elemanýdýr. 
+Yüzey pürüzlülük deðerlerinin ölçümü için Surtrasonic 3-P ölçü aleti kullanýlmýþtýr. Yüzey pürüz­lülüðü ölçümleri üç tekrarlamalý olarak yapýlmýþtýr. Ýþparçasý üzerinde oluþan yüzey pürüzlülüðü deðerleri-
+Çizelge 2. Kistler 9257B tipi dinamometrenin teknik özellikleri [Kistler, 1997] (Technical properties of  dyna­mometer of  Kistler 9257B type) 
+Kuvvet aralýðý (Fx, Fy, Fz)  -5...10 kN  
+Tepki verme  <0.01 N   
+Hassasiyet Fx, Fy  -7.5 pC/N  
+Fz  -3.5 pC/N  
+Doðal frekans f0 (x,y,z)  3.5 kHz  
+Çalýþma sýcaklýðý 0…70°C  
+Kapasitans   220 pF  
+20°C’daki yalýtým direnci  > 1013 .  
+Topraklama yalýtýmý > 108 .  
+Aðýrlýk  7.3 kg  
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+Ýþleme Parametrelerinden Kesme Hýzýnýn Inconel 718 Süper Alaþýmýn Ýþlenebilirliðine Etkisi A. Altýn vd. 
+
+nin ölçümleri için filitreleme (cut-off) uzunluðu 0.8 mm ve örnekleme uzunluðu 2.5 mm olarak alýnmýþtýr. Ortam sýcaklýðý 20 ±1 ºC’dýr. 
+
+3. BULGULAR VE TARTIÞMA (RESULTS AND DISCUSSION) 
+3.1. Kesme KuvvetindekiDeðiþim (Variation of Cutting Forces) 
+Farklý kesme hýzlarýnda elde edilen asýl kesme kuvveti deðerlerine ait grafik Þekil 2’de verilmiþtir. Kesme hýzlarýna göre asýl kesme kuvveti deðerine bakýlacak olursa en düþük ortalama asýl kesme kuvveti 75 m/min kesme hýzýnda yapýlan talaþ kaldýrmada görülmüþtür. En yüksek asýl kesme kuvveti deðeri ise 15 m/min kesme hýzýnda elde edilmiþtir. 
+Þekil 2’deki grafikte, kesme hýzýndaki artýþla birlikte, asýl kesme kuvvetinde düþüþ görülmektedir. Seçilen kesme hýzlarýnda elde edilen ortalama asýl kesme kuvveti deðerleri en küçükten en büyüðe doðru sýrasýyla 75 m/min’de (629 N), 60 m/min’de (765 N), 45 m/min’de (820 N), 30 m/min’de (910 N) ve 15 m/min’de (1150 N) olarak bulunmuþtur. Kesme esnasýnda elde edilen asýl kesme kuvvetini azaltmak için kesme hýzýnýn arttýrýlmasý gerekmektedir [13-15]. 
+
+Denenen sýnýrlar içerisindeki kesme hýzý ve asýl kesme kuvveti deðerleri arasýnda yapýlan regresyon analizinde, kesme hýzý ile asýl kesme kuvveti arasýnda kuvvetli bir azalan lineer iliþki olduðu görülmüþtür. Bu iliþki eþitlik olarak:  
+Fc = 1210,9 – 7,913 V  (R2 = 0,936) (1) 
+þeklinde ifade edilebilir. 
+Kesme kuvvetinin, kesme hýzýnýn artýþýna baðlý olarak düþmesinin sebebi, akýþbölgesindeki yüksek sýcaklýk ve azalan temas yüzey alaný olabilir. Kesme kuvvetin­deki azalma miktarý; malzeme çeþidine, çalýþma koþullarýna ve çalýþýlan kesme hýzý aralýðýna göre fark­lýlýk gösterebilir [16,17]. Düþük hýzlarda çalýþýrken (15 m/min), kesme hýzýnda saðlanan % 400’lük artýþile asýl kesme kuvvetinde % 83 düþüþ gözlenmiþtir.  
+
+3.2. Yüzey Pürüzlülüðündeki Deðiþim (Variation of  Surface Roughness) 
+Kesme hýzý farklýlýklarýna göre elde edilen (aritmetik ortalama) ortalama yüzey pürüzlülüðü deðerlerine ait grafik Þekil 3’de verilmiþtir. Kesme hýzlarýna göre ortalama yüzey pürüzlülüðü deðerine bakýlacak olursa en düþük ortalama yüzey pürüzlülüðü 45 m/min kesme hýzýnda yapýlan talaþ kaldýrmada görülmüþtür. Ortalama yüzey pürüzlülüðünün en yüksek deðeri ise 75 m/min kesme hýzýnda elde edilmiþtir. 
+Þekil 3’deki grafikte, kesme hýzýndaki artýþla birlikte, ortalama yüzey pürüzlülüðü belirli kesme hýzýna (45 m/min) kadar düþüþgöstermektedir. Kesme hýzý 60 m/min ve 75 m/min’e çýkarýldýðýnda ise ortalama yüzey pürüzlülük deðerleri artýþ göstermiþtir. Seçilen kesme hýzlarýnda elde edilen ortalama yüzey 
+
+
+A. Altýn vd. Ýþleme Parametrelerinden Kesme Hýzýnýn Inconel 718 Süper Alaþýmýn Ýþlenebilirliðine Etkisi 
+pürüzlülüðü deðerleri en küçükten en büyüðe doðru sýrasýyla 45 m/min’de (0.45 µm), 30 m/min’de (0.54 µm), 15 m/min’de (0.62 µm), 60 m/min’de (0.68 µm) ve 75 m/min’de (0.88 µm) olarak bulunmuþtur. Yüzey pürüzlülüðünü iyileþtirmek için kesme hýzýnýn arttýrýlmasý, literatürdeki en yaygýn yöntemdir [13, 17,18].  
+Kesme hýzý ve ortalama yüzey pürüzlülüðü deðerleri arasýnda yapýlan regresyon analizinde, kesme hýzý ile ortalama yüzey pürüzlülüðü arasýnda ikinci dereceden bir iliþki olduðu söylenebilir. Bu iliþki eþitlik olarak:  
+Ra = 0,876 – 0,02 V + 0,00027V2 (R2 = 0,937) (2) 
+þeklinde ifade edilebilir. 
+Ancak bu çalýþmada, denenen deðerler arasýnda kesme hýzýndaki artýþa baðlý olarak, yüzey pürüzlülük deðerlerinde belirli kesme hýzýna kadar (45 m/min) düþüþ görülmüþtür. Daha sonra ise kesme hýzý 75 m/min’e artýrýldýðýnda ortalama yüzey pürüzlülüðünde artýþ görülmüþtür. Bu durum, kaplamasýz sementit karbür kesici takýmýn, yüksek kesme hýzlarýnda kullanýlmasýnda, Inconel 718 süper alaþým malzemesine baðlý olarak kesme bölgesinde oluþan yüksek sýcaklýklarýn kesici takým üzerinde oluþturduðu yanak ve plastik deformasyon aþýnmalarýna baðlanmýþtýr. Kullanýlan kesme hýzlarýsonucunda, kesici takým üzerinde oluþan aþýnma tipleri 30x büyütmeli olarak tarama elektron mikroskobu (SEM) ile incelenmiþtir ve görüntüleri Þekil 4’de verilmiþtir. Yine ayný kesme hýzlarýnda 
+
+
+
+
+30 m/min 
+
+45 m/min 
+
+
+
+
+
+
+Þekil 4. Inconel 718’in beþ farklý kesme hýzý, 2 mm kesme derinliði ve 0,20 mm/rev ilerleme hýzýnda iþlenmesi sonucunda kaplamasýz sementit karbür kesici takým üzerinde oluþan yanak ve plastik deformasyon aþýnmasý ile oluþan talaþ biçimi görüntüsü (Chip forms of inconel 718 and flank wears and the plastic deformations on 
+uncoated cemented carbide inserts using 2 mm depth of cut and 0.20 mm/rev feed rate and 5 different speeds) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+Ýþleme Parametrelerinden Kesme Hýzýnýn Inconel 718 Süper Alaþýmýn Ýþlenebilirliðine Etkisi A. Altýn vd. 
+
+elde edilen talaþ biçimi görüntüsü Þekil 4’de verilmiþtir. Düþük hýzlarda çalýþýrken (15 m/min), kesme hýzýnda saðlanan % 200’lük artýþ ile yüzey pürüzlülüðünde gözlenen düþüþ % 27.5, kesme hýzýnýn 45 m/min’den 75 m/min’e artýrýldýðýnda % 66.6’lýk artýþ ile ise yüzey pürüzlülüðünde önemli artýþ(% 95.5) gözlenmiþtir.  
+Kesme iþlemi esnasýnda elde edilen talaþ biçimi Þekil 4’de görüldüðü gibi sürekli ve dar adýmlýdýr (45 m/min kesme hýzýnda elde edilen talaþ biçimi hariç). 30 m/min kesme hýzýnda elde edilen talaþ biçimi Þekil 5’de verilmiþtir. Talaþ uçlarý testere diþli olarak tespit edilmiþtir. Testere diþlerinin büyüklüðü kesme hýzýnýn artýþýna baðlý olarak artýþ göstermiþtir. Testere diþle­rinin artýþý, kesici takým yanak ve plastik deformasyon ile yüzey pürüzlülüðünün artýþý paralellik göstermiþtir. 45 m/min kesme hýzýnda elde edilen talaþ biçimi ise sürekli ve geniþ adýmlýdýr ayný zamanda talaþkenarýnda yýrtýlmalar görülmüþtür. Elde edilen talaþbiçimi literatürle benzerlik arz etmektedir [8]. 
+
+4. SONUÇ (CONCLUSIONS) 
+Bu çalýþmada, kaplamasýz sementit karbür kesici takýmlarla nikel esaslý Inconel 718 süper alaþým mal­zemesi üzerinde 75 m/min kesme hýzýna kadar olan yüksek kesme hýzlarýnda kesme iþlemi yapýlmýþtýr. Tespit edilen sýnýrlar içerisinde deneme bulgularýna göre elde edilen sonuçlar özetlenecek olursa; 
+• 
+Kesme hýzý ile asýl kesme kuvveti arasýnda kuvvetli bir azalan doðrusal iliþki vardýr. Kesme hýzýmiktarýnýn (15 m/min) % 400 artýrýlmasýyla (75 m/min) asýl kesme kuvveti deðerinde % 83 düþüþ elde edilmiþtir. En düþük asýl kesme kuvveti 75 m/min kesme hýzýnda (629 N) elde edilmiþtir. 
+
+• 
+Kesme hýzý ile ortalama yüzey pürüzlülüðü arasýnda ikinci dereceden bir iliþki olduðu 
+
+
+söylenebilir. Kesme hýzý miktarýnýn (15 m/min) % 200 artýrýlmasýyla (45 m/min) ortalama yüzey pürüzlülüðünde % 27.5 düþüþ elde edilmiþtir. Kesme hýzýnýn 45 m/min’den 75 m/min’e artýrýldýðýnda % 66.6’lýk artýþ ile ise yüzey pürüzlülüðünde önemli artýþ(% 95.5) gözlenmiþtir. En düþük ortalama yüzey pürüzlülüðü 45 m/min kesme hýzýnda elde edilmiþtir. 
+• 
+Inconel 718 süper alaþýmýn yüksek kesme hýzlarýn­da iþlenmesinde yüksek kesme hýzlarý kesici takým üzerinde yanak ve plastik deformasyon aþýnmasýoluþumuna yol açmýþtýr ve kesici takým üzerinde görü­len aþýnmalar ortalama yüzey pürüzlülüðünü olumsuz yönde etkilemiþtir. 
+
+• 
+Elde edilen talaþ biçimi genel olarak sürekli ve dar adýmlý olarak tespit edilmiþtir. 45 m/min kesme hýzýn­da elde edilen talaþ biçimi ise sürekli ve geniþ adým­lýdýr. Talaþ kenarlarýnda yýrtýlmalar görülmüþtür.  
+
+
+Kaplamasýz kesici takýmlarla inconel 718 malzeme­sinin denenen hýzlardan daha yüksek kesme hýzlarýnda iþlenmesi ve Inconel 718 malzemenin kaplamalýkesici takýmlarla iþlenerek sonuçlarýn karþýlaþtýrýlma­sýnýn yapýlmasý önerilebilir. 
+KAYNAKLAR (REFERENCES) 
+1.	
+Ezugwu, E. O., Wanga, Z. M., Machadop A. R., “The Machinability of Nickel- Based Alloys: A Review”, Journal of materials Processing Technology, Volume 86, Issues 1-3, 1-16, 1998. 
+
+2.	
+Field, M., “Machining Aerospace Alloys”, Iron and Steel Institute, Special Report 94, 151-160, 1968. 
+
+3.	
+Warbuton, P., Problems of Machining Nickel-Based Alloys, Iron and Steel Institute, Special Report 94, 151-160, 1967. 
+
+4.	
+Thomas T. R. Rough Surface, Longman, New York, 1982. 
+
+5Özçatalbaþ, Y., “The Effects Of Tool Wear And Mechanical Properties Of Work Piece Material On Surface Roughness And Cutting Forces”, G.Ü. Journal of Polytechnic, Vol. 4, Special Issue 47­52, 2002. 
+
+5.	
+Whitney, E. D., Ceramic Cutting Tools, Noyes Publications, New Jersey, 1994. 
+
+6.	
+Gatto, A., Iuliano, L., “Advanced Coated Ceramic Tools for Machining Superalloys”, Int. J. Mach. Tools Manufact., Vol. 37, No.5, 591-605, 1997. 
+
+7.	
+Richards, N., Aspinwall, D., “Use of Ceramic Tools for Machining Nickel-Based Alloys, Int. J. Mach. Tools Manuf. 294, 575-588, 1989. 
+
+8.	
+Focke, A. E., Westermann, F. E., Eemi, A., Yavelak, J., Hoch, M., “Failure Mechanism of Superhard Materials when Cutting Superalloys”, Proc. 4th Int.-Am.Conf., China, A 268-29, 1991. 
+
+9.	
+Coudhury, I. A., El-Baradie, M. A., Machining Nickel Base Superalloys: ýnconel 718, Proc Instn Mech Engrs, Vol 212, Part B, 195-205, 1997. 
+
+
+
+A. Altýn vd.Ýþleme Parametrelerinden Kesme Hýzýnýn Inconel 718 Süper Alaþýmýn Ýþlenebilirliðine Etkisi 
+10. 
+Coudhury, I. A., El-Baradie, M. A., “Machinability of Nickel-Base Super Alloys: A General Review”, Journal of Materials Processing Technology, Volume 77, Issues 1-3, 278-284, 1998. 
+
+11. 
+Coudhury, I. A., El- Baradie, M. A., “Machinabilitiy Assessment Of Inconel 718 by Factorial Design of Experiment Coupled with Response Surface Methodology, Journal of materials Processing Technology, Volume 95, Issues 1-3, 30-39, 1999. 
+
+12. 
+Trent E. M., Metal Cutting, 2nd ed., Butterwoths, London ISBN 0-408-10856, 1984. 
+
+
+13. 
+Boothroyd G., Fundamentals of Metal Machining and Machine Tools, International Student ed. 5th Printing, McGraw-Hill, ISBN 0­07-085057-7, New York, 1981. 
+
+14. 
+Paul Degarmo E, Black J. T, Ronaldo A. Kohser, Material and Process in Manufacturing, Prentice Hall International Inc., 1997. 
+
+15. 
+Çakýr, M. C., Modern TalaþlýÝmalat Yöntemleri, Vipaþ, Bursa, 2000. 
+
+16. 
+Modern Metal Cutting, Practical Handbook, Sandvik, 1994. 
+
+17. 
+Shaw, M. C., Metal Cutting Principles, Oxford University Press, London, ISBN 0-19-859002-4, 1984. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+
+
+
+
+
+

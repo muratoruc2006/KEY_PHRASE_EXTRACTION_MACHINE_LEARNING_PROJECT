@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ımageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ımageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABQ
+        HwAAAk1TRnQBSQFMAgEBCgEAAQgBAQEIAQEBFwEAARcBAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABXAMAAUUDAAEBAQABCAUAAcwBGBgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
+        AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
+        AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
+        AwABZgMAAZkDAAHMAgABMwMAAjMCAAEzAWYCAAEzAZkCAAEzAcwCAAEzAf8CAAFmAwABZgEzAgACZgIA
+        AWYBmQIAAWYBzAIAAWYB/wIAAZkDAAGZATMCAAGZAWYCAAKZAgABmQHMAgABmQH/AgABzAMAAcwBMwIA
+        AcwBZgIAAcwBmQIAAswCAAHMAf8CAAH/AWYCAAH/AZkCAAH/AcwBAAEzAf8CAAH/AQABMwEAATMBAAFm
+        AQABMwEAAZkBAAEzAQABzAEAATMBAAH/AQAB/wEzAgADMwEAAjMBZgEAAjMBmQEAAjMBzAEAAjMB/wEA
+        ATMBZgIAATMBZgEzAQABMwJmAQABMwFmAZkBAAEzAWYBzAEAATMBZgH/AQABMwGZAgABMwGZATMBAAEz
+        AZkBZgEAATMCmQEAATMBmQHMAQABMwGZAf8BAAEzAcwCAAEzAcwBMwEAATMBzAFmAQABMwHMAZkBAAEz
+        AswBAAEzAcwB/wEAATMB/wEzAQABMwH/AWYBAAEzAf8BmQEAATMB/wHMAQABMwL/AQABZgMAAWYBAAEz
+        AQABZgEAAWYBAAFmAQABmQEAAWYBAAHMAQABZgEAAf8BAAFmATMCAAFmAjMBAAFmATMBZgEAAWYBMwGZ
+        AQABZgEzAcwBAAFmATMB/wEAAmYCAAJmATMBAANmAQACZgGZAQACZgHMAQABZgGZAgABZgGZATMBAAFm
+        AZkBZgEAAWYCmQEAAWYBmQHMAQABZgGZAf8BAAFmAcwCAAFmAcwBMwEAAWYBzAGZAQABZgLMAQABZgHM
+        Af8BAAFmAf8CAAFmAf8BMwEAAWYB/wGZAQABZgH/AcwBAAHMAQAB/wEAAf8BAAHMAQACmQIAAZkBMwGZ
+        AQABmQEAAZkBAAGZAQABzAEAAZkDAAGZAjMBAAGZAQABZgEAAZkBMwHMAQABmQEAAf8BAAGZAWYCAAGZ
+        AWYBMwEAAZkBMwFmAQABmQFmAZkBAAGZAWYBzAEAAZkBMwH/AQACmQEzAQACmQFmAQADmQEAApkBzAEA
+        ApkB/wEAAZkBzAIAAZkBzAEzAQABZgHMAWYBAAGZAcwBmQEAAZkCzAEAAZkBzAH/AQABmQH/AgABmQH/
+        ATMBAAGZAcwBZgEAAZkB/wGZAQABmQH/AcwBAAGZAv8BAAHMAwABmQEAATMBAAHMAQABZgEAAcwBAAGZ
+        AQABzAEAAcwBAAGZATMCAAHMAjMBAAHMATMBZgEAAcwBMwGZAQABzAEzAcwBAAHMATMB/wEAAcwBZgIA
+        AcwBZgEzAQABmQJmAQABzAFmAZkBAAHMAWYBzAEAAZkBZgH/AQABzAGZAgABzAGZATMBAAHMAZkBZgEA
+        AcwCmQEAAcwBmQHMAQABzAGZAf8BAALMAgACzAEzAQACzAFmAQACzAGZAQADzAEAAswB/wEAAcwB/wIA
+        AcwB/wEzAQABmQH/AWYBAAHMAf8BmQEAAcwB/wHMAQABzAL/AQABzAEAATMBAAH/AQABZgEAAf8BAAGZ
+        AQABzAEzAgAB/wIzAQAB/wEzAWYBAAH/ATMBmQEAAf8BMwHMAQAB/wEzAf8BAAH/AWYCAAH/AWYBMwEA
+        AcwCZgEAAf8BZgGZAQAB/wFmAcwBAAHMAWYB/wEAAf8BmQIAAf8BmQEzAQAB/wGZAWYBAAH/ApkBAAH/
+        AZkBzAEAAf8BmQH/AQAB/wHMAgAB/wHMATMBAAH/AcwBZgEAAf8BzAGZAQAB/wLMAQAB/wHMAf8BAAL/
+        ATMBAAHMAf8BZgEAAv8BmQEAAv8BzAEAAmYB/wEAAWYB/wFmAQABZgL/AQAB/wJmAQAB/wFmAf8BAAL/
+        AWYBAAEhAQABpQEAA18BAAN3AQADhgEAA5YBAAPLAQADsgEAA9cBAAPdAQAD4wEAA+oBAAPxAQAD+AEA
+        AfAB+wH/AQABpAKgAQADgAMAAf8CAAH/AwAC/wEAAf8DAAH/AQAB/wEAAv8CAAP/AQAB/wH3Am0B6wht
+        A+wCbQHrAewBbQHrAfIGAAH/AfIBBwHsAW0CSgHsAe8B8QH/NAAB9AEOFAAB6wUAAfMBbQFKATAFNwEw
+        ASkBEgHwMwAB8gEAE+wBEwFtAwAB/wEHAQ8BLwFYAl0B5QFeAeUBXgJdATYBIgHtAf8xAAHyAQAT8wHs
+        AW0CAAH/Ae8BSQE2AVgJXQFYAVcBKQHsAf8wAAHyAQ4T9AHsAW0CAAEHASICVwNYBl0CWAJXASkB7TAA
+        AfIBDg70AvMC8gHzAewBbQEAAfMBFAFWA1cCWAI3AV0BWAI3AVgEVwEiAfAB/y4AAfIBDgHxAXQBcwNu
+        AW0BSgESARMBEgRKAUsCSgGZAewBbQEAAe8BUARXAjYCNwFYAZ8BWAE3AjYDVwFQARIB/y4AAfIBDgH0
+        AXMHRAVLAUoDSwEbAewBbQH/ARQBUAFWBFcDNgFYAvYBWAVXAVYBSQHxLgAB8gEOAfQBGgFzAW4CSwNE
+        AUsDRANLAXQBmQH0AewBbQHyASIDVgZXAXkB9gH/AfYBeQNXAlYBTwHvLgAB8gEOAvQBGgHvARwBSgJE
+        AUMBbgFLAUQCSwFKAUsBdAEbAfQB7AFtAfcBKANWAZkG9gT/AZ8BVwNWAVAB6y4AAfIBDgL0AfEBcwRE
+        ASIBHAFLAUQBSwJ0AUsBdAEbAfQB7AFtAesBSQNWAQgL/wEIAVcCVgFPARIuAAHyAQ4B9AHzAUsBRAJK
+        AUQBIgFEARoBcwJLAZkBGgEbAZkBGwH0AewCbQFJA1YBCAz/AZgCVgFPARIuAAHyAQ4C9AEaAZkBHAFE
+        ASIBQwFuAfQBdAJLAZMB8wIbAvQB7AFtAewBSQNWAQgL/wGYA1YBTwHqLgAB8gEOA/QBGgFEASMBIgFK
+        ARwB9AGTAUsBdAFLARoE9AHsAW0BBwFJAVUCVgGYBggD/wHzAZgDVgFVAU8B7C4AAfIBDgP0AZkBRAEj
+        AUoBcwGZAfQBmQF0AZkBdAF5BPQB7AFtAfQBIQFPCJcBeAH0Af8BwgWXAU8BSQEHLgAB8gEOBPQBmQJ0
+        ApkB9AEaAXQBmQKaAfMD9AHsAW0BAAHqAU8IlwGYAfMBCAaXAU8BFQHyLgAB8gEOBfQBGwGZAhoB9AEa
+        AXkBmQEbAfME9AHsAW0BAAEHAUkBTweXApgHlwFJAW0B/y4AAfIBDgb0AfMBGgHzAfQBGwEaARsG9AHs
+        AW0BAAH/ARMBSQGXAZ0LmAKdAU8BDgHzLwAB8gEOE/QB7AFtAgAB8gFDAUkBlwuYAZ0BTwFDAQcwAAHy
+        AQ4T9AHsAW0CAAH/AfIBQwFIAXcBmAO7AQgEuwGdAU8BDgHvAf8wAAHyAQ4TvAHrAW0DAAH/AfIBEwEN
+        AU8BlwKYAbsCmAGdAXEBSAEVAQcB/zEAAfMVDgFtBQAB/wEHAeoCDQFIAUkCSAENARQB7wHzMwAB/wFt
+        E0MBFQEHCAAB9AEHAewBbQHrAfcB8gH/OAAB/wP0Af8PABbsAQcXAAj/ATgB9g3/AgAB/wH0Av8P9AH/
+        AwABEAFtARQBEQIOARACQwEVARQCEgPqAREDAAHsBgAB/wHyAfABGwH0Af8LAAP/AfMB8QG8AQcB7wI4
+        AewDTAGSAfcB7wG8AfEBGgH0Av8BAAH/AvQB/wL0AfMD9AT/AfQC8wL0Af8B9AIAAQ4BbQHxAewBFAIQ
+        ARMB6wHsAZEBtQEJBBkB6wEOAgAB7AUAAf8B9AGXAS4BVgHxAfMD/wgAAf8B8wHxAQcB9wG5ATgB2gI4
+        AU0BTAJNAUwBswG5AVIDOAGaAf8BAAHyAQcB9wHwAfMD9AL/AfQD8wHxArwB8gL0Af8CAAESAW0BEgHr
+        AewB7QGSAeoCQwGSAbwFGQG8Ae0BDgEAAewFAAHyARwBVQE0ATUBUQFzAQcB9AH/CAAB/wH0AfIB8AHv
+        AtsBTAFNATgBTQFMBE0BTAHaAQcCOAHDAf8BAAEHAewBbQHtApIBBwH3Ae8C/wHyAQcBkgHsAusB7AHv
+        AfMB/wIAAUMBFQEQARMB7AH3AZIBEgIOAewB8Qb0AQcBDgEAAewDAAH/AfQBBwFQAS8BNQIvAVABcgEc
+        AfAB8wH0Af8FAAT/AboB2wHcBE0BTAFTBE0B3AG5AZoD/wEAAfcBEwESAW0BEgERAUMBEAHqAfMB/wHw
+        AewBFAERARACDwEUAQcB8wIAAQ4DDwESAewB6wEVAQ8BEAHsAfEG/wEHAQ4BAAHsAwAB/wHwAXgFLwFQ
+        AUoBKQFzAZkBGgH0Af8EAAT/ApACTQKzAk0BUwFNAUwCTQGzAYsE/wEAAe8B7AEHAe8B7AFDAhABEgHx
+        AfIB9wERARUBQwMPARABQwHwAgACEgIPARUCEgFDARUB7wHwAfMD9APzAQcBDgEAAewDAAH/AXMBKQQD
+        AikBKgIxAlMBGgH0BAAD/wO5Ak0CswJNAVMBTQHaAU0B2gLbAdoD/wEAAe8B7QG8AQcB7AEVAREBEAET
+        AQcBvAH3AeoCEwEUARABEQFDAREB7wH0AQABEQESAusBbQHsAe8BkgHsAXIBCAQZA/MBBwEOAQAB7AMA
+        Af8BBwFRAwMBKgFSAisCMgJZAXgBBwHyAf8CAAL/AbkC2wJNAZECTQFMAU0BUwFNAUwD2wHhAdsD/wEA
+        AQcB9wG8AQcB7AEUAUMBEQESAQcB7wGSAewBbQLqAREBQwEUARUB9wHzAgABQwLsAe0B7wHxAfAB7wFy
+        AbsCGQEJAggCGQG7AQ4BAAHsAwAB/wH0AZkBMAIqAVIBegFTATIBUwJZAVgBLwFWAQcB/wIAAv8B2wLc
+        CU0BTAFNAdsC4QT/AQABBwHvAfABBwHtAeoBFQFDARIBBwGSA+wB6wESAUMBFQESARMB7QHxAwACDgHr
+        ARkB7wL3AbsC8AGYAnIBUAGYAQgBBwEOAQAB7AMAAv8BGgFTAjIBUwF6AlMCegFZATgBNQE0AZcB/wIA
+        A/8B4QHjBE0BTAEaAbsBswEaAUYETQT/AQABBwH3AgcB9wHsAeoBEwFtAQcBvAEHAe0D7AEUARMB6gES
+        AewBvAUAAesB8gEHAbwC8ALyAbwBCAKYAQgB8QEHAQ4BAAHsBQABGgQyAVMEWQI4AVgBeQEIAf8CAAT/
+        A00BRgIaAbkC2gG5ApkBRgNNA/8BAAHvAewC7wH3Ae0B7AFtAesB7wIHAfcB7AGSAe8BEgHqAesB6gHs
+        AbwFAAHrAfICBwEIBfMB8AEIAfIB8wEHAQ4BAAHsBQABGgUyATgBWQF6A1kBWAGaAfQB/wIAA/8BlAFM
+        AhoB2wG5BtoDmQFGAk0C/wEAAZIBbQHvAfcDkgHtA+wB7QEHAewBkgEHAeoBbQHsAW0B7QHwBQAB6wHz
+        AZMBcwF4AfMG9AHzAfQBBwEOAQAB7AUAARoEMgI4AVkBoAHDAaAB5QFZARoEAAX/AbMBmQK5AdoB2wF4
+        AtsC2gEaBv8BAAH0AvMB8gHxAbwBBwPvAu0BBwG8Ae8B7AJtAewB6wHvAfIFAAHrAfQB8wLwBvQB8wG8
+        AfEBBwEOAQAB7AUAARoDMgQ4BFkB+wHDBAAF/wGzAZoCuQHbATICOAG5AdsB2gHbBv8DAAH/AvQB8wLy
+        AfEB8AHvAfcB7wEHAe8D7AHrAewB8AH0BQAB6wH0Af8I9AHyAe8B8AEHAQ4BAAHsBQABGgIyBjgBUgFY
+        AXoB5QHDBAAF/wHDArkB2wEsAzgB3ALbAdoG/wkAAfQB8wG8Ae8EkgEHAZIB7AHvAfMGAAHrB/QC/wHz
+        AfAB7wHwAbwBDgEAAewFAAEaAzgBWQE4AlkBWAFzARwB8QHyAfMEAAX/AZgCuQHbAegB4QEIARkBFAH/
+        AdsB2gb/CQAC/wG8Ae8B8AIHAbwCkgHvAQcB8wYAAewI/wH0AfECBwHxAbwBDgEAAewFAAEaATgBWQF5
+        AZkBHAGZAhoB7wEHAfIB9AH/BAAE/wHDAbMBuQHaAdsB/wESAhkC/wGzAdoG/wsAAfEBBwHvAbwBBwP3
+        Ae8B8gH0BgAB7Aj/AfMBvAHvAfEB9AG8AQ4BAAHsBQAB9AMaAfABvAHxAfIB8wLxAfMC9AQABv8BuQHa
+        AdsC/wIZAboB/wHbB/8LAAHzAfAB9wHxAe8B7AIHAbwB/wcAAewI/wHzAfABBwH0Af8BvAEOAQAB7AgA
+        BfME9AH/AfQEAAb/AbMC2gL/AhkB4QHcAdsH/wsAAf8C9AHyAQcB9wHwAfMC/wcAAewK/wH0Av8BvAEO
+        AQAB7AgABfQE/wL0BAAH/wG5AdoC2wPhAdsI/wwAAf8C9AHzAfIB8wH0CQAB7AL/AfMB8AHvAewHbQET
+        AQ4BAAHsCAAK9AH/BAAI/wEZAtoD2wn/HAABEgLvAZIB7AESAQ8KAAHsCAAF9AoADf8BuQn/LQAB7BcA
+        F/8ZAAH0AfMBkg3sAe8B8AH/HgAP9AH/GwAB8gH3AewB6wzsAZIBBwHzAf8EAAH/AfIL8AHyAf8IAAH/
+        AfQBGwEaC5kBGgH0Af8CABb/AwAB8AFDAQcN/wHzAfEB8gH0BAAB/wHsARIJ6gESAesB9AgAAf8B9AGa
+        AVILKgF0ARsB/wIAAfQB8wG8ELQBtQEHAfQDAAHxAeoB8AH/AfQCvAHxAfMH/wH0AfIBvAHzBAAB/wHs
+        Ae8J8wEHAW0B9AgAAf8B9AEaAXoBUgkxAlIBdAH/AgAB/wEZAbURrQG0AfMDAAHxAW0B8QH/AfQCvAEH
+        AbwB8AHyBv8B8gEHAfMEAAH/AewBBwkAAfABbQH0AfMB8QH/BQAB/wH0ARoBegFSCTEBegFSAXQB/wIA
+        Af8B3QG0Ea0BtAHyAwAB8QFtAfEC/wEbAZkCeQEcAbwB9AX/AfIBBwHzBAAB/wHsAQcJAAHwAW0B9AEH
+        Ae0B/wUAAf8B9AEaAXoBUgkxAXoBUgF0Af8CAAH/AQkBtAGzAq0BswK0AgkCtAIJAbQFrQHxAwAB8QFt
+        AfEC/wHzAXoCOAFYAZkBvAHyBP8B8gEHAfMEAAH/AewBBwkAAfABbQH0AQcB7QH/BQAB/wH0ARoBegFS
+        AzECKgQxAXoBUgF0Af8DAAEJBbQBuwEJAt0B1gG1AwkDtAKzAfIDAAHxAesB8QL/AfQBegI4AVkBeQGZ
+        AfAB8wH0Av8B8gEHAfMEAAH/AewBBwH/AfAGvAHzAQcBbQH0AQcB7QH/BQAB/wH0ARoBegFSAzECKgQx
+        AVkBUgF0Af8DAAEJBbQBCQTdAgkBGQEJBLQBswHxAf8CAAHxAesB8QP/AaABegI4AVkBeQEaAfEB8wL/
+        AfIBBwHzBAAB/wHsAQcB9AHsBm0BBwHtAW0B9AEHAe0B/wUAAf8B9AEaAXoEMQIqASsDMQFZAVIBdAH/
+        AwABCQW0AQkHGQEJBbQB3QH0AgAB8QHrAfEE/wHDAVkDOAF6ARoB9AL/AfIBBwHzBAAB/wHsAQcB9AES
+        BhACEgFtAfQBBwHtAf8FAAH/AfQBGgF6BDECKgEkASsCMQFZAVIBdAH/AgAB8wEJBtUB3AEJBBkB3AbV
+        AQkB8wIAAfEB6wHxBP8B9gHDAVkCOAFZAXoBGgH2Af8B8gEHAfMEAAH/AewBBwH0AW0FQwEVAewB6wFt
+        AfQBBwHtAf8FAAH/AfQBwwF6BDEBKgEkASoDMQFZAVIBdAH/AgABGQEJAdYF1QLcAxkBCQHcBtUB3AEZ
+        AgAB8QHrAfEG/wGaAVkCOAFZAZoBGwHzAfIBBwHzBAAB/wHsAQcB9AGSBuwBvAH3AW0B9AEHAe0B/wUA
+        Af8B9AHDAeUEMQMqAzEBWQFYAXkB/wIAAQkK3ALdB9wB1QHcAfECAAHxAesB8Af0ARoBWQE4AVkBeQHv
+        AbwB8gEHAfMEAAH/AewBBwj/AfQB8AFtAfQBBwHtAf8FAAH/AfQBwwHlAVIJMQFZAVgBmQH/AgAB9AHz
+        AfIC8ALdD9wBGQIAAfEB6wHwB/QB8wEaAVgBeQEaArwCBwHzBAAB/wHsAQcB/wf0Af8B8AFtAfQBBwHt
+        Af8FAAL/ARoBeQGZAVIBMQVSAzEBeQEbAf8CAAH/AfQB8wPxAd0BGQ4JAfMCAAHxAesB8An0ApkBBwG2
+        Ao4B6wHxBAAB/wHsAQcJAAHwAW0B9AEHAe0B/wcAAfMBGgEbAZkBdAGZAnkCmQJ5AVIBmQH0Af8CAAH/
+        AfQB8wTyAfMB8QTwArwFBwG1AfEB9AIAAfEB6wHwCfQB8wG8AfcBiAEYAWIBDwHwBAAB/wHsAQcJAAHw
+        AW0B9AEHAe0B/wQAA/8B9AH/AfQBBwHvAfQCmgL/AfQB8QGSAfAEAAH/AfQB8wLxAvIB8wLyA/MB8gLx
+        A/ABvAG7AfIB9AIAAfEB6wG8CvMB8gG8AYgBGAFiAQ8B8AQAAf8B7AEHCQAB8AFtAfQBBwHtAf8EAAH0
+        BP8B9AHxAQcBlAEaAfYB/wHzAfIB8QHtAfAEAAH/AfQBGQ0JBbsB8wH0AgAB8QHrAbwG8wPyAfMB8gG8
+        AW4CaAHsAfIEAAH/AuwJBwGSAesB9AEHAe0B/wQAAfQB9gGgAcMC/wH0ARsBGgEbAf8B9AK8AfAB9wHx
+        BAAB/wH0Ad0N1QS0AQkBGQH0AgAB8QHrAbwG8wHyAvEB8gHwAe8C7AGSAfMB9AQAAf8B9wvsAfcB8gEH
+        AfcB/wQAAfQB9gKaAfQC/wH0AvIC8QHvAQcB8QEHAfIEAAL/ARkFCQPcBtUDtAEJARkB9AIAAfEB6wG8
+        BvIB8QHwAQcB8gHvAW0B8AHzA/8EAA3/AfQB7QHvAfMB/wQAAv8B9gEaAZoB9gH/AfIBBwHvAfcB7wEH
+        AfAB8wL0BAAD9A7zA/IB8wL0AgAB8gHsAbwB8wT0AfMB8gG8Ae8B7QGSAQcB8wH/CgAB/wHvCJIB9wHw
+        AfMB9AH/BAAC9AIaAb0BdQGZAfACvALwAbwB8QL0Af8dAAHzAQcB8QH0A/8C9AHyAfAB7wHtAQcB9AH/
+        CwAB9AH3COwBkgH0BwAC9AEaAhsBUwGZAfEB8gHzAfQB8wHxAfIB9AH/HwAB/wL0CPMB/wH0JAAB/wGa
+        AfMOAAFCAU0BPgcAAT4DAAEoAwABXAMAAUUDAAEBAQABAQUAATwBAxYAA/8DAAEBAfgBAAH8CAABAQHw
+        AQABfAgAAQEBwAEAARwIAAEBAYABAAEMCAABAQGAAQABDAgAAQELAAEBawABAQsAAQELAAEBAgABBAgA
+        AQEBgAEAAQwIAAEBAYABAAEMCAABAQHAAQABHAgAAQEB8AEAAXwIAAEBAf4BAQH8BgAB4AH/Af4CAAED
+        Av8B+AMAAcABAAECAgABAwHwAT8B+AMAAYABAAECAgABAwHgAQcB+AMAAYABAAECAgABAwHgAQcB+AMA
+        AYABAAECAgABAwGAAQAB+AMAAYABAAECAgABAwGAAQABeAMAAYABAAECAgABAwGAAQABeAMAAYAEAAED
+        AYABAAEYAwABgAQAAQMBgAEAARgDAAGABAABAwGAAQABGAMAAYAEAAEDAeABAAEYAwABgAQAAQMB4AEA
+        ARgDAAGABAABAwHgAQABeAMAAYAEAAEDAeABAAF4AwAB4AQAAQMB4AEAAXgDAAH/AYABAgIAAQMB4AEA
+        AXgDAAH/AYABAgIAAQMB4AEAAXgDAAH/AeABAgIAAQMB4AEAAXgDAAH/AeABBgIAAQMB/AEAAXgDAAH/
+        AeABBgIAAQMB/AEAAXgDAAH/AfABHgIAAQMB/AEAAXgDAAL/Af4CAAEDAfwBHwH4AwAC/wH+AgABAwL/
+        AfgDAAP/AYABAAEPA/8BwAEAATAD/wGAAQABBwGAAQAB/wIAATACAAEDAYABAAEHAYABAAH/AgABMAIA
+        AQMBgAEAAQcBgAEAAf8CAAEwAgABAwGAAQABBwGPAfgBHwIAATACAAEDAYABAAEHAY8B+AEfAgABMAIA
+        AQMBgAEAAQcBjwH4AR8CAAEwAYABAAEDAYABAAEHAYABAAEfAgABMAGAAQABAQGAAQABBwGAAQABHwIA
+        ATABgAEAAQEBgAEAAQcBgAEAAR8CAAEwAgABAQGAAQABBwGAAQABHwIAATACAAEBAYABAAEHAYABAAEf
+        AgABMAIAAQEBgAEAAQcBgAEAAR8CAAEwAgABAQGAAQABBwGAAQABHwIAATACAAEBAYABAAEHAY8B+AEf
+        AcABAAEwAgABAQGAAQABBwGPAfgBHgIAAfACAAEBAYABAAEHAY8B+AEeAgAB8AIAAQEBgAEAAQcBgAEA
+        AR4CAAHwAgABAQGAAQABBwGAAQABHgIAAfACAAEBAYABAAEHAYABAAEeAgAB8AIAAQEBgAEAAT8B8AEA
+        AR4CAAHwA/8BgAEAAX8B8AEAAf4BAAEBAfAD/wHAAQEE/wHjAf8B8As=
+</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 17</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Noun.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Freq.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtParagraphs.Text" xml:space="preserve">
+    <value>YAPI ALT SİSTEMLERİ ENTEGRASYON PROBLEMLERİ VE ÇÖZÜM ÖNERİLERİ
+A.Tanju GÜLTEKİN ve Ziya UTKUTUĞ
+
+Mimarlık Bölümü, Mühendislik Mimarlık Fakültesi, Gazi Üniversitesi, Maltepe, 06570, Ankara, 
+gultekin@gazi.edu.tr, ziyaut@gazi.edu.tr 
+
+(Geliş/Received: 09.02.2004; Kabul/Accepted: 24.06.2005) 
+ÖZET 
+Yapı üretim süreci ardışık karakterdeki alt üretim süreçlerinden oluşmaktadır. Bu nedenle süreçlerde kullanılan tekniklerin entegrasyonu şarttır. Strüktürel alt sistem üretimine ilişkin teknikler, genel üretim sürecini belirleyen bir nitelik göstermektedir. Bu bağlamda uygulama alanı olarak seçilen; Dikmen Vadisi Konutları, Bilkent 3 ve Koru Siteleri ile Eryaman IV. Etap Konutlarında kullanılan “Tünel Kalıp” strüktürel alt sistemi, diğer alt sistemlerle olan entegrasyonu değerlendirilmiştir. Çalışmanın birinci bölümünde; strüktürel ve bölmeler alt sistemleri, strüktürel, bölmeler, ve teknik donatı alt sistemleri ve strüktürel, bölmeler, teknik donatı ve bitirmeler alt sistemleri arasındaki ilişkiler analiz edilmiştir. İkinci bölümde; anket yoluyla elde edilen kullanıcıdeğerlendirmeleri sentezlenmekte ve yorumlanmaktadır. Üçüncü ve son bölümde ise; problemlerin nedenleri belirlenerek çözüm önerileri sunulmaktadır. 
+
+1. GİRİŞ: PROBLEM ALANININ TANIMI boyutta ilişki ve etkileşimin bütüncül yaklaşımını, 
+diğer bir ifade ile eylem etkinliğinin bilgi akışını ve Yapı üretim süreci ardışık ve birbirlerini tamamlayan denetim organizasyonunun gereğini, diğer taraftan da; alt üretim süreçlerinden oluşmaktadır. Her alt üretim süreçlerde kullanılan teknikler arasında da süreci farklı nitelikteki teknikleri veya teknik entegrasyonu gerekli kılar. Kitlesel üretim biçimini paketlerini içerebilir. Alt süreçlerin kurgusu ve esas alan üretim süreçlerinde, strüktürel alt sistem özelliklerine göre bu alt süreçlerden birisinde üretimine ilişkin teknikler, genellikle genel üretim uygulanan teknik, hakim karakterli olup, diğer alt sürecini belirleyen bir nitelik göstermektedir. Bu süreçlerin tekniklerinin karakteristiklerine ilişkin teknikler, ister yerinde döküm, isterse de ön üretim sınırlamalar veya kısıtlamalar getirebilmektedir. Bu tabanlı olsunlar diğer yapı alt sistemlerini ve bunlar olgu, bir yandan süreçler arasında, organizasyonel arasındaki entegrasyonun biçimini belirledikleri gibi, 
+A.T. Gültekin ve Z. Utkutuğ
+süreç içi ve süreçler arasındaki organizasyonel boyuttaki ilişki biçimini de bilgi alanı ve denetim mekanizmalarının kurgusu bağlamında etkileyecektir. 
+Uygulama alanı olarak seçilen; Dikmen Vadisi Konutları, Bilkent 2 ve Koru Siteleriyle Eryaman 4. Etap Çağdaş Konutlarında strüktürel alt sistem, yerinde döküme dayalı bir seri kalıp sistemi olan “tünel kalıp” tekniğidir [1]. Bu baskın teknik çerçevesinde üretilen binalarda perde duvar aralıklarıve kalınlıklarıuygulanan projelere göre değişiklik göstermekle birlikte; bölmeler, teknik donanım ve bitirmeler sistemleri, modüler düzene uygun biçimde sisteme, prekast panel uygulamaları örneğinde görüldüğü gibi, endüstriyel karakterde olduğu kadar geleneksel tekniklerle de entegre edilmişlerdir. Süreçler arası organizasyonel bütünleşme açısından bakıldığı zaman, örnek alan uygulamalarında organizasyonel bütünlük gözükürken, diğer uygulama alanlarında her alt sürecin farklı organizasyonlarca yürütüldüğü görülmektedir. Süreçlerde kullanılan teknolojik karakteristiklerin tüm uygulama örneklerinde genel karakterleri itibariyle benzerlikler görülmektedir.Bununla beraber örnek alan uygulamalarında genel hatları itibariyle süreçler arasında bütünlüğün sağlandığı, organizasyonların “tanımlanan kaliteye” yaklaştığı, süreçler arasıentegrasyonun zayıf olduğu uygulamalarda ise, yapıhasar ve hatalarının yoğunlaştığı gözlemlenmiştir. 
+Bu makale çerçevesinde irdelenen problemin, tasarlanan “kalite”ye ulaşmada yukarıda belirtilen her iki boyuttaki entegrasyon sorununu çözme düzeyi ile ilgili olduğu göz önüne alınarak, öncelikle sonuç üründe ortaya çıkan sorunları gözlemek ve bunların kaynaklarına yönelme yöntem olarak benimsenmiştir. Bu amaçla uygulamaların yerinde gözlenmesi, projelerinin analizi ve iskana açılmış kesimlerdeki kullanıcı görüşlerini içeren anket çalışmalarıyapılmıştır. 
+Uygulama alanlarında gözlemlere göre saptanan sorunlar demetinin kaynağı, yapı hasarları ve hatalarıbağlamında iki boyutludur. Bunlardan ilki, strüktürel sistem ile bölmeler sisteminin entegrasyonu ile ilgilidir. İkincisi ise, bu iki sistemin teknik donanım sistemi ile olan ilişkisinden oluşmaktadır. Tüm sorunların göründüğü ortam ise, şüphesiz, bitirmeler sistemi üzerindedir.  
+Örnek alan uygulamalarında, bölmeler sistemi, yapıkabuğu ve iç bölme elemanları olarak iki grupta ele alınabilir. Strüktürel eleman olarak betonarme döşemeyle perde duvarlar aynı zamanda bölme elemanı olarak yapı kabuğunu oluştururlar. Bu elemanların yanında prekast paneller, gaz beton duvarlar, giydirme cephe elemanları gibi değişik malzeme ve sistemler uygulanmıştır. İç bölme elemanları ise, genellikle tuğla veya gaz beton gibi geleneksel malzeme ve tekniklerle üretilmektedir. 
+Yapı Alt Sistemleri Entegrasyon Problemleri ve Çözüm Önerileri 
+Yapı kabuğunu oluşturan perde duvar ve prekast paneller, 29/04/1998 tarihli (TS 825) “Isı Yalıtım Yönetmeliği”ne bağlı olarak, iç yüzeylerinden yalıtılarak katmanlaştırılmıştır. Beton prekast paneller mekan özelliklerine bağlı olarak düzenlenmiş olan beton perde duvarlara asılıp zeminde döşemeye oturtularak strüktürel sisteme entegre edilmektedir. Yalıtım ve bitirmelerle ilgili katmanlar ise, yerinde, bu bileşenlerin üzerine, geleneksel tekniklerle entegre edilmektedir. Tünel kalıp tekniğinin bu farklı teknikle bütünleşmesinde, birleşim yerlerine ilişkin sorunlar uygulama alanlarına göre farklılık göstermekle birlikte; derz aralığı düzeni, derz dolgu malzemesi uygulaması, bileşenlerin bağlantı noktalarında yer alan bağlantı malzemesi niteliğiyle bileşenlerin bağlantı işlemlerinde problem noktalarına rastlanmıştır [2]. Prekast panel – perde duvar bağlantıdetayları, strüktürel gereklilikleri bağlamında projelerde tanımlanmıştır. İç mekanlarda ısı transferi ve gürültü denetimi çerçevesinde; yapı kabuğu kompozisyonunda temel yaklaşım; iç yüzeyden yalıtmaktır. Ancak, malzeme seçimi, sıralaması ve konstrüksiyonunda karşılaşılan uygulama farklılıklarısöz konusudur. Bununla birlikte bileşen kesitlerinde karşılaşılan yoğuşma sorunlarının çözülemediği görülmüştür [1]. Yapı kabuğu olarak yapıda yer alan tuğla ve hafif beton bölme duvarların strüktürel sistemle bağlantılarında, strüktürel sistem elemanlarının yüzeylerinin kalıp yağlarından etkilenmeleri sonucu, elemanlarının bütünlük içerisinde davranmalarını zorlaşmıştır. Bu nedenle derzlerde oluşan çatlama ve ayrışmaların kaplama malzemeleriyle örtülmesi, problemin çıplak gözle görülmesini bir süre engelleyebilse de, bu malzemelerin yorulmalarına bağlı olarak zaman içerisinde belirginleşeceği açıktır. Bu sorun, yapıkabuğunda, özellikle de balkonları mutfak hacimlerinden ayıran gaz beton bloklarla oluşturulan duvar elemanlarının derzlerinde kullanıcılar tarafından hava filtrasyonu olarak algılanmıştır [1,3]. 
+Uygulamalarda, yapı kalitesinin göstergesi olarak, yapı kabuğu çok katmanlı yalıtımlı bir kabuk olarak ele alınmış olsa da, strüktürel ve bölme karakterli düşey ve yatay elemanlarda gürültü denetimine ilişkin önlemlerin ele alınmadığı görülmüştür. Bu bağlamda alınan önlemler; asansör yuvalarının yalıtımıyla döşemelerde yüzer şap uygulamasıyla sınırlı kaldığı, gözlemler ve mimari projelerinden anlaşılmıştır. 
+Örnek alanlarda; sıhhi tesisat, ısıtma ve elektrik tesisatı gibi teknik donatıyı oluşturan sistemlerin uygulanışı, geleneksel yapımda olduğu gibidir. Donatıların katlar arasındaki bağlantıları döşemelerin delinmesi veya toplu oldukları noktalarda düşey kanallara alınmaları yolu ile yapılmaktadır. Yataydaki yönlenme ise, tamamen geleneksel tekniklerdeki gibidir. Bu alanda bütünleşmiş karakterdeki malzeme/bileşen uygulamalarına rastlanmamıştır. Isıtma tesisatının gidiş ve dönüş donanımları, döşemeler üzerinde bırakılan rezervasyon boşlukları/delikleri kanalıyla sağlanmaktadır. Sıhhi tesisat düşey bağlantıları, geleneksel yapım/döşeme türünde ve havalandırma bacalarının kullanılmasıyoluyla yapıldığı gibi, perde duvar üzerinde açılan özel düşey kanallar yoluyla da sağlanmıştır. Bu işlem, özel düşey tesisat kanalı oluşturulmasınıgerektirmediği düşünülen mutfaklarda, tezgahın yer aldığıduvar üzerinde genişbir fuga bırakılarak düzenlendiği, projelerinde ve uygulamalarda görülmüştür. Tezgahların beton perde duvara dayanması durumlarında, tesisat boruları bu derin ve geniş fugalar içinden geçirilebilmekle beraber, uygulamada bu fugaların oluşturulmasının unutulmasıdurumunda beton perde duvarın işlenmesi söz konusu olmaktadır. Bu nedenle, tasarım sürecinde, tesisatın geleneksel malzeme ve tekniklerle üretilen duvarın üzerine gelmesine dikkat edilmiştir. Aksi hallerde, beton perde duvarların önüne tesisat donanımının işlenmesi amacı ile tuğla ve/veya gaz beton duvar yapılmıştır. Ancak tesisat elemanlarının bağlantılarında gerekli yalıtımın yapılmaması, bu konuda gürültü denetimine ilişkin ortak sorunu oluşturmuştur [1]. 
+Bitirmeler alt sistemi, binanın zarflanması ile ilgili olup, görsel niteliği kadar konfor koşullarınısağlayabilmesi açısından da irdelenmelidir. Bu nedenle, bölmeler sisteminin, yalıtım özellikleri de düşünülerek kaplanması gereği problem oluşturmaktadır. Yapı kabuğu yüzeyinin brüt beton olması nedeniyle, yağmura karşı korunmak ve cepheye renk vermek üzere akrilik boyayla boyanmıştır. Yüzeyde istenen doku ve desen prekast panellerle verilmektedir. Perde duvarlarda ise, yapımda tünel kalıp sisteminin kısıtları ve maliyetler üzerinde etkisi nedeniyle bu tür çalışma söz konusu değildir. Yapı kabuğunun iç yüzeylerinin yalıtımlıoluşu, alçı panoyla kaplanması ve yüzeyin plastik boya veya duvar kağıdıyla tamamlanmasıuygulamasını yaygınlaştırmıştır. Bu olgu, kabuk kesitinde oluşan yoğuşmanın alçı paneller üzerine yansımasına ve yapı kabuğunun ısıl performansında düşüşlere neden olmuştur. Banyo, tuvalet hacimleri duvarlarıve mutfaklarda tesisat/tezgah duvarlarıseramikle kaplanmıştır. Perde duvarlar üzerine seramik uygulamasının başarısı, perde duvarın yüzeyinin kalıp yağından arındırılmış ve seramiği yüzeye bağlayacak olan malzemeyle olan aderansınısağlanabilmesine bağlıdır. Bu gerekliliklere uyulmaması halinde, seramiklerin duvar yüzeyinden ayrışması söz konusudur. Nitekim, orta alt gelir grubu için üretilen toplu konut alanlarında seramiklerin zaman içinde düştüğü gözlenmiştir. Uygulama alanlarında yer alan konutların döşeme kaplamalarıhol, koridor ve ıslak hacimlerde seramiktir. Odalarda ise yaygın olarak halı kaplama kullanılmıştır. Konutun “üst kültür” gruplarına hitap etmesi durumunda, halı yerine ahşap parke uygulaması da yapılmaktadır. Ses emme kapasiteleri düşük olan bu 
+A.T. Gültekin ve Z. Utkutuğ 
+malzemeler, katlar arasında sesin yayılımı sorununu da getirmektedir. Bu nedenle bu malzemenin altına yüzer şap uygulaması yapılmaktadır. Ancak, bu uygulamalarda yalıtım malzemesi seçimi ve döşeme duvar birleşim derzleri detaylarının çözülmeyişi, uygulamayı tesirsiz hale getirdiği görülmektedir. Odalarda döşeme kaplaması olarak halının kullanılması halinde, halının ses emme kapasitesinin bu malzemelere kıyasla yüksekliği gürültü yayılımısorununa bir ölçüde cevap verse de, kir ve toz tutmasınedenleriyle hijyenik bir ortam yaratmadığı da gerçektir.  
+
+
+2. PROBLEM ALANIN ANALİZİ
+Örnek alan uygulamalarında yukarıda özetlenen analizler; proje verileri, yapım sürecinde olan veya tamamlanmış bulunan blokların gözlemlenmesi ve bunlara ilişkin sorunların fotoğraflarla belgelen­mesiyle gerçekleştirilmiştir. Görsel yolla saptanabilen sorunların yanı sıra, gözlenemeyen ancak kullanıcının kullanım sürecinde hissedip fark edebileceği sorun alanlarını da belirleyebilmek amacıyla, kullanıcıların görüşlerinin de alınması yoluna gidilmiştir. Uygulama alanlarının yaygınlığı, farklı zamanlarda ve farklıgruplarca uygulaması yanı sıra, kullanıcı kültür-gelir grupları farklılığı değerlendirmede ortak payda oluşumunu zorlaştırmaktadır. Değerlendirme süre­cinde örnek alanlara ilişkin derlenen projeler, yapıkalitesinin belirlenmesinde temel girdi olmasınedeniyle esas alınmıştır. Kullanıma açılan konut bloklarında kalite olgusuna girdi veren bileşen tasarımı ve konstrüksiyonu dışında;ısıl korunum, yapıkabuğunda yoğuşma denetimi, gürültü denetimi faktörleri kullanıcıların sorgulanması yoluyla değerlendirme sürecine bir kontrol mekanizmasıolarak girdi vermesi istenmiştir. Bu amaçla uygulama alanındaki kullanıcılara yönelik 50 adet anket uygulaması yapılmıştır [1]. Bu çalışmanın yanı sıra Bilkent Konutları ve Eryaman 4. Etap ÇağdaşKonutlarını çalışma alanı olarak ele alan ve kullanıcıtercihleriyle yapı kaplama malzemeleri bağlamında kalite belirleme çalışmalarında yer alan anket çalışmalarından da yararlanılmıştır [1-3]. Anket çalışmasında dört soru grubu oluşturulmuştur. Bunlardan ilki; bina yapım sistemi ve onun bileşenlerine, ikinci grubu bitirme/kaplama malzemeleri ve özelliklerine, üçüncü grubu ısıl konfor koşullarıve gürültü denetimine, son grubu da karşılaşılan yapı hasarlarının belirlenmesine ayrılmıştır. İlk iki grup sorular yapım sisteminin bileşenlerini ve uygulama sürecinde tasarım sürecinde alınan bitirme/kaplama malzemelerinde yapılan değişiklikleri saptamaya yöneliktir. Bu soru gruplarına ilişkin alınan cevaplarda sistemi etkileyen bir değişikliğin söz konusu olmadığı görülmüştür. Örnek alan uygulamalarında kullanıma açılan yerleşmeler en çok on yıl evvel gerçekleştirilmiştir. Uygulama alanlarındaki konutların bir kısmının ise tamamlanma tarihi ise 1998’dir. Bu nedenlerle örnek 
+A.T. Gültekin ve Z. Utkutuğ
+alanlarda köklü ve önemli onarım çalışmaları söz konusu olmamıştır. Yapılan onarımlar ise apartman bloklarının işletilmesi amacına yönelik olup, çoğunlukla mekanik sistemlerle ilgilidir (Tablo 1). Konut birimlerinde karşılaşılan sorunlar ise, kullanıcıların gayretleriyle giderilmiş görülmektedir. Bu nedenlerle, yapı kabuğunda belirlenen hasarlar büyük ölçüde olduğu gibi kalmıştır ve panel, panel ­perde duvar birleşimleri ve tesisat hacimlerindeki kaplamalar üzerinde yoğunlaşmıştır (Tablo 2). 
+Tablo 1. Apartman bloğu boyutunda 
+karşılaşılan sorunlar ve onarımlar [1,3] 
+Karşılaşılan hasarlar  Hasar oranı %  
+Pencere doğramaları 8  
+Kalorifer tesisatı  9.3  
+Temiz su tesisatı  5.3  
+Pis su tesisatı  4  
+Elektrik tesisatı  4  
+Dış cephe onarımı 1.3  
+
+Tablo 2. Yapı eleman ve bileşenler üzerinde karşılaşılan sorunlar ve oranları [1] 
+Karşılaşılan hasarlar  Hasar oranı %  
+Cephe paneli üzerindeki çatlak ve kırıklar  10.7  
+Cephe paneli perde duvar birleşimlerindeki çatlaklar  10.7  
+Tesisat hacimlerindeki seramiklerin kabarması  14.7  
+Tesisat hacimlerindeki seramiklerin düşmesi  9.3  
+Cephe duvarları üzerinde küflenme ve lekeler  28.0  
+
+Yukarıda ortaya konulan ve tablolarda oranlarıbelirtilen sorunların tüm örnek alanlar üzerinde homojen olarak dağıldığı söylenemez. Bu sorunların bir kısmı yapım sürecinde gerçekleştirilen işçilik kalitesiyle en aza indirilmiştir. Diğer taraftan Koru Sitesi örneğinde görüldüğü gibi, site ölçeğinde oluşturulan işletme organizasyonu, karşılaşılan bireysel sorunlara genel işletme sorunları dışında çözüm getirebilme yetkisine sahip olması nedeniyle, yapı hasarlarının görülmesi/gözlemlenmesini en alt düzeye çekmiştir. Örnek alanlardaki uygulamalarda mekan organizasyonu ve boyutsal özellikleriyle kullanılan malzeme niteliğinin, kalite tanımında başrol oynadığı görülmektedir. Isıl konfor düzeyinin belirlenmesi 29/04/1998 tarihli (TS 825) “Isı Yalıtım Yönetmeliği”ne, konfor düzeyinin korunması ise, konut bloklarında uygulanan ısıtma rejimine bağlıkılınmış olduğu anlaşılmıştır. Tüm konut bloklarına ilişkin projelerde ısı yalıtımı yapıldığı belgeleniyorsa da, gerek ilgili yönetmeliğin zaaf noktalarının varlığıve bu konudaki performans gerekliliklerine uyulmayış, gerekse de uygulama hatalarının varlığıanket sonuçlarında ortaya çıkmaktadır (Tablo 3). 
+Yapı Alt Sistemleri Entegrasyon Problemleri ve Çözüm Önerileri 
+Tablo 3. Isıl konfor düzeyi denetimi ile ilgili sorunlar ve oranları [1,3] 
+Isıl performansa etken sorunlar  sorun oranı %  
+Cephe panel derzlerinde oluşan filtrasyon  10.7  
+Pencere panel birleşimlerinde oluşan filtrasyon  45.3  
+Kış oranında cephe duvarlarının soğuk oluşu  50.7  
+Odaların çabuk ısınıp soğuması 12.1  
+Yakıt giderini fazla bulan kullanıcılar  32.0  
+
+Yukarıdaki tablonun incelenmesinden anlaşılacağıgibi, kullanıcıların ısınamama gibi bir sorunlarının olmadığı görülmektedir. Isınma amaçlı yakıt giderlerinin fazlalığından şikayet edenlerin azlığı, kullanıcıların gelir düzeyleri ve tüketim kalıplarıyla açıklanabilir. Buna karşın cephe duvarlarında hissedilen soğukluğun oranının yüksekliği, bu duvarlarda alınan önlemlerin yeterli olmadığının bir kanıtıdır. Diğer taraftan prekast bileşen derzlerinden kaynaklanan filtrasyonun varlığı, ısıl denetimin yeterli düzeyde gerçekleştirilemediğinin yanı sıra, bileşen tasarım ve uygulama sorunlarıyla derzlerde sorun olduğunu göstermektedir. Yapı kabuğu üzerinde ısıl denetime yönelik yeterli önlem alınmadığı Tablo 2’de belirtilen duvarlar üzerinde oluşan küf ve lekelenme oranının (%28.0) gibi yüksek değerde olması da kanıtlamaktadır. Bu olgular bütünü, ısıl denetimin; yapı kabuğunda kesit yoğuşması sorunuyla birlikte dikkate alınması zorunluluğunu ortaya koymaktadır. Örnek alanlarda karşılaşılan bir diğer önemli yapıkalitesi sorunu, gürültü denetimiyle ilgili olduğu anket çalışmalarından anlaşılmıştır. Apartman bloklarının konut birimlerinin önemli bir kesiminde gürültü denetimine ilişkin önlem alınmadığı, yapılanların ise asansör ve çöp bacalarının gürültü denetimine yönelik olarak yalıtılmasıyla sınırlı tutulmuş olduğu görülmektedir (Tablo 4). 
+Tablo 4. Apartman bloklarında gürültü kaynağı yeri [1,3] 
+Gürültü KaynağıYeri  Şikayet Oranı %  
+Konut birimleri   93.2  
+Çöp bacaları  18.7  
+Asansörler  22.7  
+
+Konut birimlerinde oluşan gürültü; tesisat sistemleri ve kullanıcı eylemleri kökenli olarak genelde iki grupta toplanabilmektedir. Kullanıcı eylemlerinden kaynaklanan gürültülerin önemli bir kısmının; yürüme, yatak odalarında konuşma ve salonda müzik sesine dayalı olarak oluştuğu görülmüştür (Tablo 5). 
+Kullanıcı eylemlerinden kaynaklanan gürültülere karşı duyarlılık gösterilmesine karşın, kullanıcıların tesisat sistemlerinden kaynaklanan gürültülere daha hoşgörüyle baktığı anketlerden anlaşılmaktadır (Tablo 6). Bu hoşgörünün altında tesisat gürültülerinin süreklilik göstermemesinin de önemli bir rol oynadığıkabul edilebilir.  
+Tablo 5. Konut birimlerinde oluşan gürültü türleri [1,3] 
+Gürültü KaynağıŞikayet Oranı % 
+Salonda darbe sesleri 46.7 Salonda müzik sesleri 82.7 Yatak odalarında konuşma sesleri 53.3 Hol ve koridorlarda yürüme sesleri 60.0 Islak hacimlerde yürüme sesleri 26.7 
+Tablo 6. Tesisat sistemi kaynaklı gürültü düzeyi kabulü [1] 
+Tesisat Sistemi Kaynaklı  Oranı %  
+Gürültü Düzeyi Kabulü  
+Şikayeti olmayanlar  5.3  
+Gürültü düzeyini az bulanlar  30.7  
+Gürültü düzeyini normal bulanlar  37.3  
+Gürültü düzeyini yüksek bulanlar  26.7  
+
+Yukarıda özetlenen anket sonuçları örnek alanlarda oluşan temel problem alanlarının, irdelenen hasar ve performans gereklilikleriyle ilişkilendirildiği zaman görülmektedir ki; bileşende görülen yüzey deformasyonu, bileşende görülen yüzey çatlakları, köşe ve kenar kırıkları, bileşenin yerleştirildiği yerden ayrılması, kabuk iç ve dış yüzeyinde boya–kaplama bozulmaları, bina iç mekanlarına hava sızıntılarının olması, bina iç mekanlarına yağmur suyunun girmesi, yapı bileşeni tasarımı ve konstrüksiyonuna yönelik olarak tasarım ve/veya uygulama süreçlerinde yapılan hatalardan kaynaklanmıştır. Yine ayni şekilde; yapıkabuğu iç yüzeyinde oluşan bozulmalar, dış duvar yüzeyinde hissedilen soğukluk duygusu, ısınma amaçlı yüksek enerji tüketimi, ısıl konfor düzeyi ve kesit yoğuşması denetiminin yeterli düzeyde gerçekleştirilememesi ve dolayısıyla, doğru ve rasyonel kabuk kompozisyonu ve konstrüksiyonunun gerçekleştirilememesiyle ilgili görülmektedir. 
+Bu yetersizlik ve eksiklikler gürültü denetimi konusunda da açıkça görülmüştür. Bu nedenlerle yukarıda tanımlanan temel sorunların performans gereklilikleri bağlamında yapı bileşeni tasarımı ve konstrüksiyonu, bileşenlere yönelik ısıl performans düzeyi ve kabuğun higrotermik denetimiyle mekanlarda gürültü denetimi kapsamında ele alınıp tartışılması uygun görülmektedir. 
+
+
+3. PROBLEMLERİN KAYNAĞI VE ÇÖZÜM ÖNERİLERİ
+Örnek alan olarak seçilip analiz edilen toplu konut alanlarındaki uygulamaların; kentsel tasarım, konut birimlerinde işlevsel çözümleme ve estetik kategoride ifade arayışlarında başarılı örnekler verdiği görülmektedir. Uygulamaların bu özellikleriyle kullanıcılara, bir ölçüde kimlik kazandıracağı
+A.T. Gültekin ve Z. Utkutuğ 
+varsayılmıştır. Bu nedenlerle, bu tür yerleşmeler özellikle orta üst ve üst gelir - kültür gruplarınca yaşam alanı olarak tercih edilir hale gelmiştir. Böyle bir yaklaşım 'konut ve konut çevresi kalitesi' kavramının içeriğinin tartışılmasını gerekliliğini doğurmuştur. Yapıda kalite kavramına yaklaşmak, onun karşıtı konumunda olan yapı hata ve hasarlarını, yapıdan beklenen performans düzeyleri göz önüne alınarak en aza indirgemekle olabilecektir. Yapıkalitesi oluşumunda temel faktörleri içeren yapıkabuğunun biçimsel özelliklerini içeren estetik kategori dışında, uygunluk faktörü bağlamında değerlendirilmesinde, kabuğun kompozisyonu, boyutsal özellikleri ve bileşenlerinin konstrüksiyonu son derece önemli yer tutmaktadır. Bu bağlamda yapılan analizlerde; 
+1. 
+Proje verileri incelendiği zaman prekast panel tasarımında onun biçimsel özellikleriyle strüktürel niteliğinin ön plana çıkarıldığı görülmektedir. Yapıkabuğunda 29/04/1998 tarihli TSE 825’e göre alınması gereken önlemler çerçevesinde, kesitteki yoğuşmaya yönelik alınması gereken önlemlerin yeterli ölçüde dikkate alınmadığı anlaşılmaktadır. 
+
+2. 
+Prekastpanellerde olduğu kadar yapı kabuğunu oluşturan perde duvar kompozisyonlarında, özellikle ısı yalıtımı uygulamasında dikkat edilmesi gereken hususlar uygulayıcıların inisiyatifine bırakılmaktadır. Bu olgu uygulamalarda ısıköprülerinin oluşmasına zemin hazırladığı gibi, yanlış veya eksik uygulamalar sonucu, beklenen performansın sağlanamayacağı ortamların yaratıl­masına da neden olmaktadır. 
+
+3. 
+Prekast panellerin düşeyde kendileriyle, yatayda ise perde duvarlarla oluşturduğu derzlerde profil oluşturulması, boyutlandırılması ve derz dolgu maddelerinin tanımlanması bağlamında, tasarım sürecinde uluslararası standartlara uyulmadığıprojelerinin irdelenmesi sonucu görülmüştür. 
+
+4. 
+Isı yalıtım malzemelerinin uygulanması örneğinde olduğu gibi, derz dolgu maddelerinin uygulan­masında da uygulayıcılara yeterli bilgi tasarım sürecinde aktarılmamakta, uygulama uygulayıcı­ların inisiyatifine bırakılmaktadır. 
+
+5. 
+Prekast panellerin yerlerine yerleştirilmesi ve bağlantılarının yapılmasında da uluslararası standart ve kabullere uyulmadığı görülmektedir. Derz aralıklarının bir tarafta yığılması en çok rastlanan olgulardan biri olup derz oluşumunu ve denetimini doğrudan etkilemektedir. 
+
+6. 
+Yapılarda ısı korunumu yönündeki uygulama zorunluluk haline getirilmişolmakla birlikte, yapıkalitesi bağlamında “gürültü denetimine” yönelik alınması gereken önlemler, “gürültü yönetme­liği”nde belirtilmiş, ancak zorunlu hale 
+
+
+A.T. Gültekin ve Z. Utkutuğ
+dönüştürülmemiştir. Bu uygulamanın temel nedeni “gürültünün” yapı kalitesini etkileyen bir konfor koşulu olduğunun henüz yeterince kullanıcı kitleleri ve kamuca kabul görmeyişi olarak yorumlan­maktadır. Ancak, özellikle orta üst ve üst kültür gruplarınca bu yönde taleplerin arttığı ve yeni yapılaşmalarda bu yönde önlemler alınmaya yönelindiği görülmektedir. Ancak uygulamaların son derece yetersiz olduğu açıktır. 
+Görüleceği üzere strüktürel, bölmeler, bitirmeler ve mekanik sistemler olarak belirlenen yapı sistemleri ve onlara ait bileşenlerin birbirleriyle entegrasyonu / bütünleştirilmesi aşamasında; 
+• 
+bileşeni oluşturan malzemelerin sırası / düzeni ve konstrüksiyonu 
+
+• 
+bileşenlerin birbiriyle bütünleştirilmesi / konstrüksiyonu 
+
+
+sırasında tasarım ve uygulama hataları üzerine problemlerin oluştuğu görülmektedir. Tasarım, uygulama ve denetim organizasyonlarının, organizasyon model ve reflekslerinin geleneksel yaklaşımlara yatkınlığı bu tür hataların oluşumunda önemli rol oynadığı açıktır. Bu olgu bileşen tasarımına dayalı endüstriyel süreçlerin, geleneksel tasarım süreçleriyle ifade edilmesi, uygulamalarında aynı yaklaşımlarla sürdürülmesi sonucunu da doğurmaktadır. Bu noktalarda eğitim sistemimizin eksiklikleri kadar, sürecin kurgusunu belirleyen mevzuat ve onların uygulanabilirliğini sağlayan organizasyon modellerinin oluşturulmasının gerekliliği ortaya çıkmaktadır. Nitekim, hataların kaynaklandığı süreçler arandığı zaman, sorunların temel kaynağının 'tasarım süreci' olduğu görülmüştür. Konut alanlarına ilişkin projeler büyük ölçüde geleneksel yapım ölçütlerine göre düzenlenmiş olup, bileşen tasarımı ve bunlara ilişkin ayrıntılar yeterli ölçüde bilgi içermemektedir. Bunun nedenleri şu şekilde sıralanabilir: 
+1. 
+Ulusal ölçekte endüstriyel yapıma ilişkin standart ve kabullerin yetersizliği ve/veya yatırım gücünün yetersizliği. 
+
+2. 
+Tasarım süreci içerisinde uluslararası standart ve kabullere ulaşma isteksizliği. 
+
+3. 
+Uygulayıcı firma bağlamında bu tür standart ve kabulleri uygulama isteksizliği. 
+
+4. 
+İhale, yapım denetim mekanizmalarının geleneksel yapım bağlamında düzenlenmiş olması ve mevzuatın günün bilgi birikimini yansıtmaktan uzak oluşu. 
+
+5. 
+Teknik bilgi birikimi ve yaygınlığındaki yetersizlik. 
+
+6. 
+Kullanıcının yapı kalitesi ve yaşam konforu anlayışı. 
+
+
+Bu sorunlar, teknik bilgi birikiminin standart ve yönetmeliklere yansıtılarak uygulamada zorunluluk haline getirilmesi ve endüstriyel süreçlere geçerken ciddi denetim mekanizmalarının oluşturulmasıyoluyla aşılabilir. Nitekim, TS 825; 1999 ve 2002 tarihlerinde revize edilmiş, ısıl korunum ve yoğuşmaya karşın yeterli olmamakla birlikte çözüm getirilmeye çalışılmıştır. Teknik bilgi birikimi bağlamında uluslararası standart ve kabuller sağlıklıve kaliteli yapı elde etmede yeterlidir. DIN, BRE, BS gibi kuruluşların çalışmalarına prekast panel tasarımı, ASHRAE, CIBSE gibi kuruluşların çalışmalarına ise, ısıl konfor koşullarının sağlanması, gürültü denetimi gibi konularda standart ve kabul oluşturmak üzere başvurulabilir görülmektedir. Ulusal ölçekte standart ve kabul oluşturmak üzere TSE. dışında, Türkiye Prefabrike Birliği gibi kuruluşlarca da çalışmalar yürütmekte ve desteklemektedir. Ancak bu tür çalışmalar bileşenin strüktürel gerekliliklerine ağırlık vermeleri nedeniyle yetersiz kalmaktadır. Bu yöndeki çalışmaların strüktürel gerekliliklerin yanı sıra uygunluk faktörü bağlamına da kaydırılması, yerel deneyimlerden birikim sağlayarak bu alanda kullanılabilecek dokümanların oluşturulması destek­lenmelidir. Endüstriyel nitelikli üretim, “doğru planlama” ve “doğru tasarım” süreçlerinin bir devamıolduğu takdirde, gerçek verimliliği sağlayabilecek niteliklere sahiptir. Doğrusal karakterdeki süreç de, her alt-süreci birbirlerine girdi-çıktı ilişkisiyle bağlıdır. Bir evrenin kalitesi kendisinden evvelki evrelerin kalite düzeylerine bağlı olmaktadır. Bu bağlamda belirlenen kritik noktalarda oluşturulacak denetim sistemi, yapının hedeflenen kalitede elde edilmesini sağlayabilecektir. Oluşturulacak bir model; süreç evrelerini, süreç içinde yer alan eylem ve karar alanlarını, süreçte kullanılan denetim tekniğini içermelidir. Bu içerikteki bir model Şekil 1’de önerilmekte olup, “pre-endüstriyel” üretimi içeren süreç ardışık üç alt-süreçten oluşmaktadır. Bunlar; planlama, tasarım, ve yapım süreçleridir. Tasarım süreci bünyesinde ardışık; ön tasarım, tasarım ve detaylandırma alt evresini barındırmaktadır. Her alt­süreç eylem ve karar alanlarını içermektedir. Bu süreçlerde alınan çıktılar denetim mekanizmalarıyla denetlenerek bir sonraki sürece girdi verirler. Planlama süreci, toplu konut üretimi bağlamında stratejik kararların alındığı ve bu yönde karar alanlarının oluşturulduğu süreçtir. Burada yer alan karar alanları; planlama analizleri, kaynak gereksinimleri, arazi verileri, organizasyonel veriler, tasarım ilkelerini ve maliyet analizlerini içerir. Burada alınan kararlar; ölçeği, süre ve tahmini maliyetlerçerçevesindedir. Üretim sürecinde endüstriyel nitelikli yönlendirici bir teknik veya alt üretim süreçlerinde yine endüstriyel nitelikli ürün kullanımınıgerekiyorsa, ön tasarım evresi geleneksel tasarım evresine göre farklılıklar içerecektir. Bu farklılıkların başında tekniklerin özellikleri, alt üretim süreçlerinde kullanılacak olan teknikler arası entegrasyon sorunları, bu teknikler bağlamında kullanılacak hazır, yada amaçlanan üretim için yeni ürün olarak düşünülen bileşenlerin mimari “avan proje”ye paralel olarak tasarlanması ve bunların yapıyı oluşturan 
+
+
+A.T. Gültekin ve Z. Utkutuğ
+sistemlerle entegrasyonuna ilişkin çalışmaların sürdürülmesi gelmektedir. Bu çerçevede ön tasarım evresinin karar alanları; teknik dokümantasyon, performans kriterleri bağlamında ele alınacak olan uygunluk, dayanım, güvenlik gibi faktörleri içeren sistem analizleri, mimari “avan proje” çalışmaları ve yapıma ilişkin gerekli diğer mühendislik hizmetleri ön tasarımı yer almaktadır. Ancak, bu karar alanlarının birbirleriyle koordinasyonu, şemada önerilen doğrusal akışın merkezinde yer alan organizasyonca sağlanmalıve maliyet, ihale dokümanlarının ön hazırlığı bu bağlamda sürdürülmelidir. 
+Elde edilen ön tasarım çıktıları, Şekil 1’de [D2a, D2b,.. D2n] olarak belirtilen denetim listeleriyle denetlenmesi söz konusudur. Denetim listeleri, bu aşamada, performans gereklilikleri bağlamında düzenlenmişolup; sistem analizleri, mimari ve diğer gerekli mühendislik hizmetleri tasarımına girdi verdiği gibi bu birimler arasında koordinasyonun sağlanmasında da etken faktör niteliğindedir (Tablo 7). 
+Denetim listeleri bu nedenle; teknik şartnameler, yönetmelikler, gerekli ulusal veya uluslararasıstandartlar ve kabullerle, bir anlamda bilgi bankasıolarak tanımlanabilecek olan dokümantasyon merkezi veya organizasyonuyla desteklenmelidir. Sistemin işleyişinin başarısı, temin edilen dokümantasyonun yeterliliği ve niteliğiyle birimler arası koordinasyona bağlıdır. Tasarım evresinin ikinci aşaması, ön tasarım aşamasında alınıp denetlenen kararların nesnelleştirilmesine yönelik tasarım kararlarının alınarak projelendirilmesi eylemlerini, ayni karar alanlarıyla içermektedir. [D3a, D3b,... D3n] olarak belirtilen malzeme ve konstrüksiyon özellikleri 
+Yapı Alt Sistemleri Entegrasyon Problemleri ve Çözüm Önerileri 
+bağlamında da desteklenen denetim listeleri, yine dokümantasyon birimince beslenmekte olup, performans kriterlerine ilişkin ölçütleri içerecek biçimde düzenlenmelidir. Yine bu listeler bir evvelki aşamada olduğu gibi, yapılan çalışmaların tekil ölçekte uygunluğunu denetlediği gibi, birimler arasındaki koordinasyonun sağlanması amacıyla da kullanılabilmelidirler. Tasarım sürecinin üçüncü aşaması olan yapım aşamasına ilişkin ön kararların alındığı ve bu bağlamda alınan kararların uygunluğunun nesnel boyutta denendiği bir aşama olarak tanımlanmaktadır. Özellikle endüstriyel nitelikleri olan bileşenlerin üretimi ve bunların yapısistemleriyle ilişkilendirilmesine yönelik deneysel örnek üretim uygulamalarını içerir. Bu nedenle bu aşamadaki denetim listeleri, üretim ve montaja yönelik gereklilikleri içermelidir. Bu tanımlar ve gereklilikler, projelerin ilgili kesimlerinde verilebileceği gibi, teknik şartnamelerin üretim ve montaj süreçlerinde kullanılmak üzere eki olarak da düzenlenebilirler. Yukarıda genel boyutuyla tanımlanan tasarım süreci, tanımlanan yapı kalitesi hedefine ulaşmada dolayısıyla, yapı hata ve hasarlarının tasarım kaynaklı boyutunu en aza indirgeyecek bir modeli tanımlamaktadır. Tasarım sürecinin temel hedefinin hedeflenen kalite bağlamında yapı elde etmek olması, uygulama ve montaj süreçlerine ilişkin olarak ve verilen modelde [D4a, D4b,.. D4n] olarak tanımlanan üretim ve montaj süreçlerine ilişkin denetimlerin uyulama aşamasına taşınmasına bağlıdır. Önerilen şemada belirtilen ve sürecin her aşaması için ardışık bir biçimde geliştirilip detaylandırılacak olan denetim listeleri dayanım, görünüm ve ekonomi faktörleri dışında şu faktörleri içermelidir. 
+
+Tablo 7. Denetim listeleri faktörleri [1] 
+Çevresel Faktörler:  Güvenlik Faktörleri:  
+*ısı transferi denetimi *kesit yoğuşması ve terleme denetimi *su buharı denetimi *ses geçirimsizliği denetimi *ses üreten kaynakların denetimi *hava ve diğer gazların geçirimsizliği denetimi *toz ve inorganik madde geçirimsizliği *koku geçirimsizliği denetimi *koku üreten kaynakların denetimi *su, kar geçirimsizliği denetimi *radyasyon geçirimsizliği denetimi  *yangında ateş, duman geçişlerinin denetimi *patlama yada atmosferik koşullar altında ani basınç değişikliklerine karşı denetim  
+Boyutsal Sapmaya Karşın Tolerans:  
+*derz birleşimlerindeki boyut ve pozisyon sapmaları*ısı-nem etkisi, strüktürel hareket, vibrasyon ve çatlamalar sonucu oluşan *hareketin denetimi  
+Dayanıklılık Faktörleri:  Bileşenlerin tespiti :  
+*minimum yaşam süresinin belirlenmesi *hasara karşıdirenç *bakteri, mikro organizma vb. karşı direnç *hava kirliliğine karşı direnç *ışık ve radyasyona karşı direnç *su, su buharına karşı direnç *suyun donma problemine karşı direnç *asid, yağ vb. problemlere karşı direnç *vibrasyon problemlerine karşı direnç *aşınmaya karşı direnç  *derz bileşenlerini bir yada birden çok doğrultuda desteklemek *derz bileşenlerini değişken deformasyonlara karşı dayanıklı kılmak *hareketli bileşenlerin çalışmasına izin vermek  
+Bakım Faktörleri:  
+*sökme ve birleştirmeye olanak sağlamak *yıpranan bileşen ve malzemenin değiştirilmesine olanak sağlamak  
+
+
+A.T. Gültekin ve Z. Utkutuğ
+Bu faktörler, performans gereklilikleri ve performans kriterleri bağlamında tanımlanmışlardır. Performans kriterleri ve ölçütleri, ulusal ve uluslararasıdüzeylerde düzenlenen ilgili standartlarında yer almaktadır. Yukarıda tanımlanan üretim süreci karar alanlarına bağlı olarak oluşturulan [D1, D 2, D 3,…] denetim listeleri, tasarım ve üretim süreci evresi özellikleri çerçevesinde yine yukarıda belirtilen performans kriter ve ölçütlerince desteklenmesi gerekmektedir. Yapı elde etmeye yönelik organizasyonel model farklılıkları yanı sıra, üretimin; ölçek, süre ve maliyet bağlamında teknolojik karakteristikleriyle niteliğini belirleyen farklılıklar mevcut yasal çerçevede tek tip denetim mekanizmasının oluşturulmasını engellemektedir. Temel denetim mekanizmasışüphesiz organizasyon içinde “öz disiplin”le kurulacaktır. İnsan doğasında olduğu gibi organizasyonların doğasında da en az girdiyle hedefe ulaşmak arzusu denetim mekanizmasının sağlıklı işlemesini engelleyecek temel faktör olarak görülmelidir. Mekanizmanın işletilmesi organizasyonun planlanan kaliteyi tutturması için yönlendirilmesini (motive edilmesi) ve hatta yasal bağlamda zorlanmasını getirecektir. Bu çerçevede nesne bağlamında yapı sistem ve bileşenlerinin entegrasyonunun zorunluluğu kadar tasarım ve yapım organizasyonlarının, yapı denetimi, yapı polisi ve yapı sigortası gibi faktörleri içeren yaptırımların organizasyonlarca sağlanması planlan­malıdır. Kurgulanacak bu tür organizasyonlar, planlama aşamasından başlayarak denetimin yanı sıra sürecin her boyutunda bilgi bankalarının oluşturul­masında danışmanlık hizmeti verebileceği gibi, yasal çerçevedeki boşlukları dolduracak önerileri kamuya iletmek görevini de sürdürebilecektir (Şekil 2). 
+Süreç içi denetim mekanizmaları organizasyonun öz disiplini ile kurulacaktır. Firmanın maliyet/fayda bağlamında beklentisi “kalite”ye ulaşma yolundaki stratejisini belirleyecektir. Teknik içerik özelliğiyle, süreçte kullanılan farklı tekniklerin, yapı sistemlerinin birbirleriyle entegrasyon sorunlarının bu bağlamda çözüleceği açıktır. Alt süreçleri bütünleşik karakterdeki üretim organizasyonlarında denetim mekanizmasının bu yolla işlemekte olduğu örnek alan uygulamalarında görülmüştür. Üretim sürecinde değişik organizasyonların, değişik alt süreçlerde 
+Yapı Alt Sistemleri Entegrasyon Problemleri ve Çözüm Önerileri 
+görev alması ve bu firmaların farklı fayda/maliyet ilişkisi gözetmesi süreç entegrasyonunu zorladığı yine örnek alan uygulamalarında saptanmıştır. Böyle bir ortamda “tanımlanan kaliteye” ulaşmada yaptırım gücü yüksek, tüm süreci denetleyen ve gereğinde süreç içinde danışmanlık hizmeti veren bir denetim mekanizmasına ihtiyaç duyulacaktır. Şekil 2’de öngörülen ilişkiye sahip bu organizasyon yapı hata ve hasarlarını engelleyecek ve aynı zamanda olasıhasarların tazmininde rol alacak nitelikte yapısigortası, yapı polisi kimliğine sahip olmalıdır. Ancak bu noktada, yasal mevzuat açısından deprem, ısıyalıtım gibi yaptırım gücü yüksek yönetmeliklerin yanı sıra mevzuatımızda isteğe bağlı olarak kullanılmasıöngörülen, gürültü denetimi, yangın güvenliği gibi güvenlik ve konfor vb. koşullarınıbelirleyen yönetmeliklerin de yaptırım gücüne kavuşması, var olan yönetmeliklerin “kalite” belirleyici özellikleri içerecek biçimde yeniden düzenlenmesi de gerekecektir. 
+
+
+TEŞEKKÜR 
+TÜBİTAK – İNTAG, (Proje No:232), “Tünel KalıpTeknikleri ile Üretilen Toplu konutlarda Problem Alanlarının Saptanması”, Gazi Üniversitesi Rektörlüğü, Bilimsel Araştırma Fonu, (Proje No: MMF-06/97-2), “Toplu Konutlarda YapıBileşenlerine Yönelik Kalite Değerlendirmesi” adlıaraştırma projeleri desteği için teşekkürlerimizi sunarız.
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>38</value>
+  </metadata>
+</root>

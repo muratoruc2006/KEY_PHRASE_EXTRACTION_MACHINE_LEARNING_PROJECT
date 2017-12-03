@@ -1,0 +1,922 @@
+BAZI TAHRÝBATSIZ DENEY METOTLARININ VAKUM 
+UYGULANMIÞ BETONLARIN BASINÇ DAYANIMLARININ 
+BELÝRLENMESÝNDEKÝ PERFORMANSLARININ 
+ÝNCELENMESÝ 
+
+Mürsel ERDAL ve Osman ÞÝMÞEK 
+
+Yapý Eðitimi Bölümü, Teknik Eðitim Fakültesi, Gazi Üniversitesi, 06500, Teknikokullar, Ankara, 
+
+merdal@gazi.edu.tr, simsek@gazi.edu.tr 
+
+(Geliþ/Received: 28.12.2004; Kabul/Accepted: 17.05.2005) 
+
+ÖZET 
+
+Bu çalýþmada, bazý tahribatsýz test metotlarýnýn vakum uygulanmýþ betonlarýn basýnç dayanýmlarýnýn 
+belirlenmesindeki performanslarý incelenmiþtir. Bunun için ayný karýþýmdaki betona farklý sürelerde vakum 
+uygulanarak 3 farklý özellikte beton hazýrlanmýþ, bu betonlarda tahribatsýz test metotlarýndan windsor probe 
+penetrasyon testi, beton test çekici ile yüzey sertliði ve ultrases geçiþ hýzý deneyleri yapýlmýþtýr. Ayrýca, beton 
+bloklardan alýnan karot örneklerin tek eksenli basýnç dayaným deðerleri belirlenmiþtir. Karot örneklerin tek 
+eksenli basýnç dayaným deðerleri ile tahribatsýz test metotlarýyla belirlenen basýnç dayaným deðerleri 
+karþýlaþtýrýlmýþ, sonuç olarak karot örneklerden elde edilen basýnç dayanýmlarýný, windsor probe penetrasyon testi 
+ortalama % 2.5, schmidt çekici % 5.4, bileþik metot ise % 3.5 yaklaþýklýkla belirlemiþtir.  
+
+1. GÝRÝÞ 
+teknolojilerden yararlanýlýr. Vakum uygulamasý da bu 
+teknolojilerden biridir. Vakum uygulanmasý ile beton 
+Kompozit bir malzeme olan beton, günümüz yapý 
+yüzeyinden 15 cm derinliðe kadar olan kýsmýndan, 
+üretiminin en önemli malzemesidir. Karýþýma giren iþlenebilirlik için konulmuþ olan su ile oluþan hava 
+malzemelerin kalitesi, karýþým oraný, betonun boþluklarý alýnýr. Böylece karýþýmýn su muhtevasý 
+karýlmasý, taþýnmasý, yerleþtirilmesi ve kürü betonun azaltýlarak daha iyi bir su/çimento oranýna ulaþýlýr. 
+performansýna etki eden önemli parametrelerdir. Su/çimento oranýnýn azaltýlmasý betonun hem fiziksel 
+Beton kalitesinin artýrýlmasý amacý ile taze betonun hem de mekanik özelliklerinin iyileþmesine sebep 
+yerleþtirilmesinde ve küründe bazý geliþmiþ 
+olur. Bu iþlemle 3 günlük betonun dayanýmýndaki 
+
+
+M. Erdal ve O. Þimþek Bazý Tahribatsýz Deney Metotlarýnýn Vakum Uygulanmýþ Betonlarýn Basýnç Dayanýmlarýnýn... 
+artýþ 
+% 100, 28 günlük betonun dayanýmýnda artýþ ise 
+% 50 olmaktadýr. Ayrýca betona vakum uygulamasý 
+erozyona, aþýnmaya ve devirsel donma çözülmelerine 
+karþý direnç kazandýrmaktadýr. Bu iþlemle betonun 
+büzülme ve çatlama yatkýnlýðý da azalmaktadýr. 
+Vakumlanmýþ betonun diðer bir avantajý da erken 
+katýlaþma ve sertleþmedir. Bu durum bazý koþullarda 
+kalýplarýn daha erken kaldýrýlabilmesine olanak saðlar. 
+Vakumlu beton, geniþ saha betonlarýnda, yollarda, 
+terminallerde, otoparklarda ve özellikle aþýnmaya 
+maruz olan döþemelerde kullanýlmaktadýr [1]. 
+
+Beton kalitesinin tespitinde kullanýlan en önemli 
+parametrelerden birisi basýnç dayanýmýdýr. Basýnç 
+dayanýmý, eksenel basýnç yükü etkisi altýndaki 
+betonun kýrýlmamak için gösterebileceði direnme 
+kabiliyeti olarak tanýmlanmaktadýr [2,3]. Beton basýnç 
+dayanýmýnýn belirlenmesinde kullanýlan standart 
+metot, silindir veya küp numuneleri taze betondan 
+hazýrlamak ve belirli yaþlarda bu numuneleri kýrarak 
+basýnç dayanýmýný belirlemektir [4,5]. Bu yöntem, 
+örnek alýnmasý, bakým, kür, deneyin yapýlýþý ve 
+sonucun alýnmasý aþamalarýyla kolay bir yöntemdir. 
+Ancak, silindir veya küp örneklerin, yerindeki betonu 
+tam temsil edememesi, kür koþullarý, döküm 
+sýrasýndaki sýkýþtýrma iþleminin ve test koþullarýnýn 
+her zaman ayný olmamasý 
+gibi nedenler, basýnç 
+dayanýmýnýn bu þekilde belirlenmesini sakýncalý hale 
+getirmektedir [4]. 
+
+Standart metot, sadece yeni inþa edilmekte olan 
+yapýlarýn beton basýnç dayanýmlarýnýn belirlenmesinde 
+kullanýlabilir. Eðer mevcut yapýlmýþ bir yapýnýn beton 
+basýnç dayanýmý belirlenecekse, bu durumda 
+kullanýlacak en yaygýn metot, sertleþmiþ betondan 
+kesilerek çýkartýlan karot örneklerin kýrýlmaya tabi 
+tutulduklarý metottur. Ancak, bina elemanýndan karot 
+alýnmasý ve bu þekilde betonun basýnç dayanýmýnýn 
+belirlenmesi, yapý elemanýnýn kesitinin azalmasýna ve 
+dolayýsýyla da taþýma kapasitesinin düþmesine neden 
+olmaktadýr. Ayrýca bu yöntem, hem zaman alýcýdýr 
+hem de ekonomik deðildir [4]. 
+
+Beton basýnç dayanýmýnýn belirlenmesinde, yukarýda 
+belirtilen metotlardan baþka, yapý elemanýna zarar 
+vermeyen, uygulamasý kolay tahribatsýz deney 
+metotlarý da kullanýlmaktadýr. Schmidt çekici ile 
+yüzey sertliðinin belirlendiði deney metodu, yapý 
+elemanýna zarar vermeyen, kolay ve hýzlý bir yöntem 
+olmasý nedeniyle en yaygýn kullanýlan metottur. 
+Ancak bir çok kiþi tarafýndan bilinçsizce 
+kullanýlmakta ve deney sonuçlarý yanlýþ deðerlendirilmektedir. 
+Ayrýca schmidt çekici, sadece beton yüzeyi 
+ile ilgili bilgi vermekte, betonun iç yapýsýný 
+yansýtamamaktadýr. Dolayýsý ile bulunacak sonuçlar, 
+betonun gerçek basýnç dayanýmýný vermez, sadece 
+tamamlayýcý ve yararlý ek bilgiler verebilir [6]. 
+
+Diðer bir tahribatsýz test metodu da, ultrasonik test 
+cihazý olarak adlandýrýlan bir cihaz vasýtasýyla 
+
+sertleþmiþ betonun içerisinden geçirilen ses 
+dalgalarýnýn hýzýnýn ölçüldüðü ve betonun basýnç 
+dayanýmý hakkýnda bir bilgi elde edildiði metottur [3]. 
+
+Yukarýda sayýlan bütün bu metotlarýn dýþýnda A.B.D., 
+Kanada ve Avrupa ülkelerinde yaygýn olarak 
+kullanýlan windsor probe penetrasyon test yöntemi de 
+mevcuttur. Windsor probe test cihazýnýn üreticileri, bu 
+yöntemin betonun basýnç dayanýmýný en çok % 5 hata 
+ile belirlediðini iddia etmektedirler [7]. Windsor 
+probe penetrasyon test metodunda; beton basýnç 
+dayanýmý, patlayýcý 
+yüklü çelik bir sondanýn, betonun 
+yüzeyinden içeri girmesi ve betona girme derinliðinin 
+ölçülmesiyle belirlenmektedir. Sonda yüzeyden içeri 
+ne kadar az girerse, betonun basýnç dayanýmý o kadar 
+yüksek demektir [7-10]. 
+
+Windsor Probe Test System Inc. tarafýndan, Windsor 
+probe penetrasyon testinin karot testi kadar iyi 
+sonuçlar verdiði ve betonun basýnç dayanýmýnýn 
+belirlenmesinde alternatif bir metot olarak tercih 
+edilmesi gerektiði ifade edilmiþtir [10]. 
+
+Swamy ve Al-Hamed, Windsor probe test metodu ile 
+karot dayaným testlerinin sonuçlarýný, standart olarak 
+hazýrlanan küp numunelerinin sonuçlarýyla 
+karþýlaþtýrmýþlardýr. Çalýþmanýn sonuçlarýna göre; 
+karot numunelerin basýnç dayanýmlarý ile Windsor 
+probe penetrasyon test metodu ile bulunan 
+dayanýmlar, 28 gün sonunda kýrýlan standart küp 
+numunelere yakýn sonuçlar vermiþtir [11]. 
+
+Gaynor, Windsor Probe test sisteminin, geleneksel 
+karot testinde ihtiyaç duyulan hassasiyeti saðladýðýný 
+ve Schmidt çekicinin kullanýlabileceði her yerde 
+rahatlýkla kullanýlabileceðini açýklamýþtýr. Gaynor, 
+ayrýca Windsor Probe test sisteminin ve Schmidt 
+çekicinin özel betonlarýn basýnç dayanýmlarýnýn 
+tahmininde yeterli hassasiyeti saðlamadýðýný belirtmiþ 
+her iki yöntemin de, yüksek yada düþük dayanýmdaki 
+betonlarýn, yapýdaki yerini belirlemekte kullanýlmamasý 
+gerektiðini söylemiþtir [12]. 
+
+Erdal vd., Windsor probe penetrasyon test metodunun 
+hýzlý ve kolay uygulanabilme özelliklerinin yanýnda, 
+diðer tahribatsýz test metotlarýna göre daha güvenilir 
+olmasý bakýmýndan, bir yapýnýn beton basýnç 
+dayanýmýný belirlerken alternatif bir test metodu 
+olarak kullanýlabileceðini, ancak bu metodun da, diðer 
+tahribatsýz test metotlarý gibi, yapýdan alýnan karot 
+numuneler ile kalibre edilmesi gerektiðini 
+söylemiþlerdir [13]. 
+
+Kopf’a göre; karot testi, basýnç dayanýmýný direkt 
+olarak ölçtüðünden yerinde dayanýmý ölçmek için en 
+güvenilir yöntem olarak görünmektedir, malzeme 
+kompozisyonu ve deney þartlarýnýn belirli sýnýrlarý 
+içerisinde, Windsor probe testinden elde edilen veriler 
+ile dayaným arasýnda yeterli hassasiyette baðýntýlar 
+elde etmek mümkündür ve Windsor probe testi, karot 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+Bazý Tahribatsýz Deney Metotlarýnýn Vakum Uygulanmýþ Betonlarýn Basýnç Dayanýmlarýnýn... M. Erdal ve O. Þimþek 
+
+testinin yerine tatmin edici bir þekilde kullanýlabilir 
+[14]. 
+
+Malhotra ve Painter, hem Windsor probe testinin, hem 
+de Schmidt çekici testinin, betonun kalitesini göreceli 
+olarak tahmin etmenin bir yolu olduðunu 
+söylemiþlerdir. Geri tepme sayýlarý ile sondanýn 
+betona girme derinliði arasýndaki baðýntýlar yazarlar 
+tarafýndan açýklanmýþtýr. Sondanýn betona 50 mm’ye 
+kadar girmesi nedeniyle Windsor probe testi 
+sonuçlarýnýn, sadece bir yüzey sertlik deneyi olan 
+Schmidt çekici deney sonuçlarýndan daha anlamlý 
+olduðunu belirtmiþlerdir [15]. 
+
+Caretta ve Malhotra, laboratuvarda 1. günden 3. güne 
+kadar Windsor probe penetrasyon testlerinin 
+sonuçlarýnýn deðiþkenliðini kullanarak, kalýp alma 
+zamanýný belirlemek amacýyla betonun erken 
+dayanýmýnýn tahminini incelemiþlerdir. Penetrasyon 
+testleri, 300x1220x1220 mm’lik beton döþemelerde 
+1., 2. ve 3. günlerde gerçekleþtirilmiþ ve bununla 
+birlikte basýnç deneyleri için döþemeden silindir 
+karotlar alýnmýþtýr. Test verilerinin analizlerinden, 
+çekiç deneyinden farklý olarak Windsor probe 
+penetrasyon testinin betonun erken dönem dayanýmýný 
+kabul edilebilir bir hassasiyette tahmin edilebildiðini 
+ve böylelikle betonarme inþaatlarda kalýp alma 
+zamanlarýnýn güvenle belirlenmesinde kullanýlabileceði 
+sonucuna varmýþlardýr [16]. 
+
+Franco ve arkadaþlarý, Windsor probe test metodunu, 
+Ýtalya’da Cagliari, Gioia Tauro ve Chioggia 
+bölgelerinde dalga kýran olarak kullanýlan dolosse 
+bloklarý ve tetrapod’lar üzerinde betonun 
+performansýný deðerlendirmek için kullanmýþlardýr. 
+Araþtýrmacýlar, bu çalýþmalar sonucunda tahribatsýz 
+deneylerden Ultrasonik deney metodu sonuçlarýnýn, 
+Windsor probe penetrasyon direnci deney metotlarý 
+sonuçlarýna göre daha güvenilir deðerler verdiðini 
+belirtmiþlerdir [17]. 
+
+Bungey, otoyol ve köprü döþemesinde Windsor probe 
+test yöntemini baþarýyla gerçekleþtirmiþtir. Yol 
+normal kullanýmdayken, sondalama iþlemi döþemenin 
+altýndan küçük, hareketli, hidrolik bir platform 
+yardýmýyla gerçekleþtirilmiþtir. Bungey, 18 sonda 
+setini (54 sonda) 6 saatte yerleþtirmiþ ve bu 
+çalýþmayla ilgili sonuçlarý yayýnlamýþtýr. Bungey’e 
+göre; Bilinmeyen bir betonun mukavemetinin 
+tespitinde, deney anlamlý sonuçlar versin yada 
+vermesin, sadece agrega sertliðine göre belirlenmiþ 
+sonuçlarýn yetersiz olduðunu belirtmiþtir [18]. 
+
+Bu çalýþmanýn amacý; Amerika’da ve Avrupa 
+ülkelerinde yaygýn olarak kullanýlan, fakat ülkemizde 
+henüz yeterince tanýnmayan tahribatsýz deney 
+metotlarýndan, Windsor Probe Penetrasyon Testi 
+(WPPT) ile betonun basýnç dayanýmýný belirlemektir. 
+Ayrýca, belirlenen basýnç dayaným deðerlerini diðer 
+bazý tahribatsýz deney metotlarý ve karot 
+
+numunelerden elde edilen basýnç dayaným 
+deðerleriyle karþýlaþtýrmaktýr. Bunun için üç ayrý 
+þartta hazýrlanan ayný boyutlardaki C 20 test 
+numuneleri WPPT, geleneksel ve diðer tahribatsýz 
+testlere tabi tutulmuþtur. Elde edilen deneysel 
+sonuçlar birbirleriyle karþýlaþtýrýlmýþtýr. 
+
+2. DENEYSEL ÇALIÞMA 
+Deneysel çalýþma, numunelerin üretimi, kürü, 
+tahribatsýz deneylerin uygulanmasý, karot numune 
+alýnmasý, deneye hazýrlanmasý 
+ve karot numunelerde 
+ölçüm ve basýnç deneyinin yapýlmasý aþamalarýndan 
+oluþmaktadýr. 
+
+2.1. Malzemeler 
+Bu araþtýrmada; beton agregasý olarak kýrma çakýl ve 
+kýrma kum, PÇ 42.5 portland çimentosu ve içme suyu 
+kullanýlmýþtýr. Beton üretiminde 1 m3 karýþýma giren 
+malzeme miktarlarý Tablo 1’de verilmiþtir. 
+
+Tablo 1. Beton karýþýmýna giren malzeme miktarlarý 
+
+Malzeme Miktarý 
+Kýrma Çakýl (16-25 mm) 334 kg 
+Kýrma Çakýl (4-16 mm) 632 kg 
+Kýrma Kum (0-4 mm) 761 kg 
+Çimento (PÇ 42.5) 426 kg 
+Su 190 lt 
+
+2.2. Beton Karýþýmýnýn Hazýrlanmasý, 
+Yerleþtirilmesi, Vakum Uygulanmasý ve Kürü 
+Karýþýmýn hesaplanmasýnda C 20 deðerleri esas 
+alýnmýþ ve hazýrlanan karýþýmýn çökme deðeri 20 cm 
+olarak ölçülmüþtür. Betona vakum uygulamasýnýn 
+yapýlabilmesi ve zeminden kaynaklanan çatlaklarýn 
+önlenebilmesi için, beton dökümü öncesi kalýplarýn 
+altýna polietilen örtü serilmiþtir. 
+
+Kalýplara, hazýr beton tesislerinden getirilen beton 
+sýrayla doldurulmuþ, sýkýþtýrma iþlemi doldurulan 
+kalýplar üzerinde vibratörlü yüzen mastar kullanýlarak 
+gerçekleþtirilmiþtir (Þekil 1). Vibratörlü yüzen mastar 
+ile sýkýþtýrma iþlemi, bütün kalýplar üzerinde eþit 
+sürelerde uygulanmýþtýr. Daha sonra yüzeye vakum 
+örtüsü serilmiþ (Þekil 2), kalýplarýn birincisine 34 
+dakika, ikincisine 17 dakika vakum uygulanmýþtýr 
+(Þekil 3). Üçüncü kalýba herhangi bir uygulama 
+yapýlmamýþ ve referans beton olarak düþünülmüþtür. 
+Vakum iþlemi bittikten sonra, vakum örtüsü kaldýrýlýp 
+beton yüzeyi, helikopter yardýmýyla perdahlanmýþtýr 
+(Þekil 4). 
+
+Bundan sonra 34 dakika vakum uygulanmýþ betona 
+“Tam Vakumlu Beton (TVB)”, 17 dakika vakum 
+uygulanmýþ betona “Yarým Vakumlu Beton (YVB)” 
+ve herhangi bir vakum uygulamasý yapýlmamýþ betona 
+da “Referans Beton (RB)” denilecektir. 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+M. Erdal ve O. Þimþek Bazý Tahribatsýz Deney Metotlarýnýn Vakum Uygulanmýþ Betonlarýn Basýnç Dayanýmlarýnýn... 
+Þekil 1.Betonun vibratörlü mastar ile sýkýþtýrýlmasý
+Þekil 2. Vakum örtüsü serilmesi 
+Þekil 3. Vakum iþleminin uygulanmasý
+Þekil 4. Yüzeyin helikopter mastarla düzeltilmesi 
+2.3. Beton Döþemede Yapýlan Deneyler 
+Doðrudan beton döþeme üzerinde Windsor probe 
+penetrasyon deneyi ve beton test çekici ile yüzey 
+sertliði deneyleri yapýlmýþ, ultrases geçiþ hýzý ve 
+basýnç dayanýmý deneyleri için karot numuneler 
+alýnmýþtýr. 
+
+2.3.1. Windsor probe penetrasyon deneyi 
+Penetrasyon testinde; 575 ft/lbs’lik bir enerji saðlayan 
+Windsor probe penetrasyon test cihazý kullanýlmýþtýr. 
+Penetrasyon deneyinde beton yüzeylerine 15’er 
+noktada deneme yapýlmýþ (Þekil 5), sondalarýn 
+betonun içerisine girmeyen kýsýmlarý ölçülmüþtür. 
+Ölçme iþlemi için ayarlý, derinlik göstergeli ölçme 
+cihazý kullanýlmýþtýr (Þekil 6). 
+
+Þekil 5. Windsor probe penetrasyon testinin 
+uygulanmasý
+Þekil 6. Sondanýn beton yüzeyi dýþýnda kalan 
+kýsmýnýn ölçülmesi 
+Penetrasyon dayaným deneyi ASTM C 803 
+standardýnda belirtilen esaslara uygun olarak 
+gerçekleþtirilmiþ [19], deney sonucunda beton 
+yüzeyinde oluþan çatlak Þekil 7’de gösterilmiþtir [20]. 
+Ölçme iþlemlerinden sonra Ek 2’de verilen ve 
+agreganýn Mohs sertlik deðeri ile iliþkilendirilen tablo 
+yardýmýyla betonun basýnç dayanýmý bulunmuþtur. 
+Mohs sistemi, minerallerin sertliðini 1’den 10’a kadar 
+derecelendiren, uluslar arasý kabul görmüþ bir 
+sistemdir. Yeni hazýrlanmýþ bir betonun içindeki 
+agreganýn sertliðini belirlemek için, en iyisi, karýþým 
+iþ sahasýna götürülürken içinden agrega numuneleri 
+almak veya eski bir beton test edilecekse yüzeyde 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+Bazý Tahribatsýz Deney Metotlarýnýn Vakum Uygulanmýþ Betonlarýn Basýnç Dayanýmlarýnýn... M. Erdal ve O. Þimþek 
+
+bulunan bir agreganýn yerini belirlemek gerekir. 
+Agrega belirlendikten sonra numaralanmýþ dokuz adet 
+mineralden oluþan kit kullanýlarak agreganýn Mohs 
+deðeri belirlenir. Agregayý çizme iþlemine, sertliði 9 
+olan taþ ile baþlanýr ve agrega çizilir. Eðer çizik açýða 
+çýkmadýysa sertliði 8 olan taþ 
+denenir. Bu iþlem, çizik 
+ortaya çýkana kadar sürdürülür. En son çizik 
+görünmeyen taþýn üzerindeki sayý agreganýn Mohs 
+deðeridir [5,10]. 
+
+Þekil 7. Sondasýnýn betona saplanmasýyla 
+yüzeyde oluþan çatlak 
+2.3.2. Schmidt çekici yüzey sertliði deneyi 
+Yüzey sertliði deneyinde; 0.225 kgm darbe enerjisi 
+olan N tipi geri tepmeli çekiç (Schmidt çekici) 
+kullanýlmýþtýr. Schmidt çekici ile, döþemeler üzerinde 
+200’er adet okuma yapýlmýþtýr. Yüzey sertliði 
+okumasý, ASTM C 805 standardýnda belirtilen 
+esaslara uygun olarak . = -90o açý ile beton yüzeyi 
+kuru iken yapýlmýþtýr [21]. 
+
+2.4. Karot Numunelerinin Hazýrlanmasý 
+Deneylerde kullanmak amacýyla hazýrlanan döþeme 
+betonlarýndan, 20’þer adet 75 mm çapýnda karot 
+örnekler alýnmýþtýr [22]. Karot örneklerin alt 
+kýsýmlarýndaki eðri yüzeyler, numunenin boyu 150 
+mm olacak þekilde sulu sistem taþ kesme makinesiyle 
+kesilmiþtir. 
+
+2.5. Karot Örneklerinde Yapýlan Deneyler 
+Deneye hazýrlanan karot numunelerinde aþaðýda 
+açýklandýðý gibi sýrasý ile ultrases ölçümü ve basýnç 
+deneyi yapýlmýþtýr. 
+
+2.5.1. Ultrases deneyi 
+Ultrases geçiþ hýzý deneyi, 20 adet karot örnek 
+üzerinde gerçekleþtirilmiþtir. Beton numunelerde 
+ultrases geçiþ hýzý ölçümü, numunelerin zemine temas 
+eden yüzeylerine dik doðrultuda yapýlmýþ ve numune 
+boyunca ultrases geçiþ süresi, mikro saniye cinsinden 
+ölçülmüþtür. Ultrases geçiþ hýzý deneyi, ASTM C 597 
+standardýna uygun olarak yapýlmýþtýr [23]. 
+
+Betonun basýnç dayanýmýný belirlemek için elde 
+
+edilen ultrases geçiþ hýzý deðerleri (V) ile Schmidt 
+çekici geri tepme sayýlarý (R) birlikte kullanýlmýþtýr. 
+Her numune için ayrý ayrý ortalama basýnç dayanýmý 
+deðerleri aþaðýda verilen formül kullanýlarak 
+belirlenmiþtir. Bu formül 62 datanýn kullanýldýðý 
+ultrases hýzý (V) ve schmidt çekici yüzey sertliði (R) 
+deðerleri arasýnda yapýlan regrasyon analizi 
+sonucunda en yüksek korelasyon katsayýsý (r=0.996) 
+ile basýnç dayanýmý ( .b ) deðeri belirlenebilmektedir. 
+
+Yazarlar bu formül ile, kendi þantiye datalarý için ±5, 
+literatürde rapor edilen çeþitli beton datalarý için ise en 
+fazla ±10 düzeyinde hata ile sonuçlarý 
+belirleyebildiðini ifade etmiþlerdir [24]. 
+
+Log. 
+b= 
+3.119 Log(R3V 4) 
+- 
+5.890 (1) 
+
+Eþitlikte; 
+.b : Basýnç dayanýmý (N/mm²)
+, 
+
+
+R : Geri tepme sayýsý, 
+V : Ultrases geçiþ hýzý (km/s)’dýr. 
+2.5.2. Basýnç deneyi 
+Tek eksenli basýnç deneyinde, 3000 kN yükleme 
+kapasiteli, dijital kumanda üniteli ve yükleme hýzý 
+kontrollü basýnç test cihazý kullanýlmýþtýr. Tahribatsýz 
+deneyleri tamamlanan numuneler, yükleme hýzý 1 
+kN/s olarak ayarlanan preste kýrýlarak basýnç dayaným 
+deðerleri belirlenmiþtir (Þekil 8). Basýnç dayanýmý 
+deneyi, ASTM C 39 standardýna göre yapýlmýþtýr [25]. 
+
+3. BULGULAR 
+Ayný özellikteki beton ile hazýrlanan ve farklý 
+sürelerde vakum uygulanan 3 grup örnek üzerinde 
+gerçekleþtirilen 4 ayrý deney türü verilerine ait 
+varyans analizi sonuçlarý Tablo 2, LSD testi sonuçlarý 
+ise Tablo 3’te verilmiþtir. 
+
+Þekil 8. Basýnç deneyi düzeneði 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+M. Erdal ve O. Þimþek Bazý Tahribatsýz Deney Metotlarýnýn Vakum Uygulanmýþ Betonlarýn Basýnç Dayanýmlarýnýn... 
+Tablo 2. Deney türlerine 
+göre varyans analizi sonuçlarý 
+
+Deney Türü Varyansýn 
+Kaynaðý 
+Serbestlik 
+Derecesi 
+Kareler 
+Ortalamasý 
+F Anlamlýlýk 
+Düzeyi 
+Tek Eksenli Basýnç 
+Dayanýmý Deneyi 
+Gruplar arasý 
+Gruplar içi 
+2 
+57 
+154.1 
+5.5 28.1 0.01 
+Windsor Probe Penetrasyon 
+Test Yöntemi 
+Gruplar arasý 
+Gruplar içi 
+2 
+42 
+219.4 
+11.5 
+19.0 0.01 
+Schmidt Çekici Ýle Yüzey 
+Sertliði Deneyi 
+Gruplar arasý 
+Gruplar içi 
+2 
+597 
+2496.4 
+9.4 
+266.4 0.01 
+Birleþik Metot Ýle 
+Basýnç Dayanýmý Tayini 
+Gruplar arasý 
+Gruplar içi 
+2 
+57 
+480.0 
+1.6 
+299.1 0.01 
+
+Tablo 3. Deney türlerine göre LSD testi sonuçlarý 
+
+Deney Türü, birimi 
+Beton Çeþitleri ve Farklýlýk 
+Karþýlaþtýrmasý 
+Büyüklük 
+Sýralamasý 
+Beton 
+Tipi TVB YVB RB Beton 
+Tipi 
+Aritmetik 
+Ortalama 
+Tek Eksenli Basýnç 
+Dayanýmý Deneyi 
+(N/mm²) 
+TVB 
+YVB 
+RB 
+f* 
+f* 
+f* 
+f* 
+f* 
+f* 
+TVB 
+YVB 
+RB 
+34.5 
+32.3 
+29.0 
+Windsor Probe 
+Penetrasyon Test 
+Yöntemi (N/mm²) 
+TVB 
+YVB 
+RB f* f* 
+f* 
+f* 
+TVB 
+YVB 
+RB 
+34.1 
+32.6 
+26.8 
+Schmidt Çekici Ýle 
+Yüzey Sertliði Deneyi 
+(N/mm²) 
+TVB 
+YVB 
+RB f* f* 
+f* 
+f* 
+TVB 
+YVB 
+RB 
+35.8 
+35.6 
+29.6 
+Birleþik Metot Ýle 
+Basýnç Dayanýmý Tayini 
+(N/mm²) 
+TVB 
+YVB 
+RB 
+f* 
+f* 
+f* 
+f* 
+f* 
+f* 
+TVB 
+YVB 
+RB 
+34.3 
+32.9 
+25.2 
+
+(f*) .= 0.01 anlamlýlýk düzeyinde fark vardýr. 
+
+3.1. Tek Eksenli Basýnç Deneyi Ýle Beton Basýnç 
+Dayanýmý 
+Tek eksenli basýnç deneyi ile belirlenen basýnç 
+dayanýmý verilerine göre; Betonlarýn basýnç dayaným 
+deðerleri arasýnda, .=0.01 anlamlýlýk düzeyinde 
+istatistiki anlamda farklýlýk vardýr (Tablo 2). 
+
+En küçük ortalama basýnç dayaným deðeri 29.0 
+N/mm² ile referans betonda, en büyük ortalama basýnç 
+dayaným deðeri ise 32.3 N/mm² ile tam vakumlu 
+betonda görülmüþtür (Tablo 3). Betonlar arasýndaki 
+bu dayaným farký yapýlan tüm tahribatsýz deneylerle 
+ve daha önce yapýlmýþ bir çok araþtýrmayla paralellik 
+göstermektedir. 
+
+Karotlarýn preste kýrýlarak belirlenmiþ basýnç 
+dayanýmlarý ile tahribatsýz metotlarla belirlenmiþ 
+basýnç dayanýmlarý arasýndaki iliþkiyi görebilmek için 
+regrasyon analizi yapýlmýþ ve analiz sonucunda en iyi 
+iliþki, r2=0.9525 regrasyon katsayýsý ile Windsor 
+probe test yönteminde görülmüþtür. Bu iliþki bileþik 
+metotta r2=0.9237, Schmidt çekicinde ise 
+r2=0.8495’dir (Þekil 9). 
+
+3.2. Windsor Probe Penetrasyon Test Yöntemi 
+Windsor probe penetrasyon test yöntemi ile belirlenen 
+basýnç dayanýmý verilerine göre; Tam ve yarým 
+vakumlu beton basýnç dayaným deðerleri arasýnda 
+.=0.01 anlamlýlýk düzeyinde fark olmadýðý, ancak 
+vakumlu betonlarýn basýnç dayaným deðerleriyle, 
+referans betonun basýnç dayaným deðerleri arasýnda 
+.=0.01 anlamlýlýk düzeyinde istatistiksel anlamda 
+farklýlýk olduðu görülmüþtür (Tablo 2). 
+
+En küçük ortalama basýnç dayaným deðeri 26.1 
+N/mm² ile referans betonda, en büyük ortalama basýnç 
+dayaným deðeri ise 34.1 N/mm² ile tam vakumlu 
+betonda görülmüþtür (Tablo 3). 
+
+3.3. Schmidt Çekici Yüzey Sertliði Test Yöntemi 
+Schmidt çekici yüzey sertliði deneyi ile belirlenen 
+basýnç dayanýmý verilerine göre; Tam vakumlu ve 
+yarým vakumlu beton basýnç dayaným deðerleri 
+arasýnda, .=0.01 anlamlýlýk düzeyinde fark olmadýðý, 
+ancak vakumlu betonlarýn basýnç dayaným deðerleriyle, 
+referans betonun basýnç dayaným deðerleri 
+arasýnda .=0.01 anlamlýlýk düzeyinde istatistiksel 
+anlamda fark olduðu görülmüþtür (Tablo 2). 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+Bazý Tahribatsýz Deney Metotlarýnýn Vakum Uygulanmýþ Betonlarýn Basýnç Dayanýmlarýnýn..
+. 
+M. Erdal ve O. Þimþek 
+
+36
+35
+34
+33
+32
+31
+30
+29
+
+
+
+Bileþik Metot-Karot 
+28 
+Rsq = 0.9237 
+27
+
+
+
+Schmidt Çekici-Karot 
+26 
+Rsq = 0.8495 
+25 
+
+
+Windsor Probe-Karot 
+24 
+Rsq = 0.9525 
+28 2930 3132 3334 35 
+
+Karot Ortalama Basýnç Dayanýmý (N/mm²) 
+
+Þekil 9. Karotlarýn ortalama basýnç dayanýmlarý ile tahribatsýz yöntemlerle belirlenmiþ 
+
+ortalama basýnç dayanýmlarý arasýndaki iliþki 
+
+Ortalama Basýnç Dayanýmý (N/mm²) 
+
+En küçük ortalama basýnç dayaným deðeri 29.6 
+N/mm² ile referans betonda, en büyük ortalama basýnç 
+dayaným deðeri ise 35.8 N/mm² ile tam vakumlu 
+betonda görülmüþtür (Tablo 3). 
+
+3.4. Bileþik Metot 
+Bileþik metotla belirlenen basýnç dayanýmý verilerine 
+göre; Betonlarýn basýnç dayaným deðerleri arasýnda, 
+.=0.01 anlamlýlýk düzeyinde istatistiki anlamda 
+farklýlýk olduðu (Tablo 2). 
+
+En küçük ortalama basýnç dayaným deðeri 25.2 
+N/mm² ile referans betonda, en büyük ortalama basýnç 
+dayaným deðeri ise 34.3 N/mm² ile tam vakumlu 
+betonda görülmüþtür (Tablo 3). 
+
+4. SONUÇLAR 
+Referans olarak hazýrlanmýþ betonun basýnç 
+dayanýmýný, 17 dakika vakum uygulamasý iþlemi 
+% 9.44, 34 dakika vakum uygulamasý iþlemi ise % 
+
+15.98 oranýnda artýrmýþtýr. 
+Beton karot numunelerin preste kýrýlmasýyla elde 
+edilen basýnç dayanýmlarýný, Windsor Probe 
+Penetrasyon Testi, ortalama % 2.5, Schmidt çekicinde 
+% 5.4, bileþik metot ise % 3.5 yaklaþýklýkla 
+belirlemiþtir. 
+
+Yukarýda belirtilen sonuçlar ýþýðýnda; Windsor Probe 
+Penetrasyon Test metodu, hýzlý ve kolay 
+uygulanabilme özelliklerinin yanýnda, diðer 
+tahribatsýz test metotlarýna göre daha güvenilir 
+
+gözükmektedir. Bundan dolayý bir yapýnýn beton 
+basýnç dayanýmýný belirlerken, alternatif bir test 
+metodu olarak düþünülebilir. Ancak, bu metot da, 
+diðer tahribatsýz test metotlarý gibi, yapýdan alýnan 
+karot numuneler ile kalibre edilmelidir. 
+
+Windsor probe penetrasyon testi, üretici firma 
+tarafýndan sadece agrega sertliði ile iliþkilendirilmiþtir. 
+Betonun basýnç dayanýmýnda agrega 
+sertliðinin yanýnda, agreganýn tipi, þekli ve maksimum 
+tane çapýnýn da etkili olduðu, sondanýn betona girme 
+derinliðini etkileyebileceði göz önünde bulundurulmalý, 
+beton karýþým oranlarý, nem içeriði, kür þekli 
+ve yüzey þartlarý gibi parametreler de incelenmelidir. 
+
+Ayrýca, betonun yaþý ve karbonatlaþma derinliði de 
+dayanýmý etkileyebilecek önemli parametrelerdir. 
+Bilindiði gibi karbonatlaþma, betonun fiziksel ve 
+kimyasal özelliklerini, yüzeyin altýnda belirli bir 
+derinliðe kadar deðiþtirebilir ve bu deðiþikliðin de 
+sonda penetrasyon derinliðini etkileyebileceði dikkate 
+alýnmalýdýr. 
+
+KAYNAKLAR 
+
+1. 
+Neville, A. M., Properties of Concrete, 
+Longman Scientific & Technical, New York, 
+U.S.A., 1993. 
+2. 
+Erdoðan, T. Y., “Betonda Kalite Sorunlarý ve 
+Yapýlarda Beton Kalitesinin Önemi. Ýyi Beton”, 
+Kuzey Kýbrýs 1. Beton Kongresi, Atatürk Kültür 
+Merkezi, Lefkoþe, 1990. 
+3. 
+Erdoðan, T. Y., Beton, METU Press Publishing 
+Company, Ankara, 2003. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+M. Erdal ve O. Þimþek 
+Bazý Tahribatsýz Deney Metotlarýnýn Vakum Uygulanmýþ Betonlarýn Basýnç Dayanýmlarýnýn... 
+4. 
+Erdoðan, T.Y., Özer, Ö., “An Evaluation of 
+Different Test Methods to Determine Concrete 
+Compressive Strength”, Fourth International 
+Conference on Concrete Technology in 
+Developing Countries, Gazimaðusa, Turkish 
+Republic of Northern Cyprus, 1996. 
+5. 
+Long, A. E., Henderson, G.D., Montgomery F.R., 
+“Why Assess The Properties of Near-Surface 
+Concrete”, Construction and Building 
+Materials, V.15, p.65-79, 2001. 
+6. 
+TS 3260, Beton Yüzey Sertliði Yolu Ýle Yaklaþýk 
+Beton Dayanýmýnýn Tayini, Türk Standardlar 
+Enstitüsü, Ankara, 1978. 
+7. 
+WPS 500 Windsor Probe Test Sistemi 
+Kullaným Kýlavuzu, NDT Windsor Systems 
+Inc., Chicago, U.S.A, 1994. 
+8. 
+Mehta, P.K., Concrete Structure, Properties 
+and Materials, Prentice-Hall, Inc., s.336, New 
+Jersey, U.S.A, 1986. 
+9. 
+Mallick, D.V., Ben-Zeitun A., “UPV Method of 
+Testing In-situ Concrete”, Proceedings of The 
+First International Conference on Concrete 
+Technology for Developing Countries, Amman, 
+Libya, 1983. 
+10. 
+Windsor Probe Test System, Inc., “Compressive 
+Strength Testing of Concrete”, Elmwood, U.S.A, 
+1970. 
+11. 
+Swamy, R.N. and Al-Hamed, A.H.M.S., 
+“Evaluation of The Windsor Probe Test to Assess 
+In-situ Concrete Strength”, Proc. Inst. Civil 
+Engineering, Part 2, England, 1984. 
+12. 
+Gaynor, R.D., “In-place Strength of Concrete - A 
+Comparison of Two Test Systems, Presented at 
+39th Annual Convention of The National Ready 
+Mixed Concrete Association”, Published with 
+NRMCA Tech., Information Letter No. 272, 
+New York, U.S.A, 1969. 
+13. 
+Erdal, M., Þimþek O., Aruntaþ, H. Y., “High 
+Technology Usage for The Quality Control of 
+Concrete”, 3rd International Advanced 
+Technologies Symposium, Ankara, Turkey, 
+August, 18-20, 2003. 
+14. 
+Kopf, R.J., Cooper, C.G., and Williams, F.W., 
+“In-situ Strength Evaluation of Concrete Case 
+Histories and Laboratory Investigations”, Concr. 
+Int. Design and Construction, U.S.A, 1984. 
+
+15. 
+Malhotra, V.M., and Painter, K.P., “Evaluation of 
+The Windsor Probe Test For Estimating 
+Compressive Strength of Concrete”, Mines 
+Branch Investigation Rep. IR 71-1, Ottowa, 
+Canada, 1971. 
+16. 
+Carette, G.G., and Malhotra V.M., “In-situ tests: 
+Variability and strength prediction of concrete at 
+early ages”, Malhotra, V.M., Ed., ACI, Spec. 
+Publ., U.S.A., 1984. 
+17. 
+Franco, L., Noli, A., Girolamo, P.D., Ercolani, 
+M., “Concrete strength and durability of 
+prototype tetrapods and dolosse: Results of field 
+and laboratory tests”, Coastal Engineering, 40, p 
+207-219, 2000. 
+18. 
+Bungey, J.H., Testing of concrete in structures, 
+2nd edition, Surrey University Press, 65-75, New 
+York, U.S.A., 1989. 
+19. 
+ASTM C 803/C 803M., Standard Test Method 
+for Penetration Resistance of Hardened Concrete, 
+ASTM, U.S.A., 1999. 
+20. 
+Erdal, M., Beton Basýnç Dayanýmýnýn Bazý 
+Tahribatsýz Test Yöntemleriyle Belirlenmesi,
+Yüksek Lisans Tezi, Gazi Üni., Fen Bil. Enst., 
+Ankara, 2002. 
+21. 
+ASTM C 805, Standard Test Method for 
+Rebound Number of Hardened Concrete, ASTM, 
+U.S.A, 1997. 
+22. 
+ASTM C 42/C 42M, “Standard Test Method For 
+Obtaining And Testing Drilled Cores and Sawed 
+Beams of Concrete”, ASTM, U.S.A., 1999. 
+23. 
+ASTM C 597, Standard Test Method for Pulse 
+Velocity through Concrete, ASTM, U.S.A., 
+1998. 
+24. 
+Arýoðlu, E., Odbay, O., “Bileþik yýkýntýsýz 
+yöntemle beton dayanýmýnýn kestirilmesi için 
+yeni formül ve uygulama sonuçlarý”, Beton 
+Prefabrikasyon Dergisi, Sayý 29, s.5-11, 
+Ankara, 1994. 
+25. 
+ASTM C 39/C, Standard Test Method for 
+Compressive Strength of Cylindrical Concrete 
+Specimens, ASTM, U.S.A., 2001. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+
+Bazý Tahribatsýz Deney Metotlarýnýn Vakum Uygulanmýþ Betonlarýn Basýnç Dayanýmlarýnýn... M. Erdal ve O. Þimþek 
+
+EK – 
+1 
+WINDSOR PROBE PENETRASYON DERÝNLÝÐÝNÝ BASINÇ DAYANIMINA ÇEVÝRME TABLOSU 
+
+
+GÖRÜNEN BASINÇ DAYANIMI (N/mm²) 
+SONDA MOHS MOHS MOHS MOHS MOHS 
+(cm) NO. 3 NO. 4 NO. 5 NO. 6 NO. 7 
+3,30 15,79 
+3.35 16,67 
+3.40 17,65 
+3.45 18,53 
+3.50 19,42 14,61 
+3.55 20,30 15,59 
+3.60 21,18 16,48 
+3.65 22,06 17,46 
+3.70 23,05 18,44 
+3.75 23,93 19,32 14,61 
+3.80 24,81 20,30 15,59 
+3.85 25,69 21,18 16,57 
+3.90 26,58 22,16 17,55 
+3.95 27,46 23,14 18,53 
+4.00 28,44 24,03 19,52 
+4.05 29,32 25,01 20,50 15,10 
+4.10 30,20 25,99 21,48 16,18 
+4.15 31,09 26,87 22,46 17,26 
+4.20 31,97 27,85 23,44 18,34 
+4.25 32,85 28,83 24,52 19,42 
+4.30 33,83 29,71 25,50 20,50 14,61 
+4.35 34,72 30,69 26,48 21,57 15,79 
+4.40 35,60 31,68 27,46 22,65 16,97 
+4.45 36,48 32,56 28,44 23,73 18,14 
+4.50 37,36 33,54 29,42 24,81 19,32 
+4.55 38,25 34,42 30,40 25,89 20,50 
+4.60 39,23 35,40 31,38 26,97 21,67 
+4.65 40,11 36,38 32,36 28,05 22,85 
+4.70 40,99 37,27 33,34 29,13 24,03 
+4.75 41,87 38,25 34,32 30,20 25,30 
+4.80 42,76 39,23 35,30 31,28 26,48 
+4.85 43,64 40,11 36,28 32,36 27,65 
+4.90 44,62 41,09 37,27 33,54 28,83 
+
+GÖRÜNEN BASINÇ DAYANIMI (N/mm²) 
+SONDA MOHS MOHS MOHS MOHS MOHS 
+(cm) NO. 3 NO. 4 NO. 5 NO. 6 NO. 7 
+4.95 45,50 42,07 38,25 34,62 30,01 
+5.00 46,39 42,95 39,23 35,70 31,19 
+5.05 47,27 43,93 40,21 36,77 32,36 
+5.10 48,15 44,82 41,19 37,85 33,54 
+5.15 49,03 45,80 42,17 38,93 34,72 
+5.20 50,01 46,78 43,15 40,01 35,89 
+5.25 50,90 47,66 44,23 41,09 37,07 
+5.30 51,78 48,64 45,21 42,17 38,25 
+5.35 52,66 49,62 46,19 43,25 39,42 
+5.40 53,54 50,50 47,17 44,33 40,60 
+5.45 54,43 51,48 48,15 45,40 41,78 
+5.50 55,41 52,47 49,13 46,48 42,95 
+5.55 56,29 53,35 50,11 47,56 44,23 
+5.60 57,17 54,33 51,09 48,64 45,40 
+5.65 58,06 55,31 52,07 49,72 46,58 
+5.70 58,94 56,19 53,05 50,80 47,76 
+5.75 59,92 57,17 54,03 51,88 48,94 
+5.80 60,80 58,06 55,02 52,96 50,11 
+5.85 61,68 59,04 56,00 54,03 51,29 
+5.90 62,57 60,02 56,98 55,11 52,47 
+5.95 63,45 60,90 57,96 56,19 53,64 
+6.00 64,33 61,88 58,94 57,27 54,82 
+6.05 65,31 62,86 59,92 58,35 56,00 
+6.10 66,19 63,74 60,90 59,43 57,17 
+6.15 67,08 64,72 61,88 60,51 58,35 
+6.20 67,96 65,70 62,86 61,59 59,53 
+6.25 68,84 66,59 63,94 62,66 60,70 
+6.30 67,57 64,92 63,74 61,88 
+6.35 68,45 65,90 64,82 63,06 
+6.40 69,43 66,88 65,90 64,33 
+6.45 67,86 66,98 65,51 
+6.50 68,84 68,06 66,69 
+6.55 69,23 67,86 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+

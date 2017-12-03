@@ -1,0 +1,219 @@
+TRANSFORMATÖRLERDE ÝÇ ARIZA AKIMLARININ BENZEÞÝMÝ
+Okan ÖZGÖNENEL 
+
+Elektrik – Elektronik Mühendisliði Bölümü, Ondokuz Mayýs Üniversitesi, 55139, Kurupelit, Samsun 
+okanoz@omu.edu.tr 
+
+(Geliþ/Received: 30.04.2004; Kabul/Accepted: 26.12.2005) 
+
+ÖZET 
+Bu çalýþmada, güç transformatörlerinin iç kýsa devre akýmlarýnýn modellenmesi ve bilgisayar destekli benzetimi gerçekleþtirilmiþtir. Güç transformatörü sarým – sarým ve sarým – toprak arýzalarýnýn benzetimi bu çalýþmanýn ana öðesini oluþturmaktýr. Ýç arýzalarýnýn ayrýntýlýmatematiksel modeli iletim hattý modeli (ÝHM) kullanýlarak çýkartýlmýþtýr ve giriþ büyüklükleri arasýndaki iþlevsel iliþkiler ortaya konmuþtur. Bu çalýþmada ortaya konan bilgisayar destekli benzetimler, sarým – sarým ve sarým – toprak arýzalarý için ÝHM tekniðinin Matlab ™ uygulamalarýndan meydana gelmektedir. Benzetimlerde kullanýlan devre parametreleri laboratuar ortamýnda gerçekleþtirilen gerçek zamanlý deneylerle desteklenmektedir.  
+
+1. GÝRÝÞ(INTRODUCTION) sargý deformasyonlarýný algýlamak amacýyla transfer 
+fonksiyonlarýnýn hesaplanmasý tekniðine dayanmak-Transformatörler elektrik güç daðýtým sisteminin en tadýr. Deformasyonlar veya sargý konumlarýnýn önemli elemanlarýndan olup, böyle bir elemanýn geometrik olarak deðiþmesi sargý iç kapasitelerinin yokluðu çok ciddi sonuçlara yol açabilir. deðiþmesine yol açmakta dolayýsýyla transfer Transformatör arýzalarýnýn algýlanmasý ve fonksiyonlarý da deðiþmektedir [2]. tanýmlanmasý amacýyla çok sayýda teknikler kullanýlmaktadýr. Transformatörü iç arýzalardan Modern güç transformatörleri üzerinde yapýlan 
+korumak amacýyla tasarým, üretim ve bakým çalýþmalarýn sonucunda, transformatörlerin devre dýþýaþamalarýnda kapsamlý çalýþmalar kalma oranlarýnýn %70 - %80’nini iç sargý arýzalarýgerçekleþtirilmektedir. Ýç arýzalarý tanýmlama oluþturmaktadýr. Bu kýsa devreler sargý yalýtýmlarýnýn yöntemlerinin baþýnda çözünmüþ gaz analizi bozulmasý sonucunda yakýn sargýlar arasýnda veya 
+gelmektedir ve yýllarca baþarý ile sürdürülmektedir. sarýmlarýn kendi üzerinde oluþmaktadýr. Genel olarak Ancak iç arýzalar en son teknikler kullanýlsa bile hala bu kýsa devreler sarým – sarým ve sarým – toprak varlýðýný sürdürmektedir [1]. arýzalarý olarak adlandýrýlmaktadýr [3]. 
+Kaðýt yalýtýmýnda kullanýlan selülozun bozulma Üç fazlý transformatör için sargý arýzalarýný temel alan 
+derecesi de iç arýzalarýn tanýmlanmasýnda kullanýlan transformatör modeli P. Bertrand ve arkadaþlarýstandart yöntemlerden biridir. Diðer bir yöntem ise, 
+O. Özgönenel 
+tarafýndan tanýmlanmýþtýr [4]. Temel olarak arýzalýsargýnýn iki ana parçaya ayrýlmasý ilkesine dayanmaktadýr. Bu temel ilke transformatörün diferansiyel korumasý amacýyla da kullanýlabilmektedir. Bu model sayesinde çok çeþitli iç arýza türleri oluþturulabilmekte ve koruma algoritmasýnýn davranýþý önceden kestirilebilmektedir.  
+Peter Palmer-Buckle ve arkadaþlarý tarafýndan tek fazlý bir daðýtým transformatörünün iç arýzalarýincelenmiþ ve uç davranýþlarý deneysel çalýþmalarla ortaya konmuþtur. [4] nolu kaynakçada belirtilen matematiksel yöntem ATP-BCTRAN adlý yazýlým kullanýlarak bilgisayar ortamýnda benzeþimler gerçekleþtirilmiþtir [5].  
+H. Wang ve arkadaþlarý, daðýtým transformatörünün iç sargý arýzalarýný sonlu elemanlar tekniði ve yapay sinir aðlarý (YSA) kullanarak modellemiþlerdir. Transfor­matörün sarým – sarým ve sarým – toprak arýzalarýelektromanyetik kuplaj ve yapýsal sonlu elemanlar kullanýlarak modellenmiþtir. Karar verme algoritmasýolarak da YSA kullanýlmýþtýr. Yapýlan benzeþimlerde transformatörün uç davranýþlarý önceden kestirilmeye çalýþýlmýþtýr. ANSOFT’un Maxwell yazýlýmý bu amaçla kullanýlmýþtýr [6], [7], [8]. 
+Bu çalýþmada; iç sargý arýzalarýnýn modellenmesi amacýyla birincil ve ikincil yanlardan çok sayýda kademe sargýlarý çýkartýlmýþ olan tek fazlýtransformatör üzerinde bir dizi deneyler yapýlmýþtýr. Deneysel çalýþmalar sonucunda elde edilen verilerle önerilen ÝHM tekniðin baþarýmý karþýlaþtýrýlmýþtýr. Benzeþimler þu adýmlarý kapsamaktadýr; a) ÝHM tekniði ile endüktans ve sýðaç elemanlarýnýn modellenmesi, b) transformatörün kademe sargýlarýnýiçeren geometrisinin çýkartýlmasý, c) ÝHM tekniðinin bu kademe sargýlarýna uyarlanmasý ve d) deneysel çalýþmalar ve bilgisayar benzetimleri. Bölüm 2’de ÝHM tekniðine kýsaca yer verilecektir. 
+2.	ÝLETÝM HATTI MODELÝ (ÝHM) (TRANSMISSION LINE METHOD TLM) 
+ÝHM yöntemi 1970 yýlýnda iki boyutlu elektro­manyetik alan problemlerinin çözümü için önerilen bir tekniktir. Günümüzde, üç boyutlu elektro­manyetik alan problemlerinin üzerine bir çok araþtýrma yapýlmýþtýr [9]. Devre benzeþimi açýsýndan bakýldýðýnda, ÝHM yöntemi ile 1990’lý yýllara kadar çalýþmalar yapýlmýþ ve temel devre elemanlarýnýn doðrusal (endüktans, sýðaç ve anahtar gibi) ÝHM modelleri oluþturulmuþtur [10]. Sonsuz uzunlukta bir iletim hattý, akým taþýyan paralel iki iletkenden oluþmaktadýr. Ýletkenlerin etrafýnda bir manyetik alan vardýr ve iletken boyunca gerilim düþümü olmaktadýr. Manyetik alan hattýn öz endüktansýnýn (L), gerilim düþümü ise direncinin (R) varlýðýný simgelemektedir. Uygulanan baþlangýç gerilimi de hattý yüklemekte ve iletkenler arasýnda elektrik alaný yaratmaktadýr. Bu etkenlerde iletkenler arasý sýðaç (C) ve hiçbir sýðaç da 
+Transformatörlerde Ýç Arýza Akýmlarýnýn Benzeþimi 
+kayýpsýz olmadýðýna göre paralel bir iletkenlik (G) ile simgelenir.  
+ÝHM tekniði temelde iletim hatlarýnýn daðýtýlmýþendüktans ve sýðaçlarýnýn modelleme tekniðine dayanmaktadýr. Endüktif etkinin oluþturulabilmesi amacýyla, endüktans baþlangýç anýnda kýsa devre gibi düþünülür, akým ve depolanan enerji de en büyük durumdadýr. Sýða etkisini oluþturmak amacýyla sýðaç açýk devre gibi düþünülür ve bu sayede gerilim farklýlýklarý yaratýlmaktadýr. Anahtar elemanlar geleneksel olarak; acýk durum için çok yüksek deðerlikli bir direnç ve kapalý durum için çok küçük deðerlikli bir direnç ile modellenmektedir. Bu tip modellemede, sistem empedansýnýn her benzeþim adýmý için yeniden hesaplanmasý zorunluluðu vardýr. Ancak ÝHM tekniðinde anahtar elemanlar (iç arýza durumlarýnýn oluþturulduðu) iletimde çok küçük deðerlikli endüktans deðeri ve kesimde ise çok küçük deðerlikli sýðaç deðeri ile modellenmektedir. Aþaðýdaki þekilde endüktansýn ÝHM modeli görülmektedir. 
+
+Þekil 1. (a) Endüktansýn eþdeðer devresi, (b) Endüktansýn ÝHM gösterimi ve (c) Thevenin eþdeðeri. 
+g: gelen dalga indisi, y: yansýyan dalga indisi (Figure 1. 
+(a) Equivalent circuit of an inductor, (b) TLM representation of an inductor and (c) Thevenin equivalent. g: incident pulse index, y: reflected pulse index) 
+Yukarýdaki þekilde; 2L
+ZL karakteristik empedanstýr ve ZL =ile ifade 
+.t 
+edilir. .t örnekleme adým aralýðýdýr. VL endüktans üzerinde düþen gerilimdir ve kVL =2kVLg+kI.ZL eþitliði ile hesaplanýr. Endüktans üzerinden yansýyan gerilim, kVLy=kVL -kVLg eþitliði ile hesaplanýr. Bir sonraki k adýmýnda ise gelen gerilim darbesi bir 
+önceki adýmda hesaplanan yansýyan gerilim darbesine 
+eþit alýnarak, k+1VLg=-kVLy=kVL -kVLg, benzeþim arzu edilen zamana kadar tekrarlamalý olarak devam ettirilir. 
+ÝHM tekniði doðasýnda ayrýk bir yöntem olup, bilgisayar uygulamalarý için çok elveriþlidir. Bu özelliðinden ötürü bu çalýþmada transformatörün iç arýzalarýnýn modellenmesinde farklý bir yaklaþým olarak önerilmiþtir. Bu makale, yazarlarýn [11] nolu kaynakçada belirttiði çalýþmanýn devamýniteliðindedir. 
+
+3. TRANSFORMATÖR ÝÇ ARIZALARI (TRANSFORMER INTERNAL FAULTS) 
+Transformatör iç arýzalarý iki ana gruba ayrýlýr. Bunlardan ilki iç kýsa devre arýzalarýdýr ve genellikle sarým – sarým ve sarým – toprak arýzalarýþeklinde ortaya çýkar. Bu arýzalar çok hýzlý oluþur ve genellikle koruma röleleri tarafýndan transformatörün güç sisteminden mümkün olan en kýsa sürede ayrýlmasýistenir.  
+Ýkincil iç arýzalar ise genellikle yalýtýmýn giderek zayýflamasý sonucunda çok yavaþ bir þekilde ortaya çýkar. Elektriksel, termal ya da bazý kimyasal olaylarýn sonucunda yalýtým malzemesinin özelliðini kaybetmesi sonucunda bu arýza akýmlarý güç sistemi içerisinde kendini göstermeye baþlar. Þayet her iki tip arýza akýmlarýda yeterli sürede algýlanamaz ise, çok daha ciddi arýzalara yol açarak hem enerji kalitesini hem de sistemin sürekliliðini büyük ölçüde etkilemektedir. Ciddi hasarlarýn sonucunda güç transformatörünün uzun bakým onarým süresi ve nakliye sorunlarý da ayrýca hesaba katýlmalýdýr. Þayet bu tip arýzalar yeterince kýsa sürede algýlanabilirse, gerekli bakým onarým iþleri en kýsa sürede yapýlarak enerjinin sürekliliði saðlanýr [12], [13]. 
+Bu çalýþmada transformatör iç kýsa devre arýzalarý ele 
+O. Özgönenel 
+alýnacak ve sarým – toprak, sarým – sarým arýzalarýolarak iki alt grupta incelenecektir. Her iki arýza biçiminde de çeþitli kademelere sahip transformatörün ilgili sargýsýnýn ÝHM tekniði ile benzetimi gerçeklenmiþtir. Bölünmüþ sargý ilkesi geçerlidir. Yani arýza anýnda birincil veya ikincil yanda arýzalýbölümün kalan sargýdan ayrý tutulmasý gerekmektedir. Ortak endüktansýn hesaplanmasýnda ise arýzalý sargýbölümü hesaba katýlmamýþtýr. Sargý endüktanslarý ve kaçak endüktanslar doðrusal olmayan elemanlar olduðundan, benzetimlerde de ÝHM yaklaþýmlarý buna göre yapýlmýþtýr. 
+Arýzalar hem birincil yanda hem de ikincil yanda oluþturulmuþtur. Laboratuar ortamýnda gerçekleþti­rilen deneysel çalýþmalarda kullanýlan transformatör hakkýnda ayrýntýlý bilgi ekler bölümünde verilmektedir.  
+
+
+
+
+3.1. Sarým – Toprak Kýsa Devre Arýzasý (Turn to Earth Short Circuit Fault) 
+Þekil 2’de görüldüðü gibi, transformatörün birincil yanýnda (430 ile 440 sarým arasý) kýsa devre oluþturulmuþtur. Ýkincil yan direnç yükü ile yüklüdür. Ýç kýsa devre benzeþimi yapýldýðýndan arýza anýndaki direnç ( RF =0 ) olarak alýnmýþtýr. Sistem arýzadan 
+önce normal iþleme koþullarýndadýr ve arýza anýna iliþkin çýkartýlan eþitlikler aþaðýdaki gibidir. 
+
+
+Þekil 2. Birincil yanda sarým – toprak arýzasý (10 sarým - toprak) (Figure 2. Turn to earth fault on primary side (10 turns to earth)) 
+O. Özgönenel 
+Hesaplamalarda kolaylýk olmasý amacýyla ikincil yanda sadece direnç yükü, (Ryük), hesaba katýlmýþtýr. Boþ çalýþma durumunu modellemek amacýyla Ryük=10680 . olarak alýnmýþtýr. Þekil 2’ye ait sistemin arýzadan önce ÝHM devre denklemleri aþaðýdaki gibidir: 
+k=0 aný için tüm baþlangýç koþullarý (birincil ve ikincil yan akýmlarý, gelen gerilimler) sýfýrdýr. Sistem empedans matrisi 
+.(L1(i)ZL1 +L1s (i)ZL1s +R1 +Rs ) -Zm . (1) 
+Z=..-Zm (L2(i)ZL2 +L2s (i)ZL2s +R2 +Ryük ).. 
+olarak hesaplanmaktadýr. 
+Gerilim matrisi ise aþaðýdaki gibi hesaplanmaktadýr. 
+V =.Vs -2(L1(i)VLg1 +Vmg12 +L1s (i)VLg1s .  (2) 
+.. 
+.2(Vg -L2(i)Vg-L2s (i)Vg .
+.m21 L2 L2s .
+Sonraki adýmda birincil ve ikincil hesaplanýr. 
+=[Z ][] (3) 
+I -1V 
+ÝHM gerilimlerin hesaplanmasýnda (4) nolu eþitlikler kullanýlýr. 
+VL1u =ZL1uI1 +2VLg1u 
+VL2u =ZL2uI2 +2VLg2u 
+Vm12 =ZmI2 +2Vmg12 
+ (4) Vm21 =ZmI1 +2Vmg21 
+VL1us =ZL1sI1 +2VLg1s 
+VL2us =ZL2sI2 +2VLg 2s 
+Yansýyan gerilimlerin hesaplanmasýnda (5) nolu eþitlikler kullanýlýr. 
+VLy1 =VLg1u -VL1u 
+VLy2 =VLg 2u -VL2u 
+Vmy 12 =Vmg 12 -Vm12  (5) 
+Vmy 21 =Vmg 21 -Vm21 
+VLy1s =VLg1s -VL1us 
+VLy 2s =VLg 2s -VL2us 
+Bir sonraki k adýmý için yansýyan gerilimlerin güncellenmesinde (6) nolu eþitlikler kullanýlýr. 
+Transformatörlerde Ýç Arýza Akýmlarýnýn Benzeþimi 
+VLg1 =-VLy1 
+VLg2 =-VLy2 
+Vmg 12 =Vmy 12  (6) 
+Vmg 21 =Vmy 21 
+VLg1s =-VLy1s 
+VLg2s =-VLy2s 
+Bu algoritma, benzeþim zamaný / örnekleme aralýðýkadar adým sayýsýnda tekrarlamalý olarak çalýþmaktadýr. Birincil yan endüktansý aþaðýdaki þekilde sýrasýyla boþ çalýþma, çeyrek yükte çalýþma, yarým yükte ve tam yükte çalýþma durumlarýna göre seçilmiþtir. 
+.Luns =7H ,0 .I1.0.11A .
+.. 
+L(i) =..Lsat1 =2.1H , 0.11 .I1 .0.3326A .. (7) 
+.Lsat2 =0.62H , 0.3326 .I1 .1.12A. 
+.L =0.296H , 1.12 .I .2.33A .
+.sat31 .
+430 ve 440 sarým aralarýnda oluþturulan arýza anýnda sistem parametreleri Þekil 2’de görülen 430 sarýmlýk endüktans ve direnç deðerleri ile yer deðiþtirir ve eþitlik (1) den (8)’e kadarki tüm hesaplamalar yeniden yapýlýr. Manyetik kuplaj ile ilgili olan büyüklükler de bu adýmda güncellenmektedir. 
+Þekil 2’deki anahtar zaman denetimli olup, istenilen anlarda arýza oluþturmak amacýyla kullanýlmýþtýr. Anahtar Bölüm 2’de de belirtildiði gibi iletimde iken küçük bir endüktans ile ve kesimde olduðunda ise küçük bir sýðaç ile modellenmiþtir. Sistemin arýzalýbölümü Þekil 3’de gösterilmiþtir ve arýzalý duruma iliþkin anahtar denklemleri aþaðýdaki gibidir. 
+Arýzalý sargý içinden akan Ia akýmý Ikd yanýnda çok küçük olduðundan hesaplamalarda dikkate alýnmamýþtýr (I1=Ikd). 
+
+Þekil 3. Arýzalý bölümün anahtar modeli ile gösterimi (anahtar kapalý iken) (Figure 3. Faulted region with switch modeling (switch is closed)) 
+Anahtar üzerinde düþen ÝHM gerilimi; 
+V =IZ +2Vg (8) 
+sw kd Lsw Lsw 
+Yansýyan gerilim darbesinin hesaplanmasý; 
+yg
+VLsw =VLsw -Vsw  (9) 
+Bir sonraki adýmda gelen gerilim darbesinin güncellenmesi; 
+gy
+VLsw =±VLsw  (10) 
+(+ anahtar açýk iken, - anahtar kapalý iken). 
+Tüm benzeþimlerde örnekleme frekansý, FS, 2000Hz seçilmiþtir ve benzeþim zamaný ise 1.0sn’dir. Birincil yan endüktansý(7) nolu eþitlikte görüldüðü gibi doðrusal olmayan karakteristiðe sahiptir. Arýza anýnda bu karakteristik ve karþýlýklý endüktans deðeri arýzalýsargý bölümü devre dýþý býrakýlarak yenilenmektedir. Þekil 4 ve 5’te boþ çalýþma anýnda 0.5 sn ve 0.52 sn arasýnda oluþturulan birincil yanda 10 sarým toprak iç arýzasý benzeþimi görülmektedir. 
+
+3.2. Sarým – Sarým Kýsa Devre Arýzasý(Turn to Turn Short Circuit Fault) 
+Sarým – sarým arýzasý durumunda arýzalý sargý üç parçaya bölünmektedir. Birincil yanda 250 ve 260 sarýmlar arasý oluþturulan sarým – sarým kýsa devresinin ÝHM modeli ve Thevenin eþdeðeri Þekil 6’da görülmektedir. 
+Þekil 6’ya iliþkin devre denklemleri aþaðýdaki gibi türetilmiþtir. Birincil yan sargýnýn direnci R11+R22+R33 ve endüktansý ise L11+L22+L33 ile hesaplanmaktadýr. Arýzadan önce sistem (1), (2) ve (3) nolu eþitliklere göre çalýþmaktadýr ancak tek fark yük R-L olarak modellenmiþtir. 
+
+Þekil 4. Birincil yanda oluþturulan 10 sarým toprak arýzasý, birincil ve ikincil akýmlar (Figure 4. Primary and secondary currents during 10 turns to earth fault) 
+O. Özgönenel 
+
+Þekil 5. Birincil yanda oluþturulan 10 sarým toprak arýzasý, birincil ve ikincil gerilimler (Figure 5. Primary and secondary voltages during 10 turns to earth fault) 
+(11) nolu eþitlikten birincil ve ikincil yan akýmlarýhesaplanmaktadýr. 
+(Rs +R11 +L(i)ZL11 +L(i)ZL1s +R33 +L(i)ZL33)Isc 
+-ZmI2 =Vs -2(L(i)VLg 11 -Vmg 12 -L(i)VLg 1s -L(i)VLg 33) 
+-ZmIsc +(L(i)ZL2 +L(i)ZL2s +L(i)ZL2 +R2 +RL )I2 = (11) 
+2(Vmg 21 -L(i)VLg 2 -L(i)VLg-L(i)VLg 2s ) 
+(11) nolu denklemde, ZL =2L , ZL11 =2L11 ,
+.t .t 
+ZL33 =2L33 ’dür. 
+.t 
+Thevenin eþdeðerinde görülen tüm ÝHM gerilimlerinin hesaplanmasý, yansýyan gerilimlerin hesaplanmasýve sonraki adýmda ise gelen gerilimlere güncellenmesi (4), (5) ve (6) nolu eþitlikler kullanýlarak yapýlmaktadýr. Benzer þekilde bu hesaplamalarda da birincil yan endüktans karakteristiði (7) nolu eþitlikteki gibidir. Arýza anýnda karþýlýklý endüktans ve birincil yan endüktansý arýza süresince yeni durumuna göre güncellenmektedir. 
+Þekil 7’de boþ çalýþma esnasýnda sarým – sarým arýzasýoluþtuðunda (0.477 sn ve 0.585 sn arasýnda) birincil ve ikincil yandan geçen akýmlarýn ÝHM benzeþimi görülmektedir. 
+Þekil 8’de ise 250 – 260 sarýmlar arasýnda oluþturulan kýsa devre durumunda gerçek zaman birincil ve ikincil akýmlar görülmektedir. 
+Þekil 7’de görülen ÝHM benzetiminde arýza anýnýn baþlangýcýnda fiziki arýza direnci sýfýrdýr. Ancak gerçek zaman deneylerinde oluþan arktan ötürü çok küçük de olsa bir ark direncinin varlýðý söz konusudur. Bu nedenle ÝHM benzetiminin ilk anlarýnda birincil akýmda artý ve eksi alternanslarda yüksek akým deðerleri hesaplanmýþtýr. Daha sonraki arýza anlarýnda sistem yeni arýzalý durum matrisine 
+
+O. Özgönenel Transformatörlerde Ýç Arýza Akýmlarýnýn Benzeþimi 
+
+Þekil 6. Birincil yanda sarým – sarým arýzasýbenzetimi (250 – 260 sarýmlar arasý) (Figure 6. Simulation of turn to turn fault on primary side (between 250 and 260 turns)) 
+
+döndüðünden, akým deðerleri gerçek düzeyine inmiþtir. 
+Bölüm 3.1’de açýklandýðý gibi, yüksek empedanslýarýza akýmlarýnýn ÝHM benzeþimi anahtar elemanýnýn iletimde küçük bir endüktans deðeri, kesimde ise küçük bir sýðaç deðeri ile modellenmesine dayanmaktadýr. Tek fark seri RF direncinin eklenmesidir. 
+
+4. SONUÇLAR (RESULTS) 
+Bu çalýþmada; transformatör iç arýzalarýnýn farklý bir teknikle modellenmesi ve bilgisayar benzetimleri amaçlanmýþtýr. ÝHM yöntemi sarým – sarým ve sarým – toprak arýzalarýný modellemede kullanýlmýþtýr. ÝHM tekniði doðasýnda ayrýk olarak tanýmlandýðý için birinci dereceden türev ve integral denklemlerinin çözümünde oldukça hassas sonuçlar üretmektedir. Birincil ve ikincil yan endüktanslarý doðrusal olmayan karakteristiklere sahiptir ve ÝHM tekniði ile her bir benzeþim aný için karakteristik empedanslarý yeniden hesaplanmýþtýr. Benzer þekilde kaçak endüktanslar ve karþýlýklý endüktans da her bir benzetim anýnda güncellenmiþtir. 
+Birincil ve ikincil yan endüktanslarýn doðrusal olmayan karakteristiklerinin yaný sýra histerezis özelliklerinin çýkartýlmasý ve ÝHM ile modellenmesi gelecek çalýþma olarak amaçlanmýþtýr. Bu sayede iç arýza çözümlemelerinde gerçek trafo modeli üzerinde çalýþýlacaktýr. Bu amaçla Jiles & Atherton tekniðinin ÝHM ile benzetimi gerçeklenecektir. 
+5. TEÞEKKÜR (ACKNOWLEDGEMENT) 
+Bu çalýþmanýn ortaya çýkmasýnda Nottingham Üniversitesi (Ýngiltere), Elektrik – Elektronik Mühendisliði bölümü öðretim üyelerine teþekkürü bir borç bilirim. 
+
+6. EKLER (APPENDICES) 
+Laboratuar ortamýnda kullanýlan deney transformatörü aþaðýdaki deðerlere sahiptir: 
+
+220 / 110 V, S=600VA, f=50Hz, B= 1 T, manyetik yol= 0.3 m, kesit alan= 0.0025m2. 
+Birincil yan sargý kademeleri; {0 200 250 260 270 300 420 430 440}. 
+Ýkincil yan sargýkademeleri; {0 100 150 160 180 220 230}. 
+Deney transformatörünün önden görünüþü Þekil 9’daki gibidir. Birincil ve ikincil yan yalýtýmýnda 0.2mm kaðýt yalýtým malzemesi kullanýlmýþtýr. 
+
+O. Özgönenel 
+Genel tanýmlamalar: 
+L1, birincil yan endüktansýL2, ikincil yan endüktansýR1, birincil yan direnci R2, ikincil yan direnci Ryük, yük direnci Rs, kaynak direnci Vs, kaynak gerilimi ZL1, birincil yan endüktansýnýn karakteristik empedansýZL2, ikincil yan endüktansýnýn karakteristik empedansýL1S, birincil yan kaçak endüktansýL2S, ikincil yan kaçak endüktansýZL1S, birincil yan kaçak endüktansýnýn karakteristik empedansýZL2S, ikincil yan kaçak endüktansýnýn karakteristik empedansýM12=M21, karþýlýklý endüktans Zm, karþýlýklý endüktansýn karakteristik empedansý
+Vg	, gelen gerilim darbeleri 
+xxx
+y
+
+Vxxx , yansýyan gerilim darbeleri I1, birincil akým I2, ikincil akým Ikd, kýsa devre akýmýLuns, doymamýþ endüktans deðeri Lsat1, Lsat2, Lsat3, doymuþ, endüktans deðerleri Lsw, anahtar elemanýn endüktansýZLsw, anahtar elemanýn endüktansýnýn karakteristik empedansý
+KAYNAKLAR (REFERENCES) 
+1.	
+T. Kawamura, M. Ueda, K. Ando, T. Maeda, Y. Abiru, M. Watanabe, K. Moritsu “Prevention Of Tank Rupture Due To Internal Fault Of Oil Filled Transformer”, CIGRE International Conference on Large High Voltage Electric Systems, 12-02, 1988 Session. 
+
+2.	
+Rahimpour, E.; Christian, J.; Feser, K.; Mohseni, H., “Transfer Function Method to Diagnose Axial Displacement and Radial Deformation of Transformer Windings”, Power Delivery, IEEE Transactions on, Volume 18, Issue 2, April 2003 Page(s):493 – 505. 
+
+3.	
+P. P. Buckle, K. L. Butler, N. D. R. Sarma, A. Kopp “Simulation Of Incipient Transformer Faults”, Power System Automation Laboratory Texas A&M University, College Station, TX. 
+
+4.	
+P. Bastard, P. Bertrand, M. Mevnier “A Transformer Model For Winding Faults Studies”, IEEE Transaction on Power Delivery, Vol. 9, No. 2, April 1994. 
+
+5.	
+Palmer-Buckle, P.; Butler, K.L.; Sarma, N.D.R, “Characteristics of Transformer Parameters During Internal Winding Faults Based on Experimental Measurements”, Transmission and Distribution Conference, 1999 IEEE, Volume 2, 11-16 April 1999 Page(s):882 - 887 vol.2. 
+
+
+O. Özgönenel 
+6.	
+Wang, H.; Butler, K.L, “Finite Element Analysis of Internal Winding Faults in Distribution Transformers”, Power Delivery, IEEE Transactions on, Volume 16, Issue 3, Jul 2001 Page(s):422 – 428. 
+
+7.	
+Wang, H.; Butler, K.L,” Neural Network Modeling of Distribution Transformers With Internal Short Circuit Winding Faults”, Power Industry Computer Applications, 2001. PICA 2001. Innovative Computing for Power ­Electric Energy Meets the Market. 22nd IEEE Power Engineering Society International Conference on, 20-24 May 2001 Page(s):122 – 
+
+127. 
+
+8.	
+Hang Wang; Butler, K.L, “Modeling Transformers With Internal Incipient Faults”, Power Delivery, IEEE Transactions on, Volume 17, Issue 2, April 2002 Page(s):500 – 
+
+509. 
+
+9.	
+Christos Christopoulos, The Transmission Line Modelling Method TLM, IEEE/OUP Series on Electromagnetic Wave Theory, 1995. 
+
+
+Transformatörlerde Ýç Arýza Akýmlarýnýn Benzeþimi 
+10.	
+Hui, S.Y.R., C. Christopolus, “Non-linear Transmission Line Modelling Technique for Modelling Power Electronic Circuits”, European Power Electronics Conference, Florence. Proceedings Vol. 1, 80-84, 1991. 
+
+11.	
+O. Ozgonenel, D.W.P. Thomas, C. Christopoulos, "Modelling and Identifying of Transformer Faults”, IEEE Power Engineering Society, PowerTech 2005, 27-30 June 2005, St. Petersburg, Russia. ISBN:5-93208-034-0. 
+
+
+12.Karen L. Butler, Mustafa Bagriyanik, “Identifying Transformer Incipient Events for Maintaining Distribution System Reliability”, Proceedings of the 36th Hawaii International Conference on System Sciences, 2003. 
+13.	M. E. Hamedani Golshan, M. Saghaian-nejad, A. Saha, H. Samet, “A New Method for Recognizing Internal Faults From Inrush Current Conditions in Digital Protection of Power Transformers”, EPSR., 71, 61-71, 004. 
+
+
+
+
+
+
+

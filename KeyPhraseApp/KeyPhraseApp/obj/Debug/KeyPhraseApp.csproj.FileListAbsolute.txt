@@ -1,0 +1,24 @@
+c:\users\mrtorc\documents\visual studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.csprojResolveAssemblyReference.cache
+c:\users\mrtorc\documents\visual studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.fmKeyPhrase.resources
+c:\users\mrtorc\documents\visual studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.Properties.Resources.resources
+c:\users\mrtorc\documents\visual studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.csproj.GenerateResource.Cache
+c:\users\mrtorc\documents\visual studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\bin\Debug\KeyPhraseApp.exe
+c:\users\mrtorc\documents\visual studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\bin\Debug\KeyPhraseApp.pdb
+c:\users\mrtorc\documents\visual studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.exe
+c:\users\mrtorc\documents\visual studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.pdb
+D:\KEY PHRASE\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.exe
+D:\KEY PHRASE\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.pdb
+D:\KEY PHRASE\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Debug\KeyPhraseApp.exe
+D:\KEY PHRASE\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Debug\KeyPhraseApp.pdb
+D:\KEY PHRASE\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.csprojResolveAssemblyReference.cache
+D:\KEY PHRASE\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.fmKeyPhrase.resources
+D:\KEY PHRASE\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.Properties.Resources.resources
+D:\KEY PHRASE\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.csproj.GenerateResource.Cache
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.exe
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.pdb
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Debug\KeyPhraseApp.exe
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\bin\Debug\KeyPhraseApp.pdb
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.fmKeyPhrase.resources
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.Properties.Resources.resources
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.csproj.GenerateResource.Cache
+C:\Users\MrtOrc\Documents\Visual Studio 2012\Projects\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\KeyPhraseApp\obj\Debug\KeyPhraseApp.csprojResolveAssemblyReference.cache

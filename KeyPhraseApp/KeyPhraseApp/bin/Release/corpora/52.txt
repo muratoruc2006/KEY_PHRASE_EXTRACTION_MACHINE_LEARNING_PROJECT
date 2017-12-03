@@ -1,0 +1,291 @@
+ROBOTLU BÝR ÝMALAT HÜCRESÝNDEKÝ TAÞIMA ÝÞLEMLERÝÝÇÝN MODELE DAYALI BÝR UZMAN SÝSTEM GELÝÞTÝRÝLMESÝ
+Hücresel imalat sistemi son yýllarda yaygýn olarak kullanýlan ve parti bazýndaki üretimlerde uygulanan bir tekniktir. Fiziksel olarak bir araya kümelenmiþ makinalardan oluþan bir hücrede üretim verimini, kaliteyi ve iþemniyetini artýrmak, sýkýcý iþleri yorulmadan yaptýrmak için robot kullanýmýtercih edilmektedir. Bu çalýþmada, en fazla on makinadan oluþan bir imalat hücresi ve bir tek robot olduðu kabul edilerek, en fazla on ayrý iþin aynýanda üretilmesi durumunda, imalat hücresini oluþturma iþlemlerini gerçekleþtiren, ayný zamanda tezgah iþlem sýralamalarýný ve hücredeki robotun bu iþleri tezgahlara hangi zamanlarda ve hangi sýra ile yerleþtirip-almasýgerektiðini belirleyen bir uzman sistem geliþtirilmiþtir. Uzman sistem, KAPPA-PC™ (sürüm 1.2) uzman sistem geliþtirme programý altýnda yapýlandýrýlmýþtýr. Ýmalat hücresini oluþturabilmek için tezgahlar, robotlar ve stoklama tablalarý bilgilerinin yer aldýðý bir kütüphane ile, tezgah yerleþimi ve iþ parçalarý bilgilerinin yer aldýðýmodüller oluþturulmuþtur. Sistemin karar mekanizmasý QUICKBASIC kullanýlarak programlanmýþ ve uzman sistemde “iþlem planlamasý” modülüne yerleþtirilmiþtir. Örnek problemler üzerinde yapýlan testler geliþtirilen yazýlýmlarýn güvenilir sonuçlar ürettiklerini göstermiþtir. 
+
+1. GÝRÝÞhatlarýn yaný sýra, maliyeti düþürmek için firmalarýn 
+insansýz çalýþabilen otomatik sistemleri Son 10-15 yýldan bu yana, müþteri taleplerinde hýzlýkullanmalarýnýn zorunluluðu ortaya çýkmaktadýr. bir deðiþim görülmektedir. Firmalarýn da daha fazla Bilgisayarlarýn kapasitesi ve hýzlarý artarken, pazar payýna ulaþma istekleri nedeniyle, hýzlý ve esnek fiyatlarýnýn da hýzla düþüþ göstermesi imalatta üretim hatlarýna sahip olmalarý gerekmektedir. Bu kullanýmlarýný hýzla artýrmýþ, gerek tezgah ve sistem 
+Y. Usta Robotlu Bir Ýmalat Hücresindeki Taþýma Ýþlemleri Ýçin Modele DayalýBir Uzman Sistem Geliþtirilmesi 
+otomasyonunda ve gerekse malzeme taþýma ve depolama gibi konularda bilgisayarlar vazgeçilmez hale gelmiþtir. Bu geliþmeler, grup teknolojisinin günümüzdeki uygulamasý olan esnek imalat sistemlerinin ve imalat hücrelerinin doðmasýna neden olmuþ; imalat sistemlerindeki modernleþme, iþparçasýnýyükleme, alma ve parçalarý yerine götürme iþlerinde, insanlarýn yerini robotlarýn almasýnýsaðlamýþtýr. 
+Esnek imalat sistemleri, ayný iþi yapabilen makinalar veya hücrelerin bir arada yer almasý ve merkezi bir bilgisayar sistemi ile birbirine baðlanmasý ile oluþan ve bir fabrikanýn tümünü kapsayan büyük sistemlerdir. Bir fabrikanýn tümünü içermeyen otomasyon sistemleri de mevcuttur. Bunlara literatürde esnek imalat hücresi (flexible manufacturing cell -FMC) adý verilmektedir. FMC’ler, ayný iþi yapabilen birkaç makinanýn bir arada yer almasý ve bir bilgisayar sistemi ile birbirine baðlanmasý ile oluþurlar. Tezgahlar iþlerini bitirdikçe, sýrada yapýlacak olan iþ, boþalan tezgaha yerleþtirilir ve o iþe ait parça programý çalýþtýrýlýr. Ýmalat hücrelerindeki tezgahlarýn bir kýsmý birbiri ile aynýiþleri yapabilecek özelliklerde olabilecekleri gibi, tezgahlar farklý özelliklerde de olabilir. Dolayýsýyla iþlerin tezgahlara yüklenmesi esnek imalat hücrelerin­deki gibi serbest deðildir. Farklý iþ parçalarýnýn benzer operasyonlarýnýn sistemdeki bir tek makinada yapýlmasý zorunluluðu olabilir. Bu yüzden, imalat hücrelerinde iþ parçasý yükleme-boþaltma algoritmalarý esnek imalat sistemlerine göre farklýlýklar gösterir. 
+Bir imalat hücresinde kullanýlan robot, benzer ürünlerden bir kaç tanesini tezgahlara sýrayla yerleþtirip alacaðýndan, belirli bir zaman diliminde kendini tekrarlayan bir yollar zincirini izler. Hücrenin tezgah yerleþim planý, fizikî boyutlarý ve ayný anda üretilecek iþ parçalarýnýn gideceði tezgahlar bilindiðinden, robotun izleyeceði bu yol zinciri bilgisayar yardýmýyla belirlenebilir. 
+Bu çalýþmada, tezgah, iþ tablalarý ve robot kütüphaneleri olan ve bunlardaki bazýlarýnýn seçilmesiyle robotlu bir imalat hücresi oluþturan, bunlarla birlikte iþ parçalarýnýn tezgahlara hangi sýra ile yerleþtirilmesi gerektiðini ve robotun bu taþýma iþlemleri için hangi zamanlarda hangi iþlemleri yapmasý gerektiðini belirleyen bir uzman sistem geliþtirilmiþtir. Ýmalat hücresinde en fazla 10 tezgah bulunabileceði ve  ayný anda en fazla 10 iþ parçasýnýn iþlem gördüðü varsayýlmýþtýr. Hücrede taþýma ve yerleþtirme iþlemleri için sadece bir tek robot olduðu kabul edilmiþtir. 
+Literatürde robotlu montaj sistemlerine ait çalýþmalara sýklýkla rastlanmaktadýr. Bu kapsamda, montajýn robotla yapýlabilmesi için montaj sýralamasýnýn deðiþtirilmesi veya yeni baþtan montaj sýralamasýyapýlmasý gibi çalýþmalar dikkati çekmektedir [1,2]. Bu sýralamalarda sezgisel (hiyoristik) algoritmalar kullanýlmakta ve sýralama yöntemi imalat hücrelerindeki iþlem sýralamasýyla benzerlikler göstermektedir. Ýmalat hatlarýnda genelde raylar üzerinde hareket edebilen robotlar kullanýlmaktadýr. Alexander J.C. ve arkadaþlarý [3] ile Desaulniers G. ve arkadaþlarý [4] tarafýndan yapýlan çalýþmalarda, hareketli robotlar için kullanýlabilecek en kýsa yol algoritmalarý geliþtirilmiþtir. 
+Uzman sistemlerle ilgili olarak, hastalýk teþhisinden yarý iletkenlere, elektronik kart tasarýmýndan lehim pastasý seçimine kadar çok deðiþik alanlarda çalýþmalar yapýlmýþtýr. Ýmalat alanýnda da bir çok çalýþma göze çarpmaktadýr. Ancak imalat hatlarýnda kullanýlan robotlarla ilgili uzman sistem çalýþmalarýna 1990'lý yýllarda rastlanmaktadýr. Ýmalat sistemleri ile ilgili olarak son zamanlarda yapýlan uzman sistem geliþtirme çalýþmalarý arasýnda üretim planlamasý [5], imalat alaný düzenlemesi [6], montaj aparatlarýnýn yerleþtirilmesi [7] ve boyut ölçme cihazlarýnda prob seçimi ve boyut ölçme iþlemi sýralamasý [8] gibi çalýþmalar yer almaktadýr. Yurt dýþýnda yapýlan çalýþmalara paralel olarak yurdumuzda da iþlem planlamasý, mekanizma sentezi, baðlama kalýbýtasarýmý, montaj tasarýmý ve planlamasý, FMS tasarýmýkonularýnda uzman sistem çalýþmalarý yürütülmüþtür. [9-12]. 
+Literatürden ve ticarî olarak piyasada bulunan imalat sistemlerinden, hem yükleme-boþaltma sistemlerinin var olduðu ve hem de deðiþik sýralama yöntemlerinin var olduðu bilinmektedir. Piyasada sistemlerin neredeyse tamamý esnek imalat hücresi þeklinde satýþa sunulduðundan, kullanýlan robot iþlemlerinin sýralamasý algoritmasý burada hedeflenen algoritmadan farklýlýklar göstermektedir. FMC’de tezgahlar ayný olduðundan gerçek zamanda bir taþýma algoritmasý kullanýlmakta; sýrada bekleyen iþ boþalan tezgaha taþýnmaktadýr. Bu çalýþmadaki imalat hücresinde ise sýralama ve taþýma iþlemi gerçek zamanlý olmayýp, daha önceden belirlenmiþ üretim sýrasýna göre bir optimizasyon yapýlmakta; hem tezgahlarýn boþta beklemesini ve hem de iþparçalarýnýn boþalacak tezgahý beklemesini en aza indirecek taþýma iþlemleri sýralamasý belirlenmektedir. Bunun yaný sýra, geliþtirilen uzman sistem, imalat hücresinin yerleþimine ait sonuçlar da üretmekte, toplam üzerim zamanýný kýsaltabilmek için tezgahlar arasýna gerekiyorsa iþ tablalarý (stoklama tablalarý) koyulmasýný önermektedir. Uzman sistem, sayýlan bu iþlemlerin yaný sýra, geliþtirilen tezgah, iþ tablasý ve robot kütüphanesi oluþturma modülleri sayesinde imalat hücresini, fiziki boyutlarý ortaya çýkacak þekilde yapýlandýrmakta, böylece robot iþlemleri için yörünge planlamasýna alt yapý hazýrlamaktadýr. 
+
+2. ROBOTLU ÝMALAT HÜCRELERÝÝÇÝN MODELE DAYALI BÝR UZMAN SÝSTEMÝN YAPILANDIRILMASI 
+
+2.1. Uzman Sistemin Yapýsý
+Bu çalýþma da KAPPA-PC™ (sürüm 1.2) uzman sistem geliþtirme programýndan yararlanýlmýþtýr. Windows altýnda çalýþan KAPPA-PC, diðer uzman sistem programlarýndan farklý olarak kurallarýn yanýsýra sistemi tanýtan diðer elemanlara da sahiptir. KAPPA-PC içerisinde sistem bileþenleri hiyerarþik bir düzen içinde “sýnýf” (class)  veya “öge” (instance) adýverilen nesnelerle tanýtýlýr. Bu nesneler, bu çalýþmada olduðu gibi, bir tezgah tipini (torna, freze, taþlama tezgahývb.) veya bir robot türünü (Stanford, Puma vb.), ya da daha özel durumlarda markasý, modeli ve teknik özellikleri bilinen bir tek tezgah veya robotu temsil edebilirler. Hiyerarþik yapý içinde, yukarýkademelerde bulunan sýnýflar için tanýmlanan özellikler ve bilgiler ayný sýnýfýn aþaðý kademelerdeki sýnýflarýna ve ögelerine intikal eder. Sýnýf ve öge þeklinde tanýtýlmýþuzman sistem elemanlarýnýn ne yapmalarýnýn gerektiði uzman sisteme metotlar olarak öðretilir. KAPPA-PC, metotlar içinde yer alabilecek, “EXE” haline dönüþtürülmüþ bütün programlarý kendi içinde çalýþtýrma yeteneðine de sahiptir [13]. 
+KAPPA-PC’de uzman sistemin genel yapýsý “Object Browser” adý verilen bir alanda görüntülenmektedir. Bu çalýþma kapsamýnda geliþtirilen uzman sistemin yapýsýÞekil 1‘de görülmektedir. Þekilde görülen baðlama çizgileri nesnelerin her biri arasýndaki hiyerarþinin nasýl ilerlediðini göstermektedir. Þekilde çizgiler boyunca soldan saða doðru ilerledikçe, bir önceki nesneden alýnan bilgi ve özellikler de iletilmektedir. Yani, çizgilerin en saðýnda bulunan bir nesne kendisinden önceki nesnelerin bütün özelliklerini taþýmakta ve gerekiyorsa fazladan bazýbilgi ve özellikleri de içerebilmektedir. 
+Geliþtirilen uzman sistem dört ayrý modül altýnda toplanmýþtýr. Bunlardan birincisinde, bütün uzman sistemlerde olduðu gibi, bir “kütüphane” yer almaktadýr. Kütüphanede, imalat hücresinin ihtiyacýolan ekipmanlar (tezgahlar, robotlar, iþ tablalarý) bulunmaktadýr. Kütüphanede her bir ekipmanýn fizikî boyutlarý, kapasiteleri ve haberleþme sinyalleri gibi bilgiler yer almaktadýr. 
+Ýmalat hücresinde ayný anda imal edilecek parçalara ait bilgileri o parçalarýn operasyon planlarýndan çýkaran bir “iþ parçasý” modülü de uzman sisteme dahil edilmiþtir. Ýþ parçasý modülü, robot iþlerinin sýralanmasý için gerek duyulan hazýr bilgileri operasyon planý içerisinden almaktadýr. 
+Uzman sistemin üçüncü kýsmý “imalat hücresi” modülüdür. Burada, kütüphanede bulunan ekipmanlardan bir kýsmýnýn seçilmesiyle imalat hücresi oluþturulmaktadýr. Bu modülde imalat hücresinin yerleþim türü seçilmekte, iþlem planlamasýmodülünden saðlanan bilgiler de dikkate alýnarak tezgahlar ve iþ tablalarý yerleþtirilmekte ve imalat hücresinin fizikî boyutlarý belirlenmektedir. Kütüphanedeki robotlardan birinin imalat hücresinde kullanýlmak üzere seçimiyle de robotun hareket edebileceði alanlar ve çalýþma hacmi ortaya çýkmýþolmaktadýr. 
+
+
+Þekil 1. Uzman sistemin genel yapýsý ve görüntüsü 
+Y. Usta Robotlu Bir Ýmalat Hücresindeki Taþýma Ýþlemleri Ýçin Modele DayalýBir Uzman Sistem Geliþtirilmesi 
+Uzman sistem yapýsý içerisindeki dördüncü modül “iþlem planlamasý” adý verilen kýsýmdýr. Bu modülün çalýþtýrýlmasý sonucunda robotun yapacaðý iþlemler dizisi oluþturulmakta, tezgah aralarýna iþ tablalarýkoyulup koyulmayacaðý belirlenmekte ve iþlemler daha sonraki kullanýmlar için bir kütükte saklanmaktadýr. 
+
+2.2. Kütüphane Modülü 
+Kütüphanede, imalat hücresinde bulunabilecek tezgahlar, iþ tablalarýve robotlar bulunmaktadýr. Her üç ana sýnýfýn da deðiþik alt sýnýflarý mevcuttur. Kütüphanenin yapýsýÞekil 1‘de görülmektedir. 
+Bir imalat hücresinde bulunabilecek tezgahlar þekilde görüldüðü gibi, torna, freze, taþlama ve özel tezgahlar olarak sýnýflara ayrýlmýþtýr. Tornalar sýnýfýnda yatay ve dikey tipte tornalar ile CNC torna tezgahlarýtanýmlanabilmektedir. Frezeler sýnýfýna ise yatay ve dikey frezelerin yaný sýra, CNC dikey iþleme ve yatay iþleme merkezleri dahil edilebilmektedir. Taþlama tezgahlarý sýnýfýnda silindirik ve düzlem taþlama tezgahlarýbulunabilmektedir. Bunlardan baþka, montaj tezgahlarý ve diðer tezgahlar, özel tezgahlar sýnýfýnda ele alýnabilmektedir. 
+Bütün tezgahlarda bulunmasý gereken ortak özellikler “TEZGAHLAR” sýnýfýndaki veri alanlarýnda (slot) verilmektedir (Þekil 2). Veri alanlarýnýn bir kýsmýtezgahlar ile robotu yöneten bilgisayar arasýndaki haberleþme sinyallerine ait kanallarýn bilgileri için ayrýlmýþtýr. Diðer veri alanlarý ise tezgahlarýn hacmini belirleyen dikdörtgen prizmalarý ve bunlarýn yerlerin belirleyen koordinatlar için kullanýlmaktadýr. Ýþparçasýnýn tezgaha yerleþtirileceði baðlama alanýný ve parçanýn oturma açýlarýný tanýmlamak için de iki veri alaný kullanýlmaktadýr. 
+Tezgahlar sýnýfý altýnda tanýmlanan bu veri alanlarýnýn hiç birisi bu aþamada bir deðere sahip deðildir. Çünkü bu veri alanlarý her tezgah için ayný isimde olacak, ancak farklý deðerler alacaktýr. KAPPA-PC’nin hiyerarþik kalýtým özelliði sayesinde, tezgahlar sýnýfýnýn altýnda tanýtýlacak her türlü nesnede (sýnýf veya öge) bu veri alanlarý ayný isme sahip olmalarýna karþýn, farklý deðerlere sahip olacaklardýr. Dolayýsýyla, isimleri ayný olmasýna raðmen ayrý ayrý deðiþkenler þeklinde deðerlendirileceklerdir. 
+
+
+Robot yollarýnýn belirlenmesi esnasýnda çarpmalarýn önlenmesini saðlamak amacýyla tezgahlarýn hacimle­rinin tanýtýlmasý gerekmektedir. Tezgah hacmini tanýmlayan veri alanlarýna “PrizmaBoyutlari1”, -2, -3 ve -4 adlarý verilmiþ ve böylece bir tezgah hacminin tanýmýiçin en az dört dikdörtgen prizmasýdüþünülmüþtür. “PrizmaRefKoordinati1”, -2, -3 ve -4 isimli veri alanlarý ise sýrasýyla bu prizmalarýn bir referans noktasýna göre konumlarýný belirtmektedir. Her tezgahýn bir temel referans noktasý mevcuttur ve bu nokta imalat hücresi yerleþiminde, tezgah hacminin tanýtýmýnda ve iþ parçasýnýn konumlanmasýnda kullanýlmaktadýr. Þekil 3‘te prizmalar kullanýlarak oluþturulmuþ dört temel tezgah þekli görülmektedir. 
+Uzman sistemin kütüphanesinde bulunabilecek robot türleri “ROBOTLAR” adý altýndaki sýnýfta toplanmýþtýr. Robot yollarý planlanýrken, ya robota ait hareket denklemleri kullanýlarak yörünge belirlenir, ya da robot bir bilgisayar tarafýndan kontrol ediliyorsa noktadan noktaya konumlar tarif edilir ve yörüngenin bilgisayar tarafýndan oluþturulmasý saðlanýr. Robotun yörüngesinin hesaplanmasýgerekiyorsa, robota ait hareket denklemlerinin yaný sýra robotun fiziksel boyutlarýnýn da bilinmesi gerekmektedir. Ayrýca robotun çalýþma alanýnýn kontrolü sýrasýnda yine robotun fizikî boyutlarýna ihtiyaç duyulacaktýr. Sayýlan bu robot özellikleri, her bir robot türüne göre farklýlýklar içereceðinden, “ROBOTLAR” sýnýfýnda genel bir veri alaný listesi oluþturulmasý uygun bulunmamýþ ve veri alaný listesi üzerinde çalýþýlmamýþtýr. Sadece robot elinin ulaþabileceði maksimum hýz ortak bir veri alaný olarak tanýmlanmýþtýr. Bunun yaný sýra, ODTÜ-Biltir Laboratuvarlarý’nda bulunan ABB marka IRB2000 modelindeki Puma tipi endüstriyel robotun [14] programlama ve çalýþma alanýný belirleme özellikleri incelenerek bu robota ait bilgileri bulunduran veri alanlarý “Puma” sýnýfý altýnda Þekil 4‘deki gibi verilmiþtir. Diðer robot türlerine ait veri alanlarý ise ihtiyaç olan robotun kullanýmý sýrasýnda oluþturulabilecektir. 
+Ýmalat hücresi içerisinde sistemin mümkün olan en yüksek dolulukta çalýþmasýistenmektedir. Bu ise tezgahlarýn boþdurma süresinin en aza indirilmesi ile gerçekleþir. Boþkalma süresinin azaltýlabilmesi için iyi bir hat dengelemesi yapýlmýþ olmalýdýr. Bununla beraber, tezgahlarýn boþ kalma süresi, üzerindeki iþi bitmiþparçayý,  bir sonraki tezgahýn boþalmasýný
+
+
+a. Torna 
+
+b. Freze 
+
+Þekil 3. Prizmalar yardýmýyla oluþturulmuþ dört temel tezgah þekli 
+
+Y. UstaRobotlu Bir Ýmalat Hücresindeki Taþýma Ýþlemleri Ýçin Modele DayalýBir Uzman Sistem Geliþtirilmesi 
+Prizma4 
+Prizma1 
+PrizmaRefKoordinati4 
+Prizma3 
+z 
+y 
+x 
+PrizmaRefKoordinati2 
+Tezgah Referans
+Noktasý PrizmaRefKoordinati3 
+
+Prizma2 BaðlamaRefKoordinati PrizmaRefKoordinati1 
+d. Özel tezgah 
+Þekil 3. (devam ediyor) 
+beklemek için tezgahta bekletmek yerine, tezgah yanýna iþ tablasýyerleþtirerek, söz konusu tezgahýn bir sonraki iþe geçmesini saðlamak yoluyla da kýsaltýlabilir. Bu sebepten dolayý uzman sistem kütüphanesinde iþ tablalarýna da yer ayrýlmýþtýr. 
+Sistem kütüphanesinde þimdilik iki tip iþ tablasýbulunmaktadýr. Bunlardan birincisinde, tabla 
+
+Þekil 4. Puma tipi robotu tanýmlayan veri alanlarýnýnyüzeyinde belli aralýklarla iþ parçalarý tek tek 
+listesi	bulunmaktadýr. Bu tür stoklama tablasýna ait örnek bir yapýÞekil 5‘de görülmektedir. Ýkinci tip iþ tablasý ise 
+YYönündeYükseklikFarki 
+TablaEðimi 
+z 
+y 
+x 
+
+YYönündeAraliklar XYönündeAraliklar 
+YerKoordinati 
+Referansnoktasý
+
+Þekil 5. Masa tipindeki bir stoklama tablasýnýn yapýsý ve boyutlarýtek noktadan beslemeli tabladýr. Bu tür tablada iþparçalarý üst üste durmaktadýr. Her parça alýndýðýnda veya konulduðunda tabladaki mekanizma son iþparçasýnýn tabladaki konumunu hep ayný yerde tutar. 
+2.3. Ýmalat Hücresi Modülü 
+Ýmalat hücresi modülü, uzman sistemde kütüphanedeki bilgileri kullanan ve bu bilgiler ýþýðýnda ekipmanlarýn yerleþimini saðlayan bir ana sýnýf olarak yapýlandýrýlmýþtýr. Bu aþamada henüz bir karar verme iþlemi yoktur. Sadece kütüphane bilgileri ve kullanýcýnýn girdiði bilgiler yardýmýyla, iþlem planlamasý yapýlabilmesi için yeni veriler üretilmektedir. 
+Ýmalat hücresi sýnýfýnda kütüphanedeki ekipmanlardan ihtiyaç olanlar seçilmekte ve bunlarýn uygun þekilde yerleþtirilmesiyle imalat hücresinin fizikî boyutlarýortaya çýkmaktadýr. Þekil 1‘de imalat hücresi sýnýfý ve onun alt sýnýflarý görülmektedir. Burada I, L ve U biçimi yerleþimine ait verilen sýnýflar sadece tanýma kolaylýðý açýsýndan yerleþtirilmiþ olup, bu sýnýflar daha aþaðý sýnýflara taþýnan herhangi bir bilgi (veri alanýveya metot) içermezler. Bir imalat hücresi tezgahlardan, iþ tablalarýndan ve robottan oluþacaktýr. Dolayýsýyla yerleþim türünü belirleyen her sýnýfý, tezgah yerleþimi, iþ tablasý yerleþimi ve robot olmak üzere üç alt sýnýf takip etmektedir. Bu sýnýflarýn üçünde de imalat hücresini tanýmlayan bilgiler vardýr. 
+“Tezgah yerleþimi” sýnýfýnda yer alan veri alanýlistesindeki “TezgahSayisi” ve “TezgahCinsi” veri alanlarý, imalat hücresinin genel tanýmýna aittir. Öncelikle hücrede bulunmasý gereken tezgah sayýsýverilmelidir. “TezgahSayisi” veri alanýna bu deðer girildiði anda “Tezgahlar” metodu aktif hale gelerek tezgah miktarýna göre “Tezgah1", “Tezgah2"... olmak üzere yeni alt sýnýflar oluþturur. Böylece hücredeki tezgah sayýsý ekranda görüntülenmiþ olur. Oluþturulan yeni sýnýflarda görülecek olan “TezgahCinsi” veri alanýna kütüphanede bulunan tezgahlardan birisinin adý tam olarak yazýldýðýzaman bu kez “TezgahCinsi” adýyla görülen metot aktif hale gelir ve adý geçen tezgah bütün bilgileriyle birlikte imalat hücresine taþýnmýþolur. Bu bilgilere ilâveten “TezgahRefKoordinati” veri alanýna tezgahýn hücre içerisindeki konumu ve “YerleþimAçisi” veri alanýna da tezgahýn yerleþim açýsý yazýlýnca, ilgili tezgahýn hücre içerisindeki yeri ve doldurduðu hacim ortaya çýkmýþ olur.  Þekil 6‘da bir tezgahýn “I” yerleþime sahip hücrede konumlanmasý görülmektedir. 
+Ýþ tablalarýnýn imalat hücresine tanýtýmý ve yerleþtirilmesi, tezgah yerleþimi ile tamamen aynýdýr. Yukarýda açýklanan tezgah yerleþiminde, tezgah yerine iþ tablasýnýn var olduðu kabul edilebilir. Ýþtablasýnýn konumunu belirleyen bilgiler, tezgah yerleþimindeki bilgilerle yapýsal olarak aynýdýr; sadece iþ tablasýna ait isimler verilerek yapýlandýrýlmýþtýr. 
+Ýmalat hücresinde sadece bir tek robot mevcut olacaktýr. Dolayýsýyla imalat hücresine kütüphaneden sadece bir tek robot dahil edilebilir. Robota ait veri alaný ve metot listesinde görüleceði gibi, robot cinsini ve baþlangýçta robotun hücredeki konumunu bildiren veri alanlarý “Robot” sýnýfýnda tanýmlanmýþtýr. Ayrýca robot, ucundaki bir tutma takýmýný kullanarak nakil iþlemi yapacaðýndan, robotun yaný sýra tutma takýmýcinsini belirleyen bir veri alaný daha burada tanýmlanmýþtýr. Kütüphaneden robot ve tutma takýmýseçme iþlemi, tezgah ve stoklama tablasý seçme iþlemi gibidir. 
+
+
+Y. Usta Robotlu Bir Ýmalat Hücresindeki Taþýma Ýþlemleri Ýçin Modele DayalýBir Uzman Sistem Geliþtirilmesi 
+Ýmalat hücresinde tezgah sayýsý fazla ve robotun çalýþma hacmi bütün tezgahlara eriþmiyor ise robot ray üzerinde çalýþtýrýlabilir. Nitekim piyasada karþýlaþýlan imalat sistemlerinde, bu duruma rastlanabilmektedir. Robot rayýný tanýmlarken, robotun baþlangýçtaki konumu rayýn baþlangýç noktasýolarak deðerlendirilir; ray uzunluðu ve rayýn imalat hücresi koordinat sistemine göre açýsý belirtilir. Robot hücrede çalýþýrken, üzerinde bulunduðu ray yeni bir serbestlik derecesi olarak deðerlendirilmez. Bunun yerine, robot her tezgahýn karþýsýnda sabit bir noktaya kadar ray üzerinde gelir ve robot kollarýnýn hareketi bu noktadayken gerçekleþir. Uzman sistemde ilk olarak çalýþýlmaya baþlandýðýnda, robotun ray üzerindeki bilgilerini tanýmlayan veri alaný(RobotRayiYerleþimPlani) bulunmaz. Eðer robot ray üzerinde ise, ray sorusuna “evet -E” cevabýverildiðinde ortaya çýkar. 
+Buraya kadar incelenen tezgah yerleþimi, iþ tablasýyerleþimi ve robot sýnýflarýna girilen bilgiler sayesinde, artýk imalat hücresinin özellikleri uzman sisteme girilmiþ olmaktadýr. 
+
+2.4. Ýþ ParçasýModülü 
+Ýþ parçasý modülü, diðer programlardan çýktý alarak elde edilmiþ operasyon planlamasý dosyalarýndan, bu çalýþmada ihtiyaç olan bilgileri (tezgah sýrasý, her bir tezgahtaki iþlem süresi, iþ parçasý baðlama koordinatlarý) derleyip çýkaran bir modül olarak düþünülmüþtür. Yurdumuzda ve dünyada operasyon planlamasý üzerine yapýlan çalýþmalarýn her birinden farklý yapýda çýkýþ dosyalarýelde edilmektedir. Bu dosyalardan yapýlacak bilgi derleme iþlemlerinin, bu çalýþmanýn dýþýnda yürütülerek sonuçlarýn uzman sistem yapýsýnýn içerisine yerleþtirileceði düþünülmüþve bu modülün sadece adý koyularak içi boþbýrakýlmýþtýr. Bu yüzden, ilgili metotlar tarafýndan ileride kullanýlacak bu tür bilgiler þimdilik elle girilmektedir. Þekil 7‘de, ayný anda iþlenecek parçalarýn operasyon planlama dosyalarýndan derlenen ve bu çalýþma için ihtiyaç olan bilgilerin yer aldýðýörnek bir kütüðün yapýsý görülmektedir. Þekilde görülen kütükteki bilgiler daha sonra incelenecek olan Kayan Darboðazlý Sezgisel Algoritma programýnýn girdileri olacaktýr. 
+
+2.5. Ýþlem Planlamasý Modülü 
+Bu modüle yerleþtirilen programlar ve bilgilerle tezgahlarýn yüklenme sýralarý belirlenmekte ve robot iþlemlerinin sýralamasý yapýlmaktadýr. Sýralama iþlemlerinde kullanýlan algoritmalar, uzman sistemin karar mekanizmasýný oluþturmaktadýr. Bu algoritmalar aþaðýdaki gibi özetlenebilir. 
+
+2.5.1. Tezgah yükleme sýralamasýnýn belirlenmesi 
+Ýmalat hücresinde ayný anda imal edilecek parçalarýn iþlem sýralarý, o parçalarýn operasyon planlarýnda görülebilmektedir. Ýþlem sýralarý ile birlikte her bir tezgahtaki operasyon süresi de hesaplanmýþ haldedir. Ayný anda iþlem görecek parçalar ve imalat hücresindeki tezgahlar bilindiðine göre, yapýlmasýgereken iþ, her bir tezgahtaki parça yükleme ve operasyon sýrasýnýn belirlenmesidir. Burada, her bir parça kendi operasyon planýna göre tezgahlarýizlerken, tezgahlardaki parça sýrasý da imal edilen ürünlerin hepsinin toplam imalat zamanýnýbelirlemektedir. Tezgahlardaki sýralama yapýlýrken, bir optimizasyon þartý olarak toplam imalat süresinin en kýsa olmasýna bakýlmaktadýr. Bu sürenin en kýsa yapýlmasý, ayný zamanda tezgahlarýn doluluðunu mümkün olan en yüksek düzeye çýkaracak ve bunun sonucunda maliyet düþmesi, yüksek kapasite kullanýmýve ilk parçanýn üretim hattýndan çýkýþzamanýnýn daha kýsa olmasý gibi diðer optimizasyon þartlarý da gerçekleþecektir. 
+Ýmalat hücresinde tezgah yükleme sýrasýnýn belirlenmesi iþi, literatürdeki tanýmlamalara 
+
+Hucredeki makina sayisi: 4 Hucrede ayni anda imal edilecek parca sayisi: 3 Mk.No IsNo Pr.Sr. B.Krd. IsNo Pr.Sr. B.Krd.  IsNo Pr.Sr. B.Krd. 
+1  1  10   0,0,25,0  2  3   0,0,30,180  3  4  0,0,15,0 
+2  1  8    0,0,65,180  2  8   0,0,30,0   3  7  0,0,15,0 
+3  1  4    0,0,25,0  2  6   0,0,30,180 
+4  2  5    0,0,115,90  3  3   0,0,15,0  
+
+ IsNo  Isin gidecegi makinalar 1 1 2 3 2 2 1 4 3 3 1 2 4 
+Mk.No: Tezgah numarasý 
+IsNo: Tezgahta iþlem görecek iþ parçasý numarasý
+Pr.Sr.: Ýþ parçasýnýn o tezgahtaki iþlem süresi 
+
+B.Krd.: Ýþ parçasýnýn tezgahtaki baðlanma koordinatý (x,y,z,.x) Þekil 7. Operasyon planý dosyalarýndan derlenen bilgilerin kütüðü 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 2, 2005 
+
+bakýldýðýnda atelye tipi sýralama problemi olarak adlandýrýlmaktadýr. Çünkü, imalat hücresinde bulunan tezgahlar birbirinden farklý tezgahlardýr. Hücrede operasyona girecek parçalarýn ayný rotayý izlemesi ve bütün makinalara uðramasýþart deðildir. Sýralama problemlerine ait çalýþmalarda atelye tipi sýralamanýn en zor sýralama problemlerinden biri olduðu belirtilmektedir [15-17] ve “NP-hard (non­deterministic polinomial)” adýverilen problem türü olarak tarif edilmektedir [18]. Bu tür sýralama problemleri için kesin bir analitik metot bulunmamakta, bunun yerine sezgisel algoritmalar önerilmektedir. 
+Ýþlem sýralama yöntemleri incelenirken problemler “deterministik” ve “stokastik” olmak üzere iki ana grupta toplanmaktadýr [18]. Bu çalýþmada “deterministik” problem türü kabul edilmiþtir. Zira iþlemeye ait bilgiler daha önceden belirlenmiþ olup, dikkate alýnmaya deðer belirsizlik arz eden bir durum söz konusu deðildir. 
+Kayan Darboðazlý Sezgisel Algoritma 
+Tezgahlarýn yüklenme sýralarý Kayan DarboðazlýSezgisel Algoritma (Shifting Bottleneck Heuristic Algorithm-SBH) ile belirlenmektedir. SBH algoritmasý sezgisel algoritmalarýn en baþarýlýolanlarýndan birisidir. Algoritmanýn oluþturulabilmesi için iþlemlerin bir þebeke üzerinde takip edilmesi büyük kolaylýk saðlamaktadýr. 
+Algoritmada, birinci iterasyonda sistemdeki her bir makina tek tek sýralamaya tabi tutulur ve makinada iþparçasý sýrasý, en erken teslim zamanýna öncelik vermek suretiyle yapýlýr. Yapýlan sýralama toplam imalat süresinde bir gecikme oluþturacaktýr. Bu gecikmenin en büyük olduðu makina, darboðaz meydana getiren kritik makinadýr ve probleme önce bu makinanýn iþ parçasý sýralamasý dahil edilir. Bir sonraki iterasyonda geri kalan makinalarýn sýralamalarý, bu iterasyonda probleme dahil edilen kritik makina sýralamasý da göz önüne alýnarak tekrarlanýr ve böylece her iterasyonda bir kritik makina sýralamasý ile problemin çözümü tamamlanýr. Ýterasyon ilerledikçe daha önce sýralamasý yapýlmýþmakinalardaki iþ parçasý sýrasý yeniden gözden geçirilir [18,19]. 
+
+SBH Algoritmasýyla Tezgah Yükleme Sýralarýnýn Belirlenmesi (BNECK Programý) 
+Yapýlan araþtýrmalarda, SBH algoritmasýnýn bu çalýþma için yeterli olduðu ve bilgisayar programýolarak yazýlýma aktarýlabileceði görülmüþtür. Bunu için “BNECK”adý verilen bir sýralama programýhazýrlanmýþtýr. Program QUICKBASIC (sürüm 7.1) ile yazýlmýþtýr ve uzman sistemin “iþlem planlamasý” modülünde “exe” halinde çalýþmaktadýr. 
+SBH algoritmasý anlatýlýrken [18], iterasyon ilerledikçe, daha önce sýralamasý yapýlan makinalarýn yeniden gözden geçirilmesi gerektiði belirtilmiþtir. Ancak bu durum bazen program içerisinde kýsýr döngüye sebep olabilmektedir. Algoritmanýn bu sakýncalý yönünün ortadan kaldýrýlmasý için, bu çalýþmada SBH yeni bir yaklaþýmla uygulanmýþ ve sürekli döngüleri önlemek için, programa bir sýnýrlama algoritmasý yerleþtirilmiþtir. Bu algoritma ile her iterasyonda, önceden sýralanan tezgahlar en fazla iki defa tekrar sýralanmaya tabi tutulmaktadýr. Ýkinci turda sýralama yeniden deðiþirse program içerisinde kalite testi “KT()” adý verilen bir deðiþkenin deðerinin deðiþmesi saðlanmakta ve böylelikle sýralamanýn güvenilirliðinin azaldýðýkullanýcýnýn bilgisine sunulmaktadýr. 
+Gerek iterasyonlar sýrasýnda ve gerekse tekrar geri dönüp yeniden sýralama esnasýnda çözümler daima tek makinalý bir sistemin sýralanmasý olarak sürdürülmektedir [18]. Yani, çözüm sýrasýnda herhangi bir tezgahta iþleme girecek olan iþ parçalarýbelirlenmekte, bunlarýn her birinin o tezgahtaki operasyonunun tamamlanabileceði en geç zamanlarýhesaplanmakta ve bu zamanlar küçükten büyüðe doðru sýralanmaktadýr. Algoritma içerisinde sýkça yapýlan bu iþlem “SIRALA” adlý bir alt-program tarafýndan gerçekleþtirilmektedir. 
+BNECK programýnýn diðer bir alt programý ise “YOLBUL”dur. Bu program þebeke üzerinde herhangi iki düðüm arasýndaki muhtemel bütün yollarýçýkarmakta ve bu yollar boyunca geçecek zamanlarýhesaplamaktadýr. SBH algoritmasýyla çözüm yapýlýrken, her iþ parçasýnýn serbest kalma zamanýnýn ve en geç teslim zamanýnýn belirlenmesi; toplam imalat süresi ve her bir tezgahtaki gecikmenin hesaplanmasý gerekmektedir. Bu hesaplamalar ise þebekedeki kollar boyunca ilerleyerek yapýlmaktadýr. BNECK programýna konulan YOLBUL alt programýbu iþlemi yapmaktadýr. 
+BNECK programýnýn sonuçlarý “ISSIRASI.TXT” adýverilen bir çýkýþ kütüðünde toplanmýþ olarak verilir. Çýkýþ kütüðünün yapýsýÞekil 8‘deki gibidir. 
+
+
+
+
+
+
+
+
+
+2.5.2. Robot iþlemlerinin sýralanmasý
+Robotlu imalat hücresi uzman sisteminin karar mekanizmasýný oluþturan ikinci kýsmýný, robot iþlemlerinin sýrasýnýbelirleyen bir program oluþturmaktadýr. “SIRALAMA” adý verilen bu programýn amacýÞekil 8'de verilen BNECK programýnýn çýkýþ bilgilerine bakarak robotun yapmasýgereken iþlemlerin sýrasýný belirlemektir. Program mantýðýnýn oluþturulmasýnda, hemen hemen bütün aþamalarda Gantt diyagramýndan yararlanýlmýþtýr. Diyagramda iþlerin baþlangýç ve bitiþ zamanlarýdikkate alýnarak, gerekiyorsa tezgah aralarýna stoklama tablalarý yerleþtirilmekte; ayný anda birden 
+
+Y. UstaRobotlu Bir Ýmalat Hücresindeki Taþýma Ýþlemleri Ýçin Modele DayalýBir Uzman Sistem Geliþtirilmesi 
+Hucredeki makina sayisi: 4  Hucrede ayni anda imal edilecek parca sayisi: 3 
+ Mak.No IsNo S.K.Z. Pr.Sur. IsNo S.K.Z. Pr.Sur. IsNo S.K.Z. Pr.Sur. 1 10 10 2 10 3 3 134 -1 17 2 20 8 1 10 8 3 187 -1 25 3 1 18 4 2 226  -1  28 4 2 13 5 3 253  -1  28
+ IsNo    Isin gidecegi makinalar1 1 2 3 -12 2 1 4 3 -13 1 2 4  -1
+Mak.No: Tezgah numarasýIsNo: Tezgahta iþlem görecek iþ parçasý numarasýS.K.Z.: Ýþ parçasýnýn o tezgahta operasyona girebileceði en erken zaman (serbest kalma zamaný) Pr.Sur.: Ýþ parçasýnýn o tezgahtaki iþlem süresi 
+Þekil 8. SIRALAMA programýnýn giriþ bilgilerini içeren “ISSIRASI.TXT” kütüðünün görünümü 
+fazla robot iþlemi gerektiði takdirde, bu iþlemler birbirine göre týkanýklýðý önleyecek biçimde kaydýrýlmaktadýr. Bu amaçla, literatürde bulunmayan algoritmalar geliþtirilmiþve programa tamamen kiþisel tecrübeye dayalý kararlarýn verilmesine olanak saðlayan yöntemler yerleþtirilmiþtir. Gantt diyagramýburada hem bilgi kaynaðý, hem de sonuçlarýn görüldüðü bir ortam olarak kullanýlmýþtýr. “SIRALAMA” programý da QUICKBASIC (sürüm 7.1) ile hazýrlanmýþtýr ve uzman sistemin “IÞLEM_PLANLAMASI” modülünün “methot” kýsmýnda “exe” halinde çalýþmaktadýr. 
+SBH algoritmasýnýn uygulanmasý sonucunda iþparçalarýnýn tezgahlarda hangi sýra ile iþleme gireceði belirlenmekte ancak herhangi bir zaman bilgisi verilmemektedir. Elde edilen sýralama bilgileri ve iþlem zamanlarý dikkate alýnarak her tezgahýn iþleri hangi zamanlarda operasyona alacaðýnýn belirlenmesi iþlemi “çizelgeleme” adýný alýr [18,20]. Çizelgeleme iþlemleri Gantt diyagramlarý’yla grafik formunda gösterilebilir. Örneðin, Þekil 8‘de verilen 4 makina ve 
+Makina 1 
+Makina 2 
+Makina 3 
+Makina 4 
+3 iþ parçasýndan oluþan sýralama probleminin sonuçlarýndan yola çýkarak oluþacak Gantt diyagramýÞekil 9‘daki gibi olacaktýr. 
+“SIRALAMA” Programýnýn Genel Yapýsý
+“SIRALAMA” programý temel olarak 9 kýsýmda yapýlandýrýlmýþtýr. Bu kýsýmlar aþaðýdaki iþlemleri gerçekleþtirmektedir. 
+1. 
+SBH algoritmasýndan bulunan deðerlerin okunmasý. 
+
+2. 
+Ýþlemlerin kutularýnýn oluþturulmasý  ve ilk haliyle Gantt diyagramýnýn elde edilmesi. 
+
+3. 
+Herhangi iki veya daha fazla tezgahta iþparçalarýnýn ayný  anda karþýlýklý olarak deðiþtirilme durumlarýnýn araþtýrýlmasý; bunlarýn mümkün olabilecek beþ deðiþik eþ zamanlýtransfer problemi türünden [21] hangileri olduðunun belirlenmesi ve ileride program akýþýnýbozmayacak þekilde iþlem zamanlarýnýn . kadar kaydýrýlmasý. 
+
+
+
+
+Þekil 9. Dört makina ve üç iþe ait zaman bilgilerini gösteren örnek bir Gantt diyagramý
+4. 
+Tezgahlarda iþ akýþýnýn sürekliliðini saðlamak ve kilitlenmeleri önlemek için gerekli yerlere iþtablalarýnýn yerleþtirilmesi. 
+
+5. 
+Tezgahlarda ve iþ tablalarýndaki her bir iþlemin baþlangýç ve bitiþ zamanlarýnýn bir dize haline getirilmesi. 
+
+6. 
+Ýþ parçasý  yerleþtirme (koyma) ve alma iþlemlerinin artan zamana göre sýralanmasý. 
+
+7. 
+Aynýiþ parçasýnýalan ve koyan iþlemlerin, önce alma sonra koyma olacak þekilde ard arda getirilmesi. 
+
+8. 
+Elde edilen robot iþ sýralamasýnýn, makina ve iþtablasý arasýndaki öncelik sýrasýna göre yeniden sýraya sokulmasý. 
+
+9. 
+Sonuçlarýn çýkýþ kütüðüne kaydedilmesi. 
+
+
+Yukarýda verilen aþamalar Þekil 9‘da verilen örnek Gantt diyagramýndan baþlayarak uygulanýrsa, Gantt diyagramý 4. maddenin sonunda Þekil 10‘da verildiði gibi olacaktýr. 
+Programýn geri kalan aþamalarýnýn uygulanmasýyla elde edilecek sonuç, bir çýkýþ kütüðünde toplanmýþtýr. Þekil 11‘de söz konusu 4 makina ve 3 iþ parçalýsýralama probleminin çýkýþ kütüðü örnek olarak verilmektedir. 
+Burada, ikinci sütunda her bir iþlemin yapýlacaðýzamanlar görülmektedir. Üçüncü sütunda ise iþlemin hangi tezgahta (ya da tezgah yanýndaki iþ tablasýnda) gerçekleþeceðine iliþkin bilgi yer almaktadýr. Dördüncü sütunda da taþýnacak parçanýn numarasý yer almýþtýr. 
+Bir tezgahýn yanýna program tarafýndan yerleþtirilen iþtablalarý da ayný tezgah numarasýyla gösterildiðinden, “Tezgah No” sütununda yer alan rakamlar, iþlemin tezgahta mýya da iþ tablasýnda mý gerçekleþeceði bilgisini vermemektedir. Ayrýca iþlemin yerleþtirme mi yoksa alma mý olduðu ilk 4 sütundaki bilgilerde verilmemiþtir. Bu bilgiler için “açýklamalar” sütunundaki bilgilere bakýlmalýdýr. Örneðin, birinci sýradaki iþleme bakýldýðýnda, 2. tezgahýn yanýndaki iþtablasýndan 2. iþ parçasýnýn alýnmasý iþleminin yapýlacaðý anlaþýlmalýdýr. Ýkinci satýrdaki bilgilerde de tezgah numarasýnýn 2 ve iþ numarasýnýn 2 olduðu görülmektedir. Ancak açýklamaya bakýldýðýnda 1. satýrdaki iþlemle robotun elinde bulunan 2 nolu iþparçasýnýn 2. tezgaha yerleþtirildiði anlaþýlmaktadýr. 
+Bir iþ parçasýnýn herhangi bir yerden alýnýp baþka bir yere yerleþtirilmesi iþleminin izlenebilmesi için birbirini izleyen iki satýra birlikte bakýlmalýdýr. Bu sebeple, “açýklamalar” sütununda iþlemlerin “al” ve “yerleþtir” þeklindeki bir sýrayý takip ettiði ve bu satýrlarda iþ parçasý numaralarýnýn deðiþmediði görülmektedir. 
+SIRALAMA programýnýn çýkýþ kütüðünde ayrýca, imalat hücresinde bulunmasý gereken iþ tablalarý, bu tablalarýn nerede yer alacaðý ve üzerinde hangi parçayý bulunduracaðýna dair bilgiler verilmektedir. 
+
+3. SONUÇ VE ÖNERÝLER 
+Bu çalýþmada, robotlu bir imalat hücresinde, imalat hücresini oluþturma iþlemlerini gerçekleþtiren, iþparçalarýnýn tezgahlara hangi sýra ile yerleþtirilmesi gerektiðini ve robotun bu taþýma iþlemleri için hangi zamanlarda hangi iþlemleri yapmasý gerektiðini belirleyen bir uzman sistem geliþtirilmiþtir. Ýmalat hücresinde en fazla 10 tezgah bulunabileceði ve aynýanda en fazla 10 iþ parçasýnýn iþlem gördüðü varsayýlmýþtýr. Hücrede taþýma ve yerleþtirme iþlemleri için sadece bir tek robot olduðu kabul edilmiþtir. 
+
+
+0 10 20 30 t (zaman) 
+Y. Usta Robotlu Bir Ýmalat Hücresindeki Taþýma Ýþlemleri Ýçin Modele DayalýBir Uzman Sistem Geliþtirilmesi 
+ROBOT ÝÞLEMLERÝ SIRASI Ýþlem Tezgah sýrasýZaman no Ýþno Açýklamalar 
+1 0 22 Ýþ tablasýndan al. 2 0 2 2   Tezgaha yerleþtir. 3 0 11 Ýþ tablasýndan al. 4 0 1 1   Tezgaha yerleþtir. 5 8 2 2   Tezgahtan al. 6 8 22 Ýþ tablasýna yerleþtir. 7 10 1 1   Tezgahtan al. 8 10 2 1   Tezgaha yerleþtir. 9 102 2 Ýþ tablasýndan al.   10 10 1 2   Tezgaha yerleþtir.   11 13 1 2   Tezgahtan al.   12 13 4 2   Tezgaha yerleþtir.   13 131 3 Ýþ tablasýndan al.   14 13 1 3   Tezgaha yerleþtir.   15 18 2 1   Tezgahtan al.   16 18 3 1   Tezgaha yerleþtir.   17 18 1 3   Tezgahtan al.   18 18 2 3   Tezgaha yerleþtir.   19 22 3 1   Tezgahtan al.   20 223 1 Ýþ tablasýna yerleþtir.  21 22 4 2   Tezgahtan al.   22 22 3 2   Tezgaha yerleþtir.   23 25 2 3   Tezgahtan al.   24 25 4 3   Tezgaha yerleþtir.   25 28 4 3   Tezgahtan al.   26 284 3 Ýþ tablasýna yerleþtir.  27 28 3 2   Tezgahtan al.   28 283 2 Ýþ tablasýna yerleþtir.
+ÝMALAT HÜCRESÝNE YERLEÞTÝRÝLMESÝ GEREKEN ÝÞ TABLALARI VE YERLERÝOperasyon aralarýnda ihtiyaç duyulan stoklama tablalarý: Tezgah no Koyulacak iþ parçasý
+ 22 Ham iþ parçalarýnýn ilk operasyonuna ait tezgah giriþindeki stoklama tablalarý: Tezgah no Koyulacak iþ parçasý
+ 11 
+22 
+13 
+
+
+Ýþ parçalarýnýn son operasyonunun yapýldýðý tezgah çýkýþýndaki stoklama tablalarý: 
+Tezgah no Koyulacak iþ parçasý 31 32 43
+
+Þekil 11. SIRALAMA programýnýn çýkýþbilgilerini içeren “SIRALAMA.TXT” kütüðünün görünümü 
+Geliþtirilen uzman sistem dört ayrý modülde birincisi, toplam imalat süresini en kýsa yapacak toplanmýþtýr (Þekil 1). Bu modüller sýrayla, tezgahlar, þekilde, iþ parçalarýnýn her bir tezgahta hangi sýra ile depolama elemanlarý (stoklama tablalarý) ve robotlara operasyona girmesi gerektiðini sýralayan “BNECK” ait bilgilerin yer aldýðý “kütüphane” modülü, programýdýr. Bu programa, “Kayan Darboðazlýkütüphanede bulunan elemanlardan istenilenleri Sezgisel (SBH)” algoritma yerleþtirilmiþtir. kullanarak bir imalat hücresi yerleþimini oluþturan Operasyon planlarý bilinen parçalarýn iþlem sýralarý ve “imalat hücresi” modülü, hücrede imal edilecek iþiþlem sürelerine ait bilgiler kullanýlarak sýralamaya ait parçalarý için iþlem planlamalarýna ait dosyalarýsonuçlar elde edilmektedir. Kaynak [18]’de SBH uzman sistem içerisine alan “IÞ_PARÇASI” modülü algoritmasý anlatýlýrken, iterasyon ilerledikçe, daha ve robot iþlemlerini sýralayan, ayný zamanda da önce atamasý yapýlan makinalarýn yeniden gözden uzman sistemin karar mekanizmasýný oluþturan geçirilmesi gerektiði ifade edilmiþtir. Ancak bu durum programlarýn yer aldýðý “iþlem planlamasý” algoritmanýn uygulanmasý sýrasýnda kýsýr döngüye modülüdür. sebep olabilmektedir. SBH algoritmasýnýn bu 
+sakýncalý yönünün ortadan kaldýrýlmasý için bu “Ýþlem planlamasý” modülündeki programlardan çalýþmada SBH yeni bir yaklaþýmla uygulanmýþ ve sürekli döngüleri önlemek amacýyla geliþtirilen programa bir sýnýrlama algoritmasý yerleþtirilmiþtir. 
+Karar mekanizmasýnýn ikinci kýsmý ise, robot iþlemlerini sýralayan algoritmalarýn yerleþtirildiði “SIRALAMA” programýdýr. Bu programýn çalýþtýrýlmasýyla, tezgahlar arasýnda yükleme -boþaltma yapabilmek için iþ parçalarýnýn ham malzeme alanýndan alýnýp bitmiþ ürün alanýna kadar götürülmesini izleyen bir iþlemler zinciri oluþturulmaktadýr. Program, tezgahlarý mümkün olan en yüksek dolulukta tutabilmek için gerekirse tezgah aralarýna iþ tablasý yerleþtirilmesine de karar vermektedir. Yazýlýmýnýn çalýþtýrýlmasý sonucunda, belirli bir zamanda, robotun hangi parçayý hangi tezgahtan (veya hangi iþ tablasýndan) alacaðý ve bunu nereye koyacaðýna iliþkin (diðer tezgah, iþ tablasýveya bitmiþ ürün alaný) bilgiler bir tablo halinde elde edilmektedir (Þekil 11). 
+Geliþtirilen uzman sistemdeki programlarýn çalýþtýrýlmasý ile imalat hücresi yapýlandýrýlmakta, BNECK programý sonucunda tezgahlarýn yükleme sýrasý belirlenmekte ve son olarak SIRALAMA programý ile imalat hücresine yerleþtirilecek iþtablalarýve robotun söz konusu yükleme-boþaltma iþleri için sýrasýyla yapmasý gereken iþlemler ortaya çýkmaktadýr. Bundan sonra yapýlacak çalýþmalarda robotun bu iþlemleri yapabilmek için zamana göre izleyeceði yollarýn belirlenmesi incelenmelidir. Yapýlacak bu iþlemler için imalat hücresinin fiziki boyutlarý dikkate alýnmalý ve çarpmalarý önlemek için ara noktalar tarif edilmelidir. Yol belirleme iþlemi bu çalýþmanýn konusu deðildir, ancak hazýrlanan uzman sistem yapýsýrobot yörüngelerini üretmek için bütün altyapýya sahiptir. 
+Çok makinalý sistemlerde sýralama yöntemleri ve SBH algoritmasý incelenirken, oluþturulan þebekede birleþtirici ve ayýrýcý kollardan bazýlarýnýn bir araya gelmesiyle kýsýr döngülere sebep olan çýkmazlarýn var olabileceði bildirilmiþ ve böyle bir çýkmazýn oluþtuðu þebekede sýralama yapmanýn imkansýz olduðu belirtilmiþtir [18,19]. Örnek problemler incelenirken hayali bir 10 makina ve 10 iþ parçalý bir problem oluþturulmuþ ve bu çýkmazla karþýlaþýlmýþtýr. BNECK programý, bu haliyle, çýkmaz oluþan bir þebekede çözüm yapamamaktadýr. Bundan sonra yapýlacak araþtýrmalar ve yeni yaklaþýmlarla, optimum olmasa bile bir sýralamanýn yapýlabilmesi, imalat hücresi uzman sisteminin çalýþabilir durumda olmasý için faydalý olacaktýr. 
+
+
+
+
+KAYNAKLAR 
+1.	Su, C.T. & Fu, H.P., “A simulated annealing heuristic for robotics assembly using the dynamic pick-and-place model”, Production Planning & Control, 9, 8, 795-802, 1998. 
+2.	
+Son, C., “An optimal planning technique for intelligent robot’s part assembly in partially unstructured environments”, Robotica, 16, 47­57, UK, 1998. 
+
+3.	
+Alexander, J.C., Maddocks, J.H. & Michalowski, B.A., “Shortest distance paths for wheeled mobile robots”, IEEE Transactions on Robotics and Automation, 14, 5, 657-662, 1998. 
+
+4.	
+Desaulniers, G., Soumis, F. & Laurent, J.C., “A shortest path algorithm for a carlike robot in a polygonal environment”, The Int. Journal of Robotics Research, 17, 5, 512-530, 1998. 
+
+5.	
+Kochhar, A.K., Ma, X. & Khan, M.N., “Knowledge-based systems approach to the development of accurate and realistic master production schedules”, ImechE, Proc. Instn. Mech. Engrs, 212, B, 453-460, 1998. 
+
+6.	
+Cohen, G., “Using AI techniques to optimize manufacturing shop-floor operations”, Eng. Appli. of AI, 2, September, 238-246, 1989. 
+
+7.	
+Yu, K. & Goldberg, K.Y., “A complete algorithm for fixture loading”, The Int. Journal of Robotics Research, 17, 11, 1214-1224, 1998. 
+
+8.	
+Ajmal, A. & Zhang, S.G., “The application of a knowledge-based clustering algorithm as an aid to probe selection and inspection processes planning”, ImechE, Proc. Instn. Mech. Engrs, 212, B, 299-305, 1998. 
+
+9.	
+Özdemir, A., Görüntü Tanýma Yöntemleriyle Biyel Eðrilerinin Tasarýmý ve Sýnýflandýrýlmasý, Doktora Tezi, Gazi Üniv. Fen Bilimleri Enst. Ankara, 1996. 
+
+10.	
+Þeker, U., Bilgisayar Destekli Baðlama KalýbýTasarýmý, Doktora Tezi, Gazi Üniv. Fen Bilimleri Enst. Ankara, 1995. 
+
+11.	
+Özbayrak, M., “An intelligent database system as a design aid to FMS”, Proceedings on 7th International Machine Design and Production Conference, p.23-32, 11-13 September, METU, Ankara, 1996. 
+
+12.	
+Çakar, T., Türker, A.K. & Çaðýl, G., “The use of neural networks in flexible manufacturing system design”, Proceedings on 7th International Machine Design and Production Conference, p.55-64, 11-13 September, METU, Ankara 1996. 
+
+13.	
+KAPPA (version 1.2) Referans Manual, Intellicorp, Inc., USA, 1991. 
+
+14.	
+ABB Robotics Products, ABB IRB-2000 Product Manual, 1992. 
+
+15.	
+Chen, H., Chu, C. & Proth, J.M., “An improvement of the Lagrangean relaxation approach for job shop scheduling: A dynamic programming method”, IEEE Transactions on Robotics and Automation, 14, 5, 786-795, 1998. 
+
+16.	
+Wein, L.M. & Chevalier, P.B., “A broader view of the job-shop scheduling problem”, 
+
+
+
+Y. UstaRobotlu Bir Ýmalat Hücresindeki Taþýma Ýþlemleri Ýçin Modele DayalýBir Uzman Sistem Geliþtirilmesi 
+Management Science, 38, 7, 1018-1033, USA, 1992. 
+17.	
+Kim, K.H. & Egbelu, P.J., “A mathematical model for job shop scheduling with multiple process plan consideration per job”, Production Planning & Control, 9, 3, 250-259, 1998. 
+
+18.	
+Pinedo, M., Scheduling - Theory, Algorithms, and Systems, Prentice Hall Englewood Cliffs, New Jersey, USA, 1995. 
+
+
+19.	
+Adams, J., Balas, E. & Zawack, D., “The shifting bottleneck procedure for job shop scheduling”, Management Science, 34, 3, 391­401, USA, 1988. 
+
+20.	
+Acar, N., Üretim Planlamasý Yöntem ve Uygulamalarý, 2. Baský, Milli Prodüktivite Merkezi Yayýnlarý, No:280, Ankara, 1985. 
+
+21.	
+Usta, Y., Robotlu Ýmalat Hücreleri için Uzman Sistem Geliþtirilmesi, Doktora Tezi,Gazi Üniv. Fen Bilimleri Enst. Ankara, 1999. 
+
+
+
+
+
+

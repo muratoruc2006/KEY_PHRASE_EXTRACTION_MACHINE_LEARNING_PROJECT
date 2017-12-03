@@ -1,0 +1,204 @@
+KABLOSUZ AÐ TABANLI SAHTE KÝMLÝK TESPÝT SÝSTEMÝUYGULAMASI 
+Yavuz KILAÐIZ ve Ahmet BARAN* 
+* Erzincan Meslek Yüksekokulu, Atatürk Üniversitesi, Fatih Mah. 24100, Erzincan 
+(Geliþ/Received: 23.06.2005; Kabul/Accepted: 28.12.2005) 
+ÖZET 
+Bu çalýþmada, güvenlik görevlileri tarafýndan kimlik kontrollerinde kullanýlmak üzere, yüz ve yazý tanýma yazýlýmlarý kullanan bir kimlik tespit sistemi geliþtirilmiþtir. Sistem, gezgin kontrol noktalarý, yerel sunucular ve bunlar arasýnda veri iletiþimi saðlayan kablosuz iletim hattýndan oluþmaktadýr. Bir gezgin kontrol noktasý, kameralý bir kimlik haznesi ile yüz ve yazý tanýma yazýlýmlarýnýn çalýþtýrýldýðý bir dizüstü bilgisayardan oluþmaktadýr. Yerel sunucular, bulunduklarý yerleþim biriminde nüfusa kayýtlý vatandaþlarýn kimlik bilgileri ve fotoðraflarýndan oluþan bir veritabaný içermektedir. Yerel sunucularla gezgin kontrol noktalarý arasýnda veri iletiþimi, kablosuz bilgisayar aðý ile gerçekleþtirilmektedir. Kontrolü yapýlacak olan kimlik kartý, kimlik haznesine konulduðunda, dizüstü bilgisayar, yazý tanýma yazýlýmýyla kiþinin nüfusa kayýtlý olduðu yerleþim birimini ve vatandaþlýk numarasýný tespit ederek, vatandaþlýk numarasýný o yerleþim biriminin yerel sunucusuna göndermektedir. Yerel sunucuda vatandaþlýk numarasý ile arama yapýlýp, o vatandaþlýk numarasýna ait fotoðraf bulunarak, istemci gezgin kontrol noktasýna gönderilmektedir. Gezgin kontrol noktasýnda bir yüz tanýma yazýlýmýyla, yerel sunucudan gelen fotoðraf ile kimlik kartýndaki fotoðraf karþýlaþtýrýlarak kimlik kartýnýn sahte olup olmadýðý tespit edilmektedir. Sistem iþleyiþinde, güvenlik görevlileri sadece kimlikteki resmin, kimliði sunan kiþiye benzerliðini kontrol etmekte, kimliðin sahte olup olmadýðý ise sistem tarafýndan %100 doðrulukla anlaþýlabilmektedir. 
+
+Y. Kýlaðýz ve A. Baran  
+1. GÝRÝÞ(INTRODUCTION) 
+Günümüzde, güvenlik görevlileri tarafýndan kimlik kartlarýna bakmak suretiyle yapýlan kimlik kontrolleri, sahte kimlik tespitinde çoðunlukla baþarýya ulaþama­maktadýr. Sahte kimlik kartý hazýrlayan organizas­yonlar iþlerini çok iyi yapmakta, deneyimli güvenlik görevlileri bile kimlik kartýnýn sahte olup olmadýðýnýçoðu zaman anlayamamaktadýr. Hazýrlanan sahte kimliklerde genellikle, fotoðraf olarak sahte kimlik kartý hazýrlanan kiþinin fotoðrafý kullanýlmakta, kimlik kartý bilgileri ise sahte olmaktadýr. Eðer sahte kimlik kartý sahibi kiþinin eþkâli bilinmiyorsa, kimlik kartýnýn sahte olup olmadýðý neredeyse anlaþýlama­maktadýr. Böylece suçlu sahte kimlik kartýyla rahatça dolaþabilmekte, suç iþlemeye devam edebilmekte ve hatta yurtdýþýna çýkabilmektedir. Bu durum, suçlularýn yakalanamamasýna, dolayýsýyla suçlarýn aydýnlanama­masýna neden olmaktadýr. Bazen, ayrýntýlý tahkikat için þüpheli kiþiler güvenlik merkezlerine götürülerek kapsamlý araþtýrmalar yapýlmaktadýr. Fakat bu durumda da suçsuz insanlarýn onurlarý incinmekte, zaman ve iþgücü kayýplarý oluþmaktadýr. 
+Bu olumsuzluklarý azaltma konusunda bir alternatif sunan bu çalýþmada, kimlik kartlarýnýn sahte olup olmadýðýný tespit etmek için, yüz ve yazý tanýma yazýlýmý kullanan bir sistem geliþtirilmiþtir. Bu sistem, bir kimlik kartýndaki fotoðrafý, kimlik kartýnda bilgi­leri verilen kiþinin veri tabanýnda kayýtlý fotoðrafý ile karþýlaþtýrarak, kimlik kartýnýn sahte olup olmadýðýnýanlayabilmektedir.  
+Bu çalýþmada geliþtirilen sahte kimlik tespit sistemi, gezgin kontrol noktalarý, kablosuz iletim hattý ve yerel sunucular olmak üzere üç ana üniteden oluþmaktadýr. Gezgin kontrol noktasýnda, kameralý bir kimlik haznesi ile kablosuz að eriþimi bulunan bir dizüstü bilgisayar bulunmaktadýr. Gezgin kontrol noktasý ile yerel sunucular arasýnda veri iletiþimi IEEE 802.11b kablosuz yerel alan að teknolojisi ile yapýlmaktadýr. 
+Sistem, iki varsayým üzerine kurulmuþtur. Bunlardan birincisi, bütün yerleþim birimlerinde, o yerleþim birimi nüfusuna kayýtlý her vatandaþýn, kimlik bilgileri ve fotoðrafýnýn bir veri tabanýna kayýtlý olmasýdýr. Bu iþlem, vatandaþlara fotoðraflý kimlik kartý verilmesi ya da kimlik kartý deðiþimi esnasýnda vatandaþýn kiþisel bilgilerinin ve kimlikte kullanýlacak fotoðrafýn elektronik ortama aktarýlmasýyla mümkün olacaktýr. Bu varsayým, devletimizin, vatandaþlarýn fotoðraflarý­ný da veri tabanlarýna ekleyerek Merkezi Nüfus Ýdaresi Sistemi (MERNÝS) projesini tamamlamasýyla yakýn bir zamanda gerçekleþebilecektir [1]. 
+Ýkinci varsayým ise, tüm yerleþim birimlerinin kablosuz veri iletiþimine uygunlaþtýrýlmýþ olmasý varsayýmýdýr. Günümüzde kullanýmý hýzla artan kablosuz aðlarýn, bir gelecek teknolojisi olmaktan çýkýp, bugünün teknolojisi olmaya baþlamasý, bu varsayýmýn da yakýn bir gelecekte gerçekleþeceðini göstermektedir. Zira 
+Kablosuz Að Tabanlý Sahte Kimlik Tespit Sistemi Uygulamasý
+
+dünyada ve ülkemizde, baþta üniversiteler olmak üzere, birçok kurum ve kuruluþ, kablosuz bilgisayar iletiþimi için altyapýlarýný oluþturmaya ve hatta kullanmaya baþlamýþtýr [2-4]. Yine, yerleþim birimlerini kablosuz þehirlere dönüþtürmek için de birçok çalýþma yapýlmaktadýr [5,6]. Aslýnda, bugün bile GPRS þebekesi ile hemen her yerden, kablosuz olarak kablolu aðlarla veri iletiþimi gerçekleþtirmek mümkündür [7-9]. 
+2. IEEE 802.11b KABLOSUZ YEREL ALAN 
+AÐLARI (IEEE 802.11b WIRELESS LOCAL AREA NETWORKS) 
+
+En basit tanýmýyla kablosuz iletiþim teknolojisi, kablosuz olarak noktadan noktaya veya bir að yapýsýþeklinde iletiþim saðlayan bir teknolojidir. Bu açýdan bakýldýðýnda, kablosuz iletiþim teknolojisi, günümüz­de yaygýn olarak kullanýlan kablolu veya fiber optik iletiþim teknolojileriyle benzerlik göstermektedir. Kablosuz iletiþim teknolojisini diðerlerinden ayýran nokta ise, iletiþim ortamý olarak havayý kullanmasýdýr. Bilgi, kablolu haberleþmede elektrik akýmý olarak iletilirken, kablosuz haberleþmede belirli frekanslar­daki elektromanyetik dalgalar halinde iletilmektedir. 
+Kablosuz aðlarýn, kablolu aðlara göre en önemli üstünlükleri gezginlik, esneklik, kurulum-bakým kolaylýðý ve düþük maliyetidir. Kablosuz iletiþimin doðasýndan kaynaklanan veya kablosuz aðlarýn kullanýlmasý sýrasýnda ortaya çýkan, problem ve eksikliklerin en önemlileri çok yol yayýlmasý, yol kaybý, radyo iþaret giriþimi, sýnýrlý batarya ömrü, üretici farklýlýklarýndan kaynaklanan uyumsuzluk, aðgüvenliði ve uygulama baðlanýrlýk problemleridir [10]. Kablosuz iletiþimde veri iletim hýzý, taþýyýcýiþaret frekansý, kullanýlan frekans bölgesi, modülas­yon/kodlama yöntemi, iþaretleþme parametreleri, güvenlik, çoklu eriþim, yayýn gücü ve anten gibi parametreler sistem farklýlýklarýný ve tercihlerini oluþturan önemli unsurlardýr [11]. 
+IEEE 802.11b, bugün dünyada en çok kullanýlan kablosuz yerel alan að (WLAN) teknolojisidir. IEEE tarafýndan 1999 yýlýnda, ilk IEEE 802.11 standardýnda düzenlemeler yapýlarak yayýnlanmýþ iki standarttan biri olan IEEE 802.11b, 2.4 GHz frekans bandýnda, doðrusal dizi daðýnýk tayf (DSSS) modülasyon þemasýkullanarak 5.5 Mbps ve 11 Mbps hýzlarýnda veri iletiþimi yapabilmektedir. IEEE 802.11’den daha yüksek veri iletiþim hýzýný saðlayabilmek için modülasyon þemasýnda 8 parçalý tamamlayýcý kod anahtarlama (CCK) kullanýr. CCK, gönderilen bilgiyi kodlamak için 6 bit kullanýr ve bu þekilde hýz 6 kat artar. Veri iletiþimi için 3 ayrýk kanal ve bu kanallarýn her biri 30 Mhz olmak üzere toplam 90 Mhz bant geniþliði kullanýr. Bu durum, ayný bölgede birbirlerinin iþaretleþmelerini etkilemeden üç adet IEEE 802.11b aðý kurulabilmesine müsaade eder. IEEE 802.11b, opsiyonel olarak kýsa fiziksel katman yakýnsama protokolü (PLCP) önbilgisi kullanarak daha yüksek deðerlerde (2, 5.5 ve 11 Mbps) etkin veri 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+aktarýmý saðlayabilmektedir. Opsiyonel olarak taným­lanan diðer bir özellik olan, ikili paketler konvolosyo­nel kodlama (PBCC) modunu kullanarak, uyumlu cihazlar arasýnda 22 Mbps veri iletiþimini saðlayabil­mektedir. Bu özellikler, farklý kanallarda çalýþma ve temiz kanal seçimi (CCA) mekanizmalarý kullanma gibi, bazý sýnýrlýþartlarda kullanýlabilmektedir [12-15]. 
+
+3. YÜZ TANIMA (FACE RECOGNITION) 
+Yüz tanýma, günümüzde kiþi kimliklendirme iþlemlerinde çok sýk baþvurulan yöntemlerden biridir. Yüz tanýma problemi için bir bilgisayar modeli kurmak oldukça zordur. Bu zorluk, yüzlerin çok boyutlu, karmaþýk ve anlamlý görsel öðeler olmalarýndan kaynaklanmaktadýr. Oysa insan beyni, bir an gördüðü bir yüzü, yýllar sonra bile, yaþlanma, saç uzamasý, sakal býrakma gibi deðiþimlere raðmen birkaç saniye içerisinde hatýrlayabilmektedir. Ýnsan beynindeki bu üst düzey yetenek, yüz tanýma esnasýnda bilginin en iyi ve en kýsa þekilde kodlandýðýgerçeðini ortaya çýkarmaktadýr [16]. 
+Bilgisayar yardýmý ile yapýlan yüz tanýma çalýþmalarýnda iki temel yöntem kullanýlmaktadýr [17,18]. Bu yöntemlerden birincisi, yüz üzerinde yer alan göz, aðýz, burun gibi organlarýn geometrik özelliklerinden elde edilen bilgiler ile bir özellik vektörü oluþturulmasýna, tanýma iþleminin de benzer þekilde elde edilmiþþekillerin karþýlaþtýrýlmasý ile yapýlmasý ilkesine dayanmaktadýr [19,20]. 
+Yüz tanýmada kullanýlan ikinci temel yöntem ise temel bileþen analizi (PCA) adýný almaktadýr. Bilgi teorisi temellerinin esas alýndýðý bu yaklaþýmlarda, yüzleri en az bilgi ve en iyi þekilde ifade etme yoluna gidilmektedir. Yüzler ifade edilirken göz, aðýz gibi organlar baðýmsýz olarak düþünülmemekte, elde edilen kodlamada onlara ait bazý ayýrt edici özellikler de yer alabilmektedir [19,21-23]. Bu yaklaþýmlardan biri olan özyüz (eigenface) tanýma sisteminde yüz tanýma iþlemi aþaðýdaki adýmlarla yapýlmaktadýr: 
+• 
+Veri tabanýna eklenecek kiþilere ait yüz fotoðraflarý, normalize edilerek veri tabanýna kaydedilir. 
+
+• 
+Normalize edilen bu fotoðraflardan, özyüzlerin oluþturulacaðý bir eðitim kümesi seçilir. En yüksek özdeðere sahip M adet özyüz, özellik vektörlerinin elde edilmesinde kullanýlýr ve özyüzlerin tanýnmasýaþamasýnda kullanýlmak üzere saklanýr. 
+
+• 
+Veri tabanýnda bulunan her bir yüz için, bu M adet özyüz kullanýlarak özellik vektörü elde edilir. 
+
+• 
+Yeni bir fotoðraf sisteme verildiðinde, önce normalize edilir ve daha sonra saklanmýþ olan M adet özyüz kullanýlarak özellik vektörü elde edilir. 
+
+• 
+Elde edilen bu özellik vektörü, veri tabanýnda yer alan yüzlerin vektörleri ile belli bir eþik içerisinde karþýlaþtýrýlýr. Eþik içine düþen en az bir fotoðraf varsa, yüz tanýnmýþ demektir [16,21]. 
+
+
+Y. Kýlaðýz ve A. Baran  
+
+Özyüzlerin EldeEdilmesi 
+Özyüzler, eðitim kümesinde yer alan resimlerin oluþturduðu daðýlýma ait kovaryans matrisinin özvektörleridir. Eðitim kümesinde yer alan resimler 
+.1,.2,... .M ile gösterilirse, bu kümede yer alan 
+1 M
+
+resimlerin ortalamasý .=. .n olarak elde
+Mn=1 
+
+edilir. Bu durumda herbir resmin ortalamadan farký.=.-.vektörüdür. Elde edilen bu vektörler 
+ji 
+
+üzerinden verinin daðýlýmýný en iyi ifade eden M adet ortagonal un  vektörü, aþaðýda tanýmý verilen .kkaysayýlarýný maksimum yapacak þekilde seçilir. 
+.k = 1 .nM =1(ukT .n )2 (1)
+M 
+
+Burada Un  vektörleri, ortanormallik koþulunu (2) saðlamalýdýr. 
+.1, lk .= 
+
+uu =. (2) 
+lTk lk =..0, lk ..
+. 
+
+Uk vektörleri ve .ksabitleri,aþaðýda tanýmý verilen kovaryans matrisi C’nin sýrasýyla özvektörleri ve özdeðerleridir. 
+C = 1 M =.. Tn =AA T (3) 
+.n 1 n
+M 
+
+A =[..2....] (4) 
+1 M 
+
+Bu durumda M ×M boyutunda bir matris özdeðerlerinin elde edilmesi yüz tanýma problemi için yeterli olmaktadýr. Bu amaçla M ×M boyutunda 
+olan bir L matrisi LAA, her= Tbir elemaný 
+T
+
+L =.. olacak þekilde oluþturulur ve L
+mn mn 
+
+matrisinin vl ile gösterilen M adet özvektörü elde edilir. Bu vl özvektörlerinin yardýmý ile, gerçek özvektörler için þu yakýnsama yapýlýr. 
+M 
+
+ul =.vlk .k , l =1,..., M (5) 
+k =1 
+
+Özyüzler kullanýlarak herhangi bir yüz resmine ait özellik vektörü .T þu þekilde bulunur: 
+wk =ukT (.-.) (6) 
+Y. Kýlaðýz ve A. Baran  Kablosuz Að Tabanlý Sahte Kimlik Tespit Sistemi Uygulamasý
+
+Þekil 1. Sahte kimlik tespit sisteminin genel blok þemasý(General block diagram of fake identity card determination system) 
+T
+.=[ww...w ] (7)
+12 M 
+
+Herhangi bir resim ise, yüz uzayýna yapýlacak aþaðýda belirtilen projeksiyon ile yaklaþýk olarak tekrar elde edilebilir[16]: 
+.=.+.M wu  (8) 
+i=1 ii 
+
+
+4. UYGULAMA (APPLICATION) 
+Bu çalýþmada, güvenlik görevlileri tarafýndan yapýlan kimlik kontrollerinde kullanýlmak üzere, bilgisayar des­tekli bir sahte kimlik tespit sistemi geliþtirilmiþtir. Sis­temin genel blok þemasýÞekil 1’de ve gezgin kontrol noktasý donanýmýnýn fotoðrafýÞekil 2’de görülmektedir. 
+Sistemin gezgin kontrol noktasýnda, bir kimlik haznesi aracýlýðýyla kontrol edilmek istenen kimlik kartý üzerindeki bilgiler ve fotoðraf elde edilmektedir. Kimlik haznesi içerisinde kimliðin ön ve arka yüzeylerini görüntülemek için iki adet minyatür kamera bulunmaktadýr. Bu kameralar ve dizüstü bilgisayar arasýndaki baðlantý USB portundan saðlanmaktadýr. Kontrol iþlemi kimlik kartýnýn hazneye yerleþtirilmesi ve yazýlýmdaki “kontrol et” butonuna basýlmasýyla baþlamaktadýr. AkýþþemasýÞekil 3’te verilmiþ olan ve Borland Delphi 5 programlama diliyle hazýrlanmýþ kontrol yazýlýmý için örnek bir ekran çýktýsýÞekil 5’te görülmektedir. Kontrol yazýlýmýilk olarak kimlik haznesindeki kamera görüntülerini almaktadýr. Tanýmlanmýþkoordinatlardaki metin bilgileri ve fotoðrafýn kamera görüntüsü yakalanmakta ve bu görüntülerden kiþinin nüfusa kayýtlý olduðu yerleþim birimi bilgisi ve vatandaþlýk numarasýmetin olarak elde edilmektedir. 
+Nüfusa kayýtlý olduðu yerleþim birimi tespit edildikten sonra yazýlým, bu yerleþim birimi yerel sunucusunun internet adresini (IP) tespit ederek, kiþinin vatandaþlýk numarasýnýo yerel sunucuya göndermektedir. Gezgin kontrol noktasý ile bu noktanýn baðlý bulunduðu yerel sunucu arasýnda veri iletiþimi IEEE 802.11b kablosuz yerel alan að teknolojisi ile ve yerel sunucular arasýndaki veri iletiþimi ise fiber gibi yüksek hýzlýkablolu baðlantýlarla gerçekleþtirilmektedir. Bir yerel sunucuya kontrol isteði gelmesi üzerine, akýþþemasýÞekil 4’de verilen, yerel sunucudaki arabirim yazýlýmý, gelen vatandaþlýk numarasýný Oracle 9.0.1.1.1’de hazýrlanmýþ veri tabanýnda araþtýrmakta ve araþtýrma sonucunda, uygun kayýt bulunursa o kayda ait fotoðraf, bulunamazsa kaydýn buluna­madýðýný bildiren bir mesajý, kendisine vatandaþlýk numarasý bilgisini gönderen istemciye iletmektedir.  
+
+Þekil 2. Gezgin kontrol noktasý donanýmýnýn fotoðrafý(Photo of  mobile check point hardware) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+
+Þekil 3. Gezgin noktalarda bulunan yazýlýmýn akýþþemasý(Flowchart for mobil check points) 
+Uygun kayýt bulunma durumunda, istemci diz üstü bilgisayardaki yazýlým, kendisine iletilen fotoðrafýgeçici olarak kaydetmekte ve özyüz metodunu kullanarak kimlik kartýndan elde edilen fotoðrafla karþýlaþtýrmaktadýr. Ayný iki resim için “%100 uyumlu” sonucunu veren bu yazýlým, kimlik kartla­rýndaki fotoðraflarda meydana gelen çizilme, kýrýlma, kirlenme gibi nedenlerden dolayý her zaman “%100 uyumlu” sonucunu veremeyebilmektedir. Böyle durumlarda yazýlým, benzerlik oranýný rakamsal olarak belirtmekte ve hatta benzerlik oraný %90’ýn altýndaki karþýlaþtýrma sonuçlarýnda dizüstü bilgisayar, sesli alarm ve “geçersiz kimlik” mesajýný vermektedir. 
+Kayýt bulunamama durumunda ise, istemci gezgin kontrol noktasýnda direk olarak sesli alarm verilmekte 
+Y. Kýlaðýz ve A. Baran  Kablosuz Að Tabanlý Sahte Kimlik Tespit Sistemi Uygulamasý
+
+Þekil 4. Yerel sunucuda bulunan yazýlýmýn akýþþemasý(Flowchart for local server) 
+ve kimliðin yeniden okutturulmasý istenmektedir. Tekrar okuma iþleminde de uygun kayýt bulunamazsa, yazýlým “geçersiz kimlik” mesajýný vermektedir. 
+Sistemde ek olarak, kontrol noktasýnda gerçekleþen kontroller ve sonuçlarý sürekli olarak tarih ve saat bilgileri ile kaydedilmekte ve belirli aralýklarla kimlik sahiplerinin kayýtlý olduklarý yerel sunuculara arþivleme amaçlý gönderilmektedir. Bu þekilde, kontrol noktalarýndan yapýlan geçiþler daha sonra da incelenebilecek, gerektiðinde bu bilgiler kullanýlabilecektir. Bu bilgilerin bir merkezde toplanabilmesi için merkezi bir ana bilgisayar kurulmalýdýr (Þekil 1). 
+5. SONUÇ (CONCLUSION) 
+Bu çalýþmada gezgin kontrol noktalarý, kablosuz yerel alan aðý ve yerel sunucular kullanýlarak bir sahte kimlik tespit sistemi geliþtirilmiþtir. Gezgin kontrol 
+
+Þekil 5. Sahte kimlik tespit sistemi bilgisayar ekran görüntüsü (Screenshot for fake identity card determination system) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 3, 2006 
+
+noktasý bir dizüstü bilgisayar ve kameralý bir kimlik haznesinden oluþmaktadýr. Dizüstü bilgisayarda bulu­nan yazýlýmlar ile kiþinin fotoðrafý resim biçiminde ve kimlik kartý bilgileri de metin biçiminde elde edilmek­tedir. Bu bilgilerden vatandaþlýk numarasý belirlenen yerleþim birimi yerel sunucusundaki veri tabanýnda araþtýrýlarak, bu numaraya karþýlýk gelen kiþinin fotoð­rafý gezgin kontrol noktasýna iletilmektedir. Dizüstü bilgisayarda yerel sunucudan gelen fotoðraf, geçici dosya olarak kaydedilmekte ve kimlik kartýndan elde edilen fotoðraf ile karþýlaþtýrýlarak, kimliðin sahte olup olmadýðý hakkýnda bilgi verilmektedir.  
+Sistem, bütün vatandaþlarýn veri tabanýna kayýtlýolmasý ve tüm yerleþim birimlerinin kablosuz iletiþimi desteklemesi varsayýmlarý üzerine kurulmuþ olmasýna raðmen, bu varsayýmlar gerçekleþtirilmeden de sýnýrlýolarak kullanýlabilir. Bu varsayýmlar gerçekleþtiril­meden de sistem, kanun kaçaklarýnýn fotoðraflarýnýn bulunduðu bir veri tabaný ve GPRS þebekesini kullanarak kanun kaçaklarýnýn tespitini saðlayabilecektir. 
+Sistemin testi için Atatürk Üniversitesi Erzincan Meslek Yüksekokulu’nda bir prototip çalýþma yapýl­mýþtýr. Kablosuz veri iletiþimi alt yapýsý hazýrlanmýþolan Erzincan Meslek Yüksekokulu yerleþkesinin farklý 7 noktasýnda 350 öðrencinin öðrenci kimlik kartý, öðrenci iþleri veri tabaný ile test edilmiþ ve %100 doðru sonuç elde edilmiþtir. 
+
+KAYNAKLAR (REFERENCES) 
+1.	
+Nüfus ve Vatandaþlýk Ýþleri Genel Müdürlüðü, http://www.nvi.gov.tr, 21.06.2005. 
+
+2.	
+Middle East Technical University, http://www.metu.edu.tr, 21.06.2005. 
+
+3.	
+Ýstanbul Teknik Üniversitesi, http://www.itu.edu.tr, 21.06.2005. 
+
+4.	
+Türk Telekom, http://www.tt.gov.tr, 21.06.2005. 
+
+5.	
+Philadelphia Gov, http://www.phila.gov, 21.06.2005. 
+
+6.	
+Austin Wireless City Project, http://www.austinwirelesscity.org, 21.06.2005. 
+
+7.	
+Turkcell, http://www.turkcell.com.tr, 21.06.2005. 
+
+8.	
+Telsim, http://www.telsim.com.tr, 21.06.2005. 
+
+9.	
+Avea, http://www.avea.com.tr, 21.06.2005. 
+
+10.	
+Baran, A., IEEE 802.11b TCP/IP Aðýnda Mikrodenetleyici Tabanlý Að Arabirim CihazýGeliþtirme Uygulamasý, Doktora Tezi, Atatürk Universitesi, Fen Bilimleri Enstütüsü, 2004. 
+
+
+Y. Kýlaðýz ve A. Baran  
+
+11.	
+Çölkesen, R., “Kablosuz Aðlar”, Türkiye Biliþim Ansiklopedisi, 2003. 
+
+12.	
+Aziz, F.M., Implementation and Analysis of Wireless Local Area Networks for High-Mobility Telematics, Master Thesis, Virginia University, 2003. 
+
+
+13.Institute of Electrical and Electronics Engineers, IEEE 802.11b, IEEE Standard for Information Technology-Telecommunications and Information Exchange Between Systems ­Local and Metropolitan Area Networks ­Specific Requirements -Part 11: Wireless LAN Medium Access Control (MAC) and Physical Layer (PHY) Specifications. Amendment 2: Higher-Speed Physical Layer Extension in the 2.4 GHz Band, 1999. 
+14.	
+Baron, N., Bluetooth, IEEE 802.11x, UWB and NFC, Department of Electrical Engineering and Computer Science College of Engineering, The University of Michigan, 2003. 
+
+15.	
+Australian National Training Authority, Shared Technology: A Roadmap for Traditional and Emerging Industries to 2008, 2003. 
+
+16.	
+Atalay, I., Face Recognition Using Eigenfaces, Yüksek Lisans Tezi, Ýstanbul Teknik Üniver­sitesi. 1996. 
+
+17.	
+Chellappa, R., Wilson, C.L., Sirohey, S., “Human and machine recognition of faces: a survey”. Proceedings of the IEEE 83 (5), 705-740, 1995. 
+
+18.	
+Samal, A., Iyengar, P.A., “Automatic Recognition and Analysis of Human Faces and Facial Expressions: A Survey”, Pattern Recognition, vol 25 no 1, 65-77, 1992. 
+
+19.	
+Wiskott, L., Fellous, J.M., Krüger, N., Malsburg, C., “Face Recognition by Elastic Bunch Graph Matching”, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol 19 no 7, 775-779, 1997. 
+
+20.	
+Turk, M., and Pentland, A., “Eigenfaces for Recognition”, Journal of Cognitive Neuroscience, vol 3, no 1, 71-86, 1991. 
+
+21.	
+Belhumeur, P.N., Hespanha, J.P., Kriegman, D.J., “Eigenfaces vs. Fisherfaces: Recognition Using Class Specific Linear Projection”, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol 19 no 7, 711-720, 1997. 
+
+
+22. Moghaddam, B., Pentland, A., “Probabilistic Visual Learning for Object Representation”, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol 19 no 7, 696-710, 1997. 
+
+
+

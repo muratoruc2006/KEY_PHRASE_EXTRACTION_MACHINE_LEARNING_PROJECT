@@ -1,0 +1,365 @@
+BETONARME ÇERÇEVE YAPILARIN OLASILIKLI SÝSMÝK ANALÝZÝ
+Armaðan KORKMAZ ve Engin AKTAÞ*
+Ýnþaat Mühendisliði Bölümü, Dokuz Eylül Üniversitesi, Kaynaklar, Ýzmir, armagan.korkmaz@deu.edu.tr
+
+* Ýnþaat Mühendisliði Bölümü, Ýzmir Yüksek Teknoloji Enstitüsü, Urla, Ýzmir, enginaktas@iyte.edu.tr 
+(Geliþ/Received: 26.12.2004; Kabul/Accepted: 18.08.2005) 
+ÖZET 
+Betonarme çerçeve yapýlarýn sismik davranýþlarýnýn belirlenmesinde, analizlere olasýlýklý ifadelerin dahil edilmesi, sismik davranýþýn daha gerçekçi tanýmlanmasýna yardýmýcý olacaktýr. Çalýþmada betonarme çerçeve yapýlarýn olasýlýklý sismik analizlerinin gerçekleþtirilmesi amaçlanmýþ, bu amaçla örnek betonarme çerçeve yapýlar ele alýnmýþtýr. Bu betonarme çerçeve yapýlar için öteleme analizleri DRAIN 2D programý ile yapýlmýþtýr. Öteleme analizlerinin ardýndan zaman taným alanýnda dinamik analizler gerçekleþtirilmiþtir. Öteleme analizleri, zaman taným alanýnda dinamik analiz sonuçlarý ile karþýlaþtýrýlmýþtýr. Bu karþýlaþtýrmanýn ardýndan kýrýlganlýk analizleri yapýlmýþtýr. Betonarme çerçeve yapýlarýn olasýlýklý sismik davranýþýný ortaya koymak amacý ile kýrýlganlýk analizleri ile kýrýlganlýk eðrileri elde edilmiþtir. Çalýþmanýn ana amacý, öteleme analizleri ile zaman taným alanýnda dinamik analizlerin karþýlaþtýrýlmasý sonucu, daha gerçekçi bir sismik davranýþ tanýmlama ihtiyacýnýn olduðunu göstermek ve kýrýlganlýk analizleri ile, sismik davranýþýn olasýlýklý olarak daha gerçekçi bir þekilde ifadesini saðlayabilmektir. 
+
+1. GÝRÝÞedilmesi daha gerçekçi sonuçlar verebilir. Bu sebeple 
+sismik etkiler altýnda olasý hasarlarýn belirlenebilmesi Yapýlar kullaným süreleri boyunca farklý yük için ilk adým olarak, depremlerin oluþma sýklýklarýetkilerinde kalýrlar. Bu yüklerden, deprem yükleri gözönüne alýnarak yýllýk limit durum aþýlabilme analizi en karmaþýk olan yükleme çeþididir. Hem ihtimaline karþý en büyük yer ivmesi deðeri (PGA) ile depremlerin oluþmasý, hem de depremlerin yapýda gösterilen sismik hasar eðrileri oluþturulmaktadýr. meydana getirdiði tepkilerin rastsal özellikler içermesi Sismik hasar eðrileri jeolojik yapý, sismisite, yayýlým sebebi ile, yapýsal davranýþýn, deterministik bir azalmasý (attenuation), bölgesel özellikler ve yerel yaklaþým yerine olasýlýklý bir yaklaþýmla ifade yerleþim þartlarý esas alýnarak elde edilir [1,2]. 
+A. Korkmaz ve E. Aktaþ 
+Þekil 1’de, 0.1 g’den 0.4 g’ye deðiþen çeþitli seviyelerdeki tasarým depremlerine (ED), baðlý olarak sismik risk eðrileri verilmektedir [2]. 
+
+Þekil 1. Sismik hasar eðrileri (NEHRP standardýndaki deðerleri ile çizilmiþtir) [2] 
+Günümüz yapýþartnameleri, olasýlýklý yaklaþýmlara yatkýn ancak, deterministik bir formatta tasarýmcýya sunulmaktadýr, bu sebeple, genellikle kabul edilebilir risk seviyelerinden bahsetmemektedir. Genel olarak risk, yýllýk limit durum aþýlma olasýlýðý veya olasýhasar maliyeti cinsinden tanýmlanabilir. En yaygýn kullaným þekli, risk seviyesinin, yapýnýn ekonomik ömrü için limit durum aþýlma olasýlýðýna karþý gelen ß, güvenilirlik indeksi ile ifadesidir. Yapýþartnamelerinde yer alan dayaným limit durumu aþýmýna karþýlýk gelen ß deðeri (50 yýllýk tasarým için) yapý kapasitesinin ve tepkisinin normal daðýlým gösterdiði varsayýlarak 3.0 olarak belirlenmiþtir, bu da 50 yýl boyunca bir eleman için aþýlma ihtimalinin 1.35x10-3 olduðu anlamýna gelmektedir. Yükler ve yük etkileri rastgele deðiþkenler olduðundan, belirsizlik oraný artýkça ß deðeri azalmaktadýr; sabit ve hareketli yüke ilave olarak sismik yükün de dikkate alýnmasý hedef güvenilirlik seviyesinin 1.75 seviyesine kadar inmesine sebep olmaktadýr. Bu güvenilirlik ve ekonomi arasýndaki ödünleþimin bir sonucudur [1]. 
+2. OLASILIKLI SÝSMÝK ANALÝZ 
+2.1. Sismik Analiz 
+Sismik analizde tasarým yükleri, nominal dayaným, dayaným katsayýlarý, yük katsayýlarý ile tasarým kriterlerine göre elde edilir. Afet Yönetmeliði 1998’e 
+[3] göre Toplam Taban Kesme Kuvveti Vt: 
+Vt=WA(T1)/ Ra(T1) .0.10A0 IW (1) A(T): Spektral Ývme Katsayýsý, R: Azaltma katsayýsý; 
+W: Bina Toplam Aðýrlýðý, T1: Binanýn Birinci Titreþim Periyodu, A0: Etkin Yer Ývmesi Katsayýsý
+I: Bina önem Katsayýsýdýr. Toplam eþdeðer deprem yükü, .Fn dýþýnda bina katlarýna þu þekilde daðýtýlacaktýr: 
+Betonarme Çerçeve Yapýlarýn Olasýlýklý Sismik Analizi 
+Fi=(Vt-.Fn) wiHi  (2) 
+N 
+.(wjHj) 
+j=1 
+Hi: Kat Yüksekliði, HN < 25 m için .Fn  = 0 HN > 25 
+m için .Fn  = 0.07 T1Vt [3]. 
+2.1.1. Doðrusal olmayan öteleme analizi 
+Öteleme analizi temel olarak, yapýnýn yatay kuvvetler altýndaki davranýþýný ifade eden yatay kuvvet­deplasman iliþkisinin, adým adým arttýrýlan yatay kuvvetlerin etkisindeki elemanlarýn inelastik davranýþlarýnýn gözönünde bulundurularak elde edilmesine dayanmaktadýr. Öteleme Analizinde elde edilen yatay kuvvet-deplasman eðrisiyle yapýnýn zayýf elemanlarý, olabilecek kýsmi veya toptan göçme mekanizmasý durumlarý, tüm yapýnýn ve elemanlarýnýn deformasyon talepleri belirlenebilmektedir [4-9]. 
+2.1.2. Doðrusal olmayan zaman taným alanýnda dinamik analiz 
+Sismik taleplerin tahmin edilmesinde gerçeðe en yakýn sonuçlar, deprem etkisinin yapýya dogrudan uygulanmasýyla elde edilebilir ki doðrusal olmayan zaman taným alanýnda dinamik analizinde de izlenilen yöntem budur, ancak bu yöntem pratik olmadýðý için genellikle tercih edilmemektedir. FEMA 273, 274, 356 ve 440 gibi kaynaklarda, pratik uygulamalarda tercih edilen doðrusal olmayan statik analiz metodlarýher ne kadar çok büyük geliþim gösterse de sonuçta doðrusal olmayan zaman taným alanýnda dinamik analizleri ile karþýlaþtýrýlarak deðerlendirme yapýlmaktadýr [4-9]. 
+
+
+
+2.2. Kýrýlganlýk Analizleri 
+Bir yapýnýn þiddetli bir depreme maruz kalmasýekonomik ömrü içinde bir olasýlýktýr, yani risk mutlak deðildir; bu süreç içinde þiddetli bir deprem oluþmama ihtimali de mevcuttur. Yapýlar, sismik açýdan deðerlendirilirken olasýlýk model ile gerçek davranýþlarýnýn farklýlýklarý da dikkate alýnarak incelenmelidir. Kýrýlganlýk analizleri, hasar olasýlýklarýný ve yapýlarýn tepkilerini belirlemede bir araç olarak kullanýlmaktadýr. Hwang ve arkadaþlarýnýn yapmýþ olduðu çalýþmalarda kýrýlganlýk eðrileri detaylýolarak verilmiþtir [10,11]. 
+Petrovski ve Nocevski, çalýþmalarýnda ele aldýklarýyapýlarýn kýrýlganlýk eðrilerini elde etmiþlerdir [12]. Singhal ve Kiremidjan hasar olasýlýk matrisini geliþtirmiþler ve kýrýlganlýk analizlerini hasar ile iliþkilendirmiþlerdir [13]. Tüm bu çalýþmalar kýrýlganlýk analizlerinin olasýlýklý yapý davranýþýnýn belirlenmesinde kullanýlabileceðini ortaya koymuþtur. Malzeme çeþitliliði, yapýsal geometri önemli faktörlerdendir ve rasgele deðiþken olmalarýndan ötürü göçme olasýlýðý sýfýrdan büyüktür. 
+
+Bu sebeple, yapýsal güvenilirlik, olasýlýklý model kullanýlarak göçme olasýlýðýnýn hesaplanmasý ile ifade edilebilir. Genellikle olasýlýklý yapý kapasitesinin ve tepkisinin log-normal daðýlým gösterdiði kabul edilmektedir [13]. Olasýlýklýmodele göre yapýkapasitesi, iki ana parametreye baðlýdýr Bunlar, yapý
+kapasitesinin medyan  deðeri  SAC  ve logaritmik  
+standard sapma ßC’dir.   
+SAC= Ln ( SAC ; ßC)  (3)  
+
+Bina kapasitesinin medyan deðeri ( SAC) binaya etkiyen deprem yükünün 1. moda karþý gelen spektral ivmesi cinsinden öteleme eðrisinden elde edilir. Bir elemanýn gerçek kapasitesini belirlemek için, nominal 
+A. Korkmaz ve E. Aktaþ 
+Ap: PGA, Kýrýlganlýk analizinde parametre olarak kullanýlýr, SAn: Normalize edilmiþ spektral ivmenin medyan deðeridir. 
+Yapýlarýn kýrýlganlýk analizleri, PGA deðerleri ve limit durumlarý için SAR (Yapýsal Tepki) ve SAC (Yapýsal Kapasite)’yi geçme ihtimali üzerine kurulmuþtur. Þekil 4’de bu kýrýlganlýk eðrileri gösterilmiþtir. ÞartlýLimit durumu aþma olasýlýðý Pf = Pr(SAC / SAR . 1) dir. Yani binanýn kapasite spektral ivme deðerinin tepki spektral ivme deðerine oranýnýn 1’den küçük olma olasýlýðýþartlý limit durum aþýlma olasýlýðý olarak ifadelendirilmiþtir [14]. SAR (Yapýsal Tepki) ve SAC (Yapýsal Kapasite) log normal daðýlým gösterdiði için, 
+~
+
+..
+...
+
+
+...
+SAC
+
+-
+ln ~ 
+SAR
+
+dayanýmlarýný kullanmak yerine malzeme 
+yapýsal periyod gibi parametrelerden etkilenir. 
+..........
+ (6) 
+
+P
+
+.
+=
+f
+
+dayanýmlarýnýn ortalama deðerlerini kullanmak daha 
+ß
+(
+
+ß
++
+2 
+c 
+2 
+R
+
+
+doðru bir yaklaþýmdýr [14]. Ýyi tasarlanmýþ yapýlar için 
+kesme kapasitesi, eðilme kapasitesinden daha 6 nolu denklem kullanýlarak þartlý limit durumu aþmabüyüktür ve yapýnýn eðilme göçmesine uðramasý
+beklenir. Bu sebeple kiriþlerin ve kolonlarýn eðilme 
+kapasiteleri yapýsal elemanlarýn gerçek kapasitelerini 
+belirlemede kullanýlýr. Sismik yapý tepkisi, sönüm ve olasýlýklarý hem ilk akma hem de göçme limit 
+durumlarýna göre çeþitli PGA deðerleri altýnda 
+hesaplanýr ve kýrýlganlýk eðrileri elde edilir. Limit 
+durumu aþma olasýlýðý, PGA deðerleri arttýkça artým 
+gösterir; deprem etkisi arttýkça binanýn limit durumu 
+aþma olasýlýðý artacaktýr [10-12]. Olasýlýklý yapý tepkisi SAR þu þekilde ifade edilebilir: 
+
+SAR= Ln ( SAR; ßR) (4) 
+SAR: Medyan spektral tepki; ßR :Yapý tepkisinin logaritmik standart sapmasýdýr. Tepki Spektrumu, PGA ile normalize edilmiþ tepki spektrumunun çarpýmýdýr: 
+SAR : Medyan Spektral Tepki Sepktrumu ise, 
+SAR= ApSAn  (5) 
+3. BETONARME ÇERÇEVE YAPILARIN OLASILIKLI SÝSMÝK ANALÝZÝ
+
+
+3.1. Betonarme Çerçeve Sistemlerinin Belirlenmesi 
+Çalýþmada Þekil 2’de þematik gösterimi yapýlmýþ olan 3, 5, 8 ve 15 katlý betonarme yapý çerçeveleri seçilmiþtir, bu yapý sistemleri betonarme sýradan çerçeve yapý katagorisine girmektedir. Seçilen betonarme çerçeve yapýlar, Afet Bölgelerinde 
+
+
+A. Korkmaz ve E. Aktaþ 
+Yapýlacak Yapýlar Hakkýnda Yönetmelik 1998 [3] ve TS 500 [15] esaslarýna göre boyutlandýrýlmýþtýr. Tüm betonarme çerçeve yapýlar üç açýklýklýdýr. Her açýklýk 800 cm, kat yüksekliði ise 300 cm’dir. 3 katlý çerçeve yapýnýn birinci periyodu 0.54 sn, tüm kiriþlerin kesitleri dikdörtgen ve 25cm/55cm ve As = 13.26 cm2’dir. Tüm kolon boyutlarý ise kare ve 40cm/40cm ve donatý alaný As = 30.40 cm2’dir. 5 katlý çerçeve yapýnýn birinci periyodu 0.72 sn’dir. 5 katlý yapýnýn tüm kiriþlerinin kesitleri dikdörtgen ve 25cm/55cm ve As = 13.26 cm2’dir. Kolon boyutlarý ilk üç kat için 50cm/50cm, As = 45.20 cm2’dir. Son iki kat için ise 40cm/40cm ve As = 30.40 cm2’dir. 8 katlý yapýnýn birinci periyodu 0.90 sn, kiriþ boyutlarý 30cm/60cm ve As = 45.00 cm2’dir. Kolon boyutlarý ilk beþ kat için 60cm/60cm ve As = 75.00 cm2’dir. Son üç kat için 50cm/50cm ve As = 45.20 cm2’dir. 15 katlý yapýiçin ilk 10 katta 80cm/80cm ve As = 145.00 cm2’dir. Son 5 katta 60cm/60cm, As = 75.00 cm2’dir. Kiriþboyutlarý 30cm/60cm ve As = 45.00 cm2’dir. Bu yapýnýn birinci periyodu 1.60 sn’dir. Þekil 2’de yapýlarýn þematik gösterimi yapýlmýþ, kolon ve kiriþkesitleri verilmiþtir. 
+3.2. Örnek Betonarme Çerçevelerin Dogrusal Olmayan Öteleme Analizi  
+Analizlerde binalarýn, sabit, hareketli ve yanal yükler 
+Betonarme Çerçeve Yapýlarýn Olasýlýklý Sismik Analizi 
+etkisi altýnda olduðu düþünülmüþtür. Öteleme analizinde P-. etkisi de dikkate alýnarak, yanal yüklemeler yapýlmýþtýr. Elastik ötesi davranýþ için ideal elasto-plastik model benimsenmiþ olup pekleþme tüm elemanlar için ihmal edilmiþtir. Analizler Drain 2D ile gerçekleþtirilmiþtir [16]. Bu analizler ile yapýlarýn elastik ötesi statik öteleme analizleri gerçekleþtirilmiþ olmaktadýr. Bu analizler zaman taným alanýnda dinamik analizlerle karþýlaþtýrýlmýþtýr. 
+3.3. Betonarme Çerçevelerin Zaman Taným Alanýnda Dinamik Analizi 
+Bu çalýþma için doðrusal olmayan zaman taným alanýnda dinamik analizi yapýlmýþtýr. Seçilen dört bina için sabit ve hareketli yükler altýnda, DRAIN 2D programýyla zaman taným alanýnda dinamik analizi yapýlmýþtýr [16]. Analizlerde on deprem verisi kullanýlmýþtýr (Tablo 1). Tüm veriler için USGS zemin sýnýflandýrmasýna göre zemin sýnýfý B olarak alýnmýþtýr. USGS zemin sýnýflandýrmasýna göre B zemin sýnýfý için kayma dalgasý hýzý, Vs : 360 m/s ile 750 m/s arasýndadýr [17]. 
+Þekil 3 ve 4’de sýraysýyla 3 ve 5 katlý yapýlarýn öteleme eðrileri verilmiþtir. Aynýþekillerde bu yapýlar için seçilen on deprem verisi ile elde edilen zaman 
+
+Tablo 1. Zaman artýmý analizinde kullanýlan deprem verileri 
+Deprem  Tarih  Ýsim  Pga (g)  Zemin Sýnýfý Fay Tipi  
+Parkfield  28/06/1966  C12320  0.0633  B  Yanal Atýmlý 
+Morgan Hill  24/04/1984  GIL067  0.1144  B  Yanal Atýmlý 
+Kocaeli  17/08/1999  ARC000  0.2188  B  Yanal Atýmlý 
+Morgan Hill  24/04/1984  G06090  0.2920  B  Yanal Atýmlý 
+Coyota Lake  06/08/1979  G06230  0.4339  B  Yanal Atýmlý 
+Northridge  17/01/1994  ORR090  0.5683  B  Ters Eðik Atýmlý 
+Loma Prieta  18/10/1989  CLS000  0.6437  B  Ters Oblik Atýmlý 
+Kobe  16/01/1995  KJM000  0.8213  B  Yanal Atýmlý 
+Santa Barbara  13/08/1978  SBA222  0.203  B  Ters Oblik Atýmlý 
+Livermore  27/01/1980  B-LMO355  0.252  B  Yanal Atýmlý 
+
+3 Katlý Bina 
+
+üçgen 
+yükleme 
+
+
+ARC000 
+0.16 C12320 
+
+0.14 G06090 
+0.12 G06230 GIL067 KJM000 CLS000 ORR090 
+
+
+
+SBA222 LMO355 
+V/W
+
+
+0.06 
+0.04 
+0.02 
+0.00 
+
+
+
+
+Þekil 3. 3 katlýyapýnýn öteleme eðrisi ve zaman taným alanýnda dinamik sonuçlarý
+
+üçgen 
+5 Katlý Binayükleme 
+ARC000 
+
+0.12 
+
+C12320 
+0.10 
+
+G06090 
+G06230 0.08 
+
+GIL067 KJM000 CLS000 ORR090 SBA222 LMO355 
+V/W
+
+
+
+
+0.06 
+
+
+
+0.04 
+
+
+0.02 
+
+
+0.00 
+
+
+Þekil 4. 5 katlý yapýnýn öteleme eðrisi ve zaman taným alanýnda dinamik sonuçlarý
+taným alanýnda dinamik analizi sonuçlarý da sunulmuþtur. 
+Þekil 5 ve 6’da sýrasýyla 8 ve 15 katlý yapýlarýn öteleme eðrileri verilmiþtir. Aynýþekillerde bu yapýlar için seçilen on deprem verisi ile elde edilen zaman taným alanýnda dinamik analizi sonuçlarý da sunulmuþtur. 
+Seçilen betonarme çerçeve yapýlarýn statik öteleme analiz sonuçlarýþekil 3, 4, 5 ve 6’da verilmiþ ve zaman taným alanýnda dinamik analiz sonuçlarýyla karþýlaþtýrýlmýþtýr. Betonarme yapýlarýn sismik analizinde yaygýn olarak kullanýlmakta olan statik öteleme analizleri, doðrusal olmayan analizler içinde en güvenilen analiz olan zaman taným alanýnda dinamik analizlerle karþýlaþtýrýldýðýnda, öteleme analizlerinin, zaman taným alanýnda analiz sonuçlarýile birebir örtüþmemediði görülmektedir. Özellikle kat adedi arttýkça bu iki analiz sonucu birbirinden uzaklaþmaktadýr. Bu sebeple yapýlarýn sismik davranýþlarýnýn deðerlendirilmesinde sadece öteleme analizlerinin kullanýlmasý yanlýþ sonuçlar doðurabilecektir. Bu sonucu engellemek amacýyla yapýlarýn sismik analizlerinin olasýlýklý olarak da deðerlendirilmesi ve olasýlýklý sismik analizlerin, sismik davranýþýn deðerlendirmesinde kullanýlmasýdaha gerçekçi sonuçlar verecektir.  
+V/W
+
+
+8 Katlý Bina 
+0.10 
+0.09 
+0.08 
+0.07 
+0.06 
+0.05 
+0.04 
+0.03 
+0.02 
+0.01 
+0.00 
+
+02 4 6 810 yer deðiþtirme (cm) 
+
+
+Þekil 5. 8 katlý yapýnýn öteleme eðrisi ve zaman taným alanýnda dinamik sonuçlarý
+A. Korkmaz ve E. AktaþBetonarme Çerçeve Yapýlarýn Olasýlýklý Sismik Analizi 
+
+15 Katlý Bina 
+0.08 
+0.07 
+0.06 
+0.05 
+0.04 
+0.03 
+0.02 
+0.01 
+0.00 
+02468 
+yer deðiþtirme (cm) 
+
+
+
+V/W
+
+
+Þekil 6. 15 katlý yapýnýn öteleme eðrisi ve zaman taným alanýnda dinamik sonuçlarý
+Buradan hareketle bu çalýþmada betonarme çerçeve yapýlar için olasýlýklý sismik analizler yapýlmýþtýr. Bu sismik analizler kýrýlganlýk analizlerinin gerçekleþtirilmesi ile yapýlmýþtýr. 
+3.4. Betonarme Çerçeve Yapýlarýn Kýrýlganlýk Analizleri 
+Sismik deðerlendirme analizlerinin olasýlýk ifadelerinin dahil edilmeden yapýlmasý, yapýnýn sismik davranýþýnýn ifade edilmesinde yetersiz kalmasýna sebep olmaktadýr. Çünkü analizlerde yapý kapasitesi ve tepkisi gibi ifadelerde deðiþik nedenlere baðlýbelirsizlik ve eksiklik olabilir. Bu belirsizlik ve eksikliklerin olasýlýklý bir þekilde ifade edilmemesi bu analiz yöntemlerinin sonuçlarýnýn gerçekten farklýsonuçlar vermesine sebep olabilir.  
+Bu sebeple olasýlýklý sismik analiz yöntemlerinin sismik deðerlendirmede kullanýlmasý daha gerçekçi sonuçlar verecektir. Kýrýlganlýk analizleri yaplarýn olasýlýklý sismik analizine imkan vermektedir. Kýrýlganlýk, yapýnýn hasar görebilirliðinin olasýlýklýifadesidir. Deprem tehlikesi altýndaki yapýlarýn belirli bir deprem parametresi ile hasar risklerinin belirlenmesi amacýyla yapýlan analizlere kýrýlganlýk analizleri denilmektedir. Gelecekteki depremlerin büyüklüklerinin ve etkilerinin bilinmemesi nedeniyle, yapýsal davranýþý veya hasarý tahmin etmek mümkün olamayabilmektedir. Kýrýlganlýk analizlerinde yapýnýn sismik risk analizini ve sismik yer hareketine karþýolasýlýklý tepkisini ifade etmek oldukça önemli ve gereklidir [11]. 
+Kýrýlganlýk analizlerinde basitleþtirilmiþ doðrusal olmayan yapýsal analiz yöntemlerinden yararlanýlmaktadýr. Ýleride meydana gelecek depremlerin bilinmemesinden ötürü, hesaplamalarýn geçmiþte olmuþ depremler üzerine kurulmasýgereklidir. Bu sebeple, geçmiþ depremler kullanýlarak geleceðe yönelik analizler yapýlmaktadýr [12]. 
+Yapýlarýn kýrýlganlýk analizleri, maruz kalacaklarýdepremlerin en büyük yer ivmesi ve en büyük yer hýzýdeðerleri ve belirlenen limit durumlarý için yapýsal tepkinin yapýsal kapasiteyi geçme olasýlýðý üzerine kurulmuþtur.  
+Bu çalýþma kapsamýnda seçilen betonarme çerçeve yapýlarýn kýrýlganlýk analizleri seçilen ve tablo 1’de gösterilen deprem verileri için yapýlmýþtýr. Normalize edilmiþ spektral ivmenin medyan deðeri (SAn), %5 sönüm oranlý normalize edilmiþ tasarým tepki spektrumundan elde edilebilir. Eðer sönüm oraný%5’den farklý ise sönüm uyarlama katsayýsýkullanýlmalýdýr. Betonarme binalar için sönüm oranlarý %5 ile %10 arasýnda alýnabilir [11-13]. Yapýsal tepkiyi etkileyen iki ana yapýsal parametre vardýr. Bunlar sönüm oraný ve yapýsal periyoddur. Yapýsal periyodu ve sönüm oraný göz önüne alan 
+
+ßR = 
+0.22 + 0.3 2 =0.36 ’dýr. Logaritmik standart sapma (ßC) ise 0.28 ile 0.30 arasýndadýr [11,12]. Bu çalýþma için ilk akma limit durumu için ßC 0.30 alýnmýþtýr. 
+Limit durumlarý olarak yapýnýn göçme, burkulma durumu, denge kararsýzlýðý, yanal deplasman limiti ve kullanýlabilirlik gibi durumlarý alýnabilir. Ancak ilk akma ve göçme iki ana limit durumdur. Bir moment dayaným çerçevesi için, ilk akma noktasý yapýnýn herhangi bir yerinde ilk plastik mafsalýn oluþumu olarak tanýmlanýr. Bu nedenle ilk akma limit durumu kullanýlabilirlik limit durumu olarak ele alýnabilir. Yapýnýn göçme durumu ise yapýda tükenme mekanizmasýnýn oluþumu olarak tanýmlanýr. Göçme limit durumu dayaným limit durumunu temsil eder [14]. Çalýþma için güvenlik deðeri SR=SAC/SAR ile belirlenmiþtir. Seçilmiþ olan dört çerçeve yapý için 0.0633 ile 0.8213g arasýnda deðiþen depremler uygulanarak, SAC, SAR, ve SR deðerleri elde edilmiþtir. SAC deterministik yapýsal kapasite deðerini, SAR ise Yapýsal tepki deðerini ifade etmektedir. Bu çalýþmada ilk akma ve göçme limit durumlarý göz önüne alýnmýþve bu limit durumlarýna göre kýrýlganlýk eðrileri elde edilmiþtir. 
+
+Þekil 7 ve 8’de sýrasýyla her yapý için PGA deðerlerine karþý ilk akma ve göçme limit durumu olasýlýklarý tek bir grafik halinde verilmiþtir. Denklem 6 kullanýlarak, limit durumu olasýlýklarý, limit 
+A. Korkmaz ve E. Aktaþ 
+durumlarýna göre PGA deðerlerine karþý aþýlma olasýlýklarý (Pf) hesaplanarak kýrýlganlýk eðrileri elde edilir. 
+Þekil 9 ve 10’da sýrasýyla 3 ve 5 katlý yapýlarýn kýrýlganlýk eðrileri verilmiþ ve bu eðriler ilk akma ve göçme limit durumlarý için elde edilmiþtir. Seçilen deprem verilerine ait PGA deðerlerine karþý aþýlma olasýlýklarý (Pf) hesaplanarak kýrýlganlýk eðrileri elde edilmiþtir. 
+
+Ýlk Akma 
+P Pf
+
+1 
+0.8 
+0.6 
+0.4 
+0.2 0 
+
+
+
+0 0.2 0.4 0.6 0.8 1 
+
+PGA (g) 
+Þekil 7. 3, 5, 8 ve 15 katlý yapýlarýn ilk akma deðerleri için kýrýlganlýk eðrileri 
+Göçme
+1 
+0.8 
+0.6 
+0.4 
+
+
+0.2 0 
+
+Þekil 8. 3, 5, 8 ve 15 katlý yapýlarýn göçme deðerleri için kýrýlganlýk eðrileri 
+A. Korkmaz ve E. AktaþBetonarme Çerçeve Yapýlarýn Olasýlýklý Sismik Analizi 
+
+PGA (g)
+Þekil 9. 3 katlý yapýnn ilk akma ve göçme deðerleri için kýrýlganlýk eðrileri 
+
+PGA (g) 
+Þekil 10. 5 katlý yapýnýn ilk akma ve göçme deðerleri için kýrýlganlýk eðrileri 
+
+PGA (g) 
+Þekil 11. 8 katlý yapýnýn ilk akma ve göçme deðerleri için kýrýlganlýk eðrileri 
+1 
+0.8 
+0.6 
+
+Ýlk Akma 
+0.4 
+Göçme 
+
+0.2 0 
+Þekil 12. 15 katlý yapýnýn ilk akma ve göçme deðerlerine göre kýrýlganlýk eðrileri 
+4. SONUÇLAR 
+
+Bu çalýþmada betonarme çerçeve yapýlarýn sismik davranýþlarýnýn belirlenmesinde olasýlýklý ifadelerin sismik analizlere dahil edilmesi saðlanmýþtýr. Yapýlarýn sismik analizinde kullanýlan statik öteleme analizleri, zaman taným alanýnda dinamik analiz sonuçlarýyla karþýlaþtýrýlarak, olasýlýklý ifadelerin sismik analize dahil edilmesi gerekliliði gösterilmiþtir. Betonarme çerçeve yapýlar için ilk akma ve göçme limit durumlarýnda kýrýlganlýk analizleri yapýlmýþtýr. Kýrýlganlýk analizleri sonucu elde edilen kýrýlganlýk eðrilerinden görülmektedir ki göçme limit durumu yapý tasarýmýný belirleyen limit koþuludur. Yapýnýn göçmesi, yapý elemanlarýnýn göçmelerinden daha çok, bina sisteminin tümden göçme mekanizmasýna baðlýdýr. 
+Þekil 3,4,5 ve 6’da öteleme eðrileri, zaman taným alanýnda dinamik analizleri sonuçlarýyla birlikte sunulmuþtur. Seçilen binalar için, öteleme eðrilerinin yapýlan zaman taným alanýnda dinamik analizleri sonuçlarýndan kat adetleri arttýkça uzaklaþtýðýgörülmektedir. Bu da yapýlarýn sismik deðerlendirmesinde olasýlýklý yaklaþýmlarýn kullanýlmasý gerekliliðini ortaya koymaktadýr. 
+Þekil 7 ve 8’de betonarme çerçeve yapýlarýn kýrýlganlýk eðrileri kat artýþlarýna göre verilmiþtir. Þekil 9, 10, 11 ve 12’de de ayný eðriler her bina için ayrý ayrý çizdirilmiþtir. Öteleme eðrilerinin, zaman taným alanýnda dinamik analiz sonuçlarýndan uzaklaþmasý sismik deðerlendirmenin yanlýþyapýlmasýna sebep olabilmektedir. Kýrýlganlýk eðrileri, meydana gelebilecek gerçek deðerlerden sapmalarýn sebep olduðu sonuçlarýn yanlýþ deðerlendirilmesinin ortadan kaldýrýlmasýna ve daha gerçekçi yaklaþýmlarýn yapýlmasýna imkan verebilecektir. Kýrýlganlýk analizleri yapýlmasý, öteleme analizlerinin sonuçlarýile yapýnýn olasý deprem karþýsýndaki davranýþýnýn daha iyi tahmin edilmesini mümkün hale getirmektedir. Yapýlarýn sismik davranýþlarý istatiksel olarak deðerlendirilip öteleme analizleri ve zaman taným alanýnda dinamik analizlerinin arasýndaki iliþki standard sapma içinde ifade edilebildiðinde, kýrýlganýk analizleri yapýnýn güvenirliði için oldukça tatmin edici sonuçlar verecektir.  
+KAYNAKLAR 
+1.	
+Ellingwod B, Galambos T V, Probability Based Load Criteria for American National Standard Washington, National Bureau of Standards, 1980. 
+
+2.	
+NEHRP, Recommended Provisions for the Development of Seismic Regulations for New Buildings, Building Seismic Safety Council, Washington DC, 1988. 
+
+3.	
+Afet Bölgelerinde Yapýlacak Yapýlar Hakkýnda Yönetmelik, IMO, Ýzmir Þubesi, 1998. 
+
+4.	
+FEMA 273,-274, Commentary on the NEHRP Guidelines for the Seismic Rehabilitation of Buildings “NEHRP Guidelines”, Washington D.C., 1997. 
+
+5.	
+FEMA 356 Prestandard And Commentary For The Seismic Rehabilitation of Buildings, “NEHRP Guidelines”, Washington D.C., 2000. 
+
+6.	
+FEMA 440 Improvement Of Nonlýnear Static Seismic Analysis Procedures, “NEHRP Guidelines”, Washington D.C., 2005. 
+
+7.	
+Li, Y.R., Non-Linear Time History And Pushover Analyses for Seismic Design and Evaluation, Doktora Tezi, University of Texas, Austin, TX., 1996. 
+
+8.	
+Akbaþ, B. ve diðerleri, “Seismic Behavior and Pushover Analyses in Steel Frames”, 5. deprem Mühendisliði Konferansý, Ýstanbul, 2003. 
+
+
+
+A. Korkmaz ve E. Aktaþ 
+9.	
+Chintanapakdee C. ve Chopra A. K., “Evaluation of Modal Pushover Analysis Using Generic Frames”, Earthquake Engineerýng and Structural Dynamics, 32:417–442, 2003. 
+
+10.	
+Hwang H., ve Huo J.R., “Generation of hazard consistent fragility curves”, Soil Dynamic and Earthquake Engineering, 13, 345-354, 1994. 
+
+11.	
+Hwang H.M., Jaw J.W., Seismic Fragility analysis of frame structures, Technical report, NCEER-88-00009 State University of New York at Buffalo, 1989. 
+
+12.	
+Petrovski S. ve Nocevski N.K., Definition of emprical and theoritical models for assesment of high rise buildings, Technical Report, IZIIS Skopje, 1993. 
+
+
+Betonarme Çerçeve Yapýlarýn Olasýlýklý Sismik Analizi 
+13.	
+Singhal A. ve Kiremidjan A. A method for Earthquake Motion Damage Relationship, Technical Report, NCEER 97-008 State University of New York at Buffalo, 1997. 
+
+14.	
+Hui Mi Hsu, Reliability Based Seismic LRFD Criteria for Reinforced Concrete Frame Buildings, Doktora Tezi, Memphis State University, Memphis, 1991. 
+
+15.	
+TS 500 Betonarme Yapýlarýn Tasarým ve Yapým Kurallarý, T.S.E. Kurumu, 2000. 
+
+16.	
+Prakash, V., Powell, G., Campbell, S., DRAIN 2D V 1.10, U.C. Berkeley, CA. 1993. 
+
+17.	
+http://peer.berkeley.edu 
+
+
+
+
+
+
+

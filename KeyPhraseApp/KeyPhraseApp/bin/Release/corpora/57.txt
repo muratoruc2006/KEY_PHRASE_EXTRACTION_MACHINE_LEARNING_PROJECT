@@ -1,0 +1,981 @@
+KIRÞEHÝR YÖRESÝ KIRMATAÞ AGREGALARININ
+MÜHENDÝSLÝK ÖZELÝKLERÝ
+Bu araþtýrmada, Kýrþehir yöresi taþ ocaklarýndan elde edilen kýrmataþ agregalarýnýn mühendislik özelikleri 
+incelenmiþtir. Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, Demirli, Ýnaç, Keçikale (üst) ocaklarý ve Kýzýlýrmak 
+havzasýndan deney numuneleri alýnmýþtýr. Numuneler üzerinde tane daðýlýmý, özgül aðýrlýk, su emme, birim 
+aðýrlýk, donma çözülme, aþýnma dayanýmý (Los Angeles), sülfat miktarý, klorür miktarý, alkali–agrega reaksiyonu 
+ve tane þekli tayini deneyleri gerçekleþtirilmiþtir. Sonuç olarak; Seyfe, Demirli ve Kýzýlýrmak agregalarýnýn 
+su emme oranlarýnýn yüksek olduðu ayrýca Seyfe agregasýnda aþýnma kaybýnýn da yüksek olduðu, bu agregalarýn 
+diðer özelikleri bakýmýndan standartlara uygun olduðu belirlenmiþtir. Diðer taraftan Keçikale (alt) ve 
+Keçikale (üst) agregalarýnýn belirtilen özelikleri bakýmýndan en iyi sonuçlarý verdiði görülmüþtür. 
+
+
+1. GÝRÝÞ 
+lýðý, boþluk oraný, su emmesi, sertliði ve kimyasal etkilere 
+karþý dayanýklýlýðý beton dayanýklýlýðýný etkile-
+Agregalarýn ekonomik, dayanýmlý olmalarý beton yen en önemli özellikler olarak görülmektedir [1]. Bu 
+yapýmýnda kullanýlmalarýnýn en önemli nedenlerin-özelliklerin beton yapýlmadan önce deneylerle belirdendir. 
+Agrega, betonun dayanýmý ile birlikte, davra-lenmesi gerekir. 
+nýþýný, agreganýn þekil ve yapýsý bað dayanýmýný da 
+(aderans) etkilemektedir. Betonun kýsa veya uzun sü-Kýrmataþ agrega yüzeylerinin pürüzlü olmasý nedeniyreli 
+performansýnda aderansýn etkisi büyüktür. Agrega le çimento hamuru ile agrega arasýnda kuvvetli bir 
+granülometrisinin iyi olmasý halinde, karýþýmda daha bað oluþur. Pürüzlü yüzeyin büyük olmasý, kýrmataþ 
+az çimento kullanýlabileceði bilinmektedir. Diðer ta-agrega ile çimento hamurunun temas yüzeyinin de o 
+raftan beton yapýmýnda kullanýlan agreganýn mineral kadar geniþ olmasýný saðlar. Bu nedenle kýrmataþ agyapýsý, 
+tane þekli, dayanýklýlýðý, tane daðýlýmý, don da-rega ile üretilen betonlarýn dayanýmlarýnýn iyileþtiði 
+yanýmý, aþýnma dayanýmý, birim aðýrlýðý, özgül aðýr-görülmektedir. Ayrýca agreganýn olabildiðince küp 
+
+
+M. Arslan ve Ý. Demir 
+veya küre biçimine yakýn olmasý, beton için elveriþli 
+bir durum oluþturmaktadýr [2]. 
+
+Ana kayaç özelliklerinin bilinmesinin kaliteli kýrmataþ 
+üretiminde önemi büyüktür. Örneðin silis, içeren 
+tridimit ve andezit gibi mineraller alkali-agrega reaksiyonuna 
+neden olduðundan beton için uygun görülmemektedir. 
+Fakat siyah ve beyaz kireçtaþý, granit, 
+bazalt, siyenit gibi doðal taþlardan da kaliteli beton 
+agregasý elde edilebilmektedir [1-3]. 
+
+Kýrþehir yöresinde beton üretiminde, Kýzýlýrmak nehrinin 
+Nevþehir il sýnýrýna yakýn bölümlerinden elde 
+edilen dere agregasý kullanýlmaktadýr. Kýrþehir ilinin 
+güneybatý tarafýndan Kýrýkkale istikametine doðru olan 
+bölgesinde Hirfanlý baraj suyu birikintisi nedeniyle 
+dere agregasý temin edilememektedir. Bu durumda, 
+zorunlu olarak Nevþehir’e yakýn havzadan elde edilen 
+agregada ise, akýntýyla sürüklenmiþ Nevþehir bölgesine 
+ait hafif volkanik tüflü malzemeler bulunmaktadýr. 
+Bu nedenle, bölgeden elde edilen agrega beton için 
+çok uygun görülmemektedir. Ayrýca Kýzýlýrmak nehrinin 
+üzerinde bulunan tarihi Kesikköprü’ye yakýn bir 
+bölümden agrega alýnmasý, tarihi Kesikköprünün bir 
+bölümünün çökmesine neden olmuþtur. 
+
+Yapýlan bu çalýþmanýn amacý; Kýrþehir yöresi farklý 
+taþ ocaklarýndan elde edilen kýrmataþ agregalarýnýn 
+mühendislik özelliklerini ve betonda kullanýlabilirliklerini 
+belirlemektir. Yapý üretiminin her geçen gün 
+artmasý nedeni ile çok hýzlý bir geliþme gösteren inþaat 
+sektörünün temel gereksimi olan kýrmataþ agrega üretimi 
+büyük önem taþýmaktadýr. 
+
+1.2. Ýnceleme Alanýnýn Jeolojisi 
+Çalýþma sahalarýnýn bulunduðu yöre ve yakýn çevresinde 
+Paleozoyik, Mesozoyik ve Senozoyik dönemlerine 
+ait kayaçlar bulunmaktadýr [4]. 
+
+1.2.1. Paleozoyik kayaçlar 
+Kalkandað formasyonu; gnays, þist, kuvarsit ve amfibolitlerden 
+meydana gelen birim, Kýrþehir masifinin 
+alt seviyelerini oluþturmaktadýr. Kargasekmezdað ve 
+Buzlukdað civarýnda gnayslar, diðer kýsýmlarda ise 
+þistler daha yoðun olarak bulunmaktadýr. Bölgede 
+Kalkandað formasyonunun tabaný görülmemektedir. 
+Birimin yaþý Paleozoyik olup, üste doðru Kervansaraydað 
+formasyonu ve Bozçaldað formasyonu ile 
+düþey ve yanal yönde geçiþlidir [4]. 
+
+Kargasekmez kuvarsit üyesi; Kargasekmez formasyonu 
+içinde gri renkli ara düzeyler þeklinde yüzeylenen 
+gri, kahve renkli kuvarsitler, orta kalýn tabakalý veya 
+masiftirler. Kervansaray dað formasyonu; Kýzýldað, 
+Naldökendað, Bozcaldað, Kervansaraydað, Buzlukdað 
+civarýnda yüzeylenen formasyon, mermer bant ve 
+mercekleri ile biyotit-muskovitþist, kalksilikatikþist, 
+kalþist, kuvarsitþist, piroksenþist, amfibolitþist ve daha 
+az oranda gnays, kalksilikatik gnays, kuvarsit, amfi-
+
+Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri 
+
+bolit, kloritþist ve talkþistten meydana gelmiþtir. Birim 
+paleozoyik yaþlýdýr. Bozcaldað formasyonu; açýk 
+gri, beyaz, ender olarak pembe renkli iri sakkoroid 
+dokulu mermerlerden meydana gelmiþtir [5]. 
+
+1.2.2. Mesozoyik kayaçlar 
+Baranadað granitoyiti; Bozçaldaðýn doðusunda ve 
+Karahýdýr bölgesinin güneyinde yüzeylenen birim 
+granit granitporfir, riyolit, granidiyorit porfir, riyodasitten 
+meydana gelmiþtir. Baranadað Granitoyidi Üst 
+Kretase yaþlýdýr [5]. 
+
+1.2.3. Senozoyik kayaçlar 
+Kýzýlýrmak formasyonu; bölgede büyük bir alanda 
+yüzeylenen birim, kýrmýzý, ahve renkli, katmansýz, 
+bloklu, çakýllý, kumlu, gevþek, karasal, çamurtaþlarýndan 
+meydana gelmiþtir. Birim içinde tüf, jips, anhidrit, 
+killi kireçtaþý, çakýltaþý, kumtaþý, bant ve merceklerine 
+de rastlanýlmaktadýr. Birimin yaþý Üst Miyosen -
+Piloyosen olup, Üst Miyosen öncesi, temel üzerinde 
+uyumsuz olarak yer almaktadýr [6]. 
+
+Kozaklý kireçtaþý üyesi; Kýzýlýrmak formasyonu içinde 
+yatay konumlu bant ve mercekler þeklinde yer alan 
+Kozaklý Kireçtaþý Üyesi; beyaz, bej, renkli, masif kýrýntýlý, 
+boþluklu, killi kireçtaþý seviyelerinden meydana 
+gelmiþtir [5]. 
+
+2. MATERYAL VE METOD 
+2.1. Materyal 
+Bu araþtýrmada, Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, 
+Demirli, Ýnaç, Keçikale (üst) ocaklarý ve 
+Kýzýlýrmak dere agregalarý örnekleri kullanýlmýþtýr. 
+Deney örneklerinin elde edildiði taþ ocaklarý ve dere 
+agregasý sahalarý 
+Þekil 2.1’de görüldüðü gibi Kýrþehir-
+Kaman karayolunun 25. km’sinden baþlayýp Kýrþehir 
+ilinin güneydoðu istikametine doðru 45 km’lik 
+bir hat üzerinde bulunmaktadýr. 
+
+2.2. Metotlar 
+2.2.1. Deney örneklerinin hazýrlanmasý 
+Agrega numuneleri; “TS 707; Beton Agregalarýndan 
+Numune Alma ve Deney Numunesi Hazýrlama 
+Yöntemi standardýnda belirtilen esaslara uygun olarak 
+hazýrlanmýþtýr [7]. 
+
+Kýrmataþ numuneleri ile Kýzýlýrmak agrega numunesi 
+üzerinde; elek analizi, özgül aðýrlýk, su emme, gevþek 
+ve sýkýþýk birim aðýrlýk, donma çözülme, aþýnma, 
+sülfat miktarý, klorür miktarý, tane þekli ve alkali-agrega 
+reaksiyonu deneyleri Türk Standartlarý Enstitüsü 
+deney standartlarýna göre gerçekleþtirilmiþtir. Tablo 
+2.1’de agrega numunelerine iliþkin deney planý görülmektedir. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri 
+M. Arslan ve Ý. Demir 
+
+Þekil 2.1. Kýrþehir civarýndan numune alýnan taþ ocaklarýnýn yerlerini gösterir harita 
+2.2.2. Ýstatistik metotlar 
+Agrega numunelerinde gerçekleþtirilen on ayrý deney 
+türü için sekiz gruba ait istatistiki veriler elde edilmiþtir. 
+Gruplarýn özgül aðýrlýk, su emme ve birim aðýrlýk 
+deney türleri için ayrý ayrý olmak üzere ortalamalarý 
+arasýnda fark olup olmadýðý, varyans analizi tekniði 
+ile belirlenmiþ, fark bulunan gruplarda, farklýlýðýn 
+hangi gruplar arasýnda olduðunu belirlemek için Duncan 
+testi kullanýlmýþtýr. Çalýþmada yapýlan Duncan 
+testlerinde “gruplar arasýnda fark vardýr” kararýna 
+varýlýrken, yanýlmýþ olma olasýlýðý (anlamlýlýk düzeyi ) 
+. =0.05 olarak (1.tip hata ) kabul edilmiþtir [8]. 
+
+Ayrýca özgül aðýrlýk, su emme ve birim aðýrlýk deneylerinden 
+elde edilen verilerin daðýlýmlarýný ve gruplar 
+arasýnda daðýlým farklýlýklarýný göstermek amacýyla 
+kutu grafikleri çizilmiþtir. 
+
+Þekil 2.2’de verilen standart kutu grafiðinde; 
+
+• 
+Ortanca çizgisi ile merkezi eðilimler arasýndaki 
+iliþki (ortanca çizgisi kutunun ekseninde ise 
+daðýlýmýn normal, ortanca çizgisi 1. çeyrek 
+çizgisine daha yakýn ise daðlýmýn pozitif yönde 
+çarpýk, ortanca çizgisi 3 çeyrek çizgisine daha 
+yakýn ise daðlýmýn negatif yönde çarpýk olduðu), 
+
+• 
+Kutunun boyu ile verilerin yayýlma veya 
+deðiþkenliði (gözlemlerin %50’sinin deðerleri 
+kutu içerisinde yer almakta ise bu durum kutu 
+boyunun uzun olmasýný veya deðiþkenliðin fazla 
+oluðunu) ifade etmektedir [9]. 
+3. ARAÞTIRMA BULGULARI 
+3.1. Saha Özelikleri ve Rezerv 
+Seyfe, Demirli, Küçükbüklüm, Obruk, Ýnaç, Keçikale 
+(alt) ve Keçikale (üst) taþ ocaklarý kristalize kireçtaþýndan 
+oluþtuðu görülmüþtür. Kristalize kireçtaþýnýn 
+mineralojik olarak tamamen kalsitten ve çok az miktarda 
+da aragonit kristallerin oluþtuðu belirlenmiþtir. 
+Genel olarak deney numunelerinin ince kesitinde 
+kalsit›kuvars›serzit izlenmiþtir [10]. 
+
+Kýrþehir yöresi taþ ocaklarýnýn hesaplanmýþ tahmini 
+rezervleri þöyledir; Küçükbüklüm 1010000 m3, Demirli 
+2875000 m3, Ýnaç 1974000 m3, Keçikale (üst) 
+2624000 m3, Seyfe 512000 m3, Obruk 2660000 m3 ve 
+Keçikale (alt) 2125000 m3, olarak bulunmuþtur [10]. 
+
+Tablo 2.1. Agrega numunelerine iliþkin deney planý 
+
+Deney Metodu TS 707 TS 3526 TS 3526 TS 3529 TS 3655 TS 3694 TS 3674 TS 3732 TS 3814 TS 2817 
+Deney Türü Tane 
+daðýlýmý 
+Özgül 
+aðýrlýk Su emme Birim 
+aðýrlýk 
+Donma 
+çözülme 
+Aþýnma 
+dayanýmý 
+Sülfat 
+miktarý 
+Klorür 
+miktarý 
+Tane þekli 
+Alkali 
+agrega 
+reaksiyonu 
+Numune 
+þekli 
+Grup 
+Agrega 
+numunesi 
+(Adet) 
+Agrega 
+numunesi 
+(Adet) 
+Agrega 
+numunesi 
+(Adet) 
+Agrega 
+numunesi 
+(Adet) 
+Agrega 
+numunesi 
+(Adet) 
+Agrega 
+numunesi 
+(Adet) 
+Agrega 
+numunesi 
+(Adet) 
+Agrega 
+numunesi 
+(Adet) 
+Agrega 
+numunesi 
+(Adet) 
+Agrega 
+numunesi 
+(Adet) 
+Seyfe 3 30 30 30 3 3 3 3 3 3 
+Obruk 3 30 30 30 3 3 3 3 3 3 
+Keçikale (alt) 3 30 30 30 3 3 3 3 3 3 
+Küçükbüklüm 3 30 30 30 3 3 3 3 3 3 
+Demirli 3 30 30 30 3 3 3 3 3 3 
+Ýnaç 3 30 30 30 3 3 3 3 3 3 
+Keçikale (üst) 3 30 30 30 3 3 3 3 3 3 
+Kýzýlýrmak 3 30 30 30 3 3 3 3 3 3 
+Toplam 24 240 240 240 24 24 24 24 24 24 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+M. Arslan ve Ý. Demir Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri 
+Þekil 2.2. Standart bir kutu grafiðinin (boxplot) yapýsý ve özelikleri 
+
+3.2. Tane Daðýlýmý 
+Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, Demirli, 
+Ýnaç, Keçikale (üst) ve Kýzýlýrmak agrega numunelerine 
+ait tane daðýlýmý sonuçlarý 
+Tablo 3.1’de verilmiþtir. 
+
+3.3. Özgül Aðýrlýk 
+Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, Demirli, 
+Ýnaç, Keçikale (üst) ve Kýzýlýrmak ocaklarýna ait agrega 
+deney numuneleri üzerinde gerçekleþtirilen iri agrega 
+ve ince agrega özgül aðýrlýk deneylerine iliþkin 
+veriler elde edilmiþtir. Ýri agrega numunelerinin özgül 
+aðýrlýk deðerlerine iliþkin açýklayýcý istatistiksel bilgiler 
+Tablo 3.2’de verilmiþtir. Duncan çoklu karþýlaþtýrma 
+verilerine göre; Seyfe ile Küçükbüklüm ve Keçikale 
+(üst) ile Keçikale (alt) iri agrega (4-32mm) 
+numuneleri özgül aðýrlýklarý arasýndaki farklýlýklarýn 
+istatistiksel açýdan anlamlý olmadýðý diðer bütün numunelerin 
+özgül aðýrlýklarý arasýndaki istatiksel farkýn 
+.= 0.05 anlamlýlýk düzeyinde olduðu (Bu çalýþmada 
+yapýlan Duncan testlerinde “gruplar arasýnda fark vardýr” 
+kararýna varýlýrken, yanýlmýþ olma olasýlýðý an
+
+
+lamlýlýk düzeyi .= 0.05 olarak 1. tip hata olarak kabul 
+edilmiþtir) görülmüþtür (Tablo 3.3). 
+
+Seyfe, Demirli, Obruk, Keçikale (alt) Ýri agrega numunelerinin 
+özgül aðýrlýk veri daðýlýmýnýn pozitif 
+yönde çarpýk olduðu, Küçükbüklüm, Keçikale (üst) ve 
+Ýnaç veri daðýlýmýn negatif yönde çarpýk olduðu, 
+(Þekil 2.2’de gösterildiði gibi ortanca çizgisi kutu 
+ekseninde ise, daðýlým normal, ortanca çizgisi 1 çeyrek 
+çizgisine daha yakýn ise, daðýlýmýnýn pozitif yönünde 
+çarpýk olduðu, ortanca çizgisi 3 çeyrek çizgisine 
+daha yakýn ise, daðýlýmýnýn negatif yönde çarpýk 
+olduðu belirtilmektedir.) Kýzýlýrmak veri daðýlýmýnýn 
+ise normal olduðu görülmüþtür (Þekil 3.1). Betonda 
+kullanýlacak agreganýn özgül aðýrlýðýnýn 2.5 – 2.8 arasýnda 
+olmasý gerekmektedir [11]. Ýri agrega ortalama 
+özgül aðýrlýklarýnýn en büyüðünün 2.78 ile Ýnaç ocaðý 
+agregasýna en küçüðü ise 2.56 ile Seyfe ocaðý agregasýna 
+ait olduðu görülmektedir. Bu sonuca göre, gruplarýn 
+tamamýnýn özgül aðýrlýklarý bakýmýndan beton 
+agregasý olarak kullanýlabilir olduðu görülmektedir. 
+
+Tablo 3.1. Kullanýlan kýrmataþ agrega numunelerinin tane daðlým verileri 
+
+Elek % Elekten Geçen 
+Açýklýðý 
+(mm) Seyfe Obruk Keçikale 
+(alt) 
+Küçük- 
+büklüm Demirli Ýnaç Keçikale 
+(üst) Kýzýlýrmak 
+31.5 100.00 100.00 100.00 100.00 100.00 100.00 100.00 100.00 
+16 78.00 80.40 78.38 78.25 77.25 82.25 78.84 82.62 
+8 55.75 62.80 61.22 58.50 65.25 60.15 61.78 58.34 
+4 50.00 47.20 50.12 50.50 51.00 49.89 51.24 46.56 
+2 35.50 33.60 35.77 34.50 34.00 34.08 35.28 36.50 
+1 24.00 25.20 24.90 25.50 24.50 23.04 25.48 25.50 
+0.5 16.50 15.60 18.13 19.50 18.00 16.80 18.13 13.00 
+0.25 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri M. Arslan ve Ý. Demir
+Tablo 3.2. Ýri agrega (4-32mm) numunelerinin özgül aðýrlýklarýna iliþkin açýklayýcý istatistikler
+
+
+Ocak En Büyük En Küçük Standard Sapma Aritmetik Ortalama 
+Seyfe 2.61 2.51 0.316 2.56 
+Küçükbüklüm 2.65 2.45 0.560 2.57 
+Kýzýlýrmak 2.63 2.58 0.163 2.60 
+Demirli 2.69 2.56 0.394 2.62 
+Obruk 2.72 2.64 0.250 2.68 
+Keçikale (üst) 2.80 2.70 0.306 2.75 
+Keçikale (alt) 2.79 2.70 0.285 2.76 
+Ýnaç 2.85 2.73 0.343 2.78 
+
+Tablo 3.3. Ýri agrega (4-32mm) özgül aðýrlýk verilerinin Duncan testi sonuçlarý 
+
+Ocak . =0.05* 
+1 2 3 4 5 6 
+Seyfe 2.56 
+Küçükbüklüm 2.57 
+Kýzýlýrmak 2.60 
+Demirli 2.62 
+Obruk 2.68 
+Keçikale (üst) 2.75 
+Keçikale (alt) 2.76 
+Ýnaç 2.78 
+
+(*)Gruplar arasýnda .=0.05 anlamlýlýk düzeyinde farklýlýk vardýr. 
+
+Özgül Aðýrlýk 
+- Seyfe 
+- Küçükbüklüm 
+- Kýzýlýrmak
+- Demirli 
+- Obruk 
+- Keçikale (alt) 
+- Keçikale (üst)
+-Ýnaç 
+Þekil 3.1. Ýri agrega numuneleri özgül aðýrlýk verileri kutu grafiði 
+
+Ýnce agrega numunelerinin özgül aðýrlýk deðerlerine Obruk ve Keçikale (üst) ince agrega numunelerinin 
+iliþkin açýklayýcý istatistiksel bilgiler Tablo 3.4’te ve-özgül aðýrlýk veri daðýlýmýnýn pozitif yönde çarpýk 
+rilmiþtir. Duncan çoklu karþýlaþtýrma verilerine göre; olduðu, Demirli ve Keçikale (alt) veri daðýlýmýnýn ne-
+Seyfe ile Kýzýlýrmak numunelerinin Küçükbüklüm ile gatif yönde çarpýk olduðu, Ýnaç, Seyfe, Küçükbüklüm 
+Demirli numunelerinin, Obruk ile Keçikale (üst) ve ve Kýzýlýrmak veri daðýlýmýnýn ise normal olduðu 
+Keçikale (alt) numunelerinin, Keçikale (üst) ile görülmüþtür (Þekil 3.2). Gruplara ait numunelerin 
+Keçikale (alt) ve Ýnaç ince agrega (0-4mm) numunele-ince agrega ortalama özgül aðýrlýklarý 2.54-2.74 ara
+
+
+rinin özgül aðýrlýklarý arasýndaki farkýn istatistiksel sýnda yer almaktadýr. En küçük özgül aðýrlýðýn 2.54 
+
+açýdan anlamlý olmadýðý görülmüþtür (Tablo 3.5). ile Seyfe numunelerine ait, en büyük özgül aðýrlýðýn 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+M. Arslan ve Ý. Demir Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri
+Tablo 3.4. Ýnce agrega (0-4mm) numunelerinin özgül aðýrlýklarýna iliþkin açýklayýcý istatistikler 
+Ocak En Büyük En Küçük Standart Sapma Aritmetik Ortalama 
+Seyfe 2.65 2.41 0.703 2.54 
+Kýzýlýrmak 2.67 2.45 0.621 2.55 
+Küçükbüklüm 2.70 2.51 0.560 2.57 
+Demirli 2.66 2.52 0.360 2.59 
+Obruk 2.81 2.59 0.695 2.69 
+Keçikale (üst) 2.84 2.56 0.788 2.71 
+Keçikale (alt) 2.83 2.61 0.669 2.72 
+Ýnaç 2.85 2.61 0.697 2.74 
+
+Tablo 3.5. Ýnce agrega (0-4mm) özgül aðýrlýk verilerinin Duncan testi sonuçlarý 
+
+Ocak . = 0.05* 
+1 2 3 4 
+Seyfe 2.54 
+Kýzýlýrmak 2.55 
+Küçükbüklüm 2.57 
+Demirli 2.59 
+Obruk 2.69 
+Keçikale (üst) 2.71 2.71 
+Keçikale (alt) 2.72 2.72 
+Ýnaç 2.74 
+
+ (*) Gruplar arasýnda . = 0.05 anlamlýlýk düzeyinde farklýlýk vardýr. 
+
+Özgül Aðýrlýk 
+
+-Seyfe
+
+-Küçükbüklüm 
+
+-Kýzýlýrmak
+
+- Demirli 
+-Obruk 
+-Keçikale üst) 
+
+- Keçikale(alt) 
+-
+Ýnaç 
+Þekil 3.2. Ýnce agrega numuneleri özgül aðýrlýk verileri kutu grafiði 
+
+ise 2.74 ile Ýnaç numunelerine ait olduðu görülmüþtür. 
+Gruplara ait numunelerin tamamýnýn özgül aðýrlýklarý 
+bakýmýndan normal beton agregasý olarak kullanýlabilir 
+olduðu görülmektedir. 
+
+3.4. Su Emme Oraný 
+Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, Demirli, 
+Ýnaç, Keçikale (üst) ve Kýzýlýrmak sahalarýna ait iri 
+agrega numunelerinin su emme deðerlerine iliþkin 
+açýklayýcý 
+istatistiksel bilgiler Tablo 3.6’da verilmiþtir. 
+Duncan çoklu karþýlaþtýrmasýna göre; Keçikale (üst) 
+ile Keçikale (alt) iri agrega numuneleri arasýndaki 
+farklýlýðýn istatistiksel açýdan anlamlý olmadýðý diðer 
+
+bütün iri agrega numunelerinin su emme oraný arasýndaki 
+farkýn . = 0.05 anlamlýlýk düzeyinde olduðu 
+görülmüþtür (Tablo 3.7). 
+
+Ýnaç ve Seyfe numunelerinin su emme veri daðýlýmýnýn 
+pozitif yönde çarpýk olduðu, Obruk, Keçikale 
+(üst), Keçikale (alt), Küçükbüklüm, Demirli ve Kýzýlýrmak 
+veri daðýlýmýnýn normal olduðu görülmüþtür 
+(Þekil 3.3). Beton agregasýnda su emme oraný %1’den 
+az olmasý gerekmektedir [12]. Agrega numunelerinin 
+en küçük su emme oraný %0.59 ile Obruk numunelerine, 
+en büyük su emme oraný ise % 1.31 ile Seyfe numunelerine 
+ait olduðu, yine bu gruplara ait numunelerden 
+Kýzýlýrmak numunelerinin su emme oraný 
+%1.21 olarak standart deðer olan % 1’den büyük 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri M. Arslan ve Ý. Demir
+Tablo 3.6. Ýri agrega (4-32mm) numuneleri su emme oranlarýna iliþkin açýklayýcý istatistikler 
+
+
+Ocak En Büyük (%) En Küçük (%) Standart Sapma Aritmetik Ortalama (%) 
+Obruk 0.61 0.57 0.127 0.59 
+Ýnaç 0.72 0.61 0.315 0.67 
+Keçikale (üst) 0.82 0.70 0.322 0.76 
+Keçikale (alt) 0.84 0.77 0.217 0.80 
+Küçükbüklüm 0.94 0.78 0.492 0.86 
+Demirli 0.99 0.85 0.452 0.92 
+Kýzýlýrmak 1.4 1 0.117 1.21 
+Seyfe 1.6 1 0.186 1.31 
+
+Tablo 3.7. Ýri agrega (4-32mm) su emme oranlarýn Duncan testi sonuçlarý 
+
+Ocak 
+. =0.05* 
+1 2 3 4 5 6 7 
+Obruk 0.59 
+Ýnaç 0.67 
+Keçikale (üst) 0.76 
+Keçikale (alt) 0.80 
+Küçükbüklüm 0.86 
+Demirli 0.92 
+Kýzýlýrmak 1.21 
+Seyfe 1.31 
+
+(*)Gruplar arasýnda 
+. 
+= 0.05 anlamlýlýk düzeyinde farklýlýk vardýr. 
+
+Su emme oraný (%) 
+- Obruk 
+-Ýnaç 
+- Keçikale (üst) 
+- Keçikale (alt) 
+- Küçükbüklüm 
+- Demirli 
+- Kýzýlýrmak
+- Seyfe 
+Þekil 3.3. Ýri agrega numuneleri su emme oranlarýna iliþkin kutu grafiði 
+
+deðer aldýðý görülmektedir (Tablo 3.6). Ýri agrega su 
+emme oraný bakýmýndan Kýzýlýrmak ve Seyfe numuneleri 
+hariç diðer grup numunelerin su emme oraný 
+bakýmýndan beton agregasý olarak kullanýlabilir olduðu 
+görülmektedir. 
+
+Ýnce agrega numunelerinin su emme deðerlerine iliþkin 
+açýklayýcý 
+istatistiksel bilgiler Tablo 3.8’de verilmiþtir. 
+Duncan çoklu karþýlaþtýrmasýna göre; Obruk ile 
+Ýnaç numunelerinin, Keçikale (alt), Küçükbüklüm ve 
+Keçikale (üst) numunelerinin, Demirli ile Seyfe ve 
+Kýzýlýrmak numunelerinin su emme oranýnýn miktarý 
+arasýndaki farklýlýklarýn istatistiksel açýdan anlamlý 
+olmadýðý görülmüþtür (Tablo 3.9). 
+
+Ýnaç, Keçikale (alt) ve Keçikale (üst) numunelerinin 
+su emme veri daðýlýmýnýn pozitif yönde çarpýk olduðu, 
+Demirli ve Kýzýlýrmak numunelerinin ise negatif 
+yönde çarpýk olduðu, Obruk, Küçükbüklüm ve 
+Seyfe veri daðýlýmýnýn ise normal olduðu, görülmüþtür 
+(Þekil 3.4). Beton agregalarýnýn su emme oraný 
+%1’den az olmasý 
+gerekmektedir [12]. Gruplara ait 
+numunelerden Obruk %0.66, Ýnaç %0.70 ve Keçikale 
+(alt) %1 deðeri ile %1 standart deðerden küçük 
+olduðu görülmektedir. Diðer taraftan Küçükbüklüm 
+%1.03, Keçikale (üst) %1.04, Demirli %1.19, Seyfe 
+%1.20 ve Kýzýlýrmak %1.22 su emme oraný ile %1 
+olan standart deðerin üzerinde su emme oranýna sahip 
+olduðu görülmektedir. 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+M. Arslan ve Ý. Demir Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri
+Tablo 3.8. Ýnce agrega (0-4mm) su emme oranlarýna iliþkin açýklayýcý istatistikler 
+Ocak En Büyük (%) En Küçük (%) Standat Sapma Aritmetik Ortalama (%) 
+Obruk 0.70 0.60 0.310 0.66 
+Ýnaç 0.75 0.66 0.268 0.70 
+Keçikale (alt) 1.09 0.93 0.456 1.00 
+Küçükbüklüm 1.19 0.91 0.916 1.03 
+Keçikale (üst) 1.20 0.92 0.790 1.04 
+Demirli 1.40 0.92 0.013 1.19 
+Seyfe 1.39 1.00 0.011 1.20 
+Kýzýlýrmak 1.39 1.07 0.998 1.22 
+
+Tablo 3.9. Ýnce agrega (0-4mm) su emme oranlarýnýn 
+Duncan testi sonuçlarý 
+
+Ocak . =0.05* 
+1 2 3 
+Obruk 0.66 
+Ýnaç 0.70 
+Keçikale (alt) 1.00 
+Küçükbüklüm 1.03 
+Keçikale (üst) 1.04 
+Demirli 1.19 
+Seyfe 1.20 
+Kýzýlýrmak 1.22 
+
+(*) Gruplar arasýnda . = 0.05 anlamlýlýk düzeyinde 
+farklýlýk vardýr. 
+
+3.5. Gevþek ve Sýkýþýk Birim Aðýrlýk 
+Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, Demirli, 
+Ýnaç, Keçikale (üst) ve Kýzýlýrmak ocaklarý agrega 
+numuneleri üzerinde gerçekleþtirilen gevþek ve sýkýþýk 
+birim aðýrlýk verileri (gr/cm3) cinsinden elde edilmiþtir. 
+Gevþek birim aðýrlýk deðerlerine iliþkin açýklayýcý 
+istatistiksel bilgiler Tablo 3.10’da verilmiþtir. Duncan 
+çoklu karþýlaþtýrmasýna göre; Seyfe Kýzýlýrmak ve 
+Obruk numunelerinin, Keçikale (alt) ile Keçikale (üst) 
+numunelerinin gevþek birim aðýrlýklarý arasýndaki 
+farklýlýklarýn istatistiksel açýdan anlamlý olmadýðý, 
+diðer bütün numunelerin gevþek birim aðýrlýklarý arasýndaki 
+farkýn . =0.05 anlamlýlýk düzeyinde olduðu 
+görülmüþtür (Tablo 3.11). Demir numunelerinin gevþek 
+birim aðýrlýklarýnýn negatif yönde çarpýk olduðu, 
+
+Su emme oraný(%) 
+- Obruk 
+-Ýnaç
+
+- Keçikale (alt) 
+- Küçükbüklüm 
+- Keçikale (üst) 
+- Demirli
+-Seyfe 
+
+- Kýzýlýrmak 
+Þekil 3.4. Ýnce agrega su emme oranlarýna iliþkin kutu grafiði 
+Tablo 3.10. Agrega numunelerinin gevþek birim aðýrlýðý deðerlerine iliþkin açýklayýcý istatistikler 
+
+Ocak En Büyük 
+(gr/cm3) En Küçük (gr/cm3) Standart Sapma Aritmetik Ortalama (gr/cm3) 
+Demirli 1.295 1.207 0.255 1..246 
+Küçükbüklüm 1.363 1..236 0.422 1..305 
+Seyfe 1.380 1.265 0.400 1..320 
+Kýzýlýrmak 1.381 1..256 0.422 1..324 
+Obruk 1.385 1.275 0.324 1..328 
+Ýnaç 1.389 1324 0.196 1..354 
+Keçikale (alt) 1.472 1.373 0.268 1.418 
+Keçikale (üst) 1.478 1.381 0.268 1.422 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri M. Arslan ve Ý. Demir
+Tablo 3.11. Agrega numunelerinin gevþek birim aðýrlýk verilerinin Duncan testi sonuçlarý
+
+
+Ocak 
+. =0.05* 
+1 2 3 4 5 
+Demirli 1.246 
+Küçükbüklüm 1.305 
+Seyfe 1.320 
+Kýzýlýrmak 1.324 
+Obruk 1.328 
+Ýnaç 1.354 
+Keçikale (alt) 1.418 
+Keçikale (üst) 1.422 
+
+(*)Gruplar arasýnda . = 0.05 anlamlýlýk düzeyinde farklýlýk vardýr. 
+
+Gevþek birim aðýrlýðý 
+(gr/cm3) 
+
+- Demirli
+- Küçükbüklüm 
+- Seyfe 
+- Kýzýlýrmak
+- Obruk 
+-Ýnaç
+
+- Keçikale (alt) 
+- Keçikale (üst) 
+Þekil 3.5. Agrega numunelerinin gevþek birim aðýrlýk verileri kutu grafiði 
+
+Küçükbüklüm, Seyfe, Kýzýlýrmak, Obruk, Keçikal 
+(üst) ve Keçikale (alt) guruplarýn veri daðýlýmlarýnýn 
+normal olduðu görülmüþtür (Þekil 3.5). 
+
+Beton agrelarýnýn minimum birim aðýrlýðý 1.1 gr/cm3 
+olmasý gerekmektedir [13]. Gruplara ait numunelerin 
+en küçük gevþek birim aðýrlýðý 1.246 gr/cm3 ile Demirli 
+numunelerine ait, en büyük birim aðýrlýk ise 
+
+1.422 gr/cm3 ile Keçikale (üst)’e ait olduðu görülmektedir. 
+Bu sonuçlara göre; numunelerin tamamýnýn be-
+ton agregasý olarak kullanýmýnýn uygun olduðu görülmektedir. 
+Sýkýþýk birim aðýrlýk deðerlerine iliþkin açýklayýcý 
+istatistiksel bilgiler Tablo 3.12’de verilmiþtir. Duncan 
+çoklu karþýlaþtýrmasýna göre; Demirli ile Küçükbüklüm 
+numunelerinin, Seyfe ile Ýnaç numunelerinin, 
+
+Ýnaç ile Kýzýlýrmak numunelerinin, Kýzýlýrmak ile 
+Obruk numunelerinin, Keçikale (üst) ile Keçikale (alt) 
+numunelerinin istatistiksel açýdan anlamlý olmadýðý 
+görülmüþtür (Tablo 3.13). 
+
+Demirli, Küçükbüklüm, Seyfe, Ýnaç, Kýzýlýrmak, Obruk, 
+Keçikale (üst) ve Keçikale (alt) gruplarýn veri 
+daðýlýmlarýnýn normal olduðu görülmüþtür (Þekil 3.6). 
+Beton agregalarýnýn en küçük birim aðýrlýðý 1.1 gr/cm3 
+olmasý gerekmektedir [13]. Gruplara ait numunelerin 
+en küçük sýkýþýk birim aðýrlýðý 1.403 gr/cm3 ile Demirli 
+numunelerine ait, en büyük birim aðýrlýk ise 
+
+1.599 gr/cm3 ile Keçikale (alt)’a ait olduðu görülmektedir. 
+Bu verilere göre numunelerin tamamýnýn beton 
+agregasý olarak kullanýmýnýn uygun olduðu görülmektedir. 
+Tablo 3.12. Agrega numunelerinin sýkýþýk birim aðýrlýðý istatistiksel daðýlýmý 
+
+Ocak En Büyük (gr/cm3) En Küçük (gr/cm3) Standart Sapma Aritmetik Ortalama (gr/cm3) 
+Demirli 1.462 1.354 0.339 1.403 
+Küçükbüklüm 1.481 1.373 0.342 1.422 
+Seyfe 1.540 1.393 0.442 1.472 
+Ýnaç 1.570 1.393 0.596 1.481 
+Kýzýlýrmak 1.560 1.432 0.422 1.501 
+Obruk 1.579 1.442 0.434 1.511 
+Keçikale (üst) 1.668 1.521 0.442 1.590 
+Keçikale (alt) 1.672 1.530 0.439 1.599 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+M. Arslan ve Ý. Demir Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri 
+Tablo 3.13. Agrega numunelerinin sýkýþýk birim aðýrlýklarýnýn Duncan testi sonuçlarý 
+Ocak .= 0.05* 
+1 2 3 4 5 
+Demirli 1.403 
+Küçükbüklüm 1.422 
+Seyfe 1.472 
+Ýnaç 1.481 1.481 
+Kýzýlýrmak 1.501 1.501 
+Obruk 1.511 
+Keçikale (üst) 1.590 
+Keçikale (alt) 1.599 
+
+(*)Gruplar arasýnda .=0.05 anlamlýlýk düzeyinde farklýlýk vardýr. 
+
+Sýkýþýk birim aðýrlýðý (gr/cm3) 
+
+- Demirli 
+- Küçükbüklüm 
+- Seyfe 
+-Ýnaç 
+- Kýzýlýrmak
+- Obruk
+- Keçikale (üst)
+- Keçikale (alt) 
+Þekil 3.6. Agrega numunelerinin sýkýþýk birim aðýrlýk verileri kutu grafiði 
+
+3.6. Sodyum Sülfat Don Kaybý 
+Keçikale (üst), Obruk, Keçikale (alt), Ýnaç, Küçükbüklüm, 
+Demirli, Seyfe ve Kýzýlýrmak agregasýna ait 
+deney numunelerinin donma–çözülme kaybý Tablo 
+3.14’te görülmektedir. 
+
+Tablo 3.14’e göre; agreganýn en küçük aðýrlýk kaybý 
+
+0.48 ile Keçikale (üst) grubuna, en büyük kaybý ise 
+6.34 ile Kýzýlýrmak agrega grubuna ait olduðu görülmektedir. 
+TS 706 madde 1.2.5’de agregalarýn sodyum 
+sülfat çözeltisi ile aðýrlýk kaybý oranýnýn % 15’den az 
+olmasý gerektiði açýklanmaktadýr [14]. Gruplarýn tamamýnýn 
+standart sýnýr deðerin altýnda olduðu ve be-
+ton agregasý olarak kullanýlabilir olduðu görülmektedir. 
+3.7. Aþýnma Dayanýmý 
+Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, Demirli, 
+Ýnaç, Keçikale (üst) ve Kýzýlýrmak agregalarýnda gerçekleþtirilen 
+Los Angeles aþýnma dayaným oranlarýna 
+iliþkin veriler Tablo 3.14’te görülmektedir. 
+
+Tablo 3.14’e göre; en küçük aþýnma deðerinin %22.72 
+ile Kýzýlýrmak grubuna ait olduðu, en büyük deðerin 
+ise %54.9 ile Seyfe grubuna ait olduðu görülmektedir. 
+TS 706 madde 1.2.4’te belirtilen aþýnma aletinin 500 
+dönüþ sonrasý 
+en çok kayýp miktarý %50 olmasý gerekmektedir 
+[14]. Gruplara ait numunelerin aþýnmalarýnýn 
+Seyfe grubu hariç öngörülen standart deðerin altýnda 
+olduðu ve beton agregasý olarak kullanýlabileceði görülmektedir. 
+
+
+3.8. Sülfat Miktarý 
+Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, Demirli, 
+Ýnaç, Keçikale (üst) ve Kýzýlýrmak agrega gruplarýndaki 
+sülfat miktarlarýna iliþkin veriler Tablo 3.14’te 
+görülmektedir. 
+
+Tablo 3.14’e göre: Seyfe ve Demirli sahalarýndan elde 
+edilen numunelerde sülfat bulunmadýðý, Kýzýlýrmak 
+agregalarýnda %0.02, Küçükbüklüm, Ýnaç, Keçikale 
+(üst), Obruk ve Keçikale (alt) agregalarýnda %0.01 
+oranýnda sülfat bulunduðu görülmüþtür. TS 706 
+madde 1.2.6.4’e göre; sülfat miktarý aðýrlýkça %1’den 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri M. Arslan ve Ý. Demir
+Tablo 3.14. Kýrþehir yöresi agregalarýn fiziksel ve kimyasal özelikleri 
+
+
+ Agrega ocaðý 
+Özelikler 
+Küçükbüklüm Seyfe Demirli Ýnaç Obruk 
+Keçikale 
+(alt ) 
+Keçikale 
+(üst) 
+Kýzýlýrmak 
+Sýnýr 
+deðer 
+Ýri agrega özgül aðýrlýðý 2.57 2.56 2.62 2.78 2.68 2.76 2.75 2.60 2.40 
+Ýnce agrega özgül aðýrlýðý 2.57 2.54 2.59 274 2.69 2.72 2.71 2.55 2.40 
+Ýri agrega su emme (%) 0.86 1.31 0.92 0.62 0.59 0.80 0.76 2.21 1.00 
+Ýnce agrega su emme(%) 1.03 1.20 1.19 0.70 0.66 1.00 1.04 1.22 1.00 
+Gevþek birim aðýrlýk (gr/cm3) 1.305 1.320 1.246 1.354 1.328 1.418 1.422 1.324 1.177 
+Sýkýþýk birim aðýrlýk (gr/cm3) 1.422 1.472 1.403 1.481 1.511 1.590 1.599 1.501 1.177 
+Don kaybý (%) 2.6 3.9 3.1 2.1 0.45 0.53 0.42 6.34 15 
+Aþýnma oraný (%) 33.8 54.9 45.9 24 30.5 29.5 28.9 22.77 50 
+Sülfat miktarý (%) 0.01 0.00 0.00 0.01 0.01 0.01 0.01 0.02 1.0 
+Klolür miktarý (%) 0.00 0.00 0.02 0.03 0.02 0.01 0.00 0.01 0.2 
+Kusurlu tane oraný (%) 4.41 7.77 9.07 3.89 4.83 3.02 2.59 8.08 50 
+Rc alkali azalmasý 
+m mol/I 40 40 60 60 80 270 90 200 
+Sc çözünen silika 
+m mol/I 1.6 1.6 1.6 8.4 2.6 5.00 4.5 7.1 
+
+çok olmamasý gerektiði açýklanmaktadýr [14]. Gruplara 
+ait numunelerin sülfat miktarý öngörülen standart 
+deðerin altýnda ve sülfat miktarý bakýmýndan beton 
+agregasý olarak kullanýlabilir olduðu görülmektedir. 
+
+ 3.9. Klorür Miktarý 
+Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, Demirli, 
+Ýnaç, Keçikale (üst) ve Kýzýlýrmak agrega sahalarýndaki 
+klorür miktarlarýna iliþkin veriler Tablo 3.14’te 
+görülmektedir. 
+
+Küçükbüklüm, Keçikale (üst) ve Seyfe numunelerinde 
+klorür bulunmadýðý, Keçikale (alt) ve Kýzýlýrmak’ta 
+%0.01, Demirli ve Obruk’ta %0.02, Ýnaç’ta ise 
+%0.03 klorür bulunduðu görülmüþtür. TS 706 madde 
+1.2.6.5’e göre klorür miktarý aðýrlýkça %0.2’den fazla 
+olmamasý gerekmektedir [14]. Sahalardaki klorür 
+miktarý ön görülen standart deðerin altýnda ve klorür 
+miktarý bakýmýndan beton agregasý olarak kullanýlabilir 
+olduðu görülmektedir (Tablo 3.14). 
+
+3.10. Tane Þekli 
+Seyfe, Obruk, Keçikale (alt), Küçükbüklüm, Demirli, 
+Ýnaç, Keçikale (üst) ve Kýzýlýrmak sahalarýna ait 
+agrega tane þekillerine iliþkin veriler Tablo 3.14’te 
+görülmektedir. 
+
+Tablo 3.14’e göre; en küçük boyutun en büyük boyuta 
+oraný 1/3 olan ve belirleme aygýtýndan geçen hava 
+kurusu tanelerinin yüzdesinde en küçük deðer %2.59 
+ile Keçikale (üst)’e, en büyük deðer %9.07 ile Demirli 
+sahasýna ait olduðu görülmüþtür. Diðer taraftan, 
+Kýzýlýrmak sahasýnda bu deðerin %8.08 ile maksimum 
+deðere yakýn olduðu belirlenmiþtir. 
+
+TS 706’ya göre; tanelerin en büyük boyutunun en 
+küçük boyutuna oraný 3’ten büyük olan taneler þekilce 
+
+yassý ve uzun olmasý nedeniyle kusurlu tanelerdir. 
+Þekilce kusurlu taneler agrega içinde % 50’den fazla 
+olmamasý gerekmektedir (8mm tane büyüklüðündeki 
+agregalar için) [14]. Agrega numunelerinin tamamýnýn 
+tane þekli bakýmýndan standart verilere göre uygun ve 
+tane þekli bakýmýndan beton agregasý olarak kullanýlabilir 
+olduðu görülmektedir. 
+
+3.11. Alkali Agrega Reaktivitesi 
+Küçükbüklüm, Seyfe, Demirli, Keçikale (üst), Obruk, 
+Ýnaç, Keçikale (alt) ve Kýzýlýrmak agrega numuneleri 
+üzerinde gerçekleþtirilen alkali agrega reaktivitesi 
+deðerlerine iliþkin veriler Tablo 3.14’te görülmektedir. 
+
+
+Tablo 3.14’e göre; en küçük alkali azalmasý 40 
+mmol/l ile Küçükbüklüm ve Seyfe sahalarýna ait, en 
+büyük alkali azalmasý 270 mmol/l ile Keçikale (alt)’a 
+ait olduðu görülmektedir. Çözünen silika ise; en 
+küçük 1.6 mmol/l ile Küçükbüklüm, Seyfe ve Demirli 
+sahalarýna ait, en büyük 8.4 mmol/l ile Ýnaç sahasýna 
+ait olduðu görülmüþtür. TS 2517 madde 4’e göre; 
+alkali azalmasý (Rc) ve çözünmüþ silis (Sc) deðerleri 
+kullanýlarak TS 2517 madde 4 Þekil 2’deki grafik 
+yardýmý 
+ile söz konusu agreganýn yerinin saptanacaðý 
+belirtilmektedir [15]. Sahalarýn tamamý alkali azalmasý 
+bakýmýndan standartta belirtilen zararsýz agregalar (l 
+bölge içerisinde) bölümünde oluþtuðu görülmektedir. 
+
+4. SONUÇLAR VE TARTIÞMA 
+Kýrþehir yöresindeki Seyfe, Obruk, Keçikale (alt), 
+Küçükbüklüm, Demirli, Ýnaç, Keçikale (üst) sahalarýndan 
+elde edilen kýrmataþ agregalar ve Kýzýlýrmak 
+(Kesikköprü mevkii) dere agregasý gruplarý üzerinde 
+gerçekleþtirilen deney sonuçlarýna göre; özgül aðýrlýklarý 
+düþük olan agregalarýn, don oraný, aþýnma oraný 
+ve kusurlu tane oranýn yüksek olduðu görülmektedir. 
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+
+M. Arslan ve Ý. Demir 
+Diðer taraftan özgül aðýrlýklarý, gevþek ve sýkýþýk 
+birim aðýrlýklarý, donma ve çözülme dayanýmý, klorür 
+ve sülfat miktarý, tane þekli ve alkali azalmasý bakýmýndan 
+gruplarýn tamamýnýn standartlara uygun olduðu 
+görülmektedir. Fakat su emme oranlarý bakýmýndan 
+gruplardan Kýzýlýrmak, Demirli ve Seyfe’nin 
+standartlarýn üzerinde olduðu, diðer grup agregalarýn 
+su emme oranlarýnýn beton agregasý olarak standartlara 
+uygun olduðu, aþýnma dayanýmýnda ise Seyfe grubu 
+hariç diðer gruplarýn beton agregasý olarak standartlara 
+uygun olduðu görülmektedir. 
+
+Sonuç olarak; Küçükbüklüm, Obruk, Ýnaç, Keçikale 
+(alt), ve Keçikale (üst) kýrmataþ agregalarýnýn tane 
+daðýlýmý, özgül aðýrlýk, su emme, birim aðýrlýk, dona 
+dayanýklýlýk, aþýnma, sülfat miktarý, klorür miktarý, 
+tane þekli ve alkali-agrega reaktivitesi bakýmýndan be-
+ton yapýmýnda kullanýlabilir özelikleri taþýdýðý görülmüþtür. 
+Bunlar arasýndan Keçikale (alt) ve Keçikale 
+(üst) kýrmataþ agregalarýnýn gruplar arasýnda en iyi be-
+ton agregasý 
+özeliklerine sahip olduðu belirlenmiþtir. 
+
+KAYNAKLAR 
+
+1. 
+Erdoðan, Y.T., Beton, Ortadoðu Teknik Üniversitesi 
+, Ankara, 62-63, 2003. 
+2. 
+Postacýoðlu, B., Baðlayýcý maddeler, Agregalar, 
+Beton, Matbaa Teknisyenleri Basýmevi, Cilt II, 
+Ýstanbul, 202-209, 1987. 
+3. 
+Akman, M. S., “Beton Agregalarý, Fiziksel, 
+Petrografik ve Kimyasal Nitelikleri”, Beton Semineri, 
+6-10 Þubat 1984, Devlet Su Ýþleri Yayýný, 
+Ankara, 16, 1984. 
+4. 
+Kara, H., 1/100 000 Ölçekli Açýnsama Nitelikli 
+Türkiye Jeoloji Haritalarý Serisi Kýrþehir G18 
+Kýrþehir Yöresi Kýrmataþ Agregalarýnýn Mühendislik Özelikleri 
+
+Paftasý, Maden Tetkik Arama Genel Müdürlüðü, 
+Ankara, 37, 1, 1991. 
+
+5. 
+Kýrþehir Kireç Kalker Taþ Ocaðý Ç.E.D. Ön 
+Araþtýrma Raporu, Barkisan A.Þ. Kýrþehir, 7,8, 
+2000. 
+6. 
+Yavuz, E., Orta Anadolu Masifinin (Kýrþehir 
+Yöresi) Metamorfizma yaþý üzerine K/ Ar 
+Yöntemi ile Bir Ýnceleme, Hacettepe Üniversitesi, 
+Ankara, 19, 1981. 
+7. 
+TS 707, “Beton Agregalarýndan Numune Alma 
+ve Deney Numunesi Hazýrlama Yöntemi”, Türk 
+Standartlarý Ensititüsü, Ankara, 1980. 
+8. 
+Neter, J., vd., “Applied Statistics, 3th edition”, 
+Allyn and Baconinc., London, 1988. 
+9. 
+Norusis, M., J., “SPSS for Windows Base System 
+Users Gudie Relase 6.0”, SPSS Inc., Chicago, 
+1993. 
+10. 
+Demir, Ý., Kýrþehir Yöresi Kýrmataþ Agregalarýnýn 
+Mühendislik Özellikleri Doktora Tezi,
+Gazi Üniversitesi, Fen Bilimleri Enstitüsü, 73, 
+84, 2003. 
+11. 
+Erdoðan, Y. T., Betonu Oluþturan Malzemeler, 
+Agregalar, THBB, Ankara, 88-90, 1995. 
+12. 
+Þimþek, O., Yapý malzemesi-2, Ankara Üniversitesi 
+Basýmevi, Ankara, 51, 2000. 
+13. 
+Murdock, L. J., vd. Concrete Materials and 
+Practice, 6 th edition, A division of Hodder & 
+Slonghlon, London, 27, 1991. 
+14. 
+TS 706 EN 12620, “Beton Agregalarý”, Türk 
+Standartlarý Enstitüsü, Ankara, 2003. 
+15. 
+TS 2517, “Alkali Agrega Reaktivitesinin 
+Kimyasal Yolla Tayini”, Türk Standartlarý 
+Enstitüsü, Ankara, 1977. 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 20, No 3, 2005 
+
+

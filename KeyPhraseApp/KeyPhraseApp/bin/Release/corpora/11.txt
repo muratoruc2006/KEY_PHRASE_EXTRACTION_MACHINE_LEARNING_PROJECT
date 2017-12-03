@@ -1,0 +1,159 @@
+TEK ANAHTARLI ÝNVERTERDE BAZI KONTROL PALSLERÝNÝN SÝLÝNMESÝYLE GÜÇ KONTROLÜ 
+Selim ÖNCÜ ve B. Sami SAZAK 
+
+Elektrik Eðitimi Bölümü, Teknik Eðitim Fakültesi, Pamukkale Üniversitesi, Denizli, 
+soncu@pamukkale.edu.tr, sazak@pamukkale.edu.tr 
+(Geliþ/Received: 12.11.2004; Kabul/Accepted: 09.02.2006) 
+ÖZET 
+Basit, ucuz ve yüksek verimli olmasý sebebiyle tek anahtarlý yarý iletken güç dönüþtürücüler birçok güç elektroniði uygulamasýnda kullanýlmaktadýr. Bu çalýþmada mutfak tipi bir indüksiyon ýsýtýcý, gerilim beslemeli sýfýr gerilim anahtarlamalý tek anahtarlý seri rezonans inverter (SRÝ) devre kullanýlarak gerçekleþtirilmiþtir. Isýtýcýda yarý iletken anahtarýn iletimde kalma süresinin deðiþtirilmesiyle çýkýþ gücünün kontrolüne alternatif olarak, sürme sinyalindeki kontrol palslerinden bazýlarýnýn silinmesi yöntemiyle çýkýþgücü kontrolü saðlanmýþtýr. Böylece daha geniþ aralýkta güç kontrolü gerçekleþtirilmiþtir. Sistemin 62.5kHz anahtarlama frekansýnda farklýkontrol sinyalleri için deneysel çalýþma sonuçlarý alýnarak elektronik simülasyon sonuçlarý ile karþýlaþtýrýlmýþtýr. 
+
+1. GÝRÝÞgeçirilebilir [5]. Isýtma kabýve indüksiyon bobininin 
+manyetik etkileþimi neticesinde oluþan eþdeðer Elektromanyetik indüksiyon yoluyla ýsýtma hýzlý, endüktans ile kondansatör, rezonans þartlarýný oluþ­güvenli, verimli olmasý gibi üstünlükleri nedeniyle turarak devrede iki yönlü enerji akýþýný gerçekleþtirir. endüstriyel ýsýtma uygulamalarý için vazgeçilmez bir Ýndüksiyon ýsýtýcýda güç kontrolü yarý iletken tekniktir. Bir fazlý d.a.-a.a. güç dönüþtürücüler anahtarýn iletimde kalma süresinin deðiþtirilmesiyle kullanýlarak indüksiyon ýsýtma tekniði ile ev tipi kolayca saðlanabilir [6]. Ýletim süresinin ýsýtma uygulamalarý gerçekleþtirilmektedir. Köprü tipi azaltýlmasýyla çýkýþ gücü azaltýlýr. Ancak yüksek inverterler [1,2] ile akým beslemeli [3] veya gerilim verimli güç dönüþümünün gerçekleþtirilebilmesi için beslemeli [4] inverterler mutfak tipi indüksiyon ýsýtma iletim süresinin azaltýlabileceði bir alt sýnýr deðeri uygulamalarý için uygun anahtarlamalý tip güç mevcuttur [6,7]. Bu deðerin altýndaki güçlerde her kaynaklarýndandýr. anahtarlama periyodunda sýfýr gerilim koþullarý
+bozulmakta, anahtarlama kayýplarý artmaktadýr. Gerilim beslemeli tek anahtarlý inverter kullanýlarak mutfak tipi indüksiyon ýsýtma için gerekli olan orta Tek anahtarlý yarý iletken güç dönüþtürücülerin, frekanslý alternatif akým indüksiyon bobininden konvertörler [8], indüksiyon ýsýtma [5], elektronik 
+S. Öncü ve B. S. Sazak Tek AnahtarlýÝnverterde Bazý Kontrol Palslerinin Silinmesiyle Güç Kontrolü 
+balast [9], radyo vericileri [10] gibi kullaným alanlarýmevcuttur. Devrede anahtar uçlarýndaki gerilimin ve eðiminin anahtar iletime geçtiði anda sýfýr olmasýgerçekleþtirilebildiðinden yüksek verimli güç dönüþümü elde edilebilmektedir. 
+Bu çalýþmada tek anahtarlý SRÝ’in anahtarlama kayýplarýný önemli oranda arttýrmadan çýkýþ gücünün geniþ aralýkta kontrolü gerçekleþtirilmiþtir. Bu amaçla iletim ve yalýtýmda kalma süreleri eþit olan sürme sinyalinin bazý iletim palslerinin silinmesiyle çýkýþgücü azaltýlmýþtýr. Ayný yöntem ile daha önce akým beslemeli sýfýr gerilim anahtarlamalý E sýnýfýinverterde çýkýþ gücü kontrolü gerçekleþtirilmiþtir [10]. DE sýnýfý inverter [11] ve E sýnýfý doðrultuculu güç dönüþtürücülere de benzer çalýþmalar uygulanmýþtýr [12]. Bu uygulamalarda çýkýþ gücü yüksek frekanslarda yüksek verim ile kademe kademe deðiþtirilmektedir. Geçmiþ yýllarda daha çok yüksek frekanslý güç dönüþtürücülerde kullanýlmýþ olan kontrol yöntemi, bu çalýþmada sýfýr gerilim anahtarlama þartlarýnda çalýþan orta frekanslý gerilim beslemeli tek anahtarlý SRÝ devreye uygulanmýþtýr. Uygulamaya geçirilen yöntem, devrede sabit çalýþma frekansý ve sabit iletim süresinde geniþ aralýkta güç kontrolünü mümkün kýlmaktadýr. Ayný yöntem iletim ve yalýtým süreleri eþit olmayan sürme sinyalleri ile de uygulanabilir. 
+2. TEK ANAHTARLI ÝNVERTER ÝLE ÝNDÜKSÝYON ISITMA SÝSTEMÝ
+Þekil 1, yüklü indüksiyon bobini eþdeðer direnci, eþdeðer endüktansý ve rezonans kondansatöründen oluþmuþinverter devreyi göstermektedir. Devrede bir adet güç anahtarý bulunmaktadýr. Devrede kullanýlan eleman sayýsý az olduðundan karmaþýk olmayan, düþük maliyetli ve küçük hacimli bir güç dönüþtürücüdür. Kullanýlan yarý iletken anahtar toprak baðlantýlý olduðu için özel sürücü devrelere ihtiyaç duyulmadan da çalýþtýrýlabilir [9]. 
+Anahtar iletimde iken bobin doðru gerilim kaynaðýndan enerji depo eder. Kondansatör gerilimi sýfýrdýr. Anahtarýn yalýtýmý durumunda seri RLC devresi oluþur. Devredeki eþdeðer direnç nedeniyle enerji ýsýya dönüþür. Anahtar açýk devre olduðunda kondansatör gerilimi sýfýrdan tepe deðerine, tepe deðerinden tekrar sýfýra ulaþýr. Negatif deðerde osilasyonuna devam edeceði sýrada dahili diyot 
+
+Þekil 1. Tek anahtarlý seri rezonans inverter iletime geçerek kondansatör geriliminin sýfýr deðerinde kalmasýný saðlar. Bobin akýmý ve kondansatör gerilimine ait dalga þekilleri Þekil 2’de görüldüðü gibi olur. Anahtarýn durum deðiþtirdiði anlarda uçlarýndaki gerilimin sýfýr olmasý saðlanarak sýfýr gerilim anahtarlama gerçekleþtirilmiþ olur [13]. 
+
+Þekil 2. Bobin akýmý ve kondansatör gerilimi dalga þekilleri 
+Anahtarýn iletimi durumunda bobin akýmý zaman sabitesine ( .) ve baþlangýç akýmýna ( i(t )) baðlý
+o olarak Eþitlik 2’den bulunur; kondansatör gerilimi sýfýrdýr. 
+L
+.=  (1) Rt V .V .- .
+i(t)= +i(t)-e  (2) 
+o
+R .. R .. 
+v(t)=0 (3) 
+c
+Anahtar ve diyot yalýtýmda iken bobin akýmý ve kondansatör gerilimi denklemleri Eþitlik 4 ve 5’deki gibi olur. Io bobin akýmýnýn baþlangýç deðeri, B sabiti ise kararlý durum deðeridir. 
+-.t (A sin.t+A ) (4) 
+i(t)=e 1 d 2cos.dt+B 
+di(t) vc (t)=V-Ri(t)-L  (5) 
+dt
+1.r= 
+
+
+ (6) LC
+R.=  (7) 
+2L
+22
+
+.d= .r-.  (8) 
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+Tek AnahtarlýÝnverterde Bazý Kontrol Palslerinin Silinmesiyle Güç Kontrolü S. Öncü ve B. S. Sazak 
+V-RIo .Io
+A=+ (9) 
+1 L.d .d 
+A=Io (10) 
+2
+Diyot iletime geçtiðinde kondansatör gerilimi sýfýrdýr, bobin akýmý Eþitlik 11’den hesaplanabilir. 
+t 
+i(t)= V +.i(t )-V . e - .  (11) 
+R .. 3R ..
+v(t)=0 (12) 
+c
+3. KONTROL PALSLERÝNÝN SÝLÝNMESÝYLE GÜÇ KONTROLÜ 
+Önerilen yöntem ile anahtarlama frekansýnda ve anahtarýn iletim süresinde deðiþiklik yapýlmadan, sürme sinyalindeki iletim palslerinden bazýlarýnýn silinmesiyle güç kontrolü gerçekleþtirilmiþtir. Anahtarlamanýn yapýldýðý periyotlar normal periyot (N), anahtarlamanýn yapýlmadýðý periyotlar kontrol periyodu (K) olarak adlandýrýlabilir. Anahtarlamadaki kontrol periyodu sayýsý arttýkça çýkýþ gücü azalmaktadýr. Þekil 3, üç normal ve bir kontrol periyodu içeren sürme sinyali için bobin akýmý ve kondansatör gerilimi dalga þekillerini vermektedir. 
+Normal periyotta sýfýr gerilim anahtarlama þartlarýsaðlandýðýndan anahtarlama kayýplarý düþük düzeydedir. Kontrol periyodu sonunda sýfýr gerilim þartlarý bozulduðu için anahtarý koruyucu tedbir alýnmalýdýr. Bunun için iletim durumu söndürücü devre kullanýlabilir. Söndürme devresi anahtarýn yüksek di/dt oraný nedeniyle zarar görmesini engellemektedir. Silinen sürme palsleri bittiðinde 
+
+Þekil 3. Üç normal bir kontrol periyodu ile bobin akýmý ve kondansatör gerilimi 
+devre sýfýr gerilim anahtarlama ile çalýþmaya devam edecektir. Düþük güç uygulamalarýnda söndürücü devre kullanýlmadan da inverter çalýþtýrýlabilir. 
+Anahtar ve diyot açýk devre iken bobin akýmý ve kondansatör gerilimi sönümlü osilasyon dalga þekline sahip olur. Eþitlik 13, sistemin sýfýr gerilim þartlarýnda çalýþabilmesi için gerekli alt sýnýr deðeridir [5]. Bu deðer rezonans elemanlarýna, baþlangýç akýmýna ve çalýþma gerilimine baðlý olarak deðiþim gösterir. Sýnýr deðerinin altýnda kondansatör gerilimi sýfýra ulaþmaz ve diyot iletime geçemez. Bu sebepten sýfýr gerilim anahtarlama için rezonans elemanlarýna uygun çalýþma gerilimi seçilmelidir. 
+2.-.
+
+-. 
+Io 2(L/C) + V 2 .. e 2Q =V  (13) 
+.
+. .
+
+.=tan -1 .. Io 
+L/C ..  (14) 
+. V .
+.rLQ=  (15) 
+R
+Bununla birlikte sýfýr gerilim anahtarlama koþullarýnýn saðlanabilmesi için anahtarýn yarým rezonans periyodundan kýsa bir gecikme süresi (Td) kadar sonra iletime geçirilmesi gerekmektedir [14]. 
+.
+Td=  (16) 2.r
+
+4. SÝMÜLASYON VE UYGULAMA 
+60V kaynak geriliminde 62.5kHz anahtarlama frekansýnda tek anahtarlý SRÝ’li mutfak tipi indüksiyon ýsýtýcýdaki güç MOSFET’ine dört farklýsürme sinyali uygulanarak bobin akýmý ve kondansatör gerilimi dalga þekilleri alýnmýþtýr (R=2.9., L=28.5µH, C=82nF, S=IRFP460). Üretilen sinyallerde normal ve kontrol periyotlarýnýn sýralanýþþekli Tablo 1’de görülmektedir. Her dört anahtarlama periyodundaki silinen periyot sayýsýna göre 4N/0K, 3N/1K, 2N/2K, 1N/3K olarak isimlendirilen kontrol sinyalleri kare dalga üreteci, sayýsal mantýk kapýlarý(74LS04, 74LS08, 74LS32) ve JK Flip-flop entegreleri (74LS112) kullanýlarak oluþturulmuþtur. 
+Tablo 1. Anahtarlama sinyalinin sýralanýþý
+Sürme Sinyali  Anahtarlama Periyodu  
+4N/0K  N  N  N  N  
+3N/1K  N  N  N  K  
+2N/2K  N  N  K  K  
+1N/3K  N  K  K  K  
+
+
+S. Öncü ve B. S. Sazak Tek AnahtarlýÝnverterde Bazý Kontrol Palslerinin Silinmesiyle Güç Kontrolü 
+MOSFET’e uygulanan dört farklý sürme sinyali için ölçülen ve hesaplanan giriþ gücü, simülasyon sonuçlarýnadan elde edilmiþ anahtar kayýplarý ve inverter devrenin verim deðerleri Tablo 2’de gösterilmiþtir. Kontrol periyotlarýnýn ardýndan gelen normal periyot baþlangýcýndaki kondansatör akýmýnýn anahtara zarar verebilecek deðerlerin altýna indirilebilmesi için bobin, direnç ve diyottan oluþmuþiletim durumu söndürücü devre kullanýlmýþtýr. Güç yaklaþýk olarak %70 oranýnda azaltýlabilmektedir. Devrenin PSpice elektronik simülasyonunda giriþgücü 127.45W ile 42.95W arasýnda deðiþim göstermektedir. Ayný çalýþma frekansý ve rezonans elemanlarý için anahtarýn iletim süresinin kontrolü ile güç kontrolü sýfýr gerilim þartlarý bozulmadan gerçekleþtirilememektedir. 
+Tablo 2. Farklý kontrol sinyalleri için giriþ gücü ve 
+verim sonuçlarý 
+Sürme Sinyali  Ölçülen  Hesaplanan  Simülasyon  
+Giriþ Gücü (W)  Giriþ Gücü (W)  Anahtar Kayýplarý(W)  Verim (%)  
+4N/0K  143.4  132.04  5.89  94.4  
+3N/1K  119.4  102.39  8.53  90.6  
+2N/2K  82.2  71.08  5.12  90.6  
+1N/3K  43.8  40.88  3.65  88.2  
+
+Þekil 4, iki normal iki kontrol periyodu içeren sürme sinyalini, bobin akýmýný ve kondansatör gerilimini göstermektedir. Normal çalýþma periyotlarýnda anahtar uçlarýndaki gerilim, anahtar durum deðiþtirirken sýfýrdýr. Kontrol periyotlarý yük akýmýnýn 
+
+
+(b) Þekil 4. a) 2N/2K sürme sinyali (10V/div) ve bobin akýmý (10A/div), b) kondansatör gerilimi (50V/div) etkin deðerini azaltmaktadýr. Sürme sinyallerinin silinmesiyle çýkýþ gücü kademeli olarak ayarlanabilmektedir. 
+
+
+5. SONUÇ 
+Tek anahtarlý SRÝ’ler ile yüksek frekanslarda yüksek verimli güç dönüþümü gerçekleþtirilebilmektedir. Bu çalýþmada gerilim beslemeli tek anahtarlý SRÝ ile yapýlmýþmutfak tipi bir indüksiyon ýsýtýcýnýn güç kontrolü, anahtar iletim süresinin deðiþtirilerek yapýlmasý yerine bazý iletim palslerinin silinmesi yöntemiyle gerçekleþtirilmiþtir. Uygulamaya geçirilen yöntem sabit anahtarlama frekansýnda ve sabit iletim süresinde çalýþýlmasýna olanak tanýmaktadýr. Ýhtiyaç duyulan kontrol palsleri basit bir dijital devre aracýlýðýyla elde edilebileceði gibi, programlanabilir bir entegre ile de oluþturulabilir. Kullanýlan yöntem ile farklý uygulamalar için daha geniþ aralýkta güç kontrolü saðlanabilir. 
+KAYNAKLAR 
+1.	Llorente, S., Monterde, F., Burdio, J. M. ve Acero, J., “A Comparative Study Of Resonant Inverter Topologies Used In Induction Cookers”, 
+17th Annual IEEE Applied Power Electronics Conference And Expositions, Dallas, 1168­1174, 10-14 Mart 2002. 
+2.	
+Koertzen, W. H., Van Wyk, J. D. ve Ferreira, J. A., “Design Of The Half Bridge, Series Resonant Converter For Induction Cooking”, 26th Annual IEEE Power Electronics Specialists Conference, Atlanta, 729-735, 12-15 Haziran 1995. 
+
+3.	
+Leisten, J. M. ve Hobson, L., “Parallel Resonant Power Supply For Induction Cooking Using A GTO”, 4th International Conference On Power Electronics And Variable-Speed Drives, London, 224-230, 17-19 Temmuz 1990. 
+
+4.	
+Hirota, I., Omori, H. ve Nakaoka, M., “Practical Evaluations Of A ZVS-PFM Quasi Load-Resonant High-Frequency Inverter Using A New Generation IGBT For An Induction-Heated Cooking Appliance”, Int. J. Electronics, Cilt 80, No 2, 329-340, 1996. 
+
+5.	
+Po, W. ve Komatsu, W., “A Simple And Reliable Class E Inverter For Induction Heating Applications”, Int. J. Electronics, Cilt 84, No 2, 157-165, 1998. 
+
+6.	
+Chatterjee, K. ve Ramanarayanan, V., “Optimum Design Of Single Switch Resonant Induction Heater”, IEEE International Symposium On Industrial Electronics, 858-859, 25-29 Mayýs 1992. 
+
+7.	
+Chatterjee, K. ve Ramanrayanan, V., “A Comparative Study Of Inverter Circuits For Induction Heating”, International Power Engineering Conference, Singapore, 537-542, 18-19 Mart 1993. 
+
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 1, 2006 
+
+Tek AnahtarlýÝnverterde Bazý Kontrol Palslerinin Silinmesiyle Güç Kontrolü S. Öncü ve B. S. Sazak 
+8.	
+Song, J., Greenwood, A. ve Batarseh, I., “Analysis And Design Of Zero Voltage Switching Class E Converter”, Proceedings Of The 1996 IEEE SOUTHEASTCON Conference, Tampa, 545-550, 11-14 Nisan 1996. 
+
+9.	
+Ponce, M., Arau, J., Alonso, M. ve Rico-Secades, M., “Analysis Of The Class E Amplifier Used As Electronic Ballast With Dimming Capability For Photovoltaic Applications”, Int. J. Electronics, Cilt 88, No 7, 831-846, 2001. 
+
+
+10.Bin Yusoff, M., Sekiya, H., Lu, J. ve Yahagi, T., “Class E Inverter Using Thinned Out Method”, The 25th International Telecommunication Energy Conference, Yokohama, 713-720, 19-23 Ekim 2003. 
+11.	Sekiya, H., Matsuo, M., Koizumi, H., Suetsugu, T., Mori, S. ve Sasae, I., “New Control Method Of Class DE Inverter-Class DE Thinning-Out Inverter”, The 20th International Telecommunications Energy Conference, San Francisco, 237-242, 4-8 Ekim 1998. 
+12.	
+Koizumi, H., Sekiya, H., Matsuo, M. ve Mori, S., “ Resonant DC/DC Converter With Class DE Inverter And Class E Rectifier Using Thinned-Out Method”, IEEE Transaction On Circuits And Systems, Cilt 48, No 1, 123-126, 2001. 
+
+13.	
+Öncü, S. ve Sazak, B. S., “E SýnýfýÝnverterli Mutfak Tipi Bir Ýndüksiyon Isýtma Uygulamasý”, Sigma Mühendislik Ve Fen Bilimleri Dergisi, No 2, 68-73, 2004. 
+
+14.	
+Omori, H. ve Nakaoka, M., “New Single Ended Resonant Inverter Circuit And System For Induction Heating Cooking Apparatus”, Int. J. Electronics, Cilt 67, No 2, 277-296, 1989. 
+
+
+
+
+
+
